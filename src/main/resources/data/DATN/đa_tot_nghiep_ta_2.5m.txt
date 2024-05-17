@@ -1,0 +1,2411 @@
+
+1 
+
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+
+Tính toán thiết kế bàn nâng chữ X tải trọng 6 
+
+tấn 
+
+NGUYỄN TUẤN ANH 
+
+Anh.nt185971@sis.hust.edu.vn 
+
+Nhóm chuyên môn: Máy và tự động hóa thủy khí 
+
+ 
+
+ 
+
+Giảng viên hướng dẫn: TS. Trần Khánh Dương 
+
+  
+
+Giảng viên phản biện: TS. Trương Văn Thuận 
+
+ 
+
+Khoa: 
+
+ 
+
+Cơ khí động lực  
+
+Trường: Cơ khí 
+
+ 
+
+ 
+
+    Chữ ký của GVHD 
+
+ 
+Chữ ký của GVPB 
+
+Hà Nội, 8/2023 
+
+mailto:Anh.nt185971@sis.hust.edu.vn
+
+
+2 
+
+ 
+
+ 
+
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP 
+(NGÀNH MÁY VÀ TỰ ĐỘNG HÓA THỦY KHÍ) 
+
+1. Thông tin về sinh viên: 
+
+Họ và tên SV: Nguyễn Tuấn Anh Lớp: CKĐL-01 ĐT: 0974.296.256 
+
+Email (đại diện): nguyentuananhhust2000@gmail.com 
+
+Hệ đào tạo: Chính quy                             Chuyên ngành: Máy và tự động hóa thủy khí 
+
+Đồ án tốt nghiệp được thực hiện tại: Trường Cơ Khí – Bách Khoa Hà Nội 
+
+Thời gian làm ĐATN: Từ ngày 20/04/2023 
+
+ 
+
+2. Tên đề tài: Tính toán thiết kế bàn nâng chữ X tải trọng 6 tấn 
+
+ 
+
+Thông số Giá trị Đơn vị 
+
+Tải trọng nâng lớn nhất 6 Tấn 
+
+Hành trình nâng 1.8 m 
+
+Thời gian nâng hết hành trình 30 s 
+
+Thời gian hạ bàn 25-30 s 
+
+Dài 4 m 
+
+Rộng 2.4 m 
+
+Cao 0.6 m 
+
+ 
+
+Yêu cầu: 
+
+ 
+
+- Bản vẽ kết cấu bàn nâng (A0) 
+
+- Bản vẽ mạch thủy lực (A0) 
+
+- Bản vẽ trạm nguồn thủy lực (A0) 
+
+- Bản vẽ lắp xy lanh thủy lực (A0) 
+
+- Bản vẽ chế tạo quả piston (A0) 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hà Nội, ngày      tháng      năm 2023 
+
+Giáo viên hướng dẫn 
+
+ 
+
+  
+
+
+
+3 
+
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+TRƯỜNG CƠ KHÍ 
+
+ 
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA 
+
+VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+ 
+
+NHẬN XÉT ĐỒ ÁN TỐT NGHIỆP 
+
+(Dành cho Giáo viên hướng dẫn) 
+
+ 
+
+Tên đề tài: Tính toán thiết kế bàn nâng chữ X tải trọng 6 Tấn 
+
+Họ và tên SV: Nguyễn Tuấn Anh Lớp: CKĐL01            
+
+Chuyên ngành: Máy và tự động hóa thủy khí 
+
+Giáo viên hướng dẫn: TS. Trần Khánh Dương 
+
+ 
+
+NỘI DUNG NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN 
+
+I. Tác phong làm việc 
+
+…………………………………………………………………………………………………..…
+
+……………………………………………………………………………………………….. 
+
+II. Những kết quả đạt được 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………...... 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+ 
+
+III. Hạn chế của đồ án 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+ 
+
+IV.  Kết luận 
+
+Người hướng dẫn đề nghị cho phép sinh viên (không) được bảo vệ đề tài tốt nghiệp trước Hội 
+
+đồng chấm đồ án tốt nghiệp. 
+
+Đánh giá: ……… điểm 
+
+ 
+
+                                                                             
+
+Hà Nội, ngày       tháng       năm 20                                                                         
+
+Giáo viên hướng dẫn 
+
+(Ký và ghi rõ họ tên) 
+
+  
+
+
+
+4 
+
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+TRƯỜNG CƠ KHÍ 
+
+ 
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA 
+
+VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+ 
+
+NHẬN XÉT ĐỒ ÁN TỐT NGHIỆP 
+
+(Dành cho Giáo viên phản biện) 
+
+ 
+
+Tên đề tài: Tính toán thiết kế bàn nâng chữ X tải trọng 6 Tấn 
+
+ 
+
+Họ và tên SV: Nguyễn Tuấn Anh Lớp: CKĐL01           
+
+Chuyên ngành: Máy và tự động hóa thủy khí 
+
+ 
+
+NỘI DUNG NHẬN XÉT CỦA GIÁO VIÊN PHẢN BIỆN 
+
+ 
+
+I. Những kết quả đạt được  
+
+…………………………………………………………………………………………………… 
+
+………………………………………………………………………………………………………
+
+………………………………………………………………………………………………… 
+
+…………………………………………………………………………………………………… 
+
+…………………………………………………………………………………………………… 
+
+…………………………………………………………………………………………………… 
+
+II. Hạn chế của đồ án 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+………………………………………………………………………………………………….. 
+
+III. Kết luận 
+
+Người duyệt (không) đồng ý để sinh viên được bảo vệ đề tài tốt nghiệp trước Hội đồng chấm đồ 
+
+án tốt nghiệp. 
+
+Đánh giá: ……… điểm 
+
+ 
+
+ 
+
+ Hà Nội, ngày       tháng       năm 20 
+
+Giáo viên phản biện 
+
+(Ký và ghi rõ họ tên) 
+
+ 
+
+  
+
+
+
+5 
+
+ 
+
+Lời cảm ơn 
+
+ 
+
+    Sau khoảng thời gian học tập và nghiên cứu tại Bách Khoa Hà Nội em đã hoàn 
+
+thành đồ án tốt nghiệp với đề tài: “TÍNH TOÁN THIẾT KẾ BÀN NÂNG CHỮ X 
+
+TẢI TRỌNG 6 TẤN” dưới sự giúp đỡ, quan tâm của bạn bè và thầy cô. 
+
+   Trong quá trình tính toán và thiết kế em có tham khảo từ các giáo trình như: các 
+
+bài báo, tài liệu liên quan đến bàn nâng chữ X, …qua đó từng bước làm quen với 
+
+công việc thiết kế phục vụ nghề nghiệp của mình khi ra trường.  
+
+   Em xin chân thành cảm ơn TS. Trần Khánh Dương đã hướng dẫn tận tình và dành 
+
+nhiều sự đóng góp, giúp đỡ em trong suốt quá trình làm đồ án để em có thể hoàn 
+
+thành đồ án này. Cảm ơn các thầy cô trong nhóm chuyên môn: Máy và Tự động hóa 
+
+thủy khí đã hỗ trợ, giúp đỡ em trong xuyên suốt quá trình theo học tại trường. 
+
+   Em xin chân thành cảm ơn anh Sao và anh Quyết cùng toàn thể công ty Máy và tự 
+
+động thủy khí Minh Ngọc đã giúp đỡ em trong quá trình thực tập cũng như cho em 
+
+những lời khuyên bổ ích để em hoàn thành đồ án này. 
+
+   Cuối cùng em xin được bày tỏ sự biết ơn đến người thân, gia đình và bạn bè đã 
+
+ủng hộ, động viên cả về mặt vật chất cũng như tinh thần trong suốt quá trình em theo 
+
+học tại Bách Khoa Hà Nội. 
+
+   Trong quá trình thực hiện với kinh nghiệm, kiến thức và thời gian còn hạn chế nên 
+
+sẽ không thể tránh khỏi thiếu sót, do đó em mong nhận được sự góp ý thêm từ phía 
+
+quý thầy cô để đồ án của em có thể được hoàn thiện hơn nữa.  
+
+Em xin chân thành cảm ơn! 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+6 
+
+ 
+
+Mục Lục 
+
+  
+
+Lời cảm ơn ................................................................................................................ 5 
+
+Mục Lục .................................................................................................................... 6 
+
+CHƯƠNG 1. TỔNG QUAN VỀ BÀN NÂNG CHỮ X .......................................10 
+
+1.1. Tìm hiểu chung về bàn nâng ....................................................................10 
+
+1.1.1. Tìm hiểu chung ....................................................................................10 
+
+1.1.2. Phân loại bàn nâng ..............................................................................10 
+
+1.1.3. Tính ứng dụng của bàn nâng .............................................................13 
+
+CHƯƠNG 2: GIỚI THIỆU VỀ KẾT CẤU CƠ KHÍ VÀ QUÁ TRÌNH VẬN 
+
+HÀNH BÀN NÂNG ...............................................................................................14 
+
+2.1. Cấu tạo chung ...............................................................................................14 
+
+2.2. Vật liệu chế tạo .............................................................................................14 
+
+2.3. Tính toán động lực học bàn nâng chữ X ....................................................16 
+
+CHƯƠNG 3: SƠ ĐỒ MẠCH THỦY LỰC VÀ NGUYÊN LÝ HOẠT ĐỘNG 
+
+CỦA HỆ THỐNG ...................................................................................................20 
+
+3.1. Sơ đồ hệ thống thủy lực ............................................................................20 
+
+3.1.1. Sơ đồ mạch thủy lực ............................................................................20 
+
+3.1.2. Các phần tử trong hệ thống thủy lực ................................................22 
+
+3.1.3. Mạch role điều khiển bàn nâng .........................................................22 
+
+3.2. Nguyên lý làm việc của bàn nâng chữ X .................................................23 
+
+3.2.1. Qúa trình chạy không tải ......................................................................24 
+
+3.2.2. Qúa trình chạy có tải .............................................................................24 
+
+CHƯƠNG 4: TÍNH TOÁN THIẾT KẾ HỆ THỐNG THỦY LỰC ..................25 
+
+4.1. Tính toán thiết kế xy lanh nâng ...............................................................25 
+
+4.1.1. Tổng tải trọng 2 xy lanh tác động lên bàn nâng ...............................25 
+
+4.1.2. Tính toán các thông số làm việc của xy lanh ....................................25 
+
+4.1.3. Tính toán lưu lượng làm việc của hệ thống ......................................26 
+
+4.2. Tính toán lựa chọn đường ống .................................................................27 
+
+
+
+7 
+
+ 
+
+4.3. Tính toán lựa chọn bơm nguồn và động cơ điện ....................................30 
+
+4.3.1. Tính toán tổn thất áp suất trong hệ thống ........................................30 
+
+4.3.2. Tính toán lựa chọn bơm nguồn và động cơ điện ..............................32 
+
+4.4. Tính toán lựa chọn các loại van ...............................................................34 
+
+4.4.1. Tính toán lựa chọn van một chiều số 04 của hệ thống ....................34 
+
+4.4.2. Tính toán lựa chọn van phân phối 4/3 ..............................................36 
+
+4.4.3. Tính toán chọn van chống tụt tải số 09 .............................................38 
+
+4.4.4. Tính toán lựa chọn van tiết lưu 1 chiều số 10 ...................................39 
+
+4.4.5. Tính toán lựa chọn van an toàn số 06 cho hệ thống ........................41 
+
+4.5. Tính toán thiết kế trạm nguồn thủy lực ..................................................42 
+
+4.5.1. Tính toán thiết kế thùng dầu ..............................................................42 
+
+4.5.2. Chọn thước thăm dầu .........................................................................45 
+
+4.5.3. Tính toán lựa chọn bộ lọc ...................................................................46 
+
+4.5.4. Tính toàn lựa chọn đồng hồ áp suất ..................................................47 
+
+4.5.5. Chọn nắp thùng dầu thủy lực ............................................................48 
+
+4.5.6. Chọn khóa tay vặn ..............................................................................49 
+
+4.5.7. Van xả ( Van bi thủy lực/gạt tay 2 ngã) .............................................49 
+
+4.6. Chọn gioăng phớt cho xy lanh ..................................................................50 
+
+4.6.1. Phớt gạt bụi ..........................................................................................50 
+
+4.6.2. Phớt ben cần piston .............................................................................51 
+
+4.6.3. Vòng dẫn hướng cho cần xy lanh ......................................................52 
+
+4.6.4. Vòng dẫn hướng cho quả piston ........................................................53 
+
+4.6.5. Phớt ben cho quả piston .....................................................................54 
+
+4.6.6. Gioăng chỉ làm kín .................................................................................55 
+
+CHƯƠNG 5: KẾT LUẬN .....................................................................................56 
+
+TÀI LIỆU THAM KHẢO .....................................................................................57 
+
+ 
+
+
+
+8 
+
+ 
+
+DANH MỤC HÌNH ẢNH 
+
+Hình 1. 1: Bàn nâng chữ X ......................................................................................10 
+
+Hình 1. 2: Bàn nâng xe máy ..................................................................................... 11 
+
+Hình 1. 3: Bàn nâng ô tô .......................................................................................... 11 
+
+Hình 1. 4: Bàn nâng đặt âm .....................................................................................12 
+
+Hình 1. 5: Bàn nâng đặt dương ................................................................................13 
+
+Hình 2. 1: Kết cấu chung của một bàn nâng ............................................................14 
+
+Hình 2. 2: Kết cấu thép hình I ..................................................................................15 
+
+Hình 2. 3: Thép C45 chế tạo piston .........................................................................15 
+
+Hình 2. 4: Sơ đồ vật thể tự do cho vị trí ban đầu .....................................................16 
+
+Hình 2. 5: Lực tác dụng tại điểm E ..........................................................................17 
+
+Hình 2. 6: Sơ đồ vật thể tự do cho từng chân riêng biệt ..........................................17 
+
+Hình 2. 7: Hình chiếu của chân ................................................................................18 
+
+Hình 3. 1: Sơ đồ thủy lực của bàn nâng ...................................................................21 
+
+Hình 3. 2: Mạch role điều khiển bàn nâng ...............................................................23 
+
+Hình 4. 1: Kết cấu cơ khí của động cơ 3 pha vihem ................................................33 
+
+Hình 4. 2: Catalogue bơm parker .............................................................................34 
+
+Hình 4. 3: Van một chiều .........................................................................................35 
+
+Hình 4. 4: Mối quan hệ giữa lưu lượng và tổn thất áp suất khi qua van .................36 
+
+Hình 4. 5: Cấu tạo của van phân phối 4/3 ................................................................37 
+
+Hình 4. 6: Kết cấu cơ khí của van phân phối 4/3 .....................................................37 
+
+Hình 4. 7: Cấu tạo van chống tụt tải ........................................................................38 
+
+Hình 4. 8: Kết cấu cơ khí của van chống tụt ............................................................39 
+
+Hình 4. 9: Van tiết lưu 1 chiều .................................................................................40 
+
+Hình 4. 10: Kết cấu cơ khí van tiết lưu ....................................................................40 
+
+Hình 4. 11: Cấu tạo và kí hiệu của van an toàn số 06 ..............................................41 
+
+Hình 4. 12: Kết cấu cơ khí của van an toàn số 06 ...................................................42 
+
+Hình 4. 13: Các thông số của thước thăm dầu .........................................................45 
+
+Hình 4. 14: Các thông số lọc dầu đường hồi của hệ thống ......................................47 
+
+Hình 4. 15: Các thông số của đồng hồ áp suất .........................................................48 
+
+Hình 4. 16: Các thông số của nắp thùng dầu ...........................................................49 
+
+Hình 4. 17: Khóa tay ................................................................................................49 
+
+Hình 4. 18: Các thông số của van xả .......................................................................50 
+
+Hình 4. 19: Thông số của phớt gạt bụi .....................................................................51 
+
+Hình 4. 20: Các thông số phớt ben cần piston .........................................................52 
+
+Hình 4. 21: Các thông số vòng dẫn hướng cho cần xy lanh ....................................53 
+
+
+
+9 
+
+ 
+
+Hình 4. 22: Các thông số dẫn hướng quả piston ......................................................54 
+
+Hình 4. 23: Các thông số phớt ben quả piston .........................................................55 
+
+Hình 4. 24: Gioăng chỉ làm kín ................................................................................55 
+
+ 
+
+DANH MỤC BẢNG BIỂU 
+
+Bảng 3. 1: Các phần tử thủy lực trong mạch ...........................................................22 
+
+Bảng 3. 2: Bảng trạng thái làm việc của xy lanh thủy lực .......................................23 
+
+Bảng 4. 1: Bảng tổng hợp các thông số của xy lanh ................................................26 
+
+Bảng 4. 2: Tốc độ vận hành của bàn nâng ...............................................................26 
+
+Bảng 4. 3: Vận tốc trên các đường ống ....................................................................27 
+
+Bảng 4. 4: Ống thép đúc thủy lực (theo tiêu chuẩn DIN 2391) ...............................28 
+
+Bảng 4. 5: Ống mềm chịu áp cao của hãng Parker ..................................................29 
+
+Bảng 4. 6: Thông số của các loại dầu thủy lực được dùng trong hệ thống thủy lực
+
+ ..................................................................................................................................31 
+
+Bảng 4. 7: Bảng tổng hợp các thông số động cơ điện đã chọn ................................33 
+
+Bảng 4. 8: Bảng tổng hợp các thông số của bơm thủy lực đã chọn.........................34 
+
+Bảng 4. 9: Bảng tổng hợp các thông số của van một chiều .....................................36 
+
+Bảng 4. 10: Bảng tổng hợp các thông số của van phân phối 4/3 .............................38 
+
+Bảng 4. 11: Bảng tổng hợp các thông số của van chống tụt tải ...............................39 
+
+Bảng 4. 12: Bảng tổng hợp các thông số của van tiết lưu .......................................41 
+
+Bảng 4. 13: Bảng tổng hợp các thông số của van an toàn số 06 .............................42 
+
+Bảng 4. 14: Các thông số thiết kế của thùng dầu .....................................................45 
+
+  
+
+
+
+10 
+
+ 
+
+CHƯƠNG 1. TỔNG QUAN VỀ BÀN NÂNG CHỮ X 
+
+1.1. Tìm hiểu chung về bàn nâng 
+
+1.1.1. Tìm hiểu chung 
+
+ 
+
+Hình 1. 1: Bàn nâng chữ X 
+
+Bàn nâng thủy lực là thiết bị dung trong việc nâng hạ hang hóa, máy móc nguyên 
+
+khối. Thiết bị này sử dụng nguyên lý thủy lực (áp lực dầu) để hoạt động nâng hạ 
+
+các vật dụng, đồ vật nặng, giảm thiểu sức người và đẩy nhanh tiến độ công việc. 
+
+Ngày nay, bàn nâng thủy lực được sử dụng rất phổ biến trong các nhà máy xí 
+
+nghiệp bởi sự tối ưu trong thiết kế và tốc độ nâng hàng hóa nhanh chóng, hiệu quả 
+
+cao. Vì vậy, với những doanh nghiệp có nhu cầu nâng hạ nhiều, thường xuyên thì 
+
+việc đầu tưu bàn nâng thủy lực sẽ giúp tiết kiệm thời gian, chi phí và công sức. 
+
+Thiết bị phù hợp với các doanh nghiệp hoạt động trong những lĩnh vực: gia công 
+
+cơ khí, máy móc thiết bị nặng, doanh nhiệp làm về logictic và vận chuyển hàng 
+
+hóa với số lượng lớn cần thiết những dây chuyền với những máy móc hiện đại để 
+
+nâng hạ hang hóa từ nhà máy lên container giúp tiết kiệm thời gian và nâng cao giá 
+
+trị thặng dư. 
+
+1.1.2. Phân loại bàn nâng 
+
+a. Phân loại theo mục đích sử dụng 
+
+• Bàn nâng thủy lực xe máy 
+
+Là một trong những thiết bị được sử dụng rộng rãi ở các tiệm sửa xe máy, loại bàn 
+
+nâng này được thiết kế đặt âm nền nên không hề gây ra sự cản trở về không gian 
+
+của tiệm. Sử dụng bàn nâng này sẽ giúp thợ sửa xe dễ dàng thao tác, sửa chữa ở 
+
+
+
+11 
+
+ 
+
+những vị trí thấp của xe như hộp số, gầm xe, nhông xích, bánh xe,…Nhờ đó mà 
+
+hiệu quả cũng tăng lên rõ rệt. 
+
+ 
+
+Hình 1. 2: Bàn nâng xe máy 
+
+• Bàn nâng thủy lực nâng ô tô, máy chuyên dụng 
+
+Loại bàn nâng này được sử dụng nhiều trong các gara ô tô chuyên nghiệp hoặc các 
+
+nhà xưởng, kho bãi. Có thể sử dụng để đưa ô tô lên bãi đậu tầng 2, nâng cả xe hàng 
+
+để vận chuyển lên thùng xe tải, container,….giúp cho việc vận chuyển hàng hóa 
+
+được thuận tiện hơn. 
+
+ 
+
+Hình 1. 3: Bàn nâng ô tô 
+
+
+
+12 
+
+ 
+
+• Phân loại bàn nâng theo trọng lượng 
+
+Bàn nâng phân theo trọng lượng, cách phân loại này thường được sử dụng trong 
+
+nâng chuyển hàng hóa. Hiện nay có nhiều loại bàn nâng khối lượng từ thấp đến cao 
+
+như bàn nâng 150kg, 300kg, 1000kg, 2000kg, 6000kg,… Tùy vào mục đích sử 
+
+dụng mà có thể lựa chọn sao cho phù hợp với nhu cầu  
+
+b. Phân loại theo vị trí đặt bàn nâng được chia ra làm: 
+
+• Bàn nâng đặt âm: bàn nâng được đặt chìm xuống dưới mặt sàn. 
+
+Bàn nâng được đặt âm dưới mặt nền của xưởng, thường được đặt ở những vị trí cố 
+
+định và được tính toán trước. Khi hạ bàn xuống phải kín khít với mặt nền nên 
+
+không cần các cơ cấu để đưa xe lên xuống bàn nâng, loại này được dùng phổ biến 
+
+vì không làm hạn chế không gian khi lắp đặt 
+
+ 
+
+Hình 1. 4: Bàn nâng đặt âm 
+
+• Bàn nâng đặt dương: bàn nâng đặt trên mặt sàn 
+
+Bàn nâng được đặt trên mặt nền, dễ dàng di chuyển, được sử dụng trong các khu 
+
+vực có không gian rộng. Bàn nâng thường được thiết kế có thêm tấm lên xuống để 
+
+đưa xe lên và xuống khỏi bàn nâng. 
+
+
+
+13 
+
+ 
+
+ 
+
+Hình 1. 5: Bàn nâng đặt dương 
+
+c. Theo cách hoạt động của bàn nâng chia làm 
+
+• Bàn nâng hoạt động bằng thủy lực. 
+
+• Bàn nâng hoạt động bằng điện – thủy lực. 
+
+1.1.3. Tính ứng dụng của bàn nâng 
+
+Nhờ sự xuất hiện của bàn nâng mà đã giảm thiểu tối đa sức người cho việc thực 
+
+hiện công việc mất nhiều công sức. Thay vì việc sử dụng sức người để bê vác, 
+
+nâng hạ hàng hóa, thì nhờ sản phẩm này đã thay thế hoàn toàn cho sức người. 
+
+Người dùng chỉ việc thực hiện công việc những công việc đơn giản như điều 
+
+khiển, kéo đẩy vô cùng nhẹ nhàng, không mất công sức nhiều. 
+
+Theo đó, bàn nâng được sử dụng phổ biến trong các công việc như: 
+
+• Sử dụng xe bàn nâng thủy lực để di chuyển, nâng hạ các loại cây cảnh một 
+
+cách nhẹ nhàng, an toàn 
+
+• Sử dụng để có thể thực hiện công việc di chuyển các thùng, linh kiện, hàng 
+
+hóa tại các nhà máy, công xưởng 
+
+• Dùng để di chuyển đồ vật trong nhà, các thiết bị máy móc cần thiết, nâng hạ 
+
+xe trong các xưởng gara, kho bãi,… 
+
+ 
+
+ 
+
+ 
+
+
+
+14 
+
+ 
+
+CHƯƠNG 2: GIỚI THIỆU VỀ KẾT CẤU CƠ KHÍ VÀ QUÁ TRÌNH VẬN 
+
+HÀNH BÀN NÂNG 
+
+2.1. Cấu tạo chung 
+
+Bàn nâng thủy lực bao gồm 4 phần chính bao gồm: 
+
+o Hệ thống trạm nguồn thủy lực gồm có bơm thủy lực, van, dây dẫn 
+
+o Xy lanh thủy lực 
+
+o Phần cơ khí gồm có mặt sàn, phần cắt kéo và phần đế 
+
+o Phần điện gồm có tủ điện điều khiển 
+
+ 
+
+Hình 2. 1: Kết cấu chung của một bàn nâng 
+
+2.2. Vật liệu chế tạo 
+
+Vật liệu được chọn để thiết kế khung bàn nâng đó là thép hình I với mác thép là 
+
+CT3 của Nga sản xuất theo tiêu chuẩn GOT 380-88. Chọn thép hình chữ I với 
+
+thông số: I-120*64*4.8. Với các ưu điểm giữ cân bằng và chịu lực tốt, khả năng 
+
+chống ăn mòn và tuổi thọ cao, hoạt động trong môi trường khắc nghiệt nên thép 
+
+hình I được ứng dụng rất rộng rãi như: dùng làm đòn bẩy, đòn cân, đường ray và 
+
+cột dầm cho các máy móc công trình kết cấu thép,… 
+
+
+
+15 
+
+ 
+
+ 
+
+Hình 2. 2: Kết cấu thép hình I 
+
+Vật liệu dùng để chế tạo quả piston đó là thép C45. Thép C45 là một loại thép hợp 
+
+kim có hàm lượng cacbon cao, có độ cứng, độ kéo phù hợp với việc chế tạo khuôn 
+
+mẫu, ứng dụng trong cơ khí chết tạo máy, các chi tiết tải trọng và sự va đập mạnh 
+
+Sau đây là ưu điểm nổi bật của thép C45: 
+
+ 
+
+Hình 2. 3: Thép C45 chế tạo piston 
+
+- Do có độ bền kéo từ 570-690 Mpa, thép C45 có khả năng chống bào mòn, 
+
+chống oxy hóa tốt và chịu được tải trọng cao. 
+
+
+
+16 
+
+ 
+
+- Tính đàn hồi tốt, khả năng chịu được va đập mạnh của thép C45 cũng được 
+
+thể hiện bởi độ bền kéo và giới hạn chảy cao. 
+
+2.3. Tính toán động lực học bàn nâng chữ X 
+
+Các tính toán về lực, ứng xuất và phản lực của kết cấu đóng vai trò quan trọng nhất 
+
+trong thiết kế bởi vì kết quả của các tính toán này có độ chính xác của nó phụ 
+
+thuôc vào độ ổn định, an toàn và sự làm việc thành công của toàn bộ cơ cấu. bàn 
+
+nâng là một cơ cấu động, nhưng tốc độ tác động tương dối thấp nên có thể bỏ qua 
+
+thực tế này và có thể coi hệ thống này là tĩnh. Sau đó, chỉ cần xem xét hai vị trí, đó 
+
+là vị trí ban đầu khi máy nâng hạ xuống và chỉ nằm trên sàn, và vị trí cao nhất, khi 
+
+cơ cấu nâng vật nặng lên một khoảng cách cao nhất có thể. Ở hai vị trí này quan sát 
+
+được phản lực và nội lực cao nhất. Ở tất cả các vị trí khác, kết quả sẽ nằm giữa hai 
+
+vị trí được đề cập ở trên. 
+
+ 
+
+Hình 2. 4: Sơ đồ vật thể tự do cho vị trí ban đầu 
+
+Khi tác dụng lực lên giữa hoặc lên chung trên mặt bàn, nó truyền đều cho A và B 
+
+và các gối tựa. “Wleg” là tải do trọng lượng của các khung chữ X gây ra, nó cũng 
+
+tác động ở giữa, nhưng chỉ ở vị trí ban đầu. Ngoài ra, tổng các lực tới phải bằng 
+
+tổng các lực ra, có nghĩa là bất cứ điều gì đang xảy ra bên trong hệ thì tổng các 
+
+phản ứng Dy và Cy sẽ bằng trọng lượng. Khi đó phản lực thẳng đứng D và C bằng 
+
+một nửa trọng lượng của tải chính cộng với trọng lượng của khung chữ X. 
+
+𝐶𝑦 = 𝐷𝑦 =
+𝑤 +  𝑤𝑙𝑒𝑔 
+
+2
+ 
+
+
+
+17 
+
+ 
+
+ 
+
+Hình 2. 5: Lực tác dụng tại điểm E 
+
+Trên hình 2.5, ta có lực tác dụng lên xylanh là P, có thể thấy lực P này được tách 
+
+thành các thành phần Y và X 
+
+sin 𝛽=
+𝑃𝑦
+
+𝑃
+⇒ 𝑃𝑦 =  𝑃 sin 𝛽 
+
+cos 𝛽=
+𝑃𝑋
+
+𝑃
+⇒ 𝑃𝑥= Pcos 𝛽 
+
+Sau đó, sơ đồ vật thể tự do được vẽ cho từng chân riêng biệt trên hình 2.6, Fy và 
+
+Fx là thành phần của lực F tác dụng lên chốt, chưa biết giá trị và hướng của chúng 
+
+ 
+
+Hình 2. 6: Sơ đồ vật thể tự do cho từng chân riêng biệt 
+
+Ngoài ra, cần có hình chiếu của các kích thước của chân sẽ được gọi là “L”, kích 
+
+thước giữa E và O được gọi là “a”. Kết quả tương tự có thể được sử dụng để chiếu 
+
+CE, kích thước của nó là (𝐿 2⁄ +a) như thể hiện trên Hình 2.7 
+
+
+
+18 
+
+ 
+
+ 
+
+Hình 2. 7: Hình chiếu của chân 
+
+cos 𝛼 =
+𝐿𝑥
+
+𝐿
+⇒ 𝐿𝑥=Lcos 𝛼 
+
+sin 𝛼=
+𝐿𝑦
+
+𝐿
+⇒𝐿𝑦=Lsin 𝛼 
+
+Sau đó, sử dụng biểu đồ trên hình 2.6, cần xem xét sự cân bằng của các lực theo 
+
+phương Y và X và cũng là sự cân bằng của các moment tạo ra bởi tác dụng của các 
+
+lực. Nó chỉ được thực hiện cho AC, nhưng sẽ có kết quả giống hệt nhau trên DB vì 
+
+các kích thước giống nhau. 
+
++) ∑ 𝐹𝑜𝑥 =  0 ⇒𝑃𝑥-𝐹𝑥=0 ⇒𝑃𝑥  = 𝐹𝑥 
+
++)∑ 𝐹𝑜𝑦 = 0 ⇒ −
+𝑊
+
+2
++ 𝑃𝑦 − 𝐹𝑦 −
+
+𝑊𝑙𝑒𝑔
+
+2
++ 𝐶𝑦 = 0 ⇒ −
+
+𝑊
+
+2
++ 𝑃𝑦 − 𝐹𝑦 −
+
+𝑊𝑙𝑒𝑔
+
+2
++
+
+𝑊+𝑊𝑙𝑒𝑔
+
+2
+= 0 ⇒ 𝑃𝑦 = 𝐹𝑦  
+
+𝐹𝑦 = 𝑃 sin 𝛽 
+
+Quay quoanh điểm C, ∑ 𝑀𝑐 = 0 
+
+⇒ 
+𝑊𝑙𝑒𝑔
+
+2
+ .
+
+𝐿
+
+2
+cos 𝛼 +
+
+𝑊
+
+2
+L cos 𝛼 − P sin 𝛽 (
+
+𝐿
+
+2
++ 𝑎) cos 𝛼 + 𝐹𝑦
+
+𝐿
+
+2
+cos 𝛼 − P cos 𝛽 (
+
+𝐿
+
+2
++
+
+𝑎) sin 𝛼  + 𝐹𝑥
+𝐿
+
+2
+sin 𝛼 = 0 
+
+⟹
+𝑊𝑙𝑒𝑔
+
+2
+ .
+
+𝐿
+
+2
+cos 𝛼 +
+
+𝑊
+
+2
+𝐿 cos 𝛼 −  𝑃 sin 𝛽 (
+
+𝐿
+
+2
++ 𝑎) cos 𝛼 + 𝑃 sin 𝛽
+
+𝐿
+
+2
+cos 𝛼
+
+−  𝑃 cos 𝛽 (
+𝐿
+
+2
++ 𝑎) sin 𝛼 + 𝑃 cos 𝛽
+
+𝐿
+
+2
+sin 𝛼 = 0 
+
+
+
+19 
+
+ 
+
+⟹
+𝑊𝑙𝑒𝑔
+
+2
+ .
+
+𝐿
+
+2
+cos 𝛼 +
+
+𝑊
+
+2
+𝐿 cos 𝛼 + 𝑃(− sin 𝛽 (
+
+𝐿
+
+2
++ 𝑎) cos 𝛼 + sin 𝛽
+
+𝐿
+
+2
+cos 𝛼
+
+− cos 𝛽 (
+𝐿
+
+2
++ 𝑎) sin 𝛼 + cos 𝛽
+
+𝐿
+
+2
+sin 𝛼) = 0 
+
+⟹
+𝑊𝑙𝑒𝑔
+
+2
+ .
+
+𝐿
+
+2
+cos 𝛼 +
+
+𝑊
+
+2
+𝐿 cos 𝛼 + 𝑃(sin 𝛽 cos 𝛼 (−(
+
+𝐿
+
+2
++ 𝑎) +
+
+𝐿
+
+2
+)
+
++ cos 𝛽 sin 𝛼 (−(
+𝐿
+
+2
++ 𝑎) +
+
+𝐿
+
+2
+)) = 0 
+
+⟹
+𝑊𝑙𝑒𝑔
+
+2
+ .
+
+𝐿
+
+2
+cos 𝛼 +
+
+𝑊
+
+2
+𝐿 cos 𝛼 + 𝑃(− 2𝑎(sin 𝛽 cos 𝛼 + cos 𝛽 sin 𝛼)) = 0 
+
+Mà: sin 𝛽 cos 𝛼 + cos 𝛽 sin 𝛼 = sin(𝛼 + 𝛽) 
+
+→ 𝑃 =
+𝐿 cos 𝛼 (
+
+𝑊
+2
+
++
+𝑊𝑙𝑒𝑔
+
+4
+)
+
+2𝑎 sin(𝛼 + 𝛽)
+ 
+
+• Xy lanh ở vị trí thấp nhất: 
+
+Chiều dài thanh L=3679 mm, a=518 mm, vật nặng W=7100kg= 71000N, 
+
+Wleg=500kg= 5000N, α=80, β=17,60 
+
+Suy ra: P= 299096 (N) 
+
+• Xy lanh ở vị trí cao nhất: 
+
+α= 340, β=570 
+
+Suy ra: P= 108210 (N) 
+
+⇒ Vậy lực max nhất mà xy lanh cần có là 299096 N, ta tính thêm sai số do các lực 
+
+ma sát giữa các cơ cấu. Suy ra lực cần thiết của xy lanh Ta lấy tròn =300000 (N). 
+
+  
+
+
+
+20 
+
+ 
+
+CHƯƠNG 3: SƠ ĐỒ MẠCH THỦY LỰC VÀ NGUYÊN LÝ HOẠT ĐỘNG 
+
+CỦA HỆ THỐNG 
+
+3.1. Sơ đồ hệ thống thủy lực 
+
+3.1.1. Sơ đồ mạch thủy lực 
+
+Từ quá trình khảo sát kết cấu cơ khí và nguyên lý hoạt động của bàn nâng thủy lực 
+
+chữ X tải trọng 6 Tấn. Hệ thống thủy lực của máy cần đảm bảo: tốc độ nâng hạ bàn 
+
+vừa phải, êm, tuổi thọ dài và dễ dàng bảo dưỡng sửa chữa khi cần thiết. 
+
+Qua quá trình tìm hiểu và tham khảo hệ thống thủy lực của một số loại bàn nâng 
+
+trên thị trường, từ đó xây dựng được sơ đồ hệ thống mạch thủy lực cho bàn nâng 
+
+chữ X tải trọng 6 tấn hình 3.1 bên dưới. 
+
+Sơ đồ hệ thống thủy lực của bàn nâng chữ X tải trọng 6 Tấn bao gồm 3 phần chính: 
+
+• Bộ phận nguồn: bao gồm các thiết bị (bơm nguồn thủy lực, động cơ điện 3 
+
+pha, thùng chứa dầu, bộ lọc dầu hút, và các phụ kiện đi kèm thùng chứa dầu) 
+
+• Bộ phận các van điều khiển và các van điều chỉnh: bao gồm các thiết bị (van 
+
+on – off, van chống tụt, …) 
+
+• Bộ phận cơ cấu chấp hành: 2 xy lanh thủy lực 
+
+
+
+21 
+
+ 
+
+ 
+
+Hình 3. 1: Sơ đồ thủy lực của bàn nâng 
+
+
+
+22 
+
+ 
+
+3.1.2. Các phần tử trong hệ thống thủy lực 
+
+Bảng 3. 1: Các phần tử thủy lực trong mạch 
+
+STT Tên phần tử Chức năng 
+
+1 Thùng dầu -Dùng để lưu trữ và cung cấp dầu thủy lực cho hệ 
+
+thống. 
+
+-Trao đổi nhiệt giữa dầu thủy lực với môi trường 
+
+xung quanh giúp giảm nhiệt độ dầu thủy lực. 
+
+-Là nơi chứa cũng là nơi tiến hành lọc cặn, bụi bẩn 
+
+và không khí có trong dầu thủy lực. 
+
+2 Bơm bánh răng Cung cấp dầu cho hệ thống hoạt động. 
+
+3 Động cơ điện Dẫn động bơm thủy lực 
+
+4 Van một chiều Không cho dầu chảy ngược lại bơm đê bảo vệ bơm 
+
+thủy lực 
+
+5 Đồng hồ đo áp Xem được áp suất làm việc của hệ thống trong quá 
+
+trình làm việc 
+
+6 Van an toàn Đặt áp suất max của hệ thống (p max) 
+
+7 Lọc dầu hồi Lọc tất cả các hạt bẩn, mạt sắt được sinh ra từ hệ 
+
+thống (các van, các cơ cấu chấp hành, đường ống) 
+
+trước khi dầu được đưa về thùng chứa. 
+
+8 Van phân phối 
+
+4/3 
+
+Có tác dụng điều khiển hướng của dòng dầu giúp 
+
+vận hành các cơ cấu chấp hành theo chức năng cụ 
+
+thể 
+
+9 Van chống tụt 
+
+tải 
+
+Giúp cho xy lanh không bị trôi, tụt khi nâng tải nặng 
+
+ 
+
+10 Van tiết lưu 1 
+
+chiều 
+
+Dùng để điều khiển dòng lưu lượng giúp cho bàn 
+
+nâng khi hạ được êm dịu 
+
+11 Xy lanh thủy 
+
+lực 
+
+Tạo ra lực đẩy để đẩy khung bàn nâng nâng lên và hạ 
+
+xuống trong quá trình hoạt động 
+
+ 
+
+3.1.3. Mạch role điều khiển bàn nâng 
+
+
+
+23 
+
+ 
+
+ 
+
+Hình 3. 2: Mạch role điều khiển bàn nâng 
+
+3.2. Nguyên lý làm việc của bàn nâng chữ X 
+
+Trong sơ đồ hệ thống thủy lực của bàn nâng chữ X có hai xy lanh là hai cơ cấu 
+
+chấp hành. Hai xy lanh này giống nhau về kích thước đường kính cần xy lanh, 
+
+đường kính piston và hành trình xy lanh. Chúng được điều khiển chung 1 cụm van, 
+
+hai xy lanh sẽ di chuyển thò ra thụt vào cùng nhau và được đồng tốc bởi hệ thống 
+
+cơ khí khung bàn nâng. 
+
+Bảng 3. 2: Bảng trạng thái làm việc của xy lanh thủy lực 
+
+ 
+
+  
+
+
+
+24 
+
+ 
+
+3.2.1. Qúa trình chạy không tải 
+
+Khi hệ thống chưa làm việc, Động cơ (03) chạy kéo bơm bánh răng số (02), 
+
+bơm hút dầu từ thùng dầu (01) qua van một chiều số (04), tới của P của van phân 
+
+phối số (0) rồi qua cửa T, qua lọc hồi số (07) rồi về bể. Lúc này van số (07) đóng 
+
+vai trò giảm tải cho bơm thủy lực khi hệ thống chưa làm việc. Dầu chạy tuần hoàn 
+
+trên trạm, không tổn hao, không gây sinh nhiệt.   
+
+3.2.2. Qúa trình chạy có tải 
+
+a. Qúa trình nâng bàn 
+
+• Van phân phối số 08 được cấp điện, lúc này van làm việc ở vị trí bên trái 
+
+• Dầu được hút từ bơm qua van phân phối số 08 (P → A) qua van chống tụt 
+09 (A1→ B1) qua van tiết lưu 10 (A → B). Dòng dầu được chia đều thành 2 
+
+nhánh vào khoang không cần của 2 xy lanh đẩy cần 2 xy lanh đi ra, nâng bàn 
+
+lên. 
+
+• Đồng thời, đường tín hiệu X2 của van chống tụt số 09 nhận tín hiệu dòng 
+dầu có áp kích mở van một chiều, dầu trong khoang có cần của xy lanh qua 
+
+van chống tụt số 09 (B2 → A2), qua van phân phối 08 (B → T) về bể. 
+
+b. Qúa trình giữ tải( chống tụt) 
+
+Van phân phối 08 mất tín hiệu điện lò xo đẩy van về vị trí chính giữa, dòng 
+
+dầu từ bơm chảy về thùng dầu ( P →T), không còn dầu cấp lên xy lanh cần xy lanh 
+
+dừng lại. Van chống tụt 09 có chức năng chống cho xy lanh bị tụt. Để mở khóa van 
+
+chống tụt cần phải có tín hiệu của dòng dầu có áp lực. 
+
+c. Qúa trình hạ bàn 
+
+• Qúa trình hạ bàn dùng chính tải trọng bản thân của bàn và tải trọng trên mặt 
+bàn 
+
+• Van phân phối số 08 được cấp điện, lúc này van làm việc ở vị trí bên phải. 
+Cung cấp dòng dầu có áp cho đường tín hiệu X1 kích mở van chống tụt số 
+
+09  
+
+• Dầu trong khoang không cần của xy lanh qua van tiết lưu số 10 (B → A), 
+qua van chống tụt số 09 (B1 → A1), qua van phân phối 08 (A→T) về bể. 
+
+• Cụm van chống tụt 09 và van tiết lưu 10 có tác dụng giúp cho bàn nâng hạ 
+xuống từ từ không gây nguy hiểm.  
+
+  
+
+
+
+25 
+
+ 
+
+CHƯƠNG 4: TÍNH TOÁN THIẾT KẾ HỆ THỐNG THỦY LỰC 
+
+4.1. Tính toán thiết kế xy lanh nâng 
+4.1.1. Tổng tải trọng 2 xy lanh tác động lên bàn nâng 
+
+Dựa theo phần tính toán thiết kế động học bàn nâng chữ X đã tính ở trên, ta có 
+
+tổng tải trọng 2 xy lanh tác động lên bàn nâng: 
+
+𝐹𝑥𝑙 = 300 (kN) 
+
+Tải trọng do 1 xy lanh tác động lên bàn nâng: 
+
+𝐹1𝑥𝑙 =
+𝐹𝑥𝑙
+2
+
+= 150 (kN) 
+
+Chọn áp suất làm việc của xy lanh: p = 210 (bar) 
+
+4.1.2. Tính toán các thông số làm việc của xy lanh 
+
+Đường kính trong của xy lanh: 
+
+𝐷 =  √
+4𝐹1𝑥𝑙
+
+𝑝𝜋
+ 
+
+Trong đó: 
+
+Kí hiệu Tên Gía trị Đơn vị 
+
+𝐹1𝑥𝑙 Tải trọng trên mỗi xy lanh 150 kN 
+p Áp suất làm việc 210 bar 
+
+ 
+
+Do đó: 𝐷𝑠𝑏 = 0,95 (𝑚)  =  95 (𝑚𝑚) 
+
+Theo bảng catalog của hãng Rexroth, ta chọn đường kính xy lanh là:  
+
+D = 100 (mm) 
+
+Chọn đường kính cần piston là: d = 70 (mm) 
+
+Hành trình của xy lanh bằng: 490 (mm) 
+
+Tính lại áp suất làm việc của xy lanh: 
+
+𝑝𝑥𝑙 =
+4. 𝐹1𝑥𝑙
+𝜋. 𝐷2
+
+= 191(𝑏𝑎𝑟) 
+
+ 
+
+ 
+
+
+
+26 
+
+ 
+
+Bảng 4. 1: Bảng tổng hợp các thông số của xy lanh 
+
+ 
+
+ 
+
+Xy lanh 
+
+1 𝐹1 𝑥𝑙 Tải trọng trên mỗi xy lanh 150 kN 
+
+2 p Áp suất làm việc 191 Bar 
+
+3 D Đường kính nòng xy lanh 100 Mm 
+
+4 d Đường kính cần 70 Mm 
+
+4.1.3. Tính toán lưu lượng làm việc của hệ thống 
+
+Tốc độ vận hành của bàn nâng 
+
+Bảng 4. 2: Tốc độ vận hành của bàn nâng 
+
+Tốc độ m/s Cm/s 
+
+Tốc độ nâng bàn(30s) 0,06 6 
+
+Tốc độ nâng xy lanh 0,0163 1,63 
+
+Tốc độ hạ bàn(25s) 0,072 7,2 
+
+Tốc độ hạ xy lanh 0,0196 1,96 
+
+ 
+
+Trường hợp 1: Hành trình nâng bàn 
+
+Lưu lượng cần cấp vào khoang không cần của xy lanh là: 𝑄𝑛𝑏 = 𝐴. 𝑣𝑛𝑏 
+
+Trong đó: 𝐴 =
+𝜋𝐷2
+
+4
+ 
+
+Thay số vào ta được: 𝑄𝑛𝑏 = 0,000128(𝑚
+3/𝑠) = 7,68(𝑙/𝑝ℎ) 
+
+Trường hợp 2: Hành trình hạ bàn 
+
+Lưu lượng cần cấp vào khoang có cần của xy lanh là: : 𝑄ℎ𝑏 = 𝐴𝑐 . 𝑣ℎ𝑏 
+
+Trong đó: 𝐴𝑐 =
+𝜋(𝐷2−𝑑2)
+
+4
+ 
+
+Thay số vào ta được: 𝑄ℎ𝑏 = 0,000079(𝑚
+3/𝑠) = 4,71 (𝑙/𝑝ℎ) 
+
+
+
+27 
+
+ 
+
+Nhận xét: Do quá trình hạ bàn cần lưu lượng bao nhiêu thì van phân phối đều có 
+
+thể đáp ứng, nên ta chỉ cần đảm bảo hành trình xy lanh đi ra bơm cung cấp đủ lưu 
+
+lượng là được. Chính vì thế ta sẽ dùng 𝑄𝑛𝑏 để tính toán. 
+
+Ở đây hệ thống sử dụng 2 xy lanh hoạt động đồng thời và có kích thước giống 
+
+nhau, do đó: Lưu lượng lớn nhất cần cấp cho quá trình hoạt động của xy lanh sẽ 
+
+tính bằng: 
+
+𝑄𝑚𝑎𝑥 = 2. 𝑄𝑛𝑏 
+
+Ngoài ra ta cần têm 10% 𝑄𝑚𝑎𝑥 lên để bù cho những tổn thất lưu lượng: 
+
+𝑄𝑏 (𝑦𝑐) = 2. 𝑄𝑛𝑏  +  0,1. (2. 𝑄𝑛𝑏) 
+
+Lưu lượng bơm cần cung cấp cho hệ thống: 
+
+𝑄𝑏 (𝑦𝑐) =  0,000282 (𝑚3/𝑠) = 16,896 (l/ph) 
+
+Chúng ta sẽ sử dụng lưu lượng này để tính toán chọn bơm thủy lực. 
+
+4.2. Tính toán lựa chọn đường ống 
+
+Thông thường khi chọn đường ống ta cần phải đảm bảo tổn thất qua đường ống là 
+
+nhỏ nhất và phải đảm bảo chỉ tiêu về kinh tế. 
+
+Nếu đường ống quá nhỏ thì tổn thất sẽ lớn còn nếu đường ống quá lớn thì tổn thất ít 
+
+nhưng giá thành lại cao, do đó ta cần phải lựa chọn đường ống sao cho phù hợp. 
+
+Thực tế cho thấy, chọn đường ống phụ thuộc vào vận tốc và áp suất. Thông thường 
+
+ta chọn đường ống theo vận tốc, để tính toán đường ống ta chọn vận tốc như trong 
+
+bảng 4.3 
+
+Bảng 4. 3: Vận tốc trên các đường ống 
+
+Đường 
+
+ống 
+
+  
+
+STT Kí hiệu Tên Giá trị Đơn vị 
+
+1 Vhút Vhút < 2m/s. 1,5 m/s 
+
+2 Vđẩy Vđẩy < 6 m/s. 4 m/s 
+
+3 Vxả Vxả < 4 m/s. 2,5 m/s 
+
+Theo tiêu chuẩn DIN 
+
+Đường kính của ống được tính theo công thức: 𝑑 = √
+4𝑄
+
+𝜋.𝑣
+ 
+
+Kí hiệu Tên Đơn vị 
+
+Q Lưu lượng chuyển qua đường ống m^3/s 
+
+
+
+28 
+
+ 
+
+v Vận tốc dòng chất lỏng m/s 
+
+Lưu lượng ở đây chính là lưu lượng bơm cung cấp cho hệ thống. Bơm nguồn cung 
+
+cấp lưu lượng cho xy lanh hoạt động nên lưu lượng yêu cầu của bơm là lưu lượng 
+
+cung cấp cho xy lanh có lưu lượng lớn nhất thêm vào khoảng 10% để bù cho những 
+
+tổn thất lưu lượng.  
+
+Ở đây hệ thống sử dụng hai xy lanh hoạt động đồng thời và có kích thước giống 
+
+nhau nên lưu lượng bơm sẽ tính theo lưu lượng lớn nhất cần cấp cho quá trình hoạt 
+
+động của hai xy lanh. 
+
+Sau khi tính toán được đường kính sơ bộ của ống: 
+
+• Đối với ống cứng: ta chọn ống thép đúc thủy lực tra bảng kích thước ống 
+
+thép đúc để chọn (theo tiêu chuẩn DIN 2391) 
+
+• Đối với ống mềm: ta chọn loại 4 lớp chịu áp cao của hãng Parker, tra theo 
+
+catalogue của hãng để chọn. 
+
+Bảng 4. 4: Ống thép đúc thủy lực (theo tiêu chuẩn DIN 2391) 
+
+ 
+
+ 
+
+
+
+29 
+
+ 
+
+ 
+
+Bảng 4. 5: Ống mềm chịu áp cao của hãng Parker 
+
+ 
+
+ 
+
+Phần trước ta đã tính toán được lưu lượng mà bơm yêu cầu là: 
+
+Lưu lượng m^3/s l/ph 
+
+Qb(yc) 0,000282 16,896 
+
+Do đó ta tính được đường kính của các đường ống như sau: 
+
+a. Tính toán đường ống hút 
+
+- Đường kính trong của ống hút bơm: 𝑑ℎ = √
+4 𝑄
+
+𝜋.𝑣
+ 
+
+- Ta có: 
+
+V hút 1,5 m/s 
+
+Qh= Qsb 0,000282 m^3/s 
+
+ 
+
+- Thay số vào ta được: 𝑑ℎ = 15,47 (𝑚𝑚) 
+
+Tra theo bảng kích thước ống thép đúc ta được: 𝑑ℎ = 18 (𝑚𝑚) 
+
+
+
+30 
+
+ 
+
+b. Tính toán đường ống đẩy 
+
+- Đường kính trong của ống đẩy bơm: 𝑑𝑑 = √
+4 𝑄
+
+𝜋.𝑣
+ 
+
+- Ta có: 
+
+V đẩy 4 m/s 
+
+Qđ 0,000297 m^3/s 
+
+- Do trên đường ống đẩy có tổn thất nên: 
+
+Qđ = Qsb/0,95 (Lấy hiệu suất 95%) 
+
+Thay số vào ta được: 𝑑𝑑 = 9,72 (mm) 
+
+Tra bảng kích thước ống mềm ta chọn được ống 1/2 có: 𝑑𝑑 = 12,5 (mm) 
+
+* Ống mềm ta chọn loại ống 4 lớp chịu áp cao của hãng Parker  
+
+* Ống cứng ta chọn ống thép đúc thủy lực (theo tiêu chuẩn DIN 2391) 
+
+c. Tính toán đường ống hồi 
+
+Đường kính trong của ống hồi bơm: max
+4
+
+.
+h
+
+Q
+d
+
+v
+=  
+
+Ta có: 
+
+V đẩy 2,5 m/s 
+
+Qh = Qsb 0,000282 m^3/s 
+
+ 
+
+Thay số vào ta được: 𝑑ℎ =  11,98 (𝑚𝑚) 
+
+Tra theo bảng kích thước ống thép đúc ta được: 𝑑ℎ =  18 (𝑚𝑚) 
+
+4.3. Tính toán lựa chọn bơm nguồn và động cơ điện 
+
+4.3.1. Tính toán tổn thất áp suất trong hệ thống 
+
+Tổn thất áp suất trên toàn hệ thống: ∆𝑃 = ∆𝑃1 + ∆𝑃2 + ∆𝑃3 
+
+
+
+31 
+
+ 
+
+a. Xác định tổn thất qua các thiết bị (van, lọc dầu, bộ làm mát)   
+
+Tra trong đồ thị của catalog ta có tổn thất trên các thiết bị: 
+
+STT Tên phần tử Tổn thất (bar) 
+
+1 Tổn thất qua các van 10 
+
+2 Tổn thất qua lọc 5 
+ 
+
+15 Tổng tổn thất Δ𝑃1 
+b. Xác định tổn thất dọc đường 2P  
+
+∆𝑃2 =
+𝜌. 𝛼1. 𝐿1. 𝑣1
+
+2
+
+2. 𝑑1
++
+
+𝜌. 𝛼2. 𝐿2. 𝑣2
+2
+
+2. 𝑑2
++
+
+𝜌. 𝛼3. 𝐿3. 𝑣3
+2
+
+2. 𝑑3
+ 
+
+Trong đó: 
+
+*Dầu thủy lực: 
+
+Ở đây ta chọn loại dầu thủy lực VG46 thường được sử dụng trong các hệ thống 
+
+thủy lực lớn và trung bình. 
+
+Dầu thủy 
+
+lực 
+
+1 𝜌 Khối lượng riêng  870 kg/m^3 
+
+2 v 
+
+Độ nhớt động 
+
+học 46 
+
+cSt 
+
+(mm²/s) 
+
+Dầu thủy lực VG 46 (𝜌= 0.87 kg/l = 870 kg/m^3) 
+Bảng 4. 6: Thông số của các loại dầu thủy lực được dùng trong hệ thống thủy lực 
+
+ 
+
+*Xác định hệ số Reynolds: 
+
+𝑅𝑒 =
+𝑉. 𝑑
+
+𝜈
+ 
+
+
+
+32 
+
+ 
+
+*Xác định hệ số ma sát: 
+
+Do là dòng chảy tầng nên hệ số ma sát: 𝛼 =
+64
+
+𝑅𝑒
+ 
+
+Thay số vào ta được tổn thất dọc đường trên từng đoạn đường ống: 
+
+ v (m/s) d (m) Lsb (m) Re 𝛼 Δ𝑃2 
+
+Đường ống 
+
+hút 1,5 0,018 0,5 441,176 0,145 3590,400 
+
+Đường ống 
+
+đẩy 4 0,0125 5 1352,941 0,047 28958,490 
+
+Đường ống 
+
+hồi 2,5 0,018 1 845,588 0,075 9049,527 
+
+ 
+
+Tổng tổn thất dọc đường: Δ𝑃2 = 41498,43(
+𝑁
+
+𝑚2
+) =  0,42 (𝑏𝑎𝑟) 
+
+c. Xác định tổn thất cục bộ 3P  
+
+𝛥𝑃3 =
+𝜌. 𝜉
+
+2
+. (𝑣1
+
+2 + 𝑣2
+2 + 𝑣3
+
+2) 
+
+Hệ số phụ thuộc vào khuỷu ống ở đây ta coi khuỷu ống là thẳng góc và chọn: gải 
+
+sử có 1 điểm trên đường ống hút, đẩy, hồi xảy ra tổn thất cục bộ: 𝜀 = 1,2 
+
+Tổng tổn thất cục bộ: Δ𝑃3 = 12936 (
+𝑁
+
+𝑚2
+) = 0,13(𝑏𝑎𝑟) 
+
+Vậy tổng tổn thất áp suất trên toàn hệ thống chọn sơ bộ là: Δ𝑃 = 15,55 (𝑏𝑎𝑟) 
+
+4.3.2. Tính toán lựa chọn bơm nguồn và động cơ điện 
+
+a. Tính chọn động cơ điện: 
+
+Dựa vào áp suất và lưu lượng của bơm theo công thức đã tính ở trên, ta có thể tính 
+
+được công suất cần thiết của động cơ điện: 
+
+𝑁đ𝑐 =
+𝑝𝑏 . 𝑄𝑏
+
+612. 𝜂ℎ𝑡
+ 
+
+Trong đó: 𝑁đ𝑐 (kW); 𝑝𝑏 (bar); 𝑄𝑏 (l/ph); 612 là hệ số tính toán chuyển đổi đơn vị  
+
+Hiệu suất hệ thống: 𝜂ℎ𝑡 = 𝜂𝑑𝑐 . 𝜂𝑏 . 𝜂𝑐𝑘  
+
+
+
+33 
+
+ 
+
+Ta có: 
+
+ 
+
+Hiệu suất tổng   1 - 
+
+Công suất của động cơ Nđc 5,71 kW 
+
+ 
+
+Tra catalog của hãng VIHEM (Việt Hung) với: N'đc ≥ Nđc và n'đc ≈ nđc ta chọn 
+
+được động cơ: 3K132M4 
+
+ 
+
+Hình 4. 1: Kết cấu cơ khí của động cơ 3 pha vihem 
+
+Bảng 4. 7: Bảng tổng hợp các thông số động cơ điện đã chọn 
+
+Mã động cơ 3K132M4 - 
+
+Công suất 7,5 kW 
+
+Số vòng quay 1460 vg/ph 
+
+ 
+
+b. Chọn bơm thủy lực 
+
+Tính toán lại lưu lượng và áp suất cho bơm: Áp suất của bơm bằng áp suất lớn nhất 
+
+của xy lanh cộng với tổn thất áp suất qua mạch: p = 𝑝đã 𝑐ℎọ𝑛 + 𝛥𝑝 
+
+Tên Ký hiệu Giá trị Đơn vị 
+
+Áp suất pb 206,55 (bar) 
+
+Lưu lượng Qb 16,93 (l/ph) 
+
+Số vòng quay của động 
+
+cơ n 1460 (vòng/phút) 
+
+Lưu lượng riêng q=Q/n 11,60 (cm^3/vòng)  
+
+
+
+34 
+
+ 
+
+Từ lưu lượng riêng q và áp suất đã tính p(b) ta chọn được bơm theo catalogue của hãng 
+
+Parker ta chọn được bơm: PGP – 511 – A – 0120  
+
+ 
+
+Hình 4. 2: Catalogue bơm parker 
+
+Bảng 4. 8: Bảng tổng hợp các thông số của bơm thủy lực đã chọn 
+
+Hãng Parker 
+
+Mã bơm PGP – 511 – A – 0120  
+
+Áp suất tối đa bơm tạo ra  250 (bar) 
+
+Lưu lượng riêng 12 (cm^3/vòng)  0,012 l/vòng 
+
+4.4. Tính toán lựa chọn các loại van 
+
+4.4.1. Tính toán lựa chọn van một chiều số 04 của hệ thống 
+
+
+
+35 
+
+ 
+
+ 
+
+ 
+
+Hình 4. 3: Van một chiều 
+
+  
+
+Van một chiều số 04 có công dụng chỉ cho đường dầu qua bơm chảy vào hệ thống, 
+
+ngăn dầu chảy ngược về bơm để bảo vệ bơm nguồn. 
+
+Với áp suất làm việc lớn nhất là: p = 250 (bar)  
+
+Lưu lượng làm việc lớn nhất là: Q = 17,52 (l/ph) 
+
+Tra catalog của hãng REXROTH ta chọn được van: S10A00 – 12/450 
+
+Với lưu lượng làm việc lớn nhất : Q = 17,52 (l/ph) ta tra được tổn thất áp suất lớn 
+
+nhất là: Δ𝑝 =  0,8 (𝑏𝑎𝑟) 
+
+ 
+
+
+
+36 
+
+ 
+
+ 
+
+Hình 4. 4: Mối quan hệ giữa lưu lượng và tổn thất áp suất khi qua van 
+
+Bảng 4. 9: Bảng tổng hợp các thông số của van một chiều 
+
+Van một 
+
+chiều 
+
+1  Số lượng 1 Van 
+
+2  Mã van S10A00 – 12/450 - 
+
+3  Hãng sản xuất Rexroth, Đức - 
+
+4 Q Lưu lượng qua van 60 l/phút 
+
+5 pmax Áp suất max 450 bar 
+
+6 Δp 
+
+Tổn thất áp suất 
+
+qua van 0,8 bar 
+
+ 
+
+4.4.2. Tính toán lựa chọn van phân phối 4/3 
+
+Mạch thủy lực sử dụng một van phân phối 4/3 điều khiển hai đầu bằng điện có hồi 
+
+vị bằng lò xo có chức năng định hướng dòng dầu cấp vào hệ thống. 
+
+Lưu lượng qua van là: Qv= 17,52 (l/ph) 
+
+Áp suất làm việc của hệ thống: 250 (bar) 
+
+
+
+37 
+
+ 
+
+ 
+
+Hình 4. 5: Cấu tạo của van phân phối 4/3 
+
+Tra catalogue của hãng REXROTH ta chọn được van có mã:  
+
+4WE – 6 – H6X/EG24N9K4 
+
+Với các thông số: pmax = 350 (bar) 
+
+Lưu lượng max: Qmax = 80 (l/ph) 
+
+ 
+
+Hình 4. 6: Kết cấu cơ khí của van phân phối 4/3 
+
+ 
+
+ 
+
+
+
+38 
+
+ 
+
+Bảng 4. 10: Bảng tổng hợp các thông số của van phân phối 4/3 
+
+Van 
+
+phân 
+
+phối 
+
+4/3 
+
+1   Số lượng 1 Van 
+
+2   Mã van 
+4WE – 6 – H6X/EG24N9K4 
+
+- 
+
+3   Hãng sản xuất Rexroth, Đức - 
+
+4 Q 
+
+Lưu lượng qua 
+
+van 80 l/phút 
+
+5 pmax Áp suất max 350 bar 
+
+6 Δp 
+
+Tổn thất áp suất 
+
+qua van  2,5 bar 
+
+4.4.3. Tính toán chọn van chống tụt tải số 09 
+
+ 
+
+Hình 4. 7: Cấu tạo van chống tụt tải 
+
+Lưu lượng qua van là: Qmax = 17,52 (l/ph) 
+
+Áp suất làm viêc lớn nhất: pmax = 250 (bar) 
+
+Tra catalogue của hãng Rexroth ta chọn van có mã: 
+
+ VSO – DE – L – 05.53.03 – 00 – 03 – 01   
+
+
+
+39 
+
+ 
+
+ 
+
+Hình 4. 8: Kết cấu cơ khí của van chống tụt 
+
+Bảng 4. 11: Bảng tổng hợp các thông số của van chống tụt tải 
+
+Van 
+
+chống 
+
+tụt tải 
+
+1   Số lượng 1 Van 
+
+2   Mã van 
+
+VSO – DE – L – 05.53.03 – 
+
+00 – 03 – 01 
+- 
+
+3   Hãng sản xuất Rexroth, Đức - 
+
+4 Q 
+
+Lưu lượng qua 
+
+van 50 l/phút 
+
+5 pmax Áp suất max 350 bar 
+
+6 Δp 
+
+Tổn thất áp suất 
+
+qua van  3,5 bar 
+
+4.4.4. Tính toán lựa chọn van tiết lưu 1 chiều số 10 
+
+
+
+40 
+
+ 
+
+ 
+
+Hình 4. 9: Van tiết lưu 1 chiều 
+
+Lưu lượng qua van là: Qmax = 17,52 (l/ph) 
+
+Áp suất làm viêc lớn nhất: pmax = 250 (bar) 
+
+Tra catalogue của hãng OLEOWEB ta chọn van có mã: STUF – 120 – NPT 
+
+ 
+
+Hình 4. 10: Kết cấu cơ khí van tiết lưu 
+
+
+
+41 
+
+ 
+
+Bảng 4. 12: Bảng tổng hợp các thông số của van tiết lưu 
+
+Van 
+
+tiết 
+
+lưu 
+
+1   Số lượng 1 Van 
+
+2   Mã van 
+STUF – 120 – NPT 
+
+- 
+
+3   Hãng sản xuất Oleoweb, Italia - 
+
+4 Q 
+
+Lưu lượng qua 
+
+van 50 l/phút 
+
+5 pmax Áp suất max 400 bar 
+
+6 Δp 
+
+Tổn thất áp suất 
+
+qua van  1,5 bar 
+
+4.4.5. Tính toán lựa chọn van an toàn số 06 cho hệ thống 
+
+ 
+
+Hình 4. 11: Cấu tạo và kí hiệu của van an toàn số 06 
+
+Van an toàn số 06 được sử dụng để đặt áp suất max cho hệ thống, khi áp suất hệ 
+
+thống vượt quá áp suất đặt của van, lúc này van sẽ được mở để dầu chảy về bể giúp 
+
+bảo vệ hệ thống tránh làm việc quá tải gây hỏng hóc và xảy ra các sự cố nguy hiểm 
+
+khác. 
+
+Áp suất đặt của van an toàn: pvat ≥  pxl + ∆𝑝 = 206,55 (bar) 
+
+Tra catalogue của hãng Rexroth ta chọn van có mã: Z 2 DB 6 VP 2 – 4X/315 
+
+
+
+42 
+
+ 
+
+ 
+
+Hình 4. 12: Kết cấu cơ khí của van an toàn số 06 
+
+Bảng 4. 13: Bảng tổng hợp các thông số của van an toàn số 06 
+
+Van an toàn 
+
+hệ thống 
+
+1   Số lượng 1 Van 
+
+2   Mã van 
+
+Z 2 DB 6 VP 2 
+
+– 4X/315 - 
+
+3   Hãng sản xuất Rexroth, Đức - 
+
+4 Q Lưu lượng qua van 60 l/phút 
+
+5 pmax Áp suất max 315 bar 
+
+4.5. Tính toán thiết kế trạm nguồn thủy lực 
+
+4.5.1. Tính toán thiết kế thùng dầu 
+
+Trong hệ thống thủy lực thùng dầu được thiết kế đảm bảo các chức năng như: 
+
+• Cấp dầu đảm bảo cho hệ thống hoạt động bình thường 
+
+• Nạp dầu mới xả dầu cũ của hệ thống 
+
+• Bù rò rỉ cho hệ thống 
+
+• Loại bỏ bọt khí ra khỏi dầu 
+
+• Lắng đọng các cặn bẩn bị lẫn vào dầu 
+
+• Tỏa nhiệt làm mát cho dầu 
+
+• Dùng để lắp các phần tử thủy lực 
+
+a. Xác định chiều cao hmin(Chọn và bố trí que thăm dầu) 
+
+Ta có đường kính ống hút: dhut = 18 (mm) 
+
+
+
+43 
+
+ 
+
+Khi bơm dầu vào 2 xy lanh lượng dầu còn lại cần ngập ống hút 1 đoạn: 
+
+ (3÷5)dhut = 72 (mm) 
+
+Khoảng cách từ miệng ống hút tới đáy bể dầu cần trong khoảng: 
+
+(3÷5)dhut = 60,3 (mm) 
+
+Vậy thể tích dầu còn ít nhất trong thùng sẽ có mức: 
+
+ hmin = 136 (mm) = 13,5 (cm) 
+
+b. Xác định các kích thước của thùng dầu 
+
+Thể tích của thùng dầu được tính toán theo kinh nghiệm: Thông thường theo 
+
+kinh nghiệm, người ta tính toán thể tích dầu cần đủ cho hệ thống ở mức (3÷5) lần 
+
+lưu lượng bơm trong 1 phút. 
+
+𝑉 = (3 ÷ 5). 𝑄𝑏 (𝑙í𝑡) 
+
+Với lưu lượng bơm đã chọn: Qb = 17,52 (l/ph) 
+
+Thay số vào ta được: V = 53,46 ÷ 89,1 (l) 
+
+T

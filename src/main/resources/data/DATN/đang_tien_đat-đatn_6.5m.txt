@@ -1,0 +1,5254 @@
+
+ 
+
+ 
+
+ 
+
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+TRƯỜNG ĐIỆN ĐIỆN TỬ 
+
+ 
+
+ 
+
+ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+ 
+
+ĐIỀU KHIỂN GẮP THẢ VẬT DÁN QR CODE 
+
+BẰNG ROBOT MITSUBISHI 
+
+ĐẶNG TIẾN ĐẠT 
+
+dat.dt181384@sis.hust.edu.vn 
+
+Ngành KT Điều khiển & Tự động hóa 
+
+ 
+
+ 
+
+ 
+
+ 
+
+                                                                                                      
+
+Giảng viên hướng dẫn: TS. Nguyễn Thị Vân Anh 
+
+ 
+
+Khoa: 
+
+ 
+
+Tự động hóa  
+
+Trường: Điện – Điện tử 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+HÀ NỘI, 8/2023 
+
+Chữ ký của GVHD 
+
+
+
+ 
+
+ 
+
+ 
+
+BỘ GIÁO DỤC & ĐÀO TẠO 
+
+ĐH BÁCH KHOA HÀ NỘI 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập – Tự do - Hạnh phúc 
+
+ 
+
+NHIỆM VỤ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+
+ 
+
+Họ và tên sinh viên: Đặng Tiến Đạt 
+
+Khóa: K63                Trường: Điện- Điện tử               Ngành: KT ĐK & TĐH 
+
+1. Tên đề tài: 
+
+Điều khiển gắp thả vật dán QR Code bằng Robot Mitsubishi. 
+
+2. Nội dung đề tài: 
+
+- Cấu hình các thông số cho thiết bị trong hệ thống gồm băng tải, cảm 
+
+biến, camera, các van khí nén và tạo chương trình điều khiển PLC. 
+
+- Xử lý ảnh QR Code và thiết kế giao diện điều khiển giám sát trên PC. 
+
+- Hiển thị kết quả đạt được trên một trang web thông qua dữ liệu của 
+
+SQL.   
+
+ 
+
+3. Thời gian giao đề tài: 31/03/2023 
+
+4. Thời gian hoàn thành: 20/07/2023 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+              Ngày 05 tháng 08 năm 2023 
+
+            CÁN BỘ HƯỚNG DẪN 
+
+ 
+
+ 
+
+ 
+
+      
+
+Nguyễn Thị Vân Anh 
+
+
+
+ 
+
+ 
+
+Lời cảm ơn 
+
+Khép lại những năm tháng Bách Khoa là mùa đồ án cuối cùng của đời sinh viên - 
+
+đồ án tốt nghiệp. Em xin gửi lời cảm ơn đến các thầy cô ở Bách khoa đã dìu dắt 
+
+chúng em trong chặng đường năm năm này. Đặc biệt em xin tỏ lòng biết ơn đối 
+
+với TS. Nguyễn Thị Vân Anh, người thầy tâm huyết đã tận tình hướng dẫn chúng 
+
+em không chỉ trong những đồ án mà cả những kiến thức thực tế trong nghề.  
+
+Mặc dù trong suốt quá trình làm đồ án em đã cố gắng và nỗ lực,nhưng với điều 
+
+kiện thời gian cũng như kinh nghiệm còn hạn chế, đồ án này không thể tránh khỏi 
+
+những thiếu xót. Em kính mong nhận được các góp ý, chỉ bảo và giúp đỡ của các 
+
+thầy cô giáo để đồ án này của em được hoàn thiện hơn.  
+
+Em xin chân thành cảm ơn! 
+
+Tóm tắt nội dung đồ án 
+
+Đồ án tốt nghiệp với đề tài “Điều khiển gắp thả vật dán QR Code bằng Robot 
+
+Mitsubishi” đưa ra yêu cầu sử dụng công cụ xử lý ảnh để nhận diện vật thể, nhờ 
+
+đó có thể tự động điều khiển được Robot, giúp hạn chế tác động của nhân lực. 
+
+Công cụ xử lý ảnh là camera của hãng Cognex được gắn trên băng tải, sử dụng 
+
+ngôn ngữ lập trình C#. Đồ án gồm 4 chương: 
+
+Chương 1: Giới thiệu khái quát 
+
+Chương 2: Quá trình xử lý ảnh cho QR Code 
+
+Chương 3: Mô hình thực nghiệm 
+
+Chương 4: Kết luận 
+
+ 
+
+ 
+
+ 
+
+  
+
+Ký và ghi rõ họ tên 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+MỤC LỤC 
+
+CHƯƠNG 1. GIỚI THIỆU KHÁI QUÁT ......................................................... 1 
+
+1.1 Tổng quan về cánh tay Robot trong công nghiệp ...................................... 1 
+
+1.2 Tổng quan về quá trình Xử lý ảnh ............................................................. 5 
+
+1.3 Mục tiêu đề tài ............................................................................................ 9 
+
+CHƯƠNG 2. QUÁ TRÌNH XỬ LÝ ẢNH CHO QR CODE .......................... 10 
+
+2.1 Giới thiệu chung về QR Code .................................................................. 10 
+
+ Quá trình phát triển của QR Code: ........................................... 11 
+
+ Một số đặc điểm của QR Code: ................................................ 13 
+
+ Cấu trúc QR Code ..................................................................... 17 
+
+ Ứng dụng QR Code................................................................... 21 
+
+2.2 Nhận diện QR code dựa trên quá trình xử lý ảnh .................................... 25 
+
+ Image Acquisition ..................................................................... 26 
+
+ Preprocessing ............................................................................ 27 
+
+ QR Code Detection ................................................................... 28 
+
+ QR Code Decoding ................................................................... 29 
+
+ Data Extraction and Utilization ................................................ 30 
+
+2.3 Zxing.Net Library .................................................................................... 31 
+
+CHƯƠNG 3. MÔ HÌNH THỰC NGHIỆM ..................................................... 34 
+
+3.1. Cấu trúc hệ thống vận hành ........................................................................... 34 
+
+ Robot RV-2FR-Q ...................................................................... 34 
+
+ Bộ điều khiển CR800-02-VQ ................................................... 38 
+
+ Hệ điều khiển PLC của MITSUBISHI ..................................... 39 
+
+ Hệ thống băng tải, cảm biến và camera .................................... 44 
+
+3.2 Mô tả quy trình hoạt động của Robot ...................................................... 48 
+
+ Cách thức điều khiển Robot RV-2FR-Q ................................... 49 
+
+ Điều khiển Robot bằng chương trình PLC ............................... 69 
+
+3.3 Lưu đồ thực hiện chương trình................................................................. 71 
+
+ Chương trình nhận diện vật phẩm ............................................. 72 
+
+ Chương trình PLC điều khiển Robot ........................................ 74 
+
+ Tạo trang báo cáo kết quả thu được .......................................... 76 
+
+3.4 Thực tế vận hành hệ thống ....................................................................... 77 
+
+
+
+ 
+
+ 
+
+3.5 Kết quả quá trình thực nghiệm ................................................................. 83 
+
+CHƯƠNG 4. KẾT LUẬN .................................................................................. 87 
+
+4.1 Kết luận .................................................................................................... 87 
+
+4.2 Hướng phát triển của đồ án trong tương lai ............................................. 87 
+
+TÀI LIỆU THAM KHẢO ................................................................................. 89 
+
+PHỤ LỤC ............................................................................................................ 90 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ 
+
+Danh mục Hình vẽ 
+
+Hình 1.1 Cánh tay robot trong công nghiệp ........................................................... 1 
+
+Hình 1.2 Một vài ứng dụng của cánh tay robot trong công nghiệp ....................... 3 
+
+Hình 1.3 Cánh tay robot kết hợp với công nghệ xử lý ảnh .................................... 4 
+
+Hình 1.4 Quy trình xử lý ảnh ................................................................................. 5 
+
+Hình 2.1 Ví dụ về cách thức hoạt động của QR Code ......................................... 10 
+
+Hình 2.2 Các loại mã vạch 1D và 2D .................................................................. 11 
+
+Hình 2.3 Lịch sử của các biểu tượng.................................................................... 11 
+
+Hình 2.4 Sự phát triển của các biểu tượng (Symbols) ......................................... 12 
+
+Hình 2.5 Sự phát triển của QR Code.................................................................... 12 
+
+Hình 2.6 Finder Patterns ...................................................................................... 13 
+
+Hình 2.7 Correcting Distorted Symbols ............................................................... 14 
+
+Hình 2.8 Ví dụ về QR Code bị mù hoặc che mất 1 phần ..................................... 15 
+
+Hình 2.9 Ví dụ về chức năng Linking .................................................................. 16 
+
+Hình 2.10 Masking Process .................................................................................. 16 
+
+Hình 2.11 Ví dụ về Direct Masking ..................................................................... 17 
+
+Hình 2.12 Các Version của QR Code .................................................................. 18 
+
+Hình 2.13 Cấu trúc QR Code ............................................................................... 18 
+
+Hình 2.14 Tác dụng của Mask Patterns ............................................................... 20 
+
+Hình 2.15 Ví dụ về QR Code trong Marketing và quảng cáo .............................. 21 
+
+Hình 2.16 Ví dụ về QR Code trong Mobile payment .......................................... 22 
+
+Hình 2.17 Ví dụ về QR Code trong tổ chức sự kiện ............................................ 22 
+
+Hình 2.18 Ví dụ về QR Code trong theo dõi nguồn gốc sản phẩm ..................... 23 
+
+Hình 2.19 Ví dụ về QR Code trong chia sẻ Wifi ................................................. 23 
+
+Hình 2.20 Ví dụ về QR Code trong giáo dục ....................................................... 24 
+
+Hình 2.21 Ví dụ về QR Code trong y tế ............................................................... 24 
+
+Hình 3.1 Thông số kỹ thuật một số dòng robot RV-F ......................................... 34 
+
+Hình 3.2 Minh họa độ gập của Robot .................................................................. 34 
+
+Hình 3.3 Phạm vi vận hành của trục J4 được mở rộng ........................................ 35 
+
+Hình 3.4 Phạm vi vận hành trục đứng được mở rộng .......................................... 36 
+
+Hình 3.5 Robot RV-2FR ...................................................................................... 36 
+
+Hình 3.6 Bộ điều khiển CR800-02-VQ ............................................................... 38 
+
+Hình 3.7 Bộ PLC Q sử dụng trong phạm vi đồ án ............................................... 40 
+
+Hình 3.8 CPU robot Q172DSRCPU .................................................................... 40 
+
+Hình 3.9 Module Q62P ........................................................................................ 42 
+
+Hình 3.10 Module QX40 ...................................................................................... 42 
+
+
+
+ 
+
+ 
+
+Hình 3.11Module QY40P .................................................................................... 43 
+
+Hình 3.12 Module High-speed Counter QD62 .................................................... 44 
+
+Hình 3.13 Mô hình băng tải ................................................................................. 45 
+
+Hình 3.14 Camera COGNEX IS5110-01 ............................................................. 45 
+
+Hình 3.15 Cảm biến E3F-DS30C4 ...................................................................... 47 
+
+Hình 3.16 Tay cầm Teaching Pendant ................................................................. 49 
+
+Hình 3.17 Kết nối Teaching Pendant với bộ điều khiển CR800 .......................... 51 
+
+Hình 3.18 Minh họa chuyển động nội suy khớp .................................................. 51 
+
+Hình 3.19 Minh họa chuyển động nội suy tuyến tính .......................................... 52 
+
+Hình 3.20 Minh họa chuyển động nội suy cung tròn ........................................... 52 
+
+Hình 3.21 Ví dụ yêu cầu vận hành Robot khi điều khiển bằng R33TB .............. 53 
+
+Hình 3.22 Đường biên dạng chuyển động ........................................................... 53 
+
+Hình 3.23 Minh họa chức năng Sequencer Direct ............................................... 57 
+
+Hình 3.24 Minh họa chức năng Sequencer Direct ............................................... 58 
+
+Hình 3.25 Workspace RT Toolbox 3 ................................................................... 64 
+
+Hình 3.26 Cài đặt thông số Robot Model ............................................................ 64 
+
+Hình 3.27 Cài đặt thông số Communication ........................................................ 65 
+
+Hình 3.28 Cài đặt thông số Language .................................................................. 65 
+
+Hình 3.29 Cấu hình Multiple CPU trên RT Toolbox ........................................... 66 
+
+Hình 3.30 Thiết lập Multiple CPU trên GX Works 2 .......................................... 67 
+
+Hình 3.31 Thông số IQMEM ............................................................................... 68 
+
+Hình 3.32 Parameter trên Teaching Pendant R33TB ........................................... 68 
+
+Hình 3.33 Thông số IQMEM trên CR800 ........................................................... 68 
+
+Hình 3.34 Dữ liệu của thông số IQMEM khi cài đặt ........................................... 68 
+
+Hình 3.35 Ví dụ chương trình điều khiển Robot bằng PLC ................................ 70 
+
+Hình 3.36 Lưu đồ tổng quan của chương trình .................................................... 71 
+
+Hình 3.37 Lưu đồ thuật toán quá trình máy tính xử lý QR Code ........................ 72 
+
+Hình 3.38 Lưu đồ quá trình điều khiển hệ thống băng tải ................................... 74 
+
+Hình 3.39 Lưu đồ quá trình điều khiển hệ thống Robot ...................................... 75 
+
+Hình 3.40 Tạo kết nối giữa Visual Studio với PLC thông qua MX Components 78 
+
+Hình 3.41 Giao diện vận hành của hệ thống ........................................................ 78 
+
+Hình 3.42 Các mã QR sử dụng để dán lên vật trong đồ án .................................. 79 
+
+Hình 3.43 Hệ thống nút nhấn và đèn báo ............................................................. 79 
+
+Hình 3.44 Robot ở vị trí chờ ................................................................................ 80 
+
+Hình 3.45 Robot gắp vật ...................................................................................... 81 
+
+Hình 3.46 Robot thả vật ở vị trí theo kết quả của quá trình xử lý ảnh ................. 82 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+Danh mục Bảng 
+
+Bảng 2-1 Các level của Eror Correction .............................................................. 15 
+
+Bảng 3-1 Thông số kĩ thuật của Robot ................................................................ 38 
+
+Bảng 3-2 Thông số kĩ thuật của bộ điều khiển CR800-02-VQ ............................ 39 
+
+Bảng 3-3 Thông số kỹ thuật chi tiết của Camera được sử dụng .......................... 46 
+
+Bảng 3-4 Các phím chức năng của Teaching Pendant ......................................... 50 
+
+Bảng 3-5 Các vị trí cần thiết cho yêu cầu điều khiển .......................................... 54 
+
+Bảng 3-6 Chương trình trên R33TB .................................................................... 54 
+
+Bảng 3-7 Địa chỉ các vị trí trong chức năng Sequencer Direct............................ 57 
+
+Bảng 3-8 Các tham số và địa chỉ .......................................................................... 59 
+
+Bảng 3-9 Chi tiết các đầu vào/ra chức năng ........................................................ 61 
+
+Bảng 3-10 PLC Output ......................................................................................... 63 
+
+Bảng 3-11 Robot Output ...................................................................................... 63 
+
+Bảng 3-12 Các bit và thanh ghi sử dụng trong chương trình mẫu ....................... 69 
+
+
+
+ 
+
+ 
+
+1 
+
+ 
+
+CHƯƠNG 1. GIỚI THIỆU KHÁI QUÁT 
+
+1.1 Tổng quan về cánh tay Robot trong công nghiệp 
+
+Nhu cầu tự động hóa là một trong những yếu tố chính thúc đẩy nhu cầu về 
+
+cánh tay robot trong ngành. Khi các công ty cố gắng tăng hiệu quả, giảm chi phí 
+
+và cải thiện năng suất, tự động hóa trở nên thiết yếu. Cánh tay robot có khả năng 
+
+thực hiện các nhiệm vụ lặp đi lặp lại với độ chính xác và tốc độ cao, giúp cải thiện 
+
+năng suất sản xuất và giảm chi phí lao động. 
+
+Cánh tay robot là một thiết bị cơ khí bắt chước chức năng của cánh tay con 
+
+người. Nó được sử dụng rộng rãi trong các ngành công nghiệp khác nhau, bao gồm 
+
+sản xuất, ô tô, hàng không vũ trụ, chăm sóc sức khỏe, …. Cánh tay robot bao gồm 
+
+nhiều khớp và liên kết, cho phép nó thực hiện nhiều nhiệm vụ với độ chính xác và 
+
+hiệu quả.  
+
+Cánh tay robot được điều khiển bởi một hệ thống điều khiển chuyên dụng, 
+
+có thể dựa trên phần cứng hoặc phần mềm. Hệ thống điều khiển nhận các lệnh đầu 
+
+vào, xử lý chúng và gửi tín hiệu đến các cơ cấu chấp hành để đạt được các chuyển 
+
+động mong muốn. Nó được lập trình để thực hiện các nhiệm vụ cụ thể. Lập trình 
+
+có thể được thực hiện thông qua nhiều phương pháp khác nhau, chẳng hạn như dạy 
+
+lập trình mặt dây chuyền, lập trình ngoại tuyến bằng phần mềm máy tính hoặc 
+
+thậm chí thông qua các kỹ thuật tiên tiến như trí tuệ nhân tạo và máy học. 
+
+ 
+
+Hình 1.1 Cánh tay robot trong công nghiệp 
+
+Trong môi trường công nghiệp, cánh tay robot chủ yếu được sử dụng cho 
+
+mục đích tự động hóa. Nó có thể xử lý các nhiệm vụ lặp lại tuần hoàn, nguy hiểm 
+
+
+
+2 
+
+ 
+
+và phức tạp, nếu không sẽ gây khó khăn hoặc nguy hiểm cho người lao động. Dưới 
+
+đây là một số khía cạnh chính của cánh tay robot trong ngành: 
+
+• Thao tác và lắp ráp: Cánh tay robot thường được sử dụng để xử lý vật liệu, 
+
+chọn và đặt đồ vật cũng như các hoạt động lắp ráp. Nó có thể kẹp và điều 
+
+khiển chính xác các vật thể có kích thước, hình dạng và trọng lượng khác 
+
+nhau và di chuyển những vật này đến vị trí mong muốn trong các dây 
+
+chuyền lắp ráp. 
+
+• Hàn và Cắt: Cánh tay robot được trang bị các công cụ hàn hoặc cắt được sử 
+
+dụng rộng rãi trong ngành sản xuất. Nó có thể thực hiện các mối hàn hoặc 
+
+vết cắt nhất quán và chất lượng cao, dẫn đến chất lượng và hiệu quả sản 
+
+phẩm được cải thiện. 
+
+• Sơn và phủ: Các cánh tay rô-bốt được sử dụng để sơn hoặc phủ đồng nhất 
+
+và chính xác trong các ngành công nghiệp như sản xuất ô tô và đồ nội thất.  
+
+Nó có thể đi theo các đường dẫn được xác định trước, đảm bảo phạm vi phủ 
+
+sóng nhất quán và giảm lãng phí. 
+
+• Kiểm tra và kiểm soát chất lượng: Cánh tay robot được trang bị cảm biến 
+
+và camera có thể thực hiện kiểm tra chất lượng trong quá trình sản xuất. Nó 
+
+có thể phát hiện lỗi, đo kích thước và so sánh với thông số kỹ thuật, nâng 
+
+cao chất lượng sản phẩm và giảm lỗi của con người. 
+
+• Đóng gói và xếp hàng: Cánh tay robot vượt trội trong việc đóng gói hàng 
+
+hóa và xếp hàng lên hàng để vận chuyển. Nó có thể xử lý các vật liệu đóng 
+
+gói khác nhau, sắp xếp sản phẩm theo các mẫu được xác định trước và tối 
+
+ưu hóa việc sử dụng không gian trong nhà kho và trung tâm phân phối. 
+
+• Robot cộng tác: Với những tiến bộ trong công nghệ, các cánh tay robot cộng 
+
+tác, còn được gọi là cobot, đã xuất hiện. Những robot này được thiết kế để 
+
+hoạt động an toàn cùng với nhân viên là con người, chia sẻ nhiệm vụ và 
+
+không gian làm việc. Cobots có thể cải thiện năng suất và công thái học 
+
+bằng cách hỗ trợ người lao động thực hiện các công việc nặng nhọc, lặp đi 
+
+lặp lại hoặc thực hiện các hoạt động phức tạp. 
+
+ 
+
+• Tính linh hoạt và cấu hình lại: Cánh tay robot mang lại lợi thế về tính linh 
+
+hoạt trong môi trường sản xuất. Nó có thể được lập trình và cấu hình lại để 
+
+
+
+3 
+
+ 
+
+thích ứng với các sản phẩm và nhiệm vụ khác nhau, cho phép thay đổi nhanh 
+
+chóng dây chuyền sản xuất và giảm thời gian thiết lập. 
+
+Nhìn chung, cánh tay robot trong ngành đóng một vai trò quan trọng trong 
+
+việc nâng cao năng suất, chất lượng và an toàn cho người lao động. Với độ chính 
+
+xác, tốc độ và tính linh hoạt của mình, chúng tiếp tục cách mạng hóa các lĩnh vực 
+
+khác nhau bằng cách tự động hóa các nhiệm vụ lặp đi lặp lại, tăng hiệu quả và cho 
+
+phép các doanh nghiệp duy trì khả năng cạnh tranh trong thị trường toàn cầu đang 
+
+phát triển nhanh chóng. 
+
+Khái niệm về Công nghiệp 4.0, trong đó nhấn mạnh đến việc tích hợp các 
+
+công nghệ kỹ thuật số vào các quy trình sản xuất, đang thúc đẩy nhu cầu về các 
+
+giải pháp tự động hóa tiên tiến. Cánh tay robot đóng một vai trò quan trọng trong 
+
+sản xuất thông minh bằng cách tích hợp liền mạch với các máy móc, cảm biến và 
+
+hệ thống phần mềm khác. Chúng góp phần thu thập, phân tích và tối ưu hóa dữ 
+
+liệu, tạo điều kiện thuận lợi cho việc ra quyết định theo thời gian thực và nâng cao 
+
+hiệu quả tổng thể. 
+
+ 
+
+Hình 1.2 Một vài ứng dụng của cánh tay robot trong công nghiệp 
+
+Tuy nhiên, các máy móc thiết bị tự động hóa nói chung và cánh tay robot 
+
+nói riêng vẫn còn một số các nhược điểm tồn đọng. Chẳng hạn như, Cánh tay robot 
+
+thường được thiết kế cho các nhiệm vụ cụ thể và có thể thiếu tính linh hoạt để xử 
+
+lý các hoạt động đa dạng. Lập trình lại hoặc cấu hình lại cánh tay robot cho một 
+
+nhiệm vụ mới có thể tốn nhiều thời gian và có thể yêu cầu kiến thức chuyên môn. 
+
+Sự thiếu linh hoạt này có thể hạn chế khả năng sử dụng của chúng trong môi trường 
+
+sản xuất năng động, nơi cần thay đổi thường xuyên.  
+
+
+
+4 
+
+ 
+
+Mặc dù cánh tay robot có thể được trang bị cảm biến nhưng khả năng nhận 
+
+biết và tương tác với môi trường của chúng thường không tiên tiến bằng khả năng 
+
+của con người. Cánh tay robot có thể gặp khó khăn trong việc nhận biết và nhận 
+
+dạng chính xác các đối tượng, đặc biệt là trong môi trường phức tạp hoặc không 
+
+có cấu trúc. Việc xác định và phân biệt các đối tượng dựa trên hình dạng, màu sắc, 
+
+kết cấu hoặc hướng của chúng có thể là một thách thức đối với các hệ thống thị 
+
+giác robot. Điều này có thể gây khó khăn trong việc cầm nắm các đồ vật có hình 
+
+dạng, kích thước hoặc vị trí khác nhau. 
+
+Vậy giải pháp và hướng phát triển tương lai của robot là gì? Công cụ xử 
+
+lý ảnh được cho là một trong những công cụ tiện lợi và phù hợp nhất để có thể 
+
+giải quyết vấn đề khó khăn này. Một số công nghệ đã được phát triển và đưa vào 
+
+ứng dụng như xác định màu sắc để phân loại vật thể, nhận diện mã vạch để xác 
+
+định tên vật phẩm và rất nhiều các ứng dụng khác. Việc sử dụng công cụ xử lý 
+
+ảnh đó là khả năng xử lý được nhiều thông tin cùng lúc, chỉ với camera và 
+
+chương trình xử lý ảnh ta có thể thay thế được cả một hệ thống giám sát bằng các 
+
+cảm biến tối tân. Ngoài ra việc sử dụng camera cũng đơn giản hóa việc lặp đặt 
+
+thiết bị bởi lẽ camera có thể đặt được các vị trí khác nhau mà không có quá nhiều 
+
+yêu cầu khắt khe nào. 
+
+ 
+
+Hình 1.3 Cánh tay robot kết hợp với công nghệ xử lý ảnh 
+
+ 
+
+ 
+
+ 
+
+
+
+5 
+
+ 
+
+1.2 Tổng quan về quá trình Xử lý ảnh 
+
+Xử lý ảnh là một lĩnh vực mang tính khoa học và công nghệ. Lĩnh vực này 
+
+đang dần phát triển một cách mạnh mẽ và nhanh chóng nhờ các ứng dụng hữu ích 
+
+trong công nghiệp, chẳng hạn như kiểm tra sản phẩm, đóng gói, lắp ráp linh kiện, 
+
+…. Cùng với sự gia tăng ngày càng nhiều về nhu cầu áp dụng khoa học công nghệ 
+
+trong ngành công nghiệp, thì lĩnh vực xử lý ảnh này cũng được quan tâm và nghiên 
+
+cứu rất nhiều để có thể ngày càng cải tiến và hoàn thiện hơn. 
+
+a) Quy trình xử lý ảnh: 
+
+ 
+
+Hình 1.4 Quy trình xử lý ảnh 
+
+• Thu nhận ảnh: ảnh có thể được thu nhận thông qua camera màu hoặc đen 
+
+trắng. Chất lượng ảnh sẽ phụ thuộc vào thiết bị thu như camera, sensor, máy 
+
+scanner, và môi trường xung quanh như ánh sáng, cảnh quan. Ở bước này, 
+
+điểm quan trọng chính là độ phân giải, chất lượng màu, dung lượng bộ nhớ 
+
+và tốc độ thu nhận ảnh của thiết bị thu 
+
+• Tiền xử lý ảnh: ảnh sau khi được qua bộ thu nhận có thể sẽ chất lượng thấp, 
+
+nhiễu, độ tương phản thấp, vì vậy cần đưa vào bộ tiền xử lý để nâng cao 
+
+chất lượng. Chức năng chính của bộ tiền xử lý là lọc nhiễu, nâng độ tương 
+
+phản, cân bằng sáng để ảnh rõ nét hơn. 
+
+• Phân đoạn ảnh: tách ảnh đầu vào thành các vùng thành phần để biểu diễn 
+
+phân tích, nhận dạng ảnh. Đây là phần phức tạp và khó khăn nhất trong xứ 
+
+lý ảnh và dễ xảy ra sai sót, khiến cho độ chính xác có thể bị sai lệch. Kết 
+
+quả nhận dạng ảnh phụ thuộc rất nhiều vào công đoạn này.  
+
+• Biểu diễn và mô tả ảnh: sử dụng một phương pháp biến đổi dữ liệu nào đó 
+
+thành dạng thích hợp và thuận tiện để phục vụ cho bước xử lý tiếp theo. 
+
+• Nhận dạng và nội suy: đối tượng sẽ được nhận dạng dựa vào các đặc trưng 
+
+quan trọng mà ta đã có từ những bước trên. Từ đó nội suy để ước lượng giá 
+
+trị cho tập các đối tượng đã được nhận dạng.  
+
+ 
+
+
+
+6 
+
+ 
+
+b) Một số khái niệm trong xử lý ảnh:  
+
+• Điểm ảnh (pixel) 
+
+Điểm ảnh (hay pixel) là một phần tử của ảnh số tại tọa độ (x, y) với độ xám 
+
+hoặc màu nhất định. Mỗi điểm ảnh tương ứng với một giá trị. Trong một hình 
+
+xám 8 bit, giá trị của điểm ảnh sẽ nằm từ 0-255. Mỗi giá trị điểm ảnh tỷ lệ thuận 
+
+với cường độ sáng. Mỗi điểm ảnh có một màu duy nhất, được chỉ định như một 
+
+tỷ lệ nhất định của 3 màu cơ bản RGB (đỏ, lục, lam). Bằng cách phối hợp 3 
+
+màu đó, có thể tạo ra được gần như bất cứ màu nào. 
+
+• Độ phân giản của ảnh (Resolution): 
+
+Là mật độ điểm ảnh được ấn định trên một ảnh số được hiển thị. Theo định 
+
+nghĩa, khoảng cách giữa các điểm ảnh phải được chọn sao cho mắt người vẫn 
+
+thấy được sự liên tục của ảnh. Việc lựa chọn khoảng cách thích hợp tạo nên 
+
+một mật độ phân bổ, đó chính là độ phân giải và được phân bố theo trục x và y 
+
+trong không gian 2 chiều.  
+
+• Mức xám của ảnh: 
+
+Là cường độ ánh sáng của nó được gán bằng giá trị số tại điểm đó. Các 
+
+thang giá trị mức xám thông thường: 16, 32, 64, 128, 256, trong đó mức 256 là 
+
+mức phổ thông do từ kỹ thuật máy tính dùng 1byte (8 bit) để biểu diễn mức 
+
+xám: mức xám dùng 1byte biểu diễn 28 = 256 mức, tức là có từ 0-255.  
+
+Với tổ hợp các giá trị mức xám khác nhau, ta có thể tạo nên các ảnh bao 
+
+gồm: 
+
++ Ảnh đen trắng: là ảnh có 2 màu đen, trắng với mức xám ở các điểm ảnh 
+
+có thể khác nhau 
+
++ Ảnh nhị phân: ảnh chỉ có 2 mức đen trắng phân biệt, tức là dùng 1bit mô 
+
+tả 21 mức khác nhau. Nói cách khác: mỗi điểm ảnh của ảnh nhị phân chỉ có thể 
+
+là 0 hoặc 1. 
+
++ Ảnh màu: trong khuôn khổ lý thuyết ba màu (Red, Blue, Green) để tạo 
+
+nên thế giới màu, người ta thường dùng 3byte để mô tả mức màu, khi đó, các 
+
+giá trị màu 28*3 = 16,7 triệu màu. 
+
+ 
+
+ 
+
+
+
+7 
+
+ 
+
+• Biểu diễn ảnh: 
+
+Trong biểu diễn ảnh, người ta thường dùng các phần tử đặc trưng của ảnh 
+
+là pixel. Nhìn chung có thể một hàm hai biến chưa các thông tin như biểu diễ 
+
+của một ảnh. Các mô hình biểu diễn cho ta một mô tả logic hay định lượng các 
+
+tính chất của hàm này. Trong biểu diễn ảnh, cần chú ý đến tính trung thực của 
+
+các tiêu chuẩn “thông minh” để đo chất lượng ảnh hoặc tính hiệu quả của các 
+
+kĩ thuật xử lý.  
+
+Một số mô hình thường được dùng trong biểu diễn ảnh: mô hình bài toán, 
+
+mô hình thống kê. Trong mô hình bài toán, ảnh hai chiều được biểu diễn nhờ 
+
+các hàm hai biến trực giao gọi là các hàm cơ sở. Còn mô hình thống kê, một 
+
+ảnh được coi như một phần tử của một tập hợp đặc trưng bởi các đại lượng 
+
+như: kỳ vọng toán học, hiệp biến, phương sai, moment. 
+
+c) Một số ví dụ về ứng dụng của xử lý ảnh trong thực tế:  
+
+• Tăng cường chất lượng ảnh: Kỹ thuật tăng cường hình ảnh được sử dụng 
+
+để cải thiện chất lượng hình ảnh của hình ảnh. Các ví dụ bao gồm điều chỉnh 
+
+độ sáng và độ tương phản, làm sắc nét các cạnh, giảm nhiễu và tăng cường 
+
+chi tiết để làm cho hình ảnh bắt mắt hơn hoặc dễ phân tích hơn. 
+
+ 
+
+ 
+
+• Phát hiện và nhận dạng đối tượng: Phát hiện đối tượng liên quan đến việc 
+
+định vị và xác định các đối tượng hoặc vùng quan tâm cụ thể trong một hình 
+
+ảnh. Điều này có thể được thực hiện bằng các kỹ thuật như phát hiện cạnh, 
+
+khớp mẫu hoặc thuật toán học máy. Nhận dạng đối tượng tiến thêm một 
+
+bước bằng cách phân loại và xác định các đối tượng cụ thể từ một tập hợp 
+
+các lớp nhất định. 
+
+
+
+8 
+
+ 
+
+ 
+
+ 
+
+• Phân tích hình ảnh y tế: Xử lý hình ảnh y tế là rất quan trọng trong các ứng 
+
+dụng y tế khác nhau. Nó liên quan đến việc phân tích và giải thích các hình 
+
+ảnh y tế như chụp X-quang, MRI hoặc CT để hỗ trợ chẩn đoán, lập kế hoạch 
+
+điều trị và nghiên cứu. Các kỹ thuật như phân đoạn hình ảnh, trích xuất tính 
+
+năng và nhận dạng mẫu được sử dụng để xác định các bất thường, đo kích 
+
+thước cơ quan hoặc theo dõi tiến triển của bệnh. 
+
+ 
+
+ 
+
+• Phục hồi hình ảnh: Các kỹ thuật phục hồi hình ảnh nhằm phục hồi hoặc 
+
+phục hồi các hình ảnh bị xuống cấp hoặc hư hỏng. Điều này có thể bao gồm 
+
+loại bỏ nhiễu, mờ hoặc giả do các yếu tố như hạn chế của cảm biến, nén 
+
+hoặc điều kiện môi trường. Các kỹ thuật phục hồi có thể cải thiện độ rõ nét 
+
+và chất lượng của hình ảnh cho các ứng dụng khác nhau. 
+
+
+
+9 
+
+ 
+
+ 
+
+ 
+
+Xử lý ảnh được coi là tiền đề để xây dựng và phát triển các lĩnh vực nghiên 
+
+cứu khoa học mới hiện nay như Thị giác máy tính (Computer vision) bao gồm: 
+
+Theo vết (tracking), phát hiện (detection), phân loại ảnh (image classification), 
+
+nhận dạng ảnh (image recognition), phân vùng ảnh (image segmentation); 
+
+Machine vision, …. 
+
+Với rất nhiều những ứng dụng của xử lý ảnh đem lại cùng với đó là xu thế 
+
+phát triển của công nghiệp trong thời kỳ mới, nhóm em đã lựa chọn chủ đề này để 
+
+nghiên cứu, tìm hiểu và áp dụng vào đồ án tốt nghiệp này.  
+
+ 
+
+1.3 Mục tiêu đề tài 
+
+Mục tiêu của đề tài là gắp vật có dán QR Code từ băng tải và di chuyển đến 
+
+một trong các vị trí đã được cài đặt dựa theo kết quả mà PLC thu được từ quá trình 
+
+xử lý ảnh để phát tín hiệu ra cho Robot thực hiện chu trình chuyển động với thư 
+
+viện Zxing. Net được dùng để đọc QR Code.  
+
+Để hoàn thành đồ án “Điều khiển gắp thả vật dán QR Code bằng Robot 
+
+Mitsubishi” nhóm em đã thực hiện các nội dung sau: 
+
++ Tìm hiểu và vận hành hê ̣thống gồ m PLC, Robot và các thiết bị phụ trợ đi 
+
+kèm như băng tải, cảm biến, camera, các van khí nén. 
+
++ Cấu hình các thông số cho thiết bị trong hệ thống và lập trình cho PLC 
+
++ Xử lý ảnh và thiết kế giao diện điều khiển giám sát trên PC. 
+
++ Tạo một trang Web báo cáo kết quả lấy dữ liệu từ kết quả thu được của quá 
+
+trình xử lý ảnh và vận hành Robot trên Microsoft SQL.   
+
+ 
+
+ 
+
+
+
+10 
+
+ 
+
+CHƯƠNG 2. QUÁ TRÌNH XỬ LÝ ẢNH CHO QR CODE 
+
+2.1 Giới thiệu chung về QR Code 
+
+"QR" được viết tắt từ cụm từ "Quick Response" đề cập đến tốc độ và lượng 
+
+thông tin lớn mà nó chứa có thể được giải mã bằng các máy quét.  
+
+QR Code là một loại mã vạch hai chiều hoặc ma trận được phát triển tại Nhật 
+
+Bản bởi Denso Wave. Đôi khi chúng được gọi là mã 2D, mã vạch 2D hoặc mã di 
+
+động. Chúng là các mã có thể đọc được bằng máy và bao gồm các mô-đun màu 
+
+đen trên nền trắng.  
+
+QR Code là một loại mã vạch hai chiều được định nghĩa bởi tiêu chuẩn công 
+
+nghiệp ISO/IEC18004 vào tháng 6 năm 2000, được phát triển và bảo vệ bởi công 
+
+ty Nhật Bản Denso Wave Incorporated, là thành viên của tập đoàn Toyota. 
+
+QR Code có thể chứa hàng ngàn ký tự chữ và số trong khi mã vạch chỉ chứa 
+
+20 ký tự. Biểu tượng hai chiều này ban đầu được phát minh để theo dõi các bộ 
+
+phận ô tô, nhưng hiện nay các mã này ngày càng được sử dụng trong các lĩnh vực 
+
+khác như liên kết đến trang web, nhãn sản phẩm, chiến dịch quảng cáo, tin nhắn 
+
+SMS, chi tiết liên hệ, thư điện tử và nhiều hơn thế nữa. Thông tin được lưu trữ 
+
+trong mã có thể khác nhau từ thông tin theo dõi các sản phẩm được sản xuất trong 
+
+các ngành công nghiệp khác nhau đến thông tin về doanh nghiệp trên một danh 
+
+thiếp chuyển hướng đến trang web cụ thể. Những mã nhỏ gọn này cũng có thể 
+
+được ẩn bên trong hình ảnh. 
+
+Hệ thống QR Code gồm có một bộ mã hóa và bộ giải mã. Bộ mã hóa chịu 
+
+trách nhiệm mã hóa dữ liệu và tạo ra QR Code, trong khi đó bộ giải mã sẽ giải mã 
+
+dữ liệu từ QR Code đó.  
+
+ 
+
+Hình 2.1 Ví dụ về cách thức hoạt động của QR Code 
+
+
+
+11 
+
+ 
+
+ Quá trình phát triển của QR Code: 
+
+ 
+
+Hình 2.2 Các loại mã vạch 1D và 2D 
+
+Năm 1970, IBM đã phát triển các biểu tượng UPC bao gồm 13 chữ số để 
+
+cho phép tự động nhập vào máy tính. Các biểu tượng UPC này vẫn được sử dụng 
+
+rộng rãi cho hệ thống Điểm bán hàng (POS). Năm 1974, Code 39 có thể mã hóa 
+
+(biểu tượng hóa) xấp xỉ 30 chữ số của các ký tự chữ và số đã được phát triển. Sau 
+
+đó, vào đầu những năm 1980, Multistaged Symbol code trong đó xấp xỉ 100 chữ 
+
+số của ký tự có thể được lưu trữ như Code 16K và Code 49 đã được phát triển. 
+
+Thông tin phát triển nhanh chóng qua các năm, đòi hỏi cần tăng lên đối với các 
+
+biểu tượng có thể lưu trữ nhiều thông tin hơn và đại diện cho các ngôn ngữ khác 
+
+ngoài tiếng Anh. Để kích hoạt tính năng này, một biểu tượng có mật độ thậm chí 
+
+còn cao hơn các biểu tượng nhiều tầng được yêu cầu. Do đó, QR Code có thể chứa 
+
+tối đa 7.000 chữ số ký tự bao gồm cả ký tự Kanji (Ký tự Trung Quốc được sử dụng 
+
+ở Nhật Bản) được phát triển vào năm 1994. 
+
+ 
+
+Hình 2.3 Lịch sử của các biểu tượng 
+
+ Trước hết, Interleaved và Codabar có thể mã hóa (biểu tượng hóa) chữ số 
+
+đã được phát triển. Theo sau đó là sự phát triển của Code 39 có thể mã hóa các ký 
+
+tự chữ và số. Cùng với sự gia tăng không ngừng của thông tin, việc mã hóa ACSCII 
+
+
+
+12 
+
+ 
+
+đầy đủ là rất cần thiết và dẫn đến sự phát triển của Code 128. Sau đó, Multistaged 
+
+Symbols được phát triển trong khi các biểu tượng tuyến tính này được sắp xếp theo 
+
+thứ tự nhiều giai đoạn. Toyota Motor’s Kanban Code là Multistaged Symbols đầu 
+
+tiên trên thế giới. Khi máy tính trở nên phổ biến, các mã này được phát triển thành 
+
+Multi-row Symbols trong khi Multistaged Symbols Code được mở rộng thành 
+
+Matrix Symbols (dữ liệu được sắp xếp dưới dạng ma trận). Vùng in cho các Matrix 
+
+Symbol là nhỏ nhất trong số tất cả, và được coi là cao triển vọng như là biểu tượng 
+
+chính cho tương lai. 
+
+ 
+
+Hình 2.4 Sự phát triển của các biểu tượng (Symbols) 
+
+ QR Code là một Matrix Symbol được phát triển với khả năng cho phép 
+
+dung lượng cao, mật độ in của dữ liệu ma trận cao và tốc độ đọc cao dựa trên các 
+
+nghiên cứu về đặc điểm của chúng.  
+
+ 
+
+Hình 2.5 Sự phát triển của QR Code 
+
+ 
+
+ 
+
+ 
+
+
+
+13 
+
+ 
+
+ Một số đặc điểm của QR Code: 
+
+a) All-Direction (360°) High-Speed Reading:  
+
+Việc đọc các biểu tượng dạng ma trận sẽ được thực hiện bằng cách sử dụng 
+
+một cảm biến CCD (cảm biến vùng). Dữ liệu được quét và chụp bởi cảm biến sẽ 
+
+đươc lưu trữ trong bộ nhớ. Sau đó, sử dụng phần mềm, ta sẽ phân tích được chi 
+
+tiết, Finder Patterns được xác định, vị trí/ kích thước/ góc của biểu tượng được 
+
+phát hiện và quá trình giải mã sẽ được thực hiện. Biểu tượng 2 chiều truyền thống 
+
+mất nhiều thời gian để phát hiện vị trí/ kích thước/ góc của biểu tượng và có độ 
+
+chính xác khi đọc thấp hơn nếu so sánh với các biểu tượng tuyến tính.  
+
+QR code có Finder Patterns được dùng cho việc thông báo vị trí của biểu 
+
+tượng. Nó được sắp xếp ở 3 góc của QR code để có thể tăng tốc độ đọc từ mọi 
+
+hướng (360 độ). Tỉ lệ giữa màu đen và trắng giữa dòng quét chạy qua Finder 
+
+Patterns luôn là 1: 1: 3: 1: 1 khi nhìn từ mọi hướng (360 độ bao quanh nó). Bằng 
+
+cách phát hiện tỷ lệ cụ thể này, Finder Patterns có thể được phát hiện trong số các 
+
+hình ảnh được chụp bởi cảm biến CCD để xác định vị trí của QR Code trong một 
+
+khoảng thời gian ngắn.  
+
+Hơn nữa, bằng cách phát hiện được vị trí giữa 3 Finder Patterns này thì kích 
+
+thước, góc và viền bao quanh có thể được phát hiện đồng thời.  
+
+Việc sắp xếp các Finder Patterns này vào 3 góc của biểu tượng giúp cho tốc 
+
+độ của quá trình giải mã của QR Code nhanh hơn khoảng 20 lần so với các biểu 
+
+tượng dạng ma trận khác.  
+
+ 
+
+Hình 2.6 Finder Patterns 
+
+ 
+
+ 
+
+
+
+14 
+
+ 
+
+b) Resistant to Distorted Symbols: 
+
+Các biểu tượng thường bị biến dạng khi được gắn vào một bề mặt cong hoặc 
+
+do đầu đọc bị nghiêng (góc giữa mặt cảm biến CCD và mặt biểu tượng). Để khắc 
+
+phục sự biến dạng này, QR Code có các Alignment Patterns được sắp xếp với một 
+
+khoảng đều đặn trong phạm vi của biểu tượng. Phương sai giữa vị trí trung tâm 
+
+của Alignment Pattern ước tính từ hình dạng bên ngoài của biểu tượng và vị trí 
+
+trung tâm chính xác của Alignment Pattern sẽ được tính toán để xác định vị trí 
+
+đúng. Điều này sẽ làm Distorted linear/ non-linear có thể đọc được. 
+
+ 
+
+Hình 2.7 Correcting Distorted Symbols 
+
+c) Data Restoration Functionality (Resistant to Smudged or Damaged 
+
+Symbols): 
+
+QR Code có level của Error Correction khác nhau (7%, 15%, 25% và 30% 
+trên mỗi vùng của biểu tượng).  
+
+Chức năng Error Correction được thưc hiện trên từng vết nhòe hoặc hư 
+
+hỏng, sử dụng Reed-Solomon Code (là loại mã được sử dụng rộng rãi như phương 
+
+pháp sửa lỗi toán học với khả năng kháng lại lỗi cao). Reed-Solomon Code được 
+
+sắp xếp bên trong vùng dữ liệu của QR Code. 
+
+Với chức năng Error Correction này, mã có thể được đọc chính xác kể cả 
+
+khi có bị nhòe hoặc hư hỏng cho đến các level của nó. Level của Error Correction 
+
+có thể được cấu hình bởi người dùng khi họ tạo biểu tượng. Vì vậy, nếu mã có khả 
+
+năng cao bị nhòe trong môi trường sử dụng của người dùng, nên đặt 30% cho mức 
+
+hiệu chỉnh này. 
+
+
+
+15 
+
+ 
+
+ 
+
+Bảng 2-1 Các level của Eror Correction 
+
+ 
+
+ 
+
+Hình 2.8 Ví dụ về QR Code bị mù hoặc che mất 1 phần 
+
+ 
+
+d) Linking Functionality of the Symbols: 
+
+Chức năng Linking của QR Code cho phép 1 biểu tượng có thể được biểu 
+
+diễn dưới dạng nhiều biểu tượng khác bằng cách chia biểu tượng gốc ra. 
+
+Một biểu tượng có thể chia thành tối đa 16 biểu tượng. Mỗi biểu tượng con 
+
+có một chỉ báo cho biết biểu tượng ban đầu có bao nhiêu biểu tượng đã được chia 
+
+thành và theo thứ tự mà biểu tượng cụ thể đó sẽ nằm trong số tất cả các biểu tượng 
+
+được chia. Điều này sẽ cho phép các toàn bộ dữ liệu sẽ được chỉnh sửa và gửi đến 
+
+máy tính bất kể thứ tự các biểu tượng đã được đọc bởi người đọc.  
+
+Bằng chức năng Linking này, QR Code sẽ có thể được in ngay cả khi không 
+
+gian in không đủ rộng để có một QR Code duy nhất được in. 
+
+
+
+16 
+
+ 
+
+ 
+
+Hình 2.9 Ví dụ về chức năng Linking 
+
+e) Masking Process: 
+
+QR Code có các cột trắng và đen được sắp xếp theo một trật tự cân bằng 
+
+bởi nó có loại Patterns đặc biệt cho Process Masking. Để việc nhị phân hóa dữ liệu 
+
+đã được đọc chính xác hơn, cần sắp xếp các ô trắng và đen một cách cân bằng.  
+
+Để kích hoạt tính năng này, phép toán EX-OR sẽ được thực hiện giữa ô 
+
+vùng dữ liệu và ô Mask Pattern khi mã hóa dữ liệu được lưu trữ và sắp xếp chúng 
+
+vào vùng dữ liệu. Sau đó, các Patterns duy nhất hiện tồn tại và sự cân bằng giữa 
+
+các ô màu đen và trắng sẽ được đánh giá dựa trên dữ liệu vùng mà phép toán EX-
+
+OR ở trên đã thực hiện.  
+
+Có 8 Mask Patterns. Đánh giá sẽ được thực hiện cho mỗi Mask Pattern. Với 
+
+đánh giá cao nhất, Mask Pattern đó cùng với kết quả của phép tính EX-OR sẽ được 
+
+lưu trữ trong vùng dữ liệu.  
+
+ 
+
+Hình 2.10 Masking Process 
+
+ 
+
+
+
+17 
+
+ 
+
+f) Direct Marking: 
+
+QR Code thể hiện khả năng đọc vượt trội ngay cả đối với các biểu tượng 
+
+được đánh dấu trực tiếp bằng cách sử dụng điểm đánh dấu bằng tia laze hoặc dấu 
+
+chấm. Với các biểu tượng được đánh dấu trực tiếp, hình dạng ô không nhất thiết 
+phải là hình vuông, nó cũng có thể là hình tròn như hình dưới đây. Ngay cả khi 
+
+phần màu trắng (có độ phản xạ cao) và phần màu đen (có độ phản xạ thấp) bị đảo 
+
+ngược do góc của tia sáng, QR Code vẫn có thể được đọc một cách chính xác. 
+
+Nó cũng có thể đọc từ mặt sau của biểu tượng khi nó được đánh dấu trên 
+
+vật liệu trong suốt như thủy tinh, ….  
+
+ 
+
+Hình 2.11 Ví dụ về Direct Masking 
+
+ 
+
+ Cấu trúc QR Code 
+
+Cấu trúc mã QR được hiển thị trong Hình 2. Mỗi mã QR được cấu trúc bằng 
+
+các mô-đun tối (giá trị logic "1") và mô-đun sáng (giá trị logic "0"). Các mô-đun 
+
+được phân phối đều trong một lưới hình vuông của các trường, trong đó kích thước 
+
+của một trường là kích thước của một mô-đun duy nhất.  
+
+Theo tiêu chuẩn ISO/IEC18004, một mô-đun nên có kích thước 4x4 pixels 
+
+(điểm ảnh) với độ phân giải in ấn là 300 dpi (điểm ảnh trên mỗi inch). Kích thước 
+
+này đảm bảo khả năng đọc bởi đa số các thiết bị quang học. Tuy nhiên, theo một 
+
+số kết quả nghiên cứu cho thấy rằng kích thước mô-đun 3x3 đáp ứng điều kiện đọc 
+
+được, nếu sử dụng camera có độ phân giải cao hơn.  
+
+Kích thước của mã QR được gọi là version. Version của mã QR gồm 40 
+
+Version từ Version 1 (21x21 pixels) đến Version 40 (177x177 pixels). Các Version 
+
+
+
+18 
+
+ 
+
+này được định nghĩa theo số lượng dữ liệu chứa trong nó. Vì vậy, dữ liệu lưu trữ 
+
+bên trong mã QR càng lớn thì Version cũng càng lớn.  
+
+ 
+
+Hình 2.12 Các Version của QR Code 
+
+ 
+
+Mỗi biểu tượng QR Code bao gồm các Mẫu Chức năng (Function Patterns), 
+
+Vùng Mã hóa (Encoding Region) và Quiet Zone 
+
+ 
+
+Hình 2.13 Cấu trúc QR Code 
+
+ 
+
+a) Mẫu Chức năng (Function Patterns): 
+
+Phần này được sử dụng để cung cấp vị trí và hình dạng chính xác của mã 
+
+QR khi sử dụng thiết bị để chụp ảnh.   
+
+Các thành phần của Function Patterns:  
+
+• Finder Patterns: bao gồm 3 hình vuông giống hệt nhau, các khối này được 
+
+gọi là Position Detection Patterns được sắp xếp ở phía trên bên trái phía trên 
+
+bên phải và góc dưới bên trái của biểu tượng. Những điều này cho phép mã 
+
+được quét từ bất kỳ hướng nào trong một đầy đủ 360 độ với tốc độ đọc cao. 
+
+
+
+19 
+
+ 
+
+• Separator for Position Detection Patterns: có độ rộng 1 pixel giúp cải thiện 
+
+khả năng nhận diện vùng Finder Patterns bởi nó giúp phân chia Finder 
+
+Patterns với dữ liệu thực.  
+
+• Timing Patterns: là các chấm vuông màu đen và trắng sắp xếp liên tiếp nhau 
+
+và được sắp xếp nằm giữa các Position Detection Patterns. Các chấm vuông 
+
+này được sử dụng trong việc định vị mã QR.  
+
+• Alignment Patterns: Được sử dụng để phát hiện và sửa lỗi méo mó, biến 
+
+dạng của mã QR khi nó bị cong. Ngoài ra, nó chỉ xuất hiện từ versions 2 
+
+của QR Code trở lên. 
+
+b) Vùng Mã hóa (Encoding Region):  
+
+Được sử dụng để mã hóa dữ liệu trong mã QR. 
+
+Các thành phần của Encoding Region gồm:  
+
+• Format Information: lưu trữ thông tin của Error Correction level và Mask 
+
+Patterns. Đây là phần đầu tiên được đọc trong quá trình giải mã. 
+
+• Version Information: lưu trữ phiên bản của một QR Code được thể hiện 
+
+bằng 2 hình chữ nhật các bản vá lỗi - một cái được đặt ở bên trái của Position 
+
+Detection Patterns góc trên cùng bên phải và cái còn lại là nằm ở trên cùng 
+
+của góc dưới bên trái của Position Detection Patterns. 
+
+• Data and Error Correction Codewords: QR Code sử dụng Error Correction. 
+
+Điều này có nghĩa là chuỗi bit dữ liệu được đại diện cho văn bản của chúng 
+
+ta, sau đó ta phải sử dụng các bit đó để tạo ra các Error Correction 
+
+Codewords bằng cách sử dụng một quy trình được gọi là sửa lỗi Reed-
+
+Solomon. Thiết bị quét QR Code có thể đọc cả “Data Codewords” và “Error 
+
+Correction Codewords” và so sánh 2 loại này với nhau để xác định xem nó 
+
+đã đọc dữ liệu đúng hay chưa, nếu chưa thì nó có thể sửa lỗi.  
+
+ 
+
+c) Quiet Zone: Đó là một vùng rộng 4 module không chứa dữ liệu và nó được 
+
+sử dụng để đảm bảo rằng văn bản xung quanh hoặc đánh dấu không gây 
+
+ảnh hưởng đến dữ liệu của QR Code. 
+
+ 
+
+
+
+20 
+
+ 
+
+Ngoài ra, thành phần Mask Patterns cũng là một thành phần quan trọng của 
+
+QR Code. Nó được sử dụng để tạo ra QR Code với những ô trắng và đen được 
+
+phân bố tốt nhất (tỉ lệ khoảng 50:50 trong toàn bộ biểu tượng QR Code). Điều này 
+
+sẽ tăng độ tương phản của bức ảnh và vì vậy sẽ giúp thiết bị trong quá trình giải 
+
+mã QR Code. Theo như tiêu chuẩn, khi tạo một QR Code, mỗi Mask cụ thể đều 
+
+được sử dụng và xem kết quả. Mask nào cho ra kết quả tốt nhất trong quá trình 
+
+phân bố sẽ được chọn. Luôn luôn chỉ có một Mask được sử dụng trong mỗi QR 
+
+Code, nó được mã hóa cùng với version. Tác động của Mask được mô tả như hình 
+
+dưới: 
+
+ 
+
+Hình 2.14 Tác dụng của Mask Patterns 
+
+ Cột “before” chỉ ra số lượng ô đen và trắng trước khi một Mask nào đó được 
+
+sử dụng. Cột “after” chỉ ra số lượng ô đen và trắng sau khi sử dụng Mask phù hợp 
+
+nhất.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+21 
+
+ 
+
+ Ứng dụng QR Code 
+
+• Trong Marketing và quảng cáo:  
+
+QR Code có thể được tích hợp vào quảng cáo in, chẳng hạn như tạp chí, báo 
+
+hoặc áp phích. Khi người dùng quét Mã QR, họ có thể được chuyển hướng đến 
+
+trang đích hoặc nội dung tương tác, cho phép trải nghiệm hấp dẫn hơn. Bên cạnh 
+
+đó, QR Code có thể được tích hợp vào các chiến dịch phiếu giảm giá, cho phép 
+
+người dùng quét mã tại điểm bán hàng để được giảm giá hoặc khuyến mại ngay 
+
+lập tức. Điều này đơn giản hóa quy trình đổi quà và khuyến khích khách hàng quay 
+
+lại mua hàng hoặc sử dụng dịch vụ.  
+
+ 
+
+Hình 2.15 Ví dụ về QR Code trong Marketing và quảng cáo 
+
+• Trong thanh toán không dùng tiền mặt:  
+
+Mã QR được sử dụng rộng rãi cho các giải pháp thanh toán di động. Ứng 
+
+dụng thanh toán tạo mã QR duy nhất chứa chi tiết giao dịch, cho phép người dùng 
+
+quét và thực hiện thanh toán trực tiếp từ điện thoại thông minh của họ. Hoặc người 
+
+dùng sẽ dùng smartphone trực tiếp quét QR Code ngân hàng của người nhận để 
+
+thanh toán trực tiếp. Điều này giúp loại bỏ nhu cầu về tiền mặt hoặc thẻ tín dụng. 
+
+Từ đó sẽ góp phần giảm thiểu ô nhiễm môi trường.  
+
+
+
+22 
+
+ 
+
+ 
+
+Hình 2.16 Ví dụ về QR Code trong Mobile payment 
+
+• Trong tổ chức các sự kiện, show diễn, bữa tiệc:  
+
+Mã QR được sử dụng trong quản lý sự kiện để tạo thuận lợi cho quy trình 
+
+đăng ký và bán vé. Người tham dự có thể nhận vé mã QR qua email hoặc ứng dụng 
+
+di động, có thể được quét tại địa điểm để vào cửa. Điều này tăng tốc độ nhập cảnh 
+
+và giảm nhu cầu về vé vật lý. 
+
+ 
+
+Hình 2.17 Ví dụ về QR Code trong tổ chức sự kiện 
+
+• Trong Theo dõi và xác thực sản phẩm:  
+
+QR Code có thể được sử dụng để theo dõi và xác thực sản phẩm trong suốt 
+
+vòng đời của chúng. Các nhà sản xuất có thể nhúng QR Code duy nhất trên sản 
+
+
+
+23 
+
+ 
+
+phẩm, cho phép người tiêu dùng hoặc người tham gia chuỗi cung ứng quét mã để 
+
+biết thông tin về nguồn gốc, tính xác thực hoặc ngày hết hạn của sản phẩm. 
+
+ 
+
+Hình 2.18 Ví dụ về QR Code trong theo dõi nguồn gốc sản phẩm 
+
+• Chia sẻ thông tin mà không cần tiếp xúc:  
+
+QR Code được sử dụng để chia sẻ chi tiết liên hệ, liên kết trang web hoặc 
+
+thông tin mạng Wi-Fi một cách dễ dàng. Người dùng có thể tạo QR Code chứa 
+
+thông tin cá nhân hoặc doanh nghiệp của họ, những mã này người khác có thể quét 
+
+để lưu thông tin chi tiết trực tiếp vào sổ địa chỉ của họ hoặc truy cập các trang web 
+
+cụ thể. 
+
+ 
+
+Hình 2.19 Ví dụ về QR Code trong chia sẻ Wifi 
+
+ 
+
+ 
+
+ 
+
+
+
+24 
+
+ 
+
+• Trong giáo dục:  
+
+QR Code được sử dụng trong môi trường giáo dục để nâng cao trải nghiệm 
+
+học tập. Giáo viên có thể tạo QR Code liên kết đến các tài nguyên bổ sung, video 
+
+hoặc nội dung tương tác liên quan đến một chủ đề cụ thể. Học sinh có thể quét mã 
+
+bằng điện thoại thông minh hoặc máy tính bảng của mình để truy cập các tài liệu 
+
+bổ sung. 
+
+ 
+
+Hình 2.20 Ví dụ về QR Code trong giáo dục 
+
+• Trong y tế:  
+
+Từ khi đại dịch Covid-19 bùng nổ, việc sử dụng điện thoại cá nhân để quét 
+
+các mã QR bên ngoài các địa điểm công cộng để khai báo y tế đã trở thành một 
+
+việc làm bắt buộc mỗi khi ra khỏi nhà. Việc này giúp cho các cơ quan chức năng 
+
+có thể dễ dàng hơn trong việc truy vết những nơi mà một bệnh nhân Covid đã từng 
+
+đi qua để khoanh vùng và dập dịch tốt hơn.  
+
+ 
+
+Hình 2.21 Ví dụ về QR Code trong y tế 
+
+
+
+25 
+
+ 
+
+ 
+
+Tóm lại, ứng dụng của QR Code là nhiều vô kể trong nhiều ngành công 
+
+nghiệp và cuộc sống hàng ngày. Tính linh hoạt và tiện lợi của mã QR khiến chúng 
+
+trở thành một công cụ có giá trị trong các ngành khác nhau, nâng cao hiệu quả, 
+
+cung cấp khả năng truy cập thông tin nhanh chóng và nâng cao trải nghiệm người 
+
+dùng. Khi công nghệ tiếp tục phát triển, chúng ta có thể mong đợi được thấy những 
+
+đổi mới và ứng dụng của mã QR trong tương lai. 
+
+ 
+
+2.2 Nhận diện QR code dựa trên quá trình xử lý ảnh 
+
+Thuật toán chung cho quá trình nhận diện QR Code gồm các bước sau: 
+
++ Image Acquisition (Thu thập hình ảnh): chụp hoặc tải lên các hình ảnh có 
+
+chứa QR Code. Việc này được thực hiện bằng các thiết bị có camera để chụp ảnh 
+
+hoặc bằng cách đọc các tệp chứa hình ảnh. 
+
++ Preprocessing (Tiền xử lý): Thực hiện các bước tiền xử lý trên hình ảnh để 
+
+nâng cao chất lượng và hỗ trợ phát hiện QR Code. Các kỹ thuật tiền xử lý phổ biến 
+
+bao gồm thay đổi kích thước, giảm nhiễu, điều chỉnh độ tương phản và phân 
+
+ngưỡng hình ảnh (Image Thresholding). 
+
++ QR Code Detection (Phát hiện QR Code): Áp dụng thuật toán phát hiện 
+
+QR Code để xác định vị trí và ranh giới của QR Code trong hình ảnh được xử lý 
+
+trước. Điều này thường được thực hiện bằng cách phân tích các Patterns và cấu 
+
+trúc dành riêng cho QR Code, chẳng hạn như Finder Patterns và Alignment 
+
+Patterns.  
+
++ QR Code Decoding (Giải mã QR Code): QR Code có thể chứa nhiều loại 
+
+dữ liệu khác nhau, chẳng hạn như URL, văn bản, thông tin liên hệ hoặc các loại 
+
+dữ liệu có cấu trúc khác. Để giải mã QR Code, bạn cần sử dụng thư viện giải mã 
+
+QR Code hoặc thuật toán có thể diễn giải thông tin được mã hóa. 
+
++ Data Extraction and Utilization (Sử dụng dữ liệu): Ta có thể trích xuất dữ 
+
+liệu được giải mã từ QR Code và sử dụng nó cho mục đích mong muốn. Ví dụ: 
+
+nếu QR Code chứa URL, ta có thể mở URL đó trong trình duyệt web. Nếu nó chứa 
+
+văn bản hoặc thông tin liên hệ, ta có thể hiển thị nó hoặc lưu nó vào cơ sở dữ liệu. 
+
+
+
+26 
+
+ 
+
+ Image Acquisition 
+
+Là quá trình chụp hoặc thu được hình ảnh có chứa QR Code. Chất lượng và 
+
+độ tin cậy của hình ảnh thu được ảnh hưởng trực tiếp đến các bước tiếp theo trong 
+
+nhận dạng QR Code. 
+
+Một số đặc điểm của quá trình này: 
+
+a) Image Source: Hình ảnh chứa QR Code có thể được lấy từ nhiều nguồn 
+
+khác nhau: 
+
++ Máy ảnh: Chụp ảnh bằng máy ảnh, chẳng hạn như máy ảnh của điện thoại 
+
+thông minh hoặc thiết bị chụp ảnh chuyên dụng, cho phép nhận dạng QR Code 
+
+theo thời gian thực. Máy ảnh có thể được tích hợp vào một ứng dụng hoặc được 
+
+sử dụng độc lập để chụp ảnh. 
+
++ Tệp hình ảnh: Tải tệp hình ảnh có chứa QR Code từ bộ nhớ hoặc internet. 
+
+Phương pháp này hữu ích khi làm việc với hình ảnh có sẵn hoặc hình ảnh thu được 
+
+từ các nguồn khác. 
+
+b) Image Quality: Chất lượng của hình ảnh thu được là rất quan trọng để nhận 
+
+dạng QR Code thành công. Các yếu tố cần xem xét bao gồm: 
+
++ Độ sắc nét và rõ ràng: Hình ảnh phải rõ ràng và tập trung để đảm bảo các 
+
+chi tiết của QR Code rõ ràng. 
+
++ Điều kiện ánh sáng: Ánh sáng đầy đủ là điều cần thiết để chụp được ảnh 
+
+phơi sáng tốt. Bóng tối, phơi sáng quá mức hoặc thiếu sáng có thể cản trở khả năng 
+
+nhận dạng QR Code. 
+
++ Biến dạng và Phối cảnh: Việc tránh biến dạng hoặc lệch QR Code trong 
+
+khi chụp ảnh là rất quan trọng. Căn chỉnh máy ảnh vuông góc với QR Code sẽ 
+
+giảm thiểu biến dạng phối cảnh. 
+
+c) Focus and Framing: Đảm bảo lấy nét và tạo khuôn hình thích hợp khi chụp 
+
+ảnh là điều quan trọng để tối đa hóa khả năng hiển thị và khả năng đọc của 
+
+QR Code. Hãy chú ý đến những điều sau: 
+
++ Khoảng cách: Duy trì khoảng cách thích hợp với QR Code để chụp mã 
+
+mà không bị biến dạng hoặc mờ. 
+
++ Tạo khung: Đảm bảo QR Code hiển thị đầy đủ trong khung hình ảnh mà 
+
+không bị các đối tượng khác cắt ngang hoặc che khuất. 
+
+
+
+27 
+
+ 
+
+d) Image Resolution: Độ phân giải hình ảnh cao hơn thường cung cấp nhiều 
+
+chi tiết hơn và cải thiện khả năng nhận dạng mã QR. Tuy nhiên, hãy xem 
+
+xét sự đánh đổi giữa độ phân giải và tốc độ xử lý, vì độ phân giải cao hơn 
+
+có thể yêu cầu nhiều tài nguyên tính toán hơn. 
+
+ Preprocessing  
+
+Tiền xử lý đóng một vai trò quan trọng trong nhận dạng QR Code bằng cách 
+
+cải thiện chất lượng hình ảnh và nâng cao các tính năng cần thiết để phát hiện chính 
+
+xác. Dưới đây là một số kỹ thuật tiền xử lý phổ biến được sử dụng trong nhận dạng 
+
+QR Code: 
+
+a) Grayscale Conversion: Chuyển đổi hình ảnh đầu vào thành thang độ xám 
+
+để đơn giản hóa các bước xử lý tiếp theo. Điều này làm giảm độ phức tạp 
+
+tính toán và loại bỏ các biến thể màu có thể không liên quan đến phát hiện 
+
+QR Code. 
+
+b) Image Resizing: Thay đổi kích thước hình ảnh về kích thước phù hợp để tối 
+
+ưu hóa tốc độ xử lý và giảm nhiễu. Các hình ảnh nhỏ hơn có thể được xử lý 
+
+nhanh hơn nhưng việc giảm kích thước quá mức có thể dẫn đến mất các chi 
+
+tiết quan trọng. 
+
+c) Noise Reduction: Áp dụng các kỹ thuật giảm nhiễu, chẳng hạn như làm 
+
+Gaussian Smoothing hoặc Median Filtering, để khử nhiễu không mong 
+
+muốn và cải thiện độ rõ của QR Code. Tính năng giảm nhiễu giúp tăng 
+
+cường độ tương phản giữa các mô-đun tối và sáng của QR Code. 
+
+d) Image Thresholding: để chuyển đổi hình ảnh thang độ xám thành hình ảnh 
+
+nhị phân. Thresholding liên quan đến việc đặt giá trị Threshold, giúp phân 
+
+tách nền trước (QR Code) khỏi nền. Bước này đơn giản hóa quá trình xử lý 
+
+tiếp theo và giúp cách ly các mô-đun QR Code. 
+
+e) Edge Detection: Áp dụng các thuật toán phát hiện cạnh, chẳng hạn như 
+
+Canny Edge Detetion, để xác định các cạnh của QR Code. Phát hiện cạnh 
+
+giúp phát hiện các ranh giới và xác định vị trí của QR Code trong hình ảnh. 
+
+f) Perspective Correction: Nếu QR Code bị méo hoặc lệch do góc chụp ảnh, 
+
+các kỹ thuật chỉnh sửa phối cảnh có thể được áp dụng. Các kỹ thuật này nắn 
+
+QR Code về dạng vuông chuẩn, giúp các bước xử lý tiếp theo dễ dàng hơn. 
+
+
+
+28 
+
+ 
+
+g) Contrast Enhancement: Điều chỉnh độ tương phản và độ sáng của hình ảnh 
+
+để tăng cường khả năng hiển thị của QR Code. Có thể sử dụng các kỹ thuật 
+
+như cân bằng biểu đồ hoặc cân bằng biểu đồ thích ứng để cải thiện độ tương 
+
+phản tổng thể. 
+
+ QR Code Detection 
+
+Là quá trình xác định vị trí và ranh giới của QR Code trong một hình ảnh. 
+
+Bước này rất quan trọng trong nhận dạng QR Code vì nó cung cấp thông tin cần 
+
+thiết để giải mã dữ liệu được mã hóa. 
+
+ Các kĩ thuật được sử dụng trong quá trình này:  
+
+a) Binarization: Chuyển đổi hình ảnh thang độ xám đã xử lý trước thành hình 
+
+ảnh nhị phân, trong đó các mô-đun mã QR được thể hiện dưới dạng màu 
+
+đen và nền được thể hiện dưới dạng màu trắng. Bước này đơn giản hóa quá 
+
+trình xử lý tiếp theo bằng cách nhấn mạnh các vùng có độ tương phản cao. 
+
+b) Finder Pattern Detection: QR Code thường chứa ba Finder Pattern tạo thành 
+
+hình vuông đặc biệt ở các góc, được sử dụng để định vị và căn chỉnh QR 
+
+Code. Phát hiện các Patterns này là một bước cơ bản trong phát hiện QR 
+
+Code. Có thể sử dụng nhiều kỹ thuật khác nhau, chẳng hạn như phát hiện 
+
+cạnh, khớp mẫu, … để xác định các Finder Patterns. 
+
+c) Alignment Pattern Detection: Các Patterns này hỗ trợ sửa lỗi và căn chỉnh 
+
+thiết bị quét. Tương tự như Finder Pattern Detection, các kỹ thuật như phát 
+
+hiện cạnh hoặc khớp mẫu có thể được sử dụng để định vị các Alignment 
+
+Patterns. 
+
+d) Positioning Patterns: giúp xác định hướng và phối cảnh tổng thể của mã. 
+
+Bằng cách phát hiện và phân tích các Positioning Patterns này, vị trí và xoay 
+
+của QR Code có thể được xác định chính xác. 
+
+e) Boudaries Determination: Sau khi xác định được các loại Patterns nêu ở 
+
+trên các ranh giới của QR Code có thể được xác định. Điều này liên quan 
+
+đến việc xác định các cạnh của mã bằng cách kết nối các Patterns được phát 
+
+hiện và ngoại suy các phần còn thiếu nếu cần. 
+
+
+
+29 
+
+ 
+
+ QR Code Decoding 
+
+Là quá trình trích xuất thông tin được mã hóa từ mã QR. Sau khi mã QR 
+
+được phát hiện thành công trong một hình ảnh, quá trình giải mã cho phép chúng 
+
+ta truy xuất dữ liệu có trong mã. 
+
+Các kĩ thuật trong quá trình giải mã: 
+
+a) Error Correction: QR Code sử dụng các kỹ thuật sửa lỗi để đảm bảo tính 
+
+toàn vẹn của dữ liệu ngay cả khi có các phần mã bị hỏng hoặc bị che khuất. 
+
+QR Code sử dụng sửa lỗi Reed-Solomon, trong đó thông tin dư thừa được 
+
+thêm vào dữ liệu được mã hóa. Sự dư thừa này cho phép bộ giải mã sửa lỗi 
+
+và khôi phục dữ liệu gốc ngay cả khi một số mô-đun bị hỏng hoặc không 
+
+thể đọc được. 
+
+b) Data Extraction: Để giải mã QR Code, các mô-đun dữ liệu trong mã được 
+
+trích xuất và xử lý. Các mô-đun dữ liệu bao gồm các mô-đun tối và sáng 
+
+được sắp xếp theo mô hình lưới. Kích thước mô-đun và cấu trúc lưới phụ 
+
+thuộc vào Version Information của QR Code. Bằng cách phân tích các 
+
+Patterns và trình tự của các mô-đun dữ liệu, dữ liệu được mã hóa có thể 
+
+được trích xuất. 
+
+c) Reed-Solomon Decoding: Dữ liệu được trích xuất phải tuân theo giải mã 
+
+Reed-Solomon, bao gồm việc áp dụng các thuật toán toán học để sửa các 
+
+lỗi được đưa ra trong quá trình mã hóa và giải mã. Các Error Correction 
+
+Codewords được nhúng trong QR Code được sử dụng để xác định và sửa 
+
+lỗi, giúp khôi phục dữ liệu gốc. 
+
+d) Data Interpolation: Sau khi sửa lỗi được áp dụng, dữ liệu được diễn giải dựa 
+
+trên sơ đồ mã hóa được sử dụng. QR Code có thể mã hóa nhiều loại dữ liệu 
+
+khác nhau, bao gồm URL, văn bản, thông tin liên hệ, chi tiết mạng Wi-Fi, 
+
+v.v. Lược đồ mã hóa cụ thể được sử dụng tùy thuộc vào loại dữ liệu được 
+
+mã hóa. 
+
+e) Decoding Libraries and APIs: Việc giải mã QR Code có thể được hỗ trợ 
+
+bằng cách sử dụng các thư viện và API chuyên dụng được thiết kế đặc biệt 
+
+để nhận dạng QR Code. Các thư viện này cung cấp các chức năng và thuật 
+
+toán để xử lý quá trình giải mã, trừu tượng hóa sự phức tạp của việc sửa lỗi 
+
+và diễn giải dữ liệu. Các thư viện phổ biến như ZXing (Zebra Crossing) và 
+
+
+
+30 
+
+ 
+
+ZBar cung cấp hỗ trợ giải mã QR Code bằng nhiều ngôn ngữ lập trình khác 
+
+nhau. 
+
+ Data Extraction and Utilization 
+
+Sau khi giải mã thành công mã QR, dữ liệu được trích xuất có thể được xử 
+
+lý, hiển thị, lưu trữ hoặc sử dụng theo nhiều cách khác nhau tùy thuộc vào yêu cầu 
+
+của ứng dụng. 
+
+Một số đặc điểm của quá trình này:  
+
+a) Data Types: QR Code có thể mã hóa các loại dữ liệu khác nhau, bao gồm 
+
+URL, văn bản, thông tin liên hệ (vCards), địa chỉ email, số điện thoại, chi 
+
+tiết mạng Wi-Fi, vị trí địa lý, …. Hiểu loại dữ liệu cụ thể được mã hóa trong 
+
+QR Code là điều cần thiết để trích xuất và diễn giải thông tin một cách chính 
+
+xác. 
+
+b) Parsing and Extraction: Sau khi QR Code được giải mã, dữ liệu trích xuất 
+
+cần được phân tích cú pháp để trích xuất các trường hoặc giá trị có liên 
+
+quan. Ví dụ: nếu QR Code chứa thông tin liên hệ, các kỹ thuật phân tích cú 
+
+pháp sẽ được sử dụng để trích xuất tên, số điện thoại, địa chỉ email và các 
+
+chi tiết liên quan khác. Thư viện phân tích cú pháp hoặc thuật toán dành 
+
+riêng cho loại dữ liệu có thể hỗ trợ quá trình này. 
+
+c) Displaying Data: Dữ liệu được trích xuất có thể được hiển thị cho người 
+
+dùng ở định dạng thân thiện với người dùng. Ví dụ: nếu QR Code chứa một 
+
+URL, URL được trích xuất có thể được mở trong trình duyệt web. Nếu nó 
+
+chứa văn bản hoặc thông tin liên hệ, dữ liệu được trích xuất có thể được 
+
+hiển thị trên màn hình hoặc trong giao diện người dùng của ứng dụng. 
+
+d) Integration with other Applications: Dữ liệu được trích xuất có thể được sử 
+
+dụng bởi các ứng dụng hoặc dịch vụ khác. Ví dụ: nếu QR Code chứa thông 
+
+tin chi tiết về mạng Wi-Fi, thì SSID và mật khẩu được trích xuất có thể được 
+
+sử dụng để tự động kết nối thiết bị với mạng Wi-Fi được chỉ định. Tương 
+
+tự, nếu QR Code chứa vị trí địa lý, kinh độ và vĩ độ được trích xuất có thể 
+
+được sử dụng cho các ứng dụng điều hướng hoặc lập bản đồ. 
+
+ 
+
+ 
+
+
+
+31 
+
+ 
+
+2.3 Zxing.Net Library 
+
+ZXing.Net là một thư viện nguồn mở phổ biến để xử lý và giải mã hình ảnh 
+
+mã vạch trong các ứng dụng .NET. Nó cung cấp một bộ công cụ và API toàn diện 
+
+để đọc và tạo mã vạch, giúp dễ dàng tích hợp chức năng mã vạch vào các dự án 
+
+.NET của người dùng. 
+
+Thư viện dựa trên dự án ZXing (Zebra Crossing), đây là thư viện quét và giải 
+
+mã mã vạch được sử dụng rộng rãi ban đầu được phát triển bằng Java. ZXing.Net 
+
+là một cổng .NET của dự án ZXing, cho phép các nhà phát triển tận dụng khả năng 
+
+xử lý mã vạch của nó trong hệ sinh thái .NET. 
+
+ZXing.Net hỗ trợ nhiều loại mã vạch khác nhau, bao gồm mã vạch 1D (chẳng 
+
+hạn như Code 39, Code 128, EAN-13, UPC-A) và mã vạch 2D (chẳng hạn như 
+
+Code QR, Data Matrix, PDF417). Nó cung cấp một API đơn giản và trực quan để 
+
+giải mã mã vạch từ tệp hình ảnh hoặc trực tiếp từ máy ảnh. 
+
+Với ZXing.Net, người dùng có thể dễ dàng tích hợp chức năng quét mã vạch 
+
+vào các ứng dụng .NET của mình, chẳng hạn như hệ thống quản lý hàng tồn kho, 
+
+hệ thống điểm bán hàng, ứng dụng dành cho thiết bị di động hoặc bất kỳ ứng dụng 
+
+nào khác yêu cầu xử lý mã vạch. Thư viện cho phép chụp ảnh mã vạch, xử lý chúng 
+
+và trích xuất dữ liệu được mã hóa. 
+
+ZXing.Net cung cấp nhiều tùy chọn cấu hình và tính năng tùy chỉnh, cho 
+
+phép tinh chỉnh quy trình giải mã mã vạch theo yêu cầu cụ thể của mình. Nó cũng 
+
+cung cấp hỗ trợ cho nhiều nền tảng trong hệ sinh thái .NET, bao gồm Windows 
+
+Forms, WPF (Windows Presentation Foundation), ASP.NET và Xamarin. 
+
+Hơn nữa, ZXing.Net là một dự án nguồn mở được lưu trữ trên GitHub, có 
+
+nghĩa là mọi người dùng có thể truy cập mã nguồn của nó, đóng góp cho sự phát 
+
+triển của nó và hưởng lợi từ một cộng đồng các nhà phát triển tích cực. Thư viện 
+
+được cập nhật và bảo trì liên tục, đảm bảo khả năng tương thích với các tiêu chuẩn 
+
+mã vạch mới nhất, đồng thời cung cấp các bản sửa lỗi và cải tiến theo thời gian. 
+
+Tóm lại, ZXing.Net là một thư viện mạnh mẽ và linh hoạt để xử lý mã vạch 
+
+trong các ứng dụng .NET. Nó đơn giản hóa việc tích hợp chức năng quét và giải 
+
+mã mã vạch, cho phép các nhà phát triển xây dựng các tính năng liên quan đến mã 
+
+vạch mạnh mẽ và hiệu quả vào phần mềm của họ. 
+
+
+
+32 
+
+ 
+
+❖ Các thành phần chính của thư viện Zxing:  
+
+• Core library: chứa các thuật toán xử lý và giải mã mã vạch cơ bản. Nó cung 
+
+cấp nền tảng cho tất cả các hoạt động liên quan đến mã vạch và xử lý các 
+
+chi tiết về nhận dạng và giải thích mã vạch. 
+
+• Barcode Formats: Thư viện bao gồm các triển khai cho các định dạng mã 
+
+vạch khác nhau, cả 1D và 2D. Mỗi định dạng mã vạch có lớp riêng trong 
+
+thư viện, xác định các đặc điểm cụ thể, quy tắc mã hóa và thuật toán giải 
+
+mã cho định dạng đó. Các ví dụ bao gồm Code 39, Code 128, EAN-13, 
+
+UPC-A, QR Code, Data Matrix, .… 
+
+• Readers Interface: là thành phần thực hiện quá trình giải mã mã vạch thực 
+tế. Nó lấy một hình ảnh đầu vào và xác định vị trí cũng như giải mã bất kỳ 
+
+mã vạch nào có trong hình ảnh. ZXing cung cấp các thành phần đầu đọc 
+
+cho các định dạng mã vạch khác nhau, cho phép người dùng chọn đầu đọc 
+
+thích hợp cho loại mã vạch cụ thể của mình. 
+
+• Writers Interface: là thành phần tạo ra hình ảnh mã vạch. Chúng lấy định 
+
+dạng và nội dung mã vạch mong muốn và tạo ra hình ảnh đại diện cho mã 
+
+vạch. ZXing cung cấp các trình ghi cho các định dạng mã vạch khác nhau, 
+
+cho phép người dùng tạo hình ảnh mã vạch theo chương trình. 
+
+• Image Processing: xử lý thao tác và nâng cao hình ảnh mã vạch. Các thành 
+
+phần này thực hiện các tác vụ như thay đổi kích thước hình ảnh, xoay, cắt 
+
+xén và tạo ngưỡng để tối ưu hóa hình ảnh để nhận dạng và giải mã mã vạch. 
+
+Nó chịu trách nhiệm xử lý trước hình ảnh trước khi chuyển nó sang quá 
+
+trình giải mã. 
+
+ 
+
+❖ Quá trình giải mã QR Code trong đồ án sử dụng thư viện Zxing: 
+
+• string imagePath = @"D:\Cognex_Pic\0.bmp"; 
+
++ Đây là đường dẫn đến file ảnh chứa mã QR cần đọc. 
+
++ string imagePath là một biến kiểu chuỗi (string) để lưu trữ đường dẫn. 
+
++ @"D:\Cognex_Pic\0.bmp" là một đường dẫn tuyệt đối đến file ảnh "0.bmp" 
+
+trong thư mục "Cognex_Pic" trên máy tính. Dấu @ ở trước chuỗi giúp cho việc 
+
+viết đường dẫn không cần xử lý các ký tự đặc biệt như backslash \. 
+
+
+
+33 
+
+ 
+
+ 
+
+• var barcodeReader = new BarcodeReader(); 
+
++ Đây là cách tạo một đối tượng BarcodeReader mới. 
+
++ var là một từ khoá để khai báo một biến với kiểu dữ liệu được xác định tự 
+
+động dựa trên giá trị được gán. 
+
++ new BarcodeReader( ) tạo một đối tượng mới từ lớp (class) BarcodeReader. 
+
+ 
+
+• Bitmap bitmap = new Bitmap(imagePath); 
+
++ Đây là cách tạo một đối tượng Bitmap từ đường dẫn ảnh đã cho. 
+
++ Bitmap là một lớp trong .NET Framework để đại diện cho một hình ảnh 
+
+bitmap. 
+
++ new Bitmap(imagePath) tạo một đối tượng Bitmap mới từ file ảnh có đường 
+
+dẫn imagePath. 
+
+ 
+
+• var result = barcodeReader.Decode(bitmap); 
+
++ Đây là cách đọc mã QR từ ảnh sử dụng đối tượng barcodeReader đã được 
+
+tạo ở trên và đối tượng bitmap. 
+
++ var result là một biến được tạo ra để lưu trữ kết quả của việc đọc QR Code. 
+
++ barcodeReader.Decode(bitmap) gọi phương thức Decode của đối tượng 
+
+barcodeReader và truyền vào đối tượng bitmap để đọc QR Code từ ảnh thu được. 
+
++ Kết quả được trả về sẽ được gán cho biến result.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+
+
+34 
+
+ 
+
+CHƯƠNG 3. MÔ HÌNH THỰC NGHIỆM 
+
+3.1. Cấu trúc hệ thống vận hành 
+
+  Robot RV-2FR-Q 
+
+Robot ghép nối 6 trục nhỏ gọn với chiều dài cánh tay tối ưu và phạm vi 
+
+chuyển động phù hợp với các nhiệm vụ lắp ráp và xử lý phức tạp. Phần thân nhỏ 
+
+gọn và thiết kế cánh tay mỏng, cho phép mở rộng khu vực vận hành và tăng cường 
+
+công suất tải.  
+
+ Cách bố trí cho thấy khả năng linh hoạt cho các ứng dụng từ vận chuyển 
+
+các bộ phận cơ khí để lắp ráp các bộ phận điện. 
+
+ 
+
+Hình 3.1 Thông số kỹ thuật một số dòng robot RV-F 
+
+Loại này sử dụng cánh tay có thể gập được, sẽ giúp làm mỏng thiết bị, cho 
+
+phép hoàn thành các hoạt động gần Robot hơn bao giờ hết.  
+
+ 
+
+Hình 3.2 Minh họa độ gập của Robot 
+
+
+
+35 
+
+ 
+
+Phạm vi vận hành của trục J4 cũng được mở rộng để thay đổi các tư thế liên 
+
+tục trong quá trình lắp ráp và vận chuyển. Điều này cũng giúp loại bỏ việc cần thiết 
+
+cho các robot di chuyển theo hướng ngược lại trong quá trình vận hành. 
+
+ 
+
+Hình 3.3 Phạm vi vận hành của trục J4 được mở rộng 
+
+Mở rộng phạm vi vận hành trục đứng giúp cải thiện tính linh hoạt khi bố trí 
+
+lắp đặt Robot, cho phép sử dụng hiệu quả hơn các không gian tiếp cận xung quanh 
+
+toàn bộ chu vi bao gồm cả phía sau nhờ đó mà khoảng cách di chuyển sẽ ngắn hơn, 
+
+rút ngắn thời gian nghỉ của máy. 
+
+
+
+36 
+
+ 
+
+ 
+
+Hình 3.4 Phạm vi vận hành trục đứng được mở rộng 
+
+ 
+
+Hình 3.5 Robot RV-2FR 
+
+ 
+
+Thông tin  Đơn vị Chi tiết 
+
+Mã hiệu Robot   RV-2F 
+
+Mức độ bảo vệ   IP30 
+
+Số bậc tự do   6 
+
+
+
+37 
+
+ 
+
+Hệ truyền động   AC Servo (Khớp J2, J3. J5 
+
+có phanh) 
+
+Phương pháp xác 
+
+định vị trí 
+
+  Absolute Encoder 
+
+Độ dài cánh tay UpperArm (J1-J2) mm 230 
+
+ ForeArm (J3-J5) mm 270 
+
+Bán kính tiếp cận 
+
+tối đa 
+
+ mm 504 
+
+Giới hạn hành 
+
+trình 
+
+Waist (J1) Degree 480 (-240 to +240) 
+
+Shoulder (J2) 240 (-120 to +120) 
+
+Elbow (J3) 160 (0 to +160) 
+
+Wrist Twist (J4) 400 (-200 to +200) 
+
+Wrist Pitch (J5) 240 ( -120 to +120) 
+
+Wrist Roll (J6) 720 (-360 to +360) 
+
+Tốc độ chuyển 
+
+động 
+
+Waist (J1) Degree/s 300 
+
+Shoulder (J2) 150 
+
+Elbow (J3) 300 
+
+Wrist Twist (J4) 450 
+
+Wrist Pitch (J5) 450 
+
+Wrist Roll (J6) 720 
+
+Khối lượng tải Tối đa  Kg 3 
+
+ Định mưc Kg 2 
+
+Khả năng lặp lại 
+
+vị trí 
+
+ mm ±0.02 
+
+Nhiệt độ môi 
+
+trường 
+
+ Độ C 0-40 
+
+Momen tải cho 
+
+phép 
+
+Wrist Twist (J4) Nm 4.17 
+
+Wrist Pitch (J5) 4.17 
+
+
+
+38 
+
+ 
+
+Wrist Roll (J6) 2.45 
+
+Momen quán tính  Wrist Twist (J4) Kg.m2 0.18 
+
+Wrist Pitch (J5) 0.18 
+
+Wrist Roll (J6) 0.04 
+
+Bảng 3-1 Thông số kĩ thuật của Robot 
+
+Trong khoảng 70mm -> 170mm, khối lượng tải cho phép: 2.0kg 
+
+Trong khoảng 70mm -> 350mm, khối lượng tải cho phép: 1.0kg 
+
+ 
+
+ Bộ điều khiển CR800-02-VQ 
+
+Bộ điều khiển CR800-2VQ là bộ drive robot, là thành phần trực tiếp tham 
+
+gia vào quá trình điều khiển chuyển động robot; được kết nối trực tiếp đến từng 
+
+động cơ servo trên các khớp của robot, có chức năng phát xung điều khiển từng 
+
+khớp của robot dựa trên những lệnh điều khiển từ CPU của robot gửi qua cổng 
+
+cáp quang. 
+
+ 
+
+Hình 3.6 Bộ điều khiển CR800-02-VQ 
+
+Thông tin Đơn vị Chi tiết 
+
+Loại  CR800-02-VQ 
+
+Dung lượng 
+
+bộ nhớ 
+
+Số điểm lập trình được Point 26,000 
+
+Số lệnh Step 52,000 
+
+Số chương trình  512 
+
+
+
+39 
+
+ 
+
+Ngôn ngữ lập trình Robot  MELFA-BASIC V, 
+
+VI 
+
+Phương thức Teaching  -Trực tiếp từ vị trí 
+
+hiện tại 
+
+-Nhập tọa độ 
+
+Các tín hiệu 
+
+vào/ra 
+
+Emergency Stop Input Point 1 (Dual channel) 
+
+Emergency Stop Output Point 1 (Dual channel) 
+
+Mode Selector Input Point 1 (Dual channel) 
+
+Mode Output Point 1 (Dual channel) 
+
+Door Switch Input Point 1 (Dual channel) 
+
+Robot Error Output Point 1 (Dual channel) 
+
+Nguồn cấp Điện áp đầu vào V 1 pha 200-230 VAC 
+
+Công suất kVA 0.5 
+
+Tần số nguồn cấp Hz 50/60 
+
+Bảng 3-2 Thông số kĩ thuật của bộ điều khiển CR800-02-VQ 
+
+ Hệ điều khiển PLC của MITSUBISHI 
+
+Hệ điều khiển PLC được gắn trên thanh Base Q38DB, gồm có 9 slots, ghép 
+
+nối được tối đa 8 Module mở rộng, đồng thời cũng hỗ trợ chức năng Multiple 
+
+CPUs cho phép 1 CPU PLC điều khiển đồng thời tối đa 3 CPU Robot 
+
+ Thanh Base gồm: Module Nguồn; Module CPU; Module Robot CPU; 
+
+Module Input; Module Output; Module High-Speed Counter 
+
+
+
+40 
+
+ 
+
+ 
+
+Hình 3.7 Bộ PLC Q sử dụng trong phạm vi đồ án 
+
+a) Robot CPU Unit Q172DSRCPU 
+
+ 
+
+Hình 3.8 CPU robot Q172DSRCPU 
+
+(1) LED báo trạng thái, đồng thời hiển thị mã lỗi của bộ điều khiển CR800 
+
+(2) Rotary Switch (1): Always set 0 
+
+(3) Rotary Switch (2): Always set 0 
+
+(4) RUN/STOP Switch: Không sử dụng 
+
+(5) Emergency Input: Không sử dụng 
+
+(6) Cổng CN1: Kết nối cáp SSCNET III với bộ CR800-02-VQ 
+
+(11) Peripheral I/F Connector: Cổng kết nối truyền thông Ethernet với PC 
+
+
+
+41 
+
+ 
+
+• Trình tự khời động bộ điều khiển và CPU Robot Unit 
+
+ Trình tự thực hiện lần lượt như sau: 
+
+ 1. Bật nguồn ELCB, cấp nguồn cho bộ điều khiển CR800-R/Q 
+
+ 2. Bật nguồn phía CPU Robot unit 
+
+• Trình tự dừng vận hành bộ điều khiển và CPU Robot Unit 
+
+ Trình tự thực hiện lần lượt như sau: 
+
+ 1. Dừng vận hành Robot 
+
+ 2. Ngắt tín hiệu Servo ON, bật tín hiệu Servo OFF 
+
+ 3. Ngắt nguồn điều khiển phía CPU Robot Unit 
+
+ 4. Ngắt nguồn phía ELCB cấp nguồn cho bộ Controller CR800-R/Q 
+
+ Trường hợp ngắt nguồn bộ điều khiển CR800 trong khi CPU Robot Unit 
+
+vẫn có điện, lỗi H8751 (CR800 Communication Error) xuất hiện. Nhấn Reset lỗi 
+
+sau khi bật nguồn bộ điều khiển CR800 trở lại. Việc xóa lỗi được thực hiện trong 
+
+vòng 60 giây. 
+
+b) CPU Unit Q03UDVCPU 
+
+Q03UDVCPU thuộc dòng CPU Universal của Mitsubishi. Bộ nhớ chương 
+
+trình có dung lượng tối đa 30K steps, có thể mở rộng thông qua thẻ nhớ SD 
+
+Card. 
+
+- Bộ nhớ chương trình: 120 kB 
+
+- Số I/O có thể xử lí: 4096 
+
+- Số I/O tối đa có thể mở rộng: 8192 
+
+- Cổng truyền thông: USB, Ethernet 100BASE-TX/10BASE-T 
+
+Các ngôn ngữ lập trình mà Q03UDVCPU có thể thực hiện: 
+
+- Ladder (LD) 
+
+- Instruction List (IL) 
+
+- Function Block Diagram (FBD) 
+
+- Structure Text (ST) 
+
+- Sequential Function Charts (SFC – MELSAP3/ MELSAP-L) 
+
+ 
+
+
+
+42 
+
+ 
+
+c) Module nguồn Q62P 
+
+ 
+
+Hình 3.9 Module Q62P 
+
+Module nguồn đóng vai trò cung cấp nguồn điện cho module PLC, và các 
+
+Module mở rộng khác. Khi lựa chọn nguồn, cần chú ý đến dòng điện tối đa mà 
+
+nguồn có thể cung cấp. 
+
+Module Q62P có thông số kĩ thuật sau: 
+
+- Input: 100 – 240 VAC, 50/60Hz 
+
+- Output: 5V/3A hoặc 24V/0.6A 
+
+d) Module Input/Output 
+
+Các Module Input đóng vai trò nhận dữ liệu từ các nút nhấn, cảm biến. Các 
+
+Module Output đưa ra các tín hiệu điều khiển đến các cơ cấu chấp hành như đèn 
+
+chỉ thị, van khí nén, rơ le trung gian. Trong phạm vi đồ án, các Module được sử 
+
+dụng là Module Input QX40, Module Output QY40P. 
+
+• Module Input QX40: 
+
+ 
+
+Hình 3.10 Module QX40 
+
+
+
+43 
+
+ 
+
+Module QX 40 đóng vai trò nhận dữ liệu từ các nút nhấn, cảm biến và nhận 
+
+dữ liệu đầu ra trạng thái Emergency, Mode và Error Output từ bộ điều khiển Robot 
+
+CR800-02-VQ 
+
+ Các thông số cơ bản: 
+
+- Đầu vào dạng Sink-input (Positive Common Type). 
+
+- Số đầu vào số: 16 points. 
+
+- Điện áp định mức: 24VDC ± 15%. 
+
+- Dòng điện định mức: 4mA/point. 
+
+• Module Output QY40P: 
+
+ 
+
+Hình 3.11Module QY40P 
+
+Sau khi xử lý các dữ liệu đầu vào, PLC sẽ đưa ra các tín hiệu điều khiển 
+
+đến các cơ cấu chấp hành thông qua Module QY40P 
+
+ Các thông số cơ bản: 
+
+- Đầu ra dạng Sink-output  
+
+- Số đầu ra số: 16 points 
+
+- Điện áp định mức: 12-24VDC ± 15% 
+
+- Dòng điện định mức: 100mA/point. 
+
+ 
+
+
+
+44 
+
+ 
+
+• Module High-Speed Counter QD62:  
+
+Trong phạm vi đồ án, Module High-speed Counter QD62 kết nối với 
+
+Encoder của băng tải để đo tốc độ hoặc vị trí băng tải, qua đó có thể chạy băng tải 
+
+để điều khiển vị trí của vật tới các điểm xác định để phối hợp với robot. 
+
+ 
+
+Hình 3.12 Module High-speed Counter QD62 
+
+ Hệ thống băng tải, cảm biến và camera 
+
+a) Hệ thống băng tải: 
+
+Hệ thống băng tải sử dụng cơ cấu truyền động động cơ một chiều, kết hợp 
+
+với hộp số để giảm tốc. 
+
+Băng tải được sử dụng trong đồ án có chiều dài 50cm, chiều rộng 12 cm. 
+
+Cấu tạo cụ thể bao gồm: 
+
+- Động cơ: Có nhiệm vụ truyền lực cho hệ, giúp di chuyển băng. 
+
+- Tang chủ động: được truyền động từ động cơ thông qua hệ puly- 
+
+dây đai. 
+
+- Tang bị động 
+
+- Encoder: có nhiệm vụ đo vị trí cũng như quãng đường băng tải đã 
+
+đi được để lựa chọn vị trí gắp cho tay máy Robot. 
+
+- Hộp giảm tốc: đồng thời giảm tốc độ cũng như tăng momen quay 
+
+cho hệ. 
+
+
+
+45 
+
+ 
+
+ 
+
+Hình 3.13 Mô hình băng tải 
+
+b) Hệ thống Camera COGNEX IS5110-01: 
+
+Là hệ thống Camera nhỏ gọn, thiết kế với cấu hình nối mạng. Hỗ trợ các 
+
+chức năng: kiểm tra (Inspection), đo lường (Measurement) và hướng dẫn Robot 
+
+(Robot Guidance) trong các công đoạn sản xuất. 
+
+ 
+
+Hình 3.14 Camera COGNEX IS5110-01 
+
+STT Thông số 
+
+kỹ thuật 
+
+Chi tiết STT Thông 
+
+số kỹ 
+
+thuật 
+
+Chi tiết 
+
+1 Điện áp 24VDC 11 Độ sâu 
+
+bit 
+
+256 mức xám 
+
+(8bit/pixel) 
+
+
+
+46 
+
+ 
+
+2 Yêu cầu 
+
+firmware 
+
+min 
+
+In-Sight 
+
+version 
+
+4.4.3 
+
+12 Khung 
+
+hình mỗi 
+
+giây 
+
+60 khung hình đầy 
+
+đủ mỗi giây 
+
+3 Bộ nhớ 
+
+công 
+
+việc/chương 
+
+trình 
+
+Bộ nhớ 
+
+flash non-
+
+volatile 
+
+128MB 
+
+13 Đầu đọc MNT cố định 
+
+4 Bộ nhớ xử 
+
+lý ảnh 
+
+256MB 14 Loại ống 
+
+kính 
+
+C-Mount 
+
+5 Loại cảm 
+
+biến 
+
+1/3-inch 
+
+CCD 
+
+15 Vật liệu Vỏ nhôm đúc 
+
+6 Đặc tính 
+
+cảm biến 
+
+Đường 
+
+chéo 
+
+5.92mm, 
+
+7.4x7.4um 
+
+sq.pixels 
+
+16 Nhiệt độ 
+
+hoạt 
+
+động 
+
+0-45 độ C 
+
+7 Độ phân 
+
+giải 
+
+640x480 
+
+pixel 
+
+17 Độ ẩm 
+
+hoạt 
+
+động 
+
+0.9 
+
+8 Tốc độ màn 
+
+trập điện tử 
+
+16us-
+
+1000ms 
+
+18 Cấp bảo 
+
+vệ 
+
+IP67 
+
+9 Tốc độ định 
+
+mức 
+
+4x 19 Kích 
+
+thước 
+
+83.4x124x61.4mm 
+
+(đã lắp nắp ống 
+
+kính) 
+
+10 Acquisition 60fps 20 Trọng 
+
+lượng 
+
+350g 
+
+Bảng 3-3 Thông số kỹ thuật chi tiết của Camera được sử dụng 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+47 
+
+ 
+
+e) Hệ thống cảm biến: 
+
+• Cảm biến vật cản hồng ngoại E3F-DS30C4: 
+
+Hệ thống sử dụng cảm biến vật cản hồng ngoại E3F-DS30C4 để phát hiện 
+
+vật trên băng tải.  
+
+ 
+
+Hình 3.15 Cảm biến E3F-DS30C4 
+
+Thông số kĩ thuật: 
+
+- Dạng đóng ngắt: Thường mở (NO - Normally Open) 
+
+- Số dây tín hiệu: 3 dây (2 dây cấp nguồn DC và 1 dây tín hiệu 
+
+ngõ ra cực thu hở NPN). 
+
+- Nguồn điện cung cấp: 6 ~ 36VDC 
+
+- Dòng tiêu thụ: 20~35mA 
+
+- Khoảng điều chỉnh cảm biến: 7~30cm 
+
+- Khoảng cách phát hiện vật cản: 0~30cm 
+
+- Góc khuếch tán (góc chiếu): 3~5 độ 
+
+
+
+48 
+
+ 
+
+- Có thể điều chỉnh khoảng cách nhận của cảm biến bằng biến trở 
+
+tinh chỉnh. 
+
+- Dòng kích ngõ ra: 300mA. 
+
+- Ngõ ra dạng NPN cực thu hở cần thêm trở kéo lên VCC (khoảng 
+
+1~10k Ohm) trước khi giao tiếp với Vi điều khiển. 
+
+- Có led hiển thị ngõ ra màu đỏ. 
+
+- Chất liệu sản phẩm: vỏ ngoài nhựa ABS, phía trong đổ keo 
+
+chống nước, chống va đập. 
+
+• Encoder: 
+
+Hệ băng tải sử dụng Encoder tương đối để xác định tọa độ gắp và thả vật 
+
+của Robot. Mã Encoder sử dụng trong phạm vi đồ án: HN3806-AB-600N 
+
+Thông số kĩ thuật: 
+
+- Điện áp nguồn cấp: 5-24 V DC 
+
+- Xung đầu ra: 600 xung /vòng 
+
+- Đầu ra: Pha A, Pha B, Pha Z 
+
+Tốc độ cơ học tối đa: 6300 rpm. 
+
+3.2 Mô tả quy trình hoạt động của Robot 
+
+Khi có tín hiệu bắt đầu hoạt động, Robot sẽ được đưa về vị trí chờ và băng 
+
+tải sẽ bắt đầu chạy. Các tấm Mica được dán mã QR Code khi đưa lên băng tải đang 
+
+chạy sẽ được cảm biến gắn bên cạnh băng tải phát hiện. Khi cảm biến phát hiện có 
+
+vật đi qua, băng tải dừng lại để hệ thống Camera gắn trên băng tải thực hiện chụp 
+
+và xử lý ảnh. Sau đó, băng tải tiếp tục chạy để đưa vật tới vị trí gắp của Robot. Lúc 
+
+này Robot cũng đồng thời di chuyển tới vị trí gắp vật. Khi vật được băng tải đưa 
+
+tới vị trí gắp, băng tải sẽ dừng lại chờ cho Robot thực hiện gắp vật. Khi Robot gắp 
+
+vật xong đồng thời lúc này cũng nhận được tín hiệu sau quá trình xử lý ảnh, Robot 
+
+sẽ di chuyển đến vị trí tương ứng trong các vị trí được cài đặt sẵn để thả vật. Khi 
+
+Robot thả xong vật sẽ quay trở lại vị trí chờ ban đầu và kết thúc một chu trình hoạt 
+
+động. 
+
+ 
+
+ 
+
+
+
+49 
+
+ 
+
+ Cách thức điều khiển Robot RV-2FR-Q 
+
+a) Điều khiển bằng Teaching Pendant: 
+
+ 
+
+Hình 3.16 Tay cầm Teaching Pendant 
+
+Dưới đây là bảng các phím chức năng của Teaching Pendant: 
+
+No. Tên Chức năng 
+
+1 EMG Switch Dừng khẩn cấp 
+
+Khi nhấn nút, toàn bộ bàn tay máy dừng 
+
+ngay lập tức 
+
+Ngắt nguồn điều khiển động cơ 
+
+2 (ENABLE/DISABLE) 
+
+ 
+
+Đèn báo trạng thái ENABLE/DISABLE 
+
+3 Three-Step Switch Lựa chọn trạng thái ENABLE/DISABLE 
+
+4 LCD Hiển thị thông số, trạng thái, lỗi 
+
+5 LED Status LED báo trạng thái làm việc 
+
+6 F1, F2, F3, F4 Các phím chức năng 
+
+7 Function Key Chuyển đổi các chức năng 
+
+8 (STOP) Key Dừng chương trình đang chạy, 
+
+ 
+
+
+
+50 
+
+ 
+
+9 [OVRD ↑], [OVRD ↓] 
+
+key 
+
+Tăng/ Giảm tốc độ quay của khớp 
+
+10 12 phím cho chế độ 
+
+JOG 
+
+[−X/(J1)] ... [+C/(J6)] 
+
+Thực hiện JOG Operation 
+
+11 (SERVO) Key Nhấn đồng thời với three-step switch, có tác 
+
+dụng cấp nguồn cho các động cơ bên trong 
+
+robot 
+
+12 MONITOR Hiển thị thông số, vị trí của từng khớp hoặc 
+
+bàn tay máy 
+
+13 JOG Key Chuyển chế độ chạy JOG 
+
+14 HAND Key Chuyển chế độ Bàn tay máy, cho phép thao 
+
+tác đóng mở bàn tay máy khi cấp khí nén 
+
+15 CHARACTER Chuyển phím chữ / số khi viết chương trình 
+
+16 RESET Reset lỗi khi có lỗi 
+
+17 ←, ↑, →, ↓ Phím điều hướng 
+
+18 CLEAR Xóa kí tự 
+
+19 EXE Nhập dự liệu hoặc thực thi lệnh điều khiển 
+
+20 Number/Character 
+
+Key 
+
+Xóa kí tự ở vị trí con trỏ. 
+
+Bảng 3-4 Các phím chức năng của Teaching Pendant 
+
+Teaching Pendant khi được kết nối cần phải đảm bảo bộ điều khiển CR800 
+
+không được cấp điện. Nếu Teaching Box được kết nối hoặc tháo khỏi bộ điều khiển 
+
+khi được cấp nguồn, bộ điều khiển CR800 sẽ báo lỗi.   
+
+Teaching Pendant R33TB được kết nối thông qua cổng kết nối trên mặt 
+
+trước của bộ điều khiển CR800-02-VQ. 
+
+
+
+51 
+
+ 
+
+ 
+
+Hình 3.17 Kết nối Teaching Pendant với bộ điều khiển CR800 
+
+i. Các kiểu nội suy quỹ đạo chuyển động:  
+
+• Nội suy từng khớp (Joint Interpolation): Nội suy khớp thực hiện điều khiển 
+
+nội suy với các khớp riêng biệt, bắt đầu chuyển động và hoàn thành đến 
+
+điểm đích cùng thời gian từ điểm bắt đầu đến điểm cuối. Câu lệnh để thực 
+
+hiện: Mov. 
+
+ 
+
+Hình 3.18 Minh họa chuyển động nội suy khớp 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+52 
+
+ 
+
+• Nội suy tuyến tính (Linear Interpolation): Nội suy tuyến tính thực hiện điều 
+
+khiển nội suy, đảm bảo đường quỹ đạo chuyển động bắt đầu từ điểm đầu 
+
+đến điểm cuối là đường thẳng. Câu lệnh để thực hiện: Mvs. 
+
+ 
+
+Hình 3.19 Minh họa chuyển động nội suy tuyến tính 
+
+• Nội suy cung tròn (Circular Interpolation): Khâu tác động cuối của Robot 
+
+di chuyển theo một cung tròn. Nếu vị trí hiện tại khác điểm bắt đầu thực 
+
+hiện nội suy cung tròn, khâu tác động cuối của Robot sẽ tự động đến điểm 
+
+bắt đầu nội suy theo đường thẳng và bắt đầu thực hiện chương trình nội suy. 
+
+Câu lệnh thực hiện: Mvr; Mvr2; Mvr3; Mvc. 
+
+ 
+
+Hình 3.20 Minh họa chuyển động nội suy cung tròn 
+
+ii. Tạo một chương trình điều khiển chuyển động Robot bằng R33TB: 
+
+Cần gắp vật tại điểm 1 và thả vào điểm 2 như trên hình. Trong đó, điểm 1 
+
+là điểm trên băng tải và điểm 2 là 1 ô ở dưới mặt phẳng bàn.  
+
+
+
+53 
+
+ 
+
+ 
+
+Hình 3.21 Ví dụ yêu cầu vận hành Robot khi điều khiển bằng R33TB 
+
+• Lựa chọn đường biên dạng chuyển động:  
+
+ 
+
+Hình 3.22 Đường biên dạng chuyển động 
+
+1) Di chuyển cánh tay Robot đến vị trí chờ (chuyển động nội suy khớp). 
+
+2) Di chuyển đến vị trí cao hơn 20mm so với vật cần gắp (chuyển động 
+
+nội suy khớp) 
+
+3) Di chuyển đến vị trí gắp vật (chuyển động nội suy tuyến tính) 
+
+4) Gắp vật 
+
+5) Đợi 1 giây 
+
+6) Di chuyển lên trên 20mm so với vật cần gắp (chuyển động nội suy 
+
+tuyến tính)  
+
+7) Di chuyển đến vị trí cách 20mm so với vị trí thả vật (chuyển động 
+
+nội suy khớp) 
+
+8) Di chuyển đến vị trí cần thả vật (chuyển động nội suy tuyến tính) 
+
+9) Thả vật 
+
+10)  Đợi 1 giây 
+
+Điểm 1 
+
+Điểm 2 
+
+
+
+54 
+
+ 
+
+11)  Di chuyển lên trên 20mm so với vị trí thả vật (chuyển động nội suy 
+
+tuyến tính) 
+
+12)  Di chuyển đến vị trí chờ (chuyển động nội suy khớp) 
+
+Tên Tên biến Yêu cầu teaching Chú thích 
+
+Vị trí chờ P3 Có  
+
+Vị trí tiếp cận 
+
+khi gắp vật 
+− Không 
+
+Tọa độ phụ thuộc 
+
+vào điểm P1 
+
+Vị trí gắp vật P1 Có  
+
+Vị trí tiếp cận 
+
+khi thả vật 
+− Không 
+
+Tọa độ phụ thuộc 
+
+vào điểm P2 
+
+Vị trí thả vật P2 Có  
+
+Bảng 3-5 Các vị trí cần thiết cho yêu cầu điều khiển 
+
+• Thứ tự thực hiện chương trình trên:  
+
+Thứ tự Hoạt động của bàn tay máy Robot Câu lệnh 
+
+1 
+Di chuyển cánh tay Robot đến vị trí chờ 
+
+(chuyển động nội suy khớp). 
+Mov P3 
+
+2 
+Di chuyển đến vị trí cách 20mm so với vật cần 
+
+gắp (chuyển động nội suy khớp 
+Mov P1, +20 
+
+3 
+Di chuyển đến vị trí gắp vật (chuyển động nội 
+
+suy tuyến tính) 
+Mvs P1 
+
+4 Gắp vật Hclose 1 
+
+5 Chờ 1 giây Dly 1.0 
+
+6 
+Di chuyển lên trên 20mm so với vật cần gắp 
+
+(chuyển động nội suy tuyến tính) 
+Mvs P1, +20 
+
+7 
+Di chuyển đến vị trí cách 20mm so với vị trí 
+
+thả vật (chuyển động nội suy khớp) 
+Mov P2, +20 
+
+8 
+Di chuyển đến vị trí cần thả vật (chuyển động 
+
+nội suy tuyến tính) 
+Mvs P2 
+
+9 Thả vật Hopen 
+
+10 Chờ 1 giây Dly 1.0 
+
+11 
+Di chuyển lên trên 20mm so với vị trí thả vật 
+
+(chuyển động nội suy tuyến tính) 
+Mvs P2, +20 
+
+12 
+Di chuyển đến vị trí chờ (chuyển động nội suy 
+
+khớp) 
+Mov P3 
+
+13 Kết thúc chương trình End 
+
+Bảng 3-6 Chương trình trên R33TB 
+
+ 
+
+ 
+
+
+
+55 
+
+ 
+
+• Xây dựng chương trình trên R33TB: 
+
+1. Chọn 1. [FILE/EDIT] trên mục <MENU> screen. Cửa sổ hiện ra như 
+
+hình minh họa dưới  
+
+ 
+
+2. Nhấn phím Function [F3], cửa sổ chương trình mới hiện ra như hình 
+
+ 
+3. Nhập tên chương trình. Ví dụ chương trình có tên là “1” 
+
+ 
+
+4. Nhấn phím Function Key [F3] để INSERT câu lệnh vào chương trình. 
+
+Màn hình soạn thảo hiện lên như hình 
+
+ 
+
+5. Nhập vào câu lệnh Mov từ bàn phím: 
+
+ 
+
+6. Nhập biến “P1” (Position 1) từ bàn phím: 
+
+ 
+
+
+
+56 
+
+ 
+
+7. Nhấn phím [EXE] để xác định câu lệnh. 
+
+ 
+8. Các bước còn lại trong chương trình thực hiện theo đúng trình tự trên. 
+
+ 
+
+Teaching tọa độ cho các điểm:  
+
+1.  Mở cửa sổ chương trình [FILE/EDIT], nhấn phím Function Key [F2], 
+
+kết hợp các phím  [] và []  để hiển thị tọa độ của điểm cần Teach 
+
+ 
+2. Sử dụng các phím mũi tên và các phím số để nhập vào tọa độ cần lưu. 
+
+Sau đó nhấn [EXE] để xác nhận. 
+
+ 
+
+ 
+
+b) Điều khiển cánh tay Robot bằng CPU PLC Mitsubishi Q03UDVCPU 
+
+thông qua CPU Robot Q172DSRCPU 
+
+❖ Chức năng Sequencer Direct: 
+
+Chức năng Sequencer Direct cho phép điều khiển Robot trực tiếp từ PLC 
+
+thông qua các bộ nhớ đệm (buffer memory). Thông qua việc gửi dữ liệu vào các 
+
+bộ nhớ đệm được định sẵn chức năng, người dùng và vận hành có thể điều khiển 
+
+được chuyển động của Robot, hoạt động của các Tool gá lắp tại khâu tác động 
+
+cuối, đồng thời cả tốc độ chuyển động của bàn tay máy và giá trị tăng giảm tốc. 
+
+
+
+57 
+
+ 
+
+ 
+
+Hình 3.23 Minh họa chức năng Sequencer Direct 
+
+❖ Dữ liệu vị trí trong chức năng Sequencer Direct: 
+
+Vị trí được thực hiện trong chức năng Sequencer Direct phải ở dạng tọa độ 
+
+Descartes, là vị trí của khâu tác động cuối so với vị trí gốc của Robot. Dữ liệu về 
+
+vị trí của từng khớp của Robot trong chức năng Sequencer Direct không thể sử 
+
+dụng. 
+
+Địa chỉ Số lượng Chi tiết 
+
+1-999 999 Vị trí được Teaching sẵn trong bộ điều khiển 
+
+CR800-VQ/R. Chức năng SQ Direct cho phép thực 
+
+hiện lên đến 999 dữ liệu vị trí khác nhau. 
+
+5000 1 Vị trí hiện tại của Robot 
+
+5100-5102 3 Vị trí được chỉ định ở trên PLC, thông qua việc gửi 
+
+dữ liệu xuống các bộ nhớ đệm. 
+
+Bảng 3-7 Địa chỉ các vị trí trong chức năng Sequencer Direct 
+
+ 
+
+
+
+58 
+
+ 
+
+❖ Các đầu vào/ra chức năng giao tiếp giữa Q03UDVCPU và Q172DSRCPU: 
+
+ 
+
+Hình 3.24 Minh họa chức năng Sequencer Direct 
+
+Khi thực hiện điều khiển trực tiếp từ PLC, các đầu ra từ Sequencer bắt đầu 
+
+từ địa chỉ U3E0\G10000 -> U3E0\G11023 đóng vai trò là Robot Input, các câu 
+
+lệnh được định sẵn địa chỉ trong dải từ G10000 đến G11023; đồng thời các đầu 
+
+vào bắt đầu từ địa chỉ U3E1\G10000 đến U3E1\G11023 đóng vai trò là Robot 
+
+Output, có vai trò phản hồi lại trạng thái làm việc cũng như xác định điểm làm việc 
+
+của Robot. 
+
+Các thanh ghi đệm thường dùng trong chức năng Sequencer Direct: 
+
+Tham số 
+Tên đầu 
+
+vào 
+Tên đầu ra PLC Output PLC Input 
+
+STOP 
+Stop Input Pausing 
+
+Output 
+
+U3E0\G10000.0 U3E1\G10000.0 
+
+RCREADY 
+- Controller 
+
+Power ON 
+
+- U3E1\G10000.1 
+
+ATEXTMD 
+- Remote 
+
+Mode Output 
+
+- U3E1\G10000.2 
+
+TEACHMD 
+- Teaching 
+
+Mode Output 
+
+- U3E1\G10000.3 
+
+ATTOPMD 
+- Automatic 
+
+Mode Output 
+
+- U3E1\G10000.4 
+
+IOENA 
+Operation 
+
+right Input  
+
+Operation 
+
+right output 
+
+U3E0\G10000.5 U3E1\G10000.5 
+
+
+
+59 
+
+ 
+
+START 
+Star Input Operating 
+
+Output 
+
+U3E0\G10000.6 U3E1\G10000.6 
+
+STOPSTS 
+- Stop Signal 
+
+Input 
+
+- U3E1\G10000.7 
+
+SLOTINIT 
+
+Program 
+
+Reset 
+
+Program 
+
+selection 
+
+enabled 
+
+U3E0\G10000.0 U3E1\G10000.8 
+
+ERRRESET 
+Error Reset 
+
+Input 
+
+Error 
+
+occuring 
+
+U3E0\G10000.9 U3E1\G10000.9 
+
+SRVON 
+Servo On 
+
+Input 
+
+In Servo ON  U3E0\G10000.A U3E1\G10000.A 
+
+SRVOFF 
+Servo Off Servo On 
+
+disable  
+
+U3E0\G10000.B U3E1\G10000.B 
+
+CYCLE 
+Cycle Stop In Cycle stop 
+
+operation  
+
+U3E0\G10000.C U3E1\G10000.C 
+
+SAFEPOS 
+Safe point 
+
+return 
+
+In safe point 
+
+return 
+
+U3E0\G10000.D U3E1\G10000.D 
+
+HLVLERR 
+- High level 
+
+error 
+
+- U3E1\G10001.0 
+
+LLVLERR 
+- Low level  
+
+Error 
+
+- U3E1\G10001.1 
+
+CLVLERR 
+- Warning 
+
+level error 
+
+- U3E1\G10001.2 
+
+Bảng 3-8 Các tham số và địa chỉ 
+
+Chi tiết các đầu vào/ra chức năng được trình bày trong bảng dưới đây 
+
+Tham số Loại Chức năng Tác động 
+
+RCREADY 
+
+Input  - 
+
+Output Đầu ra tác động khi bộ điều khiển và Robot 
+
+được cấp nguồn, và nhận các tín hiệu 
+
+- 
+
+
+
+60 
+
+ 
+
+ATEXTMD 
+
+Input  - 
+
+Output Đầu ra tác động khi bộ điều khiển đang ở 
+
+chế độ AUTOMATIC hoặc ở chế độ 
+
+Remote từ PLC 
+
+- 
+
+TEACHMD 
+
+Input  - 
+
+Output Đầu ra tác động khi bộ điều khiển đang ở 
+
+chế độ Teaching 
+
+- 
+
+ATTOPMD 
+
+Input  - 
+
+Output Đầu ra tác động khi bộ điều khiển đang ở 
+
+chế độ AUTOMATIC 
+
+- 
+
+IOENA 
+
+Input Đặt quyền điều khiển cho các tín hiệu ngoài Mức 
+
+Output Đầu ra tác động khi có tín hiệu IOENA 
+
+Input, đồng thời bộ điều khiển ở chế độ 
+
+AUTO 
+
+- 
+
+START 
+Input Tín hiệu cho phép thực thi chương trình Sườn 
+
+Output Thông báo chương trình đang thực thi - 
+
+STOP 
+
+Input Tín hiệu cho phép dừng thực thi chương 
+
+trình 
+
+Mức 
+
+Output Thông báo chương trình đang bị dừng - 
+
+SLOTINIT 
+
+Input Tín hiệu cho phép xóa bỏ trạng thái dừng 
+
+của chương trình, đưa chương trình về điểm 
+
+bắt đầu. 
+
+Sườn 
+
+Output Đầu ra tác động khi chương trình chưa thực 
+
+hiện hoặc đang trong trạng thái dừng 
+
+- 
+
+ERRRESET 
+Input Cho phép xóa lỗi đang xảy ra Sườn 
+
+Output Đầu ra tác động khi có lỗi xảy ra - 
+
+SRVON 
+Input Tín hiệu cho phép cấp nguồn các động cơ 
+
+Servo ở các khớp 
+
+Sườn 
+
+
+
+61 
+
+ 
+
+Output Đầu ra ON khi các động cơ Servo được cấp 
+
+nguồn 
+
+- 
+
+SRVOFF 
+
+Input Tín hiệu cho phép ngắt nguồn các động cơ 
+
+Servo ở các khớp. Tín hiệu SRVON bị vô 
+
+hiệu khi trạng thái SRVOFF vẫn được giữ. 
+
+Mức 
+
+Output Thông báo trạng thái chưa được cấp nguồn 
+
+của các động cơ ở tất cả các khớp. 
+
+- 
+
+SAFEPOS 
+
+Input Đưa ra tín hiệu yêu cầu Robot quay trở lại 
+
+điểm Safe point. Vị trí điểm Safe point được 
+
+cài đặt trong tham số “JSAFE” của bộ điều 
+
+khiển. 
+
+Sườn 
+
+Output Thông báo hoạt động trở lại điểm Safe point 
+
+đang được thực thi. 
+
+- 
+
+HLVLERR 
+Input  - 
+
+Output Chỉ ra bộ điều khiển đang có lỗi, mã lỗi H. - 
+
+LLVLERR 
+Input  - 
+
+Output Chỉ ra bộ điểu khiển đang có lỗi, mã lỗi L. - 
+
+Bảng 3-9 Chi tiết các đầu vào/ra chức năng 
+
+Việc thực hiện chức năng Sequencer Direct, cần có các thanh ghi đệm chứa 
+
+thông tin về câu lệnh chuyển động, cùng các thanh ghi chứa thông tin báo trạng 
+
+thái của chuyển động đó. Các thanh ghi đệm dùng cho các mục đích trên được 
+
+trình bày trong bảng dưới đây: 
+
+Địa chỉ  Mô tả 
+
+U3E0\G10520 
+Bit signal 
+
+(Bit điều khiển) 
+
+Tín hiệu yêu cầu thực hiện lệnh. 
+
+Thanh ghi G10520 gồm 16 bit 
+
+Bit 15                            0 
+
+        0000000000000000 
+
+Bit 0 =1, sẽ gửi tín hiệu yêu cầu thực 
+
+hiện lệnh đến Robot 
+
+
+
+62 
+
+ 
+
+U3E0\G10521  
+
+U3E0\G10522 
+
+Command data 
+
+(Thanh ghi chứa mã 
+
+lệnh) 
+
+ 
+
+U3E0\G10523  
+
+U3E0\G10524 
+
+Command No 
+
+Thông tin trong thanh ghi G10524 sẽ 
+
+tương ứng với câu lệnh trong 
+
+MELFA-BASIC-VI 
+
+-1: Lệnh Mov 
+
+-2: Lênh MovA 
+
+-11: Lệnh Mvs 
+
+-12: Lệnh MvsA 
+
+U3E0\G10525 
+
+Command data 1 
+
+Thông tin trong thanh ghi G10525 
+
+tương ứng với điểm đích đến trong 
+
+câu lệnh chuyển động. 
+
+Giá trị đưa vào thanh ghi trong 
+
+khoảng: 
+
+1) 1-999: Điểm Teaching trong mục 
+
+SQ DIRECT trong bộ điều khiển 
+
+CR800-Q 
+
+2) 5100-5102: Điểm xác định với bộ 
+
+điều khiển PLC 
+
+U3E0\G10526 
+
+Command data 2 
+
+Giá trị offset trục Z của Tool hiện tại 
+
+so với điểm tọa độ đích. 
+
+Nếu giá trị offset bằng 0, câu lệnh sẽ 
+
+xác định di chuyển tới điểm đích. 
+
+U3E0\G10530 Command condition 
+
+data 
+
+Override [%: 1-100.0] 
+
+U3E0\G10531 Acceleration rate [%: 1-100.0] 
+
+
+
+63 
+
+ 
+
+U3E0\G10532 (Thanh ghi trạng 
+
+thái chuyển động) 
+
+Deceleration rate [%: 1-100.0] 
+
+U3E0\G10535 Speed Setting [ mm/s: 1 – 10000.0] 
+
+U3E0\G10536 Shortcut/rounabout specification 
+
+U3E0\G10537 Auxiliary operation specification 
+
+U3E0\G10538 Tool setting 
+
+[0: Current Tool/1-4: Tool Number] 
+
+Bảng 3-10 PLC Output 
+
+Địa chỉ Mô tả 
+
+U3E1\G10520 Bit signal 
+
+(Bit phản hồi) 
+
+Tín hiệu báo trạng thái hoàn thành 
+
+khi Robot chuyển động thành công. 
+
+Thanh ghi U3E1\G10520 gồm 16 
+
+bit 
+
+Bit 15                            0 
+
+        0000000000000000 
+
+Bit 0 =1, Completed 
+
+Bit 1 =1, Working 
+
+U3E1\G10521  
+
+U3E1\G10522 Command data 
+
+Thanh ghi U3E1\G10522 chứa 
+
+thông tin về trạng thái chuyển động, 
+
+bao gồm trạng thái thành công, tạm 
+
+dừng hoặc lỗi.  
+
+Mỗi mã lỗi tương ứng với số được 
+
+lưu trong thanh ghi.  
+
+Bảng 3-11 Robot Output 
+
+ 
+
+❖ Cấu hình hệ thống: 
+
+• Thiết lập cấu hình Robot trên RT Toolbox 3 
+
+Trình tự thiết lập cấu hình Robot trên RT Toolbox 3 được thực hiện như 
+
+sau 
+
+
+
+64 
+
+ 
+
+1. Chọn tab [Workspace] → Click chọn [New]. Cửa số New Workspace 
+
+hiện lên, điền thông tin địa chỉ lưu Workspace, Tên thư mục 
+
+ 
+
+Hình 3.25 Workspace RT Toolbox 3 
+
+2. Chỉnh sửa thông số Robot Model: 
+
+Series: FR-Q Series CR800-Q 
+
+Type: RV Vertical (6-axis) 
+
+Robot Model: RV-2FR-Q 
+
+ 
+
+Hình 3.26 Cài đặt thông số Robot Model 
+
+3. Lựa chọn thông số Communication 
+
+Network of the Robot 
+
+IP Address: 192.168.3.20 
+
+
+
+65 
+
+ 
+
+Subnet Mask: 255.255.255.0 
+
+Default Gateway: 192.168.3.254 
+
+Connection Method: TCP/IP 
+
+ 
+
+Hình 3.27 Cài đặt thông số Communication 
+
+4. Lựa chọn Language 
+
+Program Language: MELFA-BASIC-VI 
+
+ 
+
+Hình 3.28 Cài đặt thông số Language 
+
+
+
+66 
+
+ 
+
+5. Các lựa chọn: 5. Travel Axis, 6. Robot Additional Axis, 7. Tool, 8. Weight and 
+
+Size cài đặt theo mặc định của phần mềm. 
+
+ 
+
+• Thiết lập cấu hình bộ điều khiển CR800-Q qua RT Toolbox 
+
+Trình tự thiết lập cấu hình bộ điều khiển CR800-VQ được thực hiện theo các 
+
+bước sau: 
+
+1. Thiết lập cấu hình Multiple CPU  
+
+Trong mục [Parameter], chọn [PLC Cooperation Paramter], chọn [Multiple CPU] 
+
+ 
+
+Hình 3.29 Cấu hình Multiple CPU trên RT Toolbox 
+
+2. Chọn No.CPU (QMLTCPUN) = 2 
+
+CPU No.1: 1K (Word) 
+
+CPU No.2: 1K (Word) 
+
+3. Chọn Write để tải cấu hình các thông số xuống bộ điều khiển CR800 
+
+ 
+
+• Thiết lập cấu hình Multiple CPU trên GX Works 2: 
+
+Trình tự thiết lập cấu hình Q172DSRCPU trên GX Works2 được thực hiện 
+
+theo các bước sau: 
+
+ 
+
+ 
+
+
+
+67 
+
+ 
+
+1. Thiết lập cấu hình Multiple CPU Settings. 
+
+ 
+
+Hình 3.30 Thiết lập Multiple CPU trên GX Works 2 
+
+Trong mục Project, chọn [Parameter], chọn tiếp [PLC Paramter], sẽ xuất 
+
+hiện cửa số Q Parameter Setting. 
+
+2. Trong mục [Multiple CPU Settings], chọn No. of PLC = 2 
+
+CPU Specific Send Range 
+
+PLC No.1: 1 
+
+PLC No 2: 1 
+
+3. Tải cấu hình đã cài đặt trên trong GX Works 2 xuống PLC. 
+
+ 
+
+• Thiết lập tham số IQMEM trên bộ điều khiển CR800 
+
+Thông số “IQMEM” được thiết lập để cài đặt các chức năng mở rộng của 
+
+CPU bằng cách giao tiếp thông qua các bộ nhớ đệm (CPU Buffer Memory 
+
+Extended Functions), thể hiện dưới dạng 16 bit.  
+
+Cài bit 0 lên 1 để sử dụng các chức năng mở rộng (giám sát, và các chức 
+
+năng chuyển động) 
+
+Cài bit 1 lên 1 để sử dụng chức năng điều khiển trực tiếp từ PLC. 
+
+
+
+68 
+
+ 
+
+ 
+
+Hình 3.31 Thông số IQMEM 
+
+Cách cài đặt thông số IQMEM:  
+
+1. Trong mục [MENU] screen trên Teaching Pendant, chọn phím [3] để vào mục 
+
+Parameter: 
+
+ 
+
+Hình 3.32 Parameter trên Teaching Pendant R33TB 
+
+2. Trong mục [NAME], nhập [IQMEM] rồi nhấn [EXE], trên màn hình LCD hiển 
+
+thị như trên hình: 
+
+ 
+
+Hình 3.33 Thông số IQMEM trên CR800 
+
+3. Nhấn phím Function Key [F1] để chỉnh sửa Data của Parameter: 
+
+ 
+
+Hình 3.34 Dữ liệu của thông số IQMEM khi cài đặt 
+
+
+
+69 
+
+ 
+
+ 
+
+ Điều khiển Robot bằng chương trình PLC 
+
+Dưới đây là một ví dụ chương trình điều khiển Robot, sử dụng chức năng 
+
+Sequence Direct. Chương trình được viết bằng ngôn ngữ Ladder. 
+
+Thực hiện lệnh nội suy khớp để di chuyển cánh tay Robot đến vị trí 1 (Vị 
+
+trí 1 đã được Teaching sẵn trong bộ điều khiển CR800). 
+
+Thanh ghi Bit Chức năng 
+
+D20  Lưu giá trị báo trạng thái chuyển động Robot. 
+
+ M150 Bit cho phép thực hiện lệnh chuyển động. 
+
+ M151 Bit báo lệnh chuyển động đã hoàn thành. 
+
+ M152 Bit báo lệnh chuyển động đã thực hiện thành công. 
+
+ M153 Bit báo lệnh chuyển động bị dừng. 
+
+ M154 Bit báo lệnh chuyển động vi phạm các giá trị giới 
+
+hạn của bàn tay máy Robot. 
+
+Bảng 3-12 Các bit và thanh ghi sử dụng trong chương trình mẫu 
+
+
+
+70 
+
+ 
+
+ 
+
+Hình 3.35 Ví dụ chương trình điều khiển Robot bằng PLC 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+71 
+
+ 
+
+3.3 Lưu đồ thực hiện chương trình 
+
+ 
+
+Hình 3.36 Lưu đồ tổng quan của chương trình 
+
+ 
+
+
+
+72 
+
+ 
+
+ Chương trình nhận diện vật phẩm 
+
+Đọc mã QR trên sản phẩm là kỹ thuật được sử dụng để chuyển đổi ảnh văn 
+
+bản sang dạng văn bản có thể chỉnh sửa trong máy tính. Đầu vào của quá trình này 
+
+là hình ảnh và đầu ra sẽ là văn bản chưa nội dung là các chữ viết, ký tự có trong 
+
+hình ảnh đó. 
+
+a) Phân tích hệ thống 
+
+Vật cần nhận diện là các tấm Mica có dán các QR Code vận chuyển nhờ 
+
+băng tải, khi qua cảm biến phát hiện có vật thì băng tải sẽ dừng và camera sẽ chụp 
+
+ảnh sau đó đưa ảnh về máy tính để xử lý. Khi máy tính nhâṇ ảnh từ camera sẽ xử 
+
+lý ảnh nhờ phần mềm viết trên máy tính bằng cách tiến hành đọc QR Code, sau đó 
+
+sẽ hiển thị kết quả đọc QR Code ra màn hình điều khiển giám sát đồng thời cũng 
+
+gửi tín hiệu đến cho PLC để thực hiện điều khiển Robot gắp vật theo yêu cầu sau 
+
+quá trình đọc QR Code để đặt vào trong vị trí đã được định vị sẵn. 
+
+b) Lưu đồ thuật toán quá trình xử lý ảnh 
+
+ 
+
+Hình 3.37 Lưu đồ thuật toán quá trình máy tính xử lý QR Code 
+
+
+
+73 
+
+ 
+
+ 
+
+ 
+
+ 
+
+c) Chương trình xử lý ảnh 
+
+Kết nối trực tiếp Camera với C# thông qua cổng Ethernet và thực hiện 
+
+chương trình code sau: 
+
+ 
+
+      if (CvsInSightDisplay2.Connected) 
+
+      { 
+
+        btnConnect.Text = "Dis&connect"; 
+
+ 
+
+      } 
+
+      else 
+
+        btnConnect.Text = "&Connect"; 
+
+ } 
+
+ 
+
+Lưu ảnh đầu vào bằng đoạn code sau: 
+
+           { 
+
+                    string filesoucre = @"D:\Cognex_Pic\"; 
+
+                    string Index = i.ToString(); 
+
+                    string fileName = filesoucre + Index + ".bmp"; 
+
+                    CvsInSightDisplay2.SaveBitmap(fileName); 
+
+          } 
+
+Đọc mã QR trong ảnh vừa chụp được: 
+
+         // Đường dẫn đến file ảnh chứa mã QR cần đọc 
+
+         string imagePath = @"D:\Cognex_Pic\0.bmp"; 
+
+ 
+
+         // Tạo đối tượng MultiFormatReader để đọc mã QR 
+
+         var barcodeReader = new BarcodeReader(); 
+
+ 
+
+         // Đọc ảnh chứa mã QR 
+
+         Bitmap bitmap = new Bitmap(imagePath); 
+
+ 
+
+         // Đọc mã QR từ ảnh 
+
+         var result = barcodeReader.Decode(bitmap); 
+
+Sử dụng phần mềm MX component để kết nối PLC với phần mềm visual 
+
+studio bằng cách setup các giá trị trên MX component và khởi tạo thông qua một 
+
+số dòng code sau: 
+
+
+
+74 
+
+ 
+
+ActUtlType plc = new ActUtlType(); 
+
+       plc.ActLogicalStationNumber = 1; 
+
+       plc.Open(); 
+
+ 
+
+ Chương trình PLC điều khiển Robot 
+
+a) Lưu đồ chương trình điều khiển băng tải 
+
+Chương trình điều khiển băng tải: Sử dụng để điều khiển các trạng thái 
+
+chạy/dừng của băng tải nhằm phối hợp với các trạng thái di chuyển của Robot. 
+
+ 
+
+Hình 3.38 Lưu đồ quá trình điều khiển hệ thống băng tải 
+
+
+
+75 
+
+ 
+
+b) Chương trình điều khiển Robot 
+
+Chương trình điều khiển Robot: Sử dụng để điều khiển các trạng thái hoạt 
+
+động của Robot như điều khiển di chuyển đến từng vị trí mong muốn đã được cài 
+
+đặt trong bộ điều khiển, đồng thời cũng điều khiển trạng thái của cơ cấu gắp vật. 
+
+ 
+
+Hình 3.39 Lưu đồ quá trình điều khiển hệ thống Robot 
+
+
+
+76 
+
+ 
+
+ Tạo trang báo cáo kết quả thu được 
+
+Ở đây, em sử dụng mô hình MVC viết bằng ngôn ngữ C# để tạo trang web 
+
+báo cáo kết quả thu được.  
+
+MVC, viết tắt của Model-View-Controller, là một mẫu kiến trúc phổ biến 
+
+được sử dụng trong phát triển phần mềm, bao gồm các ứng dụng C#. Nó cung cấp 
+
+một cách có cấu trúc và tổ chức để thiết kế và xây dựng các ứng dụng, tách biệt 
+
+các mối quan tâm về dữ liệu, trình bày và tương tác người dùng. 
+
++ Model: đại diện cho dữ liệu và logic nghiệp vụ của ứng dụng. Nó gói gọn 
+
+các hoạt động liên quan đến dữ liệu, chẳng hạn như truy xuất, thao tác và lưu trữ 
+
+dữ liệu. Trong C#, các Model thường được triển khai dưới dạng các lớp xác định 
+
+các thuộc tính và phương thức cần thiết để xử lý dữ liệu và trạng thái của ứng dụng. 
+
++ View: chịu trách nhiệm về cách trình bày và giao diện người dùng của 
+
+ứng dụng. Nó hiển thị dữ liệu từ Model và tương tác với người dùng để nhận thông 
+
+tin đầu vào. Trong C#, các dạng View thường được triển khai bằng cách sử dụng 
+
+các ngôn ngữ đánh dấu như HTML, CSS hoặc XAML (dành cho các ứng dụng 
+
+WPF) để xác định các thành phần trực quan và bố cục. 
+
++ Controller: đóng vai trò trung gian giữa Model và View. Nó xử lý đầu 
+
+vào của người dùng nhận được từ View, tương tác với Model để truy xuất hoặc 
+
+cập nhật dữ liệu và cập nhật View tương ứng. Trong C#, các Controller được triển 
+
+khai dưới dạng các lớp xử lý luồng logic của ứng dụng và giao tiếp giữa Model và 
+
+View. 
+
+Với trang web báo cáo kết quả của nhóm, em đã thực hiện tạo ra một 
+
+database “DataReport” trong SQL, từ đó, tạo ra “DataReportModel” để truy xuất 
+
+dữ liệu từ database đó phục vụ cho việc hiển thị trên View. Sau đó, sẽ tạo 
+
+“DataReportController” để truy cập vào dữ liệu từ Model trên, sau đó sẽ truyền dữ 
+
+liệu mới được cập nhật xuống View tương ứng để được một giao diện như hình 
+
+dưới đây:  
+
+ 
+
+ 
+
+ 
+
+
+
+77 
+
+ 
+
+3.4 Thực tế vận hành hệ thống  
+
+Trước tiên, cần thực hiện kết nối PLC với phần mềm Visual Studio Code 
+
+thông qua phần mềm MX Components.  
+
+ 
+
+ 
+
+ 
+
+
+
+78 
+
+ 
+
+ 
+
+Hình 3.40 Tạo kết nối giữa Visual Studio với PLC thông qua MX Components 
+
+Tiếp theo, mở phần mềm Visual Studio Code lên để chạy giao diện điều 
+
+khiển hệ thống. 
+
+ 
+
+Hình 3.41 Giao diện vận hành của hệ thống 
+
++ Nút “Connect”: để kết nối chương trình với Camera gắn trên băng tải. 
+
++ (1): Hiển thị hình ảnh mà Camera đang thấy được 
+
++ (2): Hiển thị kí tự dạng Text của QR Code 
+
++ (3): Hiển thị kết quả mỗi khi Camera thực hiện xử lý ảnh xong.  
+
+ 
+
+ 
+
+ 
+
+
+
+79 
+
+ 
+
+Vật thể được Camera nhận dạng và xử lý ở đây là các mã QR Code được dán lên 
+
+các tấm gỗ:  
+
+ 
+
+Hình 3.42 Các mã QR sử dụng để dán lên vật trong đồ án 
+
+Ta tiến hành thực hiện điều khiển chương trình Robot gắp thả vật:  
+
++ Bật tín hiệu cấp quyền điều khiển Robot cho PLC bằng cách nhấn nút IOENA 
+
+trên bảng điều khiển, chuyển sang chế độ Auto và nhấn để bật SERVO on. Khi đó, 
+
+Robot sẽ tự động di chuyển đến vị trí chờ. 
+
+ 
+
+Hình 3.43 Hệ thống nút nhấn và đèn báo 
+
+
+
+80 
+
+ 
+
+ 
+
+Hình 3.44 Robot ở vị trí chờ 
+
++ Khi vật đi qua cảm biến, băng tải sẽ dừng lại để Camera chụp, lưu và xử lý ảnh. 
+
+Đồng thời khi đó, Robot sẽ di chuyển đến vị trí chờ gắp vật.  
+
++ Khi băng tải đưa vật đến vị trí gắp, Robot sẽ thực hiện gắp vật và di chuyển đến 
+
+1 trong các vị trí đã được cài đặt sẵn theo kết quả của quá trình xử lý ảnh.  
+
+
+
+81 
+
+ 
+
+ 
+
+Hình 3.45 Robot gắp vật 
+
+
+
+82 
+
+ 
+
+ 
+
+Hình 3.46 Robot thả vật ở vị trí theo kết quả của quá trình xử lý ảnh 
+
++ Sau đó, Robot di chuyển về vị trí chờ, kết thúc một chu trình chuyển động.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+83 
+
+ 
+
+3.5 Kết quả quá trình thực nghiệm 
+
+Video kết quả quá trình gắp thả vật của Robot Mitsubishi ở đường link sau: 
+
+Điều khiển gắp thả vật dán QR code bằng robot Mitsubishi - YouTube  
+
+Dưới đây là kết quả thực hiện với các QR Code: 
+
+ 
+
+ 
+
+ 
+
+https://www.youtube.com/watch?v=RFvcKuFlyd8&t=14s
+
+
+84 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+85 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+86 
+
+ 
+
+Kết quả sau đó sẽ được đẩy xuống SQL và có thể xem ở trên trang web báo 
+
+cáo như hình dưới đây: 
+
+ 
+
+ 
+
+Nhận xét:  
+
++ Hệ thống Robot đã vận hành ổn định và thực hiện được mục tiêu đặt ra ban đầu 
+
+của đồ án là nhận diện QR Code và gắp thả chính xác vị trí của vật. Tuy nhiên khi 
+
+hoạt động ở tốc độ cao thì hệ khá rung lắc nên vì vậy cần lựa chọn tốc độ phù hợp 
+
+khi vận hành. 
+
++ Ngoài ra, hệ thống Camera nhận diện vẫn còn hạn chế khi hoạt động trong điều 
+
+kiện ánh sáng yếu, khi đó sẽ luôn trả về kết quả nhận diện QR Code là “Faulty 
+
+Product”. 
+
+ 
+
+  
+
+
+
+87 
+
+ 
+
+CHƯƠNG 4. KẾT LUẬN 
+
+4.1 Kết luận 
+
+Qua Đồ án Tốt nghiệp này, em đã được được những nội dung kiến thức sau: 
+
+- Sử dụng Camera của Cognex để chụp hình phục vụ cho quá trình xử lý nhận 
+
+dạng ảnh. 
+
+- Áp dụng thuật toán chung của quá trình nhận diện QR Code vào bài làm để 
+
+nhận diện QR Code của nhóm và từ đó điều khiển chuyển động cho Robot. 
+
+- Thiết kế, lập trình giao diện Window Form để giám sát, điều khiển Robot 
+
+thông qua màn hình máy tính và cũng để kiểm tra các dữ liệu thu được từ 
+
+Camera. 
+
+- Thiết kết, lập trình tạo giao diện Web để hiển thị kết quả thu được với dữ 
+
+liệu trích xuất từ SQL. 
+
+- Lập trình điều khiển chuyển động cánh tay Robot công nghiệp, cụ thể là 
+
+Robot RV-2FR-Q của hãng Mitsubishi. 
+
+Quá trình thực hiện Đồ án, em đã tìm hiểu, nghiên cứu và nắm bắt thêm được 
+
+nhiều kiến thức về lĩnh vực robot công nghiệp kết hợp xử lý ảnh cũng như là công 
+
+nghệ lưu trữ dữ liệu trên QR Code. Tuy nhiên, kết quả đạt được vẫn còn nhiều thiết 
+
+xót, em rất mong nhận được những nhận xét, ý kiến đóng góp của các thầy, cô và 
+
+các bạn đọc để đồ án tốt nghiệp này được hoàn thiện hơn. 
+
+4.2 Hướng phát triển của đồ án trong tương lai 
+
+Từ những kết quả đạt được của đồ án, ta có thể phát triển và hoàn thiện thêm 
+
+đồ án trong tương lai như sau:  
+
+- Đồng bộ hoạt động xử lí ảnh của Camera, Robot với tốc độ của băng tải để 
+
+thực hiện đồng thời chuyển động của Robot với băng tải, thay vì Camera 
+
+xử lí xong, băng tải dừng rồi Robot mới thực hiện lệnh như hiện tại. 
+
+- Phát triển thêm vệ hệ thống nhận diện vật thể từ nhận diện 2D thành nhận 
+
+diện 3D, giúp tăng tính chính xác, linh hoạt cũng như ổn định hơn cho hệ 
+
+thống. 
+
+- Phát triển trang web báo cáo kết quả hoàn thiện hơn, giúp theo dõi dữ liệu 
+
+chính xác và nhanh chóng.   
+
+
+
+88 
+
+ 
+
+- Ứng dụng công nghệ xử lý ảnh vào cánh tay robot cố định một vị trí thì có 
+
+thể ứng dụng cho mobile robot giúp robot có thể làm được nhiều việc hơn. 
+
+ 
+
+  
+
+
+
+89 
+
+ 
+
+TÀI LIỆU THAM KHẢO 
+
+ 
+
+[1]  Mitsubishi Electric, CR800 Series - Detailed Explanations of Functions.  
+
+[2]  Mitsubishi Electric, "CR800 Series - iQ Platform Supporting Extended 
+
+Function". 
+
+[3]  Mitsubishi Electric, MX Component Version 4 Operating Manual.  
+
+[4]  Mitsubishi Electric, RV-FR Series - Robot Arm Setup & Maintenance.  
+
+[5]  Mitsubishi Electric, RV-FR Series - Standard Specification Manual.  
+
+[6]  Học viện Bưu chính Viễn thông, Xử lí ảnh, 2006.  
+
+ 
+
+ 
+
+  
+
+
+
+90 
+
+ 
+
+PHỤ LỤC 
+
+A1. Các thành phần chương trình chính tạo giao diện báo cáo kết quả trên 
+
+trang web sử dụng ngôn ngữ MVC C#.  
+
+ 
+
+• Đoạn code bên dưới được tự động tạo ra khi sử dụng tầng Codefirst từ dữ 
+
+liệu đã có sẵn trong SQL. Cần phải cài đặt thêm package Entity Framework 
+
+để dùng được tính năng này.  
+
+  
+
+namespace Models.Framework 
+
+{ 
+
+    using System; 
+
+    using System.Collections.Generic; 
+
+    using System.ComponentModel.DataAnnotations; 
+
+    using System.ComponentModel.DataAnnotations.Schema; 
+
+    using System.Data.Entity.Spatial; 
+
+ 
+
+    [Table("Baocaodulieu")] 
+
+    public partial class Baocaodulieu 
+
+    { 
+
+        public DateTime? Time { get; set; } 
+
+ 
+
+        [Key] 
+
+        [DatabaseGenerated(DatabaseGeneratedOption.None)] 
+
+        public int ProductA { get; set; } 
+
+ 
+
+        public int? ProductB { get; set; } 
+
+ 
+
+        public int? ProductC { get; set; } 
+
+ 
+
+        public int? FaultyProduct { get; set; } 
+
+ 
+
+        
+
+    } 
+
+} 
+
+ 
+
+• Tạo một lớp để thao tác với bảng trên: 
+
+namespace Models 
+
+{ 
+
+    public class BaocaodulieuModel 
+
+
+
+91 
+
+ 
+
+    { 
+
+        private DcsDbContext context = null; 
+
+        public BaocaodulieuModel() 
+
+        { 
+
+            context = new DcsDbContext(); 
+
+        } 
+
+        public List<Baocaodulieu> ListAll() 
+
+        { 
+
+            var list = 
+
+context.Database.SqlQuery<Baocaodulieu>("SP_Baocao_ListAll").ToList(); 
+
+            return list; 
+
+        } 
+
+ 
+
+ 
+
+    } 
+
+} 
+
+ 
+
+ 
+
+• Controller cho trang web:  
+
+namespace BTLDCS_SCADA.Areas.Admin.Controllers 
+
+{ 
+
+    public class BaocaodulieuController : Controller 
+
+    { 
+
+        // GET: Admin/Baocaodulieu 
+
+        public ActionResult Index() 
+
+        { 
+
+            var iplCate = new BaocaodulieuModel(); 
+
+            var model = iplCate.ListAll(); 
+
+            return View(model); 
+
+        } 
+
+ 
+
+        // GET: Admin/Baocaodulieu/Details/5 
+
+        public ActionResult Details(int id) 
+
+        { 
+
+            return View(); 
+
+        } 
+
+ 
+
+        // GET: Admin/Baocaodulieu/Create 
+
+        public ActionResult Create() 
+
+        { 
+
+            return View(); 
+
+        } 
+
+ 
+
+
+
+92 
+
+ 
+
+        // POST: Admin/Baocaodulieu/Create 
+
+        [HttpPost] 
+
+        public ActionResult Create(FormCollection collection) 
+
+        { 
+
+            try 
+
+            { 
+
+                // TODO: Add insert logic here 
+
+ 
+
+                return RedirectToAction("Index"); 
+
+            } 
+
+            catch 
+
+            { 
+
+                return View(); 
+
+            } 
+
+        } 
+
+ 
+
+        // GET: Admin/Baocaodulieu/Edit/5 
+
+        public ActionResult Edit(int id) 
+
+        { 
+
+            return View(); 
+
+        } 
+
+ 
+
+        // POST: Admin/Baocaodulieu/Edit/5 
+
+        [HttpPost] 
+
+        public ActionResult Edit(int id, FormCollection collection) 
+
+        { 
+
+            try 
+
+            { 
+
+                // TODO: Add update logic here 
+
+ 
+
+                return RedirectToAction("Index"); 
+
+            } 
+
+            catch 
+
+            { 
+
+                return View(); 
+
+            } 
+
+        } 
+
+ 
+
+        // GET: Admin/Baocaodulieu/Delete/5 
+
+        public ActionResult Delete(int id) 
+
+        { 
+
+            return View(); 
+
+        } 
+
+ 
+
+
+
+93 
+
+ 
+
+        // POST: Admin/Baocaodulieu/Delete/5 
+
+        [HttpPost] 
+
+        public ActionResult Delete(int id, FormCollection collection) 
+
+        { 
+
+            try 
+
+            { 
+
+                // TODO: Add delete logic here 
+
+ 
+
+                return RedirectToAction("Index"); 
+
+            } 
+
+            catch 
+
+            { 
+
+                return View(); 
+
+            } 
+
+        } 
+
+    } 
+
+} 
+
+ 
+
+ 
+
+• Tạo trang giao diện hiển thị (View) cho trang web:  
+
+@model List<Models.Framework.Baocaodulieu>  
+
+ 
+
+@{ 
+
+    ViewBag.Title = "Index"; 
+
+    Layout = "~/A

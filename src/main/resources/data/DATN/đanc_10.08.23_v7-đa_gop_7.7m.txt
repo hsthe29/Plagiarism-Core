@@ -1,0 +1,3634 @@
+
+ 
+
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+TRƯỜNG ĐIỆN - ĐIỆN TỬ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+
+ 
+
+ 
+
+NGHIÊN CỨU NGỦ NGÁY Ở NGƯỜI GIÚP 
+
+CHẨN ĐOÁN CÁC BỆNH LÝ LIÊN QUAN 
+
+ 
+
+ 
+
+
+Lương Thị Hằng - 20192828 
+
+ 
+
+Giảng viên hướng dẫn: TS. Dương Trọng Lượng 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hà Nội, 7-2023 
+
+
+
+ 
+
+ 
+
+LỜI NÓI ĐẦU 
+
+Giấc ngủ đóng vai trò rất quan trọng trong việc giúp cơ thể nghỉ ngơi, phục 
+
+hồi và tái tạo năng lượng cho các hoạt động của các cơ quan trong cơ thể, đặc 
+
+biệt là não bộ. Giấc ngủ tốt là một phần cơ bản của cuộc sống khỏe mạnh, giúp 
+
+cho mọi hoạt động của cơ thể và trạng thái tinh thần được cải thiện. Theo cuộc 
+
+nghiên cứu trên 2.000 người tại Canada có khoảng hơn 70% là nam giới ngáy 
+
+khi ngủ và hơn 50% là nữ giới. Tình trạng ngủ ngáy thường xuyên có mối tương 
+
+quan chặt chẽ với nhiều vấn đề sức khỏe nghiêm trọng như: đột quỵ, các bệnh 
+
+tim mạch, tình trạng thừa cân béo phì, đau đầu, ngưng thở khi ngủ... Hiện nay 
+
+tại các bệnh viện thường sử dụng máy đo đa ký giấc ngủ ghi lại toàn bộ hoạt 
+
+động của cơ thể trong quá trình ngủ, từ đó giúp các bác sĩ chẩn đoán tốt nhất 
+
+các dạng khác nhau của tình trạng rối loạn giấc ngủ, biết người bệnh đang mắc 
+
+dạng rối loạn giấc ngủ nào để có định hướng điều trị phù hợp. Tuy nhiên chi phí 
+
+thực hiện đo đa ký giấc ngủ khá cao và mất khá nhiều thời gian để hoàn thành. 
+
+Chính vì vậy, chúng em đã chọn đề tài “Nghiên cứu ngủ ngáy ở người giúp chẩn 
+
+đoán các bệnh lý liên quan” nhằm hiểu biết sâu về chứng ngủ ngáy, về các 
+
+phương pháp phát hiện, phân tích ngủ ngáy và  phát triển một modul theo dõi 
+
+ngủ ngáy ở người. 
+
+Chúng em xin chân thành cảm ơn TS. Dương Trọng Lượng đã luôn tận tình 
+
+chỉ bảo, tạo điều kiện không chỉ về cơ sở vật chất mà còn về tinh thần, luôn 
+
+động viên khích lệ về mặt tinh thần cho chúng em hoàn thành đề tài này. Chúng 
+
+em cũng xin chân thành cám ơn ThS. BS. Đỗ Thanh Tuấn – Bác sĩ tại Bệnh viện 
+
+Đại học Y Hà Nội và Giảng viên Bộ môn Giải phẫu và sinh lý học tại Đại học 
+
+Bách khoa Hà Nội đã tạo điều kiện cho chúng em đến khảo sát thiết bị tại Bệnh 
+
+viện, đồng thời hỗ trợ kiến thức chuyên môn về y học để chúng em hoàn thành 
+
+báo cáo đồ án một cách đầy đủ nhất. Cuối cùng, xin gửi đến bố mẹ và gia đình 
+
+lòng biết ơn và kính trọng nhất - những người đã có công sinh thành, nuôi dưỡng 
+
+để chúng em có đầy đủ hành trang thực hiện những ước mơ trong cuộc đời mình. 
+
+Cảm ơn thầy cô, gia đình và bạn bè đã luôn ở bên, động viên và chỉ dạy giúp 
+
+chúng em hoàn thành tốt nhiệm vụ này.  
+
+
+
+ 
+
+ 
+
+ 
+
+Mặc dù đã rất cố gắng và nỗ lực nhưng do kiến thức còn nhiều hạn chế nên 
+
+đồ án của chúng em khó tránh khỏi những thiếu sót và kết quả đạt được chưa 
+
+thực sự như mong đợi. Vì vậy, chúng em rất mong nhận được sự giúp đỡ, đóng 
+
+góp của các thầy cô để đề tài tốt nghiệp của chúng em được hoàn thiện và có cơ 
+
+hội phát triển hơn trong tương lai. 
+
+Chúng em xin chân thành cảm ơn!  
+
+
+
+ 
+
+ 
+
+LỜI CAM ĐOAN 
+
+Chúng tôi là Trần Thị Phương Thảo, mã số sinh viên 20193121, sinh viên 
+
+lớp Điện tử 06 – K64 và Lương Thị Hằng, mã số sinh viên 20192828, sinh 
+
+viên lớp Điện tử 07 – K64. Người hướng dẫn là TS. Dương Trọng Lượng. 
+
+Chúng tôi xin cam đoan toàn bộ nội dung được trình bày trong đồ án Nghiên 
+
+cứu ngủ ngáy ở người giúp chẩn đoán các bệnh lý liên quan là kết quả quá 
+
+trình tìm hiểu và nghiên cứu của chúng tôi. Các dữ liệu được nêu trong đồ 
+
+án là hoàn toàn trung thực, phản ánh đúng kết quả đo đạc thực tế. Mọi thông 
+
+tin trích dẫn đều tuân thủ các quy định về sở hữu trí tuệ; các tài liệu tham 
+
+khảo được liệt kê rõ ràng. Chúng tôi xin chịu hoàn toàn trách nhiệm với 
+
+những nội dung được viết trong đồ án này. 
+
+ Hà Nội, ngày     tháng     năm 2023 
+
+Người cam đoan 
+
+  
+
+ 
+
+
+
+ 
+
+ 
+
+MỤC LỤC 
+
+ 
+
+DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT .............................................................. i 
+
+DANH MỤC BẢNG BIỂU ............................................................................................. ii 
+
+DANH MỤC HÌNH VẼ ................................................................................................. iii 
+
+TÓM TẮT ĐỒ ÁN .......................................................................................................... v 
+
+CHƯƠNG 1: MỞ ĐẦU .................................................................................................. 1 
+
+1.1 Đặt vấn đề .............................................................................................................. 1 
+
+1.2 Mục tiêu nghiên cứu ............................................................................................. 4 
+
+1.3 Nội dung nghiên cứu ............................................................................................ 4 
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT .............................................................................. 5 
+
+2.1 Giấc ngủ và ngủ ngáy ở người ............................................................................. 5 
+
+2.1.1 Giấc ngủ ......................................................................................................... 5 
+
+2.1.2 Ngủ ngáy ở người ........................................................................................... 9 
+
+2.2 Các bệnh lý liên quan đến ngủ ngáy .................................................................. 13 
+
+2.2.1 Hội chứng ngưng thở khi ngủ ...................................................................... 13 
+
+2.2.2 Ngủ ngáy và mối liên quan đến bệnh tim mạch. .......................................... 20 
+
+2.2.3 Ngáy và tình trạng béo phì ........................................................................... 22 
+
+2.3 Các phương pháp theo dõi ngủ ngáy ................................................................. 23 
+
+2.3.1 Phương pháp sử dụng cảm biến dây có thể co giãn ..................................... 23 
+
+2.3.2 Phương pháp sử dụng cảm biến EMFI ......................................................... 26 
+
+2.3.3 Phương pháp đo tín hiệu tiếng ngáy đang được sử dụng tại bệnh viện Đại học 
+
+Y Hà Nội ............................................................................................................... 28 
+
+2.3.4 Phương pháp sử dụng màng rung ................................................................. 36 
+
+CHƯƠNG 3. THIẾT KẾ MODUL THEO DÕI GIẤC NGỦ ................................... 38 
+
+3.1 Giới thiệu ............................................................................................................. 38 
+
+3.2 Yêu cầu thiết kế ................................................................................................... 38 
+
+3.2.1 Yêu cầu chức năng ....................................................................................... 38 
+
+
+
+ 
+
+ 
+
+3.2.2 Yêu cầu phi chức năng ................................................................................. 38 
+
+3.3 Mục đích thiết kế ................................................................................................. 38 
+
+3.4 Sơ đồ khối hệ thống và chức năng của từng khối ............................................. 39 
+
+3.4.1 Sơ đồ khối hệ thống ..................................................................................... 39 
+
+3.4.2 Chức năng của từng khối.............................................................................. 39 
+
+3.5 Nguyên lý làm việc và lựa chọn linh kiện .......................................................... 39 
+
+3.5.1 Nguyên lý làm việc ...................................................................................... 39 
+
+3.5.2 Lựa chọn linh kiện ........................................................................................ 40 
+
+3.6 Sơ đồ mạch thực tế .............................................................................................. 45 
+
+3.7 Kết quả ................................................................................................................. 48 
+
+KẾT LUẬN .................................................................................................................... 52 
+
+TÀI LIỆU THAM KHẢO ............................................................................................ 54 
+
+ 
+
+ 
+
+
+
+i 
+
+ 
+
+DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT 
+
+ 
+
+STT Viết tắt Dạng đầy đủ Giải nghĩa 
+
+1 OSA Obstructive Sleep Apnea Ngưng thở khi ngủ 
+
+2 OSAS 
+Obstructive sleep apnea 
+
+syndrom 
+
+Hội chứng ngừng thở tắc 
+
+nghẽn khi ngủ 
+
+3 IHD Ischemic heart disease Thiếu máu cơ tim 
+
+4 REM Rapid eye movement Chuyển động mắt nhanh 
+
+5 EEG Electroencephalography Điện não đồ 
+
+6 ECG Electrocardiography Điện tâm đồ 
+
+7 EMG Electromyography Điện cơ đồ 
+
+8 EOG Electrooculography Điện nhãn đồ 
+
+9 AHI Apnea Hypopnea Index  Chỉ số ngưng thở khi ngủ 
+
+10 CPAP 
+Continuous positive airway 
+
+pressure 
+
+Thông khí liên tục áp lực 
+
+dương 
+
+11 EDS 
+Excessive Daytime 
+
+Sleepiness  
+
+Buồn ngủ quá mức ban 
+
+ngày 
+
+12 HS Habitual snoring  Ngáy theo thói quen 
+
+13 COPD 
+Chronic obstructive 
+
+pulmonary disease  
+
+Viêm phổi tắc nghẽn mãn 
+
+tính 
+
+14 PSG Polysomnography  Đo đa ký giấc ngủ 
+
+15 MSLT 
+Multiple Sleep Latency 
+
+Test  
+Đo độ trễ giấc ngủ 
+
+
+
+ii 
+
+ 
+
+DANH MỤC BẢNG BIỂU 
+
+Bảng 2.1 So sánh các đối tượng béo phì, tiền béo phì và bình thường [11] .... 22 
+
+Bảng 2.2 Biên độ tín hiệu đo được tại các vị trí khác nhau [13] ..................... 27 
+
+Bảng 2.3 Tóm lược kết quả đo đa ký giấc của bệnh nhân V.T.N .................... 35 
+
+Bảng 2.4 Tóm lược kết quả đo đa ký của bệnh nhân N.T.H ............................ 35 
+
+Bảng 3.1 Thông số kỹ thuật của Module Arduino Uno R3 ............................. 42 
+
+Bảng 3.2 Thông số kỹ thuật Micro SD ............................................................ 44 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+iii 
+
+ 
+
+DANH MỤC HÌNH VẼ 
+
+Hình 2.1 Các dạng sóng của não khi ngủ [5] ..................................................... 6 
+
+Hình 2.2 Mô tả đường thở khi ngáy [7] ........................................................... 10 
+
+Hình 2.3 Các dị tật ở mũi [8] ........................................................................... 10 
+
+Hình 2.4 Poyp mũi [8] ..................................................................................... 10 
+
+Hình 2.5 Viêm amidan ở trẻ em [9] ................................................................. 11 
+
+Hình 2.6 Lưỡi gà dài [9] .................................................................................. 11 
+
+Hình 2.7 Dạng sóng của tiếng ngáy đơn gỉan .................................................. 13 
+
+Hình 2.8 Dạng sóng của tiếng ngáy phức tạp .................................................. 13 
+
+Hình 2.9 Hội chứng ngưng thở khi ngủ [10] ................................................... 16 
+
+Hình 2.10 Tăng nguy cơ đột quỵ khi ngủ ngáy [10] ....................................... 21 
+
+Hình 2.11 Cảm biến dây được gắn vào cổ [12] ............................................... 23 
+
+Hình 2.12 Dữ liệu rung cổ họng trong các trường hợp: Ngáy (c-I), Nuốt (c-II) 
+
+và Thở sâu (c-III) [12] ..................................................................................... 23 
+
+Hình 2.13 Hai kết quả tiêu biểu thu được [12] ................................................ 25 
+
+Hình 2.14 Bộ khuếch đại tín hiệu cảm biến EMFI [13] .................................. 27 
+
+Hình 2.15 Thực hiện đo đa ký để chẩn đoán bệnh tại bệnh viện ..................... 29 
+
+Hình 2.16 Các điện đồ trong đa ký giấc ngủ ................................................... 29 
+
+Hình 2.17 Ngáy to liên tục cảnh báo ngưng thở khi ngủ ................................. 31 
+
+Hình 2.18 Mô tả quá trình đo đa ký giấc ngủ tại bệnh viện ............................ 33 
+
+Hình 2.19 Dạng sóng của các tín hiệu đo được từ máy đo đa ký giấc ngủ được 
+
+thể hiện trên phần mềm Remlogic ................................................................... 34 
+
+Hình 2.20 Dạng sóng của các tín hiệu đo được từ máy đo đa ký giấc ngủ được 
+
+thể hiện trên phần mềm Remlogic ................................................................... 34 
+
+Hình 3.1 Sơ đồ khối hệ thống .......................................................................... 39 
+
+Hình 3.2 Cảm biến MAX4466......................................................................... 40 
+
+Hình 3.3 Module ARDUINO UNO R3 ........................................................... 41 
+
+Hình 3.4 Lưu đồ thuật toán .............................................................................. 43 
+
+Hình 3.5 Micro SD/Micro SDHC SPI ............................................................. 44 
+
+
+
+iv 
+
+ 
+
+Hình 3.6 Liên kết giữa Micro SD và Arduino R3 ........................................... 45 
+
+Hình 3.7 Sơ đồ mạch thực tế ........................................................................... 46 
+
+Hình 3.8 Sơ đồ mạch trên board ...................................................................... 46 
+
+Hình 3.9 Thiết kế vỏ hộp cho mạch ................................................................. 47 
+
+Hình 3.10 Mạch hoàn chỉnh trong vỏ hộp ....................................................... 47 
+
+Hình 3.11 Cách đeo modul để tiến hành thu tiếng ngáy .................................. 48 
+
+Hình 3.12 Kết quả phân tích tiếng ngáy đo lần 1 (có lẫn tạp âm) ................... 49 
+
+Hình 3.13 Kết quả phân tích tiếng ngáy đo lần 2 (có lẫn tạp âm) ................... 49 
+
+Hình 3.14 Kết quả phân tích tín hiệu ngủ không ngáy .................................... 50 
+
+Hình 3.15 Kết quả phân tích tiếng ngáy trong trường hợp ngủ ngáy lý tưởng 
+
+(không chứa tạp âm) ........................................................................................ 51 
+
+Hình 3.16 Kết quả phân tích tiếng ngáy trong trường hợp ngủ ngáy có xuất hiện 
+
+chứng ngưng thở khi ngủ ................................................................................. 51 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+v 
+
+ 
+
+TÓM TẮT ĐỒ ÁN 
+
+Giấc ngủ đóng vai trò rất quan trọng trong việc giúp cơ thể nghỉ ngơi, phục hồi 
+
+và tái tạo năng lượng cho các hoạt động của các cơ quan trong cơ thể. Tình trạng 
+
+ngủ ngáy thường xuyên có mối tương quan chặt chẽ với nhiều vấn đề sức khỏe 
+
+nghiêm trọng như: đột quỵ, các bệnh tim mạch, tình trạng thừa cân béo phì, đau 
+
+đầu, ngưng thở khi ngủ... Hiện nay tại các bệnh viện thường sử dụng máy đo đa 
+
+ký giấc ngủ ghi lại toàn bộ hoạt động của cơ thể trong quá trình ngủ. Tuy nhiên 
+
+chi phí thực hiện đo đa ký giấc ngủ khá cao và mất khá nhiều thời gian để hoàn 
+
+thành.  
+
+     Mục tiêu đầu tiêu được đặt ra là khảo sát tình trạng ngủ ngáy ở người, nghiên 
+
+cứu về các đặc điểm của giấc ngủ và ngủ ngáy. Tìm hiểu về các bệnh lý liên 
+
+quan đến ngủ ngáy và các phương pháp theo dõi, phân tích ngủ ngáy trên thế 
+
+giới và phương pháp đo đa ký giấc ngủ tại Bệnh viện Đại học Y Hà Nội. Thiết 
+
+kế một modul có khả năng ghi lại tiếng ngáy của con người và phân tích các đặc 
+
+điểm về tần số, biên độ, phổ tần số của dữ liêu tiếng ngáy thu được bằng phần 
+
+mềm Matlab. So sánh các đặc điểm của tiếng ngáy trong các trường hợp ngủ 
+
+ngáy lý tưởng (không chứa tạp âm), ngủ ngáy thực tế (có chứa tạp âm) và ngủ 
+
+ngáy có triệu chứng của ngưng thở.  
+
+    Với việc hoàn thành đồ án này, chúng em thu được những kiến thức ngủ ngáy 
+
+và các bệnh lý liên quan, các phương pháp theo dõi, phân tích ngủ ngáy hiện có. 
+
+Đồng thời thiết kế một modul đơn giản, thuận tiện cho người có triệu chứng ngủ 
+
+ngáy theo dõi tại nhà với chi phí thấp. 
+
+Nội dung báo cáo bao gồm 3 chương chính được giới thiệu sơ lược sau đây: 
+
+- Chương 1: Tổng quan về ngủ ngáy và các chứng bệnh liên quan. 
+
+- Chương 2: Các phương pháp theo dõi ngủ ngáy hiện nay. 
+
+- Chương 3: Thiết kế modul theo dõi và phân tích tiếng ngáy. 
+
+
+
+1 
+
+ 
+
+CHƯƠNG 1: MỞ ĐẦU 
+
+1.1 Đặt vấn đề  
+
+Ngáy là một dạng rối loạn nhịp thở khi ngủ, cản trở chất lượng và số lượng 
+
+giấc ngủ đối với cả người ngáy và người ngủ cùng người ngáy. Giấc ngủ kém 
+
+do ngáy có thể gây ra các vấn đề nghiêm trọng về thể chất, tinh thần và kinh tế. 
+
+Một trong những nghiên cứu dài nhất thế giới về cuộc sống ở người trưởng 
+
+thành do trường Y Harvard tiết lộ rằng, giấc ngủ ngon là điều khiến con người 
+
+hạnh phúc trong suốt cuộc đời của họ. Khoảng 40% nam giới trưởng thành và 
+
+24% phụ nữ trưởng thành thường xuyên ngáy ngủ. Khảo sát 162 người có chứng 
+
+ngáy thì 1/7 số người nằm cạnh bị tăng huyết áp, 14% trong số đó ngáy to với 
+
+âm lượng trên 53 dB, ngang với tiếng máy rửa bát hoạt động [1].  
+
+Ngáy chịu nhiều tác dộng của vị trí khi ngủ, giai đoạn ngủ, đường thở và 
+
+người ngủ ngáy có mắc chứng rối loạn nhịp thở khi ngủ hay không. Một vài 
+
+nguyên nhân cơ bản như đường thở mũi bị chặn, một số người chỉ ngáy trong 
+
+mùa dị ứng hoặc khi họ bọ nhiễm trùng xoang – hoặc các vấn đề mũi như lệch 
+
+vách ngăn (bức tường ngăn các lỗ mũi này với lỗ mũi kia lệch tâm), cũng có thể 
+
+do polyp mũi chặn đường thở. Các cơ cổ họng và lưỡi trương lực kém, khiến 
+
+chúng giãn ra và đè vào đường thở; thừa cân, béo phì có thể gây ra ngáy, một 
+
+số trẻ em có amidan (hàng rào miễn dịch vùng họng miệng) và adenoids (mảng 
+
+mô nằm cao trong cổ họng, ngay sau mũi) lớn trẻ em bị ngáy; vòm miệng mềm 
+
+dài hoặc lưỡi gà dài có thể làm thu hẹp lỗ thông từ mũi đến cổ họng, khi thở, 
+
+chúng va vào nhau và làm đường thở tắc nghẽn; sử dụng ma túy, uống rượu bia 
+
+làm cho cơ lưỡi và cổ họng dãn ra quá mức; tư thế ngủ và thiếu ngủ cũng ảnh 
+
+hưởng đến cơ cổ họng và là những nguyên nhân gây ra ngáy. Tiếng ngáy thường 
+
+được đánh giá là âm thanh vô cùng khó chịu, gây ức chế, tuy nhiên nó còn thể 
+
+hiện một khía cạnh khác về tình trạng sức khỏe hiện tại của người ngủ ngáy. Do 
+
+đó, việc đánh giá tình trạng nặng, nhẹ của chứng ngủ ngáy là rất quan trọng 
+
+trong việc sử dụng các biện pháp can thiệp điều trị kịp thời. Hơn nữa, tiếng ngáy 
+
+còn mang các thông tin liên quan đến vị trí và mức độ tắc nghẽn của đường hô 
+
+hấp trên của người ngủ ngáy. Những đặc điểm này đã truyền cảm hứng cho các 
+
+nhà nghiên cứu xem xét kỹ lưỡng các đặc điểm âm thanh của chứng ngủ ngáy.  
+
+
+
+2 
+
+ 
+
+Trong một nghiên cứu được thực hiện ở Toronto, Canada, năm 2001, đối 
+
+với các cặp vợ chồng – tỷ lệ ngáy tăng dần theo độ tuổi và tỷ lệ ngáy cao hơn 
+
+gần 85% ở người chồng. Nghiên cứu chỉ ra rằng có sự liên quan giữa tình trạng 
+
+ngủ ngáy và một số bệnh lý về huyết áp, tim,…. Cả nam giới và nữ giới ngủ 
+
+ngáy có khả năng mắc cao huyết áp tăng gấp đôi so với người ngủ không ngáy. 
+
+Tỷ lệ mắc bệnh tim và các bệnh khác, ngoại trừ tiểu đường và hen suyễn cũng 
+
+tăng ở những người trong độ tuổi này [2].  
+
+Ngủ ngáy kéo dài với âm lượng lớn, tần suất dày là dấu hiệu cảnh báo đáng 
+
+chú ý về sức khỏe. Một trong những bệnh lý nghiêm trọng dễ gặp phải là chứng 
+
+ngưng thở khi ngủ. Ngáy là một trong những triệu chứng phổ biến nhất của 
+
+chứng ngưng thở khi ngủ do tắc nghẽn (Obstructive Sleep Apnea – OSA) nhưng 
+
+cũng không hẳn tất cả những người ngáy đều mắc OSA. Ngáy liên quan đến 
+
+OSA có xu hướng to và nghe như thể một người đang bị nghẹt thở, khịt mũi 
+
+hoặc thở hổn hển. Ngưng thở khi ngủ nếu không được chẩn đoán và điều trị kịp 
+
+thời có thể dẫn đến các biến chứng nghiêm trọng như nhồi máu cơ tim, đái tháo 
+
+đường, tăng huyết áp, loạn nhịp tim, đột quỵ... Việc nhận biết và phát hiện sớm 
+
+sẽ giúp giảm nguy cơ mắc các biến chứng nguy hiểm.  
+
+Vậy ngủ ngáy có nguy hiểm hay không phụ thuộc hoàn toàn vào loại, mức 
+
+độ nghiêm trọng và tần suất của nó. Nếu ngáy nhẹ và không thường xuyên thì 
+
+đây là điều rất bình thường và sẽ không cần làm xét nghiệm hoặc điều trị y tế; 
+
+tác động chính của nó là bạn cùng phòng hoặc cùng giường có thể bị làm phiền 
+
+bởi tiếng ồn không thường xuyên. Mức độ thứ hai của ngủ ngáy chính là ngáy 
+
+nguyên phát, tần suất xảy ra là khoảng hơn ba đêm mỗi tuần; tuy nhiên ngáy 
+
+nguyên phát thường chưa được coi là một vấn đề sức khỏe đáng lo ngại trừ khi 
+
+người ngáy có dấu hiệu gián đoạn giấc ngủ hoặc ngưng thở khi ngủ, trường hợp 
+
+này cần phải tiến hành thực hiện các xét nghiệm chẩn đoán. Cuối cùng, ngáy 
+
+liên quan đến chứng OSA, đây là trường hợp đáng lo ngại về tình trạng sức 
+
+khỏe. Nhiều trường hợp ngáy lành tính nhưng nếu chủ quan, người mắc chứng 
+
+ngủ ngáy có thể phát hiện các bệnh liên quan khi đã quá nặng, ảnh hưởng đến 
+
+kết quả điều trị sau này.  
+
+Không chỉ ảnh hưởng đến sức khoẻ của chính bản thân người ngủ ngáy, 
+
+người nằm cạnh người ngủ ngáy cũng phải đối mặt với các hậu quả không đáng 
+
+
+
+3 
+
+ 
+
+có. Việc nằm cạnh người ngủ ngáy, trước tiên tiếng ồn sẽ làm gián đoạn giấc 
+
+ngủ, lâu dài gây thiếu ngủ dẫn đến mệt mỏi hoặc thậm chí xảy ra cãi vã. Một 
+
+nghiên cứu mới đây được thực hiện bởi trường Y dược John Hopkins chỉ ra rằng 
+
+sự ô nhiễm tiếng ồn do tiếng ngáy của người bên cạnh có thể khiến bạn bị tăng 
+
+huyết áp [3].   
+
+Một vấn đề cần quan tâm khác chính là làm thế nào để biết mình có ngáy 
+
+không nếu ngủ một mình, ngáy to hay nhỏ, cường độ tần suất ra sao. Trừ khi có 
+
+người nói cho họ biết, còn không thì hầu hết những người ngáy đều không nhận 
+
+ra là bản thân mình đang ngáy. Đây có thể là một trong những nguyên nhân 
+
+chính cho thấy tại sao chứng OSA không được chẩn đoán và phát hiện sớm. Nếu 
+
+ngủ một mình, một thiết bị ghi âm lại tiếng ngáy là rất hữu ích, có thể là một 
+
+thiết bị ghi âm và phân tích đơn giản để phát hiện các giai đoạn ngáy xảy ra. 
+
+Thiết bị này tất nhiên cần phải ghi âm trong nhiều đêm bởi vì tần suất của tiếng 
+
+ngáy là không cố định. Và quan trọng là phải phát hiện được các dấu hiệu bất 
+
+thường liên quan đến giấc ngủ bị gián đoạn. Những điều này đòi hỏi sự cần thiết 
+
+của một thiết bị đơn giản để người nghi ngờ mắc chứng ngủ ngáy hoặc các 
+
+chứng nặng hơn có thể theo dõi sức khỏe tại nhà.  
+
+Hiện nay, tại Bệnh viện Đại học Y Hà Nội, việc chẩn đoán các bệnh lý liên 
+
+quan đến rối loạn giấc ngủ được thực hiện bằng máy đo đa ký giấc ngủ. Phương 
+
+pháp này đo chất lượng giấc ngủ bằng cách ghi lại sóng não, nồng độ oxy trong 
+
+máu, nhịp tim và nhịp thở, cũng như chuyển động của mắt và chân trong quá 
+
+trình khảo sát. Dữ liệu, các thông số đo đa ký của bệnh nhân sau khi thu được 
+
+sẽ được chuyển lên hệ thống phần mềm theo dõi trên máy tính cá nhân của bác 
+
+sĩ, sau đó bác sĩ sẽ dựa vào các chỉ số nêu trên tiến hành chẩn đoán bệnh. Tuy 
+
+nhiên, với phương pháp này, mỗi lần tiến hành đo đa ký giấc ngủ, chỉ có thể đo 
+
+được một bệnh nhân mỗi đêm, hơn nữa chi phí cho một lần đo đa ký giấc ngủ 
+
+khá cao, và chỉ được thực hiện khi tình trạng ngủ ngáy của bệnh nhân ở ngưỡng 
+
+báo động. Do vậy, việc nghiên cứu giấc ngủ và theo dõi tiếng ngáy để bệnh nhân 
+
+có thể tự tiến hành theo dõi tại nhà là rất cần thiết và mang tính thực tiễn cao. 
+
+Khi các thông số đo được đạt đến ngưỡng có dấu hiệu bệnh lý, người bệnh có 
+
+thể tự đến các cơ sở bệnh viện để thăm khám và điều trị kịp thời.  
+
+
+
+4 
+
+ 
+
+Kết luận, vấn đề đặt ra chính là thiết kế được thiết bị đơn giản sử dụng tiếng 
+
+ngáy ghi được, phân tích các đặc điểm của tiếng ngáy về tần số, âm lượng, biên 
+
+độ, dạng sóng,…từ đó có cơ sở để chẩn đoán các chứng bệnh lý liên quan. Qua 
+
+đó, giúp phát hiện các dấu bệnh sớm, người bệnh có thể kiểm tra và được hỗ trợ 
+
+can thiệp của y tế kịp thời nhằm giúp điều trị phục hồi sớm nhất có thể. 
+
+1.2 Mục tiêu nghiên cứu 
+
+     Đề tài được thực hiện nhằm nghiên cứu về giấc ngủ con người và hiện tượng 
+
+ngủ ngáy của con người. Từ đó, nghiên cứu các triệu chứng bệnh lý liên quan 
+
+đến ngủ ngáy. Đồng thời, thiết kế  module ghi lại tiếng ngáy của con người trong 
+
+quá trình ngủ sao cho thuận tiện, dễ dàng, linh hoạt và phân tích các đặc điểm 
+
+của tiếng ngáy về tần số, âm lượng, dạng sóng, ... trong quá trình ngủ. 
+
+1.3 Nội dung nghiên cứu 
+
+     Đề tài tiến hành nghiên cứu về giấc ngủ, chứng ngủ ngáy và các chứng bệnh 
+
+lý liên quan đến ngủ ngáy như chứng rối loạn nhịp thở khi ngủ, ngưng thở khi 
+
+ngủ, các bệnh lý về tim mạch, yếu tố rủi ro dễ gặp phải khi ngủ ngáy,... 
+
+Khảo sát, thu thập thông tin, dữ liệu từ thực tế tại Bệnh viện Đại học Y Hà 
+
+nội. 
+
+Thực hiện nghiên cứu và thiết kế module  theo dõi giấc ngủ, tiếng ngáy tại 
+
+nhà và phân tích các đặc điểm của tiếng ngáy phục vụ chẩn đoán các bệnh lý 
+
+liên quan. Module yêu cầu thiết kế nhỏ gọn, thu tín hiệu bằng mic và có thể 
+
+phân tích tiếng ngáy làm cơ sở so sánh, chẩn đoán bệnh lý. 
+
+Đề tài được thực hiện tại Lab Đo lường sinh lý học con người phòng 308B 
+
+– C9, Đại học Bách khoa Hà Nội. Dữ liệu tiếng ngáy được thu thập vào các thời 
+
+điểm buổi trưa (12h – 14h) và buổi đêm (22h-0h) của các bệnh nhân tại Bệnh 
+
+viện Đại học y Hà Nội và các tình nguyện viên tại phòng Lab. 
+
+ 
+
+
+
+5 
+
+ 
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT 
+
+2.1 Giấc ngủ và ngủ ngáy ở người 
+
+2.1.1 Giấc ngủ 
+
+     Giấc ngủ là một trong những nhu cầu sinh lý thiết yếu của cuộc sống. Nếu 
+
+hoạt động thức tiêu tốn nhiều năng lượng thì ngủ giúp các cơ quan trong cơ thể 
+
+con người được nghỉ ngơi và có thời gian hồi phục. Nó giúp duy trì nhịp sinh 
+
+học của cơ thể và nó đóng vai trò quan trọng trong các chức năng của não bộ 
+
+bao gồm các hoạt động liên quan đến thần kinh, nhận thức và an toàn, củng cố 
+
+trí nhớ, điều chỉnh tâm trạng, hấp thu và thanh thải các chất chuyển hóa trong 
+
+não. Giấc ngủ cũng liên quan mật thiết đến sinh lý học hệ thống, bao gồm cả 
+
+quá trình trao đổi chất, điều chỉnh sự thèm ăn, chức năng miễn dịch và nội tiết 
+
+tố, và cả hệ thống tim mạch. Thời gian ngủ cũng có liên quan đến nguy cơ tử 
+
+vong, các bệnh về tim và mạch máu não, lâu dài dẫn đến béo phì, tiểu đường, 
+
+ung thư, cuối cùng là trầm cảm [4].  
+
+Hầu hết mọi người đều cho rằng giấc ngủ là một hoạt động thụ động mà khi 
+
+đó cơ thể và não bộ không hoạt động. Nhưng thực chất cho thấy não bộ đang 
+
+tham gia vào một số hoạt động cần thiết của cuộc sống của con người trong suốt 
+
+một chu trình giấc ngủ - có liên quan rất chặt chẽ đến chất lượng cuộc sống của 
+
+con người chúng ta. Có nhiều nghiên cứu đã chỉ ra rằng trong quá trình ngủ, cơ 
+
+thể con người tiết ra nhiều chất sinh học đặc biệt là các hormone có vai trò tăng 
+
+trưởng và bảo vệ cơ thể như GH, testosterone, prolactin… Thời gian ngủ của 
+
+con ngưởi rất khác nhau, phụ thuốc vào nhiều yếu tố, trong đó quan trọng nhất 
+
+là tuổi tác. Tuổi càng nhỏ nhu cầu ngủ càng nhiều. Trẻ mới sinh có thể ngủ 16 - 
+
+18 giờ một ngày, trong khi ở người trưởng thành con số này là 7- 8 giờ.  
+
+Ngủ là một trạng thái mà nhận thức đối với các kích thích của môi trường 
+
+bị giảm sút. Giấc ngủ khác với trạng thái hôn mê, ngủ đông và chết bởi thực tế 
+
+là nó có thể được đảo ngược nhanh chóng. Người ta không biết rõ các chức năng 
+
+chính xác của giấc ngủ nhưng nó là điều cần thiết để tồn tại vì thiếu ngủ kéo dài 
+
+dẫn đến suy giảm thể chất nghiêm trọng, sau đó là mất nhận thức và cuối cùng 
+
+là tử vong.  
+
+
+
+6 
+
+ 
+
+Giấc ngủ và các vấn đề liên quan đến giấc ngủ là một trong các yếu tố gây 
+
+nên lượng lớn các rối loạn sinh lý và tinh thần của con người và ảnh hưởng đến 
+
+hầu hết các lĩnh vực y học. Ví dụ, các bệnh lý như đột quỵ và hen suyễn có xu 
+
+hướng xảy ra thường xuyên hơn vào ban đêm và sáng sớm, do sự thay đổi của 
+
+hormone, nhịp tim và các đặc điểm khác liên quan đến giấc ngủ. Một số loại 
+
+động kinh có thể liên quan đến giấc ngủ theo một mối liên hệ phức tạp. Thiếu 
+
+ngủ cũng gây ra các cơn co giật ở những người mắc một số loại động kinh. 
+
+Chu kỳ giấc ngủ 
+
+Các giai đoạn của giấc ngủ: Giấc ngủ bao gồm 4 giai đoạn luân phiên nhau 
+
+tạo thành chu kỳ: thức giấc, giấc ngủ chậm nông thì 1 (N1) và thì 2 (N2), giấc 
+
+ngủ chậm sâu thì 3 (N3) và thì 4 (N4), giấc ngủ nghịch thường hoặc giấc ngủ 
+
+chuyển động mắt nhanh (REM). Có từ 5-6 chu kỳ mỗi đêm, mỗi chu kỳ kéo dài 
+
+khoảng 90 phút. 
+
+Theo hiệp hội giấc ngủ Hoa Kỳ năm 2013 (American Academy of Sleep 
+
+Medicin), tỷ lệ phần trăm các giai đoạn giấc ngủ: N1 khoảng 5%, N2: 45%, N3: 
+
+25% và REM: 25% . 
+
+ 
+
+Hình 2.1 Các dạng sóng của não khi ngủ [5] 
+
+❖ Thức giấc (W-wake): người thư giãn, mắt nhắm 
+
+- Điện não (ECG): sóng alpha ở vùng não sau 
+
+- Điện cơ (EMG): tăng trương lực cơ tư thế (cằm) 
+
+
+
+7 
+
+ 
+
+- Điện cơ mắt (EMO): cử động mắt có chu kỳ 
+
+- Điện tim (ECG): nhịp tim ổn định 
+
+❖ Giấc ngủ chậm nông thì 1: (N1) 
+
+- Điện não (EEG): sóng alpha biến mất, sóng chậm hơn (thêta) 
+
+- Điện cơ mắt (EOG): cử động mắt nhanh sau chậm hơn 
+
+- Điện cơ (EMG): trương lực cơ giảm 
+
+❖ Giấc ngủ chậm nông thì 2: (N2) 
+
+- Điện não (EEG): xuất hiện các “cụm”: từng cơn ngắn tần suất 13 chu 
+
+kỳ/giây, kéo dài 1-2 giây. 
+
+- Điện cơ cằm (EMG): trương lực cơ còn nhưng giảm 
+
+- Điện cơ mắt (EOG): cử động mắt biến mất 
+
+❖ Giấc ngủ chậm sâu thì 3: (N3) 
+
+- Điện não (EEG): các cụm ở thì 2 biến mất thay bằng các sóng chậm delta 
+
+xuất hiện trở lại 
+
+- Điện cơ (EMG): hoạt động cơ cằm rất yếu 
+
+- Điện cơ mắt (EOG): cử động mắt biến mất 
+
+❖ Giấc ngủ chậm sâu thì 4: 
+
+- Điện não (EEG): chỉ có sóng chậm delta với biên độ cao 
+
+- Điện cơ (EMG): hoạt động điện cơ cằm rất yếu 
+
+- Điện cơ mắt (EOG): cử động mắt biến mất 
+
+- Điện tim (ECG): nhịp tim và nhịp thở đều đặn bình ổn 
+
+❖ Giấc ngủ nghịch thường hoặc giấc ngủ với cử động mắt nhanh (REM): là 
+
+sự kết hợp ngược nhau hoạt động của não gần như lúc thức giấc và mất 
+
+trương lực cơ tư thế (các xung động thần kinh vận động không được truyền 
+
+cho thân não để đi đến ngoại biên). 
+
+- Điện não (EEG): mất tính đồng bộ, nhịp nhanh hơn, giống thì 1 gợi ý thức 
+
+giấc 
+
+- Điện cơ (EMG): mất trương lực cơ tư thế 
+
+- Điện cơ mắt (EOG): cử động giật mắt nhanh 
+
+- Điện tim (ECG): nhịp tim và nhịp thở không đều 
+
+       Tác động của giấc ngủ lên hệ thống miễn dịch 
+
+Các tế bào thần kinh kiểm soát giấc ngủ cũng là các tế bào thần kinh tương 
+
+tác chặt chẽ với hệ thống miễn dịch. Với những người bị cúm hay các bệnh 
+
+
+
+8 
+
+ 
+
+truyền nhiễm có xu hướng cảm thấy buồn ngủ. Điều này có thể xảy ra do 
+
+cytokine, chất mà hệ thống miễn dịch của chúng ta tạo ra trong khi chống lại 
+
+nhiễm trùng, là những chất gây ngủ mạnh. Giấc ngủ có thể giúp cơ thể bảo tồn 
+
+năng lượng và các nguồn lực khác mà hệ thống miễn dịch cần để bảo vệ con 
+
+người. 
+
+ Tác dụng của giấc ngủ ngon 
+
+Chu kỳ ngủ - thức của con người được quy định bởi một đồng hồ sinh học 
+
+trong bộ não, nó luôn cân bằng thời gian ngủ và thức của cơ thể con người. Vì 
+
+vậy, giấc ngủ luôn được điều chỉnh bởi đồng hồ sinh học của cơ thể, giúp cho 
+
+bộ não được nghỉ ngơi, loại trừ sự căng thẳng thần kinh (stress), giúp tăng cường 
+
+khả năng tập trung trí nhớ.  
+
+Lúc ngủ, trái tim được giảm cường độ hoạt động, nhịp độ của hệ tuần hoàn 
+
+sẽ ổn định hơn, nhịp thở nhẹ nhàng hơn và huyết áp giảm hơn lúc thức (lúc đang 
+
+ngủ vào khoảng nửa đêm gần sáng huyết áp đỉnh thấp hơn bình thường khoảng 
+
+20mmHg). 
+
+Giấc ngủ tốt (ngủ sâu, không thức giấc, không có ác mộng…) là một phần 
+
+cơ bản của cuộc sống khỏe mạnh, giúp cho mọi hoạt động của cơ thể và trạng 
+
+thái tinh thần được cải thiện. Bởi vì, giấc ngủ sẽ làm tiêu hao sự mệt mỏi, khôi 
+
+phục sức lực đã mất, giữ cho thần kinh được cân bằng, bảo vệ đại não, vì thế 
+
+làm cho tinh thần ôn hòa, cởi mở, có tác dụng khôi phục và tăng cường trí nhớ, 
+
+nâng cao hiệu suất trong công việc; đặc biệt, thể hiện rõ ở những người tuy tuổi 
+
+đã cao nhưng vẫn thường xuyên phải lao động trí óc, căng thẳng (những nhà 
+
+nghiên cứu, nhà khoa học). 
+
+ Tác hại của giấc ngủ không chất lượng 
+
+Những hậu quả của việc ngủ không đủ giấc bao gồm các vấn đề về trí nhớ, 
+
+tâm trạng ủ rũ, tăng huyết áp, đáp ứng miễn dịch yếu. Thêm vào đó, ngủ không 
+
+đủ giấc được cho là có liên quan đến việc suy giảm ham muốn tình dục. Thiếu 
+
+ngủ cũng có thể gây ra cáu gắt, dễ bị kích động, gây mệt mỏi kéo dài và cũng 
+
+có thể làm tăng cân dẫn tới béo phì. 
+
+Một nghiên cứu được tiến hành bởi các nhà nghiên cứu người Anh để kiểm 
+
+tra sự ảnh hưởng của giấc ngủ lên tỷ lệ tử vong của 10.000 công chức tại Anh 
+
+
+
+9 
+
+ 
+
+trong suốt 2 thập kỷ cho thấy: Những người ngủ từ 5 tiếng trở xuống vào ban 
+
+đêm sẽ có nguy cơ tử vong cao gấp đôi những người khác. Nguyên nhân tử vong 
+
+có thể là vì bất cứ lý do gì, đặc biệt là do các bệnh tim mạch [6]. 
+
+Thiếu ngủ (được định nghĩa là tình trạng ngủ không đủ hoặc ngủ không đúng 
+
+giờ) liên quan đến các yếu tố sinh học, xã hội, môi trường và lối sống, đang 
+
+ngày càng tăng và là yếu tố gây ảnh hưởng nghiêm trọng tới sức khoẻ con người. 
+
+Thiếu ngủ có thể gây ra các bệnh về tim mạch, tiểu đường, béo phì và ung thư. 
+
+2.1.2 Ngủ ngáy ở người 
+
+Sinh lý bệnh của ngáy 
+
+     Ngủ ngáy hay còn gọi là ngáy khi ngủ, là hiện tượng luồng không khí mà 1 
+
+người hít vào khi đang ngủ, lúc đi qua 1 vùng hẹp ở đường hô hấp trên sẽ tác 
+
+động làm cho niêm mạc các mô xung quanh rung lên tạo nên một loại âm thanh 
+
+đặc trưng mà người ta gọi đó là tiếng “ngáy”. Vùng hẹp đó có thể ở vùng mũi, 
+
+miệng hoặc là họng [7]. Ngủ ngáy là tình trạng khá phổ biến, xảy ra ở khoảng 
+
+57% nam giới và 40% nữ giới. Ngủ ngáy có thể vô hại nhưng cũng có thể là 
+
+một tình trạng bệnh tật tiềm ẩn cần được điều trị. 
+
+     Người ngủ ngáy thường dễ bị ngưng thở một thời gian khá lâu, do mô mềm 
+
+và niêm mạc của cuống họng thường lỏng lẻo có thể làm che lấp khí quản, hai 
+
+lá phổi không thực hiện được chức năng trao đổi khí, gây thiếu oxy toàn thân. 
+
+Não là cơ quan nhạy cảm nhất với tình trạng thiếu oxy, sẽ phát ra tín hiệu làm 
+
+giãn nở vùng hầu họng và khí quản, làm cho quá trình hô hấp trở lại bình thường. 
+
+Tuy nhiên nếu những rối loạn diễn ra liên tục trong thời gian dài sẽ gây ra chứng 
+
+ngưng thở khi ngủ. 
+
+     Trạng thái thiếu oxy gây ra bởi tình trạng ngưng thở khi ngủ sẽ khiến người 
+
+bệnh ngủ không ngon giấc, giấc ngủ không sâu, thời kỳ ngủ say bị ngắt quãng. 
+
+Hậu quả là bộ não không nghỉ ngơi đầy đủ sau một ngày hoạt động, khiến cho 
+
+người bệnh trở nên mệt mỏi, giảm khả năng tập trung. Nghiêm trọng hơn là 
+
+sóng điện não bị xáo trộn, giảm trí nhớ, giảm năng suất lao động, mệt mỏi, khó 
+
+tập trung và ngủ gật ban ngày, có thể gây nguy hiểm cho bản thân và người khác 
+
+khi tham gia giao thông. 
+
+
+
+10 
+
+ 
+
+ 
+
+Hình 2.2 Mô tả đường thở khi ngáy [7] 
+
+Nguyên nhân của chứng ngủ ngáy 
+
+       Mọi trở ngại cho sự lưu thông bình thường của không khí giữa thanh quản 
+
+và vùng mũi họng đều là nguyên nhân ngủ ngáy. Nó là hậu quả của một hay 
+
+nhiều sự kết của các yếu tố sau: 
+
+- Tắc nghẽn đường hô hấp mũi: Do dị ứng hoặc viêm xoang. Một số người 
+
+chỉ ngáy trong mùa dị ứng hoặc khi bị nhiễm trùng xoang. Các dị tật mũi 
+
+như vách ngăn hợp lệch hoặc polyp mũi cũng có thể gây ra tắc nghẽn đường 
+
+thở, khiến ngủ ngáy xuất hiện. 
+
+ 
+
+Hình 2.3 Các dị tật ở mũi [8] 
+
+ 
+
+ 
+
+Hình 2.4 Poyp mũi [8] 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+11 
+
+ 
+
+- Giảm trương lực cơ trong cổ họng và lưỡi: do các mô liên kết nâng đỡ vùng 
+
+này bị giãn quá mức, trở nên lỏng lẻo, không giữ được lưỡi ở vị trí ban đầu 
+
+mà khiến lưỡi bị tụt lại phía sau và che lấp đường thở. Nguyên nhân tình 
+
+trạng này có thể do giấc ngủ quá sâu, say rượu hoặc do sử dụng một số loại 
+
+thuốc ngủ gây ra. Sự lão hóa cũng khiến các cơ vùng này nới lỏng khi ngủ. 
+
+Điều này lý giải cho sự gia tăng tỷ lệ người ngủ ngáy theo tuổi. 
+
+- Mô họng quá lớn: người thừa cân, béo phì có thể bị tích lũy mô mỡ ở vùng 
+
+hầu họng, khiến cho mô họng quá lớn, làm hẹp khoảng không giữa vùng 
+
+hầu họng và thanh quản và gây ra tiếng ngáy. Ngoài ra, trẻ em bị viêm 
+
+amidan và vòm họng lớn cũng thường bị ngáy. 
+
+- Vòm miệng và/hoặc lưỡi gà dài (mô treo ở phía sau miệng): có thể làm thu 
+
+hẹp khoảng trống từ mũi đến cổ họng. Các cấu trúc giải phẫu này rung lên 
+
+và va chạm với nhau khiến đường thở bị tắc và gây ra tiếng ngáy. 
+
+ 
+
+ 
+
+    Hình 2.5 Viêm amidan ở trẻ em [9] 
+
+ 
+
+    Hình 2.6 Lưỡi gà dài [9] 
+
+ 
+
+- Uống rượu: Rượu làm ức chế và gây rối loạn hoạt động của hệ thần kinh 
+
+trung ương, làm giãn các cơ vùng cổ. Khi tất cả mô và cơ xung quanh cổ 
+
+họng giãn ra, đường hô hấp dễ đóng lại hơn, dẫn đến ngủ ngáy. 
+
+- Mất ngủ: ngủ không đủ giấc có thể dẫn đến giãn cổ họng. 
+
+- Vị trí ngủ: ngáy thường gặp nhất khi nằm ngửa do cổ họng làm hẹp đường 
+
+thở; đặc biệt là khi nằm ngủ gối đầu cao gây gập cổ. 
+
+- Ngưng thở khi ngủ: ngáy cũng có thể liên quan với tắc nghẽn ngưng thở khi 
+
+ngủ. Trong trường hợp nghiêm trọng này, các mô họng ngăn chặn một phần 
+
+hoặc hoàn toàn đường thở, gây ngáy. 
+
+- Một số dị tật bẩm sinh như cổ họng hẹp, cuống lưỡi to, cuống họng dài. 
+
+
+
+12 
+
+ 
+
+- Hút thuốc lá nhiều khiến người hút thuốc thường dễ bị viêm họng hơn, và 
+
+khiến mô dễ bị rung hơn, đường hô hấp dễ bị đóng lại vào ban đêm. Do đó 
+
+nên tránh hút thuốc trước khi đi ngủ, cũng như bỏ thuốc lá. 
+
+Các triệu chứng của ngủ ngáy 
+
+Triệu chứng ngáy ngủ có thể chia làm 3 cấp độ: 
+
+- Cấp độ 1: ngáy ít, tiếng ngáy không to và khi nằm nghiêng sẽ ngừng ngáy. 
+
+- Cấp độ 2: ngáy vừa phải, ngáy to hơn và khi nằm ngủ ở tư thế nghiêng sẽ 
+
+hết ngáy. 
+
+- Cấp độ 3: ngáy rất to ở mọi tư thế nằm ngủ và kèm theo triệu chứng nghẹt 
+
+thở nhất thời, khiến người ngáy tỉnh giấc với trạng thái mệt mỏi. Mức độ 
+
+này có thể nguy hiểm tới bệnh nhân. 
+
+Đặc trưng của tín hiệu ngủ ngáy về tần số 
+
+Đối với người nghe, khá rõ ràng để phân biệt tiếng ngáy với các âm thanh 
+
+thở khác như thở rít và thở khò khè. Tuy nhiên, để thiết lập một định nghĩa về 
+
+tín hiệu ngủ ngáy cho việc xác định khách quan và định lượng các sự kiện liên 
+
+quan đến ngáy cho đến nay đã được chứng minh là khó nắm bắt. Nghiên cứu 
+
+của Hoffstein V và các cộng sự đã chỉ ra mối tương quan kém giữa âm lượng 
+
+đo được của tiếng ngáy và sự đánh giá chủ quan của những người quan sát khác 
+
+nhau [7]. Từ nghiên cứu này, người ta kết luận rằng phần lớn tiếng ngáy là 
+
+''trong tai của người quan sát. 
+
+Tương tự như lời nói, tiếng ngáy được tạo ra trong thanh quản. Do sự tương 
+
+tự này, các kỹ thuật phân tích giọng nói hiện có đã được áp dụng để đánh giá 
+
+âm thanh ngáy. Theo nghiên cứu của Dick Pevernagie và các cộng sự chỉ ra 
+
+rằng, âm lượng của tiếng ngáy nằm trong dải tần số thấp (<500 Hz) [8]. 
+
+Trong một nghiên cứu, Beck et al. đã mô tả các mối quan hệ của âm thanh 
+
+ngáy trong miền thời gian và tần số, đồng thời tương quan các đặc tính này với 
+
+các sự kiện cơ học liên quan đến cơ chế ngáy [8]. Họ đã quan sát thấy hai kiểu 
+
+ngáy chiếm ưu thế: “ngáy có dạng sóng đơn giản” và “ngáy dạng sóng phức 
+
+tạp”. Tiếng ngáy dạng sóng phức tạp được đặc trưng bởi một chuỗi cấu trúc âm 
+
+thanh lặp đi lặp lại, cách đều nhau, bắt đầu bằng một độ lệch lớn, sau đó là một 
+
+sóng có biên độ giảm dần. Trong miền tần số, nó được đặc trưng bởi nhiều đỉnh 
+
+
+
+13 
+
+ 
+
+công suất cách đều nhau (phổ như hình lược như hình 2.9). Tiếng ngáy dạng 
+
+sóng đơn giản có dạng sóng gần như hình sin (Hình 2.8), với một loạt các biến 
+
+thể và hầu như không có dao động bên trong thứ cấp. Phổ công suất của chúng 
+
+chỉ chứa 1–3 đỉnh, trong đó đỉnh đầu tiên là nổi bật nhất. Tiếng ngáy dạng sóng 
+
+đơn giản có tần số 174 – 292 Hz, cao hơn tần số của  tiếng ngáy dạng sóng 
+
+phức tạp 64–135 Hz. 
+
+ 
+
+Hình 2.7 Dạng sóng của tiếng ngáy 
+
+đơn gỉan 
+
+ 
+
+Hình 2.8 Dạng sóng của tiếng ngáy 
+
+phức tạp 
+
+2.2 Các bệnh lý liên quan đến ngủ ngáy 
+
+2.2.1  Hội chứng ngưng thở khi ngủ 
+
+      Ngưng thở khi ngủ ( Obstructive Sleep Apnea – OSA) là sự rối loạn trong 
+
+giấc ngủ, trong đó hiện tượng ngưng thở hơn 10 giây hay giảm thông khí lặp đi 
+
+lặp lại nhiều lần trong đêm kèm triệu chứng ngủ ngáy và ngủ ngày nhiều quá 
+
+mức. Sinh lý bệnh của OSA được đặc trưng bởi sự tắc nghẽn lặp đi lặp lại , co 
+
+thắt của yết hầu, hiện tượng này sẽ chấm dứt khi thức giấc. Các nghiên cứu gần 
+
+đây đã cho thấy, OSA dường như có liên quan đến bệnh mạch vành, suy tim và 
+
+rối loạn nhịp tim, đặc biệt là tăng huyết áp động mạch phổi.  
+
+Hội chứng ngừng thở tắc nghẽn khi ngủ có thể gặp ở mọi lứa tuổi. Tuy nhiên, 
+
+tỷ lệ mắc hội chứng ngừng thở tắc nghẽn khi ngủ ở nam giới và người cao tuổi 
+
+cao hơn ở người trẻ, phụ nữ và trẻ em. Theo nghiên cứu trên 5615 đối tượng từ 
+
+40 tuổi đến 98 tuổi của Young và cộng sự (2002), nếu dựa theo định nghĩa chỉ 
+
+số ngưng giảm thở (Apnea Hypopnea Index - AHI) từ 15 trở lên, tỷ lệ mắc rối 
+
+
+
+14 
+
+ 
+
+loạn hô hấp khi ngủ ở nam giới cao gấp gần 2 -3 lần so với nữ giới, và tỷ lệ này 
+
+có xu hướng cân bằng sau tuổi mãn kinh. Nghiên cứu cũng chỉ ra rằng, tỷ lệ 
+
+mắc hội chứng ngừng thở tắc nghẽn khi ngủ tăng theo lứa tuổi. Từ 60 tuổi, tỷ lệ 
+
+mắc bệnh tăng nhanh. Các bệnh nhân trên 65 tuổi có tỷ lệ mắc bệnh cao gấp 3 
+
+lần so với lứa tuổi 30 – 64. 
+
+Tỷ lệ mắc bệnh phụ thuộc vào các định nghĩa về giảm thở, ngừng thở và 
+
+ngưỡng giá trị, tỷ lệ mắc hội chứng ngừng thở tắc nghẽn khi ngủ (chẩn đoán 
+
+bệnh bằng phỏng vấn qua bộ câu hỏi) là 5-9% ở nam và 2,5% ở nữ. Trong nghiên 
+
+cứu đoàn hệ về giấc ngủ Wisconsin trên 602 lao động tuổi trung niên, 4% nam 
+
+giới và 2% nữ giới có chỉ số AHI ≥ 5 với triệu chứng buồn ngủ ban ngày. Tuy 
+
+nhiên, nếu chỉ tính đến AHI ≥5 mà không kèm theo triệu chứng buồn ngủ ban 
+
+ngày thì tần suất là 24% ở nam và 9% ở nữ. Tại các nước phương Tây, theo ước 
+
+tính, tỷ lệ mắc ngừng thở khi ngủ là 2-4% ở nam giới tuổi trung niên và 1-2% 
+
+nữ giới tuổi trung niên và phần lớn đều chưa được chẩn đoán. Ngay cả tại những 
+
+nước phát triển, vẫn có tỷ lệ lớn bệnh nhân không được chẩn đoán. Ví dụ, tại 
+
+Hoa Kỳ vào năm 1997 người ta ước tính từ một cuộc khảo sát cộng đồng của 
+
+4925 người trưởng thành cho thấy khoảng 82% nam giới và 92 % nữ giới có 
+
+nguy cơ mắc hội chứng ngưng thở khi ngủ mức độ trung bình hoặc nặng mà 
+
+không được chẩn đoán. 
+
+Lịch sử phát hiện, tình hình nghiên cứu hội chứng ngừng thở khi ngủ 
+
+Trên thế giới, Hội chứng ngừng thở khi ngủ bắt đầu được biết đến cách đây 
+
+khoảng 50 năm. Năm 1966, khái niệm hội chứng ngừng thở khi ngủ mới được 
+
+đưa ra một cách rõ ràng.  
+
+Trường hợp báo cáo đầu tiên là một bệnh nhân béo phì có hội chứng giảm 
+
+thông khí (trước đây được gọi là hội chứng Pickwick). Năm 1959, Gerardy đã 
+
+trình bày điện não đồ của một bệnh nhân có hội chứng Pickwick. Khi theo dõi 
+
+trong vòng một giờ, ông quan sát thấy các cơn thở có chu kỳ, khi bắt đầu chu 
+
+kì, lưỡi bệnh nhân tụt ra phía sau gây tắc nghẽn đường thở, khi thức dạy lưỡi 
+
+đẩy ra trước và bệnh nhân thở lại bình thường. Ông cũng thấy được sự biến đổi 
+
+nhịp tim trong các cơn thở có chu kỳ này, khi ngưng thở nhịp tim giảm, khi thở 
+
+trở lại nhịp tim tăng. Năm 1961, Daniel Drachman và Robert Gumit của Mỹ 
+
+cũng có đánh giá tương tự ở bệnh nhân có hội chứng Pickwick, tuy nhiên ông 
+
+
+
+15 
+
+ 
+
+đã chỉ ra thêm có sự giảm độ bão hòa oxy trong khi ngưng thở. Khi giải thích 
+
+cơ chế bệnh sinh cả hai tác giả đều cho rằng ngừng thở là thứ phát do tăng CO2 
+
+máu từ việc thở nông, thở không hiệu quả, việc lưỡi đẩy ra sau là do bệnh nhân 
+
+ngủ quá sâu chứ không phải là do lưỡi đẩy ra sau gây tắc nghẽn đường thở. 
+
+Năm 1970, Holland và cộng sự ghi nhận cảm biến về hô hấp, tim mạch và 
+
+điện não bệnh nhân, sau này gọi là đa kí hô hấp. Tiếp sau đó là hàng loạt các 
+
+công trình nghiên cứu về rối loạn giấc ngủ. Ramos Platon và cộng sự năm 1996 
+
+đã tiến hành đo đa ký giấc ngủ kèm băng ghi hình đồng bộ. Nhờ có băng ghi 
+
+hình phối hợp với các cảm biến ghi được sẽ giúp chẩn đoán chính xác và dễ 
+
+dàng hơn. Từ đó đến nay, rất nhiều các nghiên cứu lớn nhỏ về hội chứng ngưng 
+
+thở khi ngủ và các ảnh hưởng của bệnh, các phương pháp điều trị đã được thực 
+
+hiện, trong đó đáng chú ý là phương pháp thông khí áp lực dương liên tục. 
+
+Flemon W.W và cộng sự năm 2002 với nghiên cứu trên 54 bệnh nhân có hội 
+
+chứng ngưng thở khi ngủ và ghi nhận hiệu quả của thông khí áp lực dương liên 
+
+tục trong cải thiện triệu chứng buồn ngủ ban ngày của bệnh nhân. Chen và cộng 
+
+sự năm 2011 tại Trung Quốc, sử dụng máy đo đa kí giấc ngủ trên 1035 bệnh 
+
+nhân trong đó nam giới chiếm 83.6%, ghi nhận 75.9% bệnh nhân có hội chứng 
+
+ngừng thở do tắc nghẽn khi ngủ và tỉ lệ AHI >40 là 37.7%. 
+
+Tại Việt Nam các rối loạn về giấc ngủ bắt đầu được quan tâm nhiều hơn. Việc 
+
+chẩn đoán những rối loạn khác nhau trong giấc ngủ thực hiện tại bệnh viện Chợ 
+
+Rẫy thành phố Hồ Chí Minh từ tháng 01/2008.  
+
+Theo nghiên cứu Nguyễn Xuân Bích Huyên và cộng sự thực hiện trên 163 
+
+bệnh nhân, tất cả bệnh nhân được tầm soát bằng cách tự điền bảng câu hỏi “ 
+
+Screening tool for sleep apnea” theo tác giả David White, Boston, Mỹ dựa trên 
+
+các triệu chứng: ngáy, ngưng thở trong đêm được quan sát bởi người ngủ chung, 
+
+chứng buồn ngủ ban ngày và tăng huyết áp. Kết quả cho thấy có 127/163 bệnh 
+
+nhân bị hội chứng ngưng thở tắc nghẽn khi ngủ. 
+
+Nghiên cứu của Lê Thượng Vũ và cộng sự (2011) trên các đối tượng đến 
+
+khám vì rối loạn giấc ngủ thấy tỉ lệ mắc ngừng thở khi ngủ do tắc nghẽn chiếm 
+
+87,1% và đa số không béo phì. 
+
+Nghiên cứu của Đinh Thị Thanh Hồng (2014) trên 36 bệnh nhân ngừng thở 
+
+khi ngủ do tắc nghẽn chẩn đoán bằng máy đa kí hô hấp cũng ghi nhận các đặc 
+
+
+
+16 
+
+ 
+
+điểm lâm sàng, cận lâm sàng, bệnh đồng mắc ở nhóm bệnh nhân này. Tuy nhiên 
+
+vì sử dụng máy đa kí hô hấp nên chưa đánh giá được đầy đủ các đặc điểm về 
+
+cấu trúc giấc ngủ của các bệnh nhân ngừng thở tắc nghẽn khi ngủ.  
+
+ 
+
+ 
+
+Hình 2.9 Hội chứng ngưng thở khi ngủ [10] 
+
+Định nghĩa về hội chứng ngừng thở khi ngủ:  
+
+    Ngừng thở: là hiện tượng dừng hoàn toàn hoặc gần như hoàn toàn luồng khí 
+
+thở ít nhất trong khoảng 10s, tiếp sau là thức dậy và/hoặc có giảm độ bão hòa 
+
+oxy ít nhất là 4% . 
+
+- Ngừng thở tắc nghẽn: xảy ra khi xuất hiện xẹp đường dẫn khí, các cơ hô 
+
+hấp hoạt động gắng sức để thực hiện động tác thở nhưng không thành công 
+
+và nồng độ oxy trong máu giảm. Nồng độ oxy trong máu giảm gây kích 
+
+thích não làm cơ thể tỉnh giấc và thực hiện động tác thở.  
+
+- Ngừng thở trung ương: là rối loạn trong đó bệnh nhân có dấu hiệu ngừng 
+
+thở khi ngủ do thiếu sự gắng sức hô hấp, hiện tượng xảy ra khi não không 
+
+truyền tín hiệu chính xác đến các cơ hô hấp. Ngừng thở trung ương ít gặp 
+
+hơn và thường phối hợp với các bệnh lý thần kinh cơ. 
+
+- Ngừng thở hỗn hợp: là trường hợp phối hợp cả 2 loại hội chứng ngừng thở 
+
+tắc nghẽn và hội chứng ngừng thở trung ương. Cơ chế có thể do khi mắc 
+
+hội chứng ngừng thở tắc nghẽn nặng và kéo dài dẫn tới mất thăng bằng kiềm 
+
+toan và rối loạn cơ chế phản hồi về nồng độ CO2 bất thường trong máu dẫn 
+
+đến hậu quả là những rối loạn về hô hấp, thần kinh, tim mạch.  
+
+Các triệu chứng lâm sàng của hội chứng ngưng thở khi ngủ (OSAS) 
+
+Triệu chứng ngủ ban ngày:  
+
+
+
+17 
+
+ 
+
+- Buồn ngủ ban ngày quá mức: là một trong những triệu chứng thường gặp 
+
+nhất của OSA, làm ảnh hưởng đến khả năng nhận thức, tăng nguy cơ xảy ra 
+
+tai nạn, giảm hiệu suất làm việc và chất lượng cuộc sống. Trong thực hành 
+
+lâm sàng, để đánh giá mức độ buồn ngủ ban ngày người ta dùng thang điểm 
+
+Epworth (ESS), bệnh nhân tự chấm điểm dựa vào khả năng họ bị ngủ gật 
+
+trong các tình huống khác nhau. Do vậy, bảng câu hỏi Epworth với 8 câu 
+
+hỏi tập trung vào nguy cơ buồn ngủ khi tham gia các hoạt động ban ngày 
+
+để đánh giá mức độ buồn ngủ ban ngày của đối tượng. Thang ngủ Epworth 
+
+tối đa 24 điểm được chia làm 3 mức độ: >10 điểm được xem là bất thường, 
+
+10-15 điểm buồn ngủ ban ngày mức độ nhiều cần đến khám bác sỹ, 16-24 
+
+điểm buồn ngủ trầm trọng trong ngày bắt buộc phải đến khám bác sỹ.  
+
+- Đau đầu buổi sáng: Triệu chứng này gặp trong 10- 30% bệnh nhân OSA. 
+
+Đau đầu trong hội chứng ngừng thở tắc nghẽn khi ngủ thường có đặc điểm 
+
+đau hai bên vùng trán, đau kiểu đè nén, không kèm theo buồn nôn, sợ ánh 
+
+sáng, sợ tiếng động. Thường xảy ra hàng ngày, kéo dài khoảng 30 phút sau 
+
+khi ngủ dậy thì hết, đôi khi cần dùng thuốc giảm đau. 
+
+- Các triệu chứng khác bao gồm giảm độ tập trung, giảm trí nhớ, thay đổi khí 
+
+sắc, nặng hơn có thể dẫn đến trầm cảm, xa lánh xã hội. 
+
+- Triệu chứng ban đêm: 
+
+- Ngáy to khi ngủ: Là triệu chứng đặc trưng của OSA, gặp ở 90% bệnh nhân 
+
+trong hội chứng ngừng thở tắc nghẽn khi ngủ, với đặc điểm xuất hiện thành 
+
+từng đợt xen kẽ với khoảng im lặng đi kèm với di động ngực bụng nghịch 
+
+thường, kết thúc là một đợt thở nhanh, thở gấp hoặc thở hổn hển.  
+
+- Cơn ngừng thở được chứng kiến: triệu chứng này có giá trị chẩn đoán qua 
+
+hỏi người ngủ cùng, thường được mô tả là những đợt im lặng không có hoạt 
+
+động thở sau một cơn ngáy to.  
+
+- Cảm giác ngạt thở: bệnh nhân thức dậy giữa đêm với cảm giác ngạt thở, lo 
+
+sợ, thường ngồi dậy để thở thì hết nhanh. Triệu chứng này đôi khi giống với 
+
+cơn hen tim, hen phế quản hay phù phổi cấp và là lí do phổ biến khiến bệnh 
+
+nhân đi khám bệnh. 
+
+- Mất ngủ: Bệnh nhân có nhiều cơn thức giấc trong đêm do hậu quả của cơn 
+
+ngừng thở và giảm độ bão hòa oxy máu, gây ra tình trạng buồn ngủ ban 
+
+ngày, điều này khiến bệnh nhân rất nhanh đi vào giấc ngủ. Tuy nhiên theo 
+
+
+
+18 
+
+ 
+
+thời gian, chất lượng giấc ngủ giảm sút kéo dài làm bệnh nhân mắc thêm 
+
+các rối loạn giấc ngủ khác làm triệu chứng trở nên phức tạp. 
+
+- Tiểu đêm nhiều lần: bệnh nhân có thể đi tiểu đêm nhiều lần ( > 1 lần/ đêm). 
+
+Cơ chế được cho là do tăng áp lực trong ổ bụng, thức giấc nhiều lần, uống 
+
+nước do khô miệng. 
+
+- Vã mồ hôi ban đêm. 
+
+- Khô miệng: do hậu quả của việc thở bằng miệng và ngáy nhiều khi ngủ, 
+
+bệnh nhân hay phải dậy uống nước trong đêm hoặc sáng mai khi ngủ dậy. 
+
+Uống nước càng làm cho bệnh nhân đi tiểu nhiều, góp phần làm ảnh hưởng 
+
+đến chất lượng giấc ngủ. 
+
+Tiêu chuẩn chẩn đoán Hội chứng ngưng thở khi ngủ (tiêu chuẩn của Hiệp hội 
+
+giấc ngủ Hoa Kỳ) 
+
+Hội chứng ngưng giảm thở khi ngủ được định nghĩa là sự hiện diện [tiêu chuẩn 
+
+A hoặc tiêu chuẩn B] + tiêu chuẩn C 
+
+A. Triệu chứng buồn ngủ ban ngày quá mức không giải thích được bởi yếu tố 
+
+nào khác. 
+
+B. Ít nhất 2 trong số các tiêu chuẩn sau: 
+
+- Ngáy nặng 
+
+- Ngưng thở về đêm 
+
+- Thức dậy liên tục trong đêm 
+
+- Ngủ không ngon giấc 
+
+- Mệt mỏi ban ngày 
+
+- Giảm độ tập trung 
+
+C. Đa ký giấc ngủ có từ 5 lần giảm thở/ngưng thở trong 1 giờ khi ngủ. Các lần 
+
+này có thể giảm thở hoặc ngưng thở hoặc thức dậy do tăng cường độ hô 
+
+hấp. 
+
+     Mức độ nặng nhẹ của bệnh:  
+
+- Mức độ nhẹ: AHI từ 5-15 lần/giờ, khoảng thời gian xuất hiện độ bão hòa 
+
+oxy dưới 90% chiếm ít hơn 5% thời gian ngủ.  
+
+- Mức độ trung bình: AHI từ 15-30 lần/giờ, khoảng thời gian xuất hiện độ 
+
+bão hòa oxy dưới 90% chiếm 5 - 20% thời gian ngủ.  
+
+
+
+19 
+
+ 
+
+- Mức độ nặng: AHI trên 30 lần/giờ, khoảng thời gian xuất hiện độ bão hòa 
+
+oxy dưới 90% chiếm trên 20% thời gian ngủ.  
+
+Hậu quả của hội chứng ngưng thở khi ngủ tắc nghẽn: 
+
+- Về mặt xã hội:  
+
+• Hội chứng ngừng thở khi ngủ không chỉ ảnh hưởng đến chất lượng cuộc 
+
+sống như mệt mỏi,buồn ngủ ban ngày làm giảm hiểu quả công việc, gián 
+
+tiếp gia tăng tai nạn giao thông, ảnh hưởng đến kinh tế-xã hội làm tăng gánh 
+
+nặng bệnh tật, tăng chi phí cho dịch vụ chăm sóc sức khỏe, đồng thời làm 
+
+tăng nguy cơ mắc và nặng lên các bệnh lý mạn tính trước đó như tăng huyết 
+
+áp, bệnh mạch vành, đái tháo đường, rối loạn mỡ máu...  
+
+• Buồn ngủ quá mức ban ngày (Excessive Daytime Sleepiness - EDS) : Chính 
+
+những cơn ngừng thở, thức dạy gián đoạn kèm theo sự giảm độ bão hòa oxy 
+
+máu về đêm là nguyên nhân gây ra tình trạng mệt mỏi, buồn ngủ ban ngày, 
+
+không tỉnh táo, suy giảm trí nhớ, giảm độ tập trung, giảm hiệu quả công 
+
+việc. Để đánh giá tình trạng buồn ngủ ban ngày của bệnh nhân OSA đã có 
+
+nhiều công cụ được đưa ra, tuy nhiên một thang điểm đánh giá đơn giản và 
+
+dễ áp dụng trên lâm sàng là thang điểm Epworth Sleepiness Scale (ESS). 
+
+Điểm cutoff để xác định EDS là 10 điểm.  
+
+• Tai nạn giao thông: Tăng mức độ nặng của OSA làm tăng khả năng mắc tai 
+
+nạn. Năm 1997, Young đã chỉ ra mối quan hệ giữa OSA và tai nạn xe cơ 
+
+giới khi nghiên cứu trên 900 bệnh nhân, với những bệnh nhân nam giới 
+
+OSA mức độ nhẹ có thói quen ngủ ngáy thì tỉ lệ gặp ít nhất 1 lần tai nạn 
+
+trong 5 năm gấp 3.4 lần so với người không có OSA27. Với bệnh nhân có 
+
+AHI>15 thì tỉ lệ mắc nhiều tai nạn trong 5 năm cho cả 2 giới gấp 7.3 lần sau 
+
+khi đã loại bỏ các yếu tố nhiễu như sử dụng rượu, giảm thị lực, tuổi lái xe, 
+
+tiền sử tai nạn giao thông và dùng các thuốc gây ngủ.  
+
+• Chi phí cho y tế: OSA là bệnh lý phổ biến ngày càng tăng về tỉ lệ mắc và tỉ 
+
+lệ tử vong, tuy nhiên tới 93% nữ giới và 82% nam giới OSA mức độ vừa 
+
+đến nặng bỏ lỡ chẩn đoán, vì vậy những bệnh nhân không được chẩn đoán 
+
+là gánh nặng kinh tế trong hệ thống chăm sóc sức khỏe do những ảnh hưởng 
+
+bất lợi từ hậu quả của nó.  
+
+- Hậu quả trên chuyển hóa: 
+
+
+
+20 
+
+ 
+
+• Hội chứng ngừng thở khi ngủ làm giấc ngủ bị gián đoạn, giảm oxy máu do 
+
+đó làm tăng hoạt tính giao cảm, rối loạn hệ nội tiết trong đó phải kể đến sự 
+
+gia tăng tình trạng kháng Insulin và bệnh đái tháo đường khó kiểm soát. 
+
+• Nghiên cứu mới của hai tác giả người Italia Sergio Garbarino và Nicola 
+
+Magnavita (2014) thực hiện trên gần 200 công nhân ở 11 nhà máy đã cho 
+
+kết quả 52% công nhân mắc OSAS có ít nhất một rối loạn chuyển hóa đi 
+
+kèm (béo phì, tăng huyết áp, rối loạn mỡ máu, đái tháo đường). Cũng theo 
+
+nghiên cứu này, các tác giả đã chỉ ra rằng những người mắc OSAS có nguy 
+
+cơ mắc các rối loạn chuyển hóa cao gấp 3,83 lần so với nhóm không mắc 
+
+bệnh. 
+
+- Hậu quả trên hệ thần kinh: 
+
+• Hội chứng ngừng thở khi ngủ làm tăng nguy cơ tai biến mạch máu não. 
+
+Yaggi (2005) quan sát thấy rằng những thể nặng của OSA là một yếu tố 
+
+nguy cơ của tai biến mạch máu não và tử vong. Nghiên cứu của Gami (2005) 
+
+cho thấy tử vong do tim ở những bệnh nhân mắc hội chứng ngừng thở khi 
+
+ngủ cao nhất là từ giữa đêm đến 6 giờ sáng. Nghiên cứu của Bassetti (2006) 
+
+nêu giả thuyết rằng những vấn đề hô hấp trong giấc ngủ dẫn đến tai biến 
+
+mạch máu não và thời gian xảy ra những vấn đề này gần với thời gian được 
+
+báo cáo của Gami. 
+
+Kết luận, ngưng thở khi ngủ là một chứng bệnh tắc nghẽn đường thở phổ 
+
+biến trong dân số nói chung và nó có mối liên quan xấu đến các bệnh lý về tim 
+
+mạch và huyết áp, thiếu máu cơ tim cục bộ thậm chí là đột quỵ. Hiện nay có rất 
+
+nhiều phương pháp để điều trị OSA, tuy nhiên chọn lựa phương pháp nào cho 
+
+phù hợp với người bệnh sẽ tùy thuộc mức độ nặng của bệnh, các bất thường về 
+
+đường hô hấp trên, các bệnh lý đi kèm... Bác sĩ sẽ thảo luận với người bệnh và 
+
+cho biết phương pháp nào là tốt: dùng máy thở áp lực dương liên tục (Continous 
+
+positive airway pressure - CPAP); dùng dụng cụ gắn vào trong miệng trong khi 
+
+ngủ; phẫu thuật.... Khi có bất cứ dấu hiệu gì khác thường liên quan đến giấc 
+
+ngủ, cần đến ngay các cơ sở y tế để tiến hành kiểm tra, sàng lọc bệnh sớm.  
+
+2.2.2 Ngủ ngáy và mối liên quan đến bệnh tim mạch. 
+
+       Một nghiên cứu ở Trung Quốc, China Kadoorie Biobank với sự tham gia 
+
+của hơn 0,5 triệu người trưởng thành từ 30 đến 79 tuổi từ 10 khu vực khác nhau, 
+
+
+
+21 
+
+ 
+
+trong thời gian theo dõi trung bình là 9,6 năm đã cho thấy chứng ngủ ngáy có 
+
+liên quan đến bệnh tim mạch tổng quát, bệnh tim thiếu máu cục bộ và nguy cơ 
+
+đột quỵ do thiếu máu rất cao. 
+
+       Cũng trong một nghiên cứu khác, ngáy được chứng minh là một trong 
+
+những yếu tố nguy cơ gây bệnh thiếu máu cơ tim và đột quỵ ở nam giới. Khi 
+
+bắt đầu theo dõi vào năm 1981, 462 nam giới đã báo cáo tiền sử đau thắt ngực 
+
+hoặc nhồi máu cơ tim. Ngáy dường như là một yếu tố tiềm ẩn báo hiệu và quyết 
+
+định nguy cơ mắc bệnh thiếu máu cơ tim và đột quỵ.  
+
+      Không chỉ ở nam giới, những đối tượng nhạy cảm như người già trên 70 
+
+tuổi cũng được chứng minh mối liên quan giữa chứng ngủ ngáy với bệnh tật và 
+
+nguy cơ tử vong do tim mạch. Trong khoảng thời gian 6 năm (1984-1990) 88 
+
+người bị bệnh thiếu máu cơ tim (Ichesmic heart dease – IHD), 60 người đột quỵ 
+
+và 180 người chết. Tỷ lệ đột quỵ cao hơn đã được tìm thấy ở những người ngủ 
+
+ngáy trên 70 tuổi. 
+
+      Vậy nên, có thể kết luận ngủ ngáy thường xuyên sẽ dẫn đến tình trạng thu 
+
+hẹp động mạch cảnh. Động mạch cảnh là động mạch chính ở cổ có nhiệm vụ 
+
+cung cấp oxy lên não, lâu dài là nguyên nhân chính gây ra đột quỵ và đau tim. 
+
+Với phụ nữ bắt đầu ngủ ngáy khi mang thai sẽ tăng nguy cơ bị tiền sản giật và 
+
+cao huyết áp [10] 
+
+ 
+
+Hình 2.10 Tăng nguy cơ đột quỵ khi ngủ ngáy [10] 
+
+     Từ khi bắt đầu hiểu biết về OSA, các nghiên cứu hầu hết đều chỉ ra có mối 
+
+tương quan giữa OSA và các bệnh lý tim mạch như tăng huyết áp, bệnh mạch 
+
+vành, bệnh mạch máu não, rối loạn nhịp tim và tăng áp động mạch phổi cũng 
+
+như tác dụng của việc điều trị CPAP trong giảm hậu quả tim mạch. Tuy nhiên 
+
+
+
+22 
+
+ 
+
+mối tương quan này vẫn chưa được đầy đủ và thuyết phục, có nhiều tranh cãi 
+
+trong cơ chế bệnh sinh cũng như hiệu quả thực sự của CPAP khi điều trị OSA 
+
+có bệnh lý tim mạch kèm theo. 
+
+2.2.3  Ngáy và tình trạng béo phì 
+
+Ngáy đã được điều tra trong một cuộc khảo sát về bệnh hô hấp ở người Mỹ 
+
+gốc Tây Ban Nha của một cộng đồng New Mexico. Một mẫu dựa trên dân số 
+
+gồm 1222 người trưởng thành đã được nghiên cứu với bảng câu hỏi và số đo 
+
+chiều cao, cân nặng và huyết áp. Tỷ lệ ngáy to đều đặn theo độ tuổi là 27,8% ở 
+
+nam giới và 15,3% ở nữ giới. Tỷ lệ ngáy tăng theo tuổi và tình trạng béo phì ở 
+
+cả nam và nữ. Ngáy theo thói quen (Habitual snoring – HS) cũng có liên quan 
+
+đến chuyển hóa glucose và insulin và béo phì. Mối quan hệ này dường như là 
+
+hai chiều. Một mặt, béo phì và chu vi vòng cổ đã được chứng minh là làm tăng 
+
+nguy cơ ngáy ngủ: Rối loạn hô hấp làm tăng áp suất âm trong lòng ống dẫn đến 
+
+xẹp đường thở và rung các mô mềm ở hầu họng. Trong một số nghiên cứu, béo 
+
+phì dường như là nguyên nhân gây ra chứng ngáy ngủ [11]. 
+
+Một nghiên cứu khác thực hiện trên 349 đối tượng, 196 (56,1%) là nam và 
+
+153 (43,9%) là nữ. Tổng số 93 (26,6%) đối tượng được phát hiện là người ngủ 
+
+ngáy. Trong tổng số nam giới, 59 (30,2%) là người ngủ ngáy và trong tổng số 
+
+nữ giới có 34 người (21,5%) là người ngủ ngáy. Một bảng được vẽ so sánh các 
+
+đối tượng bình thường, tiền béo phì và béo phì ở người ngủ ngáy và người không 
+
+ngủ ngáy [11]. 
+
+Bảng 2.1 So sánh các đối tượng béo phì, tiền béo phì và bình thường [11] 
+
+ Chỉ số BMI bình 
+
+thường (Kg/𝒎𝟐) 
+Chỉ số BMI tiền 
+
+béo phì 
+
+(Kg/𝒎𝟐) 
+
+Chỉ số BMI béo 
+
+phì (Kg/𝒎𝟐) 
+
+Nam giới 59/196 người 34/147 người 16/147 người 
+
+Nữ giới 34/153 người 16/115 người 14/115 người 
+
+Tỷ lệ 26,64% 19,08% 11,45% 
+
+ 
+
+
+
+23 
+
+ 
+
+2.3 Các phương pháp theo dõi ngủ ngáy 
+
+2.3.1 Phương pháp sử dụng cảm biến dây có thể co giãn 
+
+Phương pháp phát hiện tiếng ngáy bằng việc sử dụng cảm biến đo độ biến 
+
+dạng ở cổ họng chính là sử dụng: các cảm biến dây gắn lên cổ. Các hoạt động 
+
+điển hình trong khi ngủ có thể gây biến dạng cổ họng, chẳng hạn như thở nhẹ 
+
+(ngủ bình thường), thở sâu, ho, nuốt, lật người và ngáy khi đó cảm biến sẽ đo 
+
+được mức độ thở nặng, nhẹ hay bình thường và đưa ra được tình trạng ngủ ngáy.  
+
+ 
+
+Hình 2.11 Cảm biến dây được gắn vào cổ [12] 
+
+Dữ liệu rung của cổ họng được mô tả trong ba trường hợp: ngáy, nuốt và 
+
+thở sau như hình 2.10 dưới đây. 
+
+ 
+
+Hình 2.12 Dữ liệu rung cổ họng trong các trường hợp: Ngáy (c-I), Nuốt (c-II) và 
+
+Thở sâu (c-III) [12] 
+
+Có thể thấy rằng quá trình nuốt xảy ra ở 24,5 giây, khi đó xảy ra biến dạng 
+
+lớn trong dữ liệu. Động tác ho và lật người có đặc điểm tương tự như động tác 
+
+nuốt. Rõ ràng là tần suất của những động tác này thấp hơn nhiều so với hành 
+
+động ngáy, có thể dễ dàng phân biệt. Tần suất ngáy tương tự như khi thở sâu. 
+
+
+
+24 
+
+ 
+
+Tuy nhiên, cần phải phân biệt ngáy với thở sâu. Quan sát dạng tín hiệu của hai 
+
+trường hợp này có thể thấy rằng biên độ của tín hiệu ngáy lớn hơn nhiều so với 
+
+biên độ của thở sâu và tín hiệu ngáy tăng mạnh hơn tín hiệu thở sâu. Do đó, để 
+
+phát hiện ngáy phải dựa trên biên độ và độ dốc của tín hiệu. 
+
+Phát hiện tiếng ngáy dựa trên biên độ:  
+
+(1) Xác định ngưỡng biên độ Thở nhẹ từ các thí nghiệm. Nếu biên độ của tín 
+
+hiệu được ghi thấp hơn 𝐴𝑙𝑖𝑔ℎ𝑡, đối tượng được coi là đang ở giai đoạn ngủ bình 
+
+thường. (2) Tìm chuỗi điểm cực tiểu dài nhất bắt đầu từ điểm cực tiểu hiện tại, 
+
+thỏa mãn rằng chênh lệch biên độ của hai điểm cực tiểu bất kỳ nhỏ hơn ngưỡng 
+
+cho trước 𝐴𝑙𝑖𝑚𝑖𝑡. Khi đó tổng thời gian dao động được định nghĩa là khoảng thời 
+
+gian của dãy này. Nếu biên độ dao động của tín hiệu được ghi cao hơn 𝐴𝑙𝑖𝑔ℎ𝑡 và 
+
+tổng thời gian dao động dài hơn một ngưỡng Tlast nhất định thì hành động đó 
+
+được coi là ngáy hoặc thở sâu. 
+
+(3) Vì biên độ của tín hiệu ngáy cao hơn biên độ của tiếng thở sâu, nên nếu 
+
+biên độ của tín hiệu vượt quá một ngưỡng 𝐴𝑠𝑛𝑜𝑟𝑒 nhất định, thì hành động đó 
+
+được coi là ngáy. 
+
+Phát hiện tiếng ngáy dựa trên độ dốc: 
+
+Tốc độ biến dạng của cổ họng là khác nhau đối với mỗi hành động ngủ. Có 
+
+thể quan sát thấy rằng tốc độ biến dạng tương đối cao trong các động tác nuốt 
+
+và ho và tương đối thấp trong các động tác thở sâu và nhẹ. Tốc độ biến dạng 
+
+của ngủ ngáy nằm ở khoảng giữa của hai tốc độ trên. Vì độ dốc tăng dần của tín 
+
+hiệu được ghi thể hiện tốc độ biến dạng của họng, nên có thể thu được: Nếu độ 
+
+dốc tăng dần của tín hiệu được ghi lại dốc hơn một ngưỡng 𝑃𝑚𝑎𝑥 nhất định, thì 
+
+hành động đó là nuốt, ho hoặc lật người. Nếu độ dốc tín hiệu nhỏ hơn 𝑃𝑚𝑖𝑛, 
+
+hành động được coi là thở nhẹ hoặc thở sâu. Nếu độ dốc nằm giữa 𝑃𝑚𝑖𝑛 và 𝑃𝑚𝑎𝑥, 
+
+hành động được coi là ngáy. Để ngăn chặn kết quả dương tính giả, tiếng ngáy 
+
+chỉ được xác định xảy ra khi hai điều kiện phát hiện trên diễn ra đồng thời.  
+
+Tiền xử lý dữ liệu: 
+
+Để loại bỏ ảnh hưởng của nhiễu đo lường và các điểm dữ liệu bất thường, 
+
+tín hiệu ghi được trước tiên được xử lý bằng phương pháp lọc trung bình. Để 
+
+phát hiện tiếng ngáy trong thời gian thực, dữ liệu đã ghi được chia thành nhiều 
+
+
+
+25 
+
+ 
+
+phân đoạn dữ liệu. Mỗi phân đoạn bao gồm mười chu kỳ dao động vì ngáy có 
+
+thể xảy ra đồng thời với các hành động nuốt và lật và tổng thời gian dao động 
+
+của các hành động này thường chỉ là một hoặc hai chu kỳ. Bằng cách này, tiếng 
+
+ngáy vẫn có thể được phát hiện thành công vì phần lớn phân đoạn dữ liệu tương 
+
+ứng với hành động ngáy. Cuối cùng, ba đặc điểm quan trọng (biên độ tín hiệu, 
+
+độ dốc tăng dần và tổng thời gian dao động) sau đó được trích xuất từ tín hiệu 
+
+đã ghi để phát hiện tiếng ngáy.  
+
+Tiến hành thực nghiệm: 
+
+Để tiến hành thực nghiệm có sự tham gia của 5 tình nguyện viên. Cảm biến 
+
+đo độ biến dạng được sử dụng để ghi lại dữ liệu về sự biến dạng của cổ họng 
+
+trên từng người.  
+
+ 
+
+Hình 2.13 Hai kết quả tiêu biểu thu được [12] 
+
+Để xác minh xem đối tượng có đang trong giai đoạn ngáy hay không, một 
+
+micrô được sử dụng đồng thời để ghi lại chất lượng giấc ngủ. Sau mỗi thử 
+
+nghiệm, dữ liệu âm thanh được chia thành các phân đoạn dữ liệu giống như dữ 
+
+liệu biến dạng của cổ họng. Mỗi dấu thời gian trong phân đoạn dữ liệu âm thanh 
+
+có thể được gắn nhãn thủ công là ngáy hoặc không ngáy tùy theo âm thanh đã 
+
+ghi. Qua quan sát thấy rằng kết quả phát hiện tiếng ngáy theo cảm biến đo biến 
+
+dạng và cảm biến âm thanh là tương đối nhất quán, điều này chứng tỏ tính hiệu 
+
+quả của thuật toán phát hiện được đề xuất. 
+
+Ưu điểm của phương pháp phát hiện ngủ ngáy bằng cảm biến dây co giãn 
+
+là các tác gỉa đã đưa ra được hai cách phát hiện tiếng ngáy dựa trên biên độ và 
+
+độ dốc của dạng sóng tín hiệu thu được sử dụng thuật toán. Tuy nhiên, các thông 
+
+số và các ngưỡng giá trị như 𝐴𝑙𝑖𝑔ℎ𝑡, 𝐴𝑙𝑖𝑚𝑖𝑡, 𝐴𝑠𝑛𝑜𝑟𝑒,… mà các tác giả đưa ra chưa 
+
+được định nghĩa rõ ràng , gâu khó hiểu cho người đọc. 
+
+
+
+26 
+
+ 
+
+2.3.2 Phương pháp sử dụng cảm biến EMFI  
+
+Cảm biến EMFi (Electromyography) là một loại cảm biến đo và ghi nhận 
+
+tín hiệu điện sinh học được sinh ra bởi các hoạt động của cơ bắp trong cơ thể. 
+
+Các tín hiệu điện sinh học này được ghi nhận thông qua các điện cực được đặt 
+
+trên da của người sử dụng. 
+
+Cảm biến EMFi thường được sử dụng trong lĩnh vực y tế để giúp chẩn đoán 
+
+và điều trị các rối loạn cơ bắp và thần kinh, đặc biệt là các rối loạn liên quan 
+
+đến sức khỏe của cơ bắp. Ngoài ra, cảm biến EMFi cũng được sử dụng trong 
+
+nghiên cứu và phát triển các ứng dụng công nghệ cao trong thể thao và giải trí. 
+
+Sử dụng cảm biến EMFI trong việc phát hiện ngáy ngủ 
+
+Nghiên cứu sử dụng cảm biến EMFi để phát hiện ngáy ngủ đã được tiến 
+
+hành trong nhiều năm và đã cho kết quả khá tích cực [13] 
+
+Các nghiên cứu đã chỉ ra rằng tín hiệu điện sinh học của cơ bắp phát ra khi 
+
+người sử dụng ngáy ngủ khác biệt so với tình trạng khi người đó đang thở bình 
+
+thường. Tín hiệu điện này có thể được thu thập bằng cảm biến EMFi được đặt 
+
+trên da người sử dụng. 
+
+Một số nghiên cứu đã sử dụng cảm biến EMFi để phát hiện ngáy ngủ trong 
+
+các tình huống khác nhau, bao gồm trong môi trường khác nhau như trong 
+
+phòng ngủ và trên máy bay. Các kết quả nghiên cứu cho thấy rằng cảm biến 
+
+EMFi có thể được sử dụng để phát hiện ngáy ngủ với độ chính xác và độ nhạy 
+
+tương đối cao. 
+
+Tiến hành:  
+
+Khi dán dải cảm biến EMFi lên da của người ngủ, nó không làm gián đoạn 
+
+giấc ngủ quá nhiều do tính linh hoạt và đàn hồi của nó. Nó cũng nhẹ và mỏng 
+
+hơn so với micro điện tử. EMFi về cơ bản là một tấm màng nhựa mỏng, có 
+
+hướng hai chiều, phủ một lớp dẫn điện, được cố định điện vĩnh viễn. Thay đổi 
+
+áp lực tác động lên màng sẽ tạo ra một điện tích (tương ứng với lực nhấn) trên 
+
+bề mặt dẫn điện của nó và điện tích này có thể được đo là một tín hiệu dòng 
+
+hoặc điện áp. Khi đặt dưới tấm nệm của giường, cảm biến này không làm gián 
+
+đoạn giấc ngủ của bệnh nhân. 
+
+
+
+27 
+
+ 
+
+Tiến hành ghi lại 6 bản đa kí giấc ngủ ban đêm đầy đủ từ cùng một người 
+
+thực hiện với các vị trí khác nhau đặt cảm biến EMFI: cổ gần động mạch cảnh, 
+
+tĩnh mạch cổ, xương ức, giữa 2 bả vai, vị trí điện cực V4, dưới lưng và mắt cá. 
+
+Tốc độ lấy mẫu của cảm biến là 200Hz, các thời điểm ngáy từ bản ghi được 
+
+phát hiện trực quan dài khoảng 10-20s. Để đơn giản hóa quy trình và loại bỏ các 
+
+tạp âm, bộ khuếch đại tín hiệu EMFI đã được triển khai như một thiết bị chạy 
+
+bằng pin. 
+
+ 
+
+Hình 2.14 Bộ khuếch đại tín hiệu cảm biến EMFI [13] 
+
+Bảng 2.2 thể hiện giá trị biên độ được đo từ các vị trí khác nhau đặt cảm biến 
+
+EMFi. 
+
+     Bảng 2.2 Biên độ tín hiệu đo được tại các vị trí khác nhau [13] 
+
+Vị trí ghi 
+Bản 
+
+ghi 1 
+
+Bản 
+
+ghi 2 
+
+Bản 
+
+ghi 3 
+
+Bản 
+
+ghi 4 
+
+Bản 
+
+ghi 5 
+
+Bản 
+
+ghi 6 
+
+Cổ (động mạch cảnh) 8.19 4.51 25.93 13.75 2.30 3.38 
+
+Cổ (tĩnh mạch cảnh) - - - 0.04 2.49 3.52 
+
+Xương ức 0.77 - - - 1.16 - 
+
+Ngực (V4) - 0.53 - - - - 
+
+Giữa bả vai - 0.77 2.86 - - - 
+
+Dưới bả vai 2.12 1.16 2.26 - - - 
+
+Lưng phải - - - 0.05 0.47 0.05 
+
+Lưng trái - - - - 0.39 - 
+
+Mắt cá chân 0.34 - - - - - 
+
+Xử lý tín hiệu thu được bằng Mathlab. Nhờ biến đổi Fourier nhanh (FFT) 
+
+được áp dụng trên toàn bộ chuỗi, trung bình được tính toán từ phổ độ biên độ 
+
+
+
+28 
+
+ 
+
+thu được từ khu vực tần số 55-75 Hz, đây là khu vực tần số của âm thanh ngáy 
+
+được tìm thấy.  
+
+Phương pháp sử dụng cảm biến EMFi để phát hiện tiếng ngáy đồng thời từ 
+
+các vị trí khác nhau trên cơ thể đã hoạt động tốt và không nhạy cảm với vị trí 
+
+đặt cảm biến. Vì nguồn rung động của tiếng ngáy nằm ở vùng cổ, nên độ lớn 
+
+của sóng dao động cũng lớn hơn ở đó, đặc biệt là khi ghi âm trên da gần động 
+
+mạch cổ. Khi khoảng cách từ nguồn tiếng ngáy xa hơn, độ lớn của phổ cũng 
+
+nhỏ hơn. Tuy nhiên, sự khác biệt trên các vị trí khác nhau cũng được quan sát 
+
+thấy giữa các vị trí ghi âm, chẳng hạn như ở ngực và giữa hai bả vai và giữa các 
+
+bản ghi âm khác nhau. 
+
+Tất cả các bản ghi âm đều được thực hiện trong nửa năm và thực hiện tại 
+
+phòng nghiên cứu. Khu vực tần số của dao động tiếng ngáy được cho là giống 
+
+nhau, vì tất cả các bản ghi đều được thực hiện trên cùng một bệnh nhân. 
+
+2.3.3 Phương pháp đo tín hiệu tiếng ngáy đang được sử dụng tại bệnh viện 
+
+Đại học Y Hà Nội  
+
+Tại bệnh viện Đại học Y Hà Nội, việc chẩn đoán các bệnh lý liên quan đến 
+
+giấc ngủ như mất ngủ, hội chứng ngưng thở khi ngủ, rối loạn, chứng ngủ rũ hay 
+
+bệnh ngủ giả, ... sẽ được chỉ định làm một số bào kiểm tra như: 
+
+- Đo đa ký giấc ngủ (Polysomnography - PSG): Đây là xét nghiệm nhằm 
+
+đánh giá toàn bộ thay đổi của cơ thể trong lúc ngủ, bao gồm nhịp tim, nhịp 
+
+thở, nồng độ oxy, điện não, chuyển động mắt,… cũng như chỉ số ngưng 
+
+giảm thở để chẩn đoán người bệnh có bị hội chứng ngưng thở trong khi ngủ 
+
+hay không. 
+
+- Đo điện não đồ (EEG): Đo điện não đồ giúp theo dõi và ghi chép các mẫu 
+
+sóng não, phát hiện các vấn đề tiềm ẩn liên quan đến hoạt động điện đồ của 
+
+não. 
+
+- Đo độ trễ giấc ngủ (Multiple Sleep Latency Test - MSLT): Phương pháp 
+
+này giúp bác sĩ có thể xác định được có ngủ đủ giấc hay không, từ đó chẩn 
+
+đoán chính xác về tình trạng bệnh của bạn. 
+
+Đo đa ký giấc ngủ là phương pháp nghiên cứu đầy đủ về giấc ngủ cũng như 
+
+các rối loạn xảy ra trong khi ngủ. Đo đa ký giấc ngủ giúp chẩn đoán các tình 
+
+
+
+29 
+
+ 
+
+trạng rối loạn giấc ngủ như mất ngủ, ngưng thở khi ngủ, ngủ rũ hay cử động bất 
+
+thường khi ngủ. Đa ký giấc ngủ thường yêu cầu người bệnh ngủ lại một đêm tại 
+
+phòng khám. 
+
+Ngoài để chẩn đoán rối loạn giấc ngủ, đa ký giấc ngủ còn là phương pháp 
+
+để quyết định việc điều trị như thế nào và theo dõi kế hoạch điều trị ở những 
+
+bệnh nhân đã được chẩn đoán rối loạn giấc ngủ. 
+
+ 
+
+Hình 2.15 Thực hiện đo đa ký để chẩn đoán bệnh tại bệnh viện 
+
+ 
+
+Hình 2.16 Các điện đồ trong đa ký giấc ngủ 
+
+Đa ký giấc ngủ là sự kết hợp giữa điện não đồ và đa ký hô hấp để cung cấp 
+
+các thông số trong giấc ngủ bao gồm: 
+
+- Electroencephalography (EEG): đánh giá điện não , ghi lại các hoạt động 
+
+của não, đánh giá các giai đoạn của giấc ngủ, đánh giá giai đoạn ngủ NREM, 
+
+
+
+30 
+
+ 
+
+giai  đoạn ngủ REM, số lần bị đánh thức khi ngủ bởi tác động gây rối loạn 
+
+giấc ngủ như cử động hô hấp hay cử động chân tay. 
+
+- Electromyography ( EMG) ; đánh giá điện cơ , phát hiện cử động chân khi 
+
+ngủ 
+
+- Electrooculography ( EOG): đánh giá cử động của mắt , giúp xác định thời 
+
+gian ngủ có cự động mắt nhanh. 
+
+- Electrocardiography ( ECG): đánh giá nhịp tim, các rối loạn nhịp  
+
+- Oxy hóa máu: đánh giá độ bão hòa oxy , xác định mức độ giảm bão hòa 
+
+oxy khi có hiện tượng ngưng thở hoặc giảm thở. 
+
+- Đo lưu lượng khí, cử động ngực bụng : đánh giá gắng sức hô hấp, xác định 
+
+nguyên nhân ngừng thở do tắc nghẽn hay ngừng thở trung ương. 
+
+- Ngáy. 
+
+Mục đích đo đa ký giấc ngủ 
+
+Đa ký giấc ngủ thường được bác sĩ chỉ định để: 
+
+- Chẩn đoán các trường hợp nghi ngờ có hội chứng ngưng thở khi ngủ. 
+
+- Chẩn đoán các trường hợp rối loạn hô hấp khi ngủ ở bệnh nhân bị bệnh hô 
+
+hấp, suy tim, béo phì, suy giáp, bệnh lý thần kinh… 
+
+- Chẩn đoán các trường hợp rối loạn vận động và hành vi khi ngủ như: hội 
+
+chứng chân không yên, cử động chi có chu kỳ, nghiến răng, mộng du, cơn 
+
+hoảng sợ ban đêm, nói mớ khi ngủ… 
+
+- Chẩn đoán chứng ngủ rũ. 
+
+- Chẩn đoán phân biệt động kinh khi ngủ với các rối loạn vận động và hành 
+
+vi khi ngủ. 
+
+- Chẩn đoán các tình trạng rối loạn liên quan đến giấc ngủ khác. 
+
+- Chẩn đoán các tình trạng gây ra mất ngủ, khó đi vào giấc ngủ hoặc ngủ 
+
+không sâu. 
+
+- Theo dõi hiệu quả điều trị bằng phương pháp thở áp lực dương liên tục ở 
+
+bệnh nhân bị hội chứng ngưng thở khi ngủ do tắc nghẽn. 
+
+
+
+31 
+
+ 
+
+ 
+
+Hình 2.17 Ngáy to liên tục cảnh báo ngưng thở khi ngủ 
+
+Nếu các tình trạng rối loạn giấc ngủ không được điều trị, chúng có thể làm 
+
+tăng nguy cơ mắc bệnh tim mạch, tăng huyết áp, trầm cảm và đột quỵ. Ngoài 
+
+ra, rối loạn giấc ngủ còn làm tăng chấn thương và tử vong liên quan đến tai nạn 
+
+nghề nghiệp và tai nạn xe cộ. 
+
+Đối tượng được chỉ định đo đa kí giấc ngủ 
+
+Bác sĩ thường chỉ định đo đa ký giấc ngủ ở những đối tượng có triệu chứng 
+
+của ngưng thở khi ngủ là: 
+
+- Buồn ngủ quá mức vào ban ngày không giải thích được nguyên nhân. 
+
+- Ngáy to. 
+
+- Thức giấc nhiều lần trong đêm. 
+
+- Thức giấc vì nghẹt thở, thở hổn hển. 
+
+- Mệt mỏi, nhức đầu sau khi ngủ dậy. 
+
+- Khó tập trung, suy nghĩ. 
+
+- Mệt mỏi ban ngày. 
+
+- Tiểu đêm hơn một lần mỗi đêm. 
+
+Những đối tượng nguy cơ dưới đây cũng nên thực hiện đo đa ký giấc ngủ: 
+
+- Người bị béo phì hoặc có chu vi vòng cổ to. 
+
+
+
+32 
+
+ 
+
+- Người bị các bệnh hô hấp: viêm phổi tắc nghẽn mạn tính (Chronic 
+
+obstructive pulmonary disease - COPD), hen suyễn, suy hô hấp mạn tính, 
+
+tâm phế mạn. 
+
+- Người mắc bệnh tim mạch: tăng huyết áp không kiểm soát tốt, suy tim. 
+
+- Người bị viêm amidan mạn tính quá phát, bất thường cấu trúc hàm mặt. 
+
+Cách tiến hành đo đa ký giấc ngủ: 
+
+Đo đa ký giấc ngủ sẽ được thực hiện vào ban đêm, yêu cầu bạn ngủ lại một 
+
+đêm ở phòng khám. Sau khi có chỉ định từ bác sĩ, bạn sẽ đến phòng khám theo 
+
+lịch hẹn để thực hiện đo đa ký giấc ngủ. Quy trình đo đa ký giấc ngủ diễn ra 
+
+như sau: 
+
+- Người bệnh nằm trên giường ngủ. 
+
+- Kỹ thuật viên gắn các điện cực và thiết bị lên người bạn trước khi bạn ngủ. 
+
+- Kỹ thuật viên khởi động máy và ghi liên tục các thông số hoạt động điện 
+
+não, điện mắt, điện cơ, nhịp tim, hô hấp, độ bão hòa oxy, ngáy, cử động chi, 
+
+tư thế cơ thể… Thời gian ghi ít nhất 6 giờ (thường bắt đầu từ 21 giờ tối đến 
+
+6 giờ sáng ngày hôm sau). 
+
+- Trong quá trình này, kỹ thuật viên sẽ liên tục theo dõi các thông qua. Tất cả 
+
+các thông số được hiển thị trên màn hình theo thời gian thực và lưu trữ trong 
+
+máy tính. 
+
+Sau khi bạn ngủ dậy, kỹ thuật viên tháo điện cực và các thiết bị, hẹn lịch 
+
+quay lại nhận kết quả. 
+
+- Có thể ra về và hoạt động bình thường sau khi đo đa ký giấc ngủ. 
+
+Bác sĩ sẽ là người đọc và giải thích kết quả, kết hợp với các xét nghiệm khác 
+
+(nếu có) để đưa ra kết luận và phương pháp điều trị, bao gồm thay đổi lối 
+
+sống, dùng thuốc, phẫu thuật hoặc các phương pháp can thiệp khác. 
+
+Ưu điểm của đo đa ký giấc ngủ: 
+
+- Là kỹ thuật chuyên sâu chính xác và rất hiệu quả để chẩn đoán các rối loạn 
+
+giấc ngủ. 
+
+- Là tiêu chuẩn vàng để chẩn đoán ngưng thở khi ngủ. 
+
+- Không xâm lấn, không đau. 
+
+ 
+
+
+
+33 
+
+ 
+
+Nhược điểm của kỹ thuật đo đa ký giấc ngủ:  
+
+- Chi phí cao. 
+
+- Tốn thời gian (một buổi tối). 
+
+- Không phải cơ sở y tế nào cũng có đa ký giấc ngủ. 
+
+- Khó thực hiện ở trẻ nhỏ, chủ yếu là do trẻ không hợp tác. 
+
+ 
+
+Hình 2.18 Mô tả quá trình đo đa ký giấc ngủ tại bệnh viện 
+
+Kết quả thu được của quá trình đo đa ký giấc ngủ (dữ liệu thuộc về Bệnh viện 
+
+Đại học Y Hà Nội).  
+
+Dữ liệu đo đa ký giấc ngủ được đưa vào phần mềm Remlogic để phân tích. 
+
+Kết quả đo đa ký giấc ngủ thể hiện được rất nhiều thông số cho phép đánh giá 
+
+sức khỏe bệnh nhân như thống kê ngáy, thống kê ngưng thở, thống kê hô hấp, 
+
+nhịp tim, .... Dưới đây là kết quả đa ký giấc ngủ thu được của bệnh nhân V.T.N, 
+
+nữ, 56 tuổi, cao 1m65, nặng 99kg và bệnh nhân N.H.T, nam, 34 tuổi, cao 1m69, 
+
+nặng 73kg. 
+
+
+
+34 
+
+ 
+
+ 
+
+Hình 2.19 Dạng sóng của các tín hiệu đo được từ máy đo đa ký giấc ngủ được 
+
+thể hiện trên phần mềm Remlogic 
+
+ 
+
+Hình 2.20 Dạng sóng của các tín hiệu đo được từ máy đo đa ký giấc ngủ được 
+
+thể hiện trên phần mềm Remlogic 
+
+
+
+35 
+
+ 
+
+Dưới đây là bảng tóm tắt kết quả đo đa ký của một bệnh nhân được tiến 
+
+hành đo tại bệnh viện Đại học Y Hà Nội. 
+
+    Bảng 2.3 Tóm lược kết quả đo đa ký giấc của bệnh nhân V.T.N 
+
+Tổng thời gian 
+
+ghi  
+
+428,6 phút Ngưng thở + Giảm 
+
+thở (A + H): 
+
+425 sự kiện 67,7 sự 
+
+kiện/giờ 
+
+Thời gian ngủ 408,1 phút Ngưng thở tắc 
+
+nghẽn: 
+
+316 sự kiện 58,3 sự 
+
+kiện/giờ 
+
+Bắt đầu thức dậy 
+
+sau khi ngủ 
+
+23,1 phút Ngưng thở trung 
+
+tâm: 
+
+1 sự kiện 0,2 sự 
+
+kiện/giờ 
+
+Tổng thời gian 
+
+ngủ 
+
+385,0 phút Ngưng thở hỗn hợp: 0 sự kiện 0,0 sự 
+
+kiện/giờ 
+
+Bắt đầu ngủ 20,5 phút Giảm thở (Tất cả) 108 sự kiện 17,2 sự 
+
+kiện/giờ 
+
+Hiệu quả giấc ngủ 89,8% Giảm thở tắc nghẽn: 32 sự kiện 5,1 sự 
+
+kiện/giờ 
+
+Số lần thức tỉnh 4 Giảm thở trung tâm: - - 
+
+Độ trễ giấc ngủ 
+
+đến N1 
+
+20,5 phút Giảm thở hỗn hợp: - - 
+
+Độ trễ giấc ngủ 
+
+đến N2 
+
+25,0 phút RDI: 67,7 sự kiện  
+
+Độ trễ giấc ngủ 
+
+đến N3 (SWS) 
+
+69,5 phút Sự kiện bão hoà oxy 
+
+(OD): 
+
+393 sự kiện 62,6 sự 
+
+kiện/giờ 
+
+Độ trễ giai đoạn 
+
+R từ khi bắt đầu 
+
+ngủ 
+
+274,0 phút Thời gian ngáy: 225,8 phút 59,9 % 
+
+  Chuyển động chân 
+
+tay: 
+
+40 sự kiện 6,4 sự 
+
+kiện/giờ 
+
+  PLMS (Sự di chuyển 
+
+lặp lại và không tự 
+
+chủ của các cơ quan, 
+
+chủ yếu là chân,…): 
+
+12 sự kiện 1,9 sự 
+
+kiện/giờ 
+
+ 
+
+    Bảng 2.4 Tóm lược kết quả đo đa ký của bệnh nhân N.H.T 
+
+Tổng thời gian 
+
+ghi  
+
+381,6 phút Ngưng thở + Giảm 
+
+thở (A + H): 
+
+183 sự kiện 39,2 sự 
+
+kiện/giờ 
+
+Thời gian ngủ 356,4 phút Ngưng thở tắc 
+
+nghẽn: 
+
+116 sự kiện 24,9 sự 
+
+kiện/giờ 
+
+Bắt đầu thức dậy 
+
+sau khi ngủ 
+
+76,4 phút Ngưng thở trung 
+
+tâm: 
+
+0 sự kiện 0,0 sự 
+
+kiện/giờ 
+
+Tổng thời gian 
+
+ngủ 
+
+280,0 phút Ngưng thở hỗn hợp: 0 sự kiện 0,0 sự 
+
+kiện/giờ 
+
+Bắt đầu ngủ 25,2 phút Giảm thở (Tất cả) 67 sự kiện 14,4 sự 
+
+kiện/giờ 
+
+Hiệu quả giấc ngủ 73,4% Giảm thở tắc nghẽn:  - - 
+
+Số lần thức tỉnh 17 Giảm thở trung tâm: - - 
+
+Độ trễ giấc ngủ 
+
+đến N1 
+
+25,2 phút Giảm thở hỗn hợp: - - 
+
+
+
+36 
+
+ 
+
+Độ trễ giấc ngủ 
+
+đến N2 
+
+44,2 phút RDI: 69,2 sự kiện  
+
+Độ trễ giấc ngủ 
+
+đến N3 (SWS) 
+
+137,7 phút Sự kiện bão hoà oxy 
+
+(OD): 
+
+184 sự kiện 39,5 sự 
+
+kiện/giờ 
+
+Độ trễ giai đoạn 
+
+R từ khi bắt đầu 
+
+ngủ 
+
+114,5 phút Thời gian ngáy: 170,3 phút 60,9 % 
+
+  Chuyển động chân 
+
+tay: 
+
+58 sự kiện 12,4 sự 
+
+kiện/giờ 
+
+  PLMS (Sự di chuyển 
+
+lặp lại và không tự 
+
+chủ của các cơ quan, 
+
+chủ yếu là chân,…): 
+
+23 sự kiện 4,9 sự 
+
+kiện/giờ 
+
+Dựa vào kết quả đo đa ký giấc ngủ, bác sĩ có thể hiểu rõ về giấc ngủ của 
+
+bệnh nhân, đặc biệt nhờ có đa ký giấc ngủ, bác sĩ xác định được chính xác thời 
+
+gian ngáy của bệnh nhân, tuy nhiên chưa phân tích được chi tiết các đặc điểm 
+
+của tiếng ngáy về tần số, âm lượng, biên độ,… và chưa thể hiện được sự liên hệ 
+
+giữa ngáy và các bệnh lý liên quan. 
+
+2.3.4 Phương pháp sử dụng màng rung 
+
+Trên cơ sở các phương pháp đo và phân tích giấc ngủ như đã tổng hợp và 
+
+liệt kê ở trên, chúng em nhận thấy rằng mỗi phương pháp đều có ưu nhược điểm 
+
+tồn tại về tính chính xác, thời gian và chi phí. Vậy nên, nhóm mạnh dạn đưa ra 
+
+đề xuất sử dụng phương pháp thu tiếng ngáy bằng micro (màng rung). Trước 
+
+tiên mục tiêu của phương pháp này là thiết kế ra một modul theo dõi giấc ngủ 
+
+đơn giản, gọn nhẹ và tiết kiệm chi phí.  
+
+Phương pháp này cũng được sử dụng ở một số nghiên cứu trước đây như ở 
+
+nghiên cứu của Eliran dafna và các cộng sự [14] đã thực hiện ghi lại tiếng ngáy 
+
+của 67 người độ tuổi trung bình từ 13 đến 52 tuổi, nghiên cứu đã phát triển một 
+
+hệ thống phát hiện tiếng ngáy sử dụng micrô không tiếp xúc để ghi tín hiệu âm 
+
+thanh được thực hiện suốt một đêm tại phòng thí nghiệm về giấc ngủ. Các tín 
+
+hiệu âm thanh thu được tiếp tục được sử dụng để phát triển thuật toán phát hiện 
+
+tiếng ngáy. Máy ghi âm kỹ thuật số (Edirol R-4 Pro, Bellingham, WA, USA) có 
+
+micrô định hướng (RODE, NTG-1, Silverwater, NSW, Australia) được đặt ở 
+
+khoảng cách 1 mét so với đầu được sử dụng để ghi âm. Một máy ghi âm bổ sung 
+
+(tiện dụng Olympus LS-5) được đặt trên tủ bên cạnh đầu bệnh nhân trong phòng 
+
+thí nghiệm và được sử dụng để xác nhận hệ thống trong môi trường không phải 
+
+
+
+37 
+
+ 
+
+phòng thí nghiệm. Các tín hiệu âm thanh được lưu trữ để phân tích sau này. Mỗi 
+
+tín hiệu âm thanh được đồng bộ hóa ở độ phân giải 15 ms. Việc đồng bộ hóa 
+
+được thực hiện thông qua kỹ thuật tương quan chéo giữa kênh mức cường độ 
+
+ngáy  và tín hiệu âm thanh kỹ thuật số (sau khi trích xuất năng lượng). Mục đích 
+
+chính là để đồng bộ hóa tất cả các tín hiệu âm thanh kỹ thuật số, bao gồm các 
+
+kênh thôi miên và các kênh nỗ lực hô hấp, để hỗ trợ và hỗ trợ việc ghi nhãn thủ 
+
+công các sự kiện ngáy. Trong thuật toán phát hiện tiếng ngáy, thuật toán giảm 
+
+tiếng ồn thích ứng đã được áp dụng để tăng cường tín hiệu trong giai đoạn tiền 
+
+xử lý.  
+
+Một nghiên cứu khác đã thí nghiệm về các micro trong những chiếc điện 
+
+thoại thông minh liệu có thể thu được tiếng ngáy. Mục tiêu của công việc này là 
+
+mô tả đặc điểm và so sánh phản hồi của hai micrô khí quản thương mại và, như 
+
+một bằng chứng về khái niệm để đánh giá tiềm năng của chúng như các cảm 
+
+biến để phát hiện OSA. Để làm được điều đó, các tác giả đã thiết kế một giao 
+
+thức thử nghiệm để nghiên cứu các sự kiện liên quan đến OSA (hơi thở, ngáy 
+
+và ngưng thở) được mô phỏng bởi 4 đối tượng. Các tín hiệu thử nghiệm được 
+
+ghi lại đồng thời bằng các micrô khác nhau và được xử lý và phân tích sau 
+
+đó. Các tác giả đã mô tả chính xác đáp ứng tần số của hai micrô thương mại, 
+
+nhận thấy rằng một trong số chúng quá hạn chế (băng thông 50-250 Hz) và do 
+
+đó không phù hợp làm cảm biến ngáy để phân tích âm thanh tần số cao. Về điện 
+
+thoại thông minh, họ đã nghiên cứu micrô của Samsung Galaxy S5. Và nhận 
+
+thấy rằng, khi nằm trên ngực, nó cung cấp tín hiệu chất lượng tương đương với 
+
+tín hiệu của micrô khí quản, với đáp ứng tần số rộng hơn. Nghiên cứu sơ bộ này 
+
+cho thấy rằng phân tích âm thanh của tiếng ngáy thông qua các giải pháp thu 
+
+bằng micro sẵn có có thể là một giải pháp thay thế khả thi để sàng lọc và theo 
+
+dõi bệnh nhân OSA tại nhà. 
+
+ 
+
+
+
+38 
+
+ 
+
+CHƯƠNG 3. THIẾT KẾ MODULE THEO DÕI GIẤC NGỦ 
+
+3.1 Giới thiệu  
+
+Nội dung của Chương 3 là thiết kế tạo ra một module phần cứng để 
+
+ghi âm lại tiếng ngủ ngáy của người bệnh, lưu vào thẻ nhớ và chuyển lên 
+
+máy tính để xử lý dữ liệu  
+
+3.2 Yêu cầu thiết kế 
+
+3.2.1 Yêu cầu chức năng 
+
+- Modul thiết kế yêu cầu có khả năng ghi lại tiếng ngáy của con người. 
+
+- Tiếng ngáy được ghi lại chuyển sang phần mềm lưu trữ và tiến hành xử lý 
+
+dữ liệu trên máy tính. 
+
+- Phân tích, xử lý dữ liệu tiếng ngáy để đưa ra các đặc điểm về tần số, âm 
+
+lượng, dạng sóng, biên độ của tiếng ngáy. Từ đó, so sánh với tín hiệu tiếng 
+
+ngáy của người mắc hội chứng ngưng thở khi ngủ cũng như một số bệnh lý 
+
+khác.  
+
+ 3.2.2 Yêu cầu phi chức năng 
+
+- Modul gọn nhẹ để người ngủ ngáy dễ dàng gắn lên cổ/ túi quần, áo khi ngủ. 
+
+- Trường hợp khi ngủ, người ngủ ngáy không nằm yên thì modul cũng không 
+
+bị rơi ra làm ảnh hưởng đến kết quả đo. 
+
+3.3 Mục đích thiết kế 
+
+Tạo ra được một modul nhỏ gọn giúp người ngủ ngáy có thể tự theo dõi tiếng 
+
+ngáy của mình ở nhà, từ đó biết được mức độ tiếng ngáy và chủ động đến bệnh 
+
+viện thăm khám nếu cần thiết, giúp tiết kiệm chi phí và thuận tiện cho người sử 
+
+dụng. 
+
+
+
+39 
+
+ 
+
+3.4 Sơ đồ khối hệ thống và chức năng của từng khối 
+
+3.4.1 Sơ đồ khối hệ thống 
+
+ 
+
+Hình 3.1 Sơ đồ khối hệ thống 
+
+3.4.2 Chức năng của từng khối 
+
+Hệ thống theo dõi giấc ngủ ở người gồm:  
+
+- Khối nguồn: cung cấp năng lượng cho tất cả các khối còn lại trong phần 
+
+cứng. 
+
+- Khối cảm biến âm thanh: khuếch đại tín hiệu âm thanh đầu vào, loại bỏ 
+
+nhiễu và tăng cường tín hiệu, sau đó cung cấp đầu ra tín hiệu đã được khuếch 
+
+đại để sử dụng trong các ứng dụng âm thanh và xử lý tín hiệu. 
+
+- Khối xử lý âm thanh và đóng gói: thực hiện các chương trình được lập trình, 
+
+giao tiếp với các cảm biến, bộ điều khiển, hoặc thiết bị khác. 
+
+- Khối lưu trữ: lưu trữ và truy xuất dữ liệu từ các thiết bị nhúng và di động 
+
+nhờ vào giao tiếp đơn giản. 
+
+3.5 Nguyên lý làm việc và lựa chọn linh kiện 
+
+3.5.1 Nguyên lý làm việc 
+
+Khối nguồn sẽ cung cấp năng lượng cho tất cả các khối còn lại. Đầu tiên tiếng 
+
+ngáy sẽ đi vào khối cảm biến âm thanh, tại đây cảm biến sẽ giúp thu nhận được 
+
+tiếng ngáy của người bệnh. 
+
+Tín hiệu ra khỏi khối cảm biến sẽ được ghi lại đóng gói thành một file ghi 
+
+âm hoàn chỉnh ở khối “xử lý âm thanh và đóng gói”. Sau đó, file sẽ được lưu 
+
+trữ ở khối lưu trữ và đẩy lên máy tính để phân tích bằng phần mềm matlab. 
+
+
+
+40 
+
+ 
+
+3.5.2 Lựa chọn linh kiện 
+
+Khối nguồn 
+
+Khối cung cấp điện áp ổn định cho toàn bộ hệ thống hoạt động. Nguồn cần 
+
+để duy trì hệ thống là nguồn DC, không nhiễu xoay chiều. Dựa trên các tiêu chí 
+
+đó, em lựa chọn pin 9V, qua bộ chuyển đổi sang các mức điện khác, thích hợp 
+
+cho việc cấp nguồn cho các khối trên hoạt động. 
+
+Khối cảm biến âm thanh 
+
+ 
+
+Hình 3.2 Cảm biến MAX4466 
+
+Thông số kỹ thuật của cảm biến MAX4466: 
+
+- Nguồn cấp: 2.7 V - 5.5 V  
+
+- Đầu ra: 2Vpp on 1.25V bias 
+
+- Tần số: 20 Hz – 20 kHz 
+
+- Độ cao, có thể chọn từ 40dB, 50dB hoặc 60dB 
+
+- Mật độ nhiễu đầu vào thấp 30 nV/ Hz 
+
+- THD thấp: 0.04% (typ). 
+
+Nguyên lý hoạt động của cảm biến MAX4466 
+
+- Khuếch đại tín hiệu: MAX4466 hoạt động như một bộ khuếch đại chopper, 
+
+nghĩa là nó khuếch đại tín hiệu âm thanh đầu vào bằng cách sử dụng một 
+
+cặp bộ khuếch đại khác pha nhau (chopper amplifier). Bộ khuếch đại 
+
+
+
+41 
+
+ 
+
+chopper có khả năng loại bỏ thành phần DC của tín hiệu và chỉ tập trung 
+
+vào tín hiệu AC. Điều này rất hữu ích khi bạn muốn loại bỏ nhiễu DC và 
+
+tăng cường tín hiệu âm thanh. 
+
+- Bộ lọc thông thấp: MAX4466 cũng tích hợp một bộ lọc thông thấp (low-
+
+pass filter) để loại bỏ các tần số cao hơn mà thường không quan tâm trong 
+
+ứng dụng âm thanh. Bộ lọc này giúp giảm nhiễu và tăng cường tín hiệu tần 
+
+số thấp hơn, phù hợp với hầu hết các ứng dụng âm thanh. 
+
+- Điều chỉnh và cấp nguồn: MAX4466 có thể hoạt động ở mức điện áp từ 
+
+2.7V đến 5.5V, điều này cho phép bạn dễ dàng tích hợp nó vào các ứng dụng 
+
+với nguồn cấp khác nhau. Bạn cần cấp nguồn cho MAX4466 để nó hoạt 
+
+động. 
+
+- Đầu ra tín hiệu: Sau khi tín hiệu âm thanh đã được khuếch đại và lọc qua 
+
+bộ khuếch đại chopper và bộ lọc thông thấp, nó được đưa ra thông qua đầu 
+
+ra OUT+ và OUT- của MAX4466. Điều này cho phép bạn kết nối mạch với 
+
+một vi điều khiển hoặc hệ thống xử lý tín hiệu để xử lý hoặc sử dụng tín 
+
+hiệu âm thanh tùy ý. 
+
+Khối xử lý âm thanh và đóng gói 
+
+ 
+
+Hình 3.3 Module ARDUINO UNO R3 
+
+ 
+
+
+
+42 
+
+ 
+
+ 
+
+           Bảng 3.1 Thông số kỹ thuật của Module Arduino Uno R3 
+
+Vi điều khiển ATmega328 họ 8bit 
+
+Điện áp hoạt động 5V DC (chỉ được cấp qua cổng USB) 
+
+Tần số hoạt động 16 MHz 
+
+Dòng tiêu thụ khoảng 30mA 
+
+Điện áp vào khuyên dùng 7-12V DC 
+
+Điện áp vào giới hạn 6-20V DC 
+
+Số chân Digital I/O 14 (6 chân hardware PWM) 
+
+Số chân Analog 6 (độ phân giải 10bit) 
+
+Dòng tối đa trên mỗi chân I/O 30 mA 
+
+Dòng ra tối đa (5V) 500 mA 
+
+Dòng ra tối đa (3.3V) 50 mA 
+
+Bộ nhớ flash 
+32 KB (ATmega328) với 0.5KB dùng 
+
+bởi bootloader 
+
+SRAM 2 KB (ATmega328) 
+
+EEPROM 1 KB (ATmega328) 
+
+Nguyên lý hoạt động cơ bản của Arduino Uno R3: 
+
+- Vi điều khiển ATmega328P: Arduino Uno R3 được trang bị vi điều khiển 
+
+ATmega328P, một chip AVR 8-bit của Microchip (trước đây là Atmel). Đây 
+
+là bộ xử lý chính của Arduino và làm nhiệm vụ thực hiện các lệnh và các 
+
+phép tính. 
+
+- Nguồn điện: Arduino Uno R3 có thể hoạt động ở điện áp 5V. Bạn có thể cấp 
+
+nguồn cho nó qua cổng USB hoặc từ nguồn ngoài thông qua đầu cắm DC. 
+
+- Cổng Serial/UART: Arduino Uno R3 có cổng Serial/UART tích hợp trên 
+
+board. Cổng này cho phép giao tiếp với vi điều khiển thông qua USB để 
+
+nạp chương trình và giao tiếp với máy tính hoặc các thiết bị khác. 
+
+- Cổng Digital và Analog: Arduino Uno R3 có 14 chân I/O số (Digital) và 6 
+
+chân đầu vào Analog. Các chân Digital có thể được cấu hình để làm việc 
+
+như chân đầu vào (đo điện áp) hoặc chân đầu ra (đưa ra điện áp). Các chân 
+
+đầu vào Analog dùng để đo các tín hiệu điện áp liên tục từ các cảm biến 
+
+hoặc thiết bị khác. 
+
+
+
+43 
+
+ 
+
+- Bộ chuyển đổi Analog-to-Digital (ADC): Arduino Uno R3 có bộ chuyển 
+
+đổi ADC cho phép chuyển đổi các tín hiệu Analog thành giá trị số để xử lý 
+
+bởi vi điều khiển. 
+
+- Clock: Vi điều khiển ATmega328P hoạt động với tần số xung nhịp cơ bản 
+
+là 16 MHz. Điều này làm cho Arduino Uno R3 có thể xử lý các nhiệm vụ 
+
+nhanh chóng và hiệu quả. 
+
+- Bootloader: Arduino Uno R3 được nạp sẵn bootloader trong vi điều khiển, 
+
+cho phép bạn nạp các chương trình mới mà không cần sử dụng trình nạp 
+
+ngoài. 
+
+- IDE Arduino: Để lập trình và nạp chương trình cho Arduino Uno R3, bạn 
+
+sử dụng Arduino IDE (Integrated Development Environment) - môi trường 
+
+phát triển tích hợp sẵn hỗ trợ cho việc viết và nạp mã nguồn. 
+
+Khi bạn viết chương trình trong Arduino IDE và nạp nó vào vi điều khiển, 
+
+nó sẽ thực hiện các hướng dẫn bạn đã viết, giao tiếp với các cảm biến, bộ 
+
+điều khiển, hoặc thiết bị khác qua các chân I/O và thực hiện các nhiệm vụ 
+
+mà bạn đã định nghĩa. 
+
+Lưu đồ thuật toán    
+
+ 
+
+ 
+
+Hình 3.4 Lưu đồ thuật toán 
+
+
+
+44 
+
+ 
+
+ 
+
+Khối lưu trữ 
+
+ 
+
+Hình 3.5 Micro SD/Micro SDHC SPI 
+
+ 
+
+    Bảng 3.2 Thông số kỹ thuật Micro SD 
+
+Loại thẻ hỗ trợ Thẻ nhớ Micro SD ( 2G) 
+
+Kích thước 42 x 24 x 12 mm 
+
+Trọng lượng 5 g  
+
+ 
+
+Nguyên lý hoạt động của MicroSD (Secure Digital) thông qua giao tiếp SPI 
+
+(Serial Peripheral Interface) như sau: 
+
+- Giao tiếp SPI: Giao tiếp SPI là một giao tiếp đồng bộ 4 dây bao gồm các tín 
+
+hiệu sau: 
+
+• SCLK (Serial Clock): Tín hiệu xung nhịp được cung cấp bởi thiết bị chủ 
+
+(master) để đồng bộ hóa truyền dữ liệu. 
+
+• MOSI (Master Out Slave In): Tín hiệu dữ liệu từ thiết bị chủ đến thiết bị nô 
+
+lệ (slave) để truyền dữ liệu. 
+
+• MISO (Master In Slave Out): Tín hiệu dữ liệu từ thiết bị nô lệ đến thiết bị 
+
+chủ để nhận dữ liệu. 
+
+• SS/CS (Slave Select/Chip Select): Tín hiệu để thiết bị chủ chọn thiết bị nô 
+
+lệ mà nó muốn giao tiếp. 
+
+- Cấu trúc MicroSD: MicroSD là một loại thẻ nhớ nhỏ kích thước được sử 
+
+dụng trong nhiều thiết bị di động và hệ thống nhúng. Nó chứa các vi mạch 
+
+bên trong để xử lý việc lưu trữ và truy xuất dữ liệu. 
+
+- Giao tiếp với MicroSD qua SPI: Để giao tiếp với MicroSD thông qua SPI, 
+
+trước tiên, bạn cần cấu hình một thiết bị chủ (ví dụ: vi điều khiển Arduino) 
+
+
+
+45 
+
+ 
+
+để làm việc như một master SPI. Sau đó, bạn cần kết nối MicroSD với các 
+
+chân tương ứng (SCLK, MOSI, MISO, SS/CS) của thiết bị chủ. 
+
+- Truy cập dữ liệu: Khi muốn đọc hoặc ghi dữ liệu từ MicroSD, vi điều khiển 
+
+chủ sẽ gửi các lệnh và dữ liệu qua giao tiếp SPI. Quá trình này thường bao 
+
+gồm các bước sau:  
+
+• Thiết lập SS/CS xuống mức thấp để chọn MicroSD làm thiết bị nô lệ cần 
+
+giao tiếp.  
+
+• Gửi lệnh đọc hoặc ghi dữ liệu qua MOSI tới MicroSD.  
+
+• MicroSD xử lý lệnh và gửi dữ liệu tương ứng (nếu là lệnh đọc) hoặc ghi dữ 
+
+liệu vào bộ nhớ (nếu là lệnh ghi) qua MISO.  
+
+• Vi điều khiển chủ nhận dữ liệu từ MISO và xử lý dữ liệu nhận được hoặc 
+
+gửi tiếp lệnh tiếp theo (nếu cần).  
+
+• Khi việc truyền dữ liệu hoặc lệnh hoàn tất, thiết lập SS/CS lên mức cao để 
+
+kết thúc phiên giao tiếp với MicroSD. 
+
+MicroSD và SPI là một cách tiện lợi để lưu trữ và truy xuất dữ liệu từ các 
+
+thiết bị nhúng và di động nhờ vào giao tiếp đơn giản và hiệu quả của nó. 
+
+ 
+
+Hình 3.6 Liên kết giữa Micro SD và Arduino R3 
+
+3.6 Sơ đồ mạch thực tế 
+
+Dưới đây là sơ đồ mạch thực tế được lắp trên board trắng. 
+
+
+
+46 
+
+ 
+
+ 
+
+Hình 3.7 Sơ đồ mạch thực tế 
+
+ 
+
+ 
+
+Hình 3.8 Sơ đồ mạch trên board 
+
+ 
+
+
+
+47 
+
+ 
+
+ 
+
+Hình 3.9 Thiết kế vỏ hộp cho mạch 
+
+ 
+
+ 
+
+Hình 3.10 Mạch hoàn chỉnh trong vỏ hộp 
+
+
+
+48 
+
+ 
+
+ 
+
+Hình 3.11 Cách đeo modul để tiến hành thu tiếng ngáy 
+
+3.7 Kết quả 
+
+Tiến hành ghi đo lại giấc ngủ bằng modul thiết kế dựa trên một số tình 
+
+nguyện viên tại Lab Đo lường sinh lý học con người phòng 308B – C9, Đại học 
+
+Bách khoa Hà Nội. Dữ liệu tiếng ngáy được thu thập vào thời điểm buổi trưa 
+
+buổi đêm (22h-0h) và phân tích trên Matlab với chương trình gồm các bước như 
+
+sau:  
+
+- Bước 1: Thu thập dữ liệu âm thanh: Thu thập tín hiệu âm thanh từ nguồn 
+
+ghi âm hoặc bộ dữ liệu.  
+
+- Bước 2: Tiền xử lý tín hiệu âm thanh: Loại bỏ nhiễu và chuẩn hóa dữ liệu 
+
+để chuẩn bị cho bước tiếp theo.  
+
+- Bước 3: Áp dụng biến đổi Fourier: Sử dụng biến đổi Fourier để chuyển đổi 
+
+tín hiệu âm thanh từ miền thời gian sang miền tần số.  
+
+- Bước 4: Trích xuất ảnh phổ tần: Lấy giá trị biến đổi Fourier để tạo thành 
+
+ảnh phổ tần, biểu thị phạm vi và cường độ của các tần số trong tín hiệu. 
+
+- Bước 5: Hiển thị ảnh phổ tần: Hiển thị ảnh phổ tần để hiểu và phân tích 
+
+thông tin về tần số của tín hiệu âm thanh. 
+
+Kết quả phân tích dữ liệu thực tế thu được bằng modul được thể hiện trên 
+
+Matlab như hình 3.12, 3.13 và 3.14 dưới đây: 
+
+
+
+49 
+
+ 
+
+- Kết quả đo lần 1:  
+
+ 
+
+Hình 3.12 Kết quả phân tích tiếng ngáy đo lần 1  
+
+- Kết quả đo lần 2:  
+
+ 
+
+Hình 3.13 Kết quả phân tích tiếng ngáy đo lần 2  
+
+ 
+
+
+
+50 
+
+ 
+
+- Kết quả đo lần 3:  
+
+ 
+
+Hình 3.14 Kết quả phân tích tín hiệu ngủ không ngáy 
+
+So sánh với kết quả phân tích tiếng ngáy của trường hợp ngủ ngáy lý tưởng 
+
+(không chứa tạp âm) như hình 3.15 và trong trường hợp ngủ ngáy có xuất hiện 
+
+chứng ngưng thở khi ngủ như hình 3.16.  
+
+- Với trường hợp ngủ ngáy lí tưởng (không chứa tạp âm): biên độ tiếng ngáy 
+
+thu được đều, không ngắt quãng, không xuất hiện những khoảng bất thường. 
+
+Chứng tỏ tiếng ngáy ổn định và chưa có dấu hiệu bất thường của chững tắc 
+
+nghẽn ngưng thở khi ngủ. 
+
+- Với trường hợp ngủ ngáy có xuất hiện chứng ngưng thở khi ngủ: biên độ 
+
+tiếng ngáy giảm đi rõ rệt, biên độ tiến sát về mức 0 và tín hiệu phát ra gần 
+
+như bị ngắt trong 1 khoảng thời gian ngắn. Chứng tỏ tiếng ngáy không ổn 
+
+định và đã bị ngừng lại. Biểu hiện này chính là dấu hiệu cơ bản của chứng 
+
+ngưng thở khi ngủ. 
+
+- Với trường hợp ngủ ngáy thực tế (có chứa tạp âm): modul được thiết kế ghi 
+
+lại tiếng ngáy nhưng không thể đảm bảo chỉ thu được riêng tiếng ngáy trong 
+
+lúc ngủ. Bởi vì quá trình ngủ diễn ra, môi trường xung quanh vẫn có những 
+
+
+
+51 
+
+ 
+
+tạp âm nhất định (tiếng quạt, tiếng lật trở mình của chính người ngáy,..) cho 
+
+nên phổ âm thanh không đều được như trường hợp tiếng ngáy không lẫn tạp 
+
+âm. Tuy nhiên phổ biên độ vẫn có sự khác biệt rõ rệt so với phổ của chứng 
+
+ngưng thở khi ngủ, phổ biên độ vẫn có sự liên tục và không bị ngắt bất 
+
+thường như bị ngừng thở. 
+
+ 
+
+Hình 3.15 Kết quả phân tích tiếng ngáy trong trường hợp ngủ ngáy lý tưởng 
+
+(không chứa tạp âm) 
+
+ 
+
+Hình 3.16 Kết quả phân tích tiếng ngáy trong trường hợp ngủ ngáy có xuất hiện 
+
+chứng ngưng thở khi ngủ 
+
+
+
+52 
+
+ 
+
+KẾT LUẬN 
+
+     Giấc ngủ là yếu tố đánh giá sức khỏe con người vô cùng quan trọng. Ngáy 
+
+là một dạng rối loạn nhịp thở khi ngủ, cản trở chất lượng và số lượng giấc ngủ 
+
+đối với cả người ngáy và người ngủ cùng người ngáy.  Đặc biệt tín hiệu tiếng 
+
+ngáy chính là cảnh báo tình trạng sức khỏe đáng lo ngại của người gặp phải 
+
+chứng ngủ ngáy. Tiếng ngáy không chỉ làm gián đoạn giấc ngủ của bản thân mà 
+
+còn ảnh hưởng đến người bên cạnh. Ngoài những tác động trước mắt đến tâm 
+
+sinh lý, làm giấc ngủ không ngon, mất ngủ dễ trở nên cáu gắt, gây bất hòa vì 
+
+tiếng ngáy khó chịu, chứng ngủ ngáy còn liên quan đến rất nhiều bệnh lý nghiêm 
+
+trọng. Nếu không phát hiện và dùng các biện pháp y tế can thiệp kịp thời, người 
+
+ngủ ngáy sẽ dễ dàng chủ quan và mắc bệnh nặng lúc nào không hay. Khi phát 
+
+hiện, bệnh lý thường ở mức độ không còn nhẹ, làm tốn kém nhiều chi phí khám 
+
+chữa bệnh, mất thời gian và ảnh hưởng nặng hơn đếm tâm lý người bệnh. 
+
+     Chính vì vậy, sự ra đời của các phương pháp phát hiện và theo dõi ngủ ngáy 
+
+là vô cùng cần thiết. Các phương pháp phát hiện ngủ ngáy sử dụng cảm biến 
+
+dây có thể co giãn, cảm biến EMFi, phương pháp sử dụng máy đo đa ký giấc 
+
+ngủ hay sử dụng màng rung,… là các sử dụng các phương pháp đã được nghiên 
+
+cứu trước đây, bên cạnh ưu điểm là có thể phát hiện ra tiếng ngáy thì nhược 
+
+điểm là chi phí khá cao và khả năng ứng dụng hàng ngày tại nhà kém. 
+
+     Do đó, chúng em đã đề xuất thực hiện đề tài Nghiên cứu ngủ ngáy ở người 
+
+giúp chẩn đoán các bệnh lý liên quan để có thể hiểu biết sâu về giấ chứng ngủ 
+
+ngáy cũng như các phương pháp theo dõi và phát hiện ngủ ngáy. Đồng thời thiết 
+
+kế ra một modul đơn giản, thuận tiện để theo dõi ngủ ngáy tại nhà và tiến hành 
+
+phân tích đặc điểm dữ liệu tiếng ngáy thu được giúp tiết kiệm chi phí cho người 
+
+bệnh và tạo cơ sở nghiên cứu mối liên hệ giưã ngủ ngáy và các bệnh lý liên quan 
+
+như hội chứng ngừng thở khi ngủ (OSA). 
+
+     Kết qủa phân tích dữ liệu thu được đã chỉ ra được sự khác nhau giữa phổ tần 
+
+số, biên độ của các trường hợp ngủ ngáy lý tưởng, ngủ ngáy thực tế và ngủ ngáy 
+
+có xuất hiện chứng ngừng thở khi ngủ. Tuy nhiên, với trường hợp ngủ ngáy thực 
+
+tế, chúng em chưa phân biệt được tiếng ngáy và tạp âm. Tiếng tạp âm có thể bị 
+
+
+
+53 
+
+ 
+
+gây hiểu lầm là tiếng ngáy dẫn đến khó khan trong việc xác định chứng ngưng 
+
+thở. 
+
+     Hướng phát triển của đề tài là phân tích sâu hơn trường hợp ngủ ngáy thực 
+
+tế để phân biệt giữa tạp âm và tiếng ngáy. Từ đó, thiết kế tích hợp thêm bộ phận 
+
+cảnh báo (rung, kêu khi phát hiện ra tiếng ngáy,…) giúp người bệnh ý thức được 
+
+tình trạng ngủ ngáy của b

@@ -1,0 +1,606 @@
+<!--
+@document   : index
+@created on : Mar 30, 2024 - 18:55
+@author     : Sy The Ho - @hsthe29
+@supervisor : Assoc. Prof., Dr. Le Thanh Huong
+-->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Plagiarism</title>
+    <meta charset="utf-8">
+
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/custom.css" rel="stylesheet">
+    <link href="/static/css/fontawesome-all.min.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- pdf.js -->
+    <!--<link href="/assets/pdfjs-2.0.943/web/viewer.css" rel="stylesheet">
+    <link href="/assets/pdfjs-2.0.943/web/locale/locale.properties" rel="resource" type="application/l10n">
+    <script src="/assets/pdfjs-2.0.943/web/viewer.js"></script> -->
+</head>
+<body>
+<div class="text-center uppercase">
+    <h4>DUPLICATE CONTENT CHECKER SYSTEM</h4>
+</div>
+<div class="row row-flex" style="margin-top: 30px; margin-bottom: 30px;">
+    <div class="col-sm-12">
+        <div class="inline-block" style="width: 300px;">Upload file:</div>
+        <input type="file" name="suspicious" class="file-input" id="suspicious">
+        <div class="text-error" id="suspicious_message" style="display: none;">
+            Chọn file.
+        </div>
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">Threshold (%):</div>
+        <input style="display: inline-block;" type="number" name="threshold" value="60">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">nCandidates:</div>
+        <input style="display: inline-block;" type="number" name="nCandidates" value="20">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">vi2en?:</div>
+        <input style="display: inline-block;" type="checkbox" name="vi2en">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">checkReferences?:</div>
+        <input style="display: inline-block;" type="checkbox" name="checkReferences">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">Keywords (viết cách nhau bởi dấu phẩy):</div>
+        <input style="display: inline-block;" type="text" name="givenKeywords">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">Extract keywords from uploaded document?:</div>
+        <input style="display: inline-block;" type="checkbox" name="extractDocumentKeywords" checked>
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">Student Name:</div>
+        <input style="display: inline-block;" type="text" name="studentName" value="">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <div class="inline-block" style="width: 300px;">University id (0=None, 1=HUST):</div>
+        <input style="display: inline-block;" type="number" name="universityId" value="0">
+    </div>
+
+    <div class="col-sm-12" style="margin-top: 15px;">
+        <input type="submit" value="Kiểm tra" class="btn btn-primary btn-sm" id="check_plagiarism">
+    </div>
+</div>
+
+<div class="text-info text-center" id="message_processing" style="display: none;">
+    Đang xử lý ...
+</div>
+
+
+<div class="response">
+
+    <div>
+        Uploaded File Url: <a href="#" id="uploadedFileURL" target="_blank"></a>
+    </div>
+    <div>
+        Highlight File Url: <a href="#" id="highlightURL" target="_blank"></a>
+    </div>
+    <div>
+        Report File Url: <a href="#" id="reportURL" target="_blank"></a>
+    </div>
+    <div>
+        Result JSON Url: <a href="#" id="resultJsonURL" target="_blank"></a>
+    </div>
+
+    <div id="errorMessage"></div>
+</div>
+
+<table class="table table-stripped table-hover" id="table-result" style="display: none;">
+    <thead>
+    <tr style="font-weight: bold;">
+        <td>#</td>
+        <td>Văn bản tải lên</td>
+        <td>Tỉ lệ giống</td>
+        <td>#</td>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<div class="modal fade" id="modal-result" role="dialog" data-backdrop="static" style="overflow-y: hidden;">
+    <div class="modal-dialog modal-detail-plagiarism">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title sus-title"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="row row-flex">
+                    <div class="col-xs-12 col-md-8 suspicious-content">
+                        <pre></pre>
+                    </div>
+                    <div class="col-xs-12 col-md-4 source-documents">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="error"></div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="modal-src-passage" class="modal" data-backdrop="false" style="overflow-y: hidden;">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style="background: #f5f5f5; border: 1px solid #000;">
+            <div class="modal-header" style="border-bottom: 1px solid #000; height: 45px; padding: 10px;">
+                <div class="modal-title src-title">
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body src-passage-content">
+                <div>
+                    <pre></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function TableResult() {
+        $('#table-result tbody').html('');
+        this.index = -1;
+        this.appendDocument = function (uploadedDocument) {
+            this.index++;
+            $('#table-result tbody').append('<tr class="uploaded-document" data-index=' + this.index + '>\
+        <td>' + (this.index + 1) + '</td>\
+        <td>' + uploadedDocument.file_name + '</td>\
+        <td>' + (uploadedDocument.plagiarizedPercentage ? uploadedDocument.plagiarizedPercentage + '%' : '') + '</td>\
+        <td></td>\
+        </tr>');
+        }
+    }
+
+    var ModalResult = {
+        elm: $('#modal-result'),
+        appendSourceDocument: function (srcDocument) {
+            this.elm.find('.source-documents > div').append('<div \
+        class="item-source-document" data-index="' + srcDocument.index + '">\
+        <div class="item-source-header">\
+          <div class="item-source-index">' + (srcDocument.index + 1) + '</div>\
+          <div class="item-source-filename">' + srcDocument.n + '</div>\
+          <div class="item-source-percentage">' + srcDocument.r.toFixed(2) + '%</div>\
+          <div class="item-source-url">\
+            <a href="' + srcDocument.u + '" title="Xem văn bản" tooltip target="_blank">\
+              <i class="fa fa-external-link-alt"></i>\
+            </a>\
+          </div>\
+        </div>\
+        <div class="item-source-content" data-show=0 style="display: none;"><pre></pre></div>\
+      </div>');
+        },
+        show: function (uploadedDocument) {
+            this.elm.find('.sus-title').html(uploadedDocument.file_name);
+            this.elm.find('.suspicious-content > pre').html(uploadedDocument.susHtml);
+            this.elm.find('.source-documents > div').html('');
+            for (var i = 0; i < uploadedDocument.sourceDocuments.length; i++) {
+                uploadedDocument.sourceDocuments[i].index = i;
+                this.appendSourceDocument(uploadedDocument.sourceDocuments[i]);
+            }
+            this.elm.modal();
+
+            var elm = this.elm;
+            setTimeout(function () {
+                elm.find('.suspicious-content span[data-src]')[0].scrollIntoView();
+            }, 500);
+        },
+        showSrcPlagiarized: function (srcDoc) {
+            var srcItem = $('.item-source-document[data-index=' + srcDoc.index + '] > .item-source-content');
+            var srcPre = srcItem.find('pre');
+
+            srcPre.html('');
+            var i = 0;
+            while (i < srcDoc.srcPla.length) {
+                if (srcDoc.srcPla[i][0] == -1) {
+                    // append ...
+                    srcPre.append("\n...\n");
+                } else {
+                    srcPre.append(srcDoc.srcPla[i][1]);
+                }
+                i++;
+            }
+            srcItem.attr('data-show', 1);
+            srcItem.show();
+        },
+        showError: function () {
+            if (this.errorInProcess)
+                return;
+            this.errorInProcess = true;
+            $('.error').show();
+            $('.error').html("Có lỗi xảy ra.");
+            setTimeout(function () {
+                $('.error').hide();
+                ModalResult.errorInProcess = false;
+            }, 3000);
+        },
+        focusOnSentence: function (srcIndex, srcSen) {
+            var susSen = $('.suspicious-content span[data-src=' + srcIndex + '][data-sen=' + srcSen + ']');
+            try {
+                susSen[0].scrollIntoView();
+                // if has nested spans, bolder nested span
+                var nested_sps = $(susSen[0]).find('.sp');
+                if (nested_sps.length > 0)
+                    bolder($(nested_sps[nested_sps.length - 1]));
+                else
+                    bolder($(susSen[0]));
+            } catch (err) {
+                this.showError();
+            }
+        }
+    };
+
+    var ModalSrcPassage = {
+        elm: $('#modal-src-passage'),
+        show: function (uploadedDocument, srcIndex, sentenceIndex, clickedElm) {
+            this.elm.find('.src-title').html(uploadedDocument.sourceDocuments[srcIndex].n);
+            htmlContent = $($.parseHTML('<div>' + uploadedDocument.sourceDocuments[srcIndex].t + '</div>'));
+
+            this.elm.find('.src-passage-content div pre').html(htmlContent);
+            this.elm.modal();
+            var offset = $('.suspicious-content').offset();
+
+            // if (clickedElm.position().top > $(window).height()/2) {
+            //   this.elm.css('top', clickedElm.position().top-300);
+            // } else {
+            //   this.elm.css('top', clickedElm.position().top+offset.top);
+            // }
+            this.elm.css('top', $(window).height() / 2 - 150);
+
+            this.elm.css('left', offset.left);
+
+            var srcSen = $(htmlContent.find('span[data-sen=' + sentenceIndex + ']')[0]);
+            srcSen[0].scrollIntoView();
+
+            try {
+                bolder(clickedElm);
+                var nested_sps = srcSen.find('.sp');
+                if (nested_sps.length > 0)
+                    bolder($(nested_sps[nested_sps.length - 1]));
+                else
+                    bolder($(srcSen));
+            } catch (err) {
+            }
+        }
+    };
+
+    function UploadedDocument(file_name, plagiarizedPercentage, text, sourceDocuments, idxMainContent) {
+        var class_plagiarized = [
+            '', '', '',
+            'sp-1', 'sp-1', 'sp-1',
+            'sp-2', 'sp-2', 'sp-2',
+            'sp-3', 'sp-3'
+        ];
+
+        function strIdxByWordIdx(str, wordIdx, t) {
+            var splits = str.trim().split(/(\s+)/);
+            var index = str.search(/\S/);
+            if (wordIdx * 2 > splits.length)
+                wordIdx = parseInt(splits.length / 2);
+            for (var i = 0; i < wordIdx * 2; i++) {
+                index += splits[i].length;
+            }
+            if (t == "end")
+                    try {
+                    index += splits[i].length;
+                    } catch {}
+            return index;
+        }
+
+        function badge(srcIdx, senIdx, nBadge) {
+            return '<div class="sp-badge"' + ' style="left: ' + (nBadge * 20) + 'px;" ' +
+                    'data-src=' + srcIdx + ' data-sen=' + senIdx + '>' + (srcIdx + 1) + '</div>';
+        }
+
+        function highlightSentence(sentence, srcIdx, senIdx, percentage, startIdx, endIdx, useBadge) {
+            var spanContent = sentence.find('span:nth(0)')
+            var senReplace = '<span class="sp ' +
+                    class_plagiarized[parseInt(percentage * 10)] +
+                    '" data-src=' + srcIdx + ' data-sen=' + senIdx + ' data-p=' + percentage + ' title="' +
+                    (percentage * 100).toFixed(2) + '%" tooltip>' + spanContent.html() +
+                    '</span>';
+            spanContent.html(senReplace);
+            sentence.addClass('sps');
+            var nBadge = sentence.find('.sp-badge').length;
+            if (useBadge) sentence.append(badge(srcIdx, senIdx, nBadge));
+            return sentence;
+        }
+
+        function rebuildSrcPla(srcDoc) {
+            return srcDoc.srcPla;
+            var srcPla = srcDoc.srcPla;
+            srcPla.sort(function (a, b) {
+                return a[0] - b[0];
+            });
+            var i = srcPla.length - 1;
+            while (i > 0) {
+                if (srcPla[i][0] - srcPla[i - 1][0] > 2) {
+                    // add ... to srcPla
+                    srcPla.splice(i, 0, [-1, '...']);
+                } else if (srcPla[i][0] - srcPla[i - 1][0] == 2) {
+                    srcPla.splice(i, 0, srcDoc.srcSens[srcPla[i][0] - 1]);
+                } else {
+                    srcPla.splice(i, 0, [-1, '...']);
+                }
+                i--;
+            }
+            // normalize spaces
+            for (var i = 0; i < srcPla.length; i++) {
+                srcPla[i][1] = srcPla[i][1].replace(/\n+/g, "\n");
+                srcPla[i][1] = srcPla[i][1].replace(/\s+/g, " ");
+            }
+            return srcPla;
+        }
+
+        function escapeHtml(unsafe) {
+            return unsafe
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+        }
+
+        function wrapSentence(sen) {
+            return $($.parseHTML("<span><span>" + escapeHtml(sen) + "</span></span>"));
+        }
+
+        function joinSentences(sens) {
+            return sens.map(function (s) {
+                return s[0].outerHTML;
+            }).join('');
+        }
+
+        this.highlight = function (text, idxMainContent) {
+            var regexSplitSentences = /([\.\!\?]\s|\n{3,})/;
+            if (idxMainContent[0] == -1)
+                idxMainContent[0] = 0;
+            if (idxMainContent[1] == -1)
+                idxMainContent[1] = text.length;
+            var mainContent = text.substr(idxMainContent[0], idxMainContent[1] - idxMainContent[0]).trim();
+
+            // add ( ) for keeping separator
+            susSens = mainContent.split(regexSplitSentences);
+            // escape html
+            for (var i = 0; i < susSens.length; i++) {
+                susSens[i] = wrapSentence(susSens[i]);
+            }
+
+            $.each(this.sourceDocuments, function (srcIdx, srcDoc) {
+                var pairs = srcDoc.s;
+                if (srcDoc.m[0] == -1)
+                    srcDoc.m[0] = 0;
+                if (srcDoc.m[1] == -1)
+                    srcDoc.m[1] = srcDoc.t.length;
+                var srcMainContent = srcDoc.t.substr(srcDoc.m[0], srcDoc.m[1] - srcDoc.m[0]).trim();
+                var srcSens = srcMainContent.split(regexSplitSentences);
+                for (var i = 0; i < srcSens.length; i++) {
+                    srcSens[i] = wrapSentence(srcSens[i]);
+                }
+                srcDoc.srcSens = srcSens;
+                srcDoc.srcPla = [];
+                $.each(pairs, function (senIdx, pair) {
+                    var susSenIdx = pair[0];
+                    var srcSenIdx = pair[1];
+                    var percentage = pair[2];
+                    var susStartIdx = pair[4], susEndIdx = pair[5];
+                    var srcStartIdx = pair[6], srcEndIdx = pair[7];
+
+                    susSens[susSenIdx * 2] = highlightSentence(susSens[susSenIdx * 2],
+                            srcIdx, senIdx, percentage, susStartIdx, susEndIdx, true);
+                    srcSens[srcSenIdx * 2] = highlightSentence(srcSens[srcSenIdx * 2],
+                            srcIdx, senIdx, percentage, srcStartIdx, srcEndIdx, false);
+                    srcDoc.srcPla.push([srcSenIdx * 2, srcSens[srcSenIdx * 2]]);
+                });
+                srcDoc.t = srcDoc.t.substr(0, srcDoc.m[0]) + '\n\n' + joinSentences(srcSens) + srcDoc.t.substr(srcDoc.m[1]);
+                srcDoc.srcPla = rebuildSrcPla(srcDoc);
+                // delete srcDoc.srcSens;
+            });
+
+            text = text.substr(0, idxMainContent[0]) + '\n\n' + joinSentences(susSens) + text.substr(idxMainContent[1]);
+            return text;
+        }
+
+        this.sourceDocuments = sourceDocuments.sort(function (x, y) {
+            return parseInt(x.index) - parseInt(y.index);
+        });
+        this.file_name = file_name;
+        this.plagiarizedPercentage = plagiarizedPercentage;
+
+        // highlight sentences
+        this.susHtml = this.highlight(text, idxMainContent);
+    }
+
+    tableResult = new TableResult();
+    uploadedDocuments = [], currentDocument = null;
+
+    function reInitialize() {
+        tableResult = new TableResult();
+        uploadedDocuments = [], currentDocument = null;
+        $('#table-result').hide();
+    }
+
+    function convertPairsToDict(pairs) {
+        var dictPairs = {};
+        $.each(pairs, function (idx, pair) {
+            dictPairs[pair[0]] = [];
+        });
+        $.each(pairs, function (idx, pair) {
+            dictPairs[pair[0]].push([pair[1], pair[2]]);
+        });
+        return dictPairs;
+    }
+
+    function processing() {
+        $('#message_processing').show();
+        $('title').html('Plagiarism (Đang xử lý)');
+        $('#uploadedFileURL').html("");
+        $('#highlightURL').html("");
+        $('#reportURL').html("");
+        $('#resultJsonURL').html("");
+        $('#errorMessage').html("");
+
+    }
+
+    function done_processing() {
+        $('#message_processing').hide();
+        $('title').html('Plagiarism');
+    }
+
+    $(document).on('click', '#check_plagiarism', function (e) {
+        e.preventDefault();
+        var suspicious = $('#suspicious').val();
+        if (suspicious.length == 0) {
+            $('#suspicious_message').show();
+            return;
+        }
+        processing();
+        var formData = new FormData();
+        formData.append('file', $('#suspicious')[0].files[0]);
+        formData.append('threshold', $('input[name=threshold]').val());
+        formData.append('nCandidates', $('input[name=nCandidates]').val());
+        formData.append('vi2en', $('input[name=vi2en]').is(":checked"));
+        formData.append('checkReferences', $('input[name=checkReferences]').is(":checked"));
+        formData.append('universityId', $('input[name=universityId]').val())
+        formData.append('givenKeywords', encodeURIComponent($('input[name=givenKeywords]').val()));
+        formData.append('studentName', encodeURIComponent($('input[name=studentName]').val()));
+        formData.append('extractDocumentKeywords', $('input[name=extractDocumentKeywords]').is(":checked"));
+        reInitialize();
+        $.ajax({
+            url: '/api/plagiarism/v2',
+            method: 'POST',
+            data: formData,
+            enctype: 'multipart/form-data',
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                done_processing();
+                if (response.status == 400) {
+                    $('#errorMessage').html(response.message);
+                } else {
+                    $('#uploadedFileURL').html(response.uploadedFilePath);
+                    $('#uploadedFileURL').attr("href", response.uploadedFilePath);
+
+                    $('#reportURL').html(response.reportFilePath);
+                    $('#reportURL').attr("href", response.reportFilePath);
+
+                    $('#highlightURL').html(response.highlightFile);
+                    $('#highlightURL').attr("href", response.highlightFile);
+
+                    $('#resultJsonURL').html(response.jsonResultPath);
+                    $('#resultJsonURL').attr("href", response.jsonResultPath);
+                }
+
+
+                /*
+                $('#table-result').show();
+                res = response;
+                res.s.sort(function (x, y) {
+                    return y.r - x.r;
+                });
+                // var doc = new UploadedDocument(response.file_name, response.r, response.suspicious_html, response.source_files);
+                var doc = new UploadedDocument(response.n, response.r, response.t, response.s, response.m);
+                uploadedDocuments.push(doc);
+                tableResult.appendDocument(doc);
+                */
+            },
+            error: function (response) {
+                $('#message_processing').hide();
+                console.log(response);
+            }
+        });
+    });
+
+    function bolder(elm) {
+        elm.addClass('bolder');
+        setTimeout(function () {
+            elm.removeClass('bolder');
+        }, 1000);
+    }
+
+    $(document).on('click', '.uploaded-document', function () {
+        var index = $(this).data('index');
+        currentDocument = uploadedDocuments[index];
+        ModalResult.show(currentDocument);
+    });
+
+    $(document).on('click', '.suspicious-content .sp', function () {
+        var srcIndex = $(this).data('src');
+        var senIndex = $(this).data('sen');
+        ModalSrcPassage.show(currentDocument, srcIndex, senIndex, $(this));
+    });
+
+    $(document).on('click', '.sp-badge', function () {
+        var srcIndex = $(this).data('src');
+        var senIndex = $(this).data('sen');
+        ModalSrcPassage.show(currentDocument, srcIndex, senIndex, $(this));
+    });
+
+    $(document).on('click', '.item-source-content .sp', function () {
+        var srcIndex = $(this).data('src');
+        var srcSen = $(this).data('sen');
+        ModalResult.focusOnSentence(srcIndex, srcSen);
+        // bolder
+        bolder($(this));
+    });
+
+    $(document).on('click', '.item-source-header', function () {
+        var parent = $(this).parent();
+        var index = parent.data('index');
+        var srcContent = parent.find('.item-source-content');
+        if (srcContent.attr('data-show') == "1") {
+            srcContent.attr('data-show', 0);
+            srcContent.hide();
+        } else {
+            $.each($('.item-source-document'), function (i, srcDoc) {
+                $(srcDoc).find('.item-source-content').hide();
+                $(srcDoc).find('.item-source-content').attr('data-show', 0);
+            });
+            ModalResult.showSrcPlagiarized(currentDocument.sourceDocuments[index]);
+        }
+    });
+
+
+    $(document).on({
+        mouseenter: function () {
+            $(".sp-badge", this).show();
+        },
+        mouseleave: function () {
+            $(".sp-badge", this).hide();
+        }
+    }, ".sps");
+
+    $(document).ready(function () {
+        $('#modal-src-passage').draggable();
+    });
+</script>
+</body>
+</html>

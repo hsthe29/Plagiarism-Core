@@ -1,0 +1,657 @@
+
+
+
+TABLE OF CONTENT
+1. EVALUATION OF THE EFFECTIVENESS OF A NUMBER OF PROPAGANDA ACTIVITIES TO 
+
+RESPOND TO CLIMATE CHANGE IN HANOI
+Huong Thi Dinh, Quynh Anh Thi Le ................................................................................. 1
+
+2. INTEGRATING CLIMATE CHANGE EDUCATION INTO THE TRAINING PROGRAMS AT 
+HANOI UNIVERSITY OF NATURAL RESOURCES AND ENVIRONMENT
+Nguyen The Hung, Lai Phuong Lien, Nguyen Tung Anh ..................................................... 7
+
+3. CLIMATE CHANGE EDUCATION IN VIET NAM - POLAND HIGH SCHOOL, HOANG MAI 
+DISTRICT, HANOI CITY 
+Nguyen Ngoc Anh, Ly Duc Anh, Dao Minh Duc  ............................................................ 18
+
+4. LIVELIHOOD AND EXPLOITATION OF MANGROVE ECOSYSTEM - CASE STUDY IN THANH 
+HAI COMMUNE, THANH PHU DISTRICT, BEN TRE PROVINCE
+Cuong Quoc Tran, Tuan Xuan Le .................................................................................... 28
+
+5. PROPOSING SOME SOLUTIONS TO IMPROVE COMMUNICATION ON CLIMATE CHANGE 
+AND SUSTAINABLE DEVELOPMENT FOR PEOPLE IN THE BUFFER ZONE AND TOURISTS 
+VISITING BA VI NATIONAL PARK - HANOI
+Bui Thi Phuong Thuy ...................................................................................................... 39
+
+6. CURRENT SITUATION AND SOLUTIONS TO REDUCE PLASTIC WASTE AT HANOI 
+UNIVERSITY OF NATURAL RESOURCES AND ENVIRONMENT
+Tran Thi Mai Phuong, Nguyen Tuan Minh  ...................................................................... 46
+
+7. GHG EMISSIONS, ENVIRONMENTAL TECHNOLOGIES AND RENEWABLE ENERGY 
+STATUS IN THE PHILIPPINES
+Joan Cecilia Casila, Julie Carl Ureta, Soufiane Haddout, Krishnamoorthy Lakshmi Ammal Priya ....57
+
+8. RESEARCH FOR MODEL OF “GREEN REST AREA” ON SOME EXPRESSWAYS IN THE 
+NORTH OF VIET NAM 
+Vu Phuong Thao ............................................................................................................. 67
+
+9. OXIDATIVE STRESS AS AN INDICATOR OF NICHE-WIDTH PREFERENCE OF RHIZOPHORA 
+STYLOSA AND ITS INVOLVEMENT IN MANGROVE PLANTATION 
+Takashi Asaeda, Abner Barnuevo, Mizanur Rahman........................................................ 74
+
+10. NITROGEN DYNAMICS, PLANT PHOTOSYNTHESIS AND NITROGEN USE EFFICIENCY 
+IN SOIL SUPPLEMENTED WITH PURE BAMBOO BIOCHARS MIXED WITH ORGANIC 
+FERTILISER AND TREATED BAMBOO BIOCHAR
+Nguyen Thi Thu Nhan, Nguyen Thi Hong Hanh, Hoang Thi Hue, Helen M. Wallace, 
+Cheng - Yuan Xu, Michael B. Farrar, Shahla Hosseini Bai  ............................................86
+
+11. MANGROVE BIOMASS ESTIMATION USING VEGETATION INDICES OF SENTINEL-2 
+SATELLITE IMAGERY FOR TIEN LANG DISTRICT HAI PHONG CITY
+Pham Hong Tinh, Nguyen Thi Hong Hanh, Bui Thi Thu, Le Dac Truong, Nguyen Khac Thanh, 
+Bui Thanh Huyen, Hung Tran Dang ....................................................................................97
+
+12. SOURCES TO SEA FRAMEWORK FOR PLASTIC WASTE PREVENTION IN CAT BA TOWN, 
+CAT HAI DISTRICT, HAI PHONG CITY 
+Pham Thi Mai Thao, Vu Thi Mai, Le Thi Trinh, Mai Huong Lam .................................... 114
+
+13. RESEARCH AND EVALUATE CONSTRUCTION SOLID WASTE MANAGEMENT ACTIVITIES 
+IN HANOI
+Nguyen Thu Huyen, Pham Phuong Thao, Vu Kim Hanh ................................................. 124
+
+
+
+14. ASSESSMENT OF CURRENT HAZARDOUS MEDICAL WASTE MANAGEMENT AND 
+PROPOSING INDUSTRY 4.0 TECHNOLOGIES IN THE APPLICATION OF THE CIRCULAR 
+ECONOMY TO REDUCE HAZARDOUS MEDICAL WASTE IN HUNG YEN PROVINCE
+Nguyen Van Nam, Nguyen Thi Phuong Mai, Nguyen Phuong Tu .................................... 132
+
+15. CURRENT SITUATION OF ENVIRONMENTAL PROTECTION ACTIVITIES AND CLEANER 
+PRODUCTION SOLUTIONS TOWARD CIRCULAR ECONOMY AT CEMENT FACTORIES IN VIET NAM
+Vu Kim Hanh, Nguyen Thu Huyen, Pham Duc Tien, Truong Duc Canh ......................... 140
+
+16. CLIMATE AND ENVIRONMENT BUSINESS INDEX FOR RICE PRODUCTION 
+ENTERPRISES (CEBI)
+Nguyen Thi Bich Ngoc, Nguyen Dang Huy Anh, Vu Duong Quynh, Nguyen Hung Minh ...147
+
+17. WASTE MANAGEMENT AND NATURE CONSERVATION PLANNING FOR CARBON 
+EMISSION REDUCTION AND CARBON SEQUESTRATION - A CASE STUDY FOR BINH 
+THUAN PROVINCE, VIET NAM
+Vu Thanh Ca ................................................................................................................ 158
+
+18. SUSTAINABILITY INDICATORS FOR SOLID WASTE MANAGEMENT SYSTEM: A CASE 
+STUDY OF BAC GIANG PROVINCE
+Thuong Nguyen Thi Hoai, Hanh Nguyen Thi Hong, Hue Hoang Thi, Nuong Bui Thi, Trang 
+Bui Thi Thu, Ngoc Nguyen Thi Bich ............................................................................. 169
+
+19. ASSESSMENT OF AMBIENT AIR ENVIRONMENT QUALITY IN HA DONG DISTRICT, 
+HANOI IN 2020
+Pham Ba Viet Anh, Do Thi Hien, Nguyen Thanh Trung, Le Thanh Huyen ..................... 180
+
+20. THE POTENTIAL OF CARBON DIOXIDE CAPTURE FROM COAL-FIRED EXHAUST GAS FOR 
+MICROALGAE PHOTOSYNTHESIS
+Doan Thi Oanh, Luong Thanh Tam, Dang Dinh Kim, Doan Danh Cuong ....................... 189
+
+21. GASIFICATION OF BAMBOO SAWDUST BY ASPEN PLUS SIMULATION AND PILOT SCALE 
+OPERATION
+Le Tan Nhan Tu, Le Tuan Minh Thong, Phan Ngoc Truc Vy, Le Thanh Loi, Le Nguyen Phuc 
+Thien, Nguyen Dinh Quan ........................................................................................... 197
+
+22. USING A SUBSURFACE FLOW CONSTRUCTED WETLAND FOR CONTAMINATED RIVER 
+TREATMENT
+Le Ngoc Thuan, Lee Dong Keun  ................................................................................... 208
+
+23. POLICIES, LAW ON NATURAL RESOURCE CONSUMPTION TAX IN THE CONTEXT OF GREEN 
+GROWTH FOR SUSTAINABLE DEVELOPMENT IN VIET NAM: ISSUES AND SOLUTIONS
+Dinh Van Linh ............................................................................................................. 219
+
+24. AN INTEGRATED PARTIAL NITRIFICATION - DENITRIFICATION PROCESS FOR SWINE 
+WASTEWATER TREATMENT
+Nguyen Van Tuyen, Tran Hung Thuan, Do Quang Trung ............................................... 225
+
+25. A STUDY ON THE IMPROVEMENT OF ANAEROBIC DIGESTION EFFICIENCY BY 
+COMBINING THERMAL HYDROLYSIS AND SEPARATION
+See - Young Lee, Ho - Jae Hwang, Jae - Min Choi, Ihn - Sup Han .................................. 237
+
+26. INVESTIGATING AND ESTIMATING THE GREENHOUSE GAS EMISSIONS FROM PADDY 
+RICE LANDS IN THE COASTAL AREA OF NAM DINH PROVINCE
+Nguyen Thi Hong Hanh, Mai Van Trinh, Bui Thi Thu Trang, Nguyen Thi Hoai Thuong, 
+Nguyen Tien Sy, Vo Trong Hoang, Hoang Tu Linh, Bui Thi Nuong, Bui Thi Thu, Hoang Thi 
+Hue, Nguyễn Thị Linh Giang, Nguyen Bich Ngoc, Trinh Kim Yen ................................. 242
+
+
+
+27. MANAGEMENT SOLUTIONS OF EDIBLE AND MEDICINIAL MUSHROOMS IN TAM DAO 
+NATIONAL PARK, VIET NAM
+Nguyen Thanh Long, Le Thanh Huyen, Le Thu Thuy ..................................................... 256
+
+28. APPLICATION OF CO-MANAGEMENT OF MARINE AND ENVIRONMENT -  A CASE STUDY 
+OF QUY NHON BAY
+Uong Thi Ngoc Lan, Nguyen Danh Nam ....................................................................... 267
+
+29. SUSTAINABLE DEVELOPMENT AND ENVIRONMENTAL PROTECTION BASED ON 
+CIRCULAR ECONOMY IN INDUSTRY IN VIET NAM
+Nguyen Sy Tinh ............................................................................................................ 276
+
+30. FINANCIAL CAPACITY FOR SUSTAINABLE GROWTH OF ENTERPRISES DOING BUSINESS 
+IN THE CLEAN ENERGY SECTOR IN VIET NAM, CONTRIBUTING TO PROMOTING NET 
+ZERO EMISSIONS POLICY
+Le Van Vien ................................................................................................................. 285
+
+31. INVESTMENT POLICY FOR CIRCULAR ECONOMY DEVELOPMENT IN VIET NAM
+Nguyen Duc Duong  ..................................................................................................... 295
+
+32. ORGANIZATIONAL BEHAVIOR TOWARDS THE CIRCULAR ECONOMY MODEL: A CASE 
+STUDY OF SMALL AND MEDIUM - SIZED MANUFACTURING COMPANIES IN VIET NAM
+Cao Thuy Xiem, Chih - Hsiung Hu, Tran Tuan Anh ....................................................... 308
+
+33. FAIR ENERGY TRANSITION TOWARDS NET ZERO EMISSIONS (NZES): A REVIEW FROM 
+COUNTRIES AND EXPERIENCES FOR VIET NAM
+Lam Pham Thi, Richa Kandpal, Nguyet Tran Minh, Hong Anh Nguyen Thi  .................. 316
+
+34. FACTORS INFLUENCING THE DISCLOSURE LEVELS OF ENVIRONMENTAL ACCOUNTING 
+INFORMATION IN LISTED TEXTILE FIRMS ON VIET NAM STOCK EXCHANGE
+Thi Mai Anh Nguyen .................................................................................................... 329
+
+35. RESEARCH ON CHANGES IN AMOUNT OF HAZARDOUS WASTE FROM INDUSTRIAL 
+ACTIVITIES AND PROPOSE MEASURES TO IMPROVE MANAGEMENT EFFICIENCY 
+BASED ON SMART CITY FOUNDATION FOR HAI DUONG PROVINCE
+Nguyen Thu Huyen, Truong Duc Canh, Nguyen Tat Thang ............................................ 338
+
+36. RESEARCH ON APPLICATION OF LIVESTOCK WASTE AS A RESOURCE IN CIRCULAR ECONOMY
+Nguyen Thi Phuong Mai, Nguyen Thu Huyen, Nguyen Phuong Tu ................................. 347
+
+37. A COMPARATIVE ANALYSIS OF MUNICIPAL SOLID WASTE TREATMENT SCENARIOS 
+FROM THE PERSPECTIVE OF THE CIRCULAR ECONOMY IN THANH LIEM DISTRICT, HA 
+NAM PROVINCE
+Luong Thanh Tam, Nguyen Phuong Tu, Nguyen Tat Thang ............................................. 358
+
+38. HEALTH RISK ASSESSMENT OF INHALATION EXPOSURE TO EXHAUST GAS: CASE STUDY 
+COAL - FIRED POWER PLANT IN NGHI SON, THANH HOA PROVINCE
+Thanh Thao Nguyen, Thi Tham Trinh, Thi Thuy Trinh, Van Son Le  ............................... 369
+
+39. REVISING LEGAL SYSTEM TO ENABLE A CARBON MARKET IN VIET NAM - TOWARDS 
+NET ZERO EMISSIONS
+Tran Le Thu, Tran Nguyen Thi Tam Dan ....................................................................... 377
+
+40. FUZZY ANALYTICAL HIERARCHY PROCESS APPLICATION FOR DEVELOPING A COMMUNITY-
+BASED SUSTAINABILITY FRAMEWORK OF HANOI URBAN WATER SUPPLY SYSTEM
+Nuong Bui Thi, Trang Vu Quynh, Trang Bui Thi Thu, Hue Hoang Thi, Thuong Nguyen Thi Hoai, Thu 
+Bui Thi, Hanh Nguyen Thi Hong, Khac Hoang Ngoc, Lam Mai Huong, Ngoc Nguyen Bich  ........388
+
+
+
+41. SOURCE IDENTIFICATION AND POTENTIAL RISK OF HUMAN HEALTH OF PM10 - BOUND 
+POLYCYCLIC AROMATIC HYDROCARBONS FROM RICE STRAW OPEN BURNING IN 
+MEKONG, VIET NAM
+Pham Thi Hong Phuong, Pham Thi Mai Thao ................................................................ 405
+
+42. RESEARCH ON BUILDING A COMMUNITY PARTICIPATION BASED DOMESTIC SOLID 
+WASTE MANAGEMENT MODEL
+Vu Van Doanh, Pham Thi Mai Thao, Le Dac Truong, Ta Thi Yen, Nguyen Duy Khoi ....... 413
+
+43. INITIALLY DETERMINING THE RELATIONSHIP BETWEEN DIVERSITY OF LICHENS AND 
+SO2 EMISSION IN THE AIR IN BAC NINH PROVINCE
+Hoang Ngoc Khac, Nguyen Thi Hong Hanh, Pham Hong Tinh, Bui Thi Thu, Le Dac Truong, 
+Nguyen Thi Hoai Thuong, Nguyen Thi Thu Nhan .......................................................... 422
+
+44. USING THE WATER QUALITY INDEX (WQI) TO ASSESS THE WATER QUALITY OF THE 
+DAY RIVER FLOWING THROUGH NINH BINH PROVINCE, VIET NAM
+Khanh Linh Nguyen, Le Thi Trinh, Nguyen Thi Linh Giang ........................................... 434
+
+45. APPLICATION OF PPP FINANCIAL MODEL IN THE SUSTAINABLE FINANCING OF 
+DECENTRALIZED WASTEWATER STRUCTURES IN LAO PEOPLE’S DEMOCRATIC REPUBLIC
+Kristine Grace, Hayo ................................................................................................... 442
+
+46. SOME FINANCIAL SOLUTIONS ON LAND SUPPORTING COLLECTIVE AND COOPERATIVE 
+ECONOMIC DEVELOPMENT 
+Phan Thi Thanh Huyen, Pham Anh Tuan, Nguyen Thi Hue, Tran Thai Yen .................... 452
+
+47. MINIMIZING GREENHOUSE GAS EMISSIONS THROUGH THE PHILIPPINES CHILLER 
+ENERGY EFFICIENCY PROJECT: SYNERGIES AND STRATEGIES
+Al O. Orolfo .................................................................................................................. 461
+
+48. PHYTOLITHS IN SILICON - RICH PLANT BIOMASSES: CHARACTERISTICS AND AGRO 
+ENVIRONMENTAL IMPLICATIONS
+Anh T. Q. Nguyen, Minh N. Nguyen ............................................................................. 466
+
+49. ASSESSMENT OF THE SOLID WASTE COLLECTION AND MANAGEMENT SITUATION IN 
+QUY NHON CITY, BINH DINH PROVINCE
+Tran Thi Thu Huong, Nguyen Tran Khanh Ngoc, Dang Thi Ngoc Thuy, Do Thi Hai,  
+Bui Thi Mai .................................................................................................................. 473
+
+50. LIFE CYCLE INVENTORY ANALYSIS FOR GREENHOUSE GAS EMISSION OF MINH KHAI 
+PLASTIC WASTE RECYCLING VILLAGE IN VIET NAM
+Yen Ta Thi, Nuong Thi Bui, Trinh Le Thi, Hanh Nguyen Thi Hong, Doanh Vu Van,  
+Linh Hoang Tu  ............................................................................................................ 479
+
+51. STUDY THE EXHAUST EMISSION ZONING IN ACCORDANCE WITH THE BINH DINH 
+PROVINCE’S ECONOMIC DEVELOPMENT STRATEGY
+Nguyen Van Hong, Le Xuan Hoa, Nguyen Tu Anh ......................................................... 488
+
+
+
+International Conference 267
+
+APPLICATION OF CO-MANAGEMENT OF MARINE AND ENVIRONMENT 
+-  A CASE STUDY OF QUY NHON BAY
+
+Uong Thi Ngoc Lan1, Nguyen Danh Nam2
+1VNU University of Economics and Business, Hanoi, Vietnam 
+
+2East Asia University of Technology, Hanoi, Vietnam
+Corresponding author. Email: uongngoclan98@gmail.com
+
+Abstract
+In a developing country like Vietnam, the term “co-management” is increasingly being used 
+
+in the context of promoting conservation, especially coastal bays that are being overexploited. 
+Therefore, it is necessary to build an optimal model based on the scientific thesis, to mobilize local 
+communities to participate in the management and protection of marine environmental resources 
+in Quy Nhon bay in the way that the State and the community do mutual benefit, in stabilizing and 
+developing people’s lives in a sustainable way. Accordingly, all alternative forms of livelihoods 
+to protect natural resources and the environment in Quy Nhon bay must be based on natural 
+resources and environment, because the flesh and blood attachment of Quy Nhon community to 
+natural resources and environment has been experienced for many generations and affirms that 
+the right to manage the use of natural resources and environment of the locality must belong to 
+the local community. The article has developed and tested a model of co-management of marine 
+resources and the environment in Quy Nhon bay to meet the problems of the aforementioned 
+management practices.
+
+Keywords: Co-management; Marine resources and environment; Community; Quy Nhon bay.
+
+1. Introduction
+Marine and island resources and the environment are significant and play a particularly 
+
+important role in the process of socio - economic development and security and defense 
+protection. According to 2019 statistics from the Ministry of Natural Resources and Environment, 
+marine environmental resources are the livelihoods of more than 29 million people who rely on 
+coastal resources, including more than 113 poor coastal and island communes of Vietnam. This 
+dependence becomes more and more important when the management of marine resources and the 
+environment still has inadequacies and manifestations of environmental degradation and depletion 
+of marine resources are increasingly evident due to the pressure of rapid population growth and the 
+increasing demand for economic development. The depletion of land resources further promotes 
+the tendency to go to the sea, exploit the sea, enrich from the sea, but often accompanied by 
+unsustainable exploitation methods, environmental pollution, natural disasters in coastal areas, 
+monodisciplinary management, lack of central and local management coordination. Especially, 
+the sharing of responsibilities and benefits between the community and the State in the field of 
+management and use of marine resources and the environment towards sustainable development 
+are still difficult issues.
+
+The protection of marine resources and the environment is always associated with the 
+production process of people at sea and islands and is an inseparable task of production activities. 
+Therefore, the protection of marine resources and the environment must be considered as a 
+factor in the production process, people must be empowered and guaranteed benefits so that 
+they really actively and voluntarily participate in the cause of protecting marine resources and 
+the environment, islands of the country. The participation of people in the protection of marine 
+
+
+
+International Conference268
+
+resources and the environment has been concretized in various legal documents and policies 
+such as Directive No. 36-TC/TW of the Politburo of the Central Committee of the Communist 
+Party of Vietnam on “Strengthening environmental protection in the industrialization period, 
+modernizing the country”, Resolution No. 41-NQ/TW on environmental protection, Fisheries 
+Law,... but so far there has not been a model of co-management in the true sense that is universally 
+applied, especially in the bay areas.
+
+In Quy Nhon bay, co-management of marine resources and the environment is a new, 
+sensitive and debated issue both theoretically and practically. The coordination between the State, 
+people and stakeholders to protect and rationally use marine environmental resources still faces 
+many difficulties and challenges. Therefore, this article aims to present an approach and test the 
+application of the marine environment and natural resources co-management model in Quy Nhon 
+bay, Binh Dinh province.
+
+2. Overview of co-management of marine resources and environment
+In the 1980s, natural resource co-management emerged as an alternative to traditional State - 
+
+led approaches to natural resource management and a shift in ideology in development agendas that 
+saw community engagement as necessary for the poor to easily access and control the resources 
+[3, 4]. Accordingly, natural resource co-management seeks to share decision - making with those 
+who depend on natural resources, based on the premise that they are committed to sustainable 
+use of natural resources, can organize collectively to achieve effective environmental resource 
+management and that management will be more effective because of actions and decisions, it 
+takes place at the local level. Today, co-management encompasses various types of relationships 
+between state and community, including the decentralization of the transfer of power, authority 
+and resources to both communities and local levels of government [1, 2, 5, 8, 9].
+
+Some countries around the world define co-management of marine environmental resources 
+as coordination, in which operators, users of resources, authorities, stakeholders and agencies 
+outside the management area through consultation and negotiation and agreement on the role, 
+shared responsibilities and powers in the management of marine environmental resources. Co-
+management is divided into 5 levels: guidance, consultation, coordination, mentoring and 
+information. There are also participatory management practices, community-based management 
+and community - based co-management (Pomerory & Rivena - Guieb, 2008). Each management 
+modality determines the different levels of involvement of local people and stakeholders throughout 
+the management process.
+
+Thus, in Vietnam, it can be understood that co-management of marine environmental resources 
+is the participation of local communities and stakeholders who agree to share responsibilities and 
+interests in the management of marine environmental resources in the direction of “the state and the 
+people do together, mutual benefit” based on the principle of “People know, people discuss, people 
+do, people check”. However, the process of building a model for co-management of marine resources 
+and the environment must focus on skills to work with local populations to achieve high efficiency.
+
+3. Application of marine natural resources and environment co-management model in 
+Quy Nhon bay, Binh Dinh province
+
+3.1. The model of co-management of marine resources and the environment
+In fact, the application of co-management in some countries around the world such as coral 
+
+reef protection, mangroves in banks and river basins has been successfully applied in Kon Chang, 
+
+
+
+International Conference 269
+
+PakPhanang, Thailand, local communities are involved in the planning, zoning planning and 
+decision-making process of local environmental resources issues. Recently, in Vietnam, the co-
+management mechanism has been applied and initially supported the State management of marine 
+and coastal natural resources in several localities, such as Ben Tre, Tien Yen (Quang Ninh), Cat 
+Ba (Hai Phong), Thi Nai lagoon (Binh Dinh), Tam Giang lagoon (Thua Thien-Hue),... [6]. Most 
+co-management or co-management - related models applied in Vietnam are proposed from the 
+aspirations of fishermen and aquaculture farmers with the support of the State or domestic and 
+foreign NGOs. In fact, the model works well where there is a high consensus between stakeholders 
+and the community with the State. However, these models are still confused in the development of 
+regulations and coordination of specific activities and do not have a legal basis as a support, so they 
+have not fully promoted the effectiveness and ability to stabilize and replicate the model.
+
+ 
+Figure 1: Community - based co-management model in Quy Nhon bay
+
+Therefore, the model of co-management of marine resources and the environment in Quy 
+Nhon bay is not outside the basic methodological principle but requires knowing how to choose 
+and apply the right and scientific methodology to achieve the set goals. There are three basic forms 
+of practical activities: Material production activities in Quy Nhon bay, people are the subjects of 
+using material production means, which are fishing gear affecting certain material objects, Quy 
+Nhon sea resources for renovation, use them for everyday life. Socio - political activities in Quy 
+Nhon bay are the transformation of the management relationship in practical activities, according 
+to which local people are no longer outsiders, but from the subject of using marine resources for 
+daily life has become the subject in the practical activities of the process of participating in co-
+management. Scientific experimental activities in Quy Nhon bay are the selection and application 
+of the right and scientific methodology, applying skills in working methods with the community 
+to achieve the research purpose of successfully applying the community - based co-management 
+model to protect natural resources in Quy Nhon bay then material production is the most basic. 
+Although socio - political activities and scientific experimental activities still take place regularly 
+
+Community technical consulting
+
+External link support (NGOs; GEF; UNESCO; The university; Community Development Program; Student, Intern, Volunteer)
+
+
+
+International Conference270
+
+and importantly, material production activities have a profound and comprehensive impact on 
+other activities, which are the central and main activities of the people of Quy Nhon sea.
+
+One of the important specific practical activities in Quy Nhon bay at the present time is 
+to raise awareness of local people participating in zoning planning, regulation development and 
+management plans.
+
+Figure 1 indicates that the production service and the People’s Committee of Quy Nhon 
+city have a two - way impact. Next, there is a vertical hierarchy from State management at the 
+central level to the village for the management of resources and the environment of Quy Nhon bay. 
+Moreover, the State management agencies have a correlation with stakeholders, implementing 
+agencies, community technical consulting and external link support.
+
+3.2. Testing a community - based co-management model in Quy Nhon bay
+
+The process of applying the model of co-management of marine resources and environment 
+in Quy Nhon bay was carried out by the authors in the period from 2018 to 2021, the test was 
+conducted according to the steps and contents achieved as follows:
+
+- Defining Initiation: Co-managers are determined from the outside.
+- Establishing a trilateral relationship: Calling for funding and receiving support from 
+
+the Government of Vietnam, the Vietnam Global Environment Fund and non-governmental 
+organizations. Quy Nhon city, Binh Dinh province has made decisions related to Quy Nhon bay 
+creating legal support. Identification of community organizing officers (The authors in charge of 
+engineering and taking on the work of community organizers). Collecting sensitive information: 
+The people of Quy Nhon bay raised difficulties if the State closed the reef fishing grounds to protect 
+resources. Coordinate with the local community to document the Quy Nhon bay community.
+
+- Analysis of the current state of environmental resources of Quy Nhon bay according 
+to the DPSIR model: Thereby identifying solution orientations for Quy Nhon bay, including 
+zoning planning and protection regulations; Improving livelihoods for local communities; 
+Developing of a bay management plan; Defining sustainable financing mechanisms; 
+Community waste management; Resolving conflicts of interest between communities inside 
+and outside Quy Nhon bay.
+
+- Prioritize issues according to SMART principles: (i) Development of zoning plans and 
+regulations (2018); (ii) Submission of regulatory zoning statutes (2018); (iii) The implementation 
+of vocational training to improve community livelihoods (2019); (iv) Develop and submit for 
+approval the bay management plan and sustainable financing mechanism for the bay (2020); (v) 
+Community waste management, resolving conflicts of interest between communities inside and 
+outside the bay (2021).
+
+- Analysis and assessment of potentials, advantages and challenges: For Quy Nhon bay, 
+according to the SWOT matrix and other methods to determine the composition, responsibilities 
+and interests of the participants. In addition, the results of the survey and assessment showed that 
+Quy Nhon bay is an important economic value bay of the Central region, located in the east of Quy 
+Nhon city, Binh Dinh province. It has a population of about 27,371 people. Marine environmental 
+resources are a prop for more than 80 % of the total population of the nearshore fishing bay. 
+The rest are engaged in agriculture, tourism services, small trade and administration. The average 
+annual total catch is about 3,735 tons, concentrated mainly in the coral reef ecosystem. Small 
+fishing vehicles, low power, simple fishing gear such as bottle baskets, boats with engines smaller 
+
+
+
+International Conference 271
+
+than 20 CV and rich local knowledge. The State management system together with the community 
+and stakeholders creates the capacity to manage marine resources and the environment.
+
+According to the survey results, a biodiversity assessment in Quy Nhon bay by Nha Trang 
+Oceanographic Institute conducted in 2018 showed that Quy Nhon bay has 720 species belonging 
+to 353 varieties and 161 families of 07 main groups of organisms. Around the coral reefs in Quy 
+Nhon bay, there are also 16 aquatic hatcheries, including 3 spawning grounds for leaf squid and 
+spiny snails and 13 breeding grounds for crabs, lobsters, sea cucumbers, maggots and groupers.
+
+The quality of the marine environment of Quy Nhon bay and some coral reef habitats and 
+seagrass beds are in good condition, capable of nurturing a highly diverse ecosystem and at the same 
+time a source of life for the local population who are under increasing fishing pressure and have been 
+unreasonably exploited by local and outside fishermen from Khanh Hoa and Phu Yen provinces.
+
+- Community organizing institutions: (i) Establishment of Quy Nhon bay conservation club 
+to call for voluntary community participation; (ii) Establish nuclear groups in the community, 
+including community groups making fish sauce, seafood processing, homestay services, 
+restaurant business; (iii) Establish a ward and commune conservation committee to advise the 
+people’s committee of the ward or commune to organize activities within the framework of the 
+co-management program and related local plans; (iv) Establish a marine conservation patrol, 
+consisting of 10 fishermen selected in the community, trained in professional skills in vessels, 
+techniques for the use of specialized equipment, patrol operations, planning and procedures for 
+handling violations; (v) Establish a Quy Nhon bay marine tourism and ecotourism management 
+team, consisting of contract collaborators who have been trained in captains and tour guides.
+
+- Raising public awareness and communication: Coordinate with stakeholders in Quy 
+Nhon bay to implement the Community Awareness and Capacity Building Program in various 
+forms. Organize workshops and community - level meetings for people to participate directly 
+on marine conservation issues, consult on the results of surveys on environmental resources 
+and socio - economic and provide information and data,... Environmental communication and 
+education are regularly organized for subjects in the community. In addition, organizing for 
+local people of Quy Nhon bay to visit and learn about sea bays, natural heritage, cultural heritage 
+and biosphere reserves in Vietnam; organizing for officials of Quy Nhon province and city, 4 
+communes and wards in Quy Nhon bay including Nhon Ly, Nhon Hai, Nhon Chau and Rapids 
+Rang ward to visit co-management models in countries around the world such as Thailand, 
+Malaysia, United Kingdom,...
+
+- Community participation in the development of zoning plans and management regulations: 
+Mobilized 15,956 participants, this number is enough to ensure that almost all people in Quy Nhon 
+bay have access to the problems of the bay before they agree to approve the draft zoning plan and 
+management regulations. Based on the results of negotiations, Quy Nhon bay is divided into the 
+following regions:
+
++ Strict protection zone (core area): Has a high coral reef ecosystem and marine biodiversity, 
+which is strictly managed and protected;
+
++ Ecological recovery zone: In order to restore ecosystems, biodiversity and natural resources 
+to bring community economic benefits;
+
++ Development zones include (1) Tourism development subdivisions: Allowing income - 
+generating tourism activities for people such as marine tourism, coral diving, windsurfing and 
+
+
+
+International Conference272
+
+other tourism activities, (2) Community development subdivisions for the purpose of implementing 
+community livelihoods, (3) Reasonable exploitation subdivision: Allowing the rational exploitation 
+of resources and the development of appropriate industries.
+
+Accordingly, drop the partition buoy to distinguish between the aforementioned 
+functional zones.
+
+- Develop and implement programs to improve livelihoods for local people:
++ Discuss and agree between the local community, Quy Nhon city, Nhon Ly commune, Nhon 
+
+Hai commune, Nhon Chau commune and Rapids Rang ward and establish a dedicated advisory 
+board to support. Quy Nhon city People’s Committee cooperates with Quy Nhon University, Nha 
+Trang University, Nha Trang Oceanographic Institute and Hanoi Tourism College, a volunteer 
+training program on marine conservation, community working techniques, tourism, English, 
+professions and other training related to livelihood development;
+
++ Establish a tourism center in Quy Nhon bay to propagate and educate tourists and the 
+community about the value of marine and island environmental resources. A centre is also a 
+meeting place for scientific researchers and the local community;
+
++ Develop and support sustainable livelihoods in Quy Nhon bay with the following models: 
+Growing clean vegetables to provide green vegetables; Treatment of livestock waste by supporting 
+biogas systems in the direction of the State and the people; Homestay accommodation aims to 
+enhance accommodation for visitors and increase income for residents.
+
+In addition, there are a number of programs: Credit fund to support loans for alternative 
+livelihood industries in the community; Public health program to support the construction of 
+dispensaries to help solve first aid and emergency cases; Local human resource training program: 
+106 students who are children of people in Quy Nhon bay studying tourism 2 with the training 
+program at Quy Nhon University, graduated with good results, 30 students achieved good grades. 
+Currently working at tourism service establishments in Quy Nhon bay.
+
+- Develop a management plan for Quy Nhon bay with the participation of the community:
++ Quy Nhon city People’s Committee promulgates the policy of developing a management 
+
+plan for Quy Nhon bay, establishing a working group consisting of representatives from departments, 
+agencies and localities in Quy Nhon bay along with domestic and international experts. About 
+500 household representatives were invited from 4 communes and wards to participate in the 
+discussion on developing a management plan for Quy Nhon bay;
+
++ Waste management is one of the priority issues and has established an Environmental 
+Sanitation Team to support the community in environmental protection infrastructure and waste 
+collection. The slogan “For a blue ocean free of plastic waste and protecting the coral reef of Quy 
+Nhon bay” has entered the fold, plastic bags used here are reduced by 80-90 % and community 
+awareness of Quy Nhon bay has been raised.
+
+- Role of the State in Quy Nhon bay:
+The State has shown its willingness to share responsibilities for marine environmental resources 
+
+management with the community during co-management through the specific implementation of 
+vocational training activities, livelihood development, approval and promulgation of regulations 
+and management plans of Quy Nhon bay in community - based steps. Support the organization 
+and regular maintenance of inspection, monitoring, promotion of development and maintenance 
+of sustainable alternative livelihoods in Quy Nhon bay. Take advantage of a number of projects of 
+
+
+
+International Conference 273
+
+the Small Capital Program of the Global Environment Fund (GEF SGP) and UNESCO so that the 
+community can access funding for practical activities. Thereby, people see the conditions for the 
+formation and sustainable development of a tourism product and the benefits of linking tourism 
+product chains together.
+
+Conflict management in the Quy Nhon bay community is based on two factors: (1) Local 
+authorities sanction based on the regulations of Quy Nhon city People’s Committee, the community’s 
+commitment to fishing in coral reefs,...; (2) Commune and ward conservation committees meet 
+people to raise awareness about social interaction, conflict settlement in attracting visitors and 
+between industry groups,... People realize the unique characteristics of Quy Nhon bay’s livelihood 
+associated with marine natural resources, which is a strength that makes a difference from other 
+tourist destinations, so the community here must know how to link and cooperate to attract tourists 
+rather than create conflicts.
+
+Decentralization of marine environmental resources management to the community: 
+Piloting assignment of management rights and exploitation of tourism activities piloted by the 
+bay with the aim of creating opportunities for the community to participate in co-management in 
+Ghenh Rang and Nhon Hai communes from 2019. People have access to the concept of marine 
+conservation and understand that free and indiscriminate fishing in the reef area will damage corals 
+and shelters of creatures in the sea and is also the cause of declining resources, causing difficulties 
+in community life. “People know how to speak” - people are allowed to share information, hear, 
+know and be guided to participate in counselling, apply local knowledge and provide information 
+to create a profile of the Quy Nhon bay community. “People discuss what to do” - people can visit 
+and study in the country, raise awareness, capacity to speak, discuss and collaborate in community 
+development activities; Use local knowledge to contribute to zoning planning, development of 
+regulations and management plans. Local people are allowed to participate in vocational training, 
+alternative livelihood development and survey, assessment and monitoring activities. “People 
+check” - people have coordinated with local authorities to patrol and protect coral reefs in the Quy 
+Nhon bay area. People expressed their consensus on cooperation in managing marine resources 
+and the environment by actively participating in activities and proposing management measures 
+in the regulations on the protection of marine resources, beaches and coral reefs. They comply 
+with environmental hygiene regulations and say no to plastic bags, enforce and comply with 
+management regulations and bay management plans.
+
+3.3. Assess local community engagement
+- Evaluation of the development of the Quy Nhon bay community: Through the process of 
+
+applying co-management, the change in the Quy Nhon bay community is reflected in the following 
+aspects: waste management, access to fishing grounds, jobs, key resources, tourism development, 
+livelihood groups/associations, community organizations on conservation and tourism, not using 
+plastic bags, tourism services, people’s income,... was increased.
+
+- Assess the level of co-management through the level of participation and the level of 
+community action: Decentralized according to the levels of “know - do - table - check - adjust 
+- decide”. Of the 15,956 participants in community activities, they were classified into 3 groups: 
+Groups of communication activities organized for the community to understand and understand the 
+contents oriented to the development, protection and rational use of environmental protection with 
+61 % of participants; A group of capacity building activities - training organized for the community 
+to discuss oriented contents and issues with 19.8 % of participants and a group of community 
+
+
+
+International Conference274
+
+activities that jointly implement or make their own decisions are organized to implement action on 
+the content that the community has understood, discussed and agreed with 19.2 % of participants.
+
+- Assessment of the level of co-management through the series of development events of 
+Quy Nhon bay.
+
+The Quy Nhon bay co-management plan was implemented in the first 3 months of 2019 
+with two long - term goals of biodiversity conservation and local economic development. The 
+survey assessed 50 tourism households and 70 related offshore fishing households. It determined 
+the percentage of households affected by zoning and the extent of the economic impact on the 
+income of those households. In December 2020, Quy Nhon bay agreed to the regulation on beach 
+protection into the main tourism product attracting domestic and foreign tourists.
+
+4. Conclusion and development direction
+
+4.1. Conclusion
+
+Applying the co-management model is an important method to help the State manage marine 
+resources and the environment in a sustainable way. Accordingly, the model of co-management of 
+marine environmental resources in Quy Nhon bay has mobilized and quantified the participation 
+of local communities in practical activities in Quy Nhon bay such as socio - political activities, 
+scientific experimental activities and material production activities. The results on conservation 
+of biodiversity, ecosystems and alternative and supplementary livelihood occupations to increase 
+income for people have demonstrated the implementation and compliance with zoning planning 
+and management regulations. In Quy Nhon bay, the local community has been consulted to protect 
+and exploit the resources while ensuring the socio - economic development of the locality. On 
+the basis of the agreement between theory and practice, the model of co-management of marine 
+resources and the environment in Quy Nhon bay has proved that co-management is not a matter 
+of direct power sharing between the State and the people. people, but the State agrees to share 
+responsibilities and benefits for the people and joins in the co-management of exploitation, thus 
+stabilizing local environmental resources. Since then, the model of co-management of marine 
+resources and environment in Quy Nhon bay has enough basis to become a case study.
+
+4.2. Development direction
+
+From the results of the application of the existing model, the authors propose some 
+directions to develop the model of co-management of marine environmental resources in Quy 
+Nhon bay as follows:
+
+- Improve the institution of socialization of environmental protection, raise awareness for 
+the community; Community capacity building; Strengthen access to information and dialogue; 
+Protect and exploit indigenous values, strengthen community institutions and policies; and build 
+partnerships;
+
+- Orientation of tourism and community activities is a component of the ecosystem 
+to effectively exploit and reinvest this ecosystem and develop sustainably on the basis 

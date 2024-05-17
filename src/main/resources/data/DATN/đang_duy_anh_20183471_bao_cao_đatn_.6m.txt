@@ -1,0 +1,1328 @@
+
+TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI
+
+ĐỒ ÁN TỐT NGHIỆP
+
+Ứng dụng mô hình học sâu cho bài toán trích xuất
+đồng thời thực thể và quan hệ trong văn bản
+
+ĐẶNG DUY ANH
+anh.dd183471@sis.hust.edu.vn
+
+Ngành: Khoa học máy tính
+
+Giảng viên hướng dẫn: TS. Nguyễn Thị Kim Anh
+
+Chữ kí GVHD
+
+Khoa: Khoa học máy tính
+
+Trường: Công nghệ thông tin và Truyền thông
+
+HÀ NỘI, 08/2023
+
+
+
+LỜI CAM KẾT
+
+Họ và tên sinh viên: Đặng Duy Anh
+Điện thoại liên lạc: 0986609276
+Email: anh.dd183471@sis.hust.edu.vn
+Lớp: Khoa học máy tính 03 - K63
+Hệ đào tạo: Kỹ sư chính quy
+
+Tôi – Đặng Duy Anh – cam kết Đồ án Tốt nghiệp (ĐATN) là công trình nghiên
+cứu của bản thân tôi dưới sự hướng dẫn của PGS.TS. Nguyễn Thị Kim Anh. Các kết
+quả nêu trong ĐATN là trung thực, là thành quả của riêng tôi, không sao chép theo
+bất kỳ công trình nào khác. Tất cả những tham khảo trong ĐATN – bao gồm hình
+ảnh, bảng biểu, số liệu, và các câu từ trích dẫn – đều được ghi rõ ràng và đầy đủ
+nguồn gốc trong danh mục tài liệu tham khảo. Tôi xin hoàn toàn chịu trách nhiệm
+với dù chỉ một sao chép vi phạm quy chế của nhà trường.
+
+Hà Nội, ngày 2 tháng 8 năm 2023
+
+Tác giả ĐATN
+
+Đặng Duy Anh
+
+
+
+LỜI CẢM ƠN
+
+Tôi xin chân thành cảm ơn PGS.TS. Nguyễn Thị Kim Anh đã tận tâm hướng
+dẫn, định hướng và giúp đỡ để tôi hoàn thành đồ án một cách tốt nhất.
+
+Tôi cũng xin gửi lời cảm ơn đến các thầy cô, gia đình, bạn bè, những người đã
+đồng hành, chia sẻ và giúp đỡ tôi trong quá trình học tập và cuộc sống.
+
+
+
+TÓM TẮT NỘI DUNG ĐỒ ÁN
+
+Đồ án tập trung xây dựng một mô hình trích xuất đồng thời thực thể và quan hệ
+ở trên mức tài liệu, trong đó mô hình cần thực hiện trích xuất các từ đề cập tham
+chiếu đến thực thể, phân giải đồng tham chiếu, phân loại các thực thể và các quan
+hệ giữa chúng. Khác với các bài toán trích xuất thông tin trên mức câu dựa vào
+chú thích các từ tham chiếu ở trong câu, mô hình trong đề tài trích xuất và tìm ra
+các mối quan hệ ở trên mức thực thể. Để làm được điều này, mô hình sử dụng kiến
+trúc các tầng mạng Neural Network và mạng đồ thị tích chập Graph Convolution
+Network để phát hiện ra các thực thể và mối quan hệ của chúng ở trên cả mức nội
+câu và liên câu. Mô hình được đánh giá ở trên tập dữ liệu công khai DocRED, cho
+kết quả tốt và được báo cáo để tham chiếu cho tương lai.
+
+
+
+MỤC LỤC
+
+CHƯƠNG 1. GIỚI THIỆU ĐỀ TÀI......................................................... 1
+
+1.1 Đặt vấn đề............................................................................................ 1
+
+1.2 Các giải pháp hiện tại và hạn chế ........................................................... 1
+
+1.3 Mục tiêu và định hướng giải pháp .......................................................... 3
+
+1.4 Đóng góp của đồ án .............................................................................. 3
+
+1.5 Bố cục đồ án ........................................................................................ 4
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT .................................................. 5
+
+2.1 Ngữ cảnh của bài toán........................................................................... 5
+
+2.2 Các kết quả nghiên cứu tương tự ............................................................ 6
+
+2.3 Mô hình ngôn ngữ BERT ...................................................................... 7
+
+2.4 Phân cụm phân cấp ............................................................................... 8
+
+2.5 Mạng đồ thị tích chập (GCN)................................................................. 9
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT................................................ 11
+
+3.1 Kiến trúc mô hình ................................................................................ 11
+
+3.2 Xác định các đề cập .............................................................................. 11
+
+3.3 Phân giải đồng tham chiếu..................................................................... 11
+
+3.4 Phân loại các thực thể ........................................................................... 13
+
+3.5 Phân loại các quan hệ............................................................................ 13
+
+3.6 Mô hình phân loại quan hệ đa ví dụ........................................................ 13
+
+3.7 Mô hình phân loại quan hệ dựa trên đồ thị .............................................. 15
+
+3.8 Hàm đánh giá lỗi .................................................................................. 17
+
+CHƯƠNG 4. ĐÁNH GIÁ THỰC NGHIỆM............................................. 19
+
+4.1 Tập dữ liệu DocRED............................................................................. 19
+
+4.2 Lấy mẫu dữ liệu.................................................................................... 19
+
+
+
+4.3 Chia tập dữ liệu .................................................................................... 20
+
+4.4 Cài đặt các tham số............................................................................... 20
+
+4.5 Kết quả kiểm thử .................................................................................. 20
+
+CHƯƠNG 5. KẾT LUẬN ........................................................................ 22
+
+5.1 Kết luận ............................................................................................... 22
+
+5.2 Hướng phát triển trong tương lai ............................................................ 22
+
+TÀI LIỆU THAM KHẢO......................................................................... 24
+
+PHỤ LỤC................................................................................................. 26
+
+A. TẬP DỮ LIỆU DOCRED.................................................................... 26
+
+A.1 Các loại quan hệ có trong tập dữ liệu DocRED ....................................... 26
+
+B. KẾT QUẢ CHẠY CHƯƠNG TRÌNH.................................................. 29
+
+B.1 Kết quả chạy kiểm thử mô hình trên tập kiểm thử.................................... 29
+
+B.2 Chạy thử mô hình................................................................................. 35
+
+
+
+DANH MỤC HÌNH VẼ
+
+Hình 1.1 Một ví dụ trong tập dữ liệu DocRED . . . . . . . . . . . . . . 2
+
+Hình 2.1 Mô hình BERT[13] . . . . . . . . . . . . . . . . . . . . . . . . 7
+Hình 2.2 Trực quan phân cụm phân cấp . . . . . . . . . . . . . . . . . . 8
+Hình 2.3 Mạng đồ thị tích chập (GCN) . . . . . . . . . . . . . . . . . . 9
+
+Hình 3.1 Kiến trúc mô hình . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Hình 3.2 Kiến trúc đồ thị . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+Hình 4.1 Kết quả đánh giá mô hình phân lớp đa ví dụ trên tập tối ưu . . 20
+Hình 4.2 Kết quả đánh giá mô hình phân lớp quan hệ sử dụng đồ thị
+
+trên tập tối ưu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+i
+
+
+
+DANH MỤC BẢNG BIỂU
+
+Bảng 4.1 Kết quả đánh giá hai mô hình trên tập kiểm thử . . . . . . . . 21
+
+Bảng A.1 Danh sách các loại quan hệ trong tập dữ liệu DocRED . . . . 28
+
+Bảng B.1 Kết quả chạy mô hình phân lớp đa ví dụ trên tập kiểm thử . . 32
+Bảng B.2 Kết quả chạy mô hình phân lớp sử dụng đồ thị trên tập kiểm
+
+thử . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+Bảng B.3 Kết quả chạy thử chương trình . . . . . . . . . . . . . . . . . . 36
+
+ii
+
+
+
+DANH MỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT
+
+Thuật ngữ Ý nghĩa
+FFNN Feed Forward Neural Network
+GCN Graph Convolution Network
+GNN Graph Neural Network
+LSTM Long Short Term Memory
+MLM Masked Language Model
+NLP Natural Language Processing
+NSP Next Sentence Prediction
+
+iii
+
+
+
+CHƯƠNG 1. GIỚI THIỆU ĐỀ TÀI
+
+1.1 Đặt vấn đề
+
+Trích xuất thông tin là quá trình tự động tách lấy thông tin quan trọng và hữu ích
+từ các nguồn dữ liệu không cấu trúc như văn bản, tài liệu, trang web, email và các
+nguồn thông tin khác để chuyển đổi thành dữ liệu dạng có cấu trúc để phân tích và
+sử dụng. Trích xuất thông tin thường bao gồm các bước: nhận dạng thực thể, trích
+xuất mối quan hệ, trích xuất sự kiện, tóm tắt thông tin, phân loại và gán nhãn. Đề
+tài sẽ tập trung vào hai bước là nhận dạng thực thể và trích xuất mối quan hệ.
+
+Trích xuất thực thể là quá trình xác định và trích xuất các thực thể có ý nghĩa từ
+văn bản hoặc dữ liệu không cấu trúc. Các thực thể là các đối tượng hoặc đối tượng
+có ý nghĩa trong ngữ cảnh như tên riêng, địa điểm, thời gian, ngày tháng, số lượng,
+sản phẩm, tên công ty, tên tổ chức,.. Trích xuất mối quan hệ là quá trình nhận diện
+và trích xuất các mối quan hệ giữa các thực thể từ văn bản. Các mối quan hệ này
+sẽ thể hiện sự liên kết, và tương tác giữa các thực thể. Ứng dụng của trích xuất mối
+quan hệ là rất đa dạng và quan trọng trong xử lý ngôn ngữ tự nhiên và khai thác
+dữ liệu. Chúng có thể được sử dụng để xây dựng và khai thác cơ sở tri thức, hệ
+thống hỏi đáp tự động, trợ lý ảo, phân tích tin tức, ý kiến, thông tin y tế, dự đoán
+xu hướng,..
+
+Sau khi bộ dữ liệu quy mô lớn DocRED [1] được giới thiệu, bài toán trích xuất
+mối quan hệ ở mức tài liệu đã nhận được nhiều sự quan tâm hơn. Việc trích xuất
+này yêu cầu suy diễn giữa các câu văn để xác định các thực thể toàn cục và phân
+loại các trường hợp mối quan hệ ở mức thực thể, trong đó mỗi thực thể là một nhóm
+các đề cập đồng tham chiếu trong cả tài liệu. Trong chuỗi nghiên cứu tập trung vào
+trích xuất mối quan hệ trên thực thể này, các nghiên cứu gần đây đã có đạt được
+kết quả tốt hơn trên việc suy diễn toàn cục khi dữ liệu đầu vào đã xác định các thực
+thể [2] [3] [4] [5]. Tuy nhiên, việc trích xuất toàn diện các thực thể toàn cục và mối
+quan hệ cùng một lúc chưa nhận được nhiều sự chú ý, điều này tạo thêm gánh nặng
+cho mô hình cần giải quyết các đề cập, đồng tham chiếu và mối quan hệ cùng một
+lúc. Vậy nên, đồ án sẽ tập trung giải quyết bài toán này, để khi mô hình nhận được
+một tài liệu, nó có thể xác định được toàn bộ các bộ ba (eh, et, r) , trong đó eh là
+chủ thể, et là đối tượng, r là quan hệ giữa hai thực thể. Một ví dụ được đánh giá là
+đúng chỉ khi cặp thực thể đầu cuối eh, et và quan hệ của nó r được xác định đúng.
+
+1.2 Các giải pháp hiện tại và hạn chế
+
+Trích xuất đồng thời thực thể và mối quan hệ vẫn đang là một lĩnh vực nghiên
+cứu tích cực trong xử lý ngôn ngữ tự nhiên. Các nghiên cứu về lĩnh vực này có thể
+
+1
+
+
+
+CHƯƠNG 1. GIỚI THIỆU ĐỀ TÀI
+
+Hình 1.1: Một ví dụ trong tập dữ liệu DocRED
+
+được chia thành các nhóm phương pháp sau.
+
+Với nhóm học đa tác vụ, các mô hình học đa tác vụ này được đào tạo một mô
+hình duy nhất để thực hiện cùng lúc cả nhiệm vụ trích xuất thực thể và mối quan hệ.
+Phương pháp này nhằm tận dụng các biểu diễn chung và có thể cải thiện hiệu suất
+khi dữ liệu huấn luyện bị hạn chế. Tuy nhiên, cân bằng đóng góp của mỗi nhiệm vụ
+và thiết kế hàm mất mát hiệu quả có thể khó khăn. Ngoài ra, việc cải thiện trong
+một nhiệm vụ không phải lúc nào cũng dẫn đến cùng một mức độ cải thiện trong
+nhiệm vụ khác, làm cho quá trình tối ưu hóa phức tạp.
+
+Với các mô hình dựa trên các xâu, những mô hình này xác định vị trí các xâu
+là thực thể đồng thời phân loại các quan hệ của chúng. Nhược điểm của nhóm các
+mô hình này là chúng có thể gặp khó khăn với các thực thể lồng nhau hoặc các cấu
+trúc chồng chéo phức tạp.
+
+Các mô hình mạng neural đồ thị (GNN) đã cho thấy tiềm năng trong việc thu
+thập thông tin về thực thể và mối quan hệ trong một biểu diễn đồ thị thống nhất.
+Những mô hình này có thể truyền thông tin giữa các thực thể và mối quan hệ, tận
+dụng thông tin ngữ cảnh hiệu quả. Nhưng huấn luyện các mô hình GNN có thể tốn
+kém tính toán, đặc biệt là đối với các đồ thị lớn. Ngoài ra, thiết kế các cấu trúc đồ
+thị phù hợp và định nghĩa cơ chế truyền thông điệp đòi hỏi kiến thức chuyên môn
+và thử nghiệm.
+
+Các mô hình dựa trên kiến trúc Transformer như BERT, RoBERTa và ELECTRA
+đã được áp dụng rộng rãi cho các nhiệm vụ trích xuất đồng thời thực thể và mối
+
+2
+
+
+
+CHƯƠNG 1. GIỚI THIỆU ĐỀ TÀI
+
+quan hệ. Các mô hình này có thể được điều chỉnh lại cho nhiệm vụ cụ thể này bằng
+cách cung cấp đầu vào dưới dạng thích hợp và điều chỉnh hàm mất mát tương ứng.
+Hạn chế của các mô hình này thường yêu cầu lượng dữ liệu được gán nhãn lớn để
+điều chỉnh lại đạt hiệu suất tối ưu. Việc tạo ra các bộ dữ liệu nhãn như vậy có thể
+tốn kém và tốn thời gian, đặc biệt là đối với các ngôn ngữ có tài nguyên hạn chế
+hoặc thuộc các lĩnh vực cụ thể.
+
+Nhiều nghiên cứu đã kết hợp tích hợp các thông tin về cấu trúc, hoặc các kĩ thuật
+đặc thù khác vào các mô hình tiền huần luyến để cải thiện hiệu quả của mô hình.
+Tuy nhiện việc tối ưu và điều chỉnh lại các mô hình tiền huấn luyện cho các nhiệm
+vụ dự đoán có cấu trúc có thể khó khăn.
+
+1.3 Mục tiêu và định hướng giải pháp
+
+Mục tiêu của đồ án là xử lý các tài liệu chứa nhiều câu và trích xuất các đề cập
+tham chiếu đến thực thể, phân cụm chúng thành các thực thể, và dự đoán ra loại
+của các thực thể và mối quan hệ ở cấp độ thực thể. Mô hình bao gồm bốn thành
+phần cụ thể cho từng nhiệm vụ, dựa trên cùng một bộ mã hóa và biểu diễn đề cập,
+và được huấn luyện theo cách đồng thời. Việc huấn luyện đồng thời không chỉ cải
+thiện tính đơn giản và hiệu quả, mà còn được thúc đẩy bởi việc nhiều nhiệm vụ có
+thể có lợi từ nhau: Ví dụ, việc biết loại của hai thực thể (ví dụ: Người, Tổ chức) có
+thể tăng cường mối quan hệ giữa chúng (ví dụ: CEO của).
+
+Một tài liệu ban đầu sẽ được mã hóa để thu được chuỗi nhúng được bối cảnh
+hóa của tài liệu. Vì mục tiêu của đồ án là thực hiện trích xuất mối quan hệ từ đầu
+đến cuối, nên các thực thể cũng như các đề cập tương ứng của chúng trong tài liệu
+không được biết trong dữ liệu đầu vào.
+
+Đồ án đề xuất mô hình đa mức. Đầu tiên là tầng xác định các đề cập trên toàn
+bộ tài liệu. Tiếp đó, các đề cập đã được phát hiện sẽ được phân cụm vào các thực
+thể bằng tầng phân giải đồng tham chiếu. Tầng tiếp theo sẽ tổng hợp các biểu diễn
+của đề cập về cùng một thực thể và tiến hành phân loại. Cuối cùng, các quan hệ
+giữa các thực thể sẽ được suy luận dựa trên tầng mạng neural hoặc lan truyền đồ
+thị.
+
+1.4 Đóng góp của đồ án
+
+Đồ án có đóng góp chính như sau: Đồ án xây dựng mô hình đầu cuối (end to
+end) trích xuất đồng thời thực thể và quan hệ trong tài liệu. Trong đó với nhiệm vụ
+trích xuất quan hệ, đồ án đề xuất hai phương pháp là phân loại đa ví dụ và phân
+loại dựa trên đồ thị.
+
+3
+
+
+
+CHƯƠNG 1. GIỚI THIỆU ĐỀ TÀI
+
+1.5 Bố cục đồ án
+
+Phần còn lại của báo cáo đồ án tốt nghiệp được sắp xếp như sau.
+
+Chương 2 trình bày về nền tảng lý thuyết của bài toán, bao gồm ngữ cảnh của
+bài toán cùng các kết quả nghiên cứu tương tự, các nhiệm vụ cần giải quyết trong
+bài toán trích xuất đồng thời thực thể và quan hệ ở trên mức tài liệu. Đồng thời,
+chương cũng khái quát các lý thuyết mà đồ án sử dụng trong bài toán như việc mã
+hóa văn bản với mô hình BERT, phân cụm phân cấp sử dụng liên kết hoàn chỉnh,
+mạng đồ thị tích chập.
+
+Trong chương 3, đồ án trình bày cụ thể về các giải pháp cho bài toán trích xuất
+thực thể và quan hệ trong văn bản. Công việc bao gồm: mã hóa văn bản, phát hiện
+các đề cập, phân giải đồng tham chiếu, phân loại thực thể và cuối cùng là xác định
+mối quan hệ giữa các thực thể sử dụng hai cách là học đa ví dụ và lan truyền đồ thị.
+
+Chương 4 bao gồm các kết quả về lựa chọn tham số, tối ưu mô hình, đồng thời
+báo cáo kết quả kiểm thử của mô hình trên tập dữ liệu DocRED[1]. Chương sẽ
+thống kê, so sánh và nhận xét các kết quả thử nghiệm được.
+
+Cuối cùng, chương 5 tổng kết các kết quả, đóng góp của đồ án và đề ra các
+hướng phát triển trong tương lai.
+
+4
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+2.1 Ngữ cảnh của bài toán
+
+Trích rút đồng thời thực thể và quan hệ là quá trình tự động nhận diện và trích
+xuất thông tin từ văn bản liên quan đến các thực thể và quan hệ giữa chúng. Trong
+ngữ cảnh xử lý ngôn ngữ tự nhiên, bài toán này yêu cầu hệ thống có khả năng tự
+động xác định các thực thể khác nhau (như người, địa điểm, tổ chức, sản phẩm,
+v.v.) trong văn bản và nhận biết các quan hệ hoặc mối liên hệ giữa các thực thể
+đó. Ví dụ, với văn bản đầu vào: "Barack Obama sinh năm 1961 tại Hawaii. Ông
+là cựu Tổng thống Hoa Kỳ. Michelle Obama là vợ của ông. Cả hai kết hôn năm
+1992.", mô hình cần trích rút tập các thực thể: "Barack Obama", "Hawaii", "Tổng
+thống Hoa Kỳ", "Michelle Obama", và tập các quan hệ: ("Barack Obama", "sinh
+tại", "Hawaii"), ("Barack Obama", "là", "Tổng thống Hoa Kỳ"), ("Barack Obama",
+"có vợ là", "Michelle Obama"), ("Barack Obama", "kết hôn năm", "1992"). Trong
+bài toán này, hệ thống phải hiểu và xử lý ngôn ngữ tự nhiên, nhận biết các từ và
+cụm từ có ý nghĩa là các thực thể, sau đó xác định mối quan hệ giữa các thực thể
+đó. Đây là một bài toán phức tạp trong lĩnh vực NLP, và để giải quyết nó, có thể sử
+dụng các phương pháp học máy và học sâu, cũng như sử dụng các kỹ thuật xử lý
+ngôn ngữ tự nhiên tiên tiến.
+
+Có một số thách thức lớn trong việc trích xuất mỗi quan hệ hiệu quả ở mức tài
+liệu. Trước hết, trong bài toán trích rút đồng thời thực thể và quan hệ, mô hình
+cần trích rút các quan hệ có chiều. Vì hai kết quả ("Barack Obama", "có vợ là",
+"Michelle Obama") và ("Michelle Obama", "có chồng là", "Barack Obama") là
+khác nhau.
+
+Tiếp đó, mô hình cần tính đến sự tương tác giữa các quan hệ, đặc biệt là quan
+trọng cho những quan hệ chồng chéo, tức là các quan hệ chia sẻ các đề cập đến
+thực thể chung. Ví dụ, ("Barack Obama", "là tổng thống", "Hoa Kỳ") có thể suy
+ra từ ("Barack Obama", "lãnh đạo", "Hoa kỳ"); hai bộ ba này được gọi là trùng
+lặp cặp thực thể. Trường hợp khác là bộ ba trước cũng có thể suy ra từ ("Barack
+Obama", "sống ở", "Nhà Trắng") và ("Nhà Trắng", "là dinh thự tổng thống", "Hoa
+Kỳ"), trong đó hai bộ ba sau được gọi là trùng lặp một thực thể. Những sự tương
+tác như vậy, bất kể thông qua suy diễn trực tiếp hay gián tiếp, đối với các mô hình
+nhận dạng cùng thực thể và trích xuất quan hệ là đặc biệt khó khăn, vì các thực thể
+không được đề cập trong dữ liệu đầu vào.
+
+Hơn nữa, các thực thể chủ thể và đối tượng liên quan đến một quan hệ có thể
+xuất hiện trong các câu khác nhau. Do đó, một quan hệ không thể được xác định chỉ
+
+5
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+dựa vào một câu duy nhất. Thứ hai, cùng một thực thể có thể được đề cập nhiều lần
+trong các câu khác nhau. Thông tin ngữ cảnh giữa các câu phải được tổng hợp để
+biểu diễn thực thể một cách tốt hơn. Thứ ba, việc nhận diện nhiều quan hệ đòi hỏi
+các kỹ thuật suy luận logic. Điều này có nghĩa là các quan hệ này chỉ có thể được
+trích xuất thành công khi các thực thể và quan hệ khác, thường xuất hiện ở các câu
+khác nhau, được nhận dạng một cách ngụ ý hoặc rõ ràng. Như hình 1.1 thể hiện, dễ
+dàng nhận ra các quan hệ trong cùng một câu ("Maryland", "quốc gia", "Hoa Kỳ"),
+("Baltimore", "nằm trong thực thể hành chính", "Maryland"), và ("Eldersburg",
+"nằm trong thực thể hành chính", "Maryland") vì chủ thể và đối tượng xuất hiện
+trong cùng một câu. Tuy nhiên, dự đoán các quan hệ giữa Baltimore và Hoa Kỳ,
+cũng như giữa Eldersburg và Hoa Kỳ là khó khăn, vì các đề cập của chúng không
+xuất hiện trong cùng một câu và có sự phụ thuộc xa. Ngoài ra, việc nhận dạng hai
+ví dụ quan hệ này cũng đòi hỏi suy luận logic. Ví dụ, Eldersburg thuộc Hoa Kỳ vì
+Eldersburg nằm trong Maryland, thuộc về Hoa Kỳ.
+
+2.2 Các kết quả nghiên cứu tương tự
+
+Trích xuất mối quan hệ là một trong những vấn đề xử lý ngôn ngữ tự nhiên
+(NLP) được nghiên cứu nhiều nhất đến thời điểm hiện tại. Có nhiều phương pháp
+trích xuất quan hệ của các cặp thực thể trên mức câu như sử dụng mẫu[6], mạng
+neural[7] hay đồ thị GCN kết hợp với cơ chế chú ý[8]. Các nghiên cứu này đã cho
+kết quả ấn tượng khi trích xuất quan hệ chỉ trên mức câu.
+
+Tuy nhiên, vì các mối quan hệ phức tạp hơn chỉ có thể được diễn tả bằng nhiều
+câu, nên cần phải trích xuất quan hệ ở trên mức tài liệu. Tùy thuộc vào cách tiếp cận
+trong việc xử lý ngữ cảnh, có hai xu hướng chung trong lĩnh vực này. Phương pháp
+dựa trên đồ thị thường tích hợp ngữ cảnh vào các đồ thị tài liệu dựa trên heuristic
+và thực hiện lý luận đa bước qua các kỹ thuật neural tiên tiến[2][3]. Phương pháp
+thứ hai là dựa trên Transformer, với việc tận dụng sức mạnh của các mô hình ngôn
+ngữ tiền huấn luyện (pre-trained language models) để mã hóa các phụ thuộc ngữ
+cảnh phạm vi xa[4][5][9]. Tất cả các mô hình trên có điểm chung là giả định rằng
+các thực thể và đề cập của chúng đã được xác định sẵn. Ngược lại, phương pháp
+của đồ án trích xuất các đề cập, gom nhóm chúng thành các thực thể và phân loại
+các mối quan hệ cùng nhau.
+
+Các nghiên cứu trước đó cũng đã đề xuất các mô hình đầu cuối (end to end)
+trích xuất thực thể và quan hệ trên mức câu. Với phương pháp mã hóa mỗi câu
+bằng một mạng Bi-LSTM, tác giả sử dụng trạng thái ẩn mã hóa ở tầng cuối để khởi
+tạo một hoặc nhiều bộ giải mã LSTM để giải mã các bộ ba mối quan hệ[10]. Hay
+một nghiên cứu khác đã đề xuất phương pháp lan truyền thông tin về thực thể và
+
+6
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+Hình 2.1: Mô hình BERT[13]
+
+quan hệ trên một đồ thị từ vựng được học tự động các liên kết bằng cách áp dụng
+hai pha GCN lên trên bộ mã hóa LSTM-GCN[11].
+
+2.3 Mô hình ngôn ngữ BERT
+
+BERT (Bidirectional Encoder Representation from Transformer) là một mô hình
+biểu diễn từ theo 2 chiều ứng dụng kỹ thuật Transformer. BERT được ứng dụng
+trong các bài toán NLP để huấn luyện trước các biểu diễn từ (pre-train word
+embedding). Điểm khác biệt của BERT đó là nó có thể điều hòa cân bằng bối
+cảnh theo cả 2 chiều trước và sau để thu được một mô hình ngôn ngữ với ngữ nghĩa
+phong phú hơn. Mô hình Transformer có khả năng đồng thời xử lý toàn bộ các từ
+trong câu bằng cơ chế chú ý, không phụ thuộc vào thứ tự của từ. Cũng chính đặc
+điểm này giúp cho mô hình có khả năng học bối cảnh của từ dựa trên cả ngữ cảnh
+trước và sau nó, bao gồm cả các từ bên trái và bên phải.
+
+Mô hình BERT được cấu thành bởi một kiến trúc đa tầng, bao gồm nhiều lớp
+Bidirectional Transformer encoder, dựa trên mô tả ban đầu trong bài báo [12].
+Văn bản đầu vào được phân chia thành các mã (token) giống như trong mô hình
+transformer, và mỗi mã sẽ được biến đổi thành một vector tại đầu ra của BERT.
+
+Một mô hình BERT được đào tạo bằng cách sử dụng mô hình ngôn ngữ ẩn
+(MLM) và dự đoán câu tiếp theo (NSP) đồng thời. Mỗi mẫu huấn luyện cho BERT
+là một cặp câu từ một tài liệu. Hai câu có thể liên tiếp trong tài liệu hoặc không.
+Một mã [CLS] sẽ được thêm vào đầu câu đầu tiên (đại diện cho lớp) và một mã
+[SEP] sẽ được thêm vào cuối mỗi câu (như là dấu phân tách). Sau đó, hai câu sẽ
+được nối lại với nhau thành một chuỗi các mã để trở thành một mẫu huấn luyện.
+Một tỷ lệ nhỏ các mã trong mẫu huấn luyện sẽ được che giấu bằng một mã đặc biệt
+[MASK] hoặc được thay thế bằng một mã ngẫu nhiên.
+
+Trước khi đưa vào mô hình BERT, các mã trong mẫu huấn luyện sẽ được biến
+đổi thành các vector nhúng, với việc thêm mã hóa vị trí và đặc biệt cho BERT,
+thêm các vector nhúng phân đoạn để đánh dấu liệu mã đó đến từ câu đầu tiên hay
+
+7
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+Hình 2.2: Trực quan phân cụm phân cấp
+
+câu thứ hai.
+
+Mỗi mã đầu vào cho mô hình BERT sẽ tạo ra một vector đầu ra. Vector đầu ra
+tương ứng với mã ẩn có thể tiết lộ mã gốc ban đầu là gì. Vector đầu ra tương ứng
+với mã [CLS] ở đầu có thể tiết lộ xem hai câu có liên tiếp nhau trong tài liệu hay
+không. Sau đó, các trọng số được đào tạo trong mô hình BERT có thể hiểu biết rất
+tốt về ngữ cảnh ngôn ngữ.
+
+Hiện nay, nhiều phiên bản khác nhau của mô hình BERT đã được giới thiệu. Khi
+thay đổi các tham số của kiến trúc Transformer, bao gồm: L - số lượng các khối
+trong transformer, H - kích thước của vector nhúng (hay còn gọi là hidden size), A
+- số lượng đầu ra (head) trong lớp multi-head (mỗi một đầu ra sẽ áp dụng cơ chế
+chú ý), ta sẽ thu được các phiên bản mô hình BERT khác nhau. Hai kiến trúc BERT
+phổ biến hiện nay được sử dụng nhiều là BERTBASE(L = 12, H = 768, A = 12)
+với tổng tham số là 110 triệu và BERTLARGE(L = 24, H = 1024, A = 16) với tổng
+tham số là 340 triệu.
+
+2.4 Phân cụm phân cấp
+
+Phân cụm là thuật toán làm việc trên dữ liệu không có nhãn, có tác dụng nhóm
+các điểm dữ liệu có tính chất tương tự vào các cụm khác nhau. Mục tiêu của phân
+cụm là tìm cách tổ chức dữ liệu sao cho các điểm dữ liệu trong cùng một cụm có
+tính chất giống nhau hoặc gần giống nhau, trong khi các điểm thuộc các cụm khác
+nhau có tính chất khác biệt.
+
+Trong mô hình của đề tài sử dụng phân cụm phân cấp. Phân cụm phân cấp là
+thuật toán phân cụm xây dựng các cụm lồng nhau bằng cách hợp nhất hoặc tách
+
+8
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+Hình 2.3: Mạng đồ thị tích chập (GCN)
+
+chúng liên tiếp. Hệ thống phân cấp các cụm này được biểu diễn dưới dạng cây. Gốc
+của cây là cụm duy nhất tập hợp tất cả các mẫu, lá là cụm chỉ có một mẫu. Thuật
+toán được thực hiện bằng cách tiếp cận từ dưới lên, mỗi quan sát bắt đầu trong cụm
+riêng của nó và các cụm được hợp nhất liên tục với nhau. Các tiêu chí liên kết xác
+định số liệu được sử dụng cho chiến lược hợp nhất gồm có: liên kết tổng - giảm
+thiểu tổng bình phương sự khác biệt trong tất cả các cụm, liên kết tối đa - giảm
+thiểu khoảng cách tối đa giữa các quan sát của các cặp cụm, liên kết trung bình -
+giảm thiểu mức trung bình của khoảng cách giữa tất cả các quan sát của các cặp
+cụm, và liên kết đơn giảm thiểu khoảng cách giữa các lần quan sát gần nhất của các
+cặp cụm. Trong đề tài mô hình sử dụng liên kết hoàn chỉnh.
+
+Thuật toán phân cụm có thể được thực hiện với các độ đo khác nhau, như khoảng
+cách Manhattan (L1), khoảng cách Euclid (L2), khoảng cách cosin hay bất kì hàm
+khoảng cách nào.
+
+2.5 Mạng đồ thị tích chập (GCN)
+
+Các mạng GCN là các mạng neural hoạt động trực tiếp trên kiến trúc đồ thị[14].
+Giống như mạng nơ-ron tích chập (CNN), Mạng đồ thị tích chập (GCN) tiến hành
+việc tích chập các đặc trưng của các nút lân cận và cũng truyền thông tin của một
+nút đến các nút lân cận gần nhất. Như được thể hiện trong hình 2.3, bằng cách xếp
+các lớp GCN lên nhau, mạng GCN có thể trích xuất các đặc trưng khu vực cho mỗi
+nút.
+
+Một lớp GCN lấy các đặc trưng mới của nút bằng cách xem xét đặc trưng của
+các nút lân cận bằng phương trình sau đây:
+
+hl+1u = σ
+
+ ∑
+v∈N(u)
+
+(
+W lhlv + b
+
+l
+)
+
+trong đó u là nút mục tiêu và N(u) đại diện cho các lân cận của u, bao gồm cả
+
+9
+
+
+
+CHƯƠNG 2. NỀN TẢNG LÝ THUYẾT
+
+chính nút u, hlv biểu diễn đặc trưng ẩn của nút v tại tầng l; W và b là các trọng số
+có thể học được, để ánh xạ đặc trưng của một nút sang các nút lân cận trong đồ thị,
+và h ∈ Rf ,W ∈ Rf×f , và b ∈ Rf , trong đó f là kích thước đặc trưng, σ là một
+hàm kích hoạt. Bằng cách lan truyền thông tin, mỗi tầng GCN sẽ học được các đặc
+trưng ẩn của dữ liệu đồ thị ban đầu.
+
+Kết chương: Như vậy, chương đã trình bày các nhiệm vụ cần phải thực hiện và
+kết quả đầu ra cần đạt được trong bài toán trích xuất đồng thời thực thể và quan hệ.
+Bài toán này có những thách thức riêng như phải nhận biết các quan hệ hai chiều,
+các quan hệ chồng chéo, và các quan hệ phải suy luận trên nhiều câu. Chương cũng
+đề cập đến các nghiên cứu tương tự và cách các nghiên cứu này giải quyết các khía
+cạnh khác nhau của bài toán trích rút thực thể và quan hệ. Và cuối cùng, chương
+trình bày một số các lý thuyết được sử dụng để xây dựng mô hình như mô hình
+ngôn ngữ BERT, thuật toán phân cụm phân cấp, mạng đồ thị tích chập. Chi tiết
+cách ứng dụng các lý thuyết này và phương pháp cụ thể xây dựng mô hình sẽ được
+trình bày ở chương 3.
+
+10
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+3.1 Kiến trúc mô hình
+
+Mô hình xử lý các tài liệu chứa nhiều câu và trích xuất các đề cập đến thực thể,
+phân cụm chúng thành các thực thể, từ đó dự đoán ra loại các thực thể và mối quan
+hệ giữa chúng. Mô hình bao gồm năm thành phần cho từng nhiệm vụ, thực hiện
+các nhiệm vụ dựa trên cùng một bộ mã hóa và biểu diễn trên mức đề cập, và được
+huấn luyện cùng một lúc. Tầng đầu tiên là tầng mã hóa, tài liệu ban đầu được mã
+hóa bằng mô hình ngôn ngữ BERT[13], để thu được một chuỗi nhúng theo ngữ
+cảnh của văn bản (e1, e2, ...en). Tầng thứ hai là tầng phát hiện các đề cập, là vị trí
+các từ tham chiếu đến các thực thể. Tầng thứ ba là tầng phân giải đồng tham chiếu
+để phân cụm các thực thể. Tầng tiếp thứ tư là tầng nhận diện và phân loại các thực
+thể. Và cuối cùng tầng năm là tầng phân loại các quan hệ được suy diễn dựa trên
+các đề cập đã được phát hiện. Kiến trúc mô hình được minh họa như hình 3.1.
+
+3.2 Xác định các đề cập
+
+Mô hình thực hiện tìm kiếm trên tất cả các cụm từ của tài liệu với độ dài các
+cụm từ không vượt quá một siêu tham số L. Cách tiếp cận này cho phép phát hiện
+các đề cập chồng chéo. Gọi s := (ei, ei+1, ..., ei+k) là biểu diễn của các đề cập ứng
+cử viên. Ban đầu, mô hình thu được biểu diễn của các đề cập bằng cách sử dụng
+hàm max-pooling để tổng hợp các véc-tơ nhúng của các từ đề cập tương ứng.
+
+e(s) = max-pooling (ei, ei+1, . . . , ei+k) (3.1)
+
+Bộ phân loại đề cập sẽ lấy các biểu diễn đề cập e(s) để thực hiện phân loại nhị
+phân và sử dụng hàm kích hoạt sigmoid để thu được xác suất biểu diễn s là một đề
+cập thực thể:
+
+ŷs = σ (FFNNs(e(s)) (3.2)
+
+FFNNs là một mạng lan truyền tiến hai tầng và được kích hoạt bởi hàm ReLu.
+Mô hình sử dụng ngưỡng lọc αs trên điểm tin cậy thu được, và sẽ giữ lại tất cả các
+đề cập có giá trị ŷs ≥ αs và sinh ra tập hợp S chứa các đề cập mà được dự đoán
+chính là các đề cập tham chiếu đến các thực thể.
+
+3.3 Phân giải đồng tham chiếu
+
+Các đề cập cùng tham chiếu đến một thực thể (ví dụ các đề cập “Elizabeth II.”
+và "the Queen") có thể cùng xuất hiện rải rác ở trên văn bản đầu vào. Để trích xuất
+
+11
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+Hình 3.1: Kiến trúc mô hình
+
+các quan hệ trên mức thực thể, các đề cập như này cần được nhóm vào các cụm
+thực thể cấp tài liệu bằng tầng phân giải đồng tham chiếu. Mô hình phân loại các
+cặp đề cập (s1, s2) ∈ S đã được phát hiện trước đó xem chúng có phải là đồng tham
+chiếu hay không, bằng cách nối hai biểu diễn đề cập e(s1) và e(s2). Từ đó một biểu
+diễn cặp đề cập xc được hình thành bằng phép nối:
+
+xc = e (s1) ◦ e (s2) (3.3)
+
+Tương tự như với phân loại đề cập, biểu diễn cặp đề cập được đưa qua một bộ
+phân lớp nhị phân sử dụng hàm kích hoạt sigmoid, để thu được điểm tương đồng
+giữa hai đề cập:
+
+ŷc = σ (FFNNc (xc)) (3.4)
+
+với FFNN c có kiến trúc tương tự như FFNNs. Từ các điểm đồng tham chiếu
+này, mô hình tạo thành ma trận độ tương đồng C ∈ Rm×m (với m là tổng tất cả các
+đề cập xuất hiện trong tài liệu), ma trận sẽ chứa tất cả các điểm tương đồng của
+từng cặp đề cập. Sau khi áp dụng một ngưỡng lọc αc, mô hình phân cụm các đề
+cập sử dụng phân cụm phân cấp đã trình bày ở trên với kiểu liên kết hoàn chỉnh, để
+sinh ra tập E chứa các cụm là các cụm thực thể.
+
+12
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+3.4 Phân loại các thực thể
+
+Tầng này phân loại thực thể thành một loại, ví dụ như thực thể đó là loại địa
+điểm hay người. Ban đầu tầng thu được biểu diễn của thực thể xe bằng cách tổng
+hợp biểu diễn của các đề cập thuộc về cụm thực thể đó {s1, s2, . . . , st} ∈ E bằng
+hàm max-pooling. Bằng cách biểu diễn như vậy, mô hình có thể tổng hợp được
+thông tin từ các đề cập xuất hiện ở những chỗ khác nhau trên tài liệu.
+
+xe = max-pooling(e (s1) , e (s2) , .., e (st)) (3.5)
+
+Sau đó, phân loại thực thể được thực hiện dựa trên biểu diễn thực thể xe vừa thu
+được. xe được truyền vào bộ phân loại softmax, để thu được phân bố xác suất trên
+các loại thực thể:
+
+ŷe = softmax(FFNNe (xe)) (3.6)
+
+Từ đó, loại thực thể có xác suất cao nhất sẽ được gán cho thực thể.
+
+3.5 Phân loại các quan hệ
+
+Tầng cuối cùng gán các loại mối quan hệ cho các cặp thực thể. Các quan hệ này
+có hướng, tức là có phân biệt thực thể nào cấu thành đầu, đuôi của mối quan hệ, và
+tài liệu đầu vào có thể diễn đạt nhiều mối quan hệ giữa các đề cập khác nhau của
+cùng một cặp thực thể. Gọi R là tập hợp các loại mối quan hệ có trong tập huấn
+luyện. Tầng phân loại mối quan hệ xử lý từng cặp thực thể (s1, s2) ∈ E ×E , dự đoán
+xem có mối quan hệ nào từ R được diễn đạt giữa các thực thể này. Để làm được
+điều này, mô hình tính điểm cho mỗi bộ ba (e1, ri, e2), trong đó e1 là điểm đầu của
+mỗi quan hệ ri với e2 là điểm đuôi.
+
+Tầng có hai mô hình phân loại khác nhau, một là mô hình phân loại đa ví dụ,
+hai là mô hình phân loại dựa trên đồ thị.
+
+3.6 Mô hình phân loại quan hệ đa ví dụ
+
+Mô hình phân loại đa ví dụ hoạt động dựa trên mức độ đề cập. Mô hình coi các
+cặp đề cập như các biến tương quan và dự đoán các quan hệ bằng cách tổng hợp
+thông tin trên các cặp đề cập này. Với mỗi cặp cụm thực thể e1 =
+
+{
+s11, s
+
+1
+2, ..., s
+
+1
+t1
+
+}
+và e2 =
+
+{
+s21, s
+
+2
+2, ..., s
+
+2
+t2
+
+}
+, mô hình thực hiện biểu diễn từng cặp đề cập cho mọi
+
+(s1, s2) ∈ e1 × e2. Biểu diễn này thu được bằng cách nối các véc tơ nhúng của thực
+thể xe (biểu thức 3.5) cùng với các vector biểu diễn đề cập e(s) (biểu thức 3.1)
+
+13
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+u(s1, s2) = (e(s1) ◦ xe1) ◦ (e(s2) ◦ xe2) (3.7)
+
+Sau đó, véc tơ ngữ cảnh giữa hai đề cập c(s1, s2) được nối vào để thu được biểu
+diễn có ngữ cảnh. Véc tơ ngữ cảnh c(s1, s2) được tính bằng hàm max-pooling của
+các biểu diễn từ nằm giữa hai đề cập s1 và s2. Giả sử tập {e1, e2, . . . , et} là các biểu
+diễn từ nằm giữa s1 và s2, véc tơ c(s1, s2) được tính bằng công thức:
+
+c(s1, s2) = max-pooling(e1, e2, . . . , et) (3.8)
+
+Véc tơ ngữ cảnh này cung cấp một cái nhìn tập trung hơn về tài liệu và đặc biệt
+có lợi cho các đầu vào dài, cũng là những đầu vào nhiễu. Biểu diễn cuối cùng của
+cặp đề cập sau khi được nối véc tơ ngữ cảnh như sau:
+
+u′ (s1, s2) = u (s1, s2) ◦ c (s1, s2) (3.9)
+
+Biểu diễn cặp đề cập này sau đó được đưa vào tầng lan truyền tiến để thu được
+véc tơ nhúng có số chiều bằng véc tơ nhúng ban đầu (768):
+
+u′′ (s1, s2) = FFNN
+p(u′(s1, s2)) (3.10)
+
+Tiếp theo, từng cặp biểu diễn đề cập của hai cụm thực thể được tổng hợp bằng
+hàm max-pooling:
+
+xr = max-pooling(
+{
+u′′(s1, s2)|s1∈e1, s2∈e2
+
+}
+) (3.11)
+
+Sau đó, xr được nối với véc tơ nhúng kiểu của thực thể we1, w
+e
+2 và được đưa qua
+
+một tầng FFNN 2 tầng. Các véc tơ nhúng này được xây dựng bằng một bảng tra
+cứu và sẽ trả ra véc tơ nhúng với chỉ số tương ứng. Như trong tập dữ liệu có tất cả 6
+loại thực thể, thì một bảng sẽ được tạo ra với 6 phần tử. Khi truyền vào chỉ số của
+loại thực thể, bảng sẽ trả ra véc tơ nhúng với loại thực thể đó.
+
+xp = xr ◦ we1 ◦ we2 (3.12)
+
+Và cuối cùng mô hình sử dụng hàm kích hoạt sigmoid cho phân loại đa nhãn và
+gán bất kỳ loại mối quan hệ nào vượt qua ngưỡng αr. Mô hình sẽ dự đoán kết quả
+quan hệ trên cả hai chiều (s1, ri, s2) và (s2, ri, s1) để suy ra hướng của các quan hệ
+
+14
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+Hình 3.2: Kiến trúc đồ thị
+
+bất đối xứng.
+
+ŷr = σ (FFNNp(xp) (3.13)
+
+3.7 Mô hình phân loại quan hệ dựa trên đồ thị
+
+Để trích xuất được thông tin cấp tài liệu và tương tác giữa các đề cập và thực thể,
+mô hình xây dựng hai đồ thị liên tiếp bao gồm một đồ thị cấp đề cập (Mention-level
+Graph) và sau đó là một đồ thị cấp thực thể (Entity-level Graph). Chi tiết kiến trúc
+đồ thị như hình 3.2.
+
+Đồ thị cấp đề cập có hai loại nút khác nhau: nút các đề cập và nút tài liệu. Mỗi
+nút đề cập đại diện cho một đề cập cụ thể của một thực thể. Đồ thị còn có một nút
+tài liệu nhằm mô hình thông tin tổng quan về tài liệu. Nút này có thể hoạt động như
+một điểm trung gian để tương tác với các đề cập khác nhau và do đó giảm khoảng
+cách xa giữa chúng trong tài liệu.
+
+Có ba loại cạnh trong đồ thị cấp đề cập:
+
+• Cạnh nối cùng một thực thể: Các đề cập tham chiếu đến cùng một thực thể sẽ
+được nối với nhau bằng cạnh này. Cạnh này giúp biểu diễn thông tin sự tương
+tác giữa các đề cập của cùng một thực thể.
+
+• Cạnh nối liên thực thể: Hai đề cập của hai thực thể khác nhau nhưng lại cùng
+xuất hiện trong một câu thì sẽ được nối bởi cạnh này. Bằng cách này, sự tương
+tác giữa các thực thể có thể được mô hình hóa bởi các đề cập của chúng.
+
+• Cạnh nối tài liệu: Tất cả các đề cập sẽ được nối vào một nút chung là nút tài
+
+15
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+liệu bằng cạnh nối tài liệu. Với cách kết nối như vậy, nút tài liệu có thể chú ý
+đến tất cả các đề cập và tạo ra tương tác giữa tài liệu và các đề cập. Ngoài ra,
+khoảng cách giữa hai nút đề cập tối đa là hai với nút tài liệu là trung gian. Do
+đó, mô hình có thể biểu diễn các phụ thuộc có khoảng cách xa tốt hơn.
+
+Tiếp đó, mô hình áp dụng mạng đồ thị tích chập [14] ở trên đồ thị cấp đề cập
+vừa xây dựng để tổng hợp thông tin giữa các nút lân cận. Dựa vào nút u ở tầng thứ
+l, lan truyền đồ thị có thể được thực hiện như sau:
+
+h
+(l+1)
+m,u = σ(
+
+∑
+k∈K
+
+∑
+v∈Nk(u)
+
+W
+(l)
+m,kh
+
+(l)
+m,v + b
+
+(l)
+m,k) (3.14)
+
+trong đó K là tập ba loại cạnh đã được đề cập ở trên, W (l)m,k ∈ Rd×d và b
+(l)
+k,m ∈ Rd
+
+là các tham số có thể huấn luyện. Nk(u) đại diện cho các hàng xóm của nút u được
+kết nối bởi loại cạnh thứ k. σ là hàm kích hoạt (ReLU).
+
+Vì mỗi tầng trong GCN biểu diễn các đặc trưng ở các mức trừu tượng khác nhau,
+nên do đó sẽ có ý nghĩa các cấp độ khác nhau, mô hình đề xuất ghép nối các trạng
+thái ẩn của các tầng khác nhau để thu được biểu diễn cuối cùng của nút u:
+
+mu = h
+(0)
+m,u ◦ h
+
+(1)
+m,u ◦ ... ◦ h
+
+(N)
+m,u (3.15)
+
+Trong đó h(0)m,u là biểu diễn ban đầu của nút u và h
+(N)
+m,u là biểu diễn thu được của
+
+nút u tại các tầng thứ n. Giá trị biểu diễn của nút tại tầng ban đầu là véc tơ biểu
+diễn đề cập ở công thức 3.1. Đối với nút tài liệu, ban đầu nó được khởi tạo bằng
+trung bình tất cả các véc tơ nhúng của các từ trong tài liệu.
+
+Sau khi xây dựng đồ thị cấp độ đề cập, mô hình xây dựng đồ thị cấp thực thể.
+Đầu tiên, các nút đề cập tham chiếu đến cùng một thực thể được hợp nhất thành
+nút thực thể để thu được các nút trong đồ thị thực thể. Với một nút thực thể e0u được
+đề cập đến N lần, nó sẽ được biểu diễn bằng trung bình của N các biểu diễn mức
+đề cập:
+
+e0u =
+1
+
+N
+
+∑
+n
+
+mn (3.16)
+
+Sau đó, mô hình gộp các cạnh liên thực thể mà kết nối các thực thể trong cùng
+một câu như đề cập ở trên để thu được các cạnh trong đồ thị cấp thực thể. Mô hình
+tiếp tục sử dụng mạng đồ thị tích chập (GCN) trên đồ thị thực thể để thu được các
+đặc trưng của nút thực thể. Biểu diễn của nút u tại tầng l+ 1 tại đồ thị thực thể như
+
+16
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+sau:
+
+h
+(l+1)
+e,u = σ(
+
+∑
+v∈N(u)
+
+W
+(l)
+e h
+
+(l)
+e,v + b
+
+(l)
+e ) (3.17)
+
+trong đó W (l)e ∈ Rd×d và b(l)e ∈ Rd là các tham số có thể huấn luyện. N(u) đại
+diện cho các hàng xóm là các thực thể có kết nối đến nút u. σ là hàm kích hoạt
+(ReLU).
+
+Sau đó biểu diễn cuối cùng của nút e cũng thu được bằng cách nối các biểu diễn
+ẩn của mỗi tầng trong đồ thị:
+
+eu = h
+(0)
+e,u ◦ h
+
+(1)
+e,u ◦ ... ◦ h
+
+(N)
+e,u (3.18)
+
+trong đó h(0)e,u là biểu diễn ban đầu của nút u và có giá trị bằng e0u.
+
+Để dự đoán cho từng quan hệ giữa cặp các nút thực thể trong đồ thị, tương tự
+như bộ phân loại ở trên, mô hình xây dựng biểu diễn cho các cặp thực thể (eh, et)
+theo biểu thức:
+
+xp = (eh ◦ we1) ◦ (et ◦ we2) ◦mdoc (3.19)
+
+trong đó (eh, et) là các nút biểu diễn thực thể đầu-cuối trong đồ thị, we1, w
+e
+2 là các
+
+véc tơ nhúng của kiểu thực thể. Và véc tơ mdoc giúp tổng hợp thông tin giữa các
+câu và cung cấp biểu diễn liên quan đến toàn bộ tài liệu. Và cuối cùng, mô hình có
+thể xác định quan hệ giữa các thực thể bằng bộ phân loại đa lớp (đa quan hệ) tương
+tự như kiến trúc mạng FFNN 2 tầng như biểu thức 3.13.
+
+ŷr = σ (FFNNp(xp)) (3.20)
+
+3.8 Hàm đánh giá lỗi
+
+Mô hình thực hiện việc huấn luyện đa nhiệm vụ có giám sát, trong đó mỗi tài
+liệu huấn luyện chứa các kết quả chân lý cho tất cả bốn nhiệm vụ con: xác định vị
+trí đề cập, phân giải đồng tham chiếu, cũng như phân loại thực thể và mối quan hệ.
+Mô hình tối ưu lỗi tổng hợp của cả bốn thành phần:
+
+L = βs · Ls + βc · Lc + βe · Le + βr · Lr (3.21)
+
+trong đó Ls,Lc,Lr thể hiện các hàm lỗi nhị phân cross-entropy của việc phân
+
+17
+
+
+
+CHƯƠNG 3. PHƯƠNG PHÁP ĐỀ XUẤT
+
+loại các đề cập, đồng tham chiếu và quan hệ. Mô hình sử dụng hàm lỗi cross-
+entropy Le cho phân loại thực thể.
+
+Kết chương: Chương 3 đã trình bày kiến trúc mô hình cũng như chi tiết các kĩ
+thuật được thực hiện trong từng tầng của kiến trúc, các tầng này tương ứng với từng
+nhiệm vụ: xác định các đề cập, phân giải đồng tham chiếu, phân loại thực thể và
+phân loại quan hệ. Đặc biệt, với tầng phân loại quan hệ mô hình có sử dụng hai
+phương pháp khác nhau đó là phân loại bằng bộ phân lớp đa ví dụ và phân loại
+bằng xây dựng đồ thị. Hai phương pháp này sẽ được đánh giá và so sánh ở chương
+4.
+
+18
+
+
+
+CHƯƠNG 4. ĐÁNH GIÁ THỰC NGHIỆM
+
+4.1 Tập dữ liệu DocRED
+
+Tập dữ liệu mô hình sử dụng là tập dữ liệu công khai DocRED[1]. DocRED
+(Document-Level Relation Extraction Dataset) là một bộ dữ liệu trích xuất mối
+quan hệ được xây dựng từ Wikipedia và Wikidata. Mỗi tài liệu trong bộ dữ liệu
+được con người đánh dấu với các đề cập đến thực thể có tên, thông tin về đồng
+tham chiếu, các mối quan hệ nội câu và ngoại câu, cũng như bằng chứng hỗ trợ cho
+mỗi mối quan hệ. Để trích xuất các thực thể và suy luận về các mối quan hệ của
+chúng, DocRED yêu cầu đọc nhiều câu trong một tài liệu và tổng hợp tất cả thông
+tin của tài liệu đó.
+
+DocRED bao gồm 132,375 thực thể và 56,354 các mối quan hệ được gán nhãn
+trên 5,053 tài liệu.
+
+DocRED bao gồm 6 loại thực thể khác nhau, bao gồm người (18,5%), địa điểm
+(30,9%), tổ chức (14,4%), thời gian (15,8%) và số (5,1%). Nó cũng bao gồm một
+tập hợp đa dạng các tên thực thể không thuộc loại đã nêu trên (15,2%), chẳng hạn
+như các sự kiện, tác phẩm nghệ thuật và luật pháp. Mỗi thực thể được chú thích
+trung bình với 1,34 đề cập.
+
+Có 96 loại mối quan hệ thuộc một loạt các danh mục rộng, bao gồm các mối
+quan hệ liên quan đến khoa học (33,3%), nghệ thuật (11,5%), thời gian (8,3%),
+cuộc sống cá nhân (4,2%), v.v. Điều này có nghĩa là các mối quan hệ không bị ràng
+buộc trong bất kỳ lĩnh vực cụ thể nào. Hơn nữa, các loại mối quan hệ được tổ chức
+theo một hệ thống phân cấp và phân loại rõ ràng, có thể cung cấp thông tin phong
+phú cho các hệ thống trích xuất mối quan hệ cấp tài liệu. Chi tiết các mối quan hệ
+xem trong bảng A.1.
+
+4.2 Lấy mẫu dữ liệu
+
+• Xác định vị trí các đề cập: Mô hình tận dụng tất cả các đề cập có giá trị chân
+lý đúng ở trong tài liệu để làm nhãn dương, và lấy mẫu một số lượng ngẫu
+nhiên Ns các đề cập độ dài không quá Ls làm các nhãn âm.
+
+• Phân giải đồng tham chiếu: Mô hình cũng lấy tất cả các cụm thực thể có giá
+trị chân lý đúng ở trong tài liệu để làm nhãn dương, và lấy mẫu một số lượng
+ngẫu nhiên Nc các cặp đề cập không thuộc về cùng một cụm làm các nhãn âm.
+
+• Phân loại các thực thể: Vì phân loại các thực thể chỉ được thực hiện ở trên các
+cụm mà chắc chắn sẽ thuộc về một loại thực thể nào đó, nên bộ phân loại này
+được huấn luyện ở trên tất cả các cụm có giá trị chân lý đúng ở trong tài liệu.
+
+19
+
+
+
+CHƯƠNG 4. ĐÁNH GIÁ THỰC NGHIỆM
+
+Hình 4.1: Kết quả đánh giá mô hình phân lớp đa ví dụ trên tập tối ưu
+
+• Phân loại các quan hệ: Mô hình sử dụng các quan hệ có giá trị chân lý đúng
+giữa các cụm thực thể làm nhãn dương và lấy ra Nr mẫu từ các cụm thực thể
+mà không có quan hệ với nhau làm nhãn âm.
+
+4.3 Chia tập dữ liệu
+
+Từ tập dữ liệu DocRED ban đầu, đồ án thực hiện chia ngẫu nhiên dữ liệu thành
+3 tập với tập huấn luyện (2991 tài liệu), tập tối ưu (300 tài liệu), và tập kiểm thử
+(700 tài liệu).
+
+4.4 Cài đặt các tham số
+
+Mô hình sử dụng mô hình ngôn ngữ BERTBASE (cased) để mã hóa tài liệu[13].
+Mô hình huấn luyện với giải thuật tối ưu Adam và với tốc độ học là 0.001, áp dụng
+tỉ lệ dropout là 0.2. Đối với đồ thị GCN phân loại quan hệ, mô hình sử dụng một
+đồ thị cấp đề cập 2 tầng và một đồ thị cấp thực thể 2 tầng, các đồ thị này cũng sử
+dụng tỉ lệ dropout là 0.2. Kích thước của véc tơ nhúng kiểu thực thể we là 25. Đề
+tài chọn được các ngưỡng để phân loại nhãn: αs = 0.85 (ngưỡng phân loại đề cập),
+αc = 0.85 (ngưỡng phân cụm), αr = 0.6 (ngưỡng phân loại quan hệ). Số lượng các
+mẫu ấm được lấy ngẫu nhiên là Ns = Nc = Nr = 200 và trọng số các hàm lỗi của
+từng nhiệm vụ là (βs = βc = βr = 1, βe = 0.25). Mô hình sử dụng kích thước nhóm
+ví dụ huấn luyện (batch size) bằng 1 (tương ứng với mỗi tài liệu).
+
+4.5 Kết quả kiểm thử
+
+Để thu được mô hình tốt nhất, đồ án tiến hành đánh giá mô hình trên tập tối ưu
+và sẽ dừng huấn luyện nếu sau một vài vòng lặp kết quả của mô hình không tốt lên.
+Sau đó, mô hình tốt nhất trên tập tối ưu sẽ được đánh giá ở trên tập kiểm thử để có
+được nhận xét cuối cùng.
+
+Trong quá trình khảo sát, đồ án ghi nhận với mô hình sử dụng bộ phân lớp đa
+ví dụ, mô hình hội tụ sau khoảng 20 epoch (chi tiết ở hình 4.1), còn với mô hình
+sử dụng phân lớp quan hệ bằng đồ thị, mô hình đạt được trạng thái tốt nhất sau
+
+20
+
+
+
+CHƯƠNG 4. ĐÁNH GIÁ THỰC NGHIỆM
+
+Hình 4.2: Kết quả đánh giá mô hình phân lớp quan hệ sử dụng đồ thị trên tập tối ưu
+
+Phân lớp đa ví dụ Phân lớp sử dụng đồ thị
+Nhiệm vụ Precision Recall F1 Precision Recall F1
+Xác định các đề cập 93.65 92.66 93.15 92.74 92.49 92.61
+Phân giải đồng tham chiếu 82.71 83.32 83.02 81.52 85.13 82.32
+Phân loại các thực thể 80.17 80.75 80.46 78.83 80.38 79.60
+Phân loại các quan hệ 43.60 38.76 41.04 41.61 37.73 39.58
+
+Bảng 4.1: Kết quả đánh giá hai mô hình trên tập kiểm thử
+
+khoảng 11 epoch (chi tiết ở hình 4.2).
+
+Kết quả đánh giá hai mô hình trên tập kiểm thử thu được như bảng 4.1. Nhận
+thấy, mô hình phân lớp đa ví dụ cho kết quả tốt hơn mô hình phân lớp sử dụng đồ
+thị.
+
+Kết chương: Chương đã trình bày thông tin chi tiết về tập dữ liệu được sử dụng
+để huấn luyện và đánh giá mô hình. Ngoài ra, chương cũng báo cáo cách chia và
+lấy mẫu từ tập dữ liệu để huấn luyện, kiểm thử, các siêu tham số của mô hình đã
+được cài đặt. Cuối cùng, chương 4 báo cáo các kết quả đánh giá và đưa ra so sánh
+hai mô hình trích xuất thực thể và quan hệ, đó là mô hình dựa trên phân lớp đa ví
+dụ và mô hình phân lớp sử dụng đồ thị.
+
+21
+
+
+
+CHƯƠNG 5. KẾT LUẬN
+
+5.1 Kết luận
+
+Trích rút đồng thời thực thể và quan hệ trong tài liệu là một bài toán thách thức
+và có đa dạng hướng tiếp cận khác nhau. Đồ án đã giới thiệu mô hình để trích xuất
+đồng thời các thực thể cùng với quan hệ của chúng bao gồm các thành phần: xác
+định các đề cập, phân giải đồng tham chiếu, phân loại các thực thể, và đặc biệt là
+phân loại các quan hệ với hai phương pháp là sử dung bộ phân lớp đa ví dụ và bộ
+phân lớp dựa trên đồ thị. Đồ án cũng đã so sánh, đánh giá kết quả mô hình xây
+dựng được ở trên một tập dữ liệu công khai DocRED.
+
+5.2 Hướng phát triển trong tương lai
+
+Trong tương lai, đồ án vẫn có thể phát triển thêm bằng cách thử các phương
+pháp tiếp cận khác để cải thiện hiệu suất của mô hình. Ví dụ như lớp các phương
+pháp sử dụng kiến trúc Transformer và các mô hình tiền huấn luyện tiên tiến hiện
+nay cho các bài toán trích rút đồng thời thực thể và quan hệ nói riêng hay trích rút
+thông tin nói chung trong văn bản. Ngoài ra, do đặc thù trong tập dữ liệu DocRED
+không gán nhãn các đại từ quan hệ, nên việc suy diễn các tài liệu xuất hiện nhiều
+đại từ quan hệ sẽ cho kết quả chưa tốt, đây cũng là hướng nên nghiên cứu giải quyết
+và cải tiến sau này.
+
+22
+
+
+
+TÀI LIỆU THAM KHẢO
+
+[1] Y. Yao, D. Ye, P. Li andothers, “Docred: A large-scale document-level relation
+extraction dataset,” arXiv preprint arXiv:1906.06127, 2019.
+
+[2] B. Li, W. Ye, Z. Sheng, R. Xie, X. Xi and S. Zhang, “Graph enhanced dual
+attention network for document-level relation extraction,” inProceedings of
+the 28th international conference on computational linguistics 2020, pages 1551–1560.
+
+[3] S. Zeng, Y. Wu and B. Chang, “Sire: Separate intra-and inter-sentential
+reasoning for document-level relation extraction,” 2021.
+
+[4] B. Xu, Q. Wang, Y. Lyu, Y. Zhu and Z. Mao, “Entity structure within and
+throughout: Modeling mention dependencies for document-level relation extraction,”
+inProceedings of the AAAI conference on artificial intelligence volume 35,
+2021, pages 14 149–14 157.
+
+[5] W. Xu, K. Chen and T. Zhao, “Discriminative reasoning for document-level
+relation extraction,” arXiv preprint arXiv:2106.01562, 2021.
+
+[6] W. Zhou, H. Lin, B. Y. Lin andothers, “Nero: A neural rule grounding
+framework for label-efficient relation extraction,” inProceedings of The Web
+Conference 2020 2020, pages 2166–2176.
+
+[7] R. Cai, X. Zhang and H. Wang, “Bidirectional recurrent convolutional neural
+network for relation classification,” inProceedings of the 54th Annual Meeting
+of the Association for Computational Linguistics (Volume 1: Long Papers)
+
+2016, pages 756–765.
+[8] Z. Guo, Y. Zhang and W. Lu, “Attention guided graph convolutional networks
+
+for relation extraction,” arXiv preprint arXiv:1906.07510, 2019.
+[9] W. Zhou, K. Huang, T. Ma and J. Huang, “Document-level relation extraction
+
+with adaptive thresholding and localized context pooling,” inProceedings of
+the AAAI conference on artificial intelligence volume 35, 2021, pages 14 612–14 620.
+
+[10] X. Zeng, D. Zeng, S. He, K. Liu and J. Zhao, “Extracting relational facts
+by an end-to-end neural model with copy mechanism,” inProceedings of
+the 56th Annual Meeting of the Association for Computational Linguistics
+
+(Volume 1: Long Papers) 2018, pages 506–514.
+[11] T.-J. Fu, P.-H. Li and W.-Y. Ma, “Graphrel: Modeling text as relational
+
+graphs for joint entity and relation extraction,” inProceedings of the 57th
+annual meeting of the association for computational linguistics 2019, pages 1409–1418.
+
+[12] A. Vaswani, N. Shazeer, N. Parmar andothers, “Attention is all you need,”
+Advances in neural information processing systems, jourvol 30, 2017.
+
+23
+
+
+
+TÀI LIỆU THAM KHẢO
+
+[13] J. Devlin, M.-W. Chang, K. Lee and K. Toutanova, “Bert: Pre-training of
+deep bidirectional transformers for language understanding,” arXiv preprint
+arXiv:1810.04805, 2018.
+
+[14] T. N. Kipf and M. Welling, “Semi-supervised classification with graph convolutional
+networks,” arXiv preprint arXiv:1609.02907, 2016.
+
+24
+
+
+
+PHỤ LỤC
+
+25
+
+
+
+A. TẬP DỮ LIỆU DOCRED
+
+A.1 Các loại quan hệ có trong tập dữ liệu DocRED
+
+Chi tiết các loại quan hệ có trong tập dữ liệu DocRED được liệt kê như dưới
+bảng sau đây:
+
+STT Mã Tên quan hệ Ý nghĩa
+
+1 P1376 capital of thủ đô
+2 P136 genre thể loại
+3 P137 operator nhà điều hành
+4 P131 located in the administrative
+
+territorial entity
+nằm trong đơn vị hành chính
+lãnh thổ
+
+5 P607 conflict xung đột
+6 P527 has part có một phần
+7 P1412 languages spoken, written or
+
+signed
+ngôn ngữ được nói, viết hoặc
+ký
+
+8 P206 located in or next to body of
+water
+
+nằm trong hoặc bên cạnh
+vùng nước
+
+9 P205 basin country quốc gia lưu vực
+10 P449 original network mạng ban đầu
+11 P127 owned by được sở hữu bởi
+12 P123 publisher nhà xuất bản
+13 P86 composer nhà soạn nhạc
+14 P840 narrative location vị trí tường thuật
+15 P355 subsidiary công ty con
+16 P737 influenced by bị ảnh hưởng bởi
+17 P740 location of formation vị trí hình thành
+18 P190 sister city thành phố kết nghĩa
+19 P576 dissolved, abolished or
+
+demolished
+giải thể, bãi bỏ hoặc phá bỏ
+
+20 P194 legislative body cơ quan lập pháp
+21 P112 founded by thành lập bởi
+22 P118 league liên đoàn
+23 P17 country đất nước
+24 P19 place of birth nơi sinh
+25 P3373 sibling anh chị em ruột
+26 P6 head of government người đứng đầu chính phủ
+
+26
+
+
+
+PHỤ LỤC A. TẬP DỮ LIỆU DOCRED
+
+27 P276 location vị trí
+28 P1001 applies to jurisdiction áp dụng cho thẩm quyền
+29 P580 start time thời gian bắt đầu
+30 P582 end time thời gian kết thúc
+31 P585 point in time thời điểm
+32 P463 member of thành viên của
+33 P676 lyrics by viết lời bởi
+34 P674 characters nhân vật
+35 P264 record label hãng thu âm
+36 P108 employer nhà tuyển dụng
+37 P102 member of political party thành viên của đảng chính trị
+38 P25 mother mẹ
+39 P27 country of citizenship quốc tịch
+40 P26 spouse vợ chồng
+41 P20 place of death nơi mất
+42 P22 father bố
+43 P807 separated from tách khỏi
+44 P800 noteable work công việc đáng chú ý
+45 P279 subclass of phân lớp của
+46 P1336 territory claimed by lãnh thổ được tuyên bố bởi
+47 P577 publication date ngày xuất bản
+48 P570 date of death ngày mất
+49 P571 inception khởi đầu
+50 P178 developer người phát triển
+51 P179 series loạt
+52 P272 production company công ty sản xuất
+53 P170 creator người sáng tạo
+54 P170 parent taxon đơn vị phân loại mẹ
+55 P172 ethnic group nhóm dân tộc
+56 P175 performer người biểu diễn
+57 P176 manufacturer nhà chế tạo
+58 P39 position held vị trí nắm giữ
+59 P30 continent lục địa
+60 P31 instance of trường hợp của
+61 P36 capital thủ đô
+62 P37

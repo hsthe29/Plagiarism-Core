@@ -1,0 +1,1011 @@
+
+ 
+Tạp chí Nghiên cứu Kinh tế và Kinh doanh Châu Á 
+
+Năm thứ 33, Số 11 (2022), 90–106 
+
+ 
+
+www.jabes.ueh.edu.vn 
+
+ 
+Tạp chí Nghiên cứu Kinh tế và Kinh doanh Châu Á 
+
+http://www.emeraldgrouppublishing.com/services/publishing/jabes/  
+
+ 
+Duy trì đội ngũ giảng viên ở các trường đại học công lập tự chủ  
+tài chính khu vực miền Bắc 
+
+ 
+
+NGUYỄN DANH NAM a,*, UÔNG THỊ NGỌC LAN b  
+a Trường Đại học Công nghệ Đông Á 
+b Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội 
+
+ 
+
+T H Ô N G  T I N  T Ó M  T Ắ T  
+
+Ngày nhận: 14/08/2022 
+Ngày nhận lại: 26/10/2022 
+
+Duyệt đăng: 27/10/2022 
+
+ 
+Mã phân loại JEL: 
+D23; J28; O15. 
+
+ 
+
+Từ khóa: 
+Sự hài lòng công việc;  
+Gắn kết với tổ chức; 
+Động lực làm việc;  
+Duy trì đội ngũ giảng 
+viên. 
+ 
+ 
+Keywords: 
+Job satisfaction; 
+Organizational 
+commitment;  
+Work motivation;  
+Faculty retention. 
+
+Mục đích của nghiên cứu là xác định ảnh hưởng của sự hài lòng công 
+việc, gắn kết với tổ chức và động lực làm việc đến duy trì đội ngũ giảng 
+viên tại các trường đại học công lập tự chủ tài chính khu vực miền Bắc 
+Việt Nam. Tiếp cận định lượng đã được sử dụng để đo lường mức độ 
+ảnh hưởng của các yếu tố đến duy trì đội ngũ giảng viên. Một bảng 
+câu hỏi cấu trúc đã được triển khai trực tuyến để thu thập thông tin từ 
+các giảng viên. SPSS 26 được sử dụng để cung cấp thông tin nhân khẩu 
+học của các giảng viên và SmartPLS 3.0 được sử dụng để xử lý mô hình 
+SEM. Kết quả nghiên cứu đã chỉ ra rằng sự hài lòng công việc, gắn kết 
+với tổ chức và động lực làm việc có tác động tích cực đến duy trì đội 
+ngũ giảng viên. Ngoài ra, sự hài lòng công việc có tương quan tích cực 
+với gắn kết với tổ chức và động lực làm việc của đội ngũ giảng viên. 
+Dựa vào kết quả nghiên cứu, một số hàm ý quản trị đã được gợi mở 
+nhằm nâng cao hiệu quả duy trì đội ngũ giảng viên tại các trường đại 
+học công lập tự chủ tài chính trong thời gian tới. 
+
+Abstract 
+
+The study aims is to determine the impact of job satisfaction, 
+organizational commitment, and work motivation on faculty retention 
+at self-financed public universities in Northern Vietnam. The 
+quantitative approach was employed to evaluate the impact of these 
+factors on faculty retention. A structured questionnaire was 
+administered online to obtain information on lecturers. The SPSS 26 
+
+ 
+* Tác giả liên hệ. 
+Email: ndnam.dr.90@gmail.com (Nguyễn Danh Nam), Uongngoclan98@gmail.com (Uông Thị Ngọc Lan). 
+Trích dẫn bài viết: Nguyễn Danh Nam, & Uông Thị Ngọc Lan. (2022). Duy trì đội ngũ giảng viên ở các trường đại học công lập tự 
+chủ tài chính khu vực miền Bắc. Tạp chí Nghiên cứu Kinh tế và Kinh doanh Châu Á, 33(11), 90–106. 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+91 
+
+ 
+
+ 
+was used to produce the demographic information of lecturers and the 
+SmartPLS 3.0 version was used to process the SEM. The research results 
+pointed out that job satisfaction, organizational commitment, and 
+work motivation have positive impacts on faculty retention. 
+Additionally, job satisfaction has an active correlation with 
+organizational commitment, and work motivation of lecturers. Based 
+on the research results, several management implications are 
+recommended to enhance the effectiveness of faculty retention at self-
+financed public universities in the future. 
+
+ 
+
+1. Đặt vấn đề 
+
+Duy trì đội ngũ giảng viên (ĐNGV) đóng vai trò nền tảng giáo dục và là yếu tố quan trọng thúc 
+đẩy chất lượng giáo dục, nghiên cứu khoa học (NCKH) của các trường ĐH (Shaterjalali và cộng sự, 
+2021). Locke (2010) cũng phát hiện ra rằng các giảng viên (GV) trong những lĩnh vực khác nhau có 
+các mô hình tâm lý và hành vi khác nhau được định hình bởi nhận thức luận riêng biệt, gắn kết với tổ 
+chức và có thể mang lại hiệu quả cao trong việc giữ chân GV. 
+
+Nhận thức được vai trò quan trọng của giáo dục đại học (GDĐH) và trong bối cảnh nguồn lực 
+ngân sách nhà nước chi cho GDĐH ở mức hạn chế, Chính phủ đã ban hành Nghị định số 43/2006/NĐ-
+CP và Nghị định số 16/2015/NĐ-CP về điều chỉnh cơ chế tự chủ tài chính (TCTC) của các trường đại 
+học công lập (ĐHCL), trong đó thể hiện quan điểm nhất quán về chuyển đổi cơ chế quản lý hệ thống 
+GDĐH sang mô hình Nhà nước giám sát phù hợp với xu hướng phát triển GDĐH của thế giới. Do 
+vậy, thời gian qua, các trường ĐHCL tại Việt Nam đã triển khai cơ chế TCTC và đạt được một số kết 
+quả tích cực, mở ra các cơ hội phát triển. Tuy nhiên, quyền hạn của các trường ĐHCL trong bối cảnh 
+TCTC chưa được đề cập đầy đủ, điều đó đã dẫn đến nhiều bất cập vận hành hệ thống, cơ chế chính 
+sách quản lý để giữ chân ĐNGV trong quá trình tự chủ là vấn đề nổi cộm (Trương Tuấn Linh & 
+Nguyễn Phương Thảo, 2021). 
+
+Theo báo cáo của Bộ Giáo dục và Đào tạo (2021), cơ chế TCTC đã nâng cao năng lực tài chính 
+của các trường ĐHCL, từ đó thu nhập bình quân của GV trong giai đoạn 2018–2021 đã tăng lên 
+20,8%, nhưng mức lương cao và chế độ đãi ngộ hấp dẫn vượt trội của các trường ĐH tư vẫn thu hút 
+ĐNGV trẻ, tài năng hơn. Chính vì vậy, đã dẫn đến sự thiếu hụt trầm trọng ĐNGV tài năng. 
+
+Một số nghiên cứu đã khám phá các yếu tố tác động đến duy trì đội ngũ nhân viên (ĐNNV) tại tổ 
+chức (Huỳnh Thị Thu Sương & Nguyễn Văn Danh, 2021; Lưu Minh Vững, 2022). Nhưng các công 
+trình trên không được tiến hành thực nghiệm đối với ĐNGV tại các trường ĐHCL TCTC. Ngoài ra, 
+các công trình trên cũng có một số hạn chế về phương pháp, việc áp dụng các phương pháp khác nhau 
+tạo ra những đánh giá, kết luận khác nhau về tác động của các yếu tố đến duy trì ĐNGV tại trường 
+đại học (ĐH). Chính vì vậy, nghiên cứu này đóng góp về mặt phương pháp và thực tiễn khi đề xuất 
+sử dụng phương pháp lấy mẫu phán đoán kết hợp với mô hình PLS-SEM để trả lời câu hỏi liệu yếu 
+tố sự hài lòng công việc, sự gắn kết của GV và động lực làm việc thực sự có giúp các trường ĐHCL 
+TCTC khu vực miền Bắc đạt hiệu quả trong việc duy trì ĐNGV hay không. Từ đó, nghiên cứu đề 
+xuất các hàm ý quản trị mang lại hiệu quả duy trì ĐNGV rõ rệt hơn cho các trường ĐHCL TCTC khu 
+vực miền Bắc. 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+92 
+
+ 
+
+2. Cơ sở lý thuyết và xây dựng giả thuyết  
+
+2.1. Tổng quan về đội ngũ giảng viên tại các trường đại học Việt Nam 
+
+Tổng số GV ĐH là hơn 85.000 người. Trong đó, số lượng GV có chức danh giáo sư chưa đạt 1%; 
+phó giáo sư chỉ chiếm 6,21%; tiến sĩ chiếm 25,19%; và thạc sĩ chiếm tỷ lệ cao nhất với 60,35% (Bộ 
+Giáo dục và Đào tạo, 2021). Sau hơn 30 năm đổi mới, ĐNGV tại các trường ĐH đã có sự phát triển 
+mạnh mẽ về lượng và chất. Nhưng so sánh với chuẩn trung bình quốc tế thì GDĐH Việt Nam thiếu 
+khoảng 30.000–40.000 GV. 
+
+Thực tế điều tồi tệ hơn xảy ra đối với chất lượng GV ĐH ở Việt Nam là các công bố quốc tế 
+NCKH của ĐNGV tại các trường ĐH hàng đầu rất hạn chế. So với Thái Lan, chất lượng ĐNGV tại 
+các trường ĐH ở Việt Nam thấp hơn một khoảng rất lớn, trong đó về số lượng bài báo khoa học quốc 
+tế chênh lệch khoảng 10 lần (Hứa Thị Khuyên & Hoàng Minh Thúy, 2019). 
+
+Tình trạng già hóa của ĐNGV cũng là thách thức lớn, tác động trực tiếp đến chất lượng giáo dục 
+tại các trường ĐH. Nguyên nhân sâu xa là do quan niệm về xã hội xưa “người thầy” có tuổi là giàu 
+kinh nghiệm và được coi trọng. Đặc biệt, các trường ĐH vẫn chưa tạo được sức hấp dẫn đối với các 
+GV trẻ. Tình trạng GV trẻ có năng lực không muốn ở lại trường giảng dạy mà tìm đến những công 
+việc có thu nhập cao cũng như cơ hội phát triển nhiều hơn (Nguyễn Thị Nội, 2020). 
+
+Trước thực tiễn đó, nâng cao chất lượng GV cần được thực hiện để phát triển chuyên môn trong 
+các trường ĐH, thu hút GV tham gia vào các hoạt động phát triển nghề nghiệp và giữ chân họ ở lại 
+làm việc (Khan và cộng sự, 2021). 
+
+Cuộc cách mạng công nghiệp 4.0 là yếu tố quan trọng thúc đẩy nâng cao chất lượng ĐNGV tại 
+các trường ĐH Việt Nam. Trong bối cảnh cách mạng công nghiệp 4.0, ĐNGV ĐH đòi hỏi có trình độ 
+chuyên môn cao, hiểu biết sâu rộng trên nhiều lĩnh vực, giỏi ngoại ngữ và công nghệ thông tin (Phạm 
+Thị Thu Hương, 2020). 
+
+2.2. Cơ sở lý thuyết 
+
+Để giải thích các yếu tố góp phần vào việc duy trì ĐNGV tại các trường ĐHCL TCTC, bắt buộc 
+phải xem xét các lý thuyết: 
+
+- Lý thuyết kỳ vọng của Vroom (1964) cho rằng mọi người tham gia tổ chức với những kỳ vọng 
+và nếu chúng được đáp ứng thì tổ chức sẽ giữ chân được họ. Theo lý thuyết này, các quyết định ở lại 
+hay rời bỏ tổ chức được giải thích bằng cách xem xét các mối quan hệ giữa các biến cấu trúc, tâm lý 
+và môi trường. Trong đó, các biến tâm lý bao gồm: Sự hài lòng công việc và gắn kết với tổ chức. 
+
+- Lý thuyết hai nhân tố của Herzberg và cộng sự (1959) cho rằng nhân viên được thúc đẩy bằng 
+các giá trị bên trong hơn là các giá trị bên ngoài của công việc. Nói cách khác, động lực làm việc được 
+tạo ra từ bên trong và được thúc đẩy bởi các biến nội tại của công việc gồm: Thành tích, sự công nhận, 
+bản thân công việc, trách nhiệm, sự thăng tiến và phát triển. 
+
+- Lý thuyết tài sản nhân viên của Cardy và cộng sự (2007) là một khung lý thuyết mới cho việc 
+quản lý nguồn nhân lực tại tổ chức. Quan điểm nổi bật của lý thuyết này là coi nhân viên như khách 
+hàng nội bộ với thành phần tài sản nhân viên, bao gồm: Thương hiệu, giá trị, duy trì cùng với khái 
+niệm giá trị lâu dài của nhân viên. Trên cơ sở giá trị lâu dài của nhân viên, tổ chức sẽ đánh giá được 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+93 
+
+ 
+
+mức độ về duy trì của nhân viên với tổ chức. Điều đó có nghĩa là, giá trị của nhân viên càng tăng thì 
+ý định ở lại tổ chức làm việc của họ càng cao.  
+
+2.2.1. Sự hài lòng công việc 
+
+Sự hài lòng công việc chỉ trạng thái tâm lý thú vị giữa nhân viên với công việc (Robbins, 1998). 
+Slatten (2008) đã chỉ ra sự hài lòng công việc là một tập hợp lựa chọn kỹ lưỡng một trong hai cách sự 
+hài lòng chung và sự hài lòng theo các khía cạnh để đáp ứng với mục đích nghiên cứu. Ngoài ra, 
+Slatten (2008) đã nhấn mạnh về mức độ quan trọng của sự hài lòng chung công việc. Chính vì vậy, 
+sự hài lòng chung công việc được lựa chọn để sử dụng trong nghiên cứu này. 
+
+2.2.2. Gắn kết với tổ chức 
+
+Mowday và cộng sự (1979) nhận định gắn kết với tổ chức chú trọng tới mối quan hệ tương tác 
+giữa thái độ và hành vi của nhân viên với tổ chức.  
+
+Allen và Meyer (1990) cho rằng gắn kết với tổ chức là một biến thái độ, phản ánh tình cảm của 
+nhân viên dành cho tổ chức dựa trên việc xác định rõ các giá trị, mục đích đối với tổ chức gồm ba 
+thành phần: Gắn kết cảm xúc, gắn kết duy trì, và gắn kết đạo đức. 
+
+Có thể thấy gắn kết với tổ chức được xem xét trên hai khía cạnh: Thái độ và hành vi. Trong nghiên 
+cứu này, gắn kết với tổ chức được xem xét là một thái độ chung bao trùm lên toàn bộ các thành phần 
+của sự gắn kết đối với tổ chức. 
+
+2.2.3. Động lực làm việc 
+
+Herzberg và cộng sự (1959) phát biểu động lực làm việc là sự khát khao và tự nguyện của nhân 
+viên để gia tăng sự nỗ lực nhằm đạt được mục tiêu đặt ra hoặc một kết quả công việc cụ thể, quan 
+điểm của Herzberg và cộng sự (1959) đã được nhiều học giả sử dụng. 
+
+Động lực làm việc là tập hợp các yếu tố bên trong mỗi nhân viên giúp thúc đẩy họ tích cực hơn 
+trong công việc để tạo ra năng suất và hiệu quả cao nhất (Bùi Anh Tuấn & Phạm Thuý Hương, 2009). 
+
+Như vậy, động lực làm việc liên quan tới thái độ tồn tại bên trong của nhân viên và được thể hiện 
+ra bên ngoài thông qua hành vi đối với công việc. 
+
+2.2.4. Duy trì đội ngũ giảng viên 
+
+Duy trì ĐNGV phụ thuộc hoàn toàn vào sự hài lòng đối với công việc và từ đó kéo theo hành vi 
+của họ (Braham, 2002). 
+
+Thái độ của nhân viên đối với công việc sẽ ảnh hưởng tới những giá trị đóng góp cho tổ chức và thái 
+độ tích cực của họ cũng là nguồn gốc cho quyết định duy trì công việc. Thái độ đó được biểu thị thông 
+qua lòng trung thành đối với tổ chức, sự tự hào khi được đứng trong hàng ngũ của tổ chức và cuối cùng 
+là sự nỗ lực cố gắng hết khả năng vì tổ chức (Huỳnh Thị Thu Sương & Nguyễn Văn Danh, 2021). 
+
+Trong nghiên cứu này, nhóm tác giả tập trung xem xét duy trì nguồn ĐNGV theo cách chủ động 
+dựa trên thái độ và cảm nhận của GV đối với trường ĐHCL TCTC. 
+
+2.3. Xây dựng giả thuyết 
+
+2.3.1. Mối quan hệ giữa sự hài lòng công việc và gắn kết với tổ chức 
+
+Sự hài lòng công việc là tiền đề của gắn kết với tổ chức và có tác động dương tới nó (Currivan, 
+1999). Rutherford và cộng sự (2009) đã chứng minh rằng sự hài lòng chung công việc có mối tương 
+quan chặt chẽ với gắn kết với tổ chức. Kiểm chứng thực nghiệm tại nhiều quốc gia trong những lĩnh 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+94 
+
+ 
+
+vực khác nhau đã cho thấy sự hài lòng công việc có ảnh hưởng tích cực tới gắn kết với tổ chức 
+(Nguyễn Danh Nam & Uông Thị Ngọc Lan, 2022). Giả thuyết được đề xuất như sau: 
+
+Giả thuyết H1: Sự hài lòng công việc có tác động dương đến gắn kết với tổ chức. 
+
+2.3.2. Mối quan hệ giữa động lực làm việc và gắn kết với tổ chức 
+
+Adeyinka và cộng sự (2007) khẳng định gắn kết với tổ chức bị ảnh hưởng mạnh mẽ bởi động lực 
+làm việc, nếu muốn tăng cường gắn kết với tổ chức thì cần gia tăng động lực làm việc. Nghiên cứu 
+của Warsi và cộng sự (2009) đã nhấn mạnh động lực làm việc là yếu tố tiên quyết giúp thúc đẩy nhân 
+viên ngày càng gắn kết hơn với tổ chức. Giả thuyết được đề xuất như sau: 
+
+Giả thuyết H2: Động lực làm việc có tác động dương đến gắn kết với tổ chức. 
+
+2.3.3. Mối quan hệ giữa gắn kết với tổ chức, sự hài lòng công việc và duy trì đội ngũ giảng viên 
+
+Soenanta và cộng sự (2020) đã cho thấy gắn kết với tổ chức và sự hài lòng công việc có tác động trực 
+tiếp tới duy trì ĐNNV, nhưng gắn kết với tổ chức có hệ số tác động mạnh hơn sự hài lòng công việc. 
+
+Ngoài ra, các nghiên cứu độc lập khác cũng cho thấy duy trì ĐNNV bị ảnh hưởng bởi sự hài lòng 
+công việc (Tanwar & Prasad, 2016) và gắn kết với tổ chức (Kaur, 2017). Giả thuyết trong nghiên cứu 
+này được đề xuất như sau: 
+
+Giả thuyết H3: Gắn kết với tổ chức sẽ có tác động dương đến duy trì ĐNGV. 
+
+Giả thuyết H4: Sự hài lòng công việc có tác động dương đến duy trì ĐNGV. 
+
+2.3.4. Mối quan hệ giữa động lực làm việc và duy trì đội ngũ giảng viên 
+
+Willis-Shattuck và cộng sự (2008) dựa trên nền tảng các lý thuyết động lực làm việc đã chứng 
+minh rằng luôn tồn tại một mối tương quan tích cực giữa động lực làm việc với duy trì ĐNNV tại các 
+tổ chức. Ngoài ra, Shah và Asad (2018) đã kết luận động lực làm việc bên trong và động lực làm việc 
+bên ngoài đều có tác động tới việc duy trì ĐNNV. Giả thuyết được đề xuất như sau: 
+
+Giả thuyết H5: Động lực làm việc có tác động dương đến duy trì ĐNGV. 
+
+2.3.5. Mối quan hệ giữa sự hài lòng công việc và động lực làm việc 
+
+Abraham (2012) đã kết luận rằng sự hài lòng công việc có tác động tích cực tới động lực làm việc. 
+Vokić và Hernaus (2015) cũng đồng tình với kết quả trên và nhấn mạnh sự hài lòng công việc là điểm 
+nhấn nhằm thúc đẩy động lực làm việc cho nhân viên. Giả thuyết được đề xuất như sau: 
+
+Giả thuyết H6: Sự hài lòng trong công việc có tác động dương đến động lực làm việc. 
+
+Tổng hợp các giả thuyết trên, nhóm tác giả đề xuất mô hình nghiên cứu sau: 
+
+  
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+95 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 1. Mô hình nghiên cứu 
+
+3. Phương pháp nghiên cứu 
+
+3.1. Phát triển thang đo 
+
+Thang đo sơ bộ được kế thừa từ các nghiên cứu nước ngoài. Trong đó, thang đo sự hài lòng công 
+việc của Slatten (2008) gồm 5 biến quan sát; gắn kết với tổ chức của Marsden và cộng sự (1993) gồm 
+6 biến quan sát; động lực làm việc của Wright (2004) gồm 6 biến quan sát; duy trì ĐNGV của Kyndt 
+và cộng sự (2009) gồm 11 biến quan sát. 
+
+Nghiên cứu tiến hành thảo luận nhóm với 20 cán bộ quản lý của một số trường ĐHCL TCTC tại 
+miền Bắc thông qua Skype để xem xét sự phù hợp giữa các yếu tố trong mô hình nghiên cứu đề xuất, 
+tiếp nhận những ý kiến đánh giá, góp ý nhằm hiệu chỉnh các biến quan sát trong thang đo sơ bộ. Nhóm 
+tác giả tiếp tục trao đổi chuyên sâu đối với 05 chuyên gia trong lĩnh vực quản trị nguồn nhân lực để 
+xem xét các mối quan hệ trong mô hình nghiên cứu, nội dung thang đo sơ bộ và giải quyết những ý 
+kiến mâu thuẫn trong thảo luận nhóm. Quá trình thảo luận và trao đổi chuyên sâu diễn ra trong tháng 
+4/2022 và được ghi âm, mã hóa và tiến hành phân tích dữ liệu bằng phần mềm Nvivo 11. 
+
+Kết quả thảo luận nhóm và trao đổi chuyên sâu cho thấy, tất cả các thành viên tham gia đều hoàn 
+toàn đồng ý với các yếu tố trong mô hình nghiên cứu đề xuất. Cụ thể: 
+
+- Thang đo sự hài lòng công việc sau quá trình tổng hợp, lựa chọn các ý kiến và lấy biểu quyết 
+của các thành viên đã được bổ sung thêm ba biến quan sát nhằm mục đích thể hiện sự rõ ràng hơn về 
+nội dung và phù hợp với thực tế công việc của GV. 
+
+- Thang đo gắn kết với tổ chức đã phát hiện ra sự trùng lặp 02 biến quan sát với thang đo khác 
+trong mô hình nghiên cứu đề xuất. Do đó, các thành viên thống nhất loại bỏ 02 biến quan sát này để 
+tránh làm giảm độ tin cậy của thang đo, đồng thời, đề xuất bổ sung thêm 04 biến quan sát để thang 
+đo đạt được hiệu quả tốt nhất trong quá trình nghiên cứu và phù hợp với mục đích nghiên cứu gắn kết 
+với tổ chức. 
+
+- Thang đo động lực làm việc có 03 biến quan sát ở dạng câu hỏi đảo ngược, các thành viên tham 
+gia thảo luận cho rằng cần phải thay đổi 03 biến quan sát trên trở thành câu hỏi thuận để đối tượng 
+
+Sự hài lòng công việc 
+
+Duy trì đội ngũ 
+giảng viên Gắn kết với tổ chức 
+
+Động lực làm việc 
+
+H1+ 
+
+H2+ 
+
+H3+ 
+
+H4+ 
+
+H5+ 
+
+H6+ 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+96 
+
+ 
+
+khảo sát dễ hiểu hơn và tránh sự hiểu sai lệch về vấn đề cần nghiên cứu. Cùng với đó, các chuyên gia 
+cũng đề xuất bổ sung thêm 02 biến quan sát để nội dung thang đo cụ thể hơn và đáp ứng với thực tế 
+công việc của GV. 
+
+- Thang đo duy trì ĐNGV, sau quá trình lấy ý kiến của các thành viên tham gia thảo luận và lắng 
+nghe ý kiến của các chuyên gia đã nhận thấy cần phải loại bỏ 07 biến quan sát vì nội dung các biến 
+chưa phù hợp với thực tế lĩnh vực nghiên cứu, có sự trùng lặp và hầu hết là dạng câu hỏi nghịch đảo 
+dễ gây ra sự nhầm lẫn trong quá trình khảo sát. Đồng thời, các thành viên cũng nhất trí bổ sung thêm 
+04 biến quan sát để nội dung thang đo được đáp ứng với những đặc thù riêng của lĩnh vực nghiên cứu. 
+
+Ngoài ra, nhóm tác giả cũng đã điều chỉnh một số từ ngữ để các biến quan sát được đơn giản, đáp 
+ứng văn phong của người Việt Nam và trình độ của đối tượng được khảo sát. Nội dung các câu hỏi 
+khảo sát được trình bày tại Bảng 1. 
+
+Bảng 1.  
+Nội dung câu hỏi khảo sát 
+
+Ký hiệu Nội dung Nguồn 
+
+Sự hài lòng công việc (JS)  
+
+JS1 Tôi nhận thấy cơ quan là nơi tốt nhất để làm việc. Slatten (2008) 
+
+ JS2 Tôi nhận thấy cơ quan luôn tạo cảm hứng để bắt đầu công việc. 
+
+JS3 Tôi luôn chọn cơ quan này cho dù có cơ hội chọn lại nơi làm việc. 
+
+JS4 Tôi sẵn sàng nỗ lực nhiều hơn nữa để đóng góp cho cơ quan. 
+
+JS5 Nhìn chung, tôi hài lòng khi làm việc tại cơ quan. Nhóm tác giả 
+
+JS6 Tôi cảm thấy hạnh phúc khi được làm việc tại cơ quan. 
+
+JS7 Tôi nhận thấy bản thân được tôn trọng tại cơ quan. 
+
+JS8 Tôi nhận thấy công việc tại cơ quan rất ổn định. 
+
+Gắn kết với tổ chức (OC) 
+
+OC1 Tôi chấp nhận mọi vị trí để tiếp tục làm việc tại cơ quan. Marsden và cộng 
+sự (1993) OC2 Tôi nhận thấy các giá trị của bản thân và cơ quan là hoàn toàn  
+
+tương đồng. 
+
+OC3 Tôi tự hào khi được làm việc tại cơ quan. 
+
+OC4 Tôi luôn trung thành với cơ quan. 
+
+OC5 Tôi cảm thấy cơ quan là một phần của cuộc sống. Nhóm tác giả 
+
+OC6 Tôi dành trọn tình cảm và thời gian cho cơ quan. 
+
+OC7 Tôi sẵn sàng hy sinh lợi ích cá nhân vì cơ quan. 
+
+OC8 Tôi luôn quan tâm tới sự phát triển của cơ quan. 
+
+Động lực làm việc (WM) 
+
+WM1 Tôi luôn vượt qua mọi khó khăn để hoàn thành công việc. Wright (2004) 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+97 
+
+ 
+
+Ký hiệu Nội dung Nguồn 
+
+WM2 Tôi sẵn sàng đi sớm về muộn để hoàn thành công việc. 
+
+WM3 Tôi dễ dàng hòa nhập và tham gia ngay lập tức vào công việc. 
+
+WM4 Tôi làm việc chăm chỉ hơn so với đồng nghiệp. 
+
+WM5 Tôi muốn nhận thêm công việc để làm dù không bị bắt buộc. 
+
+WM6 Tôi nhận thấy thời gian trôi rất nhanh khi làm việc. 
+
+WM7 Tôi không để xảy ra sai sót trong quá trình làm việc. Nhóm tác giả 
+
+WM8 Tôi bị hấp dẫn bởi những công việc được giao. 
+
+Duy trì đội ngũ giảng viên (FR) 
+
+FR1 Tôi sẽ tiếp tục làm việc tại cơ quan trong vòng 05 năm tới. Kyndt và cộng sự 
+(2009) FR2 Tôi nhận thấy công việc hiện tại rất quan trọng đối với bản thân. 
+
+FR3 Tôi nhìn thấy được cơ hội phát triển của bản thân trong tương lai. 
+
+FR4 Tôi hài lòng với công việc đang làm tại cơ quan. 
+
+FR5 Tôi luôn được thỏa sức sáng tạo trong công việc. Nhóm tác giả 
+
+FR6 Tôi luôn nhận được sự bảo vệ từ phía cơ quan. 
+
+FR7 Tôi luôn được khen thưởng khi hoàn thành tốt công việc. 
+
+FR8 Tôi luôn nhận được sự tin tưởng trong quá trình làm việc. 
+
+ 
+
+3.2. Quy mô mẫu và thu thập dữ liệu 
+
+Tỷ lệ quan sát cho 1 biến phân tích là 5:1 hoặc 10:1 sẽ cung cấp tỷ lệ mẫu tối thiểu để bảo đảm độ 
+tin cậy (Hair và cộng sự, 2014). Vì vậy, nghiên cứu này sử dụng tỷ lệ 10:1. Với 32 biến quan sát nên 
+số lượng mẫu cần thiết là 32x10 = 320. Đề phòng trường hợp tỷ lệ thu hồi phiếu thấp, nghiên cứu 
+chọn quy mô mẫu là 416. 
+
+Phương pháp lấy mẫu phán đoán được thực hiện giữa các GV của 8 trường ĐHCL TCTC khu vực 
+miền Bắc (Trường Đại học Hà Nội, Trường Đại học Ngoại thương, Trường Đại học Kinh tế Quốc 
+dân, Trường Đại Học Bách Khoa Hà Nội, Đại học Quốc gia Hà Nội, Trường Đại học Thương mại, 
+Trường Đại học Công nghiệp Hà Nội, Học viện Nông nghiệp Việt Nam) từ tháng 6 đến tháng 7/2022 
+bằng cách phát phiếu trực tuyến để tiết kiệm thời gian và chi phí. Những GV đủ điều kiện tham gia 
+đã được lựa chọn cẩn thận phải đáp ứng các tiêu chuẩn và trình độ chuyên môn, trong đó có ít nhất 
+05 năm công tác tại các trường ĐH và có thể cung cấp thông tin phong phú nhất và đạt đến độ bão 
+hòa dữ liệu. 
+
+Sau quá trình xử lý dữ liệu, nghiên cứu đã thu được 408 phiếu hợp lệ với tỷ lệ hồi đáp 98,07%. 
+Trong đó, đặc điểm nổi bật của các GV tham gia khảo sát là nữ chiếm 67,4%; 91,3% GV cung cấp 
+thông tin trong ngưỡng tuổi từ 30 đến 50; 75,2% GV có trình độ thạc sĩ; và 24,8% trình độ tiến sĩ; 
+95,6% giảng viên có thâm niên công tác từ 5 đến trên 15 năm; và 97,4% người được hỏi đã kết hôn. 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+98 
+
+ 
+
+4. Kết quả nghiên cứu và thảo luận 
+
+4.1. Kiểm định thang đo 
+
+Sau hai lần xoay ma trận, các biến WM1, WM2, OC6, OC7, OC8 đã bị loại khỏi thang đo động 
+lực làm việc và gắn kết đối với tổ chức vì không đảm bảo tính hội tụ với hệ số tải ngoài < 0,6 (Chin 
+và cộng sự, 2008). Ở lần thứ ba, kết quả phân tích cho thấy có 27 nhân tố được rút trích với hệ số tải 
+ngoài đảm bảo trong ngưỡng > 0,6. Do đó, các biến quan sát đạt chất lượng (Bảng 2). 
+
+Bảng 2 cho thấy rằng các thang đo đạt được tính nhất quán nội bộ vì giá trị Cronbach’s Alpha 
+vượt quá 0,6 (Hair và cộng sự, 2014). Ngoài ra, các giá trị độ tin cậy tổng hợp (CR) vượt quá 0,7 và 
+giá trị phương sai trích xuất trung bình (AVE) vượt quá 0,5. Vì vậy, các thang đo đáp ứng độ tin cậy, 
+tính hợp lệ hội tụ (Fornell & Larcker, 1981). Do đó, các thang đo rất tốt cho các phân tích tiếp theo. 
+
+Bảng 2. 
+Kết quả kiểm định thang đo 
+
+Thang đo Ký hiệu Hệ số tải ngoài AVE 
+Cronbach’s 
+
+Alpha CR 
+
+Sự hài lòng 
+công việc 
+(JS) 
+
+JS1 0,718 
+
+0,543 0,880 0,905 
+
+JS2 0,713 
+
+JS3 0,796 
+
+JS4 0,789 
+
+JS5 0,800 
+
+JS6 0,659 
+
+JS7 0,668 
+
+JS8 0,741 
+
+Gắn kết với 
+tổ chức 
+
+(OC) 
+
+OC1 0,797 
+
+0,736 0,910 0,933 
+
+OC2 0,836 
+
+OC3 0,846 
+
+OC4 0,886 
+
+OC5 0,921 
+
+Động lực 
+làm việc 
+
+(WM) 
+
+WM3 0,860 
+
+0,704 0,915 0,934 
+
+WM4 0,883 
+
+WM5 0,832 
+
+WM6 0,830 
+
+WM7 0,888 
+
+WM8 0,731 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+99 
+
+ 
+
+Thang đo Ký hiệu Hệ số tải ngoài AVE 
+Cronbach’s 
+
+Alpha 
+CR 
+
+Duy trì 
+ĐNGV 
+
+(FR) 
+
+FR1 0,802 
+
+0,596 0,902 0,922 
+
+FR2 0,779 
+
+FR3 0,822 
+
+FR4 0,811 
+
+FR5 0,799 
+
+FR6 0,711 
+
+FR7 0,701 
+
+FR8 0,740 
+
+ 
+Nghiên cứu sử dụng chỉ số HTMT để đánh giá sự phân biệt của các thang đo. Kết quả phân tích 
+
+tại Bảng 2 cho thấy tất cả các giá trị của chỉ số HTMT đều thấp hơn 0,85, do đó, xác nhận tính phân 
+biệt của thang đo (Henseler và cộng sự, 2015). 
+
+Bảng 3. 
+Chỉ số HTMT 
+
+Cấu trúc 1 2 3 4 
+
+Duy trì ĐNGV     
+
+Sự hài lòng công việc 0,817    
+
+Gắn kết với tổ chức 0,650 0,717   
+
+Động lực làm việc 0,709 0,702 0,434  
+
+4.2. Mô hình cấu trúc 
+
+ 
+
+Hình 2. Mô hình cấu trúc 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+100 
+
+ 
+
+Để đo lường mô hình cấu trúc, nghiên cứu đã xem xét hệ số xác định (giá trị R2), hệ số tác động 
+chuẩn hóa (β), giá trị kiểm định t, mức ý nghĩa của kiểm định t thông qua 1.000 lần bootstrap được 
+đề xuất bởi Hair và cộng sự (2019), hệ số đánh giá năng lực dự báo ngoài mẫu (Q2) và hệ số ảnh 
+hưởng (f2) cùng với các biện pháp cơ bản. 
+
+Bảng 4. 
+Kiểm định giả thuyết 
+
+Giả thuyết β Giá trị kiểm 
+định t 
+
+P Kết luận 
+
+H1: Sự hài lòng công việc => Gắn 
+kết với tổ chức 
+
+0,664 6,963 0,001 Chấp nhận 
+
+H2: Động lực làm việc => Gắn kết 
+với tổ chức 
+
+–0,013 0,115 0,908 Bác bỏ 
+
+H3: Gắn kết với tổ chức => Duy trì 
+ĐNGV 
+
+0,205 2,167 0,000 Chấp nhận 
+
+H4: Sự hài lòng công việc => Duy trì 
+ĐNGV 
+
+0,406 3,349 0,000 Chấp nhận 
+
+H5: Động lực làm việc => Duy trì 
+ĐNGV 
+
+0,312 2,929 0,003 Chấp nhận 
+
+H6: Sự hài lòng công việc => Động 
+lực làm việc 
+
+0,636 8,107 0,000 Chấp nhận 
+
+ 
+Kết quả phân tích tại Bảng 4 cho thấy sự hài lòng công việc có ảnh hưởng tích cực và đáng kể đến 
+
+gắn kết với tổ chức, duy trì ĐNGV và động lực làm việc (β = 0,664; β = 0,406; và β = 0,636). Hơn 
+nữa, động lực làm việc và gắn kết với tổ chức có tác động tích cực đến duy trì ĐNGV (β = 0,312 và 
+β = 0,205). Như vậy, giả thuyết H1, H3, H4, H5, H6 được chấp nhận. 
+
+Ngược lại, giả thuyết H2 bị bác bỏ bởi kết quả nghiên cứu cho thấy động lực làm việc có tác động 
+tiêu cực đến gắn kết tổ chức, với β = –0,013 và p > 0,05 không có ý nghĩa thống kê. 
+
+Bảng 5. 
+Mức độ ảnh hưởng 
+
+Mối quan hệ Hệ số ảnh hưởng (f2) Mức ảnh hưởng 
+
+H1: Sự hài lòng công việc => Gắn kết với tổ chức 0,460 Lớn 
+
+H2: Động lực làm việc => Gắn kết với tổ chức 0,000 Không có tác động 
+
+H3: Gắn kết với tổ chức => Duy trì ĐNGV 0,064 Nhỏ 
+
+H4: Sự hài lòng công việc => Duy trì ĐNGV 0,180 Trung bình 
+
+H5: Động lực làm việc => Duy trì ĐNGV 0,155 Trung bình 
+
+H6: Sự hài lòng trong công việc => Động lực làm việc 0,678 Lớn 
+
+ 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+101 
+
+ 
+
+Kết quả phân tích tại Bảng 5 cho thấy rằng sự hài lòng công việc có tác động tích cực đáng kể 
+nhất đến động lực làm việc với giá trị f2 = 0,678. Tiếp theo là sự hài lòng công việc tác động đến gắn 
+kết với tổ chức với giá trị f2 = 0,460. Sự hài lòng công việc và động lực làm việc có tác động trung 
+bình đến duy trì ĐNGV với giá trị f2 tương ứng lần lượt là 0,180 và 0,155. Và gắn kết với tổ chức có 
+tác động nhỏ đến duy trì ĐNGV với giá trị f2 = 0,064. Cuối cùng, động lực làm việc không có tác 
+động đến gắn kết với tổ chức. 
+
+Bảng 6. 
+Đánh giá sự liên quan dự báo 
+
+Cấu trúc R2 R2-hiệu chỉnh Q2 Mức độ chính xác dự báo 
+
+Duy trì ĐNGV 0,626 0,614 0,349 Trung bình 
+
+Gắn kết với tổ chức 0,430 0,418 0,291 Trung bình 
+
+Động lực làm việc 0,404 0,398 0,261 Trung bình 
+
+Kết quả phân tích tại Bảng 6 cho thấy R2-hiệu chỉnh của duy trì ĐNGV = 0,614, cho thấy các biến 
+độc lập (Gắn kết với tổ chức, sự hài lòng công việc, và động lực làm việc) đã giải thích được 61,4% 
+sự biến thiên của biến duy trì ĐNGV, còn lại 38,6% là từ sai số hệ thống và từ các yếu tố khác nằm 
+ngoài mô hình. Tiếp đến là R2-hiệu chỉnh của gắn kết với tổ chức = 0,418 cho thấy sự hài lòng công 
+việc đã giải thích được 41,8% sự biến thiên của biến gắn kết với tổ chức, còn lại 58,2% là từ sai số hệ 
+thống và từ các yếu tố khác nằm ngoài mô hình. Cuối cùng là R2-hiệu chỉnh của động lực làm việc = 
+0,398 cho thấy sự hài lòng công việc đã giải thích được 39,8% sự biến thiên của biến động lực làm 
+việc, còn lại 60,2% là từ sai số hệ thống và các yếu tố khác nằm ngoài mô hình. Hơn nữa, kết quả 
+nghiên cứu cũng cho thấy, tất cả các mô hình thành phần đều có Q2 > 0, do đó, mô hình cấu trúc tổng 
+thể của nghiên cứu đạt chất lượng tổng thể (Hair và cộng sự, 2019). 
+
+4.3. Thảo luận 
+
+Nghiên cứu này nhằm đo lường sự tác động của sự hài lòng công việc, gắn kết với tổ chức và động 
+lực làm việc đến duy trì ĐNGV tại các trường ĐHCL TCTC khu vực miền Bắc. 
+
+Kết quả của nghiên cứu đã chỉ ra rằng sự hài lòng công việc, gắn kết với tổ chức và động lực làm 
+việc có tác động tích cực đáng kể đến duy trì ĐNGV tại các trường ĐHCL TCTC. Ngoài ra, kết quả 
+nghiên cứu cũng cho thấy sự hài lòng công việc có tác động tích cực đến gắn kết với tổ chức và động 
+lực làm việc của ĐNGV tại các trường ĐHCL TCTC. Các phát hiện này phù hợp với kết quả nghiên 
+cứu của Nguyễn Danh Nam và Uông Thị Ngọc Lan (2022), Tanwar và Prasad (2016), Kaur (2017), 
+Shah và Asad (2018), Vokić và Hernaus (2015). 
+
+Ngoài ra, kết quả nghiên cứu đã chỉ ra động lực làm việc không có tác động đáng kể nào đến gắn 
+kết đối với tổ chức của ĐNGV. Kết quả này không ủng hộ quan điểm của Warsi và cộng sự (2009), 
+nhưng hoàn toàn phù hợp với quan điểm của Astuti và Amalia (2021). Bởi GV đã có động lực làm 
+việc xuất phát từ các giá trị bên trong của nghề giáo mà không cần thêm bất cứ sự gắn kết với tổ chức. 
+Do đó, ngay cả khi không có sự gắn kết với tổ chức, việc duy trì ĐNGV vẫn tăng cao. 
+
+Để xác định cụ thể từng yếu tố của mô hình tác động đến duy trì ĐNGV tại các trường ĐHCL 
+TCTC, nghiên cứu đã đưa ra năm kết quả quan trọng: 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+102 
+
+ 
+
+- Thứ nhất, bắt đầu với giả thuyết H1, sự hài lòng công việc có tác động tích cực đến gắn kết với 
+tổ chức với β = 0,664. Kết quả này phù hợp với nghiên cứu của Nguyễn Danh Nam và Uông Thị 
+Ngọc Lan (2022). Điều đó có nghĩa là nếu GV có mức độ hài lòng cao sẽ gắn kết với trường cao hơn. 
+
+- Thứ hai, làm sáng tỏ giả thuyết H3, gắn kết với tổ chức được xác định là có tác động tích cực đến 
+duy trì ĐNGV với β = 0,205. Phát hiện này phù hợp với kết luận của Kaur (2017). Nhưng kết quả này 
+có sự mâu thuẫn với Soenanta và cộng sự (2020) cho rằng gắn kết với tổ chức có tác động cao hơn sự 
+hài lòng công việc đến duy trì ĐNGV tại các trường ĐHCL TCTC. 
+
+- Thứ ba, đối với giả thuyết H4, sự hài lòng công việc có tương quan tích cực và có tác động lớn 
+nhất đến duy trì ĐNGV với β = 0,406. Phát hiện này phù hợp với nghiên cứu của Tanwar và Prasad 
+(2016) khi sự hài lòng công việc được thiết lập để trở thành một yếu tố đóng góp quan trọng duy trì 
+ĐNGV. Kết quả này cũng có nghĩa là nếu muốn giữ chân ĐNGV ở lại làm việc lâu dài thì các trường 
+ĐHCL TCTC phải tạo cho họ sự hài lòng công việc. Tuy nhiên, kết quả này có sự mâu thuẫn với 
+Soenanta và cộng sự (2020) cho rằng sự hài lòng công việc có tác động yếu đến duy trì ĐNGV. 
+
+- Thứ tư, liên quan đến giả thuyết H5, động lực làm việc có tác động tích cực đến duy trì ĐNGV 
+tại các trường ĐHCL TCTC với β = 0,312. Khẳng định này được ủng hộ bởi Shah và Asad (2018). 
+Điều đó cũng có nghĩa là động lực làm việc càng cao thì khả năng giữ chân ĐNGV của các trường 
+ĐHCL TCTC càng lớn. 
+
+- Cuối cùng, sự hài lòng công việc có tác động tích cực đến động lực làm việc với β = 0,636. Phát 
+hiện này có sự tương đồng với nghiên cứu của Vokić và Hernaus (2015). Điều này có nghĩa là các 
+GV càng hài lòng với công việc, họ càng có nhiều động lực làm việc hơn. 
+
+Nhìn chung, kết quả nghiên cứu này có sự khác biệt về bối cảnh nghiên cứu so với Huỳnh Thị 
+Thu Sương và Nguyễn Văn Danh (2021), Lưu Minh Vững (2022) vì được nghiên cứu trong bối cảnh 
+các trường ĐHCL TCTC khu vực miền Bắc. 
+
+Mặc dù, những kết quả trên không có tính mới lạ trong lĩnh vực nghiên cứu, nhưng điểm sự khác 
+biệt rõ rệt trong nghiên cứu này là phương pháp nghiên cứu được sử dụng. Phương pháp lấy mẫu phán 
+đoán và mô hình phương trình cấu trúc dựa trên bình phương tối thiểu riêng phần (PLS-SEM) được 
+sử dụng đã đóng góp quan trọng tạo nên điểm nhấn độc đáo về phương pháp nghiên cứu so với các 
+nghiên cứu trước đó. Trong đó, phương pháp lấy mẫu phán đoán đã giúp cho các nhà quản trị của các 
+trường ĐHCL TCTC khu vực miền Bắc xác định chính xác đặc điểm của những GV mà họ cần  
+duy trì.  
+
+5. Hàm ý quản trị 
+
+Về mặt lý thuyết, nghiên cứu này đóng góp to lớn vào việc xây dựng kiến thức trong lĩnh vực 
+QTNNL và xác định mối quan hệ của ba yếu tố ảnh hưởng đến duy trì ĐNGV tại các trường ĐHCL 
+TCTC khu vực miền Bắc. Bên cạnh đó, nghiên cứu này cũng sẽ đóng góp vào việc hình thành các 
+phương pháp tiếp cận để thành công duy trì ĐNGV trong các trường ĐH ở Việt Nam như một cơ sở 
+lý thuyết và tài liệu cho các nghiên cứu tiếp theo phát triển. 
+
+Về mặt thực tiễn, nghiên cứu này đã bổ sung thêm mô hình duy trì ĐNGV thông qua các yếu tố 
+về sự hài lòng công việc, động lực làm việc và gắn kết với tổ chức của ĐNGV. Ngoài ra, nghiên cứu 
+này sẽ có ý nghĩa sâu rộng đối với các bên liên quan khác nhau vì nó sẽ dẫn đến việc xác định những 
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+103 
+
+ 
+
+lĩnh vực mới và tạo ra khuôn khổ mới để thúc đẩy nghiên cứu sâu hơn về chủ đề duy trì ĐNNV trong 
+cả khu vực nhà nước và tư nhân của nền kinh tế, đặc biệt là giữa các trường ĐH nói chung và các 
+trường ĐHCL TCTC nói riêng ở Việt Nam. 
+
+Dựa trên những đóng góp quan trọng của nghiên cứu này và kết quả phân tích đã mang lại một số 
+hàm ý quản trị lý thuyết và thực tiễn cho nhà quản trị tại các trường ĐHCL TCTC khu vực miền Bắc 
+để duy trì ĐNGV như sau: 
+
+- Một là, sự hài lòng công việc là yếu tố tác động lớn nhất đến duy trì ĐNGV tại các trường ĐHCL 
+TCTC. Do đó, lãnh đạo của các trường cần xây dựng một chính sách đánh giá kết quả thực hiện công 
+bằng, khách quan để có những chế độ khen thưởng, phê bình kịp thời. Bên cạnh đó, các trường cần 
+tạo mối liên kết chặt chẽ giữa trưởng khoa và ĐNGV cũng như tạo môi trường làm việc thoải mái. 
+Đặc biệt, lãnh đạo các trường cần quan tâm đến các cơ hội đào tạo và thăng tiến của ĐNGV. 
+
+- Hai là, động lực làm việc có ảnh hưởng quan trọng đến công tác duy trì ĐNGV tại các trường 
+ĐHCL TCTC. Vì vậy, lãnh đạo của các trường cần tạo hứng thú trong công việc cho ĐNGV bằng 
+cách ghi nhận kết quả thực hiện công việc, khuyến khích thông qua các chính sách đãi ngộ vật chất 
+và phi vật chất. 
+
+- Ba là, gắn kết với tổ chức cũng có ảnh hưởng đáng kể đến duy trì ĐNGV tại các trường ĐNCL 
+TCTC. Do đó, để tăng sự gắn kết của ĐNGV, các trường cần cho ĐNGV thấy bản thân họ là một 
+mảnh ghép quan trọng trong thành công của trường. Tổ chức tập huấn, tuyên truyền để xây dựng tinh 
+thần trách nhiệm trong công việc và cho họ thấy được sự tự hào về nghề dạy học – nghề cao quý nhất 
+trong những nghề cao quý. 
+
+6. Kết luận và hạn chế của nghiên cứu 
+
+Nghiên cứu đã khám phá tác động của sự hài lòng công việc, gắn kết với tổ chức và động lực làm 
+việc đến duy trì ĐNGV tại các trường ĐHCL TCTC thông qua bộ dữ liệu thu được bằng phương pháp 
+khảo sát trực tiếp ĐNGV đang giảng dạy tại các trường ĐHCL TCTC khu vực miền Bắc. Phân tích 
+PLS-SEM đã được thực hiện để xác định sự tác động giữa các cấu trúc trong mô hình nghiên cứu. 
+Kết quả phân tích cho thấy sự hài lòng công việc, gắn kết với tổ chức và động lực làm việc có tác 
+động tích cực và trực tiếp đến duy trì ĐNGV tại các trường ĐHCL TCTC. Ngoài ra, sự hài lòng công 
+việc có tác động đáng kể đến gắn kết với tổ chức và động lực làm việc của ĐNGV tại các trường 
+ĐHCL TCTC khu vực miền Bắc. 
+
+Mặc dù đã đạt được mục đích nghiên cứu đề ra, nhưng nghiên cứu này vẫn còn cỡ mẫu hạn chế 
+do chỉ được thực hiện tại 8 trường ĐHCL TCTC ở khu vực miền Bắc. Do đó, để khắc phục hạn chế 
+trên, các nghiên cứu trong tương lai có thể tăng cỡ mẫu và mở rộng phạm vi nghiên cứu đến toàn bộ 
+các trường ĐHCL TCTC khu vực miền Bắc, miền Trung, và miền Nam. 
+
+  
+
+
+
+ 
+ Nguyễn Danh Nam & Uông Thị Ngọc Lan (2022) JABES 33(11) 90–106  
+
+104 
+
+ 
+
+ 
+
+Tài liệu tham khảo 
+Abraham, S. (2012). Job satisfaction as an antecedent to employee engagement. SIES Journal of 
+
+Management, 8(2), 27–36. 
+
+Adeyinka, T., Ayein, C. O., & Popoola, S. O. (2007). Work motivation, job satisfaction, and 
+organisational commitment of library personnel in academic and research libraries in Oyo State, 
+Nigeria. Library Philosophy and Practice, 118, 1–16. 
+
+Allen, N. J., & Meyer, J. P. (1990). The measurement and antecedents of affective, continuance and 
+normative commitment to the organization. Journal of Occupational Psychology, 63(1), 1–18. 
+
+Astuti, W., & Amalia, L. (2021). The relationship between work motivation, job satisfaction, and 
+employee performance: The moderating role of psychology capital and the mediating role of 
+organizational commitment. Journal Management Teori dan Terapan, 14(2), 102–128. 
+
+Bộ Giáo dục và Đào tạo. (2021). Số liệu thống kê giáo dục đại học năm học 2020–2021. Truy cập 
+ngày 28/06/2021, từ https://moet.gov.vn/thong-ke/Pages/thong-ko-giao-duc-dai-
+hoc.aspx?ItemID=7389 
+
+Braham, C. G. (2002). Random House/Webster’s School and Office Dictionary (2nd ed.). New York: 
+Random House. 
+
+Bùi Anh Tuấn, & Phạm Thúy Hương. (2009). Giáo trình hành vi tổ chức. Hà Nội: NXB Đại học Kinh 
+tế Quốc dân. 
+
+Cardy, R. L., Miller, J. S., & Elis, A. D. (2007). Employee equity: Toward a person-based approach 
+to HRM. Human Resource Management Review, 17(2), 140–151. 
+
+Chin, W. W., Peterson, R. A., & Brown, S. P. (2008). Structural equation modeling in marketing: 
+Some practical reminders. Journal of Marketing Theory and Practice, 16(4), 287–298. 
+
+Currivan, D. B. (1999). The causal order of job satisfaction and organizational commitment in models 
+of employee turnover. Human Resource Management Review, 9(4), 495–524. 
+
+Fornell, C., & Larcker, D. F. (1981). Evaluating structural equation models with unobservable 
+variables and measurement error. Journal of Marketing Research, 18(1), 39–50. 
+
+Hair, J. F., Sarstedt, M., Hopkins, L., & Kuppelwieser, V. G. (2014). Partial least squares structural 
+equation modeling (PLS-SEM): An emerging tool in business research. European Business 
+Review, 26(2), 106–121. 
+
+Hair, J. F., Risher, J. J., Sarstedt, M., & Ringle, C. M. (2019). When to use and how to report the 
+results of PLS-SEM. European Business Review, 31(1), 2–24. 
+
+Henseler, J., Ringle, C. M., & Sarstedt, M. (2015). A new criterion for assessing discriminant validity 
+in variance-based structural equation modeling. Journal of the Academy of Marketing Science, 
+43(1), 115–135. 
+
+Herzberg, F., Mausner, B., & Snyderman, B. B. (1959). The Motivation to Work (2nd ed.). New York: 
+John Wiley & Sons. 
+
+Hứa Thị Khuyên, & Hoàng Minh Thúy. (2019). Một số giải pháp nâng cao chất lượng đội ngũ giảng 
+viên đại học Việt Nam trong giai đo

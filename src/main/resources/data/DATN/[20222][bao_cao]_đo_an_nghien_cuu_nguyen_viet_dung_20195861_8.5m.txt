@@ -1,0 +1,2050 @@
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI
+VIỆN TOÁN ỨNG DỤNG VÀ TIN HỌC
+
+ĐỒ ÁN NGHIÊN CỨU
+
+Lược đồ học giám sát yếu
+
+cho bài toán chỉnh sửa dáng người
+
+ứng dụng trong huấn luyện thể thao
+
+Nguyễn Việt Dũng
+
+dung.nv195861@sis.hust.edu.vn
+
+Ngành Toán tin
+
+Giảng viên hướng dẫn: TS. Trần Ngọc Thăng
+Chữ kí của GVHD
+
+Bộ môn: Toán Tin
+
+Viện: Toán ứng dụng và Tin học
+
+HÀ NỘI, 8/2023
+
+
+
+NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN
+
+1. Mục tiêu và nội dung của đồ án
+
+(a) Mục tiêu: Nghiên cứu đề xuất phương lược đồ học giám sát yếu đầu tiên cho bài
+
+toán chỉnh sửa dáng người và đưa ra ứng dụng trong việc huấn luyện thể thao tại
+
+nhà.
+
+(b) Nội dung: Lược đồ học giám sát yếu cho bài toán chỉnh sửa dáng người: thuật
+
+toán, mô hình đề xuất, thử nghiệm trên một tập dữ liệu ảnh.
+
+2. Kết quả đạt được
+
+(a) Đề xuất lược đồ học giám sát yếu cho bài toán chỉnh sửa dáng người.
+
+(b) Đưa ra ứng dụng trong việc huấn luyện thể thao tại nhà.
+
+3. Ý thức làm việc của sinh viên:
+
+(a) Có ý thức, trách nhiệm cao trong quá trình học tập và làm đồ án.
+
+(b) Chịu khó học hỏi và tìm hiểu những kiến thức chuyên sâu liên quan đến đồ án.
+
+(c) Có khả năng nghiên cứu, có khả năng lập trình trên ngôn ngữ Python. Hoàn
+
+thành tốt đồ án tốt nghiệp Đại học Bách khoa Hà Nội.
+
+Hà Nội, tháng 8 năm 2023
+
+Giảng viên hướng dẫn
+
+TS. Trần Ngọc Thăng
+
+
+
+Lời cảm ơn
+“Nơi đẹp nhất là nơi mà chúng ta đã từng đi qua, quãng thời gian đẹp nhất là
+
+quãng thời gian mà chúng ta không thể quay trở lại.”
+
+Bốn năm học tập tại Đại học Bách khoa Hà Nội quả là một quãng thời gian đáng
+
+nhớ với những kỷ niệm của tuổi thanh xuân. Em còn nhớ những ngày đầu tiên nhập
+
+học, là những ngày đầy lạ lẫm với môi trường mới, thầy cô mới và bạn bè mới tại Viện
+
+Toán ứng dụng và Tin học. Lúc đó, là một sinh viên năm Nhất, em không tránh khỏi
+
+được sự bỡ ngỡ và lo lắng với những buổi học trên giảng đường D3 với lượng kiến thức
+
+lớn từ bài giảng của Thầy Cô. Một năm học trôi qua, sang đến năm Hai, em đã quen
+
+được môi trường học tập tại đây, quen được nhiều bạn mới và tham gia nhiều hoạt động
+
+của Liên chi Đoàn - Liên chi Hội. Năm học thứ ba bắt đầu cùng với sự bùng phát của
+
+đại dịch Covid19, bất kỳ ai cũng đều cảm thấy lo lắng với sức khỏe và gặp khó khăn
+
+trong việc học trực tuyến. Rồi sau đó, nhờ sự hỗ trợ của Viện và Nhà trường, sinh viên
+
+chúng em cũng đã vượt qua đại dịch, vẫn chuyên tâm học tập và cố gắng đạt kết quả
+
+cao nhất. Năm thứ Tư và cũng là năm cuối kết thúc hành trình học tập tại Trường, em
+
+đã tham gia cuộc thi Sinh viên nghiên cứu khoa học lần thứ 39, tuy không được giải
+
+cao nhưng em đã rất hài lòng với nỗ lực của mình và đã có được một dấu ấn với Viện
+
+Toán ứng dụng và Tin học. Nhìn lại quãng thời gian ấy, em không thể nào quên được.
+
+Hành trình học tập gian nan vất vả ấy không thể thiếu được là những người Thầy
+
+Cô của Viện Toán ứng dụng và Tin học đã định hướng và dẫn dắt để làm nên chúng
+
+em của ngày hôm nay. Các Thầy Cô không chỉ truyền đạt kiến thức mà còn là những
+
+kỹ năng học tập và làm việc, những kỹ năng đối nhân xử thế khi bước ra cuộc đời.
+
+Đặc biệt, em xin gửi lời cảm ơn chân thành nhất đến TS.Trần Ngọc Thăng, là người đã
+
+hướng dẫn các đồ án của em. Ngoài ra, em xin gửi lời cảm ơn đến anh Nguyễn Trung
+
+Nghĩa, anh không chỉ là một người bạn mà cũng như là một người thầy, đã không ngại
+
+chỉ dạy và giúp em hoàn thiện đồ án của mình.
+
+Bên cạnh đó, thật may mắn khi được đồng hành cùng những người bạn, những
+
+người anh chị đã góp phần làm nên quãng thời gian tuổi trẻ này. Trước hết, đó là Liên
+
+chi Đoàn - Liên chi Hội sinh viên Viện Toán ứng dụng và Tin học, các bạn đã giúp
+
+mình hòa nhập với môi trường mới, giúp mình rèn luyện và phấn đấu trong suốt 4 năm
+
+học. Mình xin cảm ơn các bạn Mảng học tập và nghiên cứu khoa học, đã luôn nhiệt
+
+huyết đồng hành cùng mình trong các hoạt động học tập làm việc và cả những cuộc
+
+
+
+chơi quên lối về, những kỉ niệm ấy mình sẽ không bao giờ quên.
+
+Hành trình học tập tại Đại học Bách khoa Hà Nội sắp khép lại, và cũng dẫn mở ra
+
+một con đường hướng về tương lai phía trước. Trước những bước ngoặt của cuộc đời,
+
+không ai giấu được những lo lắng bồi hồi, nhưng với những hành trang em đã tích lũy
+
+và trau dồi, em tin chắc rằng mình có đủ bản lĩnh để dũng cảm bước tới và viết nên
+
+cuộc đời của chính bản thân mình.
+
+Hà Nội, tháng 8 năm 2023
+
+Tác giả đồ án
+
+Nguyễn Việt Dũng
+
+
+
+Tóm tắt nội dung Đồ án
+
+1. Trình bày các kiến thức cơ bản về học sâu, học giám sát yếu và hai kiến trúc
+
+mạng phổ biến là mạng nơ-ron đồ thị và mạng Transformer.
+
+2. Nghiên cứu bài toán chỉnh sửa dáng người và đề xuất lược đồ học giám sát yếu
+
+đầu tiên cho bài toán chỉnh sửa dáng người.
+
+3. Đưa ra một ví dụ về ứng dụng của bài toán trong việc huấn luyện thể thao tại nhà.
+
+Hà Nội, tháng 8 năm 2023
+
+Tác giả đồ án
+
+Nguyễn Việt Dũng
+
+
+
+Mục lục
+
+Bảng ký hiệu và chữ viết tắt 1
+
+Danh sách bảng 2
+
+Danh sách hình vẽ 3
+
+Chương 1 Một số khái niệm và kết quả cơ bản 3
+
+1.1 Thị giác máy tính . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+1.1.1 Thị giác máy tính trong học sâu . . . . . . . . . . . . . . . . 3
+
+1.1.2 Các ứng dụng của thị giác máy tính . . . . . . . . . . . . . . 4
+
+1.2 Học sâu và học giám sát yếu . . . . . . . . . . . . . . . . . . . . . . 5
+
+1.2.1 Giám sát không đầy đủ . . . . . . . . . . . . . . . . . . . . . 5
+
+1.2.2 Giám sát không hoàn toàn chính xác . . . . . . . . . . . . . . 7
+
+1.2.3 Giám sát không chính xác . . . . . . . . . . . . . . . . . . . 8
+
+1.3 Mạng nơ-ron đồ thị . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+1.3.1 Mạng nơ-ron đồ thị GNN . . . . . . . . . . . . . . . . . . . . 9
+
+1.3.2 Mạng tích chập đồ thị GCN . . . . . . . . . . . . . . . . . . 11
+
+1.4 Mạng Transformers . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+1.4.1 Kiến trúc . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+1.4.2 Vision Transformer . . . . . . . . . . . . . . . . . . . . . . . 14
+
+Chương 2 Bài toán chỉnh sửa dáng người 17
+
+2.1 Bài toán trích xuất dáng người (Human Pose Estimation) . . . . . . . 17
+
+2.1.1 OpenPose . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+2.1.2 AlphaPose . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+2.2 Bài toán chỉnh sửa dáng người (Human Pose Correction) . . . . . . . 23
+
+
+
+2.2.1 YogNet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+
+2.2.2 3D Pose Based Feedback For Physical Exercises . . . . . . . 25
+
+Chương 3 Lược đồ học giám sát yếu Predictor-Corrector 27
+
+3.1 Lược đồ học giám sát yếu . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+3.2 Mô-đun dự đoán Predictor . . . . . . . . . . . . . . . . . . . . . . . 29
+
+3.3 Mô-đun chỉnh sửa Corrector . . . . . . . . . . . . . . . . . . . . . . 33
+
+Chương 4 Ứng dụng của lược đồ học giám sát yếu trong bài việc giám sát
+
+luyện tập thể thao 37
+
+4.1 Mô tả hệ thống . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+
+4.2 Thử nghiệm và kết quả . . . . . . . . . . . . . . . . . . . . . . . . . 38
+
+4.2.1 Bộ dữ liệu tập thể thao . . . . . . . . . . . . . . . . . . . . . 38
+
+4.2.2 Cài đặt thử nghiệm . . . . . . . . . . . . . . . . . . . . . . . 40
+
+4.2.3 Kết quả . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+
+
+
+Bảng ký hiệu và chữ viết tắt
+
+Ký hiệu Ý nghĩa
+
+Rn Không gian vector thực n chiều
+L1 Chuẩn 1 trong không gian Euclidean
+L2 Chuẩn 2 trong không gian Euclidean
+L Hàm mất mát của mô hình học sâu
+
+Chữ viết tắt Ý nghĩa
+
+HPE Human Pose Estimation (Ước lượng dáng người)
+HPC Human Pose Correction (Chỉnh sửa dáng, tư thế người)
+GNN Graph Neural Network (Mạng nơ-ron đồ thị)
+GCN Craph Convolutional Network (Mạng nơ-ron tích chập)
+MSE Mean Squared Error (Sai số trung bình căn)
+CE Hàm mất mát cross-entropy
+RELU Hàm kích hoạt Rectified Linear Unit
+MSA Multi-head attention (Mạng tập trung đa đầu)
+MLP Multi Layer Perceptron (Mạng tri giác nhiều lớp)
+
+
+
+Danh sách bảng
+
+4.1 Bộ dữ liệu Workout/Exercise Images. . . . . . . . . . . . . . . . 39
+4.2 Kết quả sau khi huấn luyện mô hình. . . . . . . . . . . . . . . . 42
+4.3 So sánh giữa phương pháp đề xuất và Baseline . . . . . . . . . . 44
+
+2
+
+
+
+Danh sách hình vẽ
+
+1.1 Một đồ thị với các đỉnh và cạnh được đánh nhãn . . . . . . . . 11
+1.2 Kiến trúc của mô hình Transformer. . . . . . . . . . . . . . . . 13
+1.3 Khối tự tập trung (self-attention) . . . . . . . . . . . . . . . . . 14
+1.4 Khối tập trung đa đầu (multi-head attention) . . . . . . . . . . . 15
+1.5 Kiến trúc của Vision Transformer . . . . . . . . . . . . . . . . 16
+
+2.1 Các điểm khớp được trích xuất bởi OpenPose. . . . . . . . . . . 18
+2.2 Pipeline của OpenPose . . . . . . . . . . . . . . . . . . . . . . 19
+2.3 Kiến trúc của CNN nhiều giai đoạn. . . . . . . . . . . . . . . . 20
+2.5 Kiến trúc của FastPosse. . . . . . . . . . . . . . . . . . . . . . 22
+2.4 Pipeline của AlphaPose. . . . . . . . . . . . . . . . . . . . . . 23
+2.6 Pipeline của mô hình YogNet . . . . . . . . . . . . . . . . . . . 25
+2.7 Hệ thống chỉnh sửa dáng người tập thể thao . . . . . . . . . . . 26
+
+3.1 Lược đồ học giám sát yếu Predictor-Corrector. . . . . . . . . . . 29
+3.2 Kiến trúc của mô hình Predictor đề xuất. . . . . . . . . . . . . . 30
+3.3 Kiến trúc của Corrector đề xuất . . . . . . . . . . . . . . . . . . 33
+3.4 Dáng được chỉnh không thực tế. . . . . . . . . . . . . . . . . . 35
+3.5 Huấn luyện tiền nhiệm Corrector. . . . . . . . . . . . . . . . . . 35
+
+4.1 Hệ thống gợi ý chỉnh sửa tư thế tập thể thao. . . . . . . . . . . . 37
+4.2 Một vài ví dụ cho việc gợi ý cách chỉnh sửa dáng cho người tập. 38
+4.3 Động tác Squat. . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+4.4 Động tác tricep. . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+4.5 Một số ảnh trong bộ dữ liệu. . . . . . . . . . . . . . . . . . . . 40
+4.6 Thống kê về bộ dữ liệu. . . . . . . . . . . . . . . . . . . . . . . 41
+4.7 Đồ thị hàm mất mát của Predictor. . . . . . . . . . . . . . . . . 42
+
+3
+
+
+
+4.8 Đồ thị độ chính xác của Predictor. . . . . . . . . . . . . . . . . 43
+4.9 Đồ thị hàm mất mát của Corrector. . . . . . . . . . . . . . . . . 43
+4.10 Đồ thị độ chính xác của Corrector. . . . . . . . . . . . . . . . . 43
+4.11 Kết quả của việc chỉnh sửa dáng . . . . . . . . . . . . . . . . . 44
+4.12 Một vài kết quả khác. . . . . . . . . . . . . . . . . . . . . . . . 44
+
+4
+
+
+
+Mở đầu
+
+Bài toán được nghiên cứu trong đồ án này là bài toán chỉnh sửa dáng người.
+Cho tư thế H của một người, ta cần xây dựng một mô hình học sâu, hay ánh
+xạ sao cho mô hình nhận đầu vào là dáng H và đầu ra là dáng đúng hơn H′
+
+của động tác đang thực hiện.
+Đây là một bài toán không hề dễ. Lý do thứ nhất, động tác của con người
+
+có thể thay đổi tùy theo góc nhìn và kích thước của con người. Lý do thứ hai
+và quan trọng hơn, để có được một mô hình tốt thì dữ liệu và lược đồ huấn
+luyện là một yếu tố không thể thiếu. Đối với bài toán chỉnh sửa dáng người,
+việc thu thập dữ liệu theo hướng học giám sát đầy đủ đòi hỏi cần có động tác
+sai và đúng của cùng một người để có thể thực hiện huấn luyện. Một vài lược
+đồ huấn luyện đối với trường hợp có đầy đủ dữ liệu có thể kể đến như sử dụng
+hàm mất mát MSE trên dáng được chỉnh sửa và dáng được dự đoán hoặc có
+thể dùng hàm mất mát TripletLoss. Tuy nhiên, để có thể thu thập đủ dữ liệu
+không phải là việc đơn giản, thậm trí là vô cùng tốn công sức đối với trường
+hợp dữ liệu sử dụng là video.
+
+Mục tiêu của đồ án này ngoài việc nghiên cứu bài toán chỉnh sửa dáng
+người mà còn đề xuất một lược đồ học giám sát yếu mà ở đó không cần thiết
+phải có dáng chuẩn và không chuẩn của cùng một người để thực hiện chỉnh
+sửa dáng. Theo như khảo sát và tìm hiểu của tác giả, đây là nghiên cứu đầu
+tiên tiếp cận bài toán chỉnh sửa dáng người theo phương pháp học giám sát
+yếu. Thêm vào đó, ứng dụng của nghiên cứu này sẽ được khai thác và trở
+thành hướng phát triển trong tương lai. Với tinh thần như vậy, bố cục của đồ
+án sẽ được sắp xếp như sau:
+
+• Chương 1: Trình bày một vài khái niệm về học giám sát yếu và các mô
+hình quan trọng trong việc nghiên cứu bài toán bao gồm mạng nơ-ron
+đồ thị (Graph Neural Network) và cơ chế chú ý (attention mechanism)
+trong kiến trúc Transformer.
+
+1
+
+
+
+• Chương 2: Tập trung vào nghiên cứu bài toán chỉnh sửa dáng người.
+Tại đây, hai phương pháp chủ đạo sẽ được phân tích sâu là phương pháp
+rule-based và phương pháp học có giám sát.
+
+• Chương 3: Giới thiệu lược đồ học giám sát yếu đề xuất. Các thành phần
+của lược đồ và lợi ích của lược đồ học giám sát yếu sẽ được phân tích
+sâu ở đây.
+
+• Chương 4: Thử nghiệm lược đồ với mô hình được xuất với bộ dữ liệu tư
+thế tập thể thao.
+
+2
+
+
+
+Chương 1
+
+Một số khái niệm và kết quả cơ bản
+
+1.1 Thị giác máy tính
+
+Thị giác máy tính là một lĩnh vực nghiên cứu về cách máy tính có thể hiểu
+và xử lý hình ảnh và video. Trong những năm gần đây, thị giác máy tính đã có
+những bước tiến vượt bậc nhờ sự phát triển của học sâu, một nhánh của học
+máy dựa trên các mạng nơ-ron nhân tạo. Trong đồ án này, em sẽ giới thiệu về
+các khái niệm cơ bản và ứng dụng của thị giác máy tính trong học sâu, cũng
+như các thách thức và xu hướng trong lĩnh vực này.
+
+1.1.1 Thị giác máy tính trong học sâu
+
+Thị giác máy tính trong học sâu là việc sử dụng các mô hình học sâu để
+thực hiện các nhiệm vụ liên quan đến hình ảnh và video, như phân loại hình
+ảnh, nhận dạng khuôn mặt, phát hiện đối tượng, phân đoạn ảnh, tăng cường
+ảnh, sinh ảnh và nhiều nhiệm vụ khác. Các mô hình học sâu là các mạng
+nơ-ron nhân tạo có nhiều lớp xử lý thông tin từ đầu vào đến đầu ra. Các lớp
+này có thể được huấn luyện để tự động học được các đặc trưng quan trọng
+từ dữ liệu, thay vì phải thiết kế bằng tay như trong các phương pháp truyền
+thống.
+
+Một trong những loại mô hình học sâu phổ biến nhất trong thị giác máy
+tính là các mạng nơ-ron tích chập (Convolutional Neural Networks - CNNs).
+Các CNNs là các mạng nơ-ron có các lớp tích chập, trong đó các nơ-ron được
+kết nối với một vùng nhỏ của lớp trước đó thông qua một bộ lọc (filter) hay
+kernel. Bộ lọc này có thể được coi là một cửa sổ trượt trên đầu vào, áp dụng
+một phép biến đổi tuyến tính để tạo ra một đầu ra gọi là bản đồ đặc trưng
+
+3
+
+
+
+(feature map). Các bản đồ đặc trưng này có thể được xếp chồng lên nhau để
+tạo ra các lớp tích chập mới, với mỗi lớp học được các đặc trưng ngày càng
+phức tạp và trừu tượng hơn. Các CNNs có thể học được các đặc trưng như
+cạnh, góc, khuôn dạng, màu sắc, kết cấu và các đối tượng từ dữ liệu hình ảnh.
+
+1.1.2 Các ứng dụng của thị giác máy tính
+
+Thị giác máy tính trong học sâu có rất nhiều ứng dụng trong cuộc sống
+và công nghiệp. Đầu tiên là phân loại hình ảnh, đây là việc xác định nhãn
+của một hình ảnh cho trước, ví dụ như loại hoa, loài vật hay biển báo giao
+thông. Các kiến trúc CNNs có thể đạt được độ chính xác cao trong nhiệm vụ
+này, vượt qua con người trong một số bộ dữ liệu lớn như ImageNet [8] hay
+CIFAR-10. Tiếp đến là nhận dạng khuôn mặt hay nói cách khác là việc xác
+định danh tính của một người từ hình ảnh khuôn mặt của họ. Các CNNs có
+thể học được các đặc trưng riêng biệt của mỗi người, và sử dụng chúng để so
+sánh với các hình ảnh khác. Các ứng dụng của nhận dạng khuôn mặt bao gồm
+chấm công, bảo mật, giám sát và giải trí. Ngoài ra còn có phát hiện đối tượng,
+nhiệm vụ này đòi hỏi xác định vị trí và loại của các đối tượng trong một hình
+ảnh. Các kiến trúc như R-CNN [11], YOLO [29] hay SSD [19]được sử dụng
+rộng rãi để phát hiện và gắn nhãn các đối tượng trong một khung hình chữ
+nhật. Các ứng dụng của phát hiện đối tượng bao gồm xe tự lái, an ninh, y tế và
+nông nghiệp. Chúng ta còn có thể kể đến bài toán phân đoạn ảnh là việc phân
+chia một hình ảnh thành các vùng có ý nghĩa, ví dụ như nền, đối tượng hay cơ
+quan trong cơ thể. Các kiến trúc phổ biến cho bài toán này sử dụng các lớp
+tích chập ngược (Deconvolutional Layers) hay các lớp kết nối đầy đủ (Fully
+Connected Layers) để tạo ra các bản đồ phân đoạn có cùng kích thước với
+hình ảnh gốc. Các ứng dụng của phân đoạn ảnh bao gồm chỉnh sửa ảnh, thực
+tế ảo, y tế và giáo dục. Quan trọng không kém là bài toán tăng cường ảnh,
+đây là việc cải thiện chất lượng của một hình ảnh bị nhiễu, mờ hay thiếu chi
+tiết. Ta có thể sử dụng các kiến trúc như Autoencoders [32] hay Generative
+Adversarial Networks (GANs) để học cách tái tạo hoặc sinh ra các hình ảnh
+sắc nét và rõ ràng hơn. Các ứng dụng của tăng cường ảnh bao gồm nhiếp ảnh,
+an ninh, y tế và nghệ thuật. Cuối cùng và đang là lĩnh vực phát triển nhất hiện
+nay là sinh ảnh - việc tạo ra các hình ảnh mới từ không khí hoặc từ một hình
+ảnh cho trước. Các kiến trúc như Variational Autoencoders [16] hay GANs
+
+4
+
+
+
+[2] có thể học cách sinh ra các hình ảnh thực tế hoặc giả tưởng. Mới đây nhất
+là các mô hình Diffusion được đề xuất bởi Song [24] và Ho [15] đã tạo nên
+cuộc cách mạng trong lĩnh vực sinh ảnh. Các ứng dụng của sinh ảnh bao gồm
+giải trí, nghệ thuật, thiết kế và giáo dục.
+
+1.2 Học sâu và học giám sát yếu
+
+Hầu hết các thuật toán học sâu thành công hiện nay đều được huấn luyện
+theo phương pháp học có giám sát. Điều này đòi hỏi chú thích (annotations)
+được cung cấp cho một lượng lớn dữ liệu huấn luyện. Trong nhiều tác vụ, việc
+này gặp nhiều khó khăn do sự tốn kém về nhân lực và thời gian để thu được
+nhãn chi tiết của dữ liệu. Vì vậy, thật lý tưởng khi các thuật toán học máy/học
+sâu có thể hoạt động tốt trong trường hợp được huấn luyện theo phương pháp
+học giám sát yếu.
+
+Về cơ bản, giám sát yếu [35] được chia làm ba loại. Đầu tiên là giám sát
+không đầy đủ (incomplete supervised), ở đây, chỉ có một tập con của dữ liệu
+huấn luyện được gán nhãn, còn lại đều không có nhãn. Trường hợp như vậy
+thường xuất hiện trong nhiều tác vụ. Ví dụ, trong bài toán phân loại hình ảnh,
+rất dễ dàng để lấy được dữ liệu hình ảnh trên Internet, tuy nhiên chỉ có một số
+lượng nhất định hình ảnh có thể được gán nhãn do sự giới hạn về nhân lực.
+Thứ hai là giám sát không hoàn toàn chính xác, ở đây, dữ liệu được chú thích
+đầy đủ nhưng chỉ không được chú thích một cách chi tiết đến mức lý tưởng.
+Loại cuối cùng là giám sát không chính xác,tức là nhãn được cung cấp không
+phải lúc nào cũng chính xác.
+
+Học giám sát yếu là một thuật ngữ bao trùm dùng để gọi các nghiên cứu
+mà ở đó người ta cố gắng xây dựng một mô hình dự đoán bằng cách cố gắng
+học dưới sự giám sát yếu. Từ việc phân chia của khái niệm giám sát yếu ta
+tương tự có thể định nghĩa ba khái nhiệm học giám sát yếu lần lượt là học
+giám sát không đầy đủ, học giám sát không hoàn toàn chính xác và học giám
+sát không chính xác.
+
+1.2.1 Giám sát không đầy đủ
+
+Giám sát không đầy đủ ám chỉ trạng thái mà dữ liệu huấn luyện không
+được gán nhãn đầy đủ hoặc chính xác. Đây là một vấn đề thường gặp trong
+thực tế, khi việc thu thập và xử lý dữ liệu có thể tốn nhiều thời gian và công
+
+5
+
+
+
+sức. Vì vậy, các phương pháp học máy có thể hoạt động tốt với giám sát
+không đầy đủ được coi là rất quan trọng và hữu ích. Hay nói cách khác, ta
+đang cố gắng để huấn luyện một ánh xạ f : X → Y thông qua tập dữ liệu
+D = {(x1,y1),(x2,y2), . . . ,(xl,yl),xl+m, . . . ,xm}, trong đó l là số lượng điểm
+dữ liệu được chú thích. Giám sát không đầy đủ có thể được phân loại theo hai
+tiêu chí: mức độ và nguồn gốc của sự thiếu hụt hoặc nhiễu loạn của nhãn.
+
+Theo mức độ, giám sát không đầy đủ có thể được chia thành ba loại:
+• Học giám sát yếu: Là trường hợp mà dữ liệu huấn luyện chỉ có nhãn cấp
+
+độ thấp, ví dụ như nhãn cho một tập ảnh chứ không phải cho từng ảnh
+riêng lẻ. Phương pháp học máy phải tìm cách suy luận nhãn cấp độ cao
+từ nhãn cấp độ thấp.
+
+• Học bán giám sát: Là trường hợp mà dữ liệu huấn luyện chỉ có một phần
+được gán nhãn, còn lại là không có nhãn. Phương pháp học máy phải tận
+dụng cả dữ liệu có nhãn và không có nhãn để học được một mô hình tốt.
+
+• Học không giám sát: Là trường hợp mà dữ liệu huấn luyện hoàn toàn
+không có nhãn. Phương pháp học máy phải tự tìm ra cấu trúc hay ý nghĩa
+ẩn trong dữ liệu.
+
+Theo nguồn gốc, giám sát không đầy đủ có thể được chia thành hai loại:
+• Thiếu do ngẫu nhiên: Là trường hợp mà việc thiếu hoặc nhiễu loạn của
+
+nhãn là do ngẫu nhiên, không liên quan đến thuộc tính của dữ liệu. Ví
+dụ, trong bài toán phân loại ảnh, có thể có những ảnh bị thiếu nhãn do
+quá trình thu thập dữ liệu bị lỗi.
+
+• Thiếu không do ngẫu nhiên: Là trường hợp mà việc thiếu hoặc nhiễu
+loạn của nhãn là do có liên quan đến thuộc tính của dữ liệu. Ví dụ, trong
+bài toán phát hiện gian lận, có thể có những giao dịch bị gán nhãn sai do
+kẻ gian lận cố tình che giấu hoặc làm sai lệch thông tin.
+
+Hai kỹ thuật chính để giải quyết vấn đề này đó là học chủ động (active
+learning) và học bán giám sát (semi-sipervised learning). Cho một tập dữ
+liệu không có nhãn U và một ngân sách gán nhãn B. Học chủ động là phương
+pháp lựa chọn ra một tập hợp gồm B sample từ U để gán nhãn sao cho mô
+hình đạt được hiệu quả tốt nhất. Học bán giám sát cố gắng khai thác lượng dữ
+liệu chưa được gán nhãn nhằm mục đích củng cố chất lượng học của mô hình.
+
+6
+
+
+
+1.2.2 Giám sát không hoàn toàn chính xác
+
+Giám sát không hoàn toán chính xácn là một khái niệm mới trong lĩnh vực
+học máy, đặc biệt là học có giám sát. Giám sát không hoàn toán chính xácn là
+việc sử dụng những nhãn không chính xác hoặc không đầy đủ để huấn luyện
+các mô hình học máy. Những nhãn này có thể được tạo ra bởi con người, bởi
+các hệ thống tự động, hoặc bởi các nguồn dữ liệu ngoài. Giám sát không hoàn
+toán chính xácn có thể giúp giải quyết những thách thức về chi phí, thời gian,
+và khả năng mở rộng của việc thu thập và gán nhãn dữ liệu chính xác. Các
+loại giám sát không hoàn toán chính xác bao gồm:
+
+• Giám sát có nhiễu: Là việc sử dụng những nhãn nhiễu, ví dụ như những
+nhãn sai, không nhất quán, hoặc không đồng bộ.
+
+• Giám sát không hoàn toán chính xác: Là việc sử dụng những nhãn
+không đầy đủ, ví dụ như chỉ có một phần của dữ liệu được gán nhãn,
+hoặc chỉ có một số lớp được gán nhãn hoặc dữ liệu chỉ gồm những nhãn
+"yếu", tức nhãn chỉ được gán ở một mức độ nông và không chi tiết.
+
+Đồ án này sẽ tập trung vào giám sát không đầy đủ, một ví dụ cho việc huấn
+luyện dữ liệu với trường hợp dữ liệu được gán nhãn không đầy đủ có thể kể
+đến nghiên cứu của tác giả vào năm 2022 với bài toán phân vùng ảnh cá trong
+môi trường nước [21]. Các ứng dụng của giám sát không hoàn toán chính
+xácn rất đa dạng và phong phú, bao gồm:
+
+• Phân loại văn bản: Có thể sử dụng weak supervision để tạo ra những
+nhãn từ những quy tắc hay từ khóa, hoặc sử dụng noisy supervision để
+tận dụng những nguồn dữ liệu ngoài có sẵn, ví dụ như Wikipedia hay
+Twitter.
+
+• Nhận diện đối tượng: Có thể sử dụng giám sát không đầy đủ để huấn
+luyện các mô hình chỉ với một số lượng ít ảnh được gán nhãn.
+
+• Dịch máy: Có thể sử dụng giám sát có nhiễu để huấn luyện các mô hình
+với những cặp câu song ngữ không chính xác hay không tự nhiên, hoặc
+sử dụng giám sát không đầy đủ để huấn luyện các mô hình với chỉ một
+số ngôn ngữ được gán nhãn.
+
+Các phương pháp để xử lý giám sát không hoàn toán chính xácn trong học
+máy có thể được phân loại theo hai hướng:
+
+• Hướng dữ liệu: Là việc cố gắng cải thiện chất lượng của dữ liệu được
+gán nhãn, ví dụ như bằng cách loại bỏ hay sửa chữa những nhãn nhiễu,
+
+7
+
+
+
+hoặc bằng cách bổ sung hay hoàn thiện những nhãn thiếu sót.
+• Hướng mô hình: Là việc thiết kế mô hình học máy/học sâu với khả năng
+
+học trong bối cảnh dữ liệu chỉ có các nhãn yếu. Ví dụ như trong nghiên
+cứu của tác giả vào năm 2022 [21].
+
+1.2.3 Giám sát không chính xác
+
+Học giám sát không chính xác là một khái niệm trong lĩnh vực học máy,
+nó chỉ trạng thái mà nhãn của dữ liệu huấn luyện không chính xác hoặc không
+đầy đủ. Giám sát không chính xác có thể gây ra nhiều vấn đề cho quá trình
+học và đánh giá của các mô hình học máy, như làm giảm độ chính xác, tăng
+độ phức tạp, gây ra hiện tượng overfitting hoặc underfitting.
+
+Các nguyên nhân của giám sát không chính xác có thể phân loại thành hai
+loại: do con người và do máy. Do con người là khi nhãn của dữ liệu được gán
+bởi những người có kiến thức hoặc kinh nghiệm không đủ, hoặc có thiên lệch
+hoặc sai lầm trong quá trình gán nhãn. Do máy là khi nhãn của dữ liệu được
+sinh ra bởi các thuật toán hoặc hệ thống tự động, nhưng có sai số hoặc không
+phù hợp với bối cảnh của bài toán. Ví dụ, một hệ thống phân loại ảnh có thể
+gán nhãn cho một bức ảnh là "chó" khi nó thực sự là "mèo", hoặc gán nhãn
+cho một bức ảnh là "vui" khi nó thực sự là "buồn".
+
+Các hậu quả của giám sát không chính xác có thể ảnh hưởng đến cả quá
+trình học và đánh giá của các mô hình học máy. Trong quá trình học, giám sát
+không chính xác có thể làm cho các mô hình học máy không thể tìm ra được
+các quan hệ hay các đặc trưng quan trọng của dữ liệu, hoặc tìm ra được các
+quan hệ hay các đặc trưng sai lệch hoặc vô nghĩa. Điều này có thể dẫn đến
+việc các mô hình học máy không có khả năng khái quát hoá tốt cho dữ liệu
+mới, hoặc có khả năng khái quát hoá quá mức hoặc quá ít cho dữ liệu mới.
+Trong quá trình đánh giá, giám sát không chính xác có thể làm cho các phép
+đo hiệu năng của các mô hình học máy không phản ánh được chất lượng thực
+tế của chúng, hoặc có sự chênh lệch lớn giữa các phép đo khác nhau. Điều
+này có thể gây khó khăn cho việc so sánh, lựa chọn và cải thiện các mô hình
+học máy.
+
+Cách khắc phục của giám sát không chính xác có thể bao gồm các phương
+pháp như: kiểm tra và sửa lỗi nhãn của dữ liệu, sử dụng các kỹ thuật tiền xử
+lý và sau xử lý để loại bỏ hoặc giảm thiểu ảnh hưởng của nhãn sai, sử dụng
+
+8
+
+
+
+các kỹ thuật học bán giám sát hoặc không giám sát để tận dụng dữ liệu không
+nhãn hoặc ít nhãn, sử dụng các kỹ thuật học chuyển tiếp để áp dụng kiến thức
+từ miền nguồn sang miền đích, sử dụng các kỹ thuật học tăng cường để thích
+nghi với môi trường động và không xác định.
+
+1.3 Mạng nơ-ron đồ thị
+
+Mạng nơ-ron đồ thị (GNN) là một lớp các mô hình học sâu có khả năng
+xử lý dữ liệu có cấu trúc đồ thị. Đồ thị là một cấu trúc dữ liệu phổ biến trong
+nhiều lĩnh vực, như xã hội học, sinh học, vật lý, tin học và nhiều hơn nữa. Đồ
+thị biểu diễn các đối tượng như các nút và các mối quan hệ giữa chúng như
+các cạnh. Một số ví dụ về đồ thị là mạng xã hội, mạng sinh học, đồ thị tri thức
+và đồ thị văn bản.
+
+GNN là một sự kết hợp của hai ý tưởng chính: mạng nơ-ron và đại số đồ
+thị. Mạng nơ-ron là một loại mô hình học sâu có thể biểu diễn và học được
+các hàm phi tuyến phức tạp từ dữ liệu. Đại số đồ thị là một nhánh toán học
+nghiên cứu các tính chất và phép toán trên đồ thị. GNN sử dụng các phép toán
+đại số đồ thị để tính toán các biểu diễn vector cho các nút và cạnh của đồ thị,
+sau đó sử dụng các lớp mạng nơ-ron để học được các hàm ánh xạ từ các biểu
+diễn này sang các nhãn hoặc giá trị mong muốn.
+
+Trong phần này của đồ án, ta định nghĩa một đồ thị là một cặp G = {V,E}
+mà ở đó V là tập các đỉnh của đồ thị, E là tập các cạnh của đồ thị. Mỗi đỉnh
+của đồ thị sẽ tương ứng với một vector thực D chiều được gọi là đặc trưng của
+mỗi đỉnh ký hiệu là hi ∈ RD. Tập hợp các đặc trưng của các đỉnh ta được ma
+trận H ∈ RD×N .
+
+1.3.1 Mạng nơ-ron đồ thị GNN
+
+Dữ liệu thường dễ dàng được trực quan hóa và giải thích dưới dạng đồ thị.
+Đồ thị giúp tìm ra những câu trả lời ẩn giữa những mẫu phức tạp, bên cạnh đó
+cũng làm sáng tỏ những mối quan hệ tiềm ẩn giữa các điểm dữ liệu. Do đó,
+không có gì ngạc nhiên khi các ứng dụng đồ thị xuất hiện khắp nơi, từ phân
+tích mạng xã hội [3, 6] đến khoa học thần kinh [5, 25], xếp hạng trang web
+[4] và hóa học [27].
+
+Kể từ năm 2006, lý thuyết đồ thị đã có liên kết chặt chẽ với học máy với
+khái niệm mới về ứng dụng Mạng Nơ-ron Đồ thị. Đề xuất đầu tiên được công
+
+9
+
+
+
+bố vào năm 2006 bởi Scarselli và Gori [22] và sau đó được tổng quát hóa vào
+năm 2008 [23] với bài báo "The graph neural network model". Tại đây, các
+tác giả đã đặt nền tảng toán học cho Mạng Nơ-ron Đồ thị hiện đại. Kể từ đó,
+giới nghiên cứu đã chứng kiến sự gia tăng của các công trình mạng nơ-ron
+đồ thị, xác định rõ ràng hơn những yếu tố then chốt của các cấu trúc toán học
+này và cách liên kết chúng với các thuật toán học máy tinh vi hơn.
+
+Mạng nơ-ron đồ thị (GNN) bắt nguồn từ hai kỹ thuật: mạng nơ-ron đệ quy
+(RNN) [12] và chuỗi Markov [28], ở đó, ý tưởng cơ bản là mã hóa dữ liệu
+bằng cách sử dụng đồ thị, khai thác các mối quan hệ giữa các nút. Cụ thể,
+phương pháp RNN tập trung vào đồ thị, nơi mục tiêu của người dùng là gán
+nhãn cho một đồ thị đã cho, sau khi được đào tạo với các đồ thị đã gán nhãn.
+Phương pháp chuỗi Markov tập trung vào nút, nơi mỗi nút được gán nhãn và
+người dùng đang tìm kiếm dự đoán ở cấp độ nút. Mô hình GNN bao gồm việc
+học từ các mô hình trước đó và phù hợp với cả ứng dụng tập trung vào đồ thị
+và nút.
+
+Ngoài ra, GNN tổng quát hóa các tính toán dựa trên đồ thị, để xử lý cả đồ
+thị đối xứng và không đối xứng, hình 1. Một đồ thị được xác định là đối xứng
+nếu các thuộc tính giữa các nút không thay đổi sau khi sửa đổi vị trí của các
+nút - tức là bạn luôn thu được cùng một đồ thị. Ngược lại, trong một đồ thị
+không đối xứng, thứ tự rất quan trọng, vì có thể thu được các đồ thị khác nhau
+bằng cách xáo trộn vị trí của các nút. Trong trường hợp không đối xứng, một
+cặp nút xác định một cạnh được gọi là cung và đồ thị được gọi là có hướng -
+tức là, nó có một hướng cụ thể.
+
+Trong mạng nơ-ron đồ thị, mỗi nút và cạnh được biểu diễn dưới dạng
+vector gọi là nhãn. Một nhãn là một vector trong Rs, với một kích thước được
+xác định trước, mã hóa các đặc trưng mô tả từng nút và mối quan hệ giữa các
+nút. Trong quá trình tính toán, mỗi nút được gán một vector trạng thái xn ∈Rs
+
+được xác định bởi nhãn của nút cũng như nhãn của các đỉnh kề. Ngoài ra, mỗi
+nút có một hàm chuyển tiếp cục bộ fw, mô hình hóa sự phụ thuộc của các đặc
+trưng xn đối với ngữ cảnh của nút thứ n và một hàm đầu ra cục bộ ow, mô tả
+cách sản tạo đầu ra on cho mỗi nút.xn = fw(ln, lco[n],xne[n], lne[n])on = gw(xn, ln) (1.1)
+
+10
+
+
+
+Hình 1.1: Một đồ thị với các đỉnh và cạnh được đánh nhãn
+
+Trong đó,(ln, lco[n],xne[n] và lne[n] lần lượt là nhãn của các cạnh của đỉnh thứ n
+và trạng thái, nhãn của các đỉnh lân cận của đỉnh đó. Trong trường hợp đồ thị
+không đánh chỉ số, hàm fw trong công thức (1.1) nên được cụ thể hóa dưới
+dạng,
+
+xn = ∑
+u∈N(vn)
+
+hw(ln, l(n,u),xu, lu) (1.2)
+
+Từ công thức (1.1) và (1.2), ta có được công thức lặp cho dữ liệu dạng đồ thị
+và từ đó xây dựng được mạng nơ-ron đồ thị phục vụ các tác vụ khác nhau ví
+dụ như phân loại node hoặc phân loại đồ thị.
+
+1.3.2 Mạng tích chập đồ thị GCN
+
+Mạng tích chập đồ thị (Graph Convolutional Network - GCN) là một loại
+mạng nơ-ron nhân tạo (Artificial Neural Network - ANN) được thiết kế để xử
+lý dữ liệu có cấu trúc đồ thị. Đồ thị là một cấu trúc dữ liệu biểu diễn các đối
+tượng (đỉnh) và các quan hệ giữa chúng (cạnh). Ví dụ, một đồ thị có thể biểu
+diễn các trang web và các liên kết giữa chúng, hoặc các người dùng mạng xã
+hội và các kết nối của họ.
+
+GCN là một sự kết hợp giữa mạng tích chập (Convolutional Neural Network
+- CNN) và mạng đồ thị (Graph Neural Network - GNN). CNN là một loại
+ANN phổ biến trong xử lý ảnh, âm thanh và văn bản, bởi vì chúng có khả
+
+11
+
+
+
+năng học được các đặc trưng cục bộ và phân cấp từ dữ liệu có cấu trúc lưới.
+Tuy nhiên, CNN không thể xử lý dữ liệu có cấu trúc đồ thị, bởi vì đồ thị không
+có sự sắp xếp nhất quán và không có tính chất tương quan không gian giữa các
+đỉnh. GNN là một loại ANN được thiết kế để xử lý dữ liệu đồ thị, bằng cách
+sử dụng các quy tắc cập nhật trạng thái của các đỉnh dựa trên thông tin của
+các hàng xóm. Tuy nhiên, GNN không có khả năng học được các đặc trưng
+phân cấp từ dữ liệu đồ thị, bởi vì chúng không sử dụng tích chập.
+
+GCN khắc phục nhược điểm của CNN và GNN, bằng cách áp dụng tích
+chập trên đồ thị. Tích chập trên đồ thị là một phép toán toán học cho phép
+tính toán trung bình trọng số của các giá trị của các hàng xóm của một đỉnh,
+theo một hàm số được gọi là bộ lọc (filter). Bằng cách sử dụng tích chập trên
+đồ thị, GCN có thể học được các đặc trưng cục bộ và phân cấp từ dữ liệu đồ
+thị, mà không phụ thuộc vào sự sắp xếp hay tương quan không gian của các
+đỉnh. Về cụ thể, một phép tích chập đồ thị được thể hiện bởi công thức sau:
+
+H′ = σ(WHÃ). (1.3)
+
+Trong đó, σ(.) là hàm kích hoạt của mạng nơ-ron còn Ã là ma trận kề đối
+xứng được chuẩn hóa. Trong nhiều trường hợp ma trận Ã được khởi tạo dưới
+dạng tham số của mô hình để làm đa dạng hóa đặc trưng của mỗi tầng trong
+mô hình.
+
+GCN có nhiều ứng dụng trong các lĩnh vực liên quan đến dữ liệu đồ thị,
+như phân loại đỉnh, phân loại cạnh, phân loại đồ thị, phát hiện cộng đồng, gợi
+ý sản phẩm, phát hiện gian lận, nhận diện khuôn mặt, nhận diện vật thể, phân
+tích liên kết và trích xuất cũng như phân loại hành vi của con người.
+
+1.4 Mạng Transformers
+
+Để kết hợp các ưu điểm của CNN và RNN, [Vaswani et al., 2017] đã thiết
+kế một kiến trúc mới bằng cách sử dụng cơ chế tập trung. Kiến trúc này gọi là
+Transformer, song song hóa bằng cách học chuỗi hồi tiếp với cơ chế tập trung,
+đồng thời mã hóa vị trí của từng phần tử trong chuỗi. Kết quả là ta có một mô
+hình tương thích với thời gian huấn luyện ngắn hơn đáng kể.
+
+12
+
+
+
+1.4.1 Kiến trúc
+
+Tương tự như mô hình seq2seq, Transformer cũng dựa trên kiến trúc mã
+hóa-giải mã. Tuy nhiên, nó thay thế các tầng hồi tiếp trong seq2seq bằng các
+tầng tập trung đa đầu (multi-head attention), kết hợp thông tin vị trí thông
+qua biểu diễn vị trí (positional encoding) và áp dụng chuẩn hóa tầng (layer
+normalization). Hình 1.2 sẽ so sánh cấu trúc của Transformer và seq2seq.
+Nhìn chung, hai mô hình này khá giống nhau: các embedding của chuỗi nguồn
+được đưa vào n khối lặp lại. Đầu ra của khối mã hóa cuối cùng sau đó được
+sử dụng làm bộ nhớ tập trung cho bộ giải mã. Tương tự, các embedding của
+chuỗi đích được đưa vào n khối lặp lại trong bộ giải mã. Ta thu được đầu ra
+cuối cùng bằng cách áp dụng một tầng dày đặc có kích thước bằng kích thước
+bộ từ vựng lên các đầu ra của khối giải mã cuối cùng.
+
+Hình 1.2: Kiến trúc của mô hình Transformer.
+
+Mặt khác, Transformer khác với mô hình seq2seq sử dụng cơ chế tập trung
+như sau:
+
+• Khối Transformer: một tầng hồi tiếp trong seq2seq được thay bằng
+một Khối Transformer. Với bộ mã hóa, khối này chứa một tầng tập trung
+đa đầu và một mạng truyền xuôi theo vị trí (position-wise feed-forward
+network) gồm hai tầng dày đặc. Đối với bộ giải mã, khối này có thêm
+một tầng tập trung đa đầu khác để nhận vào trạng thái bộ mã hóa.
+
+13
+
+
+
+• Cộng và chuẩn hóa: đầu vào và đầu ra của cả tầng tập trung đa đầu
+hoặc mạng truyền xuôi theo vị trí được xử lý bởi hai tầng "cộng và
+chuẩn hóa" bao gồm cấu trúc phần dư và khối chuẩn hóa theo tầng (layer
+normalization).
+
+• Biễu diễn vị trí: do tầng tự tập trung không phân biệt thứ tự phần tử
+trong một chuỗi, nên tầng biễu diễn vị trí được sử dụng để thêm thông
+tin vị trí vào từng phần tử trong chuỗi.
+
+Giống như các mô hình tập trung bình thường, mô hình tự tập trung cũng có
+câu truy vấn, khóa và giá trị nhưng chúng được sao chép từ các phần tử trong
+chuỗi đầu vào. Như minh họa trong , tầng tự tập trung trả về một đầu ra tuần
+tự có cùng độ dài với đầu vào. So với tầng hồi tiếp, các phần tử đầu ra của
+tầng tự tập trung có thể được tính toán song song, do đó việc xây dựng các
+đoạn mã tốc độ cao khá dễ dàng.
+
+Hình 1.3: Khối tự tập trung (self-attention)
+
+Tầng tập trung đa đầu bao gồm h đầu là các tầng tự tập trung song song.
+Trước khi đưa vào mỗi đầu, ta chiếu các câu truy vấn, khóa và giá trị qua ba
+tầng dày đặc với kích thước ẩn lần lượt là pq, pk và pv. Giả sử chiều của câu
+truy vấn, khóa và giá trị lần lượt là dq, dk và dv. Khi đó, tại mỗi đầu i = 1, . . . ,h
+ta có thể học các tham số W(i)q ∈Rpq×dq, W(i)k ∈R
+
+pk×dk và W(i)v ∈Rpv×dv sao
+cho đầu ra tại mỗi đầu là:
+
+o(i) = attention(W(i)q q,W
+(i)
+k k,W
+
+(i)
+v v). (1.4)
+
+1.4.2 Vision Transformer
+
+Vào năm 2020, Vision Transformer (ViT) nổi lên như một giải pháp thay
+thế cạnh tranh so với các mạng thần kinh tích chập (Convolutional Neural
+
+14
+
+
+
+Hình 1.4: Khối tập trung đa đầu (multi-head attention)
+
+Network, gọi tắt là CNN) vốn đang là ứng dụng tiên tiến trong thị giác máy
+tính, và được sử dụng rộng rãi trong các tác vụ nhận dạng hình ảnh khác nhau.
+Các mô hình ViT được đánh giá là vượt trội hơn so với CNN gần 4 lần về hiệu
+quả tính toán và độ chính xác.
+
+Các mô hình Transformer từ trước đến nay đã trở thành nền tảng của rất
+nhiều mô hình khác, tạo ra một bước ngoặt lớn trong lĩnh vực Xử lý ngôn ngữ
+tự nhiên (NLP). Trong nghiên cứu thị giác máy tính, ngày càng có nhiều sự
+quan tâm dành cho Vision Transformer (ViT) – một loại mô hình Transformer.
+
+Trong khi mô hình Transformer đã trở thành tiêu chuẩn cho các tác vụ liên
+quan đến Xử lý ngôn ngữ tự nhiên (NLP), thì các trường hợp sử dụng nó trong
+thị giác máy tính (Computer Vision) vẫn chỉ là một con số ít ỏi. Trong thị giác
+máy tính, Cơ chế Attention sẽ hoặc được sử dụng kết hợp với các mạng nơ-ron
+tích chập (CNN), hoặc được sử dụng để thay thế các khía cạnh nhất định của
+CNN. Kiến trúc tổng thể của mô hình ViT được đưa ra như sau theo cách thức
+từng bước:
+
+1. Chia hình ảnh thành các mảng (patch) với kích thước từng mảng cố định.
+2. Làm phẳng các mảng hình ảnh.
+3. Tạo các feature embedding có chiều thấp hơn từ các mảng hình ảnh
+
+phẳng này.
+4. Bao gồm thứ tự các mảng.
+5. Chuỗi feature embedding được làm đầu vào cho transformer encoder.
+6. Thực hiện pre-train đối với mô hình ViT với các nhãn hình ảnh, sau đó
+
+được giám sát hoàn toàn trên một tập dữ liệu lớn.
+7. Tinh chỉnh model trên bộ dữ liệu riêng của từng bài toán.
+
+15
+
+
+
+Hình 1.5: Kiến trúc của Vision Transformer
+
+16
+
+
+
+Chương 2
+
+Bài toán chỉnh sửa dáng người
+
+Chỉnh sửa dáng người (Human Pose Correction) là một bài toán trong lĩnh
+vực thị giác máy tính, có mục tiêu là phát hiện và sửa chữa các sai lệch trong
+tư thế của con người trong các ảnh hoặc video. Bài toán này có ứng dụng quan
+trọng trong nhiều lĩnh vực như y tế, thể thao, giáo dục, nghệ thuật và giải trí.
+Một số ví dụ cụ thể của bài toán này là:
+
+- Phát hiện và sửa chữa các tư thế sai trong khi tập thể dục, nhằm nâng cao
+hiệu quả và tránh chấn thương. - Phát hiện và sửa chữa các tư thế sai trong khi
+học đàn, nhằm cải thiện kỹ năng và tránh đau cổ tay. - Phát hiện và sửa chữa
+các tư thế sai trong khi biểu diễn múa, nhằm tăng tính thẩm mỹ và đồng bộ.
+
+Để giải quyết bài toán này, một phương pháp phổ biến là sử dụng các mô
+hình học sâu để ước lượng các điểm khớp (keypoints) của cơ thể người trong
+ảnh hoặc video, sau đó so sánh với các điểm khớp chuẩn (ground truth) để
+xác định các sai lệch. Các sai lệch này có thể được sửa chữa bằng cách đưa ra
+các gợi ý hoặc chỉnh sửa trực tiếp trên ảnh hoặc video. Trước khi giải quyết
+việc chỉnh sửa tư thế, bước đầu tiên của mọi hệ thống gợi ý cách chỉnh sửa đó
+là trích xuất được các điểm khớp của người dùng thông qua ảnh hoặc videos.
+Các kỹ thuật trích xuất dáng người phổ biến sẽ được tìm hiểu trong chương
+này cùng với tổng quan tình hình nghiên cứu trong bài toán HPC.
+
+2.1 Bài toán trích xuất dáng người (Human Pose Estimation)
+
+Bài toán trích xuất dáng người là bài toán nhận diện các khớp cơ thể của
+con người trong ảnh hoặc video. Bài toán này có nhiều ứng dụng thực tế như
+phân tích hành vi, giám sát an ninh, thể thao, y tế, giải trí và thời trang. Bài
+
+17
+
+
+
+Hình 2.1: Các điểm khớp được trích xuất bởi OpenPose.
+
+toán này cũng đòi hỏi nhiều thách thức như sự đa dạng của hình dáng, kích
+thước, tư thế và góc nhìn của con người, cũng như sự che khuất, ánh sáng và
+nhiễu của môi trường. Các phương pháp giải quyết bài toán này có thể được
+chia thành hai loại chính: phương pháp dựa trên mô hình và phương pháp dựa
+trên học máy. Phương pháp dựa trên mô hình sử dụng các kiến thức về cấu
+trúc cơ thể của con người để xây dựng một mô hình toán học và tối ưu hóa
+nó để khớp với dữ liệu đầu vào. Phương pháp dựa trên học máy sử dụng các
+thuật toán học sâu để học cách ánh xạ từ dữ liệu đầu vào sang các khớp cơ
+thể một cách tự động. Phần này của đồ án sẽ tập trung vào các nghiên cứu sử
+dụng kỹ thuật học sâu bao gồm hai mô hình phổ biến và được sử dụng rộng
+rãi nhất hiện nay là OpenPose và AlphaPose.
+
+2.1.1 OpenPose
+
+OpenPose [7] được đề xuất bởi Cao và các cộng sự vào năm 2021 là một
+hệ thống nguồn mở cho việc ước lượng tư thế 2D của một hay nhiều người.
+Ước lượng tư thế con người là nhiệm vụ của thị giác máy tính để xác định
+vị trí các khớp/các bộ phận cơ thể con người trong một hình ảnh/video (ví
+dụ: mũi, vai trái, khuỷu tay phải, v.v.). Những khớp này còn được gọi là , và
+được biểu diễn bằng vị trí 2D của mỗi khớp trong hình ảnh. Một được biểu
+diễn bằng một cặp điểm khóa, ví dụ: (vai phải, khuỷu tay phải). Đầu ra của
+hệ thống là một tập hợp các tọa độ biểu diễn các điểm khóa, cùng với độ tin
+cậy của mô hình đối với mỗi điểm khóa. Ví dụ, trong mô hình mặc định, đầu
+ra là 25 vị trí điểm khóa biểu diễn cơ thể con người. Việc ước lượng tư thế
+
+18
+
+
+
+Hình 2.2: Pipeline của OpenPose
+
+người có thể sử dụng nó cho vô số những việc khác nhau, trong đó có: tương
+tác người-máy, theo dõi, nhận dạng hành động,...
+
+Pipeline của mô hình có thể được tóm tắt như sau:
+1. Tạo đặc trưng từ ảnh: Nhận đầu vào là một ảnh RGB và cho ra một
+
+loạt các ma trận đặc trưng F.
+2. CNN nhiều giai đoạn: Nhận đầu vào là các ma trận đặc trưng F bước
+
+phía trước và đưa ra dự đoán về bản đồ tin cậy từng phần (Part Confidence
+Maps) và trường thân cận từng phần (Part Affinity Fields - PAFs).
+
+3. Chuyển đổi: Thực hiện việc ghép cặp các bộ phận tương ứng được đề
+xuất từ bước 2.
+
+4. Tập hợp: Nhóm các kết quả lại thành một khung xương hoàn chỉnh
+
+Tạo đặc trưng từ ảnh
+
+Hình ảnh được phân tích bởi một CNN được khởi tạo bởi 10 lớp đầu tiên
+của VGG-19, và được tinh chỉnh. Giai đoạn này sinh ra một tập hợp các bản
+đồ đặc trưng (F), sau đó được truyền vào CNN nhiều giai đoạn.
+
+CNN nhiều lớp
+
+Giai đoạn đầu tiên của hệ thống là một mạng lan truyền tiến dự đoán một
+tập hợp các của các vị trí bộ phận cơ thể (một cho mỗi bộ phận cơ thể) và một
+tập hợp các trường vector 2D của Trường Hấp Dẫn Bộ Phận (PAF) (một cho
+mỗi chi*).
+
+Ma trận tin cậy mã hóa một hình ảnh RGB đầu vào có kích thước (h,w,3).
+Nếu chúng ta đang tìm kiếm 25 điểm khóa, sẽ có 25 bản đồ tin cậy, trong đó
+mỗi bản đồ tin cậy có kích thước (h,w), và mỗi ô trong đó có một giá trị số
+thực biểu diễn sự tin cậy của mô hình rằng bộ phận cơ thể liên quan đến nó.
+Lưu ý rằng có thể có nhiều người trong một hình ảnh, do đó có nhiều “đỉnh”
+
+19
+
+
+
+Hình 2.3: Kiến trúc của CNN nhiều giai đoạn.
+
+của các giá trị trong một bản đồ nhất định. Trong mỗi bản đồ tin cậy cho một
+điểm khóa , phải có một đỉnh tương ứng với mỗi bộ phận hiển thị, cho mỗi
+người trong hình ảnh. Giá trị tại mỗi vị trí được xác định bởi một phân phối
+chuẩn xung quanh bộ phận cơ thể thực tế trong hình ảnh.
+
+PAFs mã hóa mức độ liên kết giữa các bộ phận. Nghĩa là, mực độ tự tin
+của mô hình để quyết định một cặp bộ phận cơ thể cụ thể thuộc về cùng một
+người và tạo thành một chi. Đối với mỗi pixel trong PAF, trong khu vực thuộc
+về một chi cụ thể, một vector 2D mã hóa hướng chỉ từ một phần của chi đến
+phần kia, giữ lại cả thông tin vị trí và hướng trên vùng hỗ trợ của chi liên quan.
+
+Một số "chi" không phải là chi thực sự, nhưng là những cặp bộ phận cơ
+thể không thực sự kết nối trong cơ thể con người, nhưng sẽ được gọi là chi để
+đơn giản. CNN nhiều giai đoạn được tạo thành từ hai tập hợp các giai đoạn
+(hoặc hai nhánh), trong đó mỗi nhánh lặp lại cho một số lần lặp. Nhánh đầu
+tiên (màu xanh trong hình 2.3), dự đoán PAFs mã hóa các liên kết từng phần,
+trong khi nhánh thứ hai (màu đào trong hình 2.3) dự đoán các ma trận tin cậy.
+
+Kiến trúc dự đoán lặp lại tinh chỉnh các dự đoán qua các lần lặp liên tiếp.
+Trong mỗi bước lặp trong nhánh đầu tiên (ngoại trừ bước đầu tiên, chỉ nhận
+F), các dự đoán từ giai đoạn trước và các đặc trưng hình ảnh ban đầu F được
+ghép nối lại và sử dụng để tạo ra các dự đoán được tinh chỉnh. Quá trình này
+được lặp lại cho việc phát hiện bản đồ tin cậy, bắt đầu với dự đoán PAFs được
+cập nhật nhất.
+
+Để hướng dẫn mạng để dự đoán PAFs trong nhánh đầu tiên và các bản
+đồ tin cậy trong nhánh thứ hai, các tác giả của bài báo áp dụng một hàm mất
+mát ở cuối mỗi giai đoạn. Họ sử dụng hàm chuẩn euclid L2 giữa các dự đoán
+
+20
+
+
+
+ước lượng và trường ground truth. Sự giám sát trung gian ở mỗi giai đoạn
+giải quyết vấn đề tiêu biến gradient (gradien vanishing) bằng cách bổ sung
+gradient theo chu kỳ.
+
+Parsing
+
+Việc chọn lọc không tối đa (non-maximum suppression) được thực hiện
+trên các ma trận tin cậy để thu được một tập rời rạc của vị trí các ứng viên của
+các bộ phận. Hãy nhớ rằng cho mỗi bộ phận cơ thể, ta có thể có nhiều ứng
+viên, không chỉ do các kết quả dương tính giả mà còn do có thể có nhiều người
+trong hình ảnh. Số người trong hình ảnh là không xác định, vì vậy với một tập
+hợp các bộ phận cơ thể, làm thế nào chúng ta biết được những bộ phận nào là
+kết quả dương tính thực, và trong số đó bộ phận nào thuộc về người nào? Đây
+là nơi PAFs xuất hiện. Hãy nhớ PAFs cho ta biết độ tin cậy của sự liên kết của
+mỗi cặp bộ phận cơ thể, tức là chúng có thuộc về cùng một người hay không.
+
+Tập hợp
+
+Sau khi tìm ra tất cả các ứng viên kết nối chi, chúng ta vẫn cần lắp ráp
+chúng để có được tư thế toàn thân cho mỗi người. Để làm điều này, chúng
+ta có thể kết hợp các kết nối chia sẻ cùng một bộ phận cơ thể. Nếu một kết
+nối cố gắng kết nối hai bộ phận cơ thể đã được gán cho hai người khác nhau,
+thuật toán nhận ra rằng điều này sẽ mâu thuẫn với một kết nối PAF có độ tin
+cậy cao hơn, và kết nối hiện tại sẽ bị bỏ qua.
+
+Cuối cùng, hệ thống xuất ra vị trí 2D của các điểm khóa giải phẫu cho mỗi
+người trong hình ảnh.
+
+2.1.2 AlphaPose
+
+AlphaPose [10] được đề xuất vào năm 2022 bởi Fang và các cộng sự với
+mục tiêu khắc phục nhược điểm của các hệ thống hai bước là giới hạn về tốc
+độ trích xuất dáng người. Để tăng tốc quá trình xử lý dữ liệu quy mô lớn,
+nhóm tác giả thiết kế một ống dẫn năm giai đoạn với triển khai đa tiến trình
+để tăng tốc quá trình suy luận. Hình 2.4 minh họa cơ chế của AlphaPose.
+Nhóm tác giả chia toàn bộ quá trình suy luận thành năm mô-đun, tuân theo
+nguyên tắc rằng mỗi mô-đun tiêu thụ thời gian xử lý tương tự nhau. Trong
+quá trình suy luận, mỗi mô-đun được lưu trữ bởi một quá trình hoặc luồng
+
+21
+
+
+
+độc lập. Mỗi quá trình giao tiếp với các quá trình tiếp theo bằng một hàng đợi
+First-In-First-Out, tức là nó lưu trữ kết quả được tính toán của mô-đun hiện
+tại và các mô-đun tiếp theo sẽ lấy kết quả từ hàng đợi. Với thiết kế như vậy,
+các mô-đun này có thể chạy song song, dẫn đến việc tăng tốc đáng kể và cho
+phép ứng dụng thời gian thực.
+
+Hệ thống hai bước của AlphaPose có thể sử dụng nhiều bộ phát hiện người
+và bộ ước lượng tư thế. Trong cài đặt hiện tại, nhóm tác giả sử dụng các bộ
+phát hiện có sẵn bao gồm YOLOV3 [29] và EfficientDet [26] được huấn luyện
+trên tập dữ liệu COCO [17]. Nhóm tác giả không huấn luyện lại các mô hình
+này vì mô hình được phát hành của họ đã hoạt động tốt trong trường hợp
+của Nhóm tác giả. Đối với bộ ước lượng tư thế, Nhóm tác giả thiết kế một
+backbone mới tên là FastPose, mang lại cả độ chính xác và hiệu quả cao. Cấu
+trúc mạng được minh họa trong Hình 2.5. Nhóm tác giả sử dụng ResNet [14]
+làm backbone mạng để trích xuất đặc trưng từ hình ảnh được cắt đầu vào. Ba
+mô-đun Dense Upsampling Convolution (DUC) được sử dụng để upsample
+các đặc trưng được trích xuất, tiếp theo là một lớp tích chập 1×1 để tạo ra
+heatmap. Mô-đun DUC đầu tiên áp dụng tích chập 2D cho bản đồ đặc trưng
+có kích thước h×w× c và sau đó thay đổi kích thước nó thành 2h×2w× c′
+
+thông qua một mô hình PixelShuffle. Để nâng cao hiệu suất hơn nữa, nhóm
+tác giả cũng kết hợp toán tử tích chập biến dạng vào backbone ResNet để cải
+thiện việc trích xuất đặc trưng. Mạng như vậy được gọi là FastPose-DCN.
+
+Hình 2.5: Kiến trúc của FastPosse.
+
+Nhờ sự linh hoạt của PyTorch, AlphaPose hỗ trợ cả hệ thống Linux và
+
+22
+
+
+
+Hình 2.4: Pipeline của AlphaPose. Hệ thống được chia thành năm mô-đun, gồm (a) mô-đun
+
+tải dữ liệu có thể nhận hình ảnh, video hoặc luồng camera làm đầu vào, (b) mô-đun phát
+
+hiện cung cấp đề xuất con người, (c) mô-đun biến đổi dữ liệu để xử lý kết quả phát hiện và
+
+cắt từng người đơn lẻ cho các mô-đun sau, (d) mô-đun ước lượng tư thế tạo ra các điểm
+
+chính và/hoặc danh tính con người cho mỗi người, (e) mô-đun xử lý sau để xử lý và lưu kết
+
+quả tư thế. Hệ thống của nhóm tác giả linh hoạt và mỗi mô-đun chứa nhiều thành phần
+
+có thể được thay thế và cập nhật dễ dàng. Hộp có viền nét đứt biểu thị các thành phần tùy
+
+chọn trong mỗi mô-đun.
+
+Windows. AlphaPose được tối ưu hóa cao cho mục đích sử dụng dễ dàng và
+phát triển tiếp, khi chúng tôi phân tách đường ống đào tạo và kiểm tra thành
+các mô-đun khác nhau và một người có thể dễ dàng thay thế hoặc cập nhật
+các mô-đun khác nhau cho mục đích tùy chỉnh. Đối với mô-đun tải dữ liệu, hệ
+thống hỗ trợ đầu vào hình ảnh bằng cách chỉ định tên hình ảnh, thư mục hoặc
+danh sách đường dẫn. Đầu vào tệp video hoặc luồng từ máy ảnh cũng được hỗ
+trợ. Kết quả phát hiện từ các bộ phát hiện khác nhau cũng được hỗ trợ dưới
+dạng đầu vào tệp.
+
+2.2 Bài toán chỉnh sửa dáng người (Human Pose Correction)
+
+Chỉnh sửa dáng người là một lớp bài toán rộng đề cập đến việc phát hiện
+lỗi sai trong tư thế và động tác của con người và sau đó gợi ý cách để chỉnh
+sửa. Mặc dù đã tồn tại nhiều nghiên cứu về việc trích xuất dáng và tư thế
+người nhưng có một sự hạn chế lớn trong nghiên cứu vế việc chỉnh sửa tư thế
+người áp dụng học sâu. Hai hướng tập trung chủ yếu hiện tại của bài toán này
+đó là chỉnh sửa tư thế tập Yoga và chỉnh sửa tư thế tập thể thao ví dụ như tập
+Gym với hai nghiên cứu nổi bật là YogNet[30] và "3D Pose Based Feedback
+
+23
+
+
+
+For Physical Exercises" [34].
+
+2.2.1 YogNet
+
+Hệ thống YogNet được phát triển nhằm nhận biết cụ thể hai mươi tư thế
+yoga được người thực hành thực hiện trong thời gian thực với độ chính xác
+cao. Hệ thống có khả năng xác định nhiều người thực hành đồng thời thực
+hiện các tư thế yoga khác nhau trong một lượt. Đồng thời, hệ thống cũng đưa
+ra các hướng dẫn sửa chữa tư thế để sửa chữa các tư thế yoga nếu cần. Phương
+pháp được đề xuất có năm bước chính. Trong bước đầu tiên, phát hiện điểm
+quan trọng được thực hiện bằng cách sử dụng trường hấp dẫn phần và ghép
+cặp hai phía. Trong bước thứ hai, các điểm quan trọng được đưa vào một mô
+hình lai gồm các lớp CNN phân phối theo thời gian theo sau là các lớp LSTM
+được điều chỉnh. Các lớp CNN nắm bắt thông tin và mẫu tư thế trong khi lớp
+LSTM nắm bắt thông tin theo thời gian có trong dữ liệu. Trong bước thứ ba,
+đối với luồng RGB, các khung hình RGB được tiền xử lý và đưa vào 3D-CNN
+để trích xuất đặc trưng không gian-thời gian. Trong bước thứ tư, hoặc điểm
+xác suất của luồng tư thế và RGB được kết hợp bằng cách sử dụng kết hợp
+cấp độ quyết định, hoặc đặc trưng không gian-thời gian và tư thế được kết hợp
+lại với nhau bằng cách sử dụng kết hợp cấp độ đặc trưng. Cuối cùng, bước
+thứ năm thiết lập mô hình sửa chữa tư thế. Dự đoán cuối cùng và hướng dẫn
+sửa chữa tư thế được hiển thị cho người thực hành tương ứng trong thời gian
+thực. Hình 2.6 trình bày sơ đồ minh hoạ của hệ thống YogNet được đề xuất.
+Mặc dù có độ chính xác cao, việc chỉnh sửa tư thế của YogNet hoàn toàn là
+rule-based và do đó chỉ có thể áp dụng chỉnh sửa đối với một vài tư thế Yoga
+như Tadasana, Virabhadrasana1, Virabhadrasana2 và Vrikshasana.
+
+24
+
+
+
+Hình 2.6: Pipeline của mô hình YogNet [30]
+
+2.2.2 3D Pose Based Feedback For Physical Exercises
+
+Nghiên cứu được đề xuất bởi Zhao và các cộng sự [34] vào năm 2022, là
+một bước đột phá trong việc ứng dụng học sâu để chỉnh sửa dáng người. Ở
+đây, nhóm tác giả đề xuất một lược đồ gồm hai nhánh là nhánh phân loại và
+nhánh chỉnh sửa. Trong đó, nhánh phân loại có nhiệm vụ xác định xem chuỗi
+hành động đầu vào liệu đã chính xác hay chưa và lỗi đang mắc phải là gì, sau
+đó nhánh chỉnh sửa sẽ từ thông tin của nhánh phân loại để sinh ra chuỗi các
+hành động đúng để gợi ý cho người tập. Đây là một hệ thống tương đối đơn
+giản, được xây dựng trên mô hình dự đoán hành động của con người sử dụng
+
+25
+
+
+
+mạng nơ-ron tích chập [20]. Minh họa cho hệ thống của Zhao được cho trong
+hình 2.7.
+
+Hình 2.7: Hệ thống chỉnh sửa dáng người tập thể thao trong [34]
+
+Nhóm tác giả huấn luyện mạng của mình theo cách giám sát bằng cách sử
+dụng các cặp hành động được thực hiện không chính xác và chính xác. Tuy
+nhiên, việc tìm thấy những cặp chuyển động này không phải là đơn giản. Các
+chuỗi chuyển động thường có độ dài khác nhau và nhóm tác giả phải đối mặt
+với nhiệm vụ ghép các hành động được thực hiện không chính xác với hành
+động được thực hiện chính xác gần nhất từ cùng một diễn viên. Để làm như
+vậy, nhóm tác giả sử dụng Dynamic Time Warping (DTW), cho phép nhóm
+tác giả tìm ra chi phí căn chỉnh tối thiểu giữa hai chuỗi thời gian có độ dài
+khác nhau, bằng cách sử dụng lập trình động. Nhóm tác giả tính toán mất mát
+DTW giữa mỗi ứng cử viên cặp hành động không chính xác và chính xác và
+chọn cặp có giá trị mất mát nhỏ nhất.
+
+Mặc dù đã khắc phục được nhược điểm của việc chỉnh sửa dáng theo
+nguyên tắc rule-based. Nghiên cứu của Zhao và các cộng sự vẫn gặp một hạn
+chế đó là việc phát hiện lỗi phụ thuốc vào kiến thức chuyên môn. Minh chứng
+là việc để huấn luyện mô hình, dữ liệu của họ được chú thích cụ thể lỗi mà
+người tập mắc phải. Điều này khiến cho việc chỉnh sửa động tác bị giới hạn
+trong các lỗi được học bởi mô hình.
+
+26
+
+
+
+Chương 3
+
+Lược đồ học giám sát yếu
+
+Predictor-Corrector
+
+Như đã trình bày ở chương trước, các hệ thống hoặc lược đồ học sâu áp
+dụng cho bài toán chỉnh sửa dáng người hiện nay đang tồn tại hai hạn chế
+chính:
+
+1. Việc chỉnh sửa dáng người vẫn còn mang tính rule-based và phụ thuộc
+lớn vào kiến thức chuyên môn để đưa ra được quy tắc chỉnh sửa. Vì vậy
+mà các hệ thống đó sẽ khó để cá nhân hóa và việc chỉnh sửa nhiều khi sẽ
+không tối ưu cho người tập và số lượng động tác có thể chỉnh sửa cũng
+sẽ hạn chế và mất thời gian để đưa ra quy luật chỉnh sửa.
+
+2. Đối với các hệ thống học sâu đã thoát ly khỏi việc chỉnh sửa theo hướng
+rule-based, việc huấn luyện hiện nay vẫn đi theo lược đồ học có giám
+sát. Điều này đòi hỏi dữ liệu huấn luyện phải bao gồm động tác sai và
+đúng của cùng một cá nhân để có thể huấn luyện. Mặc dù đã có thể chỉnh
+sửa dáng cho người tập một cách tối ưu, việc có thể xây dựng bộ dữ liệu
+huấn luyện nêu trên là quá mất thời gian và công sức.
+
+Vì các lý do nêu trên, đóng góp của đồ án nghiên cứu được tóm gọn như sau:
+1. Đề xuất một lược đồ học giám sát yếu mà ở đó không cần phải có động
+
+tác sai và đúng của cùng một người để huấn luyện.
+2. Đề xuất một mô hình học sâu và đưa ra một ứng dụng trong việc huấn
+
+luyện thể thao.
+
+27
+
+
+
+3.1 Lược đồ học giám sát yếu
+
+Phần này của đồ án nghiên cứu sẽ mô tả về lược đồ học giám sát yếu được
+đề xuất. Cụ thể, đây là lược đồ học giám sát yếu không hoàn toàn chính xác,
+có nghĩa là nhãn của dữ liệu sẽ không chi tiết đến mức lý tưởng. Trong phạm
+vi bài toán chỉnh sửa dáng người, nhãn của dữ liệu sẽ chỉ là tên động tác mà
+người đó đang thực hiện mà không bao gồm tọa độ cụ thể của các điểm khớp
+ứng với tư thế chính xác của người đó.
+Trước khi đi vào chi tiết của lược đồ, ta cần mô tả lại nhiệm vụ của hai bài
+toán phân loại dáng người và chỉnh sửa dáng người. Bài toán phân loại dáng
+người có mục tiêu dự đoán phân lớp c của hành động mà một người đang thực
+hiện dự trên các tọa độ 2D hoặc 3D của các điểm khớp (chuỗi điểm khớp
+trong trường hợp là video) ký hiệu là P của người đó. Ta có thể diễn đạt điều
+này dưới dạng:
+
+ypred = Fpred(x), (3.1)
+
+việc chỉnh sủa tư thế có thể được coi là quá trình sinh ra tư thế x′ từ x và có
+thể được viết dưới dạng:
+
+x′ = h(x,ypred). (3.2)
+
+Trong đó, f và h là mô hình phân loại và mô hình chỉnh sửa tư thế người. Ta
+định nghĩa độ chính xác của một tư thế là xác suất mà tư thế đó được phân
+loại vào đúng phân lớp bởi mô hình f . Khi đó, ta sẽ đánh giá xem dáng x′ có
+chính xác hay không thông qua
+
+ycorr = f (x′). (3.3)
+
+Như vậy, việc chỉnh sửa sẽ là huấn luyện mô hình h sao cho dáng được
+chỉnh sửa có xác suất thuộc vào phân lớp đúng cao hơn dáng ban đầu, hay
+ycorr > ypred.
+
+28
+
+
+
+     STAGE 1: Pose estimation
+
+     
+      STAGE 2: Train Classifier
+
+         
+
+         STAGE 3: Train Corrector
+
+Hình 3.1: Lược đồ học giám sát yếu Predictor-Corrector.
+
+Việc huấn luyện mô hình sẽ gồm hai mục tiêu, (1) là làm cho dáng được
+chỉnh sửa có xác suất rơi vào phân lớp chuẩn càng cao càng tốt và (2) dáng
+được chỉnh sửa cần là dáng đúng gần nhất với dáng ban đầu để việc chỉnh sửa
+không tốn quá nhiều công sức.
+
+Như hình 3.1 mô tả, lược đồ được đề xuất sẽ bao gồm ba gia đoạn tách
+biệt. Giai đoạn 1 đó là trích xuất các điểm khớp từ ảnh/video đầu vào. Giai
+đoạn thứ 2, các điểm khớp được trích xuất sẽ được sử dụng để huấn luyện mô
+hình phân loại Predictor f (.,θ) với θ là bộ tham số của mô hình f , đây sẽ
+được gọi là mô-đun phân loại Predictor. Sau khi đã huấn luyện Predictor, mô
+hình Corrector với tham số φ , h(., .,φ) sẽ được huấn luyện với dữ liệu là nhãn
+của hành động và các điểm khớp của người thực hiện để cho ra động tác chính
+xác hơn theo tiêu chí đã nếu và đảm bảo việc thay đổi động tác là tối ưu cho
+người thực hiện. Đây được gọi là mô-đun chỉnh sửa Corrector.
+
+3.2 Mô-đun dự đoán Predictor
+
+Nhiệm vụ của Predictor là xác định được phân lớp của hành động được thể
+hiện dưới dạng các điểm khớp được nối với nhau hay còn gọi là khung xương.
+Thực chất khung xương này có thể biểu diễn được dưới dạng đồ thị, vì vậy
+một mô hình được xây dựng từ mạng tích chập đồ thị (GCN) sẽ là một lựa
+chọn tốt. Vì vậy, em đề xuất sử dụng mô hình mạng tích chập đồ thị thặng
+dư (Residual Graph Convolutional Network) RGCN để xây dựng mô hình dự
+đoán Predictor. Mô hình đề xuất sẽ bao gồm hai thành phần chính là backbone
+
+29
+
+
+
+được vay mượn từ mô hình mạng tích chập trong nghiên cứu của Zou và các
+cộng sự [36] và khối phân loại được xây dựng từ một lớp mạng MLP và hàm
+kích hoạt softmax.
+
+M
+od
+
+ul
+at
+
+ed
+G
+
+C
+on
+
+v
+
+B
+at
+
+ch
+N
+
+or
+m
+
+ +
+ R
+
+eL
+U
+
+M
+od
+
+ul
+at
+
+ed
+G
+
+C
+on
+
+v
+
+B
+at
+
+ch
+N
+
+or
+m
+
+ +
+ R
+
+eL
+U
+
+M
+od
+
+ul
+at
+
+ed
+G
+
+C
+on
+
+v
+
+B
+at
+
+ch
+N
+
+or
+m
+
+ +
+ R
+
+eL
+U
+
+C
+la
+
+ss
+ifi
+
+er
+
+....
+
+Hình 3.2: Kiến trúc của mô hình Predictor đề xuất.
+
+Backbone của Predictor sẽ bao gồm hai thành phần chính đó là điều chỉnh
+trọng số (Weight Modulation) và điều chỉnh tương đồng (Affinity modulation).
+Một hạn chế của phép chập đồ thị cơ bản này là nó sử dụng một biến đổi đặc
+trưng W chung cho mỗi nút và do đó ngăn GCN học được các mẫu quan hệ
+đa dạng giữa các khớp cơ thể khác nhau. Liu và các cộng sự [18] giải quyết
+vấn đề này bằng cách sử dụng một ma trận trọng số khác nhau Wj ∈ RD
+
+′×D
+
+để biến đổi mỗi nút trước khi tổng hợp chúng:
+
+h′i = σ( ∑
+j∈Ñ
+
+W jh jãi j). (3.4)
+
+Họ cũng thấy rằng việc tách biệt các biến đổi của các kết nối tự phát và các
+cạnh khác có thể cải thiện đáng kể hiệu suất ước lượng 3D HPE, điều này
+cũng được quan sát thấy trong các công trình khác [18, 31, 33]. Trong khi
+việc không chia sẻ trọng số bằng phương trình (3.4) cải thiện hiệu suất, giúp
+tăng đáng kể kích thước mô hình theo hệ số N (thường là 16 hoặc 17).
+
+Điều chỉnh trọng số có nghĩa là giải quyết vấn đề đã đề cập ở trên do
+một biến đổi đặc trưng chung cho các nút khác nhau trong khi giữ nguyên
+kích thước mô hình nhỏ. Không giống như việc không chia sẻ trọng số trong
+
+30
+
+
+
+phương trình (3.4), điều chỉnh trọng số sử dụng một ma trận trọng số chung
+W như trong GCN cơ bản nhưng học một vector điều chỉnh khác nhau mi cho
+mỗi nút i và sử dụng nó để điều chỉnh ma trận trọng số chung:
+
+h′i = σ( ∑
+j∈Ñi
+
+(m j ⊙W)h jãi j), (3.5)
+
+trong đó m j ∈ RD
+′
+là một vector điều chỉnh có thể học được cho nút j, ( j =
+
+1, . . . ,N), ⊙ biểu thị phép nhân từng phần tử. Cụ thể, m j ⊙W có nghĩa là
+hàng thứ d của W được nhân với phần tử thứ d của m j , và kết quả có cùng
+kích thước với W , tức là D′×D. Nếu chúng ta coi việc chia sẻ trọng số trong
+phương trình (1.3) và việc không chia sẻ trọng số trong phương trình (3.4) là
+hai cực điểm, điều chỉnh trọng số sẽ nằm giữa chúng. Một mặt, các biến đổi
+đặc trưng áp dụng cho các nút khác nhau là khác nhau vì các vector điều chỉnh
+của chúng là khác nhau. Mặt khác, các biến đổi khác nhau này nằm trong một
+không gian con chung. Nhóm tác giar chỉ ra rằng điều chỉnh trọng số có thể
+giải quyết vấn đề do việc chia sẻ trọng số gây ra hiệu quả như việc không chia
+sẻ trọng số. Không giống như việc không chia sẻ trọng số, số lượng tham số
+bổ sung mang lại bởi điều chỉnh trọng số là không đáng kể. Điều này khiến
+điều chỉnh trọng số tổng quát hóa tốt hơn. Cụ thể, số lượng tham số của phép
+chập đồ thị cơ bản, việc không chia sẻ trọng số và điều chỉnh trọng số lần lượt
+là D′×D,D′×D×N và D′× (D+N). Đối với 3D HPE, N rất nhỏ so với D
+và D′ . Kết hợp các đặc trưng cập nhật của tất cả các nút, phương trình (3.5)
+có thể được viết dưới dạng ngắn gọn như sau:
+
+H′ = σ((M⊙ (WH))Ã) (3.6)
+
+trong đó M ∈ RD′×Nlà tập hợp của tất cả các vector điều chỉnh, và cột thứ i
+của M là mi . Từ phương trình (3.6), chúng ta cũng có thể hiểu điều chỉnh
+trọng số như là nhân các vector điều chỉnh khác nhau với các vector đặc trưng
+cập nhật của các nút khác nhau trước khi chúng được tổng hợp.
+
+Việc điều chỉnh độ tương đồng của GCN cơ bản sử dụng một ma trận
+tương đồng được xác định trước để nắm bắt các mối tương quan giữa các nút.
+Ta gọi đó là đồ thị khung xương và ký hiệu là Askeleton ∈ RN×N . Một phần
+tử trong Askeleton là 1 nếu cặp khớp cơ thể tương ứng được kết nối tự nhiên
+và 0 nếu ngược lại. Gần đây, Zhao [33] thấy rằng nhân một ma trận có thể
+học được P ∈ RN×N vào Askeleton rất có ích để điều chỉnh các giá trị độ tương
+
+31
+
+
+
+đồng tương ứng với các cạnh trong đồ thị khung xương:
+
+Amul = Askeleton ⊙P (3.7)
+
+trong đó Amul ∈ RN×N là một ma trận độ tương đồng mới. Một hạn chế của
+phương pháp này là chỉ có các giá trị độ tương đồng tương ứng với các cạnh
+trong đồ thị khung xương mới có thể học được. Hoạt động của con người
+thường biểu hiện các mẫu chuyển động vượt ra ngoài các kết nối tự nhiên của
+các khớp cơ thể, ví dụ như sự tương quan mạnh mẽ giữa tay và chân cho một
+người đi bộ hoặc chạy. Một giải pháp đơn giản là thay thế phép nhân trong
+phương trình (3.7) bằng phép cộng hoặc sử dụng dạng kết hợp của chúng:
+
+Aadd = Askeleton +Q
+
+Amix = Askeleton ⊙P+Q
+(3.8)
+
+trong đó Q ∈ RN×N là một ma trận có thể học được. Nhóm tác giả cũng xem
+xét một ma trận độ tương đồng có thể học được mà không áp đặt bất kỳ tiền
+kiện nào về khung xương:
+
+Ano−skeleton = Q. (3.9)
+
+Lưu ý trong các phương trình (3.7)-(3.9), P và Q là các ma trận có thể học
+được và Askeleton là một ma trận độ tương đồng không đổi. Aadd, Amix và
+Ano−skeleton linh hoạt hơn Amul vì chúng cho phép đồ thị bao gồm các cạnh
+bổ sung ngoài các kết nối của khung xương. Tuy nhiên, quá nhiều tự do có thể
+dẫn đến overfitting và gây tổn hại cho khả năng tổng quát của GCN. Nhóm
+tác giả đã đi sâu vào vấn đề tiềm ẩn này bằng cách khám phá ảnh hưởng của
+các điều chuẩn khác nhau về điều chỉnh độ tương đồng. Cụ thể, nhóm tác giả
+xem xét ba loại điều chuẩn: đối xứng, hạng thấp và thưa thớt.
+
+Về đối xứng, một ma trận độ tương đồng đối xứng tương ứng với một đồ
+thị vô hướng. Nó có nghĩa là sự tương quan giữa hai khớp cơ thể không phụ
+thuộc vào hướng của kết nối của chúng. Vì đồ thị khung xương là đối xứng,
+ta chỉ cần làm cho ma trận điều chỉnh đối xứng để có được một ma trận độ
+tương đồng đối xứng. Điều này có thể được thực hiện dễ dàng bằng cách biểu
+diễn ma trận điều chỉnh là trung bình của một ma trận và chuyển vị của nó:
+
+(Q+QT )/2
+
+Về hạng thấp, một cách thay thế để bắt buộc ma trận độ tương đồng phải
+đối xứng là biểu diễn ma trận điều chỉnh là phép nhân giữa một ma trận
+
+32
+
+
+
+L ∈RN×C và chuyển vị của nó: LLT ∈RN×N . Nếu C < N, biểu diễn này cũng
+ràng buộc ma trận điều chỉnh phải nằm trong một không gian con có chiều
+thấp. Thưa thớt. Là một kỹ thuật điều chuẩn phổ biến trong học máy, tính thưa
+thớt thúc đẩy khả năng tổng quát bằng cách loại bỏ các đặc trưng không liên
+quan hoặc yếu liên quan. Một ma trận độ tương đồng thưa có chỉ một vài phần
+tử khác không, nên tương ứng với các cạnh quan trọng nhất cho nhiệm vụ.
+Nhóm tác giả đạt được điều chuẩn này bằng cách bao gồm một chuẩn L1 của
+ma trận độ tương đồng trong hàm mất mát.
+
+3.3 Mô-đun chỉnh sửa Corrector
+
+Nhiệm vụ của Corrector là từ đồ thị các điểm khớp x và thông tin về hành
+động đang thực hiện y để sinh ra đồ thị điểm khớp x′ thỏa mãn:
+
+f (x′)> f (x), (3.10)
+
+với f là mô hình dự đoán Predictor đã được huấn luyện. Một ưu điểm của việc
+tách rời quá trình huấn luyện giữa Predictor và Corrector đó là sự linh hoạt
+trong việc lựa chọn kiến trúc mô hình. Ở đó, Predictor chỉ phải đảm bảo đưa
+ra được dự báo về phân lớp của hành động và Corrector chỉ cần được thiết kế
+để kết hợp được thông tin về phân lớp hành động và khung xương của người.
+
+Label Embedding
+
+Keypoint 1 feature
+
+Keypoint N feaures
+
+Transformer Encoder
+
+Keypoint 1 Out
+
+Keypoint N Out
+
+...
+
+...
+
+Label Onehot
+
+M
+od
+
+ul
+at
+
+ed
+G
+
+C
+on
+
+v Keypoint 1 
+
+Keypoint N 
+
+...
+
+B
+at
+
+ch
+N
+
+or
+m
+
+Hình 3.3: Kiến trúc của Corrector đề xuất. Hộp màu tím là khối label-embedding. Hộp
+
+màu cam là khối Encoder của mô hình Transformer cổ điển.
+
+Hình 3.3 là mô tả của kiến trúc Corrector được đề xuất. Cụ thể, nhãn của
+hành động sẽ được chuyển thành vector onehot b ∈ {0,1}C, với C là số lượng
+phân lớp hành động. Sau đó, b sẽ được đưa qua khối label-embedding mà bản
+
+33
+
+
+
+chất là một mạng MLP để chuyển thành vector l ∈ RD có cùng số chiều với
+các vector đặc trưng của các điểm khớp. Cụ thể,
+
+l = Wlb (3.11)
+
+Sau khi, có được vector embedding của nhãn, ta sẽ có N +1 token ứng với N
+điểm khớp và một nhãn của phân lớp hành động. Tại đây, ta sẽ thực hiện cơ
+chế tập trung của Transformer với mục đích để các vector đặc trưng chú ý đến
+nhãn của hành động và ta kỳ vọng rằng dựa trên thông tin đấy các điểm khớp
+có thể điều chỉnh lại tọa độ để đưa ra tư thế mới với xác suất phân loại cao
+hơn. Các phương trình từ (3.12) đến (3.15) mô tả quá trình xử lý đầu vào của
+mô hình Corrector.
+
+z0 = [bT W;xp1 ;x
+p
+2 ; · · · ;x
+
+p
+N]+Epos, W ∈ R
+
+C×D,Epos ∈ R(N+1)×D; (3.12)
+
+zℓ0 = MSA(LN(z
+ℓ−1))+ zℓ−1, ℓ= 1 . . .L; (3.13)
+
+zℓ = MLP(LN(zℓ0))+ z
+ℓ
+0, ℓ= 1 . . .L; (3.14)
+
+x′ = GCN(zL). (3.15)
+
+Trong đó, MSA là khối tự chú ý đa đầu (multi-head self-attention). Các ma
+trận W và E là ma trận trọng số của khối label-embedding và posistional-
+embedding. Một điều cần chú ý là hai phương trình (3.13) và (3.14) sẽ được
+lặp lại một vài lần ứng với nhiều khối Encoder xếp chồng lên nhau để tăng
+tính hiệu quả của cơ chế chú ý. Sau khi được đưa qua khối Encoder của
+Transformer, các vector đặc trưng sẽ được đưa qua một khối GCN nhỏ để tổng
+hợp thông tin lại thành các tọa độ của điểm khớp.
+
+Một điều quan trọng cần được chú ý khi chỉnh sửa dáng người đó là các
+điểm khớp được sinh ra cần đảm bảo tính thực tế, tức là khung xương không
+được vặn vẹo và bất khả thi để thực hiện theo (chân bẻ quá 180 đọ, các
+điểm khớp ở không đúng vị trí trên cơ thể,...). Hình 3.4 cho thấy kết quả
+của khối Corrector khi dáng được sinh ra không tuân theo quy tắc vật lý
+của cơ thể người. Một ý tưởng để khắc phục điều này đó là học tự giám sát
+(self-learning), điều mà đã được áp dụng trong ViT [9] và MAE [13]. Cụ thể,
+nhóm tác giả đã tăng cường khả năng encode ảnh đầu vào của Encoder bằng
+việc che mất ngẫu nhiên 50% số pixel của ảnh (đặt giá trị của pixel đó bằng
+0). Sau đó đưa ảnh bị che (masked) và Encoder của Transformer và sau đó
+là một khối Decoder được thiết kế rất mỏng với mục tiêu khôi phục lại các
+
+34
+
+
+
+pixel bị che. Quá trình huấn luyện như trên được gọi là huấn luyện tiền nhiệm
+(pretext training).
+
+Hình 3.4: Dáng được chỉnh không thực tế.
+
+Keypoint 1 Out
+Label Embedding
+
+Keypoint 1 feature
+
+Keypoint N feaures
+
+Transformer Encoder
+
+Keypoint k Out
+
+...
+
+...
+
+Label Onehot
+
+D
+ec
+
+od
+er
+
+Keypoint 1 
+
+Keypoint k
+
+...
+
+Hình 3.5: Huấn luyện tiền nhiệm Corrector.
+
+Việc huấn luyện tiền nhiệm cho Corrector được tóm gọn trong hình 3.5.
+Trong đó, các khối nét đứt đại diện cho việc che đi các đặc trưng của điểm
+khớp bằng cách đưa vector đặc trưng đó về 0. Khối Encoder sau đó sẽ được
+huấn luyện để học được cách chú ý hơn đến tính thực tiễn của khung xương
+
+35
+
+
+
+thông qua một khối Decoder cấu thành từ một khối GCN đơn giản. Hàm mất
+mát được sử dụng trong giai đoạn này đơn giản là hàm MSE:
+
+Lpretext = MSE(x,xo). (3.16)
+
+Trong đó, x, xo khung xương đầu vào vào khung xương được khôi phục. Sau
+khi kết thúc quá trình huấn luyện tiền nhiệm, khối Decoder sẽ được thay thế
+bằng một khối ModulatedGConv để bắt đầu quá trình huấn luyện chính là
+chỉnh sửa khung xương của người. Hàm mất mát lúc này sẽ bao gồm hai thành
+phần, một là hàm cross-entropy để ép cho xác suất của khung xương mới rơi
+vào phân lớp hành động đúng cao hơn và thứ hai là hàm chuẩn ∥.∥ℓ, l = 1,2
+với mục tiêu không để cho dáng được chỉnh sửa cách quá xa dáng ban đầu.
+Tổng hợp lại, mục tiêu của việc huấn luyện Corrector sẽ là tối ưu hàm mất
+mát:
+
+LCorr = αLce(x′, f (x′))+β∥x−x′∥ℓ. (3.17)
+
+Trong đó, α và β là các siêu tham số đóng vai trò tùy chỉnh mức độ quan
+trọng của từng mục tiêu huấn luyện.
+
+36
+
+
+
+Chương 4
+
+Ứng dụng của lược đồ học giám sát yếu
+
+trong bài việc giám sát luyện tập thể thao
+
+Chương này của đồ án sẽ đưa ra một ứng dụng của nghiên cứu trong việc
+huấn luyện thể thao tại nhà. Cụ thể, việc thực hiện tập luyện thể thao mà
+không cần sự giám sát của huấn luyện viên thể chất là một nhu cầu của không
+ít người, đặc biệt sau đại dịch COVID-19. Tuy nhiên, thiếu sự giám sát và
+phản hồi hiệu quả có thể gây ra nhiều hại hơn là ích và thậm chí có thể gây ra
+chấn thương nghiêm trọng. Do đó, đòi hỏi về việc huấn luyện thông qua trợ lý
+ảo hoặc hệ gợi ý thông minh là không hề nhỏ.
+
+4.1 Mô tả hệ thống
+
+OpenPose
+
+Corrector
+
+Hình 4.1: Hệ thống gợi ý chỉnh sửa tư thế tập thể thao.
+
+37
+
+
+
+Hình 4.2: Một vài ví dụ cho việc gợi ý cách chỉnh sửa dáng cho người tập.
+
+Như mô tả trên hình 4.1, hệ thống gợi ý chỉnh sửa tư tế tập thể thao sẽ gồm
+hai bước. Bước thứ nhất là trích xuất khung xương từ hình ảnh hoặc video của
+người tập và bước thứ 2 là gợi ý động tác đúng để người tập sửa theo. Việc gợi
+ý cách chỉnh sửa sẽ được minh họa bằng một khung xương màu xanh tượng
+trưng cho tư thế mà người tập nên làm theo, bên cạnh đó là khung xương
+màu đỏ tương ứng với tư thế hiện tại của người tập. Từ hình ảnh trực quan đó,
+người tập sẽ có thể tự chỉnh sửa tư thế của bản thân sao cho khớp với khung
+xương được gợi ý.
+
+4.2 Thử nghiệm và kết quả
+
+4.2.1 Bộ dữ liệu tập thể thao
+
+Để thử nghiệm độ hiệu quả của lược đồ, tập dữ liệu Workout/Exercise
+Images [1] sẽ được sử dụng. Bộ dữ liệu bao gồm 13,853 hình ảnh tương ứng
+với 22 động tác tập gym, tên của các động tác được liệt kê trong hình 4.6
+(trang 35).
+
+38
+
+
+
+Data Number of Data Size Keypoints
+
+Workout/Exercise Images 13,853 480×360 25
+
+Workout/Exercise Images Augmented 41559 480×360 25
+
+Bảng 4.1: Bộ dữ liệu Workout/Exercise Images.
+
+Hình 4.3: Động tác Squat.
+
+39
+
+
+
+Hình 4.4: Động tác tricep.
+
+Hình 4.5: Một số ảnh trong bộ dữ liệu.
+
+4.2.2 Cài đặt thử nghiệm
+
+Bộ dữ liệu sẽ được tiền xử lý bằng việc đưa qua OpenPose để trích xuất
+khung xương. Khung xương được trính xuất sẽ được tăng cường dữ liệu bằng
+việc tính tiến theo một vector ngẫu nhiên để xóa bỏ đi sự phụ thuộc về vị trí
+
+40
+
+
+
+H
+ìn
+
+h
+4.
+
+6:
+T
+
+hố
+ng
+
+kê
+về
+
+bộ
+dữ
+
+liệ
+u.
+
+41
+
+
+
+Hình 4.7: Đồ thị hàm mất mát của Predictor.
+
+của người tập. Hơn nữa, khung xương sẽ được chuẩn hóa bằng cách chia các
+tọa độ cho độ dài của thân người, được tính bằng khoảng cách từ đầu đến
+trung điểm của hai điểm khớp ứng với xương chậu. Dữ liệu huấn luyện và
+kiểm thử được chia theo tỷ lệ 80/20. Cụ thể về thử nghiệm, mô hình dự báo
+Predictor và Corrector sẽ được huấn luyện bằng tập dữ liệu Workout Images.
+Sau khi kết thúc huấn luyện, để thử nghiệm tính hiệu quả của mô hình. Các tư
+trong bộ dữ liệu sẽ được làm nhiễu bằng cách di chuyển ngẫu nhiên hai điểm
+khớp ứng với tay hoặc chân để mô phỏng động tác sai. Mô hình được huấn
+luyện sau đó được thử nghiệm trên bộ dữ liệu bị làm nhiễu này. Mô hình được
+huấn luyện và kiểm thử trên GPU Tesla T4 15G RAM trên nền tảng Google
+Colab.
+
+Bảng 4.2: Kết quả sau khi huấn luyện mô hình.
+
+Mô hình Bộ dữ liệu Độ chính xác
+
+Predictor
+Workout/Exercise Images 94.27%
+
+Workout/Exercise Images + Noise 84.20%
+
+Corrector
+Workout/Exercise Images 95.63%
+
+Workout/Exercise Images + Noise 94.90%
+
+42
+
+
+
+4.2.3 Kết quả
+
+Hình 4.8: Đồ thị độ chính xác của Predictor.
+
+Hình 4.9: Đồ thị hàm mất mát của Corrector.
+
+Hình 4.10: Đồ thị độ chính xác của Corrector.
+
+43
+
+
+
+Phương pháp L1 L2
+
+Lược đồ học giám sát yếu đề xuất 0.1728 0.4861
+
+Baseline 0.2745 0.5612
+
+Bảng 4.3: So sánh giữa phương pháp đề xuất và Baseline.
+
+Hình 4.11: Kết quả của việc chỉnh sửa dáng. Màu xanh là khung xương của người tập, màu
+
+vàng là khung xương được gợi ý
+
+Hình 4.12: Một vài kết quả khác.
+
+Với kết quả trong bảng 4.2, ta thấy rằng trước khi sử dụng Corrector để
+chỉnh sửa tư thế của bộ dữ liệu được làm nhiễu, độ chính xác của Predictor
+là 84.20%. Sau khi có Corrector tác động, độ chính xác tăng lên 94.90%
+tức dáng đã được chỉnh sửa để đưa ra động tác chuẩn hơn theo tiêu chí của
+Predictor. Để so sánh độ hiệu quả của phương pháp đề xuất, một phương pháp
+Baseline đơn giản là lấy dáng lúc chưa bị làm nhiễu để làm dáng được chỉnh
+
+44
+
+
+
+sửa cho dáng bị làm nhiễu sẽ được so sánh với mô hình được huấn luyện bằng
+lược đồ học giám sát yếu đề xuất. Kết quả cho thấy dáng được chỉnh sửa bởi
+mô hình học sâu có khoảng cách gần hơn so với dáng chưa được làm nhiễu.
+Điều này cho thấy mô hình có thể gợi ý tư thế chỉnh sửa tối ưu hơn cho người
+dùng. Kết quả được cho trong bảng 4.3.
+
+45
+
+
+
+Kết luận
+
+Kết quả của đồ án
+
+1. Đề xuất lược đồ học giám sát yếu đầu tiên giải quyết bài toán chỉnh sửa
+dáng/tư thế người nhằm khắc phục nhược điểm của các phương pháp cũ
+và hiện có bao gồm không phụ thuộc vào rule-based và không đòi hỏi
+dữ liệu huấn luyện phải có dáng chuẩn và dáng không chuẩn của cùng
+một người.
+
+2. Đưa ra ví dụ minh họa cho lược đồ thông qua mô hình học sâu đề xuất
+trên bộ dữ liệu Workout/Exercise Images và cho ra kết quả hứa hẹn.
+
+Kỹ năng đạt được
+
+1. Nâng cao khả năng nghiên cứu khoa học, viết báo khoa học. Đề xuất
+hướng tiếp cận mới cho một bài toán.
+
+2. Nâng cao khả năng tìm kiếm, đọc, dịch tài liệu chuyên ngành liên quan
+đến nội dung Đồ án.
+
+3. Tổng hợp các kiến thức đã học và kiến thức trong tài liệu tham khảo để
+viết báo cáo Đồ án.
+
+4. Chế bản Đồ án bằng LATEX, viết chương trình tính toán cho ví dụ minh
+họa bằng sử dụng ngôn ngữ Python.
+
+5. Biết trình bày báo cáo khoa học chuyên ngành và biết các thiết kế thử
+nghiệm để kiểm chứng độ hiệu quả của hướng tiếp cận mới.
+
+Hướng phát triển của đồ án trong tương lai
+
+Trong tương lai, tác giả sẽ nghiên cứu để đề xuất một mô hình xử lý đầu
+vào là video nhằm thử nghiệm được trên các benchmark phổ biến và thực tế
+hơn là dữ liệu ảnh.
+
+46
+
+
+
+Tài liệu tham khảo
+
+[1] Hasyim Abdillah, Jiwa Sambhuwara, et al. Workout/Exercise Images. Accessed:
+
+2023-06-30. URL: https://www.kaggle.com/datasets/hasyimabdillah/
+
+workoutexercises-images.
+
+[2] Alankrita Aggarwal, Mamta Mittal, and Gopi Battineni. “Generative adversarial
+
+network: An overview of theory and applications”. In: International Journal of
+
+Information Management Data Insights 1.1 (2021), p. 100004. ISSN: 2667-0968.
+
+DOI: https://doi.org/10.1016/j.jjimei.2020.100004.
+
+[3] Fotis Aisopos, George Papadakis, and Theodora Varvarigou. “Sentiment Analysis
+
+of Social Media Content Using N-Gram Graphs”. In: Proceedings of the 3rd ACM
+
+SIGMM International Workshop on Social Media. Association for Computing
+
+Machinery, 2011, pp. 9–14. ISBN: 9781450309899. DOI: 10.1145/2072609.
+
+2072614.
+
+[4] Abedin Babak and Sohrabi Babak. “Graph theory application and web page ranking
+
+for website link structure improvement”. In: Behaviour & Information Technology
+
+28.1 (2009), pp. 63–72. DOI: 10.1080/01449290701840948.
+
+[5] Danielle Bassett, Perry Zurn, and Joshua Gold. “On the nature and use of models
+
+in network neuroscience”. In: Nature Reviews Neuroscience 19 (July 2018). DOI:
+
+10.1038/s41583-018-0038-8.
+
+[6] William Campbell, C.K. Dagli, and C.J. Weinstein. “Social Network Analysis with
+
+Content and Graphs”. In: Lincoln Laboratory Journal 20 (Jan. 2013), pp. 62–81.
+
+[7] Zhe Cao, Gines Hidalgo, et al. “OpenPose: Realtime Multi-Person 2D Pose Estima-
+
+tion Using Part Affinity Fields”. In: IEEE Transactions on Pattern Analysis and Ma-
+
+chine Intelligence 43.1 (2021), pp. 172–186. 

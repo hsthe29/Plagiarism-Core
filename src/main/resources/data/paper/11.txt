@@ -1,0 +1,1827 @@
+
+ 
+
+T ạ p  c h í  N g h i ê n  c ứ u  K i n h  t ế 
+JOURNAL  OF  ECONOMIC  STUDIES 
+
+ISSN 0866 - 7489 
+ 
+
+Số 9 (532) 
+
+Tháng 9 năm 2022 
+
+ 
+ 
+
+72  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN 
+
+PHÁT TRIỂN NGÂN HÀNG XANH TẠI VIỆT NAM 
+
+Factors affecting green banking development in Vietnam 
+ 
+
+NGUYỄN DANH NAM 
+
+UÔNG THỊ NGỌC LAN 
+
+ 
+
+ghiên cứu xem xét các yếu tố tác động đến phát triển ngân hàng xanh tại Việt 
+
+Nam thông qua việc sử dụng bảng câu hỏi phỏng vấn kết hợp với khảo sát sâu đối 
+
+với cán bộ nhân viên tại các ngân hàng thương mại ở Việt Nam. Kết quả cho thấy, sự phát 
+
+triển ngân hàng xanh chịu tác động nhiều nhất bởi yếu tố “chính sách của Nhà nước” và 
+
+tác động thấp nhất là yếu tố “nguồn lực tài chính của ngân hàng”. Từ đó, đưa ra một số 
+
+hàm ý chính sách nhằm nâng cao mức độ phát triển ngân hàng xanh tại Việt Nam trong 
+
+thời gian tới. 
+
+Từ khóa: ngân hàng xanh, phát triển, Việt Nam. 
+
+his study aims to examine which factors affecting on the development of green 
+
+banking in Vietnam. The research used in-depth interviews and survey 
+
+questionnaires with employees at commercial banks in Vietnam. The results show that the 
+
+development of green banking is most affected by the “Government’s policies” factor, and 
+
+the lowest is affected by the “Financial resources of the bank” factor. Based on findings, 
+
+several implications were proposed to improve the level of green banking development in 
+
+Vietnam in the coming time. 
+
+Keywords: green banking, develop, Vietnam. 
+
+ 
+
+1. Giới thiệu 
+
+Nguy cơ suy giảm kinh tế toàn cầu cùng 
+
+với khủng hoảng môi trường đã đặt ra câu 
+
+hỏi về việc làm thế nào để đạt được sự phát 
+
+triển bền vững trong các tổ chức, đặc biệt 
+
+trong lĩnh vực ngân hàng vì đây là nguồn 
+
+lực tài chính quan trọng của nền kinh tế. 
+
+Tuy nhiên, các ngân hàng có xu hướng tập 
+
+trung vào lợi nhuận mà bỏ qua lợi ích của 
+
+môi trường, điều này khiến lĩnh vực ngân 
+
+hàng khó có thể duy trì sự phát triển bền 
+
+vững. Qua nhiều cuộc thảo luận, ngân hàng 
+
+xanh được đánh giá là mô hình hiệu quả, 
+
+cân bằng giữa lợi nhuận với môi trường xã 
+
+hội. Ngày nay, duy trì sự phát triển bền 
+
+vững theo mô hình ngân hàng xanh đang 
+
+dần trở thành xu hướng chung của nhiều 
+
+quốc gia trên thế giới. Sau cuộc khủng 
+
+hoảng kinh tế năm 2008, các tổ chức tài 
+
+chính đã thừa nhận tầm quan trọng của ngân 
+
+hàng xanh đối với tăng trưởng bền vững.* 
+
+Việt Nam được đánh giá là một trong số 
+
+các nền kinh tế mới nổi, nhận thức của các 
+
+ngân hàng thương mại ở Việt Nam về quản 
+
+lý rủi ro môi trường còn hạn chế, chưa phát 
+
+triển. Hoạt động ngân hàng xanh mới chỉ 
+
+                                                      
+Nguyễn Danh Nam, TS., Trường đại học Công nghệ 
+
+Đông Á; Uông Thị Ngọc Lan, Trường đại học Kinh 
+
+tế, Đại học Quốc gia Hà Nội. 
+
+N 
+
+T 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 73 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+được triển khai ở một số ít tổ chức tài 
+
+chính, hiếm có ngân hàng nào thực hiện đầy 
+
+đủ mô hình này. Hầu hết các nghiên cứu 
+
+trước đây thực hiện về ngân hàng xanh chỉ 
+
+tổng hợp kinh nghiệm của các nước, triển 
+
+khai các dịch vụ và hoạt động xanh trong 
+
+ngân hàng hoặc các chương trình ngắn hạn; 
+
+nhưng các biện pháp thực hiện dài hạn và 
+
+các yếu tố quyết định việc phát triển ngân 
+
+hàng xanh tại hệ thống ngân hàng ở Việt 
+
+Nam vẫn chưa được cụ thể hóa. Do đó, 
+
+nghiên cứu về phát triển ngân hàng xanh tại 
+
+Việt Nam vẫn còn là một lĩnh vực mới, 
+
+nhiều khoảng trống cho các nghiên cứu về lý 
+
+thuyết và thực tiễn. Vì vậy, việc thực hiện 
+
+nghiên cứu các yếu tố ảnh hưởng đến phát 
+
+triển ngân hàng xanh tại Việt Nam là thực sự 
+
+cần thiết giúp Chính phủ, các nhà hoạch định 
+
+chính sách, các ngân hàng, tổ chức tài 
+
+chính, người dân hiểu rõ lợi ích của ngân 
+
+hàng xanh đến sự phát triển ổn định, bền 
+
+vững của ngành ngân hàng và nền kinh tế.  
+
+2. Cơ sở lý thuyết và giả thuyết nghiên 
+
+cứu 
+
+2.1. Cơ sở lý thuyết 
+
+2.1.1. Ngân hàng xanh 
+
+Mục đích chính của ngân hàng xanh là 
+
+bảo vệ môi trường (Lalon, 2015). Một ngân 
+
+hàng được coi là ngân hàng xanh khi có 
+
+những định hướng chiến lược hoạt động 
+
+liên quan tới bảo vệ tài nguyên môi trường 
+
+(Drobnjakovic, 2013).  
+
+Vũ Xuân Nguyệt Hồng (2013) nhận định 
+
+“ngân hàng xanh là các hoạt động, nghiệp 
+
+vụ của hệ thống ngân hàng nhằm khuyến 
+
+khích các hoạt động vì môi trường và giảm 
+
+phát thải cácbon”. Có hai cách tiếp cận về 
+
+khái niệm ngân hàng xanh: (i) dựa theo mục 
+
+tiêu dài hạn liên quan tới định hướng phát 
+
+triển theo yêu cầu về xã hội, trách nhiệm 
+
+bảo vệ tài nguyên môi trường; (ii) dựa theo 
+
+mục tiêu ngắn hạn liên quan tới các hoạt 
+
+động kinh doanh, cung cấp các sản phẩm, 
+
+dịch vụ xanh tại ngân hàng (Ngô Anh 
+
+Phương, 2021). 
+
+Trong nghiên cứu này, ngân hàng xanh 
+
+được định nghĩa là ngân hàng phát triển bền 
+
+vững trong đó các quyết định đầu tư cần 
+
+nhìn vào một cách tổng thể và hành động 
+
+một cách có lợi cho người tiêu dùng, kinh 
+
+tế, xã hội và môi trường.  
+
+2.1.2. Phát triển ngân hàng xanh 
+
+Kaeufer (2010) đã cho thấy xu hướng 
+
+của phát triển ngân hàng xanh là sự kết hợp 
+
+giữa trách nhiệm xã hội và các hoạt động 
+
+tài chính xanh. 
+
+Ngô Anh Phương (2021) cho rằng “phát 
+
+triển ngân hàng xanh là quá trình tăng 
+
+cường việc áp dụng, thực hiện các biện 
+
+pháp nghiệp vụ, hoạt động, tiêu chuẩn theo 
+
+tiêu chí xanh trong ngân hàng để hướng tới 
+
+chiến lược hoạt động, đầu tư, tài chính xanh 
+
+của ngân hàng”. 
+
+Hiện nay, chưa có khái niệm thống 
+
+nhất về ngân hàng xanh do đó rất khó đưa 
+
+ra cách đánh giá toàn diện về sự phát triển 
+
+ngân hàng xanh tại bất kỳ quốc gia nào. 
+
+Kaeufer (2010) đã đưa ra năm cấp độ để 
+
+đánh giá sự phát triển của ngân hàng xanh 
+
+bao gồm: (1) thực hiện các hoạt động kinh 
+
+doanh không tập trung; (2) tách bạch các 
+
+hoạt động kinh doanh, phát triển dự án; (3) 
+
+hoạt động kinh doanh có hệ thống; (4) 
+
+sáng kiến cân bằng hệ sinh thái tầm chiến 
+
+lược; (5) sáng kiến cân bằng hệ sinh thái 
+
+chủ động.  
+
+2.2. Giả thuyết nghiên cứu 
+
+2.2.1. Chính sách của Nhà nước 
+
+Các chính sách hỗ trợ của Chính phủ là 
+
+yếu tố quan trọng quyết định đến sự phát 
+
+triển của ngân hàng xanh (Hoen, 2014). Áp 
+
+lực từ phía các cơ quan quản lý, các yêu cầu 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+74  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+về môi trường, quy định bắt buộc về mặt 
+
+thể chế là những yếu tố ảnh hưởng rất lớn 
+
+đến sự phát triển của ngân hàng xanh 
+
+(Mehedi và Kuddus, 2017). Do đó, sự đồng 
+
+thuận của các chính sách sẽ tạo đà cho việc 
+
+phát triển ngân hàng xanh.  
+
+H1: Chính sách của Nhà nước tác động 
+
+tích cực tới phát triển ngân hàng xanh. 
+
+2.2.2. Điều kiện cơ sở vật chất kĩ thuật 
+
+Cơ sở vật chất, các đặc tính về mặt kĩ 
+
+thuật và mọi nguồn lực cần được chuẩn bị 
+
+một cách kỹ lưỡng để đáp ứng được yêu 
+
+cầu một công nghệ mới (Zhou, 2011). 
+
+Nghiên cứu của Afshan và Sharif (2016) đã 
+
+chứng minh có mối tương quan thuận chiều 
+
+trong việc chuẩn bị đầy đủ các điều kiện về 
+
+cơ sở kỹ thuật đối với việc ứng dụng các 
+
+công nghệ xanh. Chuẩn bị tốt về cơ sở vật 
+
+chất kĩ thuật sẽ tạo ra lợi thế cho việc phát 
+
+triển ngân hàng xanh.  
+
+H2: Điều kiện cơ sở vật chất kĩ thuật tác 
+
+động tích cực tới phát triển ngân hàng xanh. 
+
+2.2.3. Sự quan tâm đến môi trường 
+
+Gomez và Scholtz (2016) kết luận rằng 
+
+có mối tương quan tích cực về sự quan tâm 
+
+đến môi trường tới việc sử dụng các công 
+
+nghệ trong việc bảo vệ tính bền vững của 
+
+tài nguyên môi trường. Các ngân hàng đều 
+
+nhất trí ủng hộ việc phát triển bền vững 
+
+trong kinh doanh và mong muốn có trách 
+
+nhiệm đối với cộng đồng, xã hội (Nisha, 
+
+2016). Sự quan tâm tới môi trường là những 
+
+nhận thức tích cực dẫn đến việc chú trọng 
+
+hơn trong những hành vi liên quan đến hoạt 
+
+động bảo vệ môi trường của ngân hàng. 
+
+H3: Sự quan tâm đến môi trường tác động 
+
+tích cực tới phát triển ngân hàng xanh. 
+
+2.2.4. Nền kinh tế vĩ mô 
+
+Thu nhập bình quân đầu người, lãi suất 
+
+danh nghĩa dài hạn, giá dầu thô quốc tế, giá 
+
+ưu đãi năng lượng sạch, cơ chế định giá 
+
+cácbon, sự gia tăng dân số là những yếu tố 
+
+có tác động tới tăng trưởng kinh tế và là 
+
+tiền đề đẩy mạnh đầu tư xanh thông qua 
+
+một hệ thống tài chính ngân hàng vững 
+
+chắc (Eyraud và cộng sự, 2013). Do đó, nền 
+
+kinh tế vĩ mô có tác động mạnh mẽ trong 
+
+việc thực hiện hoạt động đầu tư xanh và 
+
+phát triển ngân hàng xanh.  
+
+H4: Nền kinh tế vĩ mô tác động tích cực 
+
+tới phát triển ngân hàng xanh. 
+
+2.2.5. Nhận thức của lãnh đạo 
+
+Nhận thức của lãnh đạo có ảnh hưởng rất 
+
+lớn tới việc lập kế hoạch và xây dựng chiến 
+
+lược đối với phát triển ngân hàng xanh 
+
+(Masukujjaman, 2016). Sự chậm trễ trong 
+
+nhận thức của lãnh đạo sẽ khiến ngân hàng 
+
+bỏ lỡ cơ hội, đánh mất lợi ích và làm giảm 
+
+quá trình phát triển ngân hàng xanh (Uddin 
+
+và Ahmmed, 2018). Sự quan tâm của lãnh 
+
+đạo đối với ngân hàng xanh sẽ là nhân tố 
+
+thúc đẩy quá trình chuyển đổi ngân hàng 
+
+truyền thống.  
+
+H5: Nhận thức của lãnh đạo tác động 
+
+tích cực tới phát triển ngân hàng xanh. 
+
+2.2.6. Nhận thức và trình độ của nhân viên 
+
+Sự thiếu nhận thức của nhân viên và 
+
+khách hàng về ngân hàng xanh là một bất 
+
+cập lớn trong việc triển khai ngân hàng 
+
+xanh (Sharma và cộng sự, 2014). Sự thiếu 
+
+hụt về nhân lực có kiến thức chuyên môn, 
+
+chưa có đủ khả năng đánh giá rủi ro tín 
+
+dụng từ các dự án xanh, các hoạt động liên 
+
+quan tới công nghệ xanh và đánh giá các 
+
+khoản đầu tư, cho vay liên quan tới môi 
+
+trường có tác động tiêu cực đến phát triển 
+
+ngân hàng xanh (Ngô Anh Phương, 2021). 
+
+Do vậy, nhận thức của nhân viên về lợi ích 
+
+của ngân hàng xanh đến giảm thiểu các tác 
+
+động lên môi trường và trách nhiệm đối với 
+
+xã hội, cùng với việc bổ sung các kiến thức 
+
+chuyên môn về ngân hàng xanh cho nhân 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 75 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+viên sẽ thúc đẩy sự phát triển ngân hàng 
+
+xanh một cách nhanh hơn.  
+
+H6: Nhận thức và trình độ của nhân viên 
+tác động tích cực tới phát triển ngân hàng 
+
+xanh. 
+
+2.2.7. Nguồn lực tài chính của ngân hàng 
+
+Quy mô và nguồn lực tài chính của ngân 
+
+hàng là yếu tố quan trọng giúp ngân hàng 
+
+xác định phương hướng trong tương lai, từ 
+
+đó hoạch định các bước phát triển tài chính 
+
+xanh (Barner và Han, 2013). Tại các nước 
+
+đang phát triển, thị trường vốn còn chưa phát 
+
+triển mạnh, các chế tài về tài chính còn yếu, 
+
+phần lớn các ngân hàng thiếu khả năng tài 
+
+chính để cung cấp các sản phẩm dịch vụ tài 
+
+chính xanh, ngoài ra việc thiếu vốn, thiếu 
+
+nguồn lực tài chính dài hạn và các điều kiện 
+
+tài chính không phù hợp để cho vay xanh 
+
+chính là những khó khăn, thách thức mà 
+
+ngân hàng xanh thường găp phải (Ngô Anh 
+
+Phương, 2021). Nguồn lực tài chính của 
+
+ngân hàng chính là khả năng huy động và sử 
+
+dụng các nguồn lực trong xã hội để thực 
+
+hiện hoạt động kinh doanh và tác động tới 
+
+quá trình phát triển ngân hàng xanh.  
+
+H7: Nguồn lực tài chính của ngân hàng 
+
+tác động tích cực tới phát triển ngân hàng 
+
+xanh. 
+
+HÌNH 1. Mô hình nghiên cứu 
+
+                                                             
+                H1 (+) 
+                                                            
+
+     H2 (+) 
+
+                                                                   
+
+ 
+
+       H3 (+) 
+ 
+
+ 
+
+                                                                    H4 (+) 
+ 
+
+ 
+
+                                                                    H5 (+) 
+ 
+
+ 
+
+                                                                    H6 (+) 
+
+ 
+
+                                                                    H7 (+) 
+ 
+
+ 
+
+ 
+
+ 
+
+Nguồn: Nghiên cứu đề xuất. 
+
+Mô hình hồi quy được xác định như sau: 
+
+PT (Y) = β0 + β1*CS + β2*ĐK + β3*QT 
+
++ β4*VM + β5*LĐ + β6*NV + β7*NL 
+
+Trong đó: 
+
+- PT (Biến phụ thuộc): phát triển ngân 
+
+hàng xanh 
+
+- Các biến độc lập (Xi): chính sách của 
+
+Nhà nước (CS); điều kiện cơ sở vật chất kĩ 
+
+thuật (ĐK); sự quan tâm đến môi trường 
+
+(QT); nền kinh tế vĩ mô (VM); nhận thức 
+
+của lãnh đạo (LĐ); nhận thức và trình độ 
+
+của nhân viên (NV); nguồn lực tài chính 
+
+Chính sách của Nhà nước 
+
+Điều kiện cơ sở vật chất kĩ thuật 
+
+Sự quan tâm đến môi trường 
+
+Nền kinh tế vĩ mô 
+
+Nhận thức của lãnh đạo  
+
+Phát triển ngân hàng xanh 
+
+Nhận thức và trình độ 
+
+của nhân viên 
+
+Nguồn lực tài chính 
+
+của ngân hàng 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+76  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+của ngân hàng (NL). 
+
+- βk: Hệ số hồi quy (k = 0, 1, 2,…,7). 
+
+3. Phương pháp nghiên cứu 
+
+3.1. Xây dựng thang đo 
+
+Thang đo được kế thừa và phát triển từ 
+
+các nghiên cứu của Ngô Anh Phương 
+
+(2021), Nisha (2016). Để đảm bảo giá trị 
+
+nội dung của thang đo, nghiên cứu định tính 
+
+đã được sử dụng thông qua thảo luận với 
+
+mười chuyên gia tại một số ngân hàng 
+
+thương mại trên địa bàn Thành phố Hà Nội 
+
+theo phương pháp lấy mẫu thuận tiện. Kết 
+
+quả thảo luận với các chuyên gia đều cho 
+
+rằng thang đo phù hợp với nghiên cứu.  
+
+Phiếu khảo sát được thiết kế gồm  
+
+hai phần: 
+
+Phần A: nhằm thu thập thông tin chung 
+
+của các đối tượng được khảo sát, phục vụ 
+
+cho công tác thống kê mô tả. Thang đo định 
+
+danh được sử dụng nhằm mô tả đặc điểm 
+
+giới tính, độ tuổi, trình độ học vấn, thu nhập 
+
+và chức vụ. 
+
+Phần B: bảng câu hỏi được thu thập 
+
+nhằm thu thập ý kiến của đối tượng được 
+
+khảo sát về mức độ tác động của các yếu 
+
+tố đến phát triển ngân hàng xanh tại Việt 
+
+Nam. Thang đo quãng Likert năm mức 
+
+độ được sử dụng để đánh giá mức độ 
+
+đồng ý của đối tượng nghiên cứu  
+
+(1-Hoàn toàn không đồng ý; 2-Không 
+
+đồng ý; 3-Bình thường; 4-Đồng ý; 5-
+
+Hoàn toàn đồng ý). 
+
+BẢNG 1: Thang đo các yếu tố trong mô hình nghiên cứu 
+
+Mã hóa Nội dung các thang đo Nguồn 
+
+Chính sách của Nhà Nước 
+
+CS1 Xây dựng khung pháp lý cho phát triển ngân hàng xanh Ngô Anh 
+
+Phương  
+
+(2021), 
+
+nhóm tác giả 
+
+CS2 Đưa ra các văn bản hướng dẫn về phát triển ngân hàng xanh 
+
+CS3 Đưa ra các chính sách hỗ trợ về phát triển ngân hàng xanh 
+
+CS4 Phát triển ngân hàng xanh được đưa vào chiến lược quốc gia về 
+
+tăng trưởng xanh 
+
+CS5 Các chính sách ưu đãi của Nhà nước đối với ngân hàng có các hoạt 
+
+động cấp tín dụng liên quan tới tiết kiệm năng lượng và bảo vệ 
+
+môi trường 
+
+CS6 Các chính sách khuyến khích của Nhà nước đối với ngân hàng đưa 
+
+ra các sản phẩm, dịch vụ xanh hóa 
+
+CS7 Tổ chức các buổi tập huấn, hướng dẫn để tăng cường năng lực nhận 
+
+thức cho ngân hàng về tài chính, tín dụng xanh 
+
+CS8 Các chính sách hỗ trợ cho ngân hàng khi thẩm định, đánh giá các 
+
+chương trình và dự án xanh 
+
+Điều kiện cơ sở vật chất kĩ thuật 
+
+ĐK1 Đầu tư xây dựng trụ sở và các phòng giao dịch xanh sử dụng nguồn 
+
+năng lượng tái tạo 
+
+Nhóm tác giả 
+
+ĐK2 Đầu tư, sử dụng trang thiết bị máy móc bằng vật liệu thân thiện môi 
+
+trường, tiết kiệm điện năng 
+
+ĐK3 Áp dụng khoa học, công nghệ, kĩ thuật mới để giảm thiểu việc tạo 
+
+ra cácbon 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 77 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+ĐK4 Tạo ra không gian xanh giúp giảm thiểu chi phí 
+
+ĐK5 Chú trọng trong việc tái sử dụng các nguyên liệu có sẵn 
+
+ĐK6 Sử dụng tiết kiệm nguồn nguyên vật liệu trong hoạt động ngân hàng 
+
+Sự quan tâm đến môi trường 
+
+QT1 Ngân hàng luôn quan tâm tới các vấn đề về môi trường Nisha 
+
+(2016), 
+
+nhóm tác giả 
+QT2 Ngân hàng có sự chú trọng tới các dự án bảo vệ tài nguyên 
+
+ môi trường 
+
+QT3 Ngân hàng luôn khuyến khích các doanh nghiệp vay vốn áp dụng 
+
+các công nghệ xanh vào hoạt động sản xuất, kinh doanh  
+
+QT4 Ngân hàng tích cực đầu tư vào các dự án nhằm giảm thiểu tác động 
+
+tới môi trường 
+
+QT5 Ngân hàng luôn mong muốn cấp vốn cho các doanh nghiệp có sự 
+
+phát triển bền vững và trách nhiệm đối với xã hội, cộng đồng 
+
+QT6 Ngân hàng luôn có những sản phẩm, dịch vụ phù hợp với các doanh 
+
+nghiệp có xu hướng phát triển xanh 
+
+Nền kinh tế vĩ mô 
+
+VM1 Mức độ hội nhập vào nền kinh tế thế giới Ngô Anh 
+
+Phương  
+
+(2021), 
+
+nhóm tác giả 
+
+VM2 Mức độ tăng trưởng của GDP 
+
+VM3 Mức độ ổn định giá cả hàng hóa 
+
+VM4 Mức độ thất nghiệp giảm 
+
+VM5 Mức độ phát triển của khoa học, công nghệ 
+
+VM6 Mức độ ổn định của chính trị, pháp luật 
+
+Nhận thức của lãnh đạo 
+
+LĐ1 Lãnh đạo ngân hàng luôn có trách nhiệm đối với môi trường, xã hội Ngô Anh 
+
+Phương  
+
+(2021), 
+
+nhóm tác giả 
+
+LĐ2 Lãnh đạo luôn tạo điều kiện, ủng hộ các dự án hỗ trợ cộng đồng và 
+
+bảo vệ môi trường 
+
+LĐ3 Lãnh đạo luôn mong muốn tạo ra các sản phẩm, dịch vụ xanh 
+
+LĐ4 Lãnh đạo ngân hàng xây dựng định hướng phát triển ngân hàng kết 
+
+hợp với bảo vệ môi trường 
+
+LĐ5 Lãnh đạo thường xuyên tổ chức các lớp đào tạo bổ sung các kiến 
+
+thức, sự hiểu biết cho nhân viên về ngân hàng xanh 
+
+Nhận thức và trình độ của nhân viên 
+
+NV1 Nhân viên nắm rõ được trách nhiệm, nghĩa vụ của mình đối với môi 
+
+trường và sự phát triển ngân hàng xanh 
+
+Ngô Anh 
+
+Phương  
+
+(2021), 
+
+nhóm tác giả 
+NV2 Nhân viên được trang bị đầy đủ kĩ năng, kiến thức về tín dụng xanh 
+
+NV3 Nhân viên có ý thức sử dụng hiệu quả, tiết kiệm năng lượng và bảo 
+
+vệ môi trường  
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+78  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+NV4 Nhân viên có khả năng sử dụng khoa học, công nghệ xanh để áp 
+
+dụng vào công việc 
+
+NV5 Nhân viên có khả năng, trình độ hiểu biết về quản lý môi trường 
+
+Nguồn lực tài chính của ngân hàng 
+
+NL1 Quy mô và tốc độ tăng tổng tài sản Ngô Anh 
+
+Phương  
+
+(2021), 
+
+nhóm tác giả 
+
+NL2 Vốn chủ sở hữu lớn 
+
+NL3 Khả năng sinh lời 
+
+NL4 Đảm bảo mức an toàn vốn 
+
+NL5 Đảm bảo khả năng thanh khoản 
+
+NL6 Chất lượng tổng tài sản và quản lý các hoạt động tài chính 
+
+Phát triển ngân hàng xanh 
+
+PT Mức độ phát triển ngân hàng xanh Nhóm tác giả 
+
+Nguồn: Nhóm tác giả tổng hợp. 
+
+3.2. Cỡ mẫu nghiên cứu 
+
+Tính đến cuối năm 2020, tổng số cán bộ 
+
+nhân viên tại các ngân hàng thương mại là 
+
+272.158 người. Vì vậy, quy mô mẫu sẽ được 
+
+tính theo công thức Slovin (1984, trích dẫn 
+
+bởi Võ Thị Thanh Lộc, 2010, p.19) như sau:  
+
+n = N/(1 + e2 * N) = 272.158/(1 + 0,05
+2 
+
+* 272.158) = 399  
+
+Trong đó: n: quy mô mẫu mong muốn; 
+
+N: quy mô tổng thể; e: sai số cho phép 
+
+(chọn 0,05). 
+
+Để tránh trường hợp có phiếu khảo sát 
+
+không hợp lệ, nhóm tác giả chọn phát ra 
+
+520 phiếu (tăng 30% so với công thức 
+
+tính). Nghiên cứu sử dụng phương pháp 
+
+chọn mẫu ngẫu nhiên phân tầng để tiến 
+
+hành thu thập thông tin của cán bộ nhân 
+
+viên tại các ngân hàng thương mại. Dữ liệu 
+
+được thu thập từ tháng 4-2021 đến tháng 
+
+6-2021, thông qua hình thức gửi phiếu 
+
+khảo sát trực tiếp và qua thư điện tử đến 
+
+các ngân hàng thương mại tại năm thành 
+
+phố lớn là: Hà Nội, Hải Phòng, Đà Nẵng, 
+
+Thành phố Hồ Chí Minh và Cần Thơ - đây 
+
+là nơi tập trung nhiều trụ sở, phòng giao 
+
+dịch của các ngân hàng thương mại tại 
+
+Việt Nam. Nhóm tác giả chia đều mẫu điều 
+
+tra cho các điểm nghiên cứu là 520 phiếu 
+
+đối với năm thành phố, do đó 104 phiếu 
+
+mỗi thành phố. Mẫu nghiên cứu được chia 
+
+tỷ lệ bằng nhau giữa năm thành phố lựa 
+
+chọn để thấy được sự đánh giá một cách 
+
+khách quan, công bằng giữa các thành phố. 
+
+Kết quả thu về 495 phiếu khảo sát hợp lệ. 
+
+Nghiên cứu sử dụng phương pháp thống 
+
+kê tần số các thông tin bao gồm: độ tuổi, 
+
+giới tính, trình độ học vấn, thu nhập và 
+
+chức vụ. Trong 495 phiếu thu về, thống kê 
+
+về độ tuổi có 41,3% nam và 58,7% nữ; độ 
+
+tuổi tập trung từ 30 đến 50 tuổi chiếm 
+
+67,9%; trình độ học vấn chủ yếu là tốt 
+
+nghiệp đại học chiếm 76,3%; thu nhập bình 
+
+quân từ 7 triệu đồng đến 15 triệu đồng 
+
+chiếm 56,3% và nhân viên chiếm 89,7%. 
+
+Thuộc tính của mẫu khảo sát là phù hợp với 
+
+thực tế tại các ngân hàng thương mại tại 
+
+Việt Nam, đối tượng làm việc chủ yếu là nữ 
+
+giới đang ở độ tuổi làm việc, có trình độ 
+
+học vấn cao và đạt được mức thu nhập cao 
+
+hơn so với các ngành nghề khác. 
+
+3.3. Phân tích và xử lý số liệu 
+
+Sau khi mã hóa và sàng lọc, dữ liệu được 
+
+phân tích như sau: đánh giá độ tin cậy của 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 79 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+thang đo thông qua hai công cụ là hệ số 
+
+Cronbach’s alpha và phân tích nhân tố. Hệ 
+
+số Cronbach’s alpha được sử dụng để loại 
+
+các biến “rác”, các biến có hệ số tương 
+
+quan biến tổng nhỏ hơn 0,3 sẽ bị loại và 
+
+thang đo sẽ được chọn khi hệ số 
+
+Cronbach’s alpha lớn hơn 0,6 (Hoàng 
+
+Trọng và Chu Nguyễn Mộng Ngọc, 2008). 
+
+Phân tích nhân tố khám phá xem xét các 
+
+biến quan sát có hệ số truyền tải nhỏ hơn 
+
+0,5 và được trích vào hai nhân tố có sự 
+
+chênh lệch nhỏ hơn 0,3 sẽ bị loại. Điểm 
+
+dừng Eigenvalue (đại diện cho phần biến 
+
+thiên được giải thích bởi mỗi nhân tố) lớn 
+
+hơn 1 và tổng phương sai trích lớn hơn 
+
+50%. Bên cạnh đó, kiểm định KMO (Kaiser 
+
+- Mayer - Olkin) và Bartlett được sử dụng 
+
+để đánh giá tính hợp lý của dữ liệu. Sử 
+
+dụng kiểm định F trong bảng phân tích 
+
+phương sai để kiểm định giả thuyết về độ 
+
+phù hợp của mô hình hồi quy tuyến tính 
+
+tổng thể. Khi Sig. nhỏ hơn 0,05 thì mô hình 
+
+hồi quy phù hợp với tập dữ liệu và có thể sử 
+
+dụng được. Sử dụng hệ số VIF (Variance 
+
+inflation factor) để kiểm tra hiện tượng đa 
+
+cộng tuyến (VIF nhỏ hơn 10).  
+
+Kết quả đánh giá độ tin cậy thang đo của 
+
+mô hình nghiên cứu cho thấy hệ số 
+
+Cronbach’s alpha thấp nhất là 0,753 và cao 
+
+nhất là 0,862. So với chuẩn 0,6 thì tất cả 
+
+các biến quan sát của thang đo đều đạt yêu 
+
+cầu. Các hệ số tương quan biến - tổng đều 
+
+có kết quả lớn hơn 0,3. Hệ số Cronbach’s 
+
+alpha nếu loại biến của tất cả 43 biến quan 
+
+sát đều nhỏ hơn hệ số Cronbach’s alpha 
+
+tổng nên không có biến nào bị loại. Tất cả 
+
+các thang đo đều đạt được hai giá trị tin cậy 
+
+và giá trị phân biệt. Do đó, thang đo được 
+
+đánh giá là tốt và đủ điều kiện đưa vào phân 
+
+tích nhân tố khám phá EFA. 
+
+BẢNG 2: Đánh giá độ tin cậy thang đo 
+
+Biến quan sát 
+Hệ số tương quan 
+
+biến - tổng 
+
+Hệ số  
+
+Cronbach’s alpha 
+
+Chính sách của Nhà nước 0,735 0,862 
+
+Điều kiện cơ sở vật chất kĩ thuật 0,672 0,776 
+
+Sự quan tâm đến môi trường 0,723 0,843 
+
+Nền kinh tế vĩ mô 0,652 0,753 
+
+Nhận thức của lãnh đạo  0,712 0,804 
+
+Nhận thức và trình độ của nhân viên 0,693 0,791 
+
+Nguồn lực tài chính của ngân hàng 0,687 0,783 
+
+Phát triển ngân hàng xanh 0,729 0,854 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+Kết quả phân tích nhân tố khám phá các 
+
+biến độc lập cho thấy hệ số KMO đạt 0,582 
+
+(0,5 < KMO < 1) và thống kê Chi-square 
+
+của kiểm định Bartlett Test đạt giá trị 
+
+7639,386 với mức ý nghĩa 0,000. Tại mức 
+
+giá trị Eigenvalue bằng 1,478, phân tích 
+
+nhân tố đã trích ra được bảy nhân tố với tổng 
+
+phương sai trích đạt 76,581%. Bảy nhân tố 
+
+này giải thích được 76,581% sự biến thiên 
+
+của dữ liệu. Hệ số tải của các biến quan sát 
+
+đều lớn hơn 0,5, từ đó cho thấy phân tích 
+
+nhân tố khám phá là phù hợp.  
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+80  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+BẢNG 3: Kết quả phân tích EFA các biến độc lập 
+
+Biến quan 
+
+sát 
+
+Nhân tố 
+
+1 2 3 4 5 6 7 
+
+VM1 0,898       
+
+VM2 0,887       
+
+VM3 0,881       
+
+VM4 0,874       
+
+VM5 0,862       
+
+VM6 0,858       
+
+ĐK6  0,834      
+
+ĐK3  0,823      
+
+ĐK5  0,812      
+
+ĐK4  0,802      
+
+ĐK1  0,789      
+
+ĐK2  0,781      
+
+QT2   0,829     
+
+QT5   0,825     
+
+QT1   0,810     
+
+QT4   0,796     
+
+QT3   0,736     
+
+QT6   0,722     
+
+CS1    0,827    
+
+CS2    0,818    
+
+CS5    0,809    
+
+CS8    0,805    
+
+CS3    0,794    
+
+CS6    0,764    
+
+CS4    0,757    
+
+CS7    0,749    
+
+LĐ2     0,879   
+
+LĐ4     0,860   
+
+LĐ5     0,851   
+
+LĐ1     0,846   
+
+LĐ3     0,839   
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 81 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+NL1      0,885  
+
+NL4      0,870  
+
+NL5      0,856  
+
+NL6      0,821  
+
+NL2      0,789  
+
+NL3      0,772  
+
+NV4       0,788 
+
+NV2       0,779 
+
+NV1       0,754 
+
+NV3       0,737 
+
+NV5       0,728 
+
+Hệ số KMO = 0,582 
+
+Kiểm định Bartlett’s  Giá trị Chi bình phương xấp xỉ 7.639,386 
+
+df 320 
+
+Sig. 0,000 
+
+Tổng phương sai trích (%) 76,581% 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+Kết quả phân tích nhân tố thang đo phát 
+
+triển ngân hàng xanh có hệ số tải nhân tố 
+
+lớn hơn 0,5. Kiểm định KMO cho kết quả 
+
+là 0,634 (0,5 < KMO < 1)  và thống kê Chi-
+
+square của kiểm định Bartlett Test đạt giá 
+
+trị 386,568 với mức ý nghĩa 0,000, hệ số 
+
+Eigenvalue bằng 2,573, tổng phương sai 
+
+trích được 81,659%. 
+
+BẢNG 4: Kết quả phân tích EFA biến phụ thuộc 
+
+Biến quan sát Nhân tố 
+
+1 
+
+PT 0,836 
+
+Hệ số KMO = 0,634 
+
+Kiểm định Bartlett’s Giá trị Chi bình phương xấp xỉ 386,568 
+
+df 1 
+
+Sig. 0,000 
+
+Tổng phương sai trích (%) 81,659% 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+4. Kết quả và thảo luận 
+
+Kết quả phân tích hệ số tương quan cho 
+
+thấy các biến có tương quan với nhau, bảy 
+
+biến độc lập đều có tương quan với biến 
+
+phụ thuộc phát triển ngân hàng xanh. Trong 
+
+đó, tương quan mạnh nhất là biến CS (chính 
+
+sách của Nhà nước 0,628), tương quan yếu 
+
+nhất với biến NL (nguồn lực tài chính của 
+
+ngân hàng là 0,341) và mối tương quan có ý 
+
+nghĩa thống kê ở độ tin cậy 99% nên có thể 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+82  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+kết luận các biến độc lập này đủ điều kiện 
+
+đưa vào mô hình để giải thích cho biến phát 
+
+triển ngân hàng xanh. Tóm lại, sau khi kiểm 
+
+định Pearson thì giữa các biến độc lập với 
+
+nhau đều thỏa mãn điều kiện để đưa vào 
+
+phân tích hồi quy. 
+
+BẢNG 5: Kết quả hệ số tương quan Pearson 
+
+Nhân tố PT VM ĐK QT CS LĐ NL NV 
+
+PT 1        
+
+VM 0,523** 1       
+
+ĐK 0,436** 0,478** 1      
+
+QT 0,579** 0,497** 0,470** 1     
+
+CS 0,628** 0,416** 0,551** 0,587** 1    
+
+LĐ 0,542** 0,529** 0,473** 0,573** 0,583** 1   
+
+NL 0,341** 0,521** 0,449** 0,536** 0,545** 0,565** 1  
+
+NV 0,536** 0,489** 0,441** 0,512** 0,483** 0,501** 0,490** 1 
+
+**. Tương quan có ý nghĩa ở mức 0,01. 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+Để xác định đo lường ảnh hưởng của các 
+
+yếu tố đến sự phát triển ngân hàng xanh tại 
+
+Việt Nam, nghiên cứu thực hiện phương 
+
+pháp phân tích hồi quy bảy nhân tố độc lập: 
+
+(1) chính sách của Nhà nước; (2) điều kiện 
+
+cơ sở vật chất kỹ thuật; (3) sự quan tâm đến 
+
+môi trường; (4) nền kinh tế vĩ mô; (5) nhận 
+
+thức của lãnh đạo; (6) nhận thức và trình độ 
+
+của nhân viên; (7) nguồn lực tài chính của 
+
+ngân hàng và biến phụ thuộc là phát triển 
+
+ngân hàng xanh bằng phương pháp Enter. 
+
+Kết quả phân tích cho thấy mô hình nghiên 
+
+cứu phù hợp với mức ý nghĩa Sig. nhỏ hơn 
+
+0,05. Hệ số R2 bằng 0,573 và hệ số R2 hiệu 
+
+chỉnh bằng 0,551 cho thấy rằng, 55,1% giá 
+
+trị biến thiên được giải thích bởi bảy nhân 
+
+tố ảnh hưởng đến phát triển ngân hàng xanh 
+
+tại Việt Nam. 
+
+BẢNG 6: Đánh giá mức độ phù hợp của mô hình nghiên cứu 
+
+Mô hình Hệ số R Hệ số R2 
+Hệ số R2 – hiệu 
+
+chỉnh 
+
+Sai số chuẩn của 
+
+ước lượng 
+
+Hệ số Durbin-
+
+Watson 
+
+1 0,704a 0,573 0,551 0,33646 0,961 
+
+a. Dự đoán: (Hằng số), VM, ĐK, QT, CS, LĐ, NL, NV 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+Kết quả phân tích ANOVA và kiểm định 
+
+F cho thấy trị số thống kê được tính từ R2 
+
+có giá trị Sig. = 0,000 và tổng bình phương 
+
+hồi quy (61,142) lớn hơn tổng bình phương 
+
+phần dư (34,921) cho thấy mô hình giải 
+
+thích hầu hết các phương sai của biến phụ 
+
+thuộc. Điều này chứng tỏ mô hình hồi quy 
+
+tuyến tính phù hợp với tập dữ liệu nghiên 
+
+cứu. Như vậy, cả bảy biến độc lập đều có 
+
+quan hệ với biến phụ thuộc và mô hình hồi 
+
+quy tuyến tính là phù hợp và có thể sử dụng 
+
+được cho nghiên cứu. 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 83 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+BẢNG 7: Kiểm định ANOVA của mô hình nghiên cứu 
+
+Mô hình 
+Tổng bình 
+
+phương 
+Hệ số df 
+
+Trung bình 
+
+bình phương 
+Hệ số F Hệ số Sig. 
+
+1 Hồi quy 61,142 7 11,857 104,492 0,000b 
+
+Phần dư 34,921 488 0,113   
+
+Tổng 110,063 495    
+
+b. Dự đoán: (Hằng số), VM, ĐK, QT, CS, LĐ, NL, NV 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+BẢNG 8: Kết quả phân tích hồi quy 
+
+Mô hình 
+
+Hệ số hồi quy chưa 
+
+chuẩn hóa 
+
+Hệ số hồi quy 
+
+chuẩn hóa 
+Hệ số t 
+
+Hệ số 
+
+Sig. 
+
+Thống kê 
+
+đa cộng tuyến 
+
+Hệ số Beta 
+Độ lệch 
+
+chuẩn 
+Hệ số Beta 
+
+Dung sai 
+
+điều chỉnh 
+VIF 
+
+1 (Hằng 
+
+số) 
+0,414 0,129  3,199 0,002   
+
+VM 0,069 0,027 0,289 2,534 0,012 0,693 1,442 
+
+ĐK 0,100 0,028 0,223 9,596 0,000 0,604 1,420 
+
+QT 0,163 0,028 0,336 5,912 0,000 0,723 1,382 
+
+CS 0,169 0,030 0,359 5,671 0,000 0,722 1,385 
+
+LĐ 0,275 0,030 0,321 3,280 0,000 0,790 1,449 
+
+NL 0,105 0,027 0,194 2,811 0,005 0,677 1,447 
+
+NV 0,253 0,024 0,318 3,148 0,000 0,656 1,424 
+
+a. Biến phụ thuộc: PT 
+
+Nguồn: Kết quả xử lý số liệu của nhóm tác giả. 
+
+Mô hình hồi quy phản ánh tác động của 
+
+các yếu tố đến phát triển ngân hàng xanh 
+
+tại Việt Nam theo hệ số Beta chuẩn hóa 
+
+như sau: 
+
+PT = 0,289*VM + 0,223*ĐK  + 
+
+0,336*QT + 0,359*CS + 0,321*LĐ + 
+
+0,194*NL + 0,318*NV 
+
+Trong đó, PT là phát triển ngân hàng 
+
+xanh, VM là nền kinh tế vĩ mô, ĐK là điều 
+
+kiện cơ sở vật chất kĩ thuật, QT là là sự quan 
+
+tâm đến môi trường, CS là chính sách của 
+
+Nhà nước, LĐ là nhận thức của lãnh đạo, 
+
+NL là nguồn lực tài chính của ngân hàng, 
+
+NV là nhận thức và trình độ của nhân viên.  
+
+Phương trình hồi quy cho thấy, chính 
+
+sách của Nhà nước có ảnh hưởng mạnh nhất 
+
+đến việc phát triển ngân hàng xanh; tiếp đến 
+
+là sự quan tâm tới môi trường; thứ ba là 
+
+nhận thức của lãnh đạo; nhận thức và trình 
+
+độ của nhân viên; nền kinh tế vĩ mô; điều 
+
+kiện cơ sở vật chất kĩ thuật và cuối cùng là 
+
+nguồn lực tài chính của ngân hàng. 
+
+Như vậy, kết quả nghiên cứu thực 
+
+nghiệm cho thấy bảy yếu tố đều có tác động 
+
+tích cực đến phát triển ngân hàng xanh tại 
+
+Việt Nam. Theo đó, chính sách của Nhà 
+
+nước là yếu tố tác động mạnh nhất đến sự 
+
+phát triển ngân hàng xanh. Kết quả nghiên 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+84  Nghiên cứu Kinh tế số 9(532) - Tháng 9/2022 
+
+Các yếu tố ảnh hưởng đến… 
+
+ 
+
+cứu này có sự tương đồng với nghiên cứu 
+
+của Hoen (2014). Sự can thiệp của Chính 
+
+phủ là bắt buộc đối với các nước đang phát 
+
+triển, trong khi các nước phát triển thường 
+
+có các biện pháp và chính sách phù hợp 
+
+trong việc quản lý các vấn đề môi trường để 
+
+có hiệu quả trong hoạt động và giao cho các 
+
+tổ chức công trong việc điều hành chính 
+
+sách. Sự quan tâm đến môi trường có tác 
+
+động nhất định đến sự phát triển ngân hàng 
+
+xanh. Điều này hoàn toàn phù hợp với thực 
+
+tế tại Việt Nam, do Việt Nam đang phải đối 
+
+mặt với rất nhiều thiên tai, gây ra tổn thất 
+
+lớn cho môi trường, đồng thời, vấn đề ô 
+
+nhiễm ngày càng nghiêm trọng, nên sự 
+
+quan tâm đến môi trường là yếu tố tích cực 
+
+hỗ trợ phát triển ngân hàng xanh hướng tới 
+
+việc chăm sóc tốt hơn cho môi trường và 
+
+giúp giải quyết các lỗ hổng về môi trường. 
+
+Kết quả này phù hợp với nghiên cứu của 
+
+Nisha (2016).  
+
+Ngoài ra, nhận thức của lãnh đạo và trình 
+
+độ của nhân viên về ngân hàng xanh cũng có 
+
+vai trò quan trọng trong phát triển ngân hàng 
+
+xanh tại Việt Nam. Hiện nay, các lãnh đạo 
+
+của các ngân hàng thương mại đã coi trọng 
+
+nhiều mục tiêu phát triển xanh, xây dựng các 
+
+chiến lược dành riêng cho đội ngũ nhân lực 
+
+trong lĩnh vực xanh. Trên thực tế, kiến thức 
+
+của nhân viên về ngân hàng xanh đã được 
+
+cải thiện đáng kể trong thời gian qua, giúp 
+
+đẩy nhanh quá trình chuyển đổi từ mô hình 
+
+ngân hàng truyền thống sang mô hình ngân 
+
+hàng xanh. Do đó, kết quả nghiên cứu hoàn 
+
+toàn ủng độ quan điểm của Masukujjaman 
+
+(2016) và Sharma và cộng sự (2014). Các 
+
+yếu tố nền kinh tế vĩ mô, điều kiện cơ sở vật 
+
+chất và nguồn lực tài chính của ngân hàng 
+
+cũng là một trong các yếu tố tác động của 
+
+phát triển ngân hàng xanh. 
+
+5. Kết luận và hàm ý chính sách 
+
+Nghiên cứu đưa ra một số kết quả nhất 
+
+định về ảnh hưởng của các yếu tố đến phát 
+
+triển ngân hàng xanh tại các ngân hàng 
+
+thương mại ở Việt Nam. Phân tích dữ liệu 
+
+từ 495 cán bộ nhân viên có thể kết luận 
+
+rằng, bảy yếu tố có tác động tích cực đến 
+
+phát triển ngân hàng xanh tại các ngân hàng 
+
+thương mại ở Việt Nam. Kết quả quan 
+
+trọng nhất của nghiên cứu này là phát hiện 
+
+về thực tế triển khai ngân hàng xanh tại các 
+
+ngân hàng thương mại và mức độ ảnh 
+
+hưởng của các yếu tố đến phát triển ngân 
+
+hàng xanh. 
+
+Chính sách của Nhà nước có vai trò quan 
+
+trọng đối với các ngân hàng thương mại. 
+
+Do đó, cần hoàn thiện khung khổ pháp lý, 
+
+có những chính sách ưu đãi, cơ chế hỗ trợ 
+
+khuyến khích, tạo động lực cho các ngân 
+
+hàng thương mại phát triển ngân hàng xanh.  
+
+Các ngân hàng thương mại cần tập trung 
+
+sự quan tâm đến môi trường thông qua việc 
+
+đa dạng hóa các sản phẩm, dịch vụ xanh, áp 
+
+dụng kỹ thuật, công nghệ cao trong hoạt 
+
+động ngân hàng, xây dựng chủ sở xanh và 
+
+hạn chế mở rộng thêm chi nhánh mới. 
+
+ Nhân tố con người đóng một vai trò 
+
+trong việc thực hiện ngân hàng xanh. Nếu 
+
+mỗi lãnh đạo và nhân viên có kiến th

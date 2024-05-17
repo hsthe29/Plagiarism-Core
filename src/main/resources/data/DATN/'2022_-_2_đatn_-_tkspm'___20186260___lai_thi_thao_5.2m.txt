@@ -1,0 +1,8081 @@
+
+0 
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+ 
+
+Tìm hiểu cấu trúc và phương pháp gia công sản 
+
+phẩm quần thể thao của thương hiệu Nike, phát 
+
+triển thiết kế cho sản phẩm mới 
+
+ 
+
+LẠI THỊ THAO 
+
+thao.lt186260@sis.hust.edu.vn 
+
+Ngành Công nghệ dệt, may 
+
+Chuyên ngành Thiết kế sản phẩm may 
+
+ 
+
+            
+
+           Giảng viên hướng dẫn: TS.Nguyễn Thị Thuý Ngọc 
+ 
+
+                                                    Ths.Lê Thị Dung 
+
+            Bộ môn                           Công nghệ May và Thời trang 
+
+            Viện                                Dệt May - Da giầy và Thời trang 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+HÀ NỘI, 8/2023 
+
+mailto:thao.lt186260@sis.hust.edu.vn
+
+
+1 
+ 
+
+ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+Viện Dệt May- Da giầy và Thời trang 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA 
+
+VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+ĐỀ TÀI TỐT NGHIỆP 
+
+Họ và tên sinh viên: Lại Thị Thao   
+
+Số hiệu sinh viên: 20186260 
+
+Khoá: 63      
+
+Viện: Dệt May- Da giầy và Thời trang      
+
+Ngành: Công nghệ dệt, may  
+
+Chuyên ngành: Thiết kế sản phẩm may 
+
+1. Tên đề tài: Tìm hiểu cấu trúc và phương pháp gia công sản phẩm quần 
+
+thể thao của thương hiệu Nike, phát triển thiết kế cho sản phẩm mới 
+
+2. Các số liệu ban đầu: 
+
+Sản phẩm quần thể thao nam cúa thương hiệu Nike đã sản xuất 
+
+3. Nội dung các phần thuyết minh và tính toán: 
+
+- Tìm hiểu cấu trúc, phương pháp gia công sản phẩm quần thể thao của thương 
+
+hiệu Nike. 
+
+- Phân tích sản phẩm đã có và đề xuất tiêu chí phát triển thiết kế của sản phẩm 
+
+mới. 
+
+- Đề xuất và lựa chọn tưởng sản phẩm mới 
+
+- Thiết kế mẫu 
+
+4. Các bản vẽ A0, đồ thị và mẫu sản phẩm: 
+
+- Mô tả kỹ thuật sản phẩm và kết cấu các đường liên kết và cụm chi tiết : A0 
+
+- Bản vẽ thiết kế sản phẩm: tỷ lệ 1/1, A0 
+
+5. Họ và tên cán bộ hướng dẫn: TS.Nguyễn Thị Thuý Ngọc 
+ 
+
+                                                Ths.Lê Thị Dung 
+
+ 
+
+
+
+2 
+ 
+
+6. Ngày giao nhiệm vụ đồ án: 17/4/2023 
+
+7. Ngày hoàn thành đồ án: 04/8/2023 
+
+Ngày 04 tháng 08  năm 2023 
+
+  Trưởng Bộ môn             Cán bộ hướng dẫn 
+
+ 
+
+ 
+
+      Nguyễn Thị Thuý Ngọc         Nguyễn Thị Thuý Ngọc 
+
+Sinh viên đã hoàn thành và nộp đồ án tốt nghiệp ngày  04 tháng 08 năm 2023 
+
+        Người duyệt 
+
+ 
+
+ 
+
+  
+
+
+
+3 
+ 
+
+Lời cảm ơn 
+Lời đầu tiên, em xin gửi lời cảm ơn đến các thầy cô giáo trong Đại học Bách Khoa 
+
+Hà Nội nói chung và các thầy cô trong Viện Dệt may-Da giày và thời trang nói 
+
+riêng đã tận tình dạy bảo, giúp đỡ em trong suốt những năm học vừa qua. Các thầy 
+
+cô không chỉ truyền đạt cho em kiến thức về các môn đại cương và các môn chuyên 
+
+ngành, mang đến những kiến thức vô cùng quý báu cho em trong các công biệc 
+
+sau này mà còn tận tính giúp đỡ em trong các vấn đề về cuộc sống để chúng em có 
+
+thể học tập và vui chơi hết mình trong suốt những năm tháng học đại học. Đặc biệt, 
+
+em xin đặc biệt cảm ơn sự đóng góp ý kiến và theo dõi nhiệt tình của  TS.Nguyễn 
+
+Thị Thuý Ngọc và Ths. Lê Thị Dung, giảng viên bộ môn Công nghệ may và Thời 
+
+trang - Đại học Bách Khoa Hà Nội, trong suốt thời gian làm đồ án tốt nghiệt các 
+
+cô đã giúp em thực hiện được đồ án và nhiệt tình hướng dẫn em hoàn thiện bài một 
+
+cách tốt nhất, khắc phục được nhiều thiếu sót trong quá trình thực hiện.    
+
+ Em cũng xin cảm ơn gia đình, bạn bè những người đã luôn quan tâm và giúp đỡ 
+
+em trong suốt quá trình học tập và thời gian thực hiện đồ án tốt nghiệp. 
+
+ Do trong quá trình thực hiện và hoàn thành đồ án em còn nhiều thiếu sót và kiến 
+
+thức còn hạn chế nên không thể tránh khỏi những thiếu xót vì vậy em mong nhận 
+
+được sự góp ý từ các thầy, cô để bài làm của em được hoàn thiện hơn. 
+
+Em xin chân thành cảm ơn! 
+
+ 
+
+ 
+
+  
+
+
+
+4 
+ 
+
+Tóm tắt nội dung đồ án 
+Về nội dung đồ án tốt nghiệp, bài làm của em gồm bốn phần như sau: 
+
+- Tìm hiểu về cấu trúc, phương pháp gia công sản phẩm quần thể thao. 
+- Phân tích sản phẩm đã có và đề xuất tiêu chí thiết kế 
+- Đề xuất và lựa chọn ý tưởng sản phẩm 
+- Thiết kế mẫu 
+
+Phần đầu tiên, em nghiên cứu về cấu trúc, phương pháp gia công sản phẩm quần 
+
+thể thao. Trong chương này em đưa ra danh mục sản phẩm của Nike và quá trình 
+
+hình thành và phát triển của sản phẩm thể thao. Tiếp theo, tìm hiểu một số loại vật 
+
+liệu thường được sử dung trong quá trình sản xuất quần thể thao. Một số ưu, nhược 
+
+điểm của các loại vải này cũng được nêu ra. Về cấu trúc, em nêu ra một số cấu trúc 
+
+đặc trưng ở quần thể thao. Các phương pháp gia công thường thấy là phương pháp 
+
+may và phương pháp hàn dán. 
+
+Chương hai, em có lựa chọn một sản phẩm quần thể thao cụ thể của thương hiệu 
+
+Nike. Sau đó, em nghiên cứu phân tích về các đặc điểm và cấu trúc của sản phẩm. 
+
+Từ đó, em đưa ra các nhận xét cúa cá nhân em về sản phẩm và các nhận xét  của 
+
+một số khách hàng đã mua và dụng. Từ những nhận xét của cá nhân và của ý kiến 
+
+đánh giá của khách hàng, em đề xuất ra được một số tiêu chí thiết kế. 
+
+Chương ba, bắt nguồn từ những tiêu chí thiêt kế đã đưa ra em đề xuất và lựa chọn 
+
+các ý tưởng về vật liệu và cấu trúc từ đó  có các ý tưởng về sản phấm, đem các ý 
+
+tưởng đi sàng lọc và lựa chọn ý tưởng để thực hiện. Ngoài ra, nghiên cứu sâu hơn 
+
+về phương pháp dán trong gia công sản phẩm. Đặc biệt, em có tìm hiểu sâu và 
+
+nghiên cứu quá trình thực hiện làm cạp khi sử dụng phương pháp dán, thử nghiệm 
+
+các phương pháp test trên ba loại keo khác nhau từ đó tìm ra được loại keo phù 
+
+hợp để làm cạp. Trong quá trình thực hiện em được tiếp xúc với một số loại máy 
+
+mới như máy ép nhiệt, máy test độ bền, … 
+
+Chương cuối, sau khi đã lựa chọn được ý tưởng sản phẩm để thực hiện, em thiết 
+
+kế mẫu gốc và phát triển mẫu ý tưởng trên tiền đề mẫu gốc đó. Thực hiện may 
+
+mẫu, đánh giá để tạo ra sản phẩm hoàn thiện cuối cùng. Kèm theo đó là thực hiện 
+
+xấy dựng một số nội dung như đặc điểm nguyên phụ liệu: kết cấu cụm chi tiết, 
+
+đường liên kết, sơ đồ khối gia công, sơ đồ lắp ráp,… 
+
+Sau khi thực hiện các nội dung trên, em đã tìm hiểu và thực hiện thêm được một 
+
+số công việc trong phương pháp hàn, phát triển thiết kế một sản phẩm cụ thể là 
+
+quần thể thao NRG Sr 2-In-1 Pant x Undercover của Nike 
+
+Ngoài những nội dung đã tìm hiểu và nghiên cứu trên, đồ án cũng có thể phát triên 
+
+và thực hiện thêm một số nội dung như là thực hiện thêm một số phương pháp hàn 
+
+dán khác cho các đường may và cấu trúc khác: phương pháp dán đường may, kết 
+
+hợp giữa phương pháp may và dán; thực hiện phát triển sản phẩm theo một hướng 
+
+khác như là nhỏ gọn, chống thấm nước,… 
+
+  
+
+
+
+5 
+ 
+
+Mục lục 
+Lời cảm ơn ............................................................................................................. 3 
+
+Tóm tắt nội dung đồ án .......................................................................................... 4 
+
+DANH MỤC HÌNH ẢNH ..................................................................................... 6 
+
+CHƯƠNG 1. TÌM HIỂU CẤU TRÚC. PHƯƠNG PHÁP GIA CÔNG SẢN 
+
+PHẨM QUẦN THỂ THAO CỦA THƯƠNG HIỆU NIKE .................................. 9 
+
+1.1. Tổng quan về quần thể thao ...................................................................... 9 
+
+1.2. Tìm hiểu về cấu trúc sản phẩm quần thể thao của Nike ......................... 18 
+
+1.3. Tìm hiểu phương pháp gia công sản phẩm quần thể thao của Nike ....... 25 
+
+CHƯƠNG 2. PHÂN TÍCH SẢN PHẨM ĐÃ CÓ VÀ ĐỀ XUẤT TIÊU CHÍ 
+
+PHÁT TRIỂN THIẾT KẾ CỦA SẢN PHẨM MỚI. ........................................... 28 
+
+2.1. Phân tích sản phẩm quần thể thao mã HO20 – CW8019 ........................... 28 
+
+2.2. Phân tích sản phẩm cạnh tranh ................................................................... 39 
+
+2.3. Đề xuất tiêu chí phát triển thiết kế mới ...................................................... 54 
+
+2.3.1. Xác định các thuộc tính của sản phẩm ................................................. 54 
+
+2.3.2. Đề xuất các tiêu chí thiết kế ................................................................. 56 
+
+CHƯƠNG 3. ĐỀ XUẤT VÀ LỰA CHỌN Ý TƯỞNG SẢN PHẨM MỚI ........ 59 
+
+3.1. Đề xuất và lựa chọn ý tưởng vật liệu ......................................................... 59 
+
+3.2. Đề xuất và lựa chọn ý tưởng cấu trúc sản phẩm ........................................ 60 
+
+3.3 .Đề xuất và lựa chọn kết cấu cạp quần ................................................... 70 
+
+3.3.1. Tìm hiểu cấu trúc cạp quần .................................................................. 70 
+
+3.3.2. Tìm hiểu, đề xuất kết cấu và phương pháp gia công cạp quần ............ 71 
+
+3.3.3. Thực nghiệm xác định  thông số công nghệ gia công cạp quần. ......... 75 
+
+CHƯƠNG 4. THIẾT KẾ MẪU ........................................................................... 95 
+
+4.1. Thiết kế mẫu gốc .................................................................................... 95 
+
+4.2. Tạo mẫu prototype ................................................................................ 104 
+
+4.3. Hiệu chỉnh mẫu ..................................................................................... 113 
+
+4.4. Hoàn chỉnh mẫu prototype và tài liệu sản phẩm .................................. 115 
+
+4.4.1. Hoàn chỉnh mẫu prototype ................................................................. 115 
+
+4.4.2. Tính định mức nguyên phụ liệu và giá thành gia công sản phẩm ..... 115 
+
+4.4.3. Thiết lập sơ bộ tài liệu sản phẩm ....................................................... 117 
+
+4.4.4. Chế tạo mẫu sản xuất ......................................................................... 119 
+
+Kết luận .............................................................................................................. 124 
+
+DANH MỤC TÀI LIỆU THAM KHẢO ........................................................... 125 
+
+ 
+
+  
+
+
+
+6 
+ 
+
+DANH MỤC HÌNH ẢNH 
+
+Hình 1.1. Hình ảnh sản phẩm quần áo của Nike .................................................... 9 
+
+Hình 1.2. Hình ảnh sản phẩm giầy của Nike ....................................................... 10 
+
+Hình 1.3. Hình ảnh phụ kiện của Nike ................................................................. 11 
+
+Hình 1.4. Hình ảnh những chiếc quần xám đầu tiên được giới thiệu .................. 12 
+
+Hình 1.5. Hình ảnh quần thể hao dáng dài ........................................................... 13 
+
+Hình 1.6. Hình ảnh quần jogger ........................................................................... 14 
+
+Hình 1.7. Hình ảnh quàn legging ......................................................................... 15 
+
+Hình 1.8. Hình ảnh quần short 3 inch .................................................................. 16 
+
+Hình 1.9. Hình ảnh quần short 5 inch .................................................................. 16 
+
+Hình 1.10. Hình ảnh quần short 7 inch ................................................................ 17 
+
+Hình 1.11. Hình ảnh quần bó cơ .......................................................................... 18 
+
+Hình 1.12. Hình ảnh vải cotton ............................................................................ 21 
+
+Hình 1.13. Hình ảnh quần sử dụng vải polyester ................................................. 22 
+
+Hình 1.14. Hình ảnh quần sử dụng vải nylon ...................................................... 23 
+
+Hình 1.15. Hình ảnh quần sử dụng vải pha spandex ............................................ 23 
+
+Hình 1.16. Hình ảnh sản phẩm sử dụng vải bambam .......................................... 24 
+
+Hình 1.17. Hình ảnh sản phảm sử dụng vải tencel .............................................. 25 
+
+Hình 2.1. Hình ảnh sản phẩm quần thể thao mã HO20 – CW8019 ..................... 28 
+
+Hình 2.2. Hình ảnh mô tả sản phẩm ..................................................................... 33 
+
+Hình 2.3. Hình ảnh mô tả cấu trúc cạp chun quần ............................................... 33 
+
+Hình 2.4. Hình ảnh mô tả gấu quần ..................................................................... 34 
+
+Hình 2.5. Hình ảnh mô tả túi hộp ......................................................................... 35 
+
+Hình 2.6. Hình  ảnh mô tả túi chéo ...................................................................... 36 
+
+Hình 2.7. Hình ảnh mô tả túi hậu ......................................................................... 37 
+
+Hình 2.8. Hình ảnh mô tả vị trí tháo lắp ống quần ............................................... 38 
+
+Hình 2.9. Hình ảnh sản phẩm ............................................................................... 38 
+
+Hình 2.10. Hình ảnh một cửa hàng của Nike ....................................................... 40 
+
+Hình 2.11. Hình ảnh Phil Knight và Bill Bowerman ........................................... 40 
+
+Hình 2.12. Trụ sở Nike gần Beaverton, Oragon, Hoa Kỳ .................................... 42 
+
+Hình 2.13. Hình ảnh khẩu hiệu của Nike ............................................................. 43 
+
+Hình 2.14. Hình ảnh logo Nike qua từng giai đoạn ............................................. 44 
+
+Hình 2.15. Hình ảnh một số công nghệ giày Nike ............................................... 45 
+
+Hình 2.16. Hình ảnh một trung tâm phân phối của Nike ..................................... 46 
+
+Hình 2.17. Hình ảnh một cửa hàng bán lẻ của Nike ............................................ 46 
+
+Hình 2.18. Hình ảnh trong clip quảng cáo cho chiến dịch “Find Your ............... 47 
+
+Hình 2.19. Hình ảnh Cristiano Ronaldo – đại sứ thương hiệu của Nike cho dòng 
+
+Mercurial .............................................................................................................. 48 
+
+Hình 2.20. Hình ảnh TVC quảng cáo “Winner stays on” vào mùa Worlcup 2014 
+
+thu về 10,7 triệu lượt xem .................................................................................... 48 
+
+Hình 3.1. Hình ảnh mô tả sản phẩm ..................................................................... 59 
+
+Hình 3.2. Hình ảnh ý tưởng sản phẩm lựa chọn .................................................. 70 
+
+Hình 3.3, Hình ảnh mô tả cạp quần ...................................................................... 70 
+
+Hình 3.4. Hình ảnh mô tả phương pháp dán tiếp xúc .......................................... 72 
+
+Hình 3.5. Hình ảnh mô tả phương pháp dán khí nóng ......................................... 72 
+
+Hình 3.6. Hình ảnh mô tả phương pháp dán kết hợp may- dán ........................... 73 
+
+Hình 3.7. Hình ảnh mô tả cách làm mẫu ép keo .................................................. 75 
+
+Hình 3.8. Hình ảnh mẫu ép kep 3415.3 ............................................................... 76 
+
+
+
+7 
+ 
+
+Hình 3.9. Hình ảnh mẫu ép keo 3916.6 ............................................................... 76 
+
+Hình 3.10. Hình ảnh mô tả mẫu ép kep 6430.10 ................................................. 76 
+
+Hình 3.11. Hình ảnh máy ép keo.......................................................................... 77 
+
+Hình 3.12. Hình ảnh máy giặt .............................................................................. 77 
+
+Hình 3.13. Hình ảnh máy kéo .............................................................................. 78 
+
+Hình 3.14. Hình ảnh cách làm mẫu thử nghiệm .................................................. 79 
+
+Hình 3.15. Hình ảnh mẫu thử ............................................................................... 79 
+
+Hình 3.16. Hình ảnh quá trình kéo Peel ............................................................... 80 
+
+Hình 3.17. Hình ảnh hệ thống trên máy tính ........................................................ 80 
+
+Hình 3.18. Hình ảnh kết quả kép Peel .................................................................. 82 
+
+Hình 3.19. Hình ảnh mẫu sau khi thực hiện kéo Peel của 3 loại keo 3415.3, 
+
+3916.6 và 6430.10 ................................................................................................ 84 
+
+Hình 3.20. Hình ảnh ép kep ................................................................................. 85 
+
+Hình 3.21. Hình ảnh mẫu thử nghiệm .................................................................. 85 
+
+Hình 3.22. Hình ảnh mẫu kéo .............................................................................. 86 
+
+Hình 2.23. Hình ảnh quá trình test modulus ........................................................ 87 
+
+Hình 3.24. Hình ảnh kết quả kéo của keo 3415.5 ................................................ 88 
+
+Hình 3.25. Hình ảnh kết quả kéo của keo 3916.6 ................................................ 89 
+
+Hình 3.26. Hình ảnh kết quả kéo của keo 6430.10 .............................................. 90 
+
+Hình 3.27. Hình ảnh mẫu cạp xếp ly .................................................................... 91 
+
+Hình 3.28. Hình ảnh mẫu cạp chun ...................................................................... 91 
+
+Hình 3.29. Hình ảnh mẫu vải và keo chuẩn bị ..................................................... 92 
+
+Hình 3.30. Hình ảnh bàn là .................................................................................. 92 
+
+Hình 3.31. Hình ảnh máy ép keo.......................................................................... 93 
+
+Hình 3.32, Hình ảnh quá trình ép keo .................................................................. 93 
+
+Hình 3.33. Hình ảnh mẫu cạp hoàn thành ............................................................ 94 
+
+Hình 4.1. Công thức thiết kế Winifred Aldrich cho mẫu quần cơ sở .................. 98 
+
+Hình 4.2. Hình ảnh sơ đồ khối gia công sản phẩm ............................................ 109 
+
+Hình 4.3. Hình nhr sơ đồ lắp ráp ........................................................................ 110 
+
+Hình 4.4. Hình ảnh mẫu kỹ thuật may thử lần 1 ................................................ 113 
+
+Hình 4.5. Hình ảnh một số lỗi của sản phẩm ..................................................... 114 
+
+Hình 4.6. Hình ảnh mẫu sau khi hoàn thiện ....................................................... 115 
+
+Hình 4.7. Hình ảnh mẫu kỹ thậu hoàm chỉnh .................................................... 115 
+
+Hình 4.8. Hình ảnh thông số kỹ thuật của quần ................................................. 119 
+
+Hình 4.9. Hình ảnh mẫu mỏng vải chính ........................................................... 122 
+
+Hình 4.10. Hình ảnh mẫu mỏng vải phối ........................................................... 122 
+
+Hình 4.11. Hình ảnh sơ đồ giác vải chính .......................................................... 123 
+
+Hình 4.12. Hình ảnh sơ đồ giác vải phối ............................................................ 123 
+
+  
+
+
+
+8 
+ 
+
+DANH MỤC BẢNG BIỂU 
+
+Bảng 1.1. Bảng thống kê thiết bị sử dụng trong phương pháp may .................... 25 
+
+Bảng 2.1. Bảng phân tích các thuộc tính của sản phẩm ....................................... 29 
+
+Bảng 2.2. Bảng phân tích thao tác sử dụng sản phẩm ......................................... 31 
+
+Bảng 2.3. Bảng đáng giá sản phẩm của khách hàng ............................................ 39 
+
+Bảng 2.4. Bảng phân tích sản phẩm cạnh tranh ................................................... 51 
+
+Bảng 2.5. Bảng nhận xét sản phẩm cạnh tranh .................................................... 52 
+
+Bảng 2.6. Bảng phân tích đối thủ cạnh tranh ....................................................... 53 
+
+Bảng 2.7. Bảng xác định thuộc tính của sản phẩm .............................................. 54 
+
+Bảng 2.8. Bảng xác định khu vực trọng tâm ........................................................ 56 
+
+Bảng 2.9. Bảng xác định các cách thức cải tiến ................................................... 56 
+
+Bảng 3.1. Bảng đề xuất và lựa chọn ý tưởng vật liệu .......................................... 59 
+
+Bảng 3.2. Bảng dề xuất ý tưởng cạp quần ........................................................... 60 
+
+Bảng 3.3. Bảng đề xuất ý tưởng túi hậu ............................................................... 61 
+
+Bảng 3.4. Bảng đề xuất ý tưởng vị trí tháo lắp .................................................... 62 
+
+Bảng 3.5. Bảng chấm điểm ý tưởng cạp quần ..................................................... 63 
+
+Bảng 3.6. Bảng chấm điểm ý tưởng túi hậu ......................................................... 64 
+
+Bảng 3.7. Bảng chấm điểm ý tưởng vị trí tháo lắp ống  quần ............................. 65 
+
+Bảng 3.8. Bảng đề xuất ý tưởng sản phẩm........................................................... 66 
+
+Bảng 3.9. Bảng sàng lọc ý tưởng sản phẩm ......................................................... 68 
+
+Bảng 3.10. Bảng so sánh đặc điểm 2 loại keo ...................................................... 74 
+
+Bảng 3.11. Bảng kết quả quá trình kéo Peel ........................................................ 82 
+
+Bảng 2.12. Bảng kết quả thu được sau khi kéo modulus ..................................... 87 
+
+Bảng 4.1. Bảng dải cỡ của thương hiệu Nike ...................................................... 95 
+
+Bảng 4.2. Bảng hệ công thức thiết kế mẫu cơ sở ................................................. 95 
+
+Bảng 4.3. Bảng phân tiích các bước phát triển từ mẫu cơ sở............................... 99 
+
+Bảng 4.4. Bảng thống kê các chi tiết .................................................................. 104 
+
+Bảng 4.0.5. Bảng đặc điểm nguyên liệu ............................................................ 105 
+
+Bảng 4.6. Bảng đặc điểm phụ liệu ..................................................................... 105 
+
+Bảng 4.7. Bảng thống kê các cụm chi tiết .......................................................... 106 
+
+Bảng 4.8 Bảng quy trình gia công sản phẩm ..................................................... 110 
+
+Bảng 4.9. Bảng giá nguyên phụ liệu .................................................................. 116 
+
+Bảng 4.10. Bảng thống kê nguyên liệu .............................................................. 117 
+
+Bảng 4.11. Bảng thóng kê phụ liệu .................................................................... 118 
+
+Bảng 4.12. Bảng thông số kỹ thuật của quần ..................................................... 119 
+
+Bảng 4.13. Bảng lượng dư dường may .............................................................. 121 
+
+  
+
+
+
+9 
+ 
+
+CHƯƠNG 1. TÌM HIỂU CẤU TRÚC. PHƯƠNG PHÁP GIA CÔNG SẢN 
+
+PHẨM QUẦN THỂ THAO CỦA THƯƠNG HIỆU NIKE 
+
+1.1. Tổng quan về quần thể thao  
+Danh mục sản phẩm của Nike [1] 
+
+Sản phẩm quần áo: Nike luôn được xem là một trong những biểu tượng “địa vị” 
+
+trong thời trang đô thị hiện đại, cũng như thời trang hip-hop. Từ những năm 1980, 
+
+các mặt hàng quần áo của Nike đặc biệt là quần và áo,.. đã trở thành item không 
+
+thể thiếu trong thời trang của giới trẻ nước Mỹ. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 1.1. Hình ảnh sản phẩm quần áo của Nike 
+
+ 
+
+
+
+10 
+ 
+
+Giày Nike: đây là một trong những sản phẩm chiếm doanh thu cao nhất của nike. 
+
+Nike sử dụng nhiều công nghệ hiện đại nhằm tạo ra những đôi giày có chất lượng 
+
+cao, dẫn đầu thế giới. Hầu hết giày của thương hiệu này đều sở hữu công nghệ 
+
+“Air”, để giúp khách hàng có những bước đi êm ái, dễ chịu hơn. Một số dòng giày 
+
+nổi bật của Nike như : Nike Air Max, Air Huarache, Nike 6.0, Nike NYX, và giày 
+
+Nike SB,… 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 1.2. Hình ảnh sản phẩm giầy của Nike 
+
+- Một trong những dòng sản phẩm Nike kinh điển đó chính là Air Jordan. 
+
+Thiết kế độc đáo của Air Jordan đã giúp chúng trở thành một hiện tượng 
+
+thời trang gây sốt toàn cầu cho đến ngày nay. 
+
+ 
+
+ 
+
+Phụ kiện Nike: mũ, dép, găng tay,...  
+
+https://vi.wikipedia.org/wiki/Nike_Air_Max
+
+
+11 
+ 
+
+- Hầu hết các mẫu nón Nike đều có kích thước vừa vặn và ôm sát đầu của 
+
+người dùng. Đặc biệt, nón còn sử dụng lớp vải lưới giúp cho tóc của bạn 
+
+luôn trong tình trạng thông thoáng và không bị bí bách.  
+
+- Một trong những điểm đặc trưng nhất của những mẫu dép Nike đó chính là 
+
+những bọt xốp trên bề mặt, giúp nâng niu bàn chân hơn. Đồng thời, giúp 
+
+bạn đứng vững, không bị trơn trượt ngay cả ở trong thời tiết không ổn định. 
+
+ 
+
+Hình 1.3. Hình ảnh phụ kiện của Nike 
+
+Lịch sử thiết kế trang phục thể thao 
+
+Thời trang thể thao trước năm 1920 
+
+Thời trang Thể thao ban đầu được mô tả activewear - quần áo được làm đặc biệt 
+
+cho thể thao. Sự phát triểm của đồ thể thao được hình thành bởi những phát triển 
+
+từ thế kỷ 19 trong trang phục nữ, chẳng hạn như trang phục tắm hoặc đi xe đạp, 
+
+yêu cầu váy ngắn hơn, gọn gàng hơn và quần áo cụ thể khác để cho phép di chuyển 
+
+linh động, trong khi các môn thể thao như tennis hoặc croquet trong trang phục 
+
+truyền thống không được sửa đổi. 
+
+Thợ may đầu tiên của quần thể thao là người Anh John Redfern, trong thập niên 
+
+1870 bắt đầu thiết kế hàng may mặc phù hợp cho những phụ nữ ngày càng năng 
+
+động, chơi tennis, đi du thuyền và bắn cung. Cũng vào cuối thế kỷ XIX, hàng may 
+
+mặc kết hợp với quần áo thể thao và (hoặc) được sửa đổi từ quần áo nam giới, 
+
+chẳng hạn áo sơ mi bắt đầu trở thành một phần trong tủ quần áo của người phụ nữ. 
+
+Thời trang thể thao những năm sau 1920 
+
+Năm 1920, chiếc quần thể thao đầu tiên được giới thiệu bởi Émile Camuset , người 
+
+sáng lập Le Coq Sportif. Nó đã được coi là trang phục thể thao thoải mái rất cần 
+
+https://en.wikipedia.org/wiki/%C3%89mile_Camuset
+https://en.wikipedia.org/wiki/Le_Coq_Sportif
+
+
+12 
+ 
+
+thiết cho các vận động viên thời đó. Quần thể thao màu xám đơn giản - được đặt 
+
+tên theo khả năng thấm hút mồ hôi (duh) - là một câu trả lời tiện dụng nhưng hiệu 
+
+quả cao cho chiếc quần bó sát đã thống trị thời trang nam giới kể từ Cách mạng 
+
+Pháp. 
+
+ 
+
+Hình 1.4. Hình ảnh những chiếc quần xám đầu tiên được giới thiệu 
+
+Trong những năm 1920 các nhà thiết kế Paris đã cung cấp những mẫu thiết kế thời 
+
+trang cao cấp có thể được coi là đồ thể thao, nhưng nó thường vẫn không phải thiết 
+
+kế chủ đạo của họ. Vào giữa thập niên 1920, các nhà quảng cáo Mỹ cũng bắt đầu 
+
+chủ động đưa ý tưởng rằng quần áo thể thao phù hợp với quần áo ngủ bình thường 
+
+vì nó là hoạt động tích cực, thể hiện nó như là hình ảnh thu nhỏ của sự hiện đại và 
+
+lý tưởng của người Mỹ. Một quảng cáo được đưa ra bởi Abercrombie & Fitch 
+
+trong tạp chí Vogue năm 1929 gợi ý rằng trong khi đàn ông có thể ngưỡng mộ một 
+
+cô gái trong bộ váy dạ hội quyến rũ, họ cũng sẽ cảm thấy ít bị đe dọa bởi vẻ ngoài 
+
+thân thiện, dễ tiếp cận trong đồ thể thao chất lượng tốt. Đặc biệt vào năm 1930, 
+
+quần thể thao dáng bó sát trở nên phổ biến tại thế vận hội Olympic và bắt đầu được 
+
+biết đến và mặc rộng rãi sau đó. 
+
+Năm 1964, Adidas đã cho ra mắt bộ đồ thể thao với sự kết hợp giữa áo và quần. 
+
+Quần thể thao ngày nay: 
+
+Quần áo thể thao là sản phẩm thời trang, chuyên sử dụng trong quá trình thực hiện 
+
+các bộ môn thể dục thể thao như: Chạy độ, đá banh, tập gym… Nó ngày càng trở 
+
+nên cần thiết để giúp anh em có những giây phút thư giãn, tập luyện thoải mái. 
+
+Ngoài ra, lựa chọn quần áo thể thao đúng cách còn giúp hạn chế được chấn thương. 
+
+Quần thể thao nam là một trong những món đồ “phải có trong tủ” dành cho nam 
+
+giới. Thoải mái, trẻ trung, năng động, chiếc quần đa năng này luôn là lựa chọn 
+
+hàng đầu của các chàng trai. Có vẻ đơn giản, nhưng món đồ này cực kỳ thời trang. 
+
+Tùy theo nhu cầu sử dụng mà quần áo thể thao nam có thể sử dụng co nhiều đối 
+
+tượng khác nhau.  Trên thị trường hiện nay, có rất nhiều bộ đồ thể thao với kiểu 
+
+sáng, kích thước, mẫu mã đa dạng để đáp ứng với nhu cầu, sở thích của mỗi người. 
+
+
+
+13 
+ 
+
+Từ trẻ em, thiếu nhi, thanh niên, người lớn cho đến người cao tuổi đều có thể sử 
+
+dụng. 
+
+Các dòng quần thể thao cho nam hiện nay trên thị trường : Hiện nay dòng quần thể 
+
+thao là sản phẩm phổ biến, thông dụng trên thị trường. Khách hàng có thể sử dụng 
+
+chúng trong các hoạt động thể thao trong và ngoài trời; ngoài ra có khách hàng còn 
+
+thường xuyên sử dụng cho các hoạt động khác như là đi chơi, đi dạo, picnic,... Nếu 
+
+như trước kia, quan niệm quần áo thể thao chỉ dùng trong quá trình luyện tập thì 
+
+ngày nay tư tưởng của mọi người thoáng hơn rất nhiều. Chúng ta có thể mặc bộ đồ 
+
+này khi đi chơi, mặc ở nhà hay làm bộ đồ ngủ tùy theo mục đích sử dụng của mỗi 
+
+người.  
+
+Tiêu chí của một bộ quần áo thể thao chất lượng đó chính là khả năng co giãn tốt, 
+
+độ thấm hút mồ hôi và thoáng mát. Ngay cả khi vận động đổ mồ hôi nhiều cũng 
+
+không làm người dùng thấy bí bách, khó chịu. Nhờ đó, quá trình rèn luyện thể thao 
+
+được nâng cao sức khỏe và tăng sự hứng thú cho người tập. 
+
+Phân loại quần thể thao: Hiện nay có rất nhiều kiểu quần thể thao đang được 
+
+giưới thiệu và thịnh hành và chúng ta có thể phân loại chúng theo nhiều cách khác 
+
+nhau.[2] 
+
+Theo mục đích sử dụng:  
+
+• Trang phục vận động nhẹ nhàng: dành cho các bộ môn thể thao vận động 
+nhẹ nhàng như là các bộ môn golf, yoga, gym… 
+
+• Trang phục dành do các vận động nhanh và mạnh mẽ: Cầu lông, bóng rổ, 
+bóng đá, bóng chuyền, chạy nhanh… 
+
+• Trang phục cho các hoạt động linh hoạt: erobic,.. 
+
+• Ngoài ra còn có trang phục dành riêng cho các hoạt động trong điều kiện 
+môi trường đặc biệt như: đồ bơi, leo núi,… 
+
+Theo hình dáng trang phục:[2] 
+
+Quần thể thao dáng dài: Quần có 2 loại đối lập đó là dáng thụng và dáng bó sát, 
+
+loại quần này rất phổ biến trên thị trường. 
+
+ 
+
+Hình 1.5. Hình ảnh quần thể hao dáng dài 
+
+ Ưu điểm: 
+
+
+
+14 
+ 
+
+• Khả năng bảo vệ cơ thể tốt do mức độ che phủ cao 
+
+• Quần thể thao dáng dài không chỉ thích hợp cho các hoạt động thể thao mà 
+còn phù hợp để mặc đi chơi, dã ngoại,… 
+
+ Nhược điểm:Do dáng dài che phủ toàn bộ cơ thể nên khả năng thoả mái khi vận 
+
+động không cao bằng quần short, có thể gây cảm giác nóng và bí bách vào mùa hè 
+
+khi vận động. 
+
+Quần jogger: Đây là mẫu quần thể thao nam phổ biến và được nhiều người 
+
+lựa chọn. Quần jogger được may từ vải thun và vải nỉ. Với mỗi loại vải quần 
+
+lại có ưu điểm và phối hợp được với nhiều loại áo khác nhau.Quần jogger thun 
+
+phổ biến với form dáng đặc biệt bởi sự kết hợp của phần ống rộng phía trên 
+
+và nhỏ dần về phía dưới. Phần lưng sẽ có chun thắt, nhờ vậy phù hợp với nhiều 
+
+đối tượng mặc. Quần jogger là một trong các loại quần thể thao nam được yêu 
+
+thích bởi vẻ đẹp cá tính và mạnh mẽ. Về phía quần jogger nỉ, đây là loại quần 
+
+có thiết kế tương tự jogger thun. Tuy nhiên, nó sẽ giúp người mặc tôn dáng 
+
+hơn đồng thời vẫn giữ được chức năng giữ ấm vào mùa đông, và khả năng kết 
+
+hợp cực đỉnh với các mẫu áo hoodie và áo khoác jean. 
+
+ 
+
+ 
+
+Hình 1.6. Hình ảnh quần jogger 
+
+Ưu điểm:  
+
+• Kiểu dáng đẹp, dễ dàng phối với nhiều loiại trang phục khác nhau và 
+có thể mặc cho nhiều mục đích khác nhau 
+
+• Quần có nhiều kiểu dáng từ nửa bó sát đến dáng thụng, phù hợp với nhiều 
+yêu cầu sử dụng. 
+
+Nhược điểm: So với các loại quần kiểu dáng khác thì quần jogger ít hỗ trợ vận 
+
+động cho các loại thể thao chuyên nghiệp. 
+
+https://www.coolmate.me/product/ao-hoodie-nam-daily-wear-mu-trum-co-day-rut?color=xanh-navy
+
+
+15 
+ 
+
+Quần legging: Kiểu quần này đang rất được ưa chuộng vì sự tiện lợi và dễ 
+
+mặc.Kiểu dáng của quần legging là bó sát chân vừa vừa giúp hack chiều cao 
+
+một cách đáng kể  nhưng vẫn mang đến sự mềm mại và thoải mái trong mọi 
+
+hoạt động thể chất. Do vậy, quần legging là lựa chọn số 1 trong các loại quần 
+
+thể thao nam. 
+
+ 
+
+Hình 1.7. Hình ảnh quàn legging 
+
+Ưu điểm: 
+
+• Quần legging có khả năng thấm hút tốt 
+
+• Khả năng co dãn 4 chiều, thoả mái, dễ dàng vận động khi tập luyện. 
+Nhược điểm: 
+
+• Do kiểu dáng bó sát nên có thể gây cảm giác khó chịu khi vận động, nếu 
+không cẩn thận trong thiết kế và lựa chọn vật liệu có thể đem đến sản phẩm 
+
+gây bất tiện khi mặc. 
+
+• Khi vận động nhiều dễ gây ra cảm giác bí. 
+Quần short: là mẫu quần được thiết kế khá đặc biệt với khả năng hỗ trợ vận 
+
+động và thoáng khí, giúp thấm hút mồ hôi cực tốt. 
+
+Ưu điểm:  
+
+• Kiểu dáng năng động, dễ vậnđộng và dễ phối đồ 
+
+• Cảm giác thông thoáng, thoả mái khi vận động 
+Nhược điểm: Không che phủ được toàn bộ chân. 
+
+Quần short chạy bộ 3 inch: Đây là kiểu quần short có độ dài ngắn nhất. Quần 
+
+short 3 inch rất được người dùng săn đón và sử dụng nhiều do nó mang lại cho 
+
+người dùng sự thông thoáng và giúp cử động thoải mái tốt nhất. Quần có độ 
+
+dài 3 inch khá phù hợp cho các hoạt động của runner ngay cả khi chạy nước 
+
+rút và chạy cự ly dài nhờ cấu tạo kỹ thuật và trọng lượng nhẹ, không gây cản 
+
+trở trong quá trình chuyển động.  
+
+
+
+16 
+ 
+
+ 
+
+ 
+
+Hình 1.8. Hình ảnh quần short 3 inch 
+
+Quần short chạy bộ 5 inch: Quần short chạy bộ 5 inch có độ dài trung bình. 
+
+Kiểu quần short với độ dài 5 inch là sự kết hợp giữa sự thoải mái của quần 
+
+short ngắn và độ bền bỉ của quần short dài vì vậy nó khá phù hợp với các 
+
+runner trong nhiều cuộc đua tốc độ hay đơn giản là trong quá trình tập luyện. 
+
+Nhờ vậy, kiểu quần short này đã trở nên phổ biến và đa năng nhất trong các 
+
+loại quần thể thao nam. 
+
+ 
+
+Hình 1.9. Hình ảnh quần short 5 inch 
+
+https://www.coolmate.me/collection/quan-short-nam-5-inch
+
+
+17 
+ 
+
+Quần short chạy bộ 7 inch: Đây là kiểu quần short đơn giản, có độ dài 7 inch 
+
+phù hợp với người dùng ở mọi lứa tuổi.  Kiểu quần này được sử dụng ở những 
+
+cuộc thi chạy cự li ngắn. Đồng thời cũng là loại quần chạy phù hợp với những 
+
+điều kiện và địa hình dễ thay đổi. Nhờ vây, đôi chân của bạn sẽ được bảo vệ 
+
+khỏi các mảnh vụn hoặc cây bụi. Tuy nhiên hãy lựa chọn loại vải thấm hút mồ 
+
+hôi, thông thoáng tốt để chúng không làm cản trở hiệu suất tập luyện của bạn. 
+
+Một điểm cộng nữa là quần short 7 inch cũng được thiết kế nhiều túi để bạn 
+
+cất giữ những món đồ nhỏ gọn bên người như ví, thẻ, điện thoại,... 
+
+ 
+
+Hình 1.10. Hình ảnh quần short 7 inch 
+
+Quần short bó cơ: Quần short bó cơ được biết đến là một trong số ít các loại 
+
+quần thể thao nam tạo lực nén để ôm sát cơ thể. Ưu điển lớn nhất của loại quần 
+
+này là giúp người mặc rút ngắn thời gian phục hồi của cơ, cung cấp nhiều oxy, 
+
+giúp người mặc hạn chế tình trạng chuột rút. Quần bó cơ ó thể được làm từ 
+
+nhiều vật liệu khác nhau nhưng phổ biến nhất phải kể tới nylon và spandex. 
+
+Bởi vậy, loại quần này được sử dụng rất nhiều trong các bộ môn như chạy bộ, 
+
+đạp xe,...Ngoài ra, quần short bó cơ sẽ hỗ trợ người tập thực hiện tốt các động 
+
+tác như xoạc chân, căng cơ, kéo giãn cơ thể.Tính co giãn, đàn hồi của loại 
+
+quần này khá tốt lại ôm sát cơ thể nên tạo cảm giác thoả mái cho người mặc 
+
+rong quá trình vận động. Nhờ những đặc điểm trên mà quần short bó cơ luôn 
+
+là sự lựa chọn tối ưu của nam giới. 
+
+https://www.coolmate.me/post/spandex-la-gi
+
+
+18 
+ 
+
+ 
+
+Hình 1.11. Hình ảnh quần bó cơ 
+
+Phân loại theo mùa: 
+
+• Quần thể thao dành cho mùa đông: Quần thường được thiết kế dài cùng 
+với chất liệu dày hơn, đảm bảo giữ ấm, bảo vệ cơ thể 
+
+• Quần thể thao dành cho mùa hè, mùa thu 
+Chức năng: 
+
+• Đem đến sự tự tin khi vận động: Tác dụng đầu tiên mà những bộ đồng phục 
+thể thao mang lại là sự riêng biệt của sản phẩm cần thiết khi tham gia các 
+
+hoạt động thể chất. Các chất liệu được dùng để may sản phẩm thường giúp 
+
+cho việc di chuyển hay vận động có thể dễ dàng để phát huy hết khả năng. 
+
+Sản phẩm cũng được thiết kế khác so với các loại đồng phục còn lại vì 
+
+chúng phải đảm bảo yếu tố thoải mái, thuận tiện và dễ dàng vận động cho 
+
+người sử dụng.  
+
+• Hút ẩm, thấm hút: Trong quá trình vận động, cơ thể thường ra mồ hôi vì 
+vậy quần thể thao thường nhẹ, có khả năng thấm hút và mau khô để mồ hôi 
+
+tiết ra sẽ không ngấm vào khiến cho quần dính vào da, cọ xát và giữ nước 
+
+gây nặng cho quá trình vận động. 
+
+• Chống nóng: Một số loại quầ thể thao thường được sử dụng chất liệu có khả 
+năng thoát khí cao để thoát hơi, tránh cho mồ hôi tích tụ tạo cảm giác thoả 
+
+mái khi vận động. 
+
+• Chống nước: đối với các hoạt động ngoài trời, một số trang phục quần thể 
+thao sẽ có thêm tính năng chống nước. Khi thiết kế sẽ sử dụng thêm vật liệu 
+
+chống thấm, vải tráng phủ nhằm ngăn ngừa nước mưa và giữ cho cơ thể 
+
+khô ráo. 
+
+• Phản quang: một số quần thể thao có thêm phản quang nhằm đem đến sự 
+an toàn khi vận động vào buổi tối. 
+
+• Bảo vệ cơ thể: Bên cạnh những tác dụng trên, đồ thể thao còn có tính năng 
+bảo vệ cho cơ thể. Khi mặc trang phục này, bạn sẽ giảm thiểu được tình 
+
+trạng bị chấn thương, xây xát… do vận động hay hoạt động thể thao gặp 
+
+phải.  
+
+1.2. Tìm hiểu về cấu trúc sản phẩm quần thể thao của Nike 
+
+
+
+19 
+ 
+
+- Quần thể thao nam thường có các cấu trúc như: thân trước, thân sau, cạp, 
+
+và một số phụ kiện đi kèm 
+
+- Các kiểu dáng của quần thể thao:Quần suông dài, Quần short 
+
+Một số kiểu dáng của gấu quần: 
+
+Quần có bo gấu: thường sử dụng chun để thiết kế gấu bo, có tác dụng làm cho 
+
+gấu quần ôm sát vào chân. 
+
+ 
+
+ 
+
+ 
+
+Quần có gấu suông: phần gấu quần sẽ có dáng suông, không ôm vào chân 
+
+ 
+
+ 
+
+ 
+
+Gấu zip: đối với các kiểu quần sử dụng vải dệt thoi, gấu quần thường được dùng 
+
+là loại vải zip để tạo độ bó tại gấu. 
+
+
+
+20 
+ 
+
+ 
+
+Đối với vật liệu sử dụng: Quần áo thể thao là trang phục được sử dụng cho các 
+
+bạn có đam mê về thể thao, thích tập gym hay tham gia các bộ môn thể thao để 
+
+nâng cao sức khỏe. Tuy nhiên, để chọn được một loại vải thích hợp không phải là 
+
+việc làm dễ dàng. Khi chọn vải để may quần áo thể thao, cần lưu ý một số vấn đề 
+
+như sau: Không phải bất kỳ môn thể thao nào, bạn cũng có thể sử dụng cùng một 
+
+chất liệu vải. Vậy nên, mỗi môn sẽ có một loại chất liệu phù hợp riêng.  [3] 
+
+Vải cotton:Vải thun cotton luôn là cái tên được nhiều người yêu thích do được 
+
+làm từ sợi bông thiên nhiên. Tuy nhiên, để đáp ứng với nhu cầu sử dụng trong thời 
+
+gian gần đây mà người ta sản xuất nhiều loại vải thun cotton với tỉ lệ phần trăm 
+
+của cotton là 100%, 65% hay 35%. 
+ 
+
+Ưu điểm:  
+
+- Đối với trang phục thể thao thì vải cotton có khả năng thoáng khí, mát. Vải 
+
+cottom được sản xuất từ các sợi tự nhiên thu hoạch cây bông vì vậy có dộ 
+
+thấm hút mồ hôi tốt khi vận động cơ thể thường ra mồ hôi. Đặc biệt là loại 
+
+vải cotton có khả năng khô rất nhanh nên sẽ giữ form tốt. 
+
+- Những thành phần có trong vải còn phát huy được khả năng hạn chế mùi 
+
+mồ hôi trên cơ thể. Vải cotton thích hợp để may nhiều loại quần áo thể thao 
+
+như: Gym, yoga, cử tạ, earobic… Ngoài ra, chất liệu còn giúp người mặc 
+
+không có cảm giác bị bức bí.  
+
+Nhược điểm: Nhược điểm của vải cotton khá nhiều, nên nó được sử dụng ít hơn 
+
+những chất liệu khác. 
+
+- Vải có giá thành cao, dễ bị nhăn khi sử dụng hoặc sau khi giặt. Bên cạnh đó 
+chất liệu cũng dễ bị mất phom dáng nếu người sử dụng không biết cách bảo 
+
+quản tốt. Trọng lượng của vâỉ khá lớn so với các laoị vải khavs do khả năng 
+
+thấm hút mồ hôi tốt.  
+
+- Tuy nhiên, so với các loại vải khác như Polyester, Tencel. thì cotton có bề 
+
+mặt khá cứng vì vậy thường được sử dụng để pha với các chất liệu khác khi 
+
+sử dụng làm sản phẩm.  
+
+
+
+21 
+ 
+
+ 
+
+Hình 1.12. Hình ảnh vải cotton 
+
+Vải cotton trong quần thể thao ít được sử dụng hoàn toàn mà thường có thể pha 
+
+thêm một số loại vải tổng hợp khác như nylon hay polyester. 
+
+Vải polyester: Vải polyester là một trong những loại có nguồn gốc hoàn toàn từ 
+
+sợi tổng hợp, được sử dụng phổ biến nhất để may quần áo thể thao. Chất liệu được 
+
+ứng dụng nhiều trong các môn như bơi lội, điền kinh, hay được dùng để may các 
+
+bộ trang phục để may quần áo tập gym. 
+
+Ưu điểm: 
+
+- Vải PE được làm từ một loại nhựa khá nhẹ nền có trọng lượng nhẹ, khi sử 
+
+dụng làm quần thể thao sẽ tạo cảm giác thoả mái và không mang đến áp lực 
+
+và ảnh hưởng đến quá trình vận động.  
+
+- Loại vải này có độ bền cao, không bị co hay nhàu trong quá trình sử dụng. 
+
+Giá thành cũng khá rẻ nên cũng rất hay được sử dụng. 
+
+- Ttuy PE ít thấm nước nhưng độ thoáng khí khá cao đem lại sự thoả mái 
+
+trong quá trình vận động. Khi tập luyện thể thao, mồ hôi tiết ra từ cơ thể có 
+
+thể nhanh chóng bị bốc hơi thay vì bị hấp thụ vào vải. Ngoài ra, nó còn 
+
+được biết đến là một trong những loại vải có độ bền khá cao, giữ form khá 
+
+tốt và lâu dài. 
+
+Nhược điểm của loại vải này là khả năng thấm hút mồ hôi khá thấp nên thường 
+
+gây khó chịu khi vận động trong thời tiết nóng, gay gắt.Tính khử mùi cũng thấp. 
+
+ 
+
+https://haitrieu.com/blogs/vai-polyester-la-gi/
+
+
+22 
+ 
+
+ 
+
+Hình 1.13. Hình ảnh quần sử dụng vải polyester 
+
+Vải Nylon: Là loại vải thuộc nhóm Polyamide được chế tạo từ các loại hóa chất, 
+
+nó cũng được dệt từ các sợi tổng hợp mà nên. 
+
+Ưu điểm: 
+
+- Vải nylon có khối lượng nhẹ nên khá phù hợp với hoạt động chạy, không 
+
+gây ảnh hưởng trong quá trình vận động và có khả năng chống nước cao 
+
+hơn rất nhiều so với loại vải khác. Vải nylon có khả năng chống nước cao 
+
+hơn polyester rất nhiều, nên nhiều hãng đã chọn chất liệu để may quần áo 
+
+thể thao. Với khả năng chống nước, các vận động viên sẽ không bị áp lực 
+
+của nước, gây khó khăn khi đang tham gia các hoạt đông thể thao ngoài 
+
+trời. Đặc biệt là khi trời mưa và đối với môn bơi lội, thì vải nylon hoàn toàn 
+
+được sử dụng rất thích hợp. 
+
+- Ngoài ra, Nylon còn có độ bền khá cao, bền mặt vải mượt và có khả năng 
+
+khô thoáng tốt. Nylon cúng được biết đến là loại vải nhanh khô và cống 
+
+nấm mốc, tránh vi sinh vật  gây hại cho cơ thể. Giá thành của nó cũng khá 
+
+rẻ. 
+
+Nhược điểm: Tuy nhiên, Nylon là loại vải khó thấm hút mồ hôi, khả năng thấm 
+
+hút kém nên rất khó thoáng khí gây khó chịu khi vận động. Ngoài ra, khả năng 
+
+chịu nhiệt của Nylon không được đánh giá cao. Chính vì lý do này, mà một số 
+
+trang phục được kết hợp giữa sợi nylon, và một số sợi tự nhiên khác để hạn chế 
+
+nhược điểm này. Vải nylon cũng không thân thiện với môi trường, nên hiện nay 
+
+một số hãng sản xuất đang hạn chế sử dụng chất liệu này. 
+
+
+
+23 
+ 
+
+ 
+
+Hình 1.14. Hình ảnh quần sử dụng vải nylon 
+
+Vải pha thêm spandex: Spandex là một loại sợi tổng hợp được tạo thành từ 
+
+Polyme nhờ vào quá trình kéo khô. 
+
+Ưu điểm:  
+
+- Vải có pha thêm sợi spandex thường có độ co giãn cao ( 2 chiều và 4 chiều 
+
+). Spandex thường được sử dụng để pha với các sợi khác do nó có tính đàn 
+
+hồi cao và khả năng kéo giãn rất tốt. 
+
+- Spandex cũng có khả năng phục hồi cao. Sau khi co giãn thì trang phục có 
+
+thể trở lại hình dạng ban đầu. mặc dù được làm từ sợi tổng hợp nhưng nó 
+
+vẫn có độ thoáng khí khá cao, khả năng thấm hút mồ hôi khá tốt. Giá thành 
+
+cũng vừa phải. 
+
+Nhược điểm: Tuy nhiên, những loại quần áo được pha thêm Spandex lại rất khó 
+
+bảo quản, đặc biệt đối với trang phục thể thao. Vì phải hoạt động mạnh và cần sự 
+
+co giãn lớn nên chất liệu sẽ nhanh chóng bị dão và hỏng. Ngoài ra, trong quá trình 
+
+giặt giũ, phơi đồ, nếu bạn không làm đúng cách thì tuổi thọ của món đồ cũng dễ 
+
+dàng đi xuống. 
+
+ 
+
+Hình 1.15. Hình ảnh quần sử dụng vải pha spandex 
+
+
+
+24 
+ 
+
+Vải bambam ( vải tre) Vải tre là một loại vải mới xuất hiện trong thời gian gần 
+
+đây và nó nhanh chóng trở thành lựa chọn của nhiều nhãn hàng cũng như khách 
+
+hàng bởi tính thân thiện với môi trường vì nó được sản xuất tự nhiên.. Chính vì lý 
+
+do này, mà hiện nay xu hướng sử dụng chất liệu ngày càng tăng.  
+
+ 
+
+Hình 1.16. Hình ảnh sản phẩm sử dụng vải bambam 
+
+Ưu điểm:  
+
+- Vải bambam có rất nhiều ưu điểm, một trong số đó ưu điểm nổi trội là khả 
+năng khử mùi và kháng khuẩn. Sợi tre có trọng lượng rất nhẹ và hút ẩm ẩm 
+
+tốt, làm cho nó trở thành một trang phục thể thao không mùi. Bên cạnh đó 
+
+là khả năng thoáng khí và hút mồ hôi cũng được đánh giá cao 
+
+- Sợi tre cũng có khả năng bảo vệ làn da của bạn, chống lại sự tác động của 
+tia UV nếu như bạn tham gia các hoạt động ngoài trời. Chất liệu bamboo 
+
+rất nhẹ, nên giúp quần áo thể thao tạo được cảm giác thoải mái cho người 
+
+mặc. 
+
+Nhược điểm:  
+
+- So với một số loại vải khác thì vải bamboo có giá thành rất cao. Mặc dù là 
+
+chất liệu dễ tìm kiếm, nhưng quy trình sản xuất vải bamboo rất phức tạp, 
+
+đó là nguyên nhân khiến cho chất liệu được xếp vào một trong những loại 
+
+vải có mức giá đắt đỏ. 
+
+- Vải bambam cũng rất dễ bị nhăn trong quá trình sử dụng và có độ bền không 
+
+cao như những loại vải tổng hợp. Vải bamboo dễ thấm nước, nên chỉ thích 
+
+hợp để may những bộ trang phục thể thao dành cho các bộ môn hoạt động 
+
+nhẹ. 
+
+Vải tencel 
+
+Ưu điểm:  
+
+- Có thành phần 100% tự nhiên nên loại vải này có thể tự phân hủy trong đất 
+tốt, giải quyết vấn đề sản xuất thời trang ảnh hưởng đến môi trường trong 
+
+nhiều năm qua. Vải Tencel còn có khả năng tái chế nhiều lần. 
+
+
+
+25 
+ 
+
+- Kết cấu sợi vải chắc chắn, khả năng thẩm thấu tốt, thoáng khí, mát lạnh khi 
+mặc. Chống co rút, nhăn nhàu nên yên tâm giặt máy hoặc giặt tay. Các thí 
+
+nghiệm chỉ ra rằng vi khuẩn tồn tại và phát triển trên sợi vải Tencel cực kỳ 
+
+ít so với các chất vải khác an toàn cho làn da. 
+
+- Sợi Tencel còn có khả năng hấp thụ vô cùng cao nên dễ dàng nhuộm màu 
+để tạo ra những sản phẩm bắt mắt, chất lượng. 
+
+Nhược điểm: Công nghệ sản xuất khắt khe và chi phí cao nên giá thành của loại 
+
+vải này khá cao, thường chỉ xuất hiện ở dòng sản phẩm cao cấp. 
+
+ 
+
+Hình 1.17. Hình ảnh sản phảm sử dụng vải tencel 
+
+1.3. Tìm hiểu phương pháp gia công sản phẩm quần thể thao của Nike 
+Phương pháp gia công chủ yếu của quần thể thao nam là phương pháp may, các 
+
+thương hiện lớn đôi khi có thêm phương pháp hàn dán. 
+
+Phương pháp may là phương pháp thực hiện ráp nối một hay nhiều lớp vải với 
+
+nhau bằng các đường may bằng chỉ. Bộ phận quan trọng nhất của đường may là 
+
+mũi may. Trong đó, mũi may là sự đan của chỉ giữa các lớp vải, được hình thành 
+
+nhờ kim mang chỉ qua các lớp vải đan với nhau tạo nên mối liên kết của các vòng 
+
+chỉ. Chiều dài mũi may được tính từ vị trí xuống kim của mũi này tới vị trí xuống 
+
+kim của mũi tiếp theo.Đường may là sự nối liên tục một chuỗi những mũi may trên 
+
+bề mặt của vật liệu. Trên cơ sở các đường may, thực hiện liên kết các chi tiết cần 
+
+may với nhau tạo nên các SPM. Một đường liên kết lý tưởng sẽ có đặc tính cơ lý 
+
+tương tự như vải được may. 
+
+Một số may móc sử dụng trong phương pháp may 
+
+Bảng 1.1. Bảng thống kê thiết bị sử dụng trong phương pháp may 
+
+STT Tên thiết bị Hình ảnh thiết bị 
+
+
+
+26 
+ 
+
+1 Máy 1 kim 
+
+                    
+
+2 Máy 1 kim xén 
+
+                     
+3 Máy vắt sổ   
+
+4 Máy bổ cơi tự 
+
+động 
+
+                      
+5 Máy thùy khuyết 
+
+đầy bằng 
+
+                 
+6 Máy dập cúc         
+
+            
+7 Máy đính cúc  
+
+
+
+27 
+ 
+
+             
+8 Máy vắt gấu ẩn  
+
+              
+9 Máy di bọ  
+
+ 
+ 
+
+
+
+28 
+ 
+
+CHƯƠNG 2. PHÂN TÍCH SẢN PHẨM ĐÃ CÓ VÀ ĐỀ XUẤT TIÊU CHÍ 
+
+PHÁT TRIỂN THIẾT KẾ CỦA SẢN PHẨM MỚI. 
+
+2.1. Phân tích sản phẩm quần thể thao mã HO20 – CW8019 
+
+Quần thể thao NRG Sr 2-In-1 Pant x Undercover của Nike 
+
+ 
+
+Hình 2.1. Hình ảnh sản phẩm quần thể thao mã HO20 – CW8019 
+
+Thông tin sản phẩm 
+
+- Tên sản phẩm: quần thể thao NRG Sr 2-In-1 Pant x Undercover 
+- Chất liệu: 100% polyester 
+- Màu sắc đen 
+- Giá: 2.237.000đ 
+- Giới tính: Nam 
+- Đối tượng sử dụng: dành cho các hoạt động thể thao như chạy bộ, tập thể 
+
+dục,.. 
+
+Mô tả chi tiết quần: 
+
+- Quần 2 trong 1 Nike x Undercover 
+- Thắt lưng đàn hồi có chun và dây rút giúp người mặc dễ dàng điều chỉnh 
+
+độ vừa vặn. 
+
+- Vải: 100% polyester, mang lại cảm giác mịn màng và khô ráo trong quá 
+trình vận động. 
+
+- Thiết kế với khoá kéo ở phần đùi giúp biến đổi từ quần dài thành quần short 
+phù hợp với mọi loại thời tiết. 
+
+- Quần có nhiều túi: 2 túi sườn và 2 túi hộp đều có khoá. , 2 túi hậu ở thân 
+sau. 
+
+- Phần gấu chân có thêm chun. 
+Phân tích 5 thuộc tính của sản phẩm 
+
+Khái niệm: 
+
+- Thuộc tính của sản phẩm là tất cả những đặc điểm vốn có của sản phẩm qua 
+đó sản phẩm tồn tại và nhờ đó mà có thể phân biệt được sản phẩm này với 
+
+sản phẩm khác. 
+
+
+
+29 
+ 
+
+- Thuộc tính cốt lõi của sản phẩm: được hiểu là những tính năng cốt lõi quan 
+trọng nhất của sản phẩm hay dịch vụ mà phải chắc chắn tốt. Những thuộc 
+
+tính này phải đảm bảo điều kiện là rất tốt đến mữc là khi nhớ đến sản phẩm 
+
+không cần phải nhắc mà khách hàng vẫn biết đến nó và khi đó sẽ quan tâm 
+
+đến những lợi ích khác của sản phẩm. Và những lợi ích này sẽ trở thành 
+
+những lợi thế cạnh tranh của sản phẩm với những sản phẩm khác trên thị 
+
+trường. 
+
+- Thuộc tính nền tảng: được coi là khu vực vòng tròn giá trị có mức cạnh 
+tranh cao nhất của các sản phẩm hay dịch vụ. Những thuộc tính này không 
+
+chỉ là những lợi ích lý  tính đáp ứng nhu cầu của khách hàng mà còn phải 
+
+đặc biệt nổi bật, khác biệt so với những sản phẩm khác. Đặc biệt, nó là chỉ 
+
+tiêu để xem xét phân cấp mức độ cao cấp của sản phẩm hay dịch vụ theo 
+
+chức năng , tính năng, việc đáp ứng được nhiều hơn những nhu cầu của 
+
+khách hàng.   
+
+- Thuộc tính khách hàng kì vọng: đây là những thuộc tính, đặc điểm ở sản 
+phẩm và dịch vụ mà khách hàng mong muốn có được khi họ tiêu dùng sản 
+
+phẩm .Các giá trị này dựa trên cảm xúc của khách hàng để quyết định mức 
+
+độ cao cấp của sản phẩm xem nó có đáp ứng được các nhu cầu lý tính và 
+
+cảm xúc của khách hàng hay không. 
+
+- Thuộc tính tăng tính cạnh tranh: đây là các yếu tố phụ thêm vào sản phẩm, 
+các yếu tố này nhằm làm tăng độ hấp dẫn của sản phẩm đến cho khách hàng, 
+
+khiến cho nó trở nên nổi bật hơn. Các yếu tố bổ sung: thương hiệu, hình 
+
+thức bao bì, sự phù hợp giữa giá cả và chất lượng dịch vụ bỏ hành, tư vấn, 
+
+giao hàng và các thứ khác mà khách hàng coi trọng. 
+
+- Thuộc tính tiềm năng của sản phẩm: Đây là những giá trị của sản phẩm hay 
+dịch vụ trong tương lai và sẽ được đánh giá vào khoảng thời gian xác định 
+
+trong tương lai. 
+
+Bảng 2.1. Bảng phân tích các thuộc tính của sản phẩm 
+
+Thuộc tính cốt lõi của 
+
+sản phẩm 
+
+-Quần dài thể thao sử dụng cho các hoạt động thể 
+
+thao 
+
+- Quần bảo vệ, che chắn cơ thể khỏi tác động từ bên 
+
+ngoài môi trường. 
+
+-Mang đến sự tự tin,  thoải mái, tiện nghi khi vận 
+
+động 
+
+ 
+
+Thuộc tính nền tảng 
+
+ 
+
+Vật liệu: 100% polyester 
+
+Thiết kế mỹ thuật: 
+
+-Màu sắc: 1 màu (đen) 
+
+- Kiểu dáng: Regular (bình thường) 
+
+- Hiệu ứng bề mặt: mềm mại, bóng, mịn 
+
+- Đường nét: đường thẳng là chủ đạo 
+
+ 
+
+Thiết kế kỹ thuật 
+
+Kết cấu: 
+
+- Cạp quần: cạp chun, ôm sát phần eo 
+
+- Thân quần: Thân trước có hai túi chéo (có khóa), 2 
+
+túi hộp. Thân sau có 2 túi hậu 
+
+
+
+30 
+ 
+
+- Ống quần: có khoá tháo lắp ở ống quần, dễ dàng 
+
+biến đổi thành quần dáng dài hoặc dáng short. 
+
+- Gấu quần: gấu bo chun  
+
+- Công nghệ may: đường may đẹp, đều, sạch sẽ 
+
+- Size: XS,S,M,L, XL, 2XL 
+
+Thuộc tính khách hàng 
+
+kì vọng 
+
+- Dễ dàng vận động: form dáng rộng, thiết kế 1 lớp, 
+
+chất liệu mềm mại => di chuyển dễ dàng. 
+
+-Đồ bền màu: Bền màu (chính sách bảo hành trọn đời 
+
+đối với sản phẩm bị ra màu, làm tăng thêm sự tin 
+
+tưởng của khách hàng đối với chất lượng sản phẩm) 
+
+-Tiện lợi: có 2 túi chéo có khoá, 2 túi hộp thân trước 
+
+và 2 túi hậu thân sau nên có nhiều không gian, tiện 
+
+lợi khi để đồ. 
+
+-Ông quàn tháo lắp, phù hợp với nhiều mục đích sử 
+
+dụng sản phẩm của khách hàng 
+
+-Phù hợp cho nhiều dịp khác nhau: form quần đẹp, 
+
+thiết kế classic cực kỳ phù hợp để khách hàng mặc đi 
+
+chơi, dã ngoại.. 
+
+-Tính thẩm mỹ: đường may đẹp và không có chỉ 
+
+thừa,.. 
+
+ 
+
+Thuộc tính tăng cạnh 
+
+tranh 
+
+ 
+
+-Thương hiệu Nike: là thương hiệu nổi tiếng trên thế 
+
+giới với các sản phẩm thời trang thể thao như giày, 
+
+quần áo và phụ kiện. 
+
+- Kiểu dáng sản phẩm: đơn giản, dễ mặc và dễ phối 
+
+đồ, phù hợ cho nhiều dịp khác nhau. 
+
+- Dịch vụ hậu mãi, chăm sóc khách hàng: Nike luôn 
+
+đi đầu trong các dịch vụ chăm sóc khách hàng [4] 
+
+• Họ có 1 tài khoản Twitter riêng biệt chuyên để 
+chăm sóc, trợ giúp khách hàng 24/7, bất cứ khi 
+
+nào khách hàng có vấn đề có thể liên hệ chăm 
+
+sóc qua tài khoản này, khách hàng sẽ không 
+
+phải chờ quá lâu ( tài khoản: @Nike Support). 
+
+Tài khoản này hỗ trợ với nhiều ngôn ngữ khác 
+
+nhau. 
+
+• Chính sách đổi trả: Nike có chính sách đổi trả 
+chặt chẽ. Đối với đổi hàng, các sản phẩm 
+
+không vừa size có thể đổi trả thoả mái trong 
+
+vòng 21 ngày, có thể đổi size hoặc đổi mẫu tuỳ 
+
+ý, với các sản phẩm vừa size nhưng không vừa 
+
+ý thì có thể đổi thoả mái trong vòng 14 ngày 
+
+kể từ ngày mua. Đối với chính sách trả hàng, 
+
+trả hàng trong vòng 7 ngày với giá bằng 80% 
+
+trên hoá đơn và không áp dụng trả hàng với 
+
+các sản phẩm áp dụng sale từ 40% trở lên 
+
+• Các cừa hàng bán lẻ của Nike có nhiều chương 
+trình khuyến mại, giảm giá 20%, 40%,..và 
+
+trong các ngaỳ lễ. 
+
+
+
+31 
+ 
+
+• Ngoài ra đôi với mỗi sản phẩm sẽ có gắn kèm 
+hướng dẫn sử dụng. 
+
+ 
+
+Thuộc tính tiềm năng -Thiết kế phát triển thêm nhiều hoạ tiết, .màu sắc đa 
+
+dạng hơn. 
+
+- Đảm bảo về độ bền đường may  
+
+- Sản phẩm chống tia UV, kháng khuẩn, kháng mùi 
+
+ 
+
+Hồ sơ khách hàng: 
+
+  Nhân khẩu: 
+
+- Giới tính: Nam 
+- Tuổi: 18- 40 tuổi  
+
+- Nghề nghiệp: mọi ngành nghề  
+
+- Thu nhập: Cao 
+  Tâm lý: 
+
+- Yêu thích và thường xuyên tập luyện thể thao.  
+
+- Quan tâm đến vấn đề sức khoẻ, cải thiện và giữ gìn vóc dáng.  
+
+- Muốn sở hữu 1 bộ trang phục tập luyện vừa rộng rãi, thoải mái, thoáng mát, 
+
+lại vừa tiện dụng. Ngoài ra, nó phải có chất lượng tốt, thiết kế đẹp. 
+
+ Hành vi: 
+
+- Có thói quen mua sắm quần áo thể thao. Thường quan tâm, tìm hiểu và mua 
+
+sắm các sản phẩm có chất lượng cao.  
+
+- Có thể mua sắm trực tiếp hoặc qua các trang web, trang mua sắm khác,… 
+ 
+
+Phân tích thao tác sử dụng sản phầm 
+
+Bảng 2.2. Bảng phân tích thao tác sử dụng sản phẩm 
+
+Thao tác khi sử dụng sản phẩm  
+
+Phản ứng của 
+
+cơ thể  
+
+Cảm xúc, thái 
+
+độ khi sử dụng  
+
+Thao tác khi mặc quần 
+
+ 
+
+Ôm vào eo 
+
+Cạp quần chun 
+
+ôm sát eo, không 
+
+gây khó chịu khi 
+
+vận động 
+
+Cảm giác thoải 
+
+mái khi mặc 
+
+quần 
+
+Đẩm bảo có không gian để đò và độ an 
+
+toàn khi vận động. 
+
+Kiểm tra các vật 
+
+dụng có bị rơi, 
+
+văng ra ngoài 
+
+khi chạy hay 
+
+không 
+
+Quần có nhiều 
+
+túi nên có nhiều 
+
+không gian 
+
+đựng đồ. 
+
+Túi chéo có 
+
+khoá nên để đồ 
+
+khá an toàn. 
+
+
+
+32 
+ 
+
+  
+
+ 
+ 
+
+Bước chân, cử động cơ thể khi tập thể 
+
+thao 
+
+  
+
+Khi vận động 
+
+cảm thấy thoả 
+
+mái. Đảm bảo 
+
+điều kiện dễ 
+
+dàng vận động 
+
+Form quần rộng 
+
+nên người dùng 
+
+cảm thấy thoả 
+
+mái khi vận 
+
+động. 
+
+Quần có ống 
+
+tháo  lắp nên 
+
+phù hợp với 
+
+nhiều điều kiện 
+
+sử dụng. 
+
+ 
+
+Bo gấu 
+
+ 
+
+Độ bo gấu vừa 
+
+phải tránh gây 
+
+bo chân 
+
+Khách hàng 
+
+cảm thấy thoả 
+
+mái với bo gấu, 
+
+ohù hợp với 
+
+nhiều độ lớn 
+
+chân khác nhau 
+
+Gấp gọn sau khi sử dụng Nhanh chóng, dễ 
+
+dàng gấp gọn và 
+
+di chuyển. 
+
+Cảm thấy chưa 
+
+thực sự tiện 
+
+dụng khi chưa 
+
+có túi đựng gấp 
+
+gọn 
+
+ 
+
+Đặc điểm cấu trúc quần: 
+
+
+
+33 
+ 
+
+ 
+
+Hình 2.2. Hình ảnh mô tả sản phẩm 
+
+- Cạp quần: 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a-Thân quần 
+
+b- Cạp quần 
+
+c-Chun 
+
+    1 -  May ghim cạp quần vào 
+
+thân quần 
+
+    2- May diễu thân quần và 
+
+cạp quần 
+
+    3 - May diễu bản chun 
+
+Hình 2.3. Hình ảnh mô tả cấu trúc cạp chun quần 
+
+
+
+34 
+ 
+
+Độ thò dây luồn cạp tính từ lỗ thoát dây là 18cm, dây luồn cạp lồng chéo.Khoảng 
+
+cách giữa 2 lỗ thoát dây luồn là 4,5cm. 
+
+- Bo gấu:  
+
+ 
+
+ 
+
+ 
+
+Hình 2.4. Hình ảnh mô tả gấu quần 
+
+Sử dụng chun tại gấu quần. Thông số cao bản gấu là 3.5cm (tính từ gấu đến 
+
+đường diễu đầu tiên). 
+
+- Túi hộp: 
+
+ 
+
+ 
+
+ 
+
+a-Thân quần 
+
+b-  Chun 
+
+    1-  Đường may gập gấu quần 
+
+
+
+35 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 2.5. Hình ảnh mô tả túi hộp 
+
+Kích thước của cụm túi hộp :Dài túi: 18.25cm, Độ rộng súp túi: 4cm, Chiều dài 
+
+khóa thành phẩm: 30cm. 
+
+- Cụm túi: 
+ 
+
+ 
+
+a – Thân quần 
+
+b – Thân túi hộp 
+
+c – Cơi túi hộp 
+
+d – Cơi túi hộp 2 
+
+e – Khoá 
+
+1- Đường may khoá vào 
+
+cơi túi 2 
+
+2- Đường may chắp cơi 
+
+túi 2 và khoá vào cơi 
+
+túi 
+
+3- Đường my cụm cơi túi 
+
+và khoá vào thân túi 
+
+hộp 
+
+4- Đường may cơi 
+
+túi hộp vào thân 
+
+quần. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+      
+
+ 
+
+ 
+
+ 
+
+
+
+36 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 2.6. Hình  ảnh mô tả túi chéo 
+
+Túi chéo 2 bên thân  trước quần, túi có khoá 
+
+ 
+
+ 
+
+a- Thân trước 
+
+b - Thân sau 
+
+c - Đáp khóa 
+
+d - Lót túi 
+
+e - Khóa kéo 
+
+f - Mex 
+
+  1 - Đường may ghim thân sau 
+
+vào khóa kéo 
+
+  2 - Đường may ghim thân sau 
+
+khóa kéo, lót túi 
+
+  3 - Đường may ghim đáp khóa 
+
+vào thân trước 
+
+  4 - Ghim đáp khóa, khóa và lót 
+
+túi 
+
+  5- Đường may diễu miệng túi 
+
+
+
+37 
+ 
+
+ 
+
+ 
+
+ 
+
+a-Thân sau quần 
+
+b- Cơi túi 
+
+c-Đáp túi 
+
+d-  Thân túi 
+
+1-  Đường may viền 
+
+vào thân quần 
+
+2-  Đường may đáp túi 
+
+vào thân quần 
+
+3-  Đường may mí 
+
+miệng túi 
+
+4-  Đường may đáp túi 
+
+vào thân túi 
+
+5-  Đường may vòng 
+
+quanh thân túi 
+ 
+
+Hình 2.7. Hình ảnh mô tả túi hậu 
+
+Túi hậu may đối xứng 2 bên thân sau, may diễu xung quanh miệng túi 
+
+Chiều dài túi 14cm và chiều rộng miệng túi 12cm => khá nhỏ để đưa  tay vào 
+
+- Khoá tháo lắp ống quần 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+38 
+ 
+
+ 
+
+ 
+
+ 
+
+a – Thân trên 
+
+b – Thân dưới 
+
+c – Khoá 
+
+d – khoá có củ 
+
+1- Đường may ghim khoá 
+
+và đáp khoá vào thân 
+
+trên 
+
+2- Đường may ghim khoá 
+
+và thân dưới 
+ 
+
+Hình 2.8. Hình ảnh mô tả vị trí tháo lắp ống quần 
+
+    Tuy nhiên đoạn tháo lắp ống quần khá gần đầu gối nên khi vận động sẽ bị căng 
+
+gây ra cảm giác khó chịu. 
+
+- Đánh giá sản phẩm lựa chọn 
+
+ 
+
+Hình 2.9. Hình ảnh sản phẩm  
+
+Đánh giá cá nhân: 
+
+Vật liệu: Sử dụng vật liệu 100% polyesters không thấm nước. Vật liệu khá phù 
+
+hợp với hoạt động chạy ngoài trời tuy nhiên có độ co giãn ít. 
+
+Kết cấu: 
+
+  
+
+ 
+
+  
+ 
+
+
+
+39 
+ 
+
+- Thiết kế biến đổi từ quần dáng dài thành dáng ngắn bằng cách chia cắt thân 
+
+quần và sử dụng khoá để liên kết. Với thiết kế này, sản phẩm có thể sử dụng 
+
+vào cả thời tiết nóng và lạnh, vô cùng tiện lợi.  
+
+- Với thiết kế eo chun ôm sát vào cơ thể nên rất thoả mái và an toàn khi vận 
+
+động 
+
+Nhưng có thể thay thế bằng cạp sử dụng phương pháp hàn dán để tăng độ ôm sát 
+
+và mềm mại ở cạp 
+ 
+
+- Quần có 2 túi chéo, 2 túi hậu và 2 túi hộp => có nhiều không gian cho khách 
+
+hàng để đồ cá nhân. 
+
+Tuy nhiên, quần thiết kế với quá nhiều túi dẫn đến việc chi phí vật liệu và gia công 
+
+sản xuất khá lớn, giá thành cao vì vậy có thể cân nhắc cải tiến đến việc giảm bớt 
+
+cấu trúc túi để cải tiện vấn đề này. 
+
+- Ngoài ra, túi hậu có kích thước khá nhỏ để đưa tay vào => nên cân nhắc 
+
+thiết kế lại kích thước túi hậu.  
+
+Tính năng; 
+
+- Có nhiều túi, thuận lợi khi để đồ 
+- Chưa tiện lợi khi vận động vào buổi tối nên có thể cân nhắc thêm phản 
+
+quang. 
+
+Đánh giá của khách hàng: 
+
+Bảng 2.3. Bảng đáng giá sản phẩm của khách hàng 
+
+ 
+
+Vải 1 lớp khá mỏng 
+
+ 
+
+Túi khá ngắn nên khó khăn khi 
+
+để đồ 
+
+ 
+
+Độ co giãn của vải không cao. 
+
+ 
+
+2.2. Phân tích sản phẩm cạnh tranh 
+
+Giới thiệu chung về tập đoàn Nike [5] 
+
+
+
+40 
+ 
+
+ 
+
+Hình 2.10. Hình ảnh một cửa hàng của Nike 
+
+     Nike là một thương hiệu thời trang có trụ sở gần Beaverton, Oragon của Hoa 
+
+Kỳ, nổi tiếng trên toàn thế giới. Tập đoàn Nike được biết đến với việc thiết kế, 
+
+phát triển và sản xuất các mặt hàng sản phẩm như là giày, quần áo và các phụ kiện 
+
+thể thao. Hiện nay. Nike được biết đến như là một thương hiệu thời trang lớn và 
+
+nổi tiếng nhất về các mặt hàng thời trang thể thao có chất lượng cao, thiết kế với 
+
+nhiều phong cách, kiểu dáng đẹp và hợp với xu hướng đại chúng. 
+
+Quá trình hình thành và phát triển [6] 
+
+- Ngày 25/1/1964: Công ty với tên gọi "Blue Ribbon Sports" (BRS) được 
+
+thành lập bởi Bill Bowerman và Phil Knight. Những năm đầu công ty chủ 
+
+yếu hoạt động như là các nhà phân phối cho nhà sản xuất giày Nhật Bản 
+
+Onitsuka Tiger tại Eugene, Oregon , Mỹ. Ở năm đầu tiên, doanh thu đạt 
+
+được khá tốt với 1.300 đôi giày chạy bộ đạt được 8.000 USD và hầu hết là 
+
+nhờ vào việc phân phối tại các đường đua ô tô của Knight. 
+
+ 
+
+ 
+
+Hình 2.11. Hình ảnh Phil Knight và Bill Bowerman 
+ 
+
+- Đến năm 1965, doanh thu đã lên đến 20.000 USD. Nhận thấy tiềm năng 
+
+kinh doanh và doanh thu có xu hướng tăng, BRS đã quyết định mở rộng 
+
+kinh doanh.  
+
+- Năm 1966, BRS mở cửa hàng bán lẻ đầu tiên tại 3107 Đại lộ Pico ở Santa 
+
+Monica, California. 
+
+https://vi.wikipedia.org/wiki/Phil_Knight
+https://vi.wikipedia.org/wiki/Eugene,_Oregon
+https://vi.wikipedia.org/wiki/Santa_Monica,_California
+https://vi.wikipedia.org/wiki/Santa_Monica,_California
+
+
+41 
+ 
+
+- Đến năm 1965, doanh thu đã lên đến 20.000 USD. Nhận thấy tiềm năng 
+
+kinh doanh và doanh thu có xu hướng tăng, BRS đã quyết định mở rộng 
+
+kinh doanh. 
+
+- Năm 1966, BRS mở cửa hàng bán lẻ đầu tiên tại 3107 Đại lộ Pico ở Santa 
+
+Monica, California. 
+
+- Năm 1967, một cửa hàng phân phối và bán lẻ khác ở ở Bờ Đông, ở 
+
+Wellesley, Massachusetts đã được đi vào hoạt động.  
+
+- Đầu năm 1971, có sự mâu thuẫn trong quan hệ của BRS và Onitsuka Tiger. 
+
+- Đến 30/5/1971, Thương hiệu Nike được ra đời sau khi cả 2 dừng hợp tác 
+
+sau 1 vụ kiện. BRS sử dụng cái tên Nike bắt nguồn từ tên của nữ thần chiến 
+
+thắng của Hy Lạp. Sau đó, BRS đã chuẩn bị ra mắt dòng giày dép của riêng 
+
+mình, được đổi tên thành Nike và sẽ mang dấu Swoosh mới được thiết kế 
+
+bởi CarolyDavidson Swoosh. Đến 18/6/1971, giày Nike chính thức được 
+
+biết đến và ra mắt công chúng. 
+
+- Tuy nhiên đến 22/1/1974, Nike mới được đăng kí tại Văn phòng Nhãn hiệu 
+
+và Bằng sáng chế Hoa Kỳ. Từ đó hàng loạt các công ty con ra đời và Nike 
+
+tiếp thị sản phẩm của mình dưới thương hiệu riêng, cũng như Nike Golf, 
+
+Nike Pro, Nike+, Air Jordan, Nike Blazers, Air Force 1, Nike Dunk, Air 
+
+Max, Foamposite, Nike Skateboarding, Nike CR7, và các công ty con bao 
+
+gồm Jordan Brand và Converse. 
+
+- Năm 1976, công ty đã thuê John Brown and Partners, có trụ sở tại Seattle, 
+
+làm công ty quảng cáo đầu tiên của mình. Năm sau, cơ quan này đã tạo ra 
+
+"quảng cáo thương hiệu" đầu tiên cho Nike, được gọi là "Không có vạch về 
+
+đích", trong đó không có sản phẩm nào của Nike được hiển thị. Đến năm 
+
+1980, Nike đã chiếm được 50% thị phần trên thị trường giày thể thao của 
+
+Hoa Kỳ, và công ty đã lên sàn vào tháng 12 năm đó. 
+
+- Sau đó, Nike hợp tác với Wieden+Kennedy, công ty quảng cáo chín của 
+
+Nike, và cả hai đã tạo ra nhiều quảng cáo in ấn và truyền hình khác nhau. 
+
+Đồng thời khẩu hiệu nổi tiếng hiện nay "Just Do It" cho một chiến dịch 
+
+quảng cáo của Nike năm 1988 ra đời và được biết đến cho đến ngày nay. 
+
+- Do có sự quảng bá sôi nổi cũng như những thiết kế dặc biệt nên từ đầu 
+
+những năm 1980 nhiều mặt hàng của Nike như giày dép, quần áo,.. đã bắt 
+
+đầu trở nên phổ biến và nổi tiếng đối với giới trẻ ở Hoa Kỳ. Vào những năm 
+
+này, Nike đã trở thành thương hiệu hàng đầu với các mặt hàng thiết kế độc 
+
+đáo và không ngừng phát triển thiết kế phù hợp với sự thay đổi của thời đại. 
+
+Vào những nhưng 80, nối bật là những đôi giày được thiết kế với lớp đệm 
+
+không khí dày, đế cao su và các đường viền màu sắc. Đến những năm 1990 
+
+và 2000, hàng loạt các thiết kế mới ắn liền với phong cách preppy hoặc 
+
+phong cách nhóm phổ biến ra đời. Ví dụ như các bộ đồ thể thao, quần 
+
+legging, áo croptop, quần áo đường phố như quần jean, quần short thun 
+
+unisex Nike Tempo được mặc để đạp xe và chạy bộ, có lớp lót bằng lưới, 
+
+chống thấm nước 
+
+- Sau đó, mở ra một thời kỳ phát triển không ngừng của Nike. Sản phẩm của 
+
+Nike trở nên ngày càng phổ biến, doanh thu ngày càng tăng.  
+
+https://vi.wikipedia.org/wiki/Santa_Monica,_California
+https://vi.wikipedia.org/wiki/Santa_Monica,_California
+https://vi.wikipedia.org/w/index.php?title=Wellesley,_Massachusetts&action=edit&redlink=1
+https://vi.wikipedia.org/wiki/Converse_(c%C3%B4ng_ty_gi%C3%A0y)
+https://vi.wikipedia.org/w/index.php?title=Wieden%2BKennedy&action=edit&redlink=1
+
+
+42 
+ 
+
+- 3/2018: Nike đã mua lại một công ty phân tích dữ liệu người tiêu dùng có 
+
+tên Zodiac nhằm mục tiêu cá nhân hoá công việc nghiên cứu khách hàng, 
+
+tạo tiền đề cho việc tạo ra những sản phẩm lấy nhu cầu khách hàng là trên 
+
+hết. Tiếp tực vào 8/2019, công ty đã mua lại Celect, một công ty phân tích 
+
+dự đoán có trụ sở tại Boston. Vào tháng 12/ 2020, Nike đã mua RTFKT 
+
+Studios, một công ty giày ảo chuyên sản xuất NFT. 
+
+- Đến tháng 2/ 2021, Nike đã mua lại Datalogue, một công ty có trụ sở tại 
+
+New York tập trung vào bán hàng kỹ thuật số và công nghệ máy học. 
+
+Một số dấu mốc khác của Nike: [7] 
+
+- 1984: Nike ký hợp đồng với Michael Jordan, tung ra dòng Air Jordan.  
+
+- 1999: Người đồng sáng lập Nike Bill Bowerman qua đời ở tuổi 88  
+
+- 2002: Nike mua lại công ty may mặc lướt sóng Hurley.  
+
+- 2003 - Nike ký hợp đồng với Lebron James và Kobe Bryant.  
+
+- 2004 - Nike mua lại Converse với giá 309 triệu đô la  
+
+- 2004 - Phil Knight từ chức Giám đốc điều hành và Chủ tịch của Nike  
+
+- 2008 - Nike ký hợp đồng với Derek Jeter.  
+
+- 2012 - Nike trở thành nhà cung cấp chính thức cho trang phục của NFL  
+
+- 2015 - Nike trở thành nhà cung cấp chính thức cho trang phục NBA. 
+ 
+
+ 
+
+ 
+
+Hình 2.12. Trụ sở Nike gần Beaverton, Oragon, Hoa Kỳ 
+
+ Ngày nay, Nike càng ngày cảng trở lên lớn mạnh, là một trong những 
+thương hiệu nổi tiếng trên thế giới. 
+
+Tầm nhìn: “ Chúng tôi muốn Nike trở thành một công ty cung cấp trang phục thể 
+
+thao tốt nhất và vững mạnh nhất” [7] 
+
+Sứ mệnh: “Mang đến nguồn cảm hứng và sự sáng tạo cho mỗi vận động viên trên 
+
+thế giới” [7] 
+
+
+
+43 
+ 
+
+Khẩu hiệu: "Just Do It", nó được lấy cảm hứng từ những lời cuối cùng của tên sát 
+
+nhân người Mỹ Gary Gilmore trước khi bị xử bắn: "Hãy làm nó.". Slogan này được 
+
+sử dụng từ quảng cáo năm 1988 cho đến ngày nay. 
+
+ 
+
+ 
+
+Hình 2.13. Hình ảnh khẩu hiệu của Nike 
+
+Giá trị cối lõi: 
+
+- We dare to design the future of sport : Chúng tôi dám thiết kế lại tương lai 
+của thể thao  
+
+- A team that’s empowered, diverse and inclusive: Một đội ngũ được trao 
+quyền, đa dạng và hoà nhập  
+
+- The world is our community: Thế giới là cộng đồng của chúng tôi  
+
+- A fair sustainable future for every athlete: Một tương lai bền vững, công 
+bằng cho mọi vận động viên 
+
+Mục tiêu của Nike: : “Tiếp tục đổi mới, thiết kế và phát triển sản phẩm nhằm cải 
+
+tiến chất lượng thành tích các vận động viên” [8]. 
+
+Logo: 
+
+ 
+
+- Logo Nike mang tính biểu tượng trông giống như ‘Swoosh’ được tạo ra bởi 
+
+Carolyn Davidson, một sinh viên ngành đồ họa kỹ thuật số vào năm 1971.  
+
+- Biểu tượng được biểu thị cho nữ thần chiến thắng có cánh mà trong thần 
+
+thoại Hy Lạp còn được gọi là Nike.[9]. 
+
+ 
+
+
+
+44 
+ 
+
+ 
+
+ 
+
+Hình 2.14. Hình ảnh logo Nike qua từng giai đoạn 
+
+Chiến lược kinh doanh của Nike [10] 
+
+Chiến lược về sản phẩm: Nike được biết đến là hãng thời trang thể thao có sản 
+
+phẩm được thiết kế với nhiều kiểu dáng đa dạng, đọc đáo. Đặc biệt là việc sử dụng 
+
+nhiều công nghệ hiện đại trong quá trình thiết kế và sản xuất nhằm tăng năng suất 
+
+và chất lượng của sản phẩm. 
+
+Giày: 
+
+- Công nghệ giày Nike Air: Đây là công nghệ không khí được sử dụng và 
+
+phát triển đầu tiên ở Nike với mục đích tạo lên lớp đệm ở chân, làm áp lực 
+
+tác động sau đó phục hình dạng ban đầu, sẵn sàng cho những lần va chạm 
+
+tiếp theo.  
+
+- Công nghệ giày Nike Air Zoom/ Zoom Air: Công nghệ này đề cao đặc tính 
+mỏng, nhẹ của lớp đệm với mục đích là tạo ra lớp đệm tuyệt vời giúp người 
+
+vận động cảm nhận được bề mặt mà hộ đang tiếp xúc.  
+
+- Công nghệ giày Nike Free: Công nghệ này thì nghiên cứu và phát triển 
+dựa trên tính năng bảo vệ bên ngoài, sự va đạp của đé ngoài. Loại giày sử 
+
+dụng công nghệ này thường có trọng lượng nhẹ, có độ linh hoạt cao.Khu 
+
+vực bàn chân trước cho phép các ngón chân cử động nhiều hơn để tạo cảm 
+
+giác tự nhiên, tạo sự ổn định và chính xác.  
+
+
+
+45 
+ 
+
+- Công nghệ giày Nike FlyWire: Sử dụng cáp Vectran để hỗ trợ bàn chân. 
+Công nghệ này giữ cho bàn chân bị khóa chặt, loại bỏ từng milimet chuyển 
+động với mỗi sải chân.  
+
+- Công nghệ giày Nike LunarLite: Công nghệ này giúp giảm áp lực trên 
+toàn bộ bàn chân, cũng làm giảm tác động lên xương. Đệm LunarLite Foam 
+
+là loại bọt hiệu suất nhẹ của Nike. 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 2.15. Hình ảnh một số công nghệ giày Nike 
+
+Quần áo: 
+
+ 
+
+- Dây chuyền sản xuất chuyên môn hoá: Nike là thương hiệu có dây chuyền sản 
+
+xuất dạng vòng tròn khép kín đi từ thiết kế, phát tiển sau đó sẽ sản xuất tại các 
+
+nhà máy của nó nên trong quá trình sản xuất có thể thử nghiệm nhiều phương 
+
+án về thiết kế, vật liệu, cấu trúc … khác nhau từ đó tìm ra được sản phẩm có 
+
+chất lượng cao, đáp ứng được nhu cầu của khách hàng.  
+
+- Các sản phẩm quần áo của Nike luôn đi đầu các xu hướng, bắt kịp “trend” 
+
+của giới trẻ, đi kèm là các thiết kế độc đáo và nhiều phong cách khác nhau 
+
+phù hợp với mọi cá tính của khách hàng. 
+
+    Phụ kiện: Nike không chỉ là thương hiệu nổi tiếng về giày và quần áo mà một 
+
+phần nhỏ trong danh sách sản phẩm được bán ra là các phụ kiện và dụng cụ thể 
+
+thao khác như mũ, tất, găng tay,… phù hợp với nhiều hoạt động thể thao khác 
+
+nhau. 
+
+Chiến lược về giá: 
+
+- Hầu như các sản phẩm của Nike đều có giá khá cao so với mặt bằng các 
+
+sản phẩm khác trên thị trường. Việc định giá được công ty thực hiện dựa 
+
+trên chất lượng, giá trị và chiến lược giá cao cấp, căn cứ vào các điều kiện 
+
+
+
+46 
+ 
+
+của thị trường hiện tại Tất cả các sản phẩm của Nike đều được xây dựng 
+
+giá bán theo giá trị sử dụng và giá trị đặc biệt mà nó đem lại.  
+
+- Mặc dù giá bán khá cao nhưng Nike luôn cam đoan cho người tiêu dùng về 
+
+tất cả sản phẩm mà nó bán ra với chất lượng cao, và được kiểm tra chất 
+
+lượng kỹ càng khi đưa ra thị trường. 
+
+Chiến lượng phân phối: 
+
+- Tại Mỹ, Nike bán sản phẩm của mình đến 20.000 tài khoản bán lẻ. Đối với 
+
+thị trường quốc tế, Nike đã ký hợp đồng với hơn 700 cửa hàng trên thế giới 
+
+và văn phòng đặt tại 45 quốc gia ngoài nước Mỹ.  
+
+- Các sản phẩm của Nike có kênh phân phối vô cùng đa dạng. 
+- Nike sở hữu 17 trung tâm phân phối trong đó có 3 trung tâm tại Mỹ. Các 
+
+trung tâm còn lại phân bố tại một số nơi trên thế giới như Nhật Bản, Bỉ… 
+ 
+
+ 
+
+Hình 2.16. Hình ảnh một trung tâm phân phối của Nike 
+
+- Các của hàng bán lẻ: Nike tiếp cận đến nhiều đối tượng khách hàng khác 
+nhau trên thế giới tại các cửa hàng bán lẻ này. Đây là nơi khách hàng có thể 
+chọn lựa các sản phẩm mà họ yêu thích và có mức giá giảm 20 -60%. 
+
+ 
+
+Hình 2.17. Hình ảnh một cửa hàng bán lẻ của Nike 
+
+
+
+47 
+ 
+
+- Trang bán hàng online của Nike có tên Nike.com: Khách hàng có thể truy 
+
+cập vào website và lựa chọn các sản phẩm mà họ yêu thích thay vì phải đến 
+
+cửa hàng. Điều này đã mang đến sự thuận tiện và tiết kiệm thời gian mua 
+
+sắm cho khách hàng của Nike. 
+
+Chiến lược quảng bá: Nike nổi bật với các chiến lược truyền thông quảng bá như 
+
+chiến lược xây dựng thương hiệu cảm xúc, sử dụng hình ảnh người nổi tiếng, phân 
+
+phối trên nhiều kênh mạng xã hội, tạo ra những quảng cáo truyền cảm hứng. 
+
+- Chiến lược xây dựng thương hiệu cảm xúc: với chiến lược này, Nike không 
+
+tập trung quảng bá sản phẩm mà chủ yếu truyền tải đến các khách hàng tinh 
+
+thần của thương hiệu. Nike sử dụng mô típ câu chuyện những vị anh hùng 
+
+chiến thắng kẻ thù để cải tiến thành câu chuyện của chính họ đó chính là 
+
+đánh vàosự lường biếng, sợ hãi,.. của khách hàng. 
+
+ 
+
+ 
+
+Hình 2.18. Hình ảnh trong clip quảng cáo cho chiến dịch “Find Your 
+
+Greatness” năm 2012 của Nike 
+
+- Chiến lược sử dụng hình ảnh người nổi tiếng:Nike đã thực hiện ký kết với 
+
+nhiều vận động viên nổi tiếng ở nhiều môn thể thao khác nhau như các 
+
+tuyển thủ của đội bóng Brazil (Ronaldo, Ronaldinho, Roberto 
+
+Carlos),Jermaine O’NealLeBron James cho bóng rổ, Lance Armstrong xe 
+
+đạp. 
+
+ 
+
+
+
+48 
+ 
+
+ 
+
+Hình 2.19. Hình ảnh Cristiano Ronaldo – đại sứ thương hiệu của Nike cho dòng 
+
+Mercurial 
+
+- Chiến lược phân phối trên nhiều kênh mạng xã hội: Nike thực hiện quảng 
+bá trên nhiều kênh, mạng xã hội: Facbook, Instagram, Twitter, youtube,.. 
+
+- Chiến lược tạo ra những quảng cáo truyền cảm hứng: Các quảng cáo của 
+Nike luôn tập trung đến câu chuyện truyền cảm hứng và mang lại những 
+
+thông điệp sâu sắc cho khách hàng của thương hiệu mà ít khi đi sâu nói về 
+
+sản phẩm của mình. Nike tôn vinh thể thao và tôn vinh những nỗ lực, cống 
+
+hiến để họ có được thành công đó. Một trong những quảng cáo truyền cảm 
+
+hứng thành công nhất của Nike chính là “Winner stays on” vào mùa World 
+
+Cup 2014. 
+
+ 
+
+ 
+
+Hình 2.20. Hình ảnh TVC quảng cáo “Winner stays on” vào mùa Worlcup 2014 
+
+thu về 10,7 triệu lượt xem 
+
+Phân tích năng lực của công ty [5] 
+
+Năng lực tài chính:  
+
+
+
+49 
+ 
+
+- Nike là một trong những thương hiệu lớn trên thị trường với nhiều hệ 
+
+thống bán hàng khắp thế giới. 
+
+- Với nhiều hệ thống bán hàng trực tiếp và mở rộng sang thị trường thương 
+
+mại điện tử như ngày nay cùng với các dòng sản phẩm cao cấp và giá thành 
+
+hướng đến khách hàng trung lưu cao cấp thì doanh thu và lợi nhuận của 
+
+Nike sẽ là một con số đáng mơ ước đối với nhiều công ty khác. 
+
+- Nike đã trở thành thành viên của Chỉ số Công nghiệp Dow Jones vào năm 
+2013, khi nó thay thế Alcoa. 
+
+- Vào ngày 19 tháng 12 năm 2013, lợi nhuận hàng quý của Nike đã tăng do 
+đơn đặt hàng hàng hóa toàn cầu tăng 13% kể từ tháng 4 năm đó. Các đơn 
+
+đặt hàng giày hoặc quần áo trong tương lai để giao trong khoảng thời gian 
+
+từ tháng 12 đến tháng 4, đã tăng lên 10,4 tỷ USD. Cổ phiếu Nike (NKE) 
+
+tăng 0,6% lên 78,75 USD trong giao dịch kéo dài 
+
+- Vào tháng 11 năm 2015, Nike thông báo sẽ bắt đầu mua lại cổ phiếu trị giá 
+12 tỷ đô la, cũng như chia tách cổ phiếu hai tặng một, với cổ phiếu sẽ bắt 
+
+đầu giao dịch ở mức giá giảm vào ngày 24 tháng 12 Vụ chia tách sẽ là lần 
+
+thứ bảy trong Lịch sử công. 
+- Vào tháng 6 năm 2018, Nike thông báo sẽ bắt đầu mua lại cổ phiếu trị giá 
+
+15 tỷ đô la trong vòng 4 năm, bắt đầu vào năm 2019 sau khi hoàn thành 
+chương trình mua lại trước đó 
+
+- Đối với năm tài chính 2018, Nike đã báo cáo thu nhập 1,933 tỷ đô la Mỹ, 
+với doanh thu hàng năm là 36,397 tỷ đô la Mỹ, tăng 6,0% so với chu kỳ tài 
+
+chính trước đó. Cổ phiếu của Nike được giao dịch ở mức hơn 72 đô la / cổ 
+
+phiếu và vốn hóa thị trường của nó được định giá hơn 114,5 tỷ đô la Mỹ 
+
+vào tháng 10 năm 2018. 
+
+- Vào tháng 3 năm 2020, Nike đã báo cáo doanh số bán hàng tại Trung Quốc 
+
+giảm 5% liên quan đến việc đóng các cửa hàng do việc bùng phát đại dịch 
+
+Covid – 19. Đây là lần giảm đầu tiên trong sáu năm. Đồng thời, doanh số 
+
+bán hàng trực tuyến của công ty đã tăng 36% trong quý 1 năm 2020. Ngoài 
+
+ra, doanh số bán các ứng dụng đào tạo cá nhân tăng 80% ở Trung Quốc. 
+
+Năng lực trị trường:Nike có hệ thống bán hàng lớn với 17 trung tâm phân phối 
+
+khổng lồ và hơn 679 cửa hàng bán lẻ các loại trên thế giới 
+
+Năng lực thiết kế: 
+
+- Đội ngũ nhân viên nhiệt tình và giàu kinh nghiệm là một điểm mạnh trong 
+
+nguồn nhân lục của công ty.  
+
+- Các sản phẩm của Nike luôn phong phú về kiểu dáng và phong cách.  
+
+- Nhiều công nghệ được áp dụng trong quá trình thiết kế nhằm tăng chất 
+
+lượng của sản phẩm. 
+
+Năng lực nhân lực 
+
+- Nike sử dụng nguồn nhân lực ở nhiều quốc gia. Vào năm 2022 tổng số nhân 
+viên của Nike lên đến 79.100 người trên 160 quốc và công nhân bản xứ 
+đang làm việc trong các nhà máy gia công sản xuất cho Nike.  
+
+
+
+50 
+ 
+
+- Các nhà cung cấp chính của Nike đặt trên 10 nước: Trung Quốc, Indonesia, 
+
+Việt Nam, Thái Lan, Ấn Độ, Thổ Nhĩ Kỳ, Marốc, Mexico, Huduras và 
+
+Brazil. Ngoài ra Nike còn ký kết hợp đồng sản xuất với các nhà máy trên 
+
+40 quốc gia. 
+
+Phân thích SWOT của doanh nghiệp:  
+
+Điểm mạnh (S): 
+ 
+
+- Các chiến lược quảng bá của thương hiệu với nhiều nét mới mẻ, độc đáo; 
+đánh vào tâm lý và cảm xúc của khách hàng, đề cao những thông điệp tích 
+
+cực trong cuộc sống mà không phải tập trung vào các sản phẩm của thương 
+
+hiệu. Xác định rõ ràng mục tiêu mà thương hiệu tập trung vào đó là các vận 
+
+động viên, những người yêu tích, thường xuyên tập thể thao và đặc biệt 
+
+quan tâm đến sức khoẻ của mình. Đặc biệt là chiến lược Markerting cảm 
+
+xúc, đây được coi là chiến lược thành công và truyền cảm hứng đến rất 
+
+nhiều khách hàng của họ.  
+
+- Giá trị thương hiệu: Nike được biết đến như là thương hiệu số 1 trong việc 
+sản xuất và cung cấp các mặt hàng thể thao trên thế giới.  
+
+- Chiến lược phân phối: Nike có rất nhiều các kênh phân phối, Nike đã ký 
+
+hợp đồng với hơn 700 cửa hàng trên thế giới và văn phòng đặt tại 45 quốc 
+
+gia ngoài nước Mỹ. Không chí có các trung tâm phân phối, cửa hàng mà 
+
+Nike còn hoạt động rất mạnh trên các trang web bán hàng online,…  
+
+- Về sản phẩm: Nike luôn luôn đảm bảo với khách hàng về chất lượng của 
+
+sản phẩm khi bán ra thị trường. Sản phẩm của Nike thì luôn luôn yêu cầu 
+
+cao về chất lượng, thiết kế với thiều phong cách khác nhau, phù hợp với xu 
+
+hướng của giới trẻ. Đặc biệt là được áp dụng nhiều công nghệ hiện đại trong 
+
+quá trình sản xuất nhằm mang đến sản phẩm dạt chất lượng cao nhất và đáp 
+
+ứng được nhu cầu của khách hàng. 
+
+Điểm yếu (W): 
+-  
+- Sản phẩm của Nike thường có giá thành khá cao so với mặt bằng chung các 
+
+sản phẩm trên thị trường do có áp dụng các công nghệ hiện đại và các yêu 
+cầu chất lượng đối với sản phẩm nên đối tượng khách hàng của thương hiệu 
+còn hạn chế. 
+
+- Nike có rất nhiều công nghệ hiện đại trong việc sản xuất giày, chênh lệch 
+khá lớn đối với quần áo và các loại phụ kiện. 
+
+- Với nền kinh tế phát triển như ngày nay, nhu cầu về sinh hoạt của con người 
+ngày càng tăng rất đến những hoạt động thể thao cũng tăng theo. Vì vậy 
+nhu cầu về trang phục thể thao ngày càng lớn và cần thiết.  
+
+- Các công nghệ hiện đại và máy móc, tự động hoá khi áp dụng trong sản 
+xuất sẽ có giá thành rẻ bơn trong điều kiện nền công nghiệp phát triển như 
+hiện nay.  
+
+- Khách hàng càng càng coi trọng các mặt hàng có chất lượng cao, thiết kế 
+đẹp mắt và đáp ứng được nhu cầu tiêu dùng. 
+
+- Nike có khá nhiều các đối thủ cạnh tranh trên thị trường mặc dù hiện nay 
+Nike chiến thị phần khá lớn trên thị trường: Adidas, Puma,…  
+
+
+
+51 
+ 
+
+- Yêu cầu của khách hàng về sản phẩm ngày càng tăng đòi hỏi sự tìm tòi 
+nghiên cứu phát triển sản phẩm của Nike phải càng mạnh.  
+
+- Vấn đề hàng giả, hàng nhái kém chất lượng cũng là một thách thức lớn của 
+
+Nike. 
+
+Phân tích sản phẩm cạnh tranh 
+
+Đặc điểm chung: 
+
+- Chủng loại:Quần thể thao 1 lớp 
+- Đối tượng: Nam 18 tuổi trở lên 
+- Giá thành: từ 2.000.000 – 2.300.000 vnđ 
+
+Bảng 2.4. Bảng phân tích sản phẩm cạnh tranh 
+
+Thương hiệu Nike 
+
+ 
+
+Adidas [11] 
+
+ 
+
+Puma [12] 
+
+ 
+Sản phẩm Quần dài thể thao 
+
+NRG Sr 2-In-1 
+
+Pant x Undercover 
+
+Quần thể thao nam 
+
+Adicolor classics 
+
+primeblue st 
+
+Quần dài thể thao 
+
+nam lưng thun 
+
+Booster 
+
+Basketball 
+
+Chức năng −  Che chắn cơ thể  
+
+−  Bảo vệ cơ thể khỏi tác động của môi trường 
+
+−  Giúp vận động thoải mái 
+
+Phù hợp cho hoạt 
+
+động chạy bộ 
+
+-Sản phẩm chuyên 
+
+dụng cho hoạt động 
+
+chạy hoặc tập yoga 
+
+- Sử dụng cho 
+
+mọi hoạt động 
+
+thể thao. 
+
+Chất liệu 100% polyester 
+
+ 
+
+Vải dệt interlock làm 
+
+từ 60% polyester tái 
+
+chế, 40% cotton 
+
+66% cotton, 34% 
+
+polyester 
+
+Thiế
+
+t kế 
+
+mỹ 
+
+thuật 
+
+Cảm 
+
+giác 
+
+mgoại 
+
+quân 
+
+Mềm mại, bóng Mềm mại. mát Mềm mại, mát 
+
+Màu 
+
+sắc 
+
+1 màu (đen) 
+
+ 
+
+2 màu ( đen, đỏ) 
+
+   
+
+1 màu (đen) 
+
+ 
+Đườn
+
+g nét 
+
+Đường thẳng là 
+
+chủ đạo 
+
+Đường thẳng là chủ 
+
+đạo 
+
+Đường thẳng kết 
+
+hợp đường cong 
+
+Kiểu 
+
+dáng 
+
+Dáng cơ bản ( 
+
+Regular) 
+
+ 
+
+Dáng cơ bản ( 
+
+Regular) 
+
+ 
+
+Dáng cơ bản ( 
+
+Regular) hơi có 
+
+độ 
+
+bó 
+
+Phản quang không có không 
+
+
+
+52 
+ 
+
+Số lớp 1 lớp 
+
+Thiết 
+
+kế kỹ 
+
+thuật 
+
+Cạp 
+
+quần 
+
+Cạp chun có dây 
+
+rút bên trong 
+
+Cạp chun có dây rút 
+
+bên trong 
+
+Cạp chun có dây 
+
+rút bên ngoài 
+
+Decu
+
+op 
+
+thân 
+
+quần 
+
+-Quần có ống 
+
+tháo lắp bằng 
+
+khoá. 
+
+-Quần không có các 
+
+đường chia cắt 
+
+-Quần không có 
+
+các đường chia 
+
+cắt 
+
+Túi 
+
+quần 
+
+-Thân trước có 2 
+
+túi chéo có khoá, 
+
+2 túi hộp 
+
+-Thân sau có 2 túi 
+
+hậu 
+
+-Thân trước có 2 túi 
+
+chéo 
+
+ 
+
+-Thân trước có 2 
+
+túi chéo và 2 túi 
+
+hộp 2 bên. 
+
+ 
+
+Gấu Có bo gấu 
+
+Cỡ số 6 cỡ số (XS, 
+
+S,M,L, XL, 2XL) 
+
+6 cỡ số (XS, S,M,L, 
+
+XL, 2XL) 
+
+5 cỡ số ( XS, 
+
+S,M,L,XL) 
+
+Tiện 
+
+lợi 
+
+Khả 
+
+năng 
+
+vận 
+
+động  
+
+-Kiểu dáng cơ 
+
+bản 
+
+- Chất liệu có độ 
+
+co giãn nhẹ khi 
+
+vận động. 
+
+-Kiểu dáng cơ bản 
+
+-Sử dụng chất liệu có 
+
+độ co giãn 
+
+ 
+
+-Kiểu dáng cơ 
+
+bản 
+
+hơi ôm 
+
+- Chất liệu có độ 
+
+co 
+
+giãn 
+
+Sự 
+
+tiện 
+
+lợi 
+
+khi 
+
+để đồ 
+
+-Có 2 túi chéo, 2 
+
+túi hộp và 1 túi 
+
+hậu để đựng đồ 
+
+-Có túi chéo 2 bên 
+
+thân quần để đựng đồ 
+
+ 
+
+Ngoài túi chéo 2 
+
+bên còn có túi 
+
+hộp nên dễ để 
+
+hoặc lấy đồ 
+
+Giá 2.370.000đ 2.000.000đ 2.099.000đ 
+
+ 
+
+- Nhận xét 
+
+Bảng 2.5. Bảng nhận xét sản phẩm cạnh tranh 
+
+ Nike Adidas  Puma  
+
+Phản quang Không có Có  Không có 
+
+Màu Có 1 màu (đen) Có 2 màu ( 
+
+đen, đỏ) 
+
+Có 1 màu ( 
+
+đen) 
+
+Khả năng vận động Độ co giãn nhẹ Quần có độ co giãn, thoả mái 
+
+khi vận động 
+
+Thiết kế kỹ 
+
+thuật 
+
+Túi quần 2 túi chéo có 
+
+khoá 
+
+2 túi hộp 
+
+2 túi hậu 
+
+Có 2 túi chéo 
+
+ 
+
+Có 2 túi chéo 
+
+2 túi hộp 
+
+Cạp quần Cạp chun có dây 
+
+rút bên trong 
+
+Cạp chun có 
+
+dây rút bên 
+
+ngoài 
+
+Cạp chun có 
+
+dây rút bên 
+
+trong 
+
+Kết cấu Có ống tháo rời Ống liền 
+
+
+
+53 
+ 
+
+ 
+
+Phân tích đối thủ cạnh tranh: 
+
+Bảng 2.6. Bảng phân tích đối thủ cạnh tranh 
+
+ Nike Adidas  Puma 
+
+ 
+
+ 
+
+  
+
+ Nike là nhà cung 
+
+cấp toàn cầu về 
+
+giày, quần áo và 
+
+dụng cụ thể thao số 
+
+một thế giới.Các 
+
+dòng sản phẩm giày 
+
+Nike từ quần áo, 
+
+giày dép, phụ kiện, 
+
+túi xách 
+
+cho đến dụng cụ thể 
+
+thao luôn có doanh 
+
+số bán hàng khủng 
+
+trên toàn thế giới. 
+
+  
+
+Adidas là một tập 
+
+đoàn đa quốc gia có 
+
+nguồn gốc tại Đức. 
+
+Ngày nay, adidas trở 
+
+thành một công ty 
+
+thời trang thể thao 
+
+lớn, các sản phẩm đã 
+
+có mặt trên 160 quốc 
+
+gia và cho ra đời hơn 
+
+660 triệu sản phẩm 
+
+mỗi năm cho người 
+
+tiêu dùng. 
+
+Puma là một trong 
+
+những thương hiệu thể 
+
+thao hàng đầu thế giới 
+
+về thiết kế, phát triển 
+
+sản phẩm thời trang 
+
+thể thao.Hiện phân 
+
+phối các dòng sản 
+
+phẩm tại hơn 120 
+
+quốc gia 
+
+  
+
+Số 
+
+lượng 
+
+người 
+
+theo 
+
+dõi 
+
+Facebook:37 triệu Facebook: 40 triệu  Facebook: 21 triệu  
+
+Các 
+
+dòng 
+
+sản 
+
+phẩm 
+
+−Giày 
+
+−Quần áo 
+
+−Phụ kiện: mũ, tất, 
+
+túi thể thao, gang 
+
+tay, khăn quàng cổ 
+
+  
+
+-Giày thểthao 
+
+-Áo: áo phông. Áo 
+
+khoác Suit 
+
+-Quần: quần short, 
+
+quần dài, quần âu 
+
+-Phụ kiện mũ,túi thể 
+
+thao, gang tay 
+
+−Giày 
+
+−Quần áo 
+
+−Phụ kiện: Túi, mũ, 
+
+túi xách,gang tay.. 
+
+Các ưu 
+
+đãi, 
+
+khuyến 
+
+mại 
+
+ 
+
+-Chương trính 
+
+khuyến mại, giảm 
+
+giá trong những 
+
+ngày lễ. 
+
+-Riêng đối với giày, 
+
+có chương trình cho 
+
+khách hàng trải 
+
+nghiệm cá nhân hoá 
+
+riêng biệt bằng cách 
+
+tự đặt hàng các mẫu 
+
+Adidas triển khai các 
+
+chương trình khuyến 
+
+mại hấp dẫn như: 
+
+- Chương trình rút 
+
+thăm trúng thướng 
+
+khi mua sản phẩm 
+
+như vé đi xem các 
+
+trận đấu lớn trên thế 
+
+giới. 
+
+- Có các đợt khuyến 
+
+mại lớn như giảm giá 
+
+20-50% 
+
+- Thực hiện chính sách 
+
+đổi trả khi mua trực 
+
+tiếp và online. 
+
+-Khi mua quần áo 
+
+Puma, khách hàng sẽ 
+
+được hưởng nhiều 
+
+chính sách hấp dẫn 
+
+
+
+54 
+ 
+
+thiết kế theo sở 
+
+thích và nhu cầu 
+
+của mình. 
+
+- Bán hàng tặng kèm: 
+
+tất, mũ, áo thun,… 
+
+- Giảm giá cho khách 
+
+hàng mu trong ngày 
+
+lễ lớn. 
+
+- Ưu đãi khi chuyển 
+
+vụ, chuyển mùa và 
+
+cuối năm. Mức giảm 
+
+giá đôi khi lên tới 
+
+30% hoặc 50% một 
+
+số dòng sản phẩm, 
+
+chủ yếu là giày và 
+
+thời trang tập luyện 
+
+thể thao. 
+
+- Giảm giá khi 
+
+mua số lượng lớn. 
+
+như:  
+
+• Cam kết chính hãng. 
+
+•Đổi trả trong30 ngày 
+
+(với sản phẩm chưa 
+
+sử dụng). 
+
+•Miễn phí giao hàng 
+
+đơn từ 500.000đ trong 
+
+10km đầu tiên. 
+
+Khách 
+
+hàng 
+
+mục 
+
+tiiêu 
+
+Những bạn trẻ có sở 
+
+thích thể dục thể 
+
+thao, có thu nhập 
+
+tốt. 
+
+13-40 tuổi, những 
+
+người ở tầng lớp 
+
+trung lưu cao cấp 
+
+Từ 15-45 tuổi, những 
+
+người có mức thu 
+
+nhập cao. 
+
+ 
+
+2.3. Đề xuất tiêu chí phát triển thiết kế mới 
+
+2.3.1. Xác định các thuộc tính của sản phẩm 
+
+Bảng 2.7. Bảng xác định thuộc tính của sản phẩm 
+
+Tiêu chí Thuộc 
+
+tính  
+
+Vấn đề 
+
+cần giải 
+
+quyết 
+
+Giải 
+
+pháp 
+
+Thay đổi chi phí 
+
+Nguyên 
+
+liệu 
+
+Gia công Tổng  
+
+1.Tính 
+
+năng 
+
+Khả 
+
+năng 
+
+nhận 
+
+diện khi 
+
+vận động 
+
+vào buổi 
+
+tối 
+
+Chưa có 
+
+khả năng 
+
+nhận 
+
+diện vào 
+
+buổi tối 
+
+Sử dụng 
+
+thêm 
+
+phản 
+
+quang ở 
+
+quần 
+
+Tăng  Tăng  Tăng 
+
+Khả 
+
+năng vận 
+
+động dễ 
+
+dàng 
+
+Sản 
+
+phẩm 
+
+có nhiều 
+
+túi nên sẽ 
+
+nặng có 
+
+thể ảnh 
+
+hưởng 
+
+đến quá 
+
+trình vận 
+
+động  
+
+Giảm  
+
+bớt  2 
+
+túi hộp 
+
+Giảm Giảm Giảm 
+
+Thay  đổi  
+
+2 
+
+túi hậu 
+
+thành 
+
+1 túi  
+
+  
+
+Giảm Giảm Giảm 
+
+
+
+55 
+ 
+
+Túi hậu 
+
+để vừa 
+
+tay 
+
+Kích 
+
+thước túi 
+
+hậu nhỏ 
+
+Thay đổi 
+
+kích 
+
+thước túi 
+
+hậu 
+
+Tăng  Tăng  Tăng  
+
+Khả 
+
+năng 
+
+nhận 
+
+diện 
+
+thương 
+
+hiệu 
+
+Quần 
+
+chưa có 
+
+dấu hiệu 
+
+để nhận 
+
+biết 
+
+thương 
+
+hiệu 
+
+Thiết kế 
+
+thêm 
+
+logo ở 
+
+thân 
+
+quần 
+
+Tăng  Tăng  Tăng  
+
+2.Màu 
+
+sắc 
+
+Tính 
+
+thẩm mỹ 
+
+của sản  
+
+phẩm 
+
+Sản 
+
+phẩm có 
+
+1 màu 
+
+Thêm 
+
+màu 
+
+Không 
+
+đổi 
+
+Không 
+
+đổi 
+
+Không 
+
+đổi 
+
+Sản 
+
+phẩm 
+
+đơn sắc 
+
+Phối màu 
+
+vào các 
+
+mảnh chi 
+
+tiết  
+
+Tăng Không 
+
+đổi 
+
+Tăng  
+
+3.Kiểu 
+
+dáng và 
+
+kết cấu 
+
+Tính 
+
+thẩm mý 
+
+và khả 
+
+năng dễ 
+
+dàng vận 
+
+động của 
+
+đường 
+
+chia cắt 
+
+Đường 
+
+chia cắt 
+
+có tính 
+
+thẩm mỹ 
+
+cao hơn, 
+
+đường 
+
+chia cắt 
+
+tháo lắp 
+
+ống quần 
+
+tại đầu 
+
+gối nên 
+
+gây khó 
+
+chịu khi 
+
+vận 
+
+động. 
+
+Thiết kế 
+
+lại đường 
+
+chia cắt 
+
+Không 
+
+đổi 
+
+Không 
+
+đổi 
+
+Không 
+
+đổi 
+
+3.Vật 
+
+liệu 
+
+Khả 
+
+năng khử 
+
+mùi 
+
+,kháng 
+
+khuẩn 
+
+Chưa có 
+
+khả năng 
+
+khử mùi 
+
+Sử dụng 
+
+vật liệu 
+
+có khả 
+
+năng khử 
+
+mùi 
+
+Tăng chi phí 
+
+Khả 
+
+năng giữ 
+
+ấm 
+
+Khả 
+
+năng 
+
+giữa ấm 
+
+bình 
+
+thường 
+
+Thiết kế 
+
+thêm 1 
+
+lớp 
+
+Tăng chi phí 
+
+Sử dụng 
+
+chất liệu 
+
+khâc 
+
+Tăng chi phí 
+
+ 
+
+
+
+56 
+ 
+
+- Xác định khu vực trọng tâm 
+
+Bảng 2.8. Bảng xác định khu vực trọng tâm 
+
+STT Khu vực trọng tâm 
+
+1.Tính năng Thiết kế thêm phản quang 
+
+Thiết kế bỏ túi hộp ở thân quần 
+
+Thay thế 2 túi hậu thành 1 túi cạp 
+
+Tăng kích thước túi hậu 
+
+Thêm logo thương hiệu vào quần 
+
+2.Màu sắc Sử dụng thêm màu khác 
+
+Phối màu giữa các chi tiết 
+
+3.Kiểu dáng và kết 
+
+cầu 
+
+Thiết kế lên cao hoặc xuống thấp 
+
+ 
+
+2.3.2. Đề xuất các tiêu chí thiết kế 
+
+Bảng 2.9. Bảng xác định các cách thức cải tiến 
+
+STT Tuỳ chọn cải tiến Cách thức cải 
+
+tiến 
+
+Ý tưởng cấu trúc 
+
+1.Tính 
+
+năng 
+
+Sử dụng thêm 
+
+phản quang ở 
+
+quần 
+
+Thiết kế thêm 
+
+phản quang ở 
+
+dọc quần, ống 
+
+quần, vị trí tháo 
+
+lắp ống quần 
+
+   
+ 
+
+ 
+ 
+
+ 
+
+
+
+57 
+ 
+
+Giảm bớt 2 túi 
+
+hộp 
+
+Thiết kế bỏ túi 
+
+hộp ở thân quần 
+
+ 
+Thay thế 2 túi hậu Thay thế 2 túi 
+
+hậu thành 1 túi 
+
+cạp 
+
+ 
+
+Thay đổi kích 
+
+thước túi hậu 
+
+Tăng kích thước 
+
+túi hậu 
+
+ 
+Thiết kế thêm 
+
+hình ảnh thương 
+
+hiệu 
+
+Thêm logo 
+
+thương hiệu vào 
+
+quần 
+
+ 
+2.Màu 
+
+sắc 
+
+Thêm màu Sử dụng thêm 
+
+màu khác 
+
+ 
+
+Phối màu ở các 
+
+chi tiết 
+
+Phối màu giữa 
+
+các chi tiết 
+
+ 
+
+    
+
+
+
+58 
+ 
+
+3.Kiểu 
+
+dáng và 
+
+kết cấu 
+
+Thay đổi vị trí 
+
+tháo lắp 
+
+Thiết kế lên cao 
+
+hoặc xuống thấp 
+
+  
+ 
+
+  
+
+
+
+59 
+ 
+
+CHƯƠNG 3. ĐỀ XUẤT VÀ LỰA CHỌN Ý TƯỞNG SẢN PHẨM MỚI 
+
+3.1. Đề xuất và lựa chọn ý tưởng vật liệu 
+
+- Các ý tưởng đề xuất về thiết kế mỹ thuật và kỹ thuật đều được tổng hợp từ 
+
+các đánh giá về sản phẩm và bình luận của khách hàng 
+
+ 
+
+Hình 3.1. Hình ảnh mô tả sản phẩm 
+
+Bảng 3.1. Bảng đề xuất và lựa chọn ý tưởng vật liệu 
+
+Tên vải Vị trí 
+
+sử 
+
+dụng 
+
+Hình ảnh minh hoạ Đặc điểm Thông số 
+
+kỹ thuật 
+
+Vải 
+
+Interlock 
+
+power 
+
+luxtreme 
+
+lycra 
+
+Cạp 
+
+quần 
+
+ 
+
+Đây là loại 
+
+vải được 
+
+kết hợp 
+
+giữa hai 
+
+loại sợi là 
+
+sợi nylon 
+
+và sợi 
+
+spandex. 
+
+Loại vải 
+
+này thường 
+
+có độ bóng 
+
+cao khi bề 
+
+mặt vải 
+
+tiếp xúc 
+
+trực tiếp 
+
+với ánh 
+
+sáng, mịn, 
+
+-Tên: 
+
+Interlock 
+
+power 
+
+luxtreme 
+
+lycra 
+
+-Màu: 
+
+xanh 
+
+-Thành 
+
+phần: 69% 
+
+nylon 31% 
+
+lycra 
+
+-Trọng 
+
+lượng: 220 
+
+gm/m2 
+
+
+
+60 
+ 
+
+nhẹ, có độ 
+
+co giãn và 
+
+độ bền cao 
+
+nên khá 
+
+phù hợp để 
+
+làm cạp 
+
+quần 
+
+Vải 
+
+woven 
+
+stretch 
+
+ 
+
+ 
+
+Vải có pha  
+
+thêm 
+
+spandex để 
+
+tăng khả 
+
+năng co 
+
+giãn giúo 
+
+người mặc 
+
+thoả mái 
+
+khi vận 
+
+động 
+
+-Tên: 
+
+Woven 
+
+stretch 
+
+fabric 
+
+-Màu: màu 
+
+xám 
+
+-Thành 
+
+phần: 95% 
+
+polyester, 
+
+5% 
+
+spandex 
+
+-Trọng 
+
+lượng: 
+
+180gm/ m2 
+
+ 
+
+ 
+
+3.2. Đề xuất và lựa chọn ý tưởng cấu trúc sản phẩm 
+
+- Kết cấu cạp  
+Bảng 3.2. Bảng dề xuất ý tưởng cạp quần 
+
+ 
+ 
+
+Mẫu 1 
+
+Cạp chun 
+
+
+
+61 
+ 
+
+ 
+ 
+
+Mẫu 2 
+
+Cạp sử dụng 
+
+phương 
+
+pháp hàn 
+
+dán 
+
+ 
+
+- Kết cấu túi hậu: 
+Bảng 3.3. Bảng đề xuất ý tưởng túi hậu 
+
+ 
+
+ 
+Mẫu 1 
+
+Thiết kế với 2 túi 
+
+hậu  
+
+ 
+Mẫu 2 
+
+Thay đổi 2 túi hậu 
+
+thành 1 túi cạp 
+
+
+
+62 
+ 
+
+ 
+Mẫu 3 
+
+-Chia cắt thêm cầu 
+
+mông 
+
+-Thay đổi 2 túi hậu 
+
+thành 1 túi ở chính 
+
+giữa thân sau 
+
+ 
+
+- Kết cấu khoá tháo lắp 
+Bảng 3.4. Bảng đề xuất ý tưởng vị trí tháo lắp 
+
+ 
+ 
+
+Mẫu 1 
+
+Vị trí chia cắt, 
+
+khoá tháo lắp ống 
+
+quần nằm trên 
+
+đầu gối 
+
+
+
+63 
+ 
+
+ 
+ 
+
+Mẫu 2 
+
+Vị trí chia cắt, 
+
+khoá tháo lắp ống 
+
+quần nằm dưới 
+
+đầu gối 
+
+Lựa chọn ý tưởng đề xuất thiết kế sản phẩm 
+
+- Lựa chọn các đề xuất thiết kế thông qua so sánh, chấm điểm các đề xuất so với 
+
+các mong muốn cải tiến 
+
+- Đánh giá dựa trên các tiêu chí:  
+
+• Thẩm mỹ của sản phẩm 
+
+• Dễ dàng gia công 
+
+• Tiết kiệm chi phí 
+- Đối với các cụm chi tiết khác nhau sẽ có các tiêu chí lựa chọn khác nhau: 
+
+• Đối với cạp quần cần dựa vào: mức độ ôm sát cơ thể 
+
+• Đối với túi hậu sẽ là các tiêu chí: khả năng tiện lợi khi để đồ 
+Sàng lọc ý tưởng đề xuất thiết kế 
+
+Điểm chấm Rất tốt: 5 Tốt: 4 Trung bình: 3 Kém: 2 Rất kém: 1 
+
+Bảng 3.5. Bảng chấm điểm ý tưởng cạp quần 
+
+Tiêu chí  
+ 
+
+ 
+ 
+
+Mẫu 1 
+
+ 
+ 
+
+Mẫu 2 
+
+
+
+64 
+ 
+
+Hiệu quả thẩm mỹ 
+
+của cạp 
+
+3 4 
+
+Mức độ ôm sát cơ 
+
+thể 
+
+3 4 
+
+Khả  năng dễ dàng 
+
+vận động 
+
+4 4 
+
+Tiết kiệm chi phí 3 4 
+
+Dễ dàng gia công 4 4 
+
+Điểm trung  bình 3,4 4 
+
+ 
+
+Thực hiện sàng lọc 2 ý tưởng thiết kế cạp để tìm ra ý tưởng phù hợp: 
+
+- Đối với khả năng thẩm mỹ, mẫu 2 sử dụng phương pháp hàn dán làm cho 
+cạp phẳng  hơn, không có các xếp ly và đường may. 
+
+- Về khả năng ôm sát cơ thể, so với cạp chun sử dụng phương pháp may phải 
+phụ  thuộc vào khả năng may của công nhân và độ co giãn của chun thì mẫu 
+
+2 sử dụng keo và vải có độ co giãn nên sẽ có khả năng ôm sát cơ thể cao 
+
+hơn. 
+
+- Cả hai mẫu đều thoả mái khi mặc và vận động. 
+- Tiết kiệm chi phí: mẫu 2 khi thực hiện phương pháp hàn dán sẽ sử dụng vải 
+
+co giãn nên kích thước bán thành phẩm cạp sẽ nhỏ hơn so với kích thước 
+
+bán thành phẩm cạp khi sử dụng phương pháp may. 
+
+- Khả năng dễ dàng gia công: cả 2 mẫu đều khá dễ dàng thực hiện gia công. 
+Sau khi thực hiện so sánh, ta thấy mẫu 2 phù hợp và có điểm cao hơn vì vậy sẽ 
+
+chọn làm ý tưởng thiết kế sản phẩm 
+
+Bảng 3.6. Bảng chấm điểm ý tưởng túi hậu 
+
+Tiêu chí 
+
+ 
+ 
+
+Mẫu 1 
+
+ 
+ 
+
+Mẫu 2 
+
+ 
+ 
+
+Mẫu 3 
+
+Hiệu quả 
+
+thẩm mỹ 
+
+4 3 4 
+
+Sự tiện lợi 
+
+khi để  đồ 
+
+5 4 5 
+
+Khả năng gia 
+
+công 
+
+4 4 4 
+
+Tiết kiệm chi 
+
+phí vật liệu 
+
+3 4 4 
+
+Điểm trung 
+
+bình 
+
+4 3.75 4.25 
+
+ 
+
+Thực hiện sàng lọc 3 ý tưởng thiết kế túi hậu để tìm ra ý tưởng phù hợp: 
+
+
+
+65 
+ 
+
+- Về khả năng thẩm mỹ: Mẫu 3 có thiết kế đẹp mắt nên có điểm cao hơn. 
+Mẫu 1 có thiêt kế khá quen mắt và cân đối nên cũng có điểm 4, trong khi 
+
+đó mẫu 2 thì nên có điểm trung bình. 
+
+- Sự tiện lợi khi để đồ: Mẫu 1 có 2 túi hậu 2 bên cân đối nên được 5 điểm, 
+mẫu 3 tuy có 1 túi hậu nhưng vì quần đã có sẵ 2 túi chéo và khoảng cách 
+
+tay với tới dễ dàng nên cũng được 5 điểm. Mẫu 2 thì có miệng túi ở trên 
+
+cạp nên khi đề đồ tay phải nâng lên khá cao vì vậy chỉ được 4 điểm. 
+
+- Khả năng gia công: cả 3 mẫu đều  dễ dàng gia công. 
+- Tiết kiệm chi phí: mẫu 2 và mẫu 3 chỉ thiết kế 1 túi nên chi phí nguyên phu 
+
+liệu sẽ ít hơn nên có điểm 4. Còn mẫu 1 thiết kế với 2 túi hậu cân xứng 2 
+
+bên nên nguyên phụ liệu cần sử dụng sẽ nhiều hơn vì vậy chỉ được 3 điểm.  
+
+Sau khi so sánh 3 mẫu ý tưởng thiết kế cụm túi hậu, ta thấy mẫu 3 có khả năng 
+
+thẩm mỹ cao, tiện lợi khi để đồ, vừa dễ dàng gia công lại tiết kiệm được chi phí 
+
+nguyên phụ liệu: phù hợp với mong muốn nên lựa chọn mẫu 3 thành ý tưởng cải 
+
+tiến cụm túi hậu. 
+
+Bảng 3.7. Bảng chấm điểm ý tưởng vị trí tháo lắp ống  quần 
+
+Tiêu chí 
+
+ 
+ 
+
+Mẫu 1 
+
+ 
+ 
+
+Mẫu 2 
+
+Mức độ thẩm 
+
+mỹ 
+
+4 4 
+
+Khả năng dễ 
+
+dàng vận động 
+
+4 3 
+
+Điểm trung 
+
+bình 
+
+4 3.5 
+
+ 
+
+Thực hiện sàng lọc 3 ý tưởng thiết kế túi hậu để tìm ra ý tưởng phù hợp: 
+
+- Đối với khả năng thẩm mỹ thì cả 2 mẫu đề khá đẹp và chỉ thay đổi vị trí 
+khoá tháo nắp nên đều được 4 điểm. 
+
+- Khả năng dễ dàng vận động: so với vị trí tháo lắp dưới đầu gối thì mẫu 1 
+khi tháo ống quần dưới sẽ tạo thành quần đùi vừa phud hợp vào mùa nóng 
+
+lại dễ dàng vận động và không bị tác động bới vật liệu so với khi vận động 
+
+bằng quần qua đầu gối. Nên mẫu 1 sẽ có điểm cao hơn là 4, mẫu 2 có điểm 
+
+trung bình là 3. 
+
+
+
+66 
+ 
+
+Sau khi so sánh 2 mẫu ý tưởng thiết kế cụm tháo lắp ta ta thấy mẫu thiết kế cụm 
+
+tháo lắp nằm trên đầu gối có điểm cao hơn nên lựa chọn làm ý tưởng cải thiến và 
+
+thiết kế sản phẩm. 
+
+Các ý tưởng đề xuất 
+
+Bảng 3.8. Bảng đề xuất ý tưởng sản phẩm 
+
+Hình ảnh Mô tả 
+
+ 
+ 
+
+Mẫu 1 
+
+- Quần dài thể thao 
+
+dáng cơ bản  
+
+- Thiết kế cạp sử dụng 
+
+phương pháp hàn dán 
+
+-  Thân trước có túi 
+
+chéo 2 bên có khóa 
+
+miệng túi 
+
+- Thân sau có cầu 
+mông,  túi hậu nằm 
+
+giữa thân sau. 
+
+- Quần có ống tháo lắp 
+bằng khoá ở trên đầu 
+
+gối. 
+
+- Thân trước quần có 
+
+logo Nike ở phần đùi 
+
+bên trái 
+
+- Phản quang nằm ở 
+đường sườn thân sau 
+
+từ cạp đến vị trí tháo 
+
+lắp ống quần 
+
+- Gấu quần có chun. 
+
+    
+
+
+
+67 
+ 
+
+ 
+ 
+
+Mẫu 2 
+
+- Quần dài thể thao 
+dáng cơ bản  
+
+- Thiết kế cạp sử dụng 
+phương pháp hàn dán 
+
+-  Thân trước có túi 
+
+chéo 2 bên có khóa 
+
+miệng túi 
+
+- Thân sau có cầu 
+mông,  túi hậu nằm 
+
+giữa thân sau 
+
+- Quần có ống tháo lắp 
+bằng khoá ở trên đầu 
+
+gối. 
+
+- Phản quang nằm ở vị 
+
+trí tháo lắp ống quần 
+
+- Trên vị trí phản quang 
+ở thân trước phải có 
+
+logo Nike 
+
+- Gấu quần có chun. 
+
+ 
+ 
+
+Mẫu 3 
+
+- Quần dài thể thao 
+dáng cơ bản  
+
+- Thiết kế cạp sử dụng 
+phương pháp hàn dán 
+
+-  Thân trước có túi 
+chéo 2 bên có khóa 
+
+miệng túi 
+
+- Thân sau có cầu 
+mông,  túi hậu nằm 
+
+giữa thân sau 
+
+- Quần có ống tháo lắp 
+
+bằng khoá ở trên đầu 
+
+gối. 
+
+- Thân trước quần bên 
+trái có logo Nike ở 
+
+trên vị trí tháo lắp ống 
+
+quần 
+
+- Phản quang nằm chéo 
+ở phần quần bên dưới 
+
+- Gấu quần có chun. 
+
+ 
+
+Các mẫu ý tưởng đề xuất 
+
+ 
+
+    
+
+    
+
+
+
+68 
+ 
+
+       
+
+ 
+
+                         Mẫu 1                                                      Mẫu 2 
+
+ 
+
+ 
+
+ 
+
+Mẫu 3 
+
+Sàng lọc ý tưởng: Rất tốt: 5 Tốt: 4 Tương tự: 3 Kém: 2 Rất kém: 1 
+
+Bảng 3.9. Bảng sàng lọc ý tưởng sản phẩm 
+
+Tiêu chí 
+
+ 
+Mẫu 1 
+
+ 
+ 
+
+Mẫu 2 
+
+ 
+ 
+
+Mẫu 3 
+
+    
+
+    
+
+    
+
+    
+
+        
+
+
+
+69 
+ 
+
+Sự tiện lợi 
+
+thi có 
+
+thêm phản 
+
+quang 
+
+4 5 4 
+
+Dễ dàng 
+
+nhận biết 
+
+thương 
+
+hiệu 
+
+5 5 4 
+
+Mức độ 
+
+thẩm mỹ 
+
+của sản 
+
+phẩm 
+
+4 4 4 
+
+Dễ dàng 
+
+gia công 
+
+5 5 5 
+
+Tổng điểm 4.5 4.75 4.25 
+
+Xếp hạng 2 1 3 
+
+ 
+
+Tiến hành sàng lọc 3 ý tưởng về sản phẩm:  
+
+- Về sự tiện lợi khi có thêm phản quang: mẫu 2 có phản quang nằm ở cả thân 
+trước và thân sau nên rất dễ dàng để nhận biết phản quang khi mặc vì vậy 
+
+được 5 điểm. Mẫu 3 tuy có phản quang ở cả 2 thân nhưng phản quang nằm 
+
+ở thân dưới nên khi tháo ống quần dưới sẽ k còn phản quang ở quần vì vậy 
+
+được 4 điểm. Mẫu 1 phản quang nằm ở đường sườn thân sau nên không dễ 
+
+nhận ra như mẫu 2 nên cũng được 4 điểm. 
+
+- Khả năng dễ dàng nhận biết thương hiệu: mẫu 1 và mẫu 2 logo thương hiệu 
+dễ dàng nhận biết hơn nên được 5 điểm, mẫu 3 khó nhận biết hơn 2 mẫu 
+
+còn lại nên được 4 điểm. 
+
+- Tính thẩm mỹ của sản phẩm: cả 3 mẫu ý tưởng đều có tính thẩm mỹ và hài 
+hoà nên được 4 điểm. 
+
+- Cả 3 sản phẩm đều dễ dàng gia công nên được 5 điểm 
+Như vậy, sau khi sàng lọc thí ý tưởng 2 có điểm cao nhất nên sẽ lựa chọn làm ý 
+
+tường cải tiến sản phẩm. 
+
+- Mô tả ý tưởng lựa chọn 
+
+Ý tưởng lựa chọn 
+
+ 
+
+
+
+70 
+ 
+
+ 
+
+Hình 3.2. Hình ảnh ý tưởng sản phẩm lựa chọn 
+
+Mô tả chi tiết: 
+
+- Quần dài thể thao dáng cơ bản  
+
+- Thiết kế cạp sử dụng phương pháp hàn dán 
+
+-  Thân trước có túi chéo 2 bên có khóa miệng túi 
+
+- Thân sau có cầu mông,  túi hậu nằm giữa thân sau 
+
+- Quần có ống tháo lắp bằng khoá ở trên đầu gối. 
+
+- Phản quang nằm ở vị trí tháo lắp ống quần 
+
+- Trên vị trí phản quang ở thân trước phải có logo Nike 
+
+- Gấu quần có chun. 
+
+3.3 .Đề xuất và lựa chọn kết cấu cạp quần 
+
+3.3.1. Tìm hiểu cấu trúc cạp quần 
+
+ 
+
+Hình 3.3, Hình ảnh mô tả cạp quần 
+
+Độ thò dây luồn cạp tính từ lỗ thoát dây là 18cm, dây luồn cạp lồng chéo. Khoảng 
+
+cách giữa 2 lỗ thoát dây luồn là 4,5cm 
+
+    
+
+
+
+71 
+ 
+
+ 
+
+a- Thân quần 
+
+b- Cạp quần 
+
+c- Chun 
+
+1- May ghim cạp quần 
+
+vào thân quần 
+
+2- May diễu thân quần 
+
+và cạp quần 
+
+3- May diễu bản chun. 
+
+ 
+
+3.3.2. Tìm hiểu, đề xuất kết cấu và phương pháp gia công cạp quần 
+
+- Thực hiện gia công cạp bằng phương pháp dán 
+
+  Phương pháp dán: là phương pháp tạo ra các đường liên kết hoặc các bề mặt liên 
+
+kết nhờ việc sử dụng chất kết dính giữa các bề mặt vật liệu, có độ bền phụ thuộc 
+
+vào mục đich sử dụng của đường ráp nối hoặc bề mặt liên kết. Đây kà phương 
+
+pháp hiện đại, sử dụng chất kết dính gọi tắt là các băng dán để tạo ra các kết cấu 
+
+mới, các liên kết đặc biệt đối với vật liệu và sản phẩm may mà không làm ảnh 
+
+hưởng đến cấu trúc bề mặt vật liệu được dán hay hình dáng sản phẩm đối với 
+
+phương pháp thông thường Phương pháp dán được thực hiện là nhờ sử dụng 
+
+nguyên lý ép nhiệt, dùng nhiệt độ và áp suất làm tan chảy các thành phần hoá học 
+
+có tính chất kết dính như là keo hay là các thành phần của vật liệu có tính chất dẻo 
+
+( vật liệu tổng hợp, vật liệu tráng nhựa, vật liệu polymer,…). Khi thực hiện phương 
+
+pháp này để tạo các mối liên hết, ta sẽ dùng băng dán thích hợp đặt cân đối lên 
+
+đường hoặc bề mặt cần dán sau đó sẽ tác động nhiệt và áp lực nén của thiết bị lên 
+
+vị trí dán. Lúc này, các hợp chất hoá học dưới tác dụng của nhiệt độ cao sẽ bị nóng 
+
+chảy và trở nên kết dính lên vật liệu vì vậy mà chuyển đổi tính chất của vật liệu từ 
+
+cứng trở thành trạng thái dẻo và dễ dàng kết dính hơn. Và vật liệu sẽ trở lại trạng 
+
+thái bình thường khi không còn nhiệt tác dụng, lúc đó sẽ hình thành các mối liên 
+
+kết tại các vị trí ép nhiệt.Phương pháp dán là phương pháp ráp nối hiện đại tạo ra 
+
+các đường liên kết chắc chắn bằng cách sử dụng chất bám dính giữa các bề mặt 
+
+vật liệu [13]. Tuỳ vào mục đích và phương pháp thực hiện ta có 2 phương pháp  
+
+dán là: 
+
+• Phương pháp dán đường 
+
+• Phương pháp dán bề mặt 
+ Phương pháp dán đường may là phương pháp ráp nối tạo ra các đường liên kết 
+
+chắc chắn bằng cách sử dụng băng dán đặt cân xứng lên đường cần dán. Thiết bị 
+
+dán băng đường liêm kết là máy dán băng làm việc theo nguyên tắc tác dụng nhiệt, 
+
+áp lực lên dăng dán và vải, vận tốc dán phụ thuộc vào thời gian tác dụng nhiệt. Khi 
+
+tác dụng nhiệt và áp lực lên đường dán băng, chất bám dính tan chảy và kết dính 
+
+lên vật liệu. Thông số công nghệ quá trình dán được quy định theo nhóm vật liệu 
+
+sử dụng và phụ thuộc theo điều kiện cụ thể của vải, băng sử dụng và mục đích sử 
+
+dụng sản phẩm. Phương pháp dán này thường được ứng dụng sản xuất quần áo thể 
+
+
+
+72 
+ 
+
+thao cao cấp, áo khoác, quần áo cứu hộ, bảo hộ lao động,…được thực hiện ở các 
+
+đường tra tay, sườn áo, dây kéo túi áo,…Phương pháp dán đường may có 3 kiểu 
+
+khác nhau: 
+
+• Phương pháp dán tiếp xúc: đây là phương pháp dán đã có từ lâu bằng cách 
+
+tiếp xúc các trục lô lên bề mặt của nêm hình chữ V. Nhiệt phát ra từ bề mặ 
+
+nêm được truyền trực tiếp vào giữa các lớp vật liệu, có tác dụng liên kết các 
+
+lớp vật liệu. 
+
+ 
+
+Hình 3.4. Hình ảnh mô tả phương pháp dán tiếp xúc 
+
+• Phương pháp dán khí nóng:Sử dụng tác nhân nhiệt là dòng khí nóng làm 
+
+tan chảy lớp chất dính của băng dán, dưới tác động đồng thời của lực ép 
+
+trục lô lên bề mặt dán sẽ liên kết các lớp vật liệu với nhau. 
+
+ 
+
+Hình 3.5. Hình ảnh mô tả phương pháp dán khí nóng 
+
+• Phương pháp dán kết hợp may- dán: phương pháp này sử dụng các đường 
+
+may để liên kết các chi tiết với nhay, sau đó thực hiện dán đè băng ns lên 
+
+đường may. 
+
+
+
+73 
+ 
+
+ 
+
+Hình 3.6. Hình ảnh mô tả phương pháp dán kết hợp may- dán 
+
+  Phương pháp dán bề mặt là phương pháp tạo mối liên kết giữa các bề mặt vật liệu 
+
+bằng cách sử dụng băng dán (chất kết dính - keo) đặt lên diện tích của bề mặt chi 
+
+tiết cần dán, dưới tác dụng của nhiệt độ và áp lực nén của thiết bị dán, các hợp chất 
+
+hóa học có trong băng sẽ bị nóng chảy và trở nên kết dính với vật liệu. Phương 
+
+pháp dán này thường được ứng dụng để nối một hay nhiều lớp vật liệu trong các 
+
+sản phẩm áo kiểu, quần âu, veston,… nhằm làm tăng độ cứng, độ định hình, độ 
+
+phẳng tạo thẩm mỹ cho sản phẩm và tăng độ bền của các chi tiết như: lá cổ, măng 
+
+séc, cạp quần, nẹp lưng, vạt áo, túi… 
+
+   Có ba loại băng keo hay sử dụng. Keo dẻo nhiệt dùng để liên kết các chi tiết may. 
+
+Keo dưới tác dụng của nhiệt, từ trạng thái dẻo cứng chuyển sang trạng thái dẻo 
+
+chảy. Ở trạng thái này, keo có tính chất dính, dễ thâm nhập sâu vào bề mặt vải, tạo 
+
+thành liên kết chặt với vải sau khi làm nguội. Keo cao su, polyetylen, polyamid, 
+
+epocsi: dạng tuýp keo, màng keo, chỉ keo. Với các loại keo này, khi cần dán sản 
+
+phẩm, người ta dùng phương pháp quết bằng tay, bằng con lăn hoặc phun keo lên 
+
+diện tích cần dán. Chỉ keo được quấn thành búp chỉ cho lên máy may, sau đó dùng 
+
+nhiệt ép lại tạo nên độ dính ép trên sản phẩm. Keo tấm: dán từng tấm, từng miếng 
+
+lên chi tiết.[13] 
+
+  Đối với cấu trúc cạp chun thực hiện, sẽ sử dụng phương pháp dán bề mặt. Và có 
+
+2 phương pháp thực hiện đó là tạo cạp xếp ly hoặc cạp chun. Đối với phương pháp 
+
+dán bề mặt thực hiện làm cạp chun, có 4 tiêu chí đánh giá chất lượng cạp đó là: 
+
+• Độ bền giặt: khi thực hiện làm cạp,bề mặt cạp phải đảm bảo độ bền kết 
+
+dính, tránh các trường hợp bong tróc, tách kết dinh,.. sau khi giặt. Đây được 
+
+coi là một trong những tiêu chí đánh giá chất lượng của cạp. Đồng thời đây 
+
+cũng là tiêu chí để lựa chọn được băng keo phù hợp với vải trong khi chịu 
+
+nhiều tác động như ánh sáng mặt trời, nhiệt độ, hoá chất, độ ẩm và quá trính 
+
+ma sát bề mặt,… 
+
+• Độ bền kết dính: đây là tiêu chí quan trọng đánh giá sự liên kết giữa lớp keo 
+
+sử dụng và vải sử dụng làm cạp quần. Độ bền kết dính được kiểm tra bằng 
+
+
+
+74 
+ 
+
+máy kéo để xác định lực bóc tách lớp keo giữa 2 bề mặt vải kết dính, quá 
+
+trình này sẽ được thực hiện trêm máy kéo. 
+
+• Khả năng co giãn và phục hồi: đây là một tiêu chí để tìm được băng keo 
+
+phù hợp với vải. Nó xác định khả năng tương thích của keo khi dán lên bề 
+
+mặt vải sẽ có khả năng co giãn và phục hồi ra sao. Tiêu chí này cũng được 
+
+thực hiện trên máy kéo. 
+
+• Ngoại quan của sản phẩm: ngoại quan của cạp phụ thuộc nhiều vào quá 
+
+trình thực hiện của công nhân. Sau khi dán thì cạp phải đảm bảo các tiêu 
+
+chí như: khả năng kết dính giữa keo và vải, giữa 2 lớp vật liệu tránh bong; 
+
+chất kết dính phải sạch sẽ, không bị dính lên vải và thừa ra ngoài; bề mặt 
+
+ngoài của cạp không bị hằn nếp nhăn, phải đồng nhất và êm phẳng. [13] 
+
+Băng keo là vật liệu để dán lên bề mặt vải nhằm tạo ra chất kết dính giữa các lớp 
+
+vật liệu. Đối với các loại băng keo khác nhau ta sẽ phải lựa chọn nhiệt độ , áp lực 
+
+và thời gian cho phù hợp. Nhiệt độ là một yếu tố quan trọng, phải lựa chọn nhiệt 
+
+độ phù hợp để làm tan chảy được chất kết dính và làm cho nó chảy ra. Sau khi chất 
+
+kết dính chảy ra, áp lực của máy sẽ là cần thiết để tạo ra sự tiếp xúc gần giữa chất 
+
+kết dính nóng chảy và chất nền trong quá trình liên kết. Cuối cùng là thời gian, 
+
+Thời gian dừng thích hợp dưới nhiệt độ và áp suất là cần thiết để làm tan chảy chất 
+
+kết dính và cho phép nó thâm nhập vào chất nền. 
+
+Để thực hiện làm cạp , trước tiên em chọn 3 loại băng keo để thực hiện thử nghiệm 
+
+các quá trình test nhằm tìm kiếm được băng keo phù hợp. Quá trình test sẽ thực 
+
+hiện với 2 đó là test Peel ( kiểm tra độ bền kết dính/ độ kéo đứt)  và test modulus 
+
+và recovery ( khả năng co giãn và phục hồi) 
+
+Bảng 3.10. Bảng so sánh đặc điểm 2 loại keo 
+
+ Keo 3415.3 Keo 3916.6 Keo 6430.10 
+
+Số lớp 2 lớp 3 lớp 3.5 lớp 
+
+Hình ảnh 
+
+   
+
+Độ dày 3 mil ( 0.0762 
+
+mm) 
+
+6 mil ( 0.1524 
+
+mm) 
+
+10 mil ( 0.254 
+
+mm) 
+
+Nhiệt độ cài 
+
+máy 
+
+145 ºC 155 ºC 170 ºC 
+
+Nhiệt độ ép 
+
+Keo ( nhiệt độ 
+
+nóng chảy) 
+
+116-132 ºC 138-149 ºC 154-166 ºC 
+
+Thời gian ép  20s 20s 20s 
+
+Nguyên liệu chính Polyurethane Polyurethane  
+
+
+
+75 
+ 
+
+Mật độ 1,18 g/m2  1,8 g/m2 2,5 g/m2 
+
+Màu Trong suốt Trong suốt Trắng ngà 
+
+ 
+
+3.3.3. Thực nghiệm xác định  thông số công nghệ gia công cạp quần. 
+
+Để xác định thông số công nghệ gia công cạp quần ta thực hiện 2 thực nghiệm đối 
+
+với 3 loại keo chọn sử dụng là test Peel ( kiểm tra độ bền kết dính/ độ kéo đứt)  và 
+
+test modulus và recovery ( khả năng co giãn và phục hồi)  
+
+❖ Quá trình test Peel 
+
+Quy trình tạo mẫu ép keo: Cắt tổng cộng 12 tấm theo hướng dọc để thử với độ 
+
+dài 20cm và rộng 15cm và cắt 3 loại băng keo khác nhau ( mỗi loại cần 2 tấm) để 
+
+tạo ra 6 mẫu test. Lấy ra 2 mảnh vải, với mảnh đầu tiên sẽ ép film vào mặt sau, 
+
+loại bỏ giấy nhả sau đó dán màng mỏng vào mặt sau của mảnh thứ hai.  
+
+ 
+
+ 
+
+Hình 3.7. Hình ảnh mô tả cách làm mẫu ép keo 
+
+Tất cả quá trình cán và nung chảy phải được thực hiện trên máy ép phẳng và các 
+
+điều kiện xử lý (nhiệt độ, áp suất và thời gian dừng) phải được ghi lại. Trong một 
+
+số ứng dụng, có thể phải dán mặt vải vào đối mặt hoặc lưng đối lưng riêng đối với 
+
+cạp sẽ thực hiện back back ( mặt sau áp mặt sau). Làm tương tự với 5 mẫu thử còn 
+
+lại. Sau khi tạo ra 6 mẫu thử, ta sẽ tạo thành 2 nhóm có đủ 3 loại keo. Một nhóm 
+
+để test trước giặt, một nhóm để test sau giặt. Đối với nhóm test trước giặt, phải để 
+
+mẫu sau ít nhất 12h sau khi cộp keo. Đối với mẫu sau giặt, 3 tấm vải này sẽ phải 
+
+được để tối thiểu 12h trong môi trường được kiểm soát ở 20 ±2ºC trước khi giặt, 
+
+nhiệt độ thường được sử dụng trong khi giặt là 40ºC và giặt 20 lần. 
+
+Keo 3415.3 
+
+
+
+76 
+ 
+
+ 
+
+Hình 3.8. Hình ảnh mẫu ép kep 3415.3 
+
+Keo 3916.6: 
+
+ 
+
+Hình 3.9. Hình ảnh mẫu ép keo 3916.6 
+
+Keo 6430.10 
+
+ 
+
+Hình 3.10. Hình ảnh mô tả mẫu ép kep 6430.10 
+
+Thiết bị sử dụng: 
+
+
+
+77 
+ 
+
+     Máy éo keo: máy ép keo dùng để tác dụng nhiệt lên cụm chi tiiết để keo tan 
+
+chảy và kết dính vào vật liệu. Đối với từng loại keo khác nhau sẽ điều chỉnh nhiệt 
+
+độ ép khác nhau. Thời gian được cài đặt là 20 giây 
+
+ 
+
+ 
+
+Hình 3.11. Hình ảnh máy ép keo 
+
+     Máy giặt, máy sấy: dùng để kiểm tra độ bền của các đường hàn dán, chuẩn bị 
+
+cho công đoạn kiểm tra sau. Nhiệt độ nước trong quá trình gặt là 40 ºC và giặt 20 
+
+lần. 
+
+ 
+
+Hình 3.12. Hình ảnh máy giặt  
+
+
+
+78 
+ 
+
+   Máy đo độ bền kéo: dùng  để xác định lực kéo để làm tách liên kết keo ra khỏi 
+
+bề mặt vải. Tốc độ kéo được cài đặt là 300mm/giây. 
+
+ 
+
+ 
+
+Hình 3.13. Hình ảnh máy kéo 
+
+Quy trình test mẫu: Sau khi thực hiện tạo mối liên kết bề mặt sẽ thực hiện một số 
+
+phép test để đảm bảo chất lượng của cạp được làm, đồng thời tìm ra được điều kiện 
+
+để tạo ra cạp như mong muốn. Phép test đó là sewfree T- peel strength test protocol ( 
+
+quy trình kiểm tra độ bền của đường hàn dán). Đây là phương pháp kiểm tra và thử 
+
+nghiệm độ bền bong tróc trên các loại vải được liên kết với nhau bằng màng dính. 
+
+Bước đầu tiên, cắt một mẫu thử rộng 2,5 cm (1 inch) và dài 20 cm (8”).  
+
+
+
+79 
+ 
+
+ 
+
+Hình 3.14. Hình ảnh cách làm mẫu thử nghiệm 
+
+ 
+
+ 
+
+Hình 3.15. Hình ảnh mẫu thử 
+
+
+
+80 
+ 
+
+ 
+
+Đặt chiều dài đo của máy thử độ bền kéo thành 5 cm (2”) và tốc độ kéo dài thành 10 
+
+cm/phút. (4 inch/phút). Gắn mẫu thử đầu tiên vào giữa với các đầu không liên kết 
+
+được cố định vào giữa trong các kẹp máy bằng lực căng áp dụng đều trên chiều 
+
+rộng. Máy thử độ bền keo sẽ tự động vận hành khi đạt đến độ gián 15 cm ( 6inch) 
+
+rồi dừng lại khi đó ta sẽ có lực trung bình được tính bằng Lbs. /inch (hoặc N/mm). 
+
+Khi thực hiện với nhiều mẫu, ta sẽ là tương tự với các mẫu còn lại từ đó độ bền 
+
+kéo sẽ được xác định với cách tính là giá trị trung bình tổng thể. 
+
+ 
+
+Hình 3.16. Hình ảnh quá trình kéo Peel 
+
+Giá trị lực kéo sé được thống kê trên hệ thống máy tính 
+
+ 
+
+Hình 3.17. Hình ảnh hệ thống trên máy tính 
+
+
+
+81 
+ 
+
+Kết quả nhận được: 
+
+ 
+
+ 
+
+
+
+82 
+ 
+
+ 
+
+Hình 3.18. Hình ảnh kết quả kép Peel 
+
+Sau quá trình test ta nhận được kết quả sau 
+
+Bảng 3.11. Bảng kết quả quá trình kéo Peel 
+
+Loại keo Trước giặt Sau giặt 
+
+Lực trung 
+
+bình (N/mm) 
+
+Lực bắt đầu 
+
+kéo đứt keo 
+
+(N/mm) 
+
+Lực trung 
+
+bình (N/mm) 
+
+Lực bắt đầu 
+
+kéo đứt keo 
+
+(N/mm) 
+
+3415.3 mil 4.74 6.00 4.06 5.02 
+
+4.42 5.63 3.82 4.7 
+
+ 4.58 5.82 3.94 4.86 
+
+
+
+83 
+ 
+
+3916.6 mil 5.13 6.91 5.11 6.64 
+
+5.80 7.57 4.82 6.30 
+
+ 5.47 7.24 4.96 6.47 
+
+6430.10 mil 4.17 5.12 3.62 4.51 
+
+3.74 4.45 3.62 4.31 
+
+ 3.96 4.79 3.62 4.41 
+
+ 
+
+Nhận xét: từ kết quả thu được ta thấy ba loại keo trên đều có lực kéo đứt keo khác 
+
+lớn và không chênh lệch nhau nhiều. 
+
+ 
+
+ 
+
+
+
+84 
+ 
+
+ 
+
+Hình 3.19. Hình ảnh mẫu sau khi thực hiện kéo Peel của 3 loại keo 3415.3, 
+
+3916.6 và 6430.10 
+
+❖ Quá trình test modulus và recovery 
+Khi thực hiện test modulus và recovery, sẽ xác định được đặc tính modum và khả 
+
+năng phục hồi của vải sau khi được dán bằng các loại băng keo khác nhau. Modum 
+
+là lực được tính bằng pound cần thiết để kéo dài mẫu đến một độ dài xác định. 
+
+Recovery là chiều dài của mẫu sau khi kéo dài đến một độ dài cụ thể và cho phép 
+
+nó thư giãn, sau đó sẽ so sánh  với chiều dài ban đầu. 
+
+Thiết bị sử dụng: 
+
+- Máy ép keo phẳng: máy ép keo dùng để tác dụng nhiệt lên cụm chi tiiết để keo 
+
+tan chảy và kết dính vào vật liệu. Đối với từng loại keo khác nhau sẽ điều chỉnh 
+
+nhiệt độ ép khác nhau. Thời gian được cài đặt là 20 giây. 
+
+- Máy giặt, sấy: dùng để kiểm tra độ bền của các đường hàn dán, chuẩn bị cho công 
+
+đoạn kiểm tra sau. Nhiệt độ nước trong quá trình gặt là 40 ºC và giặt 20 lần 
+
+- Máy đo độ bền kéo giãn: dùng để xác định lực kéo vải từ đó nhận xét được độ co 
+
+giãn của keo. Tốc độ được cài đặt là 500 mm/ phút. 
+
+Chuẩn bị mẫu test: 
+
+  Tương tự như mẫu ép keo để test Peel, ta sẽ cắt tổng cộng 12 mảnh vải theo hướng 
+
+ngang để thử, có độ dài 20cm và rộng 15cm đồng thời cắt thêm mỗi loại keo 2 tấm 
+
+để tạo thành 6 mẫu ép keo. Sử dụng máy ép kéo để tạo các tấm liên kết. Sau khi 
+
+liên kết các tấm này phải được để sang một bên trong tối thiểu 4h trước khi tiến 
+
+hành các bước tiếp theo, điều này nhằm đảm  bảo các mối liên kết và kết dính được 
+
+ổn định. Tương tự, ta cũng chia 6 tấm thành 2 nhóm có đủ 3 loại băng keo, một 
+
+nhóm để test trước giặt, một nhóm để test sau giặt. Nhóm sau giặt sẽ được giặt 20 
+
+lần với nhiệt độ 40 ºC. Chu trình sấy khô ở nhiệt độ trung bình từ 60 ºC đến 63 ºC 
+
+trong 30 phút. Sau chu trình sấy khô cuối cùng, lấy các tấm ra khỏi mấy sấy và để 
+
+
+
+85 
+ 
+
+cân bằng trong môi trường kiểm soát ở 20 ±2ºC trong tối thiểu 12h trước khi tiến 
+
+hành kéo modum và thử nghiệm phục hồi. 
+
+ 
+Hình 3.20. Hình ảnh ép kep 
+
+Quy trình kiểm tra: 
+
+  Đầu tiên ta sẽ cắt 6 mẫu test từ 6 mẫu có độ dài 20cm và rộng 2,5cm, đánh dấu 
+
+chiều dài 12,5cm ở giữa mỗi mẫu thử. 
+
+ 
+
+Hình 3.21. Hình ảnh mẫu thử nghiệm 
+
+
+
+86 
+ 
+
+ 
+
+Sau đó đặt chiều dài đo của máy thử độ bền kéo thành 12,5cm và tốc độ mở rộng 
+
+đến 500 mm/ phút.  
+
+ 
+
+Hình 3.22. Hình ảnh mẫu kéo 
+
+Căn chỉnh các dấu trên mẫu thử với các hàm trên máy thử độ bền kéo và kéo căng 
+
+từng mẫu thử đến độ giãn dài 50% ba lần. ở chu kỳ thứ 3, sẽ ghi lại các giá trị 
+
+modum ở độ giãn 30% và 50%. Để kiểm tra % phục hồi, để mẫu kéo ít nhất 3 phút 
+
+sau khi kéo giãn sau đó tính bằng công thức (chiều dài cuối cùng – chiều dài ban 
+
+đầu) x  100%.  
+
+ 
+
+
+
+87 
+ 
+
+ 
+
+Hình 2.23. Hình ảnh quá trình test modulus 
+
+Kết quả thu được: 
+
+Bảng 2.12. Bảng kết quả thu được sau khi kéo modulus 
+
+ 30% 
+
+(N/mm) 
+
+50% 
+
+(N/mm) 
+
+Độ dài 
+
+ban đầu 
+
+(cm) 
+
+Độ dài đo 
+
+lại sau 2p 
+
+(cm) 
+
+% phục 
+
+hồi (%) 
+
+3415.3  10.652 15.085 12.5 12.8  97.6  
+
+10.792 15.301 12.7 98,42 
+
+10.335 14.680 12.8 97,6 
+
+3916.6 6.693 9.455 13 96,15 
+
+6.845 9.671 13.3 93,98 
+
+6.733 9.514 13.1 95,42 
+
+6430.10 5.091 7.721 12.7 98,42 
+
+5.140 7.774 12.8 97,6 
+
+5.323 8.041 12.8 97,6 
+
+  
+
+Nhận xét: 
+
+Theo như kết quả thu được, ta thấy: 
+
+- Keo 3415.3 khá cứng và có độ co giãn thấp nhất, cần lực tác động lớn 
+trong quá trính kéo giãn tuy nhiên lại có độ phục hồi cao. 
+
+ 
+
+
+
+88 
+ 
+
+ 
+
+Hình 3.24. Hình ảnh kết quả kéo của keo 3415.5 
+
+- Keo 3916.6 mềm mại và có độ co giãn lớn hơn, lực tác động cũng nhỏ 
+hơn nhưng độ phục hồi lại kém hơn so với 2 keo còn lại. 
+
+ 
+
+
+
+89 
+ 
+
+ 
+
+Hình 3.25. Hình ảnh kết quả kéo của keo 3916.6 
+
+- Keo 6430.10 mềm mại và có độ co giãn tốt nhất trong 3 loại keo sử dụng, 
+lục tác động nhỏ và có độ phục hồi cao.  
+
+
+
+90 
+ 
+
+ 
+
+Hình 3.26. Hình ảnh kết quả kéo của keo 6430.10 
+
+Sau khi thực hiện test độ bền kéo, độ giãn và phục hồi của 3 loại keo  ( test Peel, 
+
+test modulus và recover, ta sẽ lựachọn keo 6430.10 để thực hiện làm cạp tuy lực 
+
+kéo đứt không cao hơn 2 loại keo còn lại nhưng cũng khá lớn và chênh lệch không 
+
+nhiều với 2 loại keo kia. Ngoài ra, nó có độ co giãn và độ phục hồi lớn. 
+
+Thực hiện xác định thông số công nghệ gia công cạp quần 
+
+  Cạp xếp ly trong phương pháp hàn dán sử dụng thêm phụ kiện chun, keo dán cùng 
+
+với vải có độ co giản để tạo thành. Với loại cạp này, sẽ sử dụng 3 đường keo dán để 
+
+tạo mối liên kết giữa vải và chun.  
+
+
+
+91 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 3.27. Hình ảnh mẫu cạp xếp ly 
+
+Cạp chun được tạo bởi vải co giãn và keo tấm để tạo lớp liên kết giữa 2 lớp vải 
+
+làm tăng độ cứng và định hình cho cạp. 
+
+ 
+
+ 
+
+Hình 3.28. Hình ảnh mẫu cạp chun 
+
+Quá trình chuẩn bị mẫu: 
+
+   Để thực hiện làm cạp phẳng ta cần chuẩn bị mẫu bán thành phẩm cạp và keo 
+
+6430.10 mil. Đối với phần keo, ta sẽ cắt keo với kích thước thành phầm ( không 
+
+tính đường may phần cạp). 
+
+ 
+
+
+
+92 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 3.29. Hình ảnh mẫu vải và keo chuẩn bị 
+
+Thiết bị sử dụng:  
+
+   Bàn là: Bàn là được dử dụng để định vị vị trí của keo vào cạp 
+
+ 
+
+Hình 3.30. Hình ảnh bàn là 
+
+   Máy ép  keo: máy ép keo dùng để tác dụng nhiệt lên cụm cạp để keo tan chảy và 
+
+kết dính vào vật liệu. Đối với từng loại keo 6430.10 sẽ điều chỉnh nhiệt độ ép keo 
+
+là 170 ºC. Thời gian được cài đặt là 20 giây. 
+
+
+
+93 
+ 
+
+ 
+
+Hình 3.31. Hình ảnh máy ép keo 
+
+Quá trình thực hiện: 
+
+  Sau khi đã chuẩn bị mẫu cạp và keo, ta sẽ sử dụng bàn là để định vị vị trí của keo 
+
+vào mặt sau ở một bên cạp ( khi đặt keo vào cạp, sẽ để trừ lại đường may ở cạp). 
+
+Sử dụng máy ép keo để ép 5s vào cụm vải và keo vừa định vị , sau đó tách bỏ lớp 
+
+dán màng mỏng ở keo. 
+
+ 
+
+Hình 3.32, Hình ảnh quá trình ép keo 
+
+
+
+94 
+ 
+
+Tiếp theo, sử dụng dàn là để gập đôi cạp. Bước cuối cùng là dùng máy ép kep để 
+
+làm tan chảy và kết dính keo vào vật liệu. 
+
+ 
+
+Hình 3.33. Hình ảnh mẫu cạp hoàn thành 
+
+  
+
+
+
+95 
+ 
+
+CHƯƠNG 4. THIẾT KẾ MẪU 
+
+4.1. Thiết kế mẫu gốc 
+
+- Dựa trên dải cỡ: dải cỡ XS, S, M, L, XL như dải cỡ đã có của thương hiệu 
+Adidas 
+
+- Sử dụng các kích thước thiết kế theo bảng kích cỡ quần nam của thương 
+hiệu Nike và theo bảng thông số kích thước cơ thể người để thiết kế sản 
+phẩm. 
+
+Bảng 4.1. Bảng dải cỡ của thương hiệu Nike 
+
+Kích cỡ 
+
+(size) 
+
+Chiều cao 
+
+(height)cm 
+
+Cân nặng 
+
+(weight)cm 
+
+Vòng eo 
+
+(waist)cm 
+
+Vòng hông 
+
+(hips)cm 
+
+XS 155-160 50-55 69.5-74.5 83.5-88.5 
+
+S 160-170 55-65 74.5-79.5 88.5-93.5 
+
+M 170-175 65-75 79.5-85 93.5-98.5 
+
+L 175-180 75-85 85-91 98.5-103.5 
+
+XL 180-185 85-95 91-97 103.5-108.5 
+
+2XL 185-190 95-105 97-103 108.5-113.5 
+
+Phương pháp thiết kế: Chọn phương pháp thiết kế: phương pháp tính toán: 
+
+• Phương pháp này xác định kích thước, hình dạng các chi tiết của sản phẩm 
+trên cơ sở kích thước của cơ thể người, lượng gia giảm thiết kế, những thông 
+
+tin về kiểu dáng sản phẩm và những yếu tố tạo hình sản phẩm. 
+
+• Ưu điểm: Đơn giản, dễ thực hiện và thuận tiện khi thay đổi kiểu dáng sản 
+phẩm. 
+
+• Nhược điểm: Phương pháp này chỉ cho phép xác định gần đúng vị trí các 
+điểm thiết kế quan trọng của chi tiết 
+
+Hệ công thức thiết kế: Chọn hệ công thức thiết kế của Winifred Aldrich. 
+
+Bảng 4.2. Bảng hệ công thức thiết kế mẫu cơ sở 
+
+Tên kích 
+
+thước 
+
+Công thức tính toán Thông số Công thức dựng hình 
+
+Dài quần   98  
+
+Rộng mông ½ mông: 49.25 (sc) 
+
+1/3 sc = 16.42cm 
+
+1/3sc +1 = 17.42cm 
+
+1/3 of 1/3sc = 5.47cm 
+
+1/3 of 1/3sc +1 = 
+
+6.47cm  
+
+1/3 of 1/3sc – 1 = 4.47 
+
+cm 
+
+Rộng mông = 1/3 sc + 
+
+( 1/3sc +1 ) + 1/3 of 
+
+1/3sc – 1 
+
+38.31  
+
+Hạ đũng  28.5 Dựng đường thẳng 
+
+song song với đường 
+
+tạo eo 
+
+
+
+96 
+ 
+
+Hạ đầu gối  29.75 Dựng đường thằng 
+
+song song với đường 
+
+hạ đũng quần 29.75 
+
+cm 
+
+Thiết kế thân trước 
+
+Điểm đũng 
+
+quần thân 
+
+trước 
+
+1/3 of 1/3sc – 1 4.47cm Từ điểm hạ đũng 
+
+quần lấy vào  
+
+Điểm tạo cong 
+
+đũng quần 
+
+thân trước 
+
+1/3 of 1/3sc + 1 6.47 cm Từ điểm đũng quần 
+
+thân trước ta lấy vào 
+
+6.47 cm, sau đó lấy 
+
+thẳng lên 6.47 cm ta 
+
+được điểm để tạo 
+
+cong đũng quần 
+
+Điểm bắt đầu 
+
+tạo eo thân 
+
+trước phía 
+
+đũng quần 
+
+  Tạo đường thẳng 
+
+vuông góc từ đường 
+
+đũng quần đi qua 
+
+điểm tạo cong đũng 
+
+quần lên đến đường 
+
+tạo eo. 
+
+Lấy điểm vào 1 cm 
+
+Rộng mông 
+
+thân trước 
+
+1/20sc 2.46 cm Từ điểm mông dọc 
+
+quần lấy vào  
+
+Rộng eo thân 
+
+trước 
+
+1/ 4 rộng eo + 1.5 21,25 cm Từ điểm tạo eo lấy 
+
+rộng eo 22.25 cm 
+
+Đường chính 
+
+thân trước 
+
+  Từ điểm đũng quần 
+
+thân trước lấy vào 
+
+17.42 cm kéo dài 
+
+được đường chính 
+
+thân trước 
+
+Tạo chiết thân 
+
+trước 
+
+ Rộng chiét : 
+
+1.5 cm 
+
+Dài chiết : 
+
+10cm 
+
+Đuôi chiét lấy từ eo 
+
+xuống đường chính  
+
+thân trước 10cm, 
+
+rộng 1.5cm 
+
+Gấu quần    16cm Lấy 2 điểm đối xứng 
+
+từ chính thân trước 
+
+tại đường gấu quần  
+
+Đường dọc 
+
+quần thân 
+
+trước 
+
+  Tạo đường cong 
+
+mông từ eo xuống 
+
+đường hạ đũng quần 
+
+Kẻ đường dọc quần 
+
+đường hạ đũng quần 
+
+đến gấu quần 
+
+Đường đũng 
+
+quần thân 
+
+trước 
+
+  -Hạ đường thẳng từ 
+
+eo xuống điểm tạo 
+
+cong đũng quần 
+
+-Đánh cong đũng 
+
+quần 
+
+
+
+97 
+ 
+
+Đường giàng 
+
+quần thân 
+
+trước 
+
+  Nối điểm đũng quần 
+
+và gấu quần 
+
+Thiết kế thân sau 
+
+Điểm tạo eo 
+
+thân sau phía 
+
+đũng quần 
+
+  Từ điểm eo thân 
+
+trước phía đũng quần 
+
+lấy lên 1cm và vào 
+
+1/3 of 1/3sc – 1 
+
+(4.47cm) 
+
+Đường eo thân 
+
+sau 
+
+¼ rộng eo + 2 21,75 Từ điểm eo phía 
+
+đũng quần lấy đường 
+
+thẳng giao với đường 
+
+tạo eo có độ dài 
+
+22.75 cm 
+
+Gấu quần  20 Lấy 2 điểm đối xứng 
+
+từ chính thân trước 
+
+tại đường gấu quần 
+
+Đường dọc 
+
+quần thân sau 
+
+  -Tạo đường cong 
+
+mông từ điểm eo 
+
+thân sau xuống 
+
+đường hạ đũng quần 
+
+Kẻ đường dọc quần 
+
+đường hạ đũng quần 
+
+đến gấu quần 
+
+Đường đũng 
+
+quần thân sau 
+
+  -Hạ đường thẳng từ 
+
+eo thân sau phía 
+
+đũng quần xuống 
+
+điểm tạo cong đũng 
+
+quần thân trước 
+
+-Đánh cong đến 
+
+điểm đũng quần thân 
+
+sau  
+
+Tạo chiết thân 
+
+sau 
+
+ Chiều rộng: 
+
+2cm 
+
+Chiều dài : 
+
+12 cm 
+
+-Lấy điểm giữa eo 
+
+thân sau. 
+
+-Từ điểm này kẻ 
+
+đường vuông góc với 
+
+eo dài 12 cm 
+
+- Lấy 2 điểm đầu 
+
+chiết 
+
+- Nối đầu chiết với 
+
+đuôi chiết 
+
+
+
+98 
+ 
+
+ 
+
+ 
+
+ 
+
+Hình 4.1. Công thức thiết kế Winifred Aldrich cho mẫu quần cơ sở 
+
+
+
+99 
+ 
+
+- Phát triển mẫu mới từ mẫu cở 
+
+Bảng 4.3. Bảng phân tiích các bước phát triển từ mẫu cơ sở 
+
+Stt Hình ảnh Mô tả 
+
+Thân trước quần 
+
+1 
+
+ 
+
+Từ mẫu cơ sở, 
+
+chuyển chiết từ eo 
+
+sang đường dọc 
+
+quần 
+
+2 
+
+ 
+
+Vẽ lại dường eo và 
+
+đường dọc quần 
+
+thân trước 
+
+3 
+
+ 
+
+Bóc tách chi tiết 
+
+mới 
+
+
+
+100 
+ 
+
+4 
+
+ 
+
+-Vì quần sử dụng 
+
+cạp co giãn nên 
+
+phần eo phải lớn 
+
+hơn mẫu cơ sở. 
+
+Tăng chiều rộng eo 
+
+lên 27.18cm. 
+
+- Gấu quần là gấu 
+
+bo chun nên tăng độ 
+
+rộng gấu lên 20cm. 
+
+5 
+
+ 
+
+Vẽ lại đường dọc 
+
+sườn và đường 
+
+giàng quần. 
+
+6 
+
+ 
+
+Bóc tách chi tiết 
+
+
+
+101 
+ 
+
+7 
+
+ 
+
+-Tạo đường tháo lắp 
+
+ống quần. Lấy lên 
+
+trên đường đầu gối 
+
+7cm.. 
+
+-Bóc tách chi tiết 
+
+tạo ra thân trước 
+
+trên và thân trước 
+
+dưới. 
+
+Thân sau quần 
+
+8 
+
+ 
+
+-Từ mẫu cơ sở thân 
+
+quần sau, chuyển 
+
+chiết từ eo sang 
+
+đường  sườn. 
+
+-Vẽ lại đường cong 
+
+dọc quần và đường 
+
+eo sau 
+
+9 
+
+ 
+
+Bóc tách chi tiết 
+
+
+
+102 
+ 
+
+10 
+
+ 
+
+-Vì quần sử dụng 
+
+cạp co giãn nên 
+
+phần eo phải lớn 
+
+hơn mẫu cơ sở. 
+
+Tăng chiều rộng eo 
+
+lên 27.18cm. 
+
+- Gấu quần là gấu 
+
+bo chun nên tăng độ 
+
+rộng gấu lên 24cm. 
+
+11 
+
+ 
+
+-Vẽ lại đường dọc 
+
+quần, đường giàng 
+
+quần 
+
+12 
+
+ 
+
+Bóc tách chi tiết 
+
+
+
+103 
+ 
+
+13 
+
+ 
+
+-Tạo đường tháo lắp 
+
+ống quần. Lấy lên 
+
+trên đường đầu gối 
+
+7cm.. 
+
+-Bóc tách chi tiết 
+
+tạo ra thân sau trên 
+
+và thân sau dưới. 
+
+14 
+
+ 
+
+Tạo cầu mong 
+
+-Lấy từ eo xuỗng 
+
+đường đũng quần 
+
+12cm. 
+
+-Lấy từ eo xuống 
+
+đường dọc quần 
+
+10cm. 
+
+-Nối 2 điểm tsọ cầu 
+
+mông 
+
+15 
+
+ 
+
+Bóc tách chi tiết ta 
+
+được cầu mông và 
+
+thân sau trên 
+
+16  Cạp quần:  
+
+Rộng: 7cm 
+
+Dài 81cm 
+
+17 
+
+ 
+
+Thiết kế túi thân 
+
+trước: 
+
+-Rộng túi trên: 
+
+13cm 
+
+-Dài túi: 25cm 
+
+-Rộng miệng túi: 
+
+21cm 
+
+18 
+
+ 
+
+Mở đối xứng tạo lót 
+
+túi thân trước. 
+
+
+
+104 
+ 
+
+19 
+
+ 
+
+Lót túi thân sau: 
+
+-Rộng miệng túi: 
+
+18cm 
+
+-Dài túi: 42cm 
+
+Miệng túi ( cơi túi) 
+
+-Rộng : 4cm 
+
+-Dài: 16 cm 
+
+ 
+
+4.2. Tạo mẫu prototype 
+
+❖ Phương pháp: 
+
+- Thiết kế mẫu gốc trên phần mềm Gerber 
+
+- Phát triển thiết kế mẫu phát triể trên cơ sở mẫu gốc 
+
+- Đưa ra mẫu prototye dựa trên mẫu gốc đã được thiết kế  
+
+• Xây dựng các quy trình gia công sản phẩm. 
+
+• Bảng thống kê số lượng các chi tiết  
+
+• Bảng thống kê nguyên phụ liệu 
+
+• Bảng thống kê các đường liên kết, cụm chi tiết 
+
+• Sơ đồ khối gia công 
+
+• Sơ đồ lắp ráp 
+
+• Bảng quy trình gia công sản phẩm 
+Bảng 4.4. Bảng thống kê các chi tiết 
+
+Stt  Tên chi tiết Vải  Ghi chú  
+
+Vải chính Vải phối Khác  
+
+1 Cạp quần  1  Thực hiện 
+
+phương 
+
+pháp hàn 
+
+dán 
+
+2 Thân trước 
+
+quần trên 
+
+2   Đối xứng 
+
+3 Thân truóc 
+
+quần dưới 
+
+2    
+
+4 Cầu mông 2   Đối xứng 
+
+5 Thân sau quần 
+
+trên 
+
+2   Đối xứng 
+
+6 Thân sau quần 
+
+dưới 
+
+2    
+
+7 Cơi tui trước 2    
+
+8 Thân túi trước 2    
+
+9 Cơi túi hậu 1    
+
+10 Đáp túi hậu 1    
+
+11 Thân túi hậu 1    
+
+12 Khoá túi trước   2  
+
+13 Khoá vụ trí 
+
+tháo lắp 
+
+  2  
+
+14 Chun    1  
+
+
+
+105 
+ 
+
+15 Phản quang   1  
+ 
+
+Bảng 4.0.5. Bảng đặc điểm nguyên liệu 
+
+Vải  Hình ảnh  Đặc điểm 
+
+Vải chính  
+
+ 
+
+-Tên: Woven stretch 
+
+fabric 
+
+-Màu: màu xám 
+
+-Thành phần: 95% 
+
+polyester, 5% spandex 
+
+-Trọng lượng: 180gm/ 
+
+m2 
+
+ 
+
+Vải phối  
+
+ 
+
+-Tên: Interlock power 
+
+luxtreme lycra 
+
+-Màu: xanh đen 
+
+-Thành phần: 69% 
+
+nylon 31% lycra 
+
+-Trọng lượng: 220 
+
+gm/m2 
+
+ 
+
+Mex 
+
+ 
+
+-Thành phần: 80% 
+
+Polyester và 20% 
+
+cotton 
+
+- Khối lượng: 50-
+
+150g/m2 
+
+ 
+
+Bảng 4.6. Bảng đặc điểm phụ liệu 
+
+Phụ liệu Hình ảnh Đặc điểm 
+
+
+
+106 
+ 
+
+Chỉ  
+
+ 
+
+-Thành phần: 100% 
+
+polyester  
+
+- Hướng xoắn: Z  
+
+- Chi số sợi: 30/3 
+
+- Chiều dài cuộn: 
+
+5000m 
+
+- Màu sắc: màu xám 
+
+Khoá miệng túi 
+
+trước  
+
+ 
+
+-Khoá nhựa 
+
+-Màu đen 
+
+-Dài 20cm 
+
+Khoá tại vị trí 
+
+tháo lắp 
+
+ 
+
+-Khoá nhựa 
+
+-Màu đen 
+
+-Dài : 70cm 
+
+Chun  
+
+ 
+
+-Màu trắng 
+
+-Chất liệu: Sợi cao su, 
+
+Sợi Polyester, Sợi 
+
+Polypropylene 
+
+-Độ rộng: 3cm 
+
+-Độ dày: 1mm 
+
+Phản quang  
+
+ 
+
+- Chiều dài cuộn: 5m, 
+
+bản dây 3cm. 
+
+-Màu: xám 
+
+ 
+
+Bảng 4.7. Bảng thống kê các cụm chi tiết 
+
+Cụm chi 
+
+tiết 
+
+Hình ảnh  Ghi chú 
+
+Cạp quần  
+
+  
+ 
+
+a-Cạp quần 
+
+b- băng keo 
+
+
+
+107 
+ 
+
+ 
+Túi chéo  
+
+ 
+
+a- Thân trước 
+
+b - Thân sau 
+
+c - Đáp khóa 
+
+d - Lót túi 
+
+e - Khóa kéo 
+
+f - Mex 
+
+  1 - Đường may ghim 
+
+thân sau vào khóa kéo 
+
+  2 - Đường may ghim 
+
+thân sau khóa kéo, lót 
+
+túi 
+
+  3 - Đường may ghim 
+
+đáp khóa vào thân 
+
+trước 
+
+  4 - Ghim đáp khóa, 
+
+khóa và lót 
+
+túi 
+
+  5- Đường may diễu 
+
+miệng túi 
+
+Túi hậu 
+
+ 
+
+a-Thân sau quần 
+
+b- Cơi túi 
+
+c-Đáp túi 
+
+d-  Thân túi 
+
+1-  Đường may 
+
+viền vào thân 
+
+quần 
+
+2-  Đường may 
+
+đáp túi vào thân 
+
+quần 
+
+3-  Đường may 
+
+mí miệng túi 
+
+4-  Đường may 
+
+đáp túi vào thân 
+
+túi 
+
+5-  Đường may vòng 
+
+quanh thân túi 
+
+  
+
+
+
+108 
+ 
+
+Gấu quần 
+
+ 
+
+a-Thân quần 
+
+b-  Chun 
+
+    1-  Đường may gập 
+
+gấu quần 
+
+Cụm tháo 
+
+lắp 
+
+ 
+
+a – Thân trên 
+
+b – Thân dưới 
+
+c – Khoá 
+
+d – khoá có củ 
+
+1- Đường may 
+
+ghim khoá và 
+
+đáp khoá vào 
+
+thân trên 
+
+2- Đường may 
+
+ghim khoá và 
+
+thân dưới 
+
+- Sơ đồ khối gia công 
+
+ 
+
+ 
+
+  
+
+ 
+
+  
+ 
+
+                   
+
+               
+
+               
+
+                
+
+            
+
+                 
+
+                 
+
+                  
+
+                  
+
+                 
+
+                  
+
+                     
+
+              
+
+                  
+
+                 
+
+            
+
+              
+
+                    
+
+              
+
+                    
+
+              
+
+         
+
+                    
+
+
+
+109 
+ 
+
+ 
+
+Hình 4.2. Hình ảnh sơ đồ khối gia công sản phẩm 
+
+- Sơ đồ lắp ráp 
+
+ 
+
+                   
+
+                 
+
+                 
+
+        
+
+                   
+
+          
+
+                    
+
+              
+
+                    
+
+              
+
+  
+  
+
+  
+
+    
+
+  
+
+
+
+110 
+ 
+
+ 
+
+ 
+
+Hình 4.3. Hình nhr sơ đồ lắp ráp 
+
+- Bảng quy trình gia công 
+
+Bảng 4.8 Bảng quy trình gia công sản phẩm 
+
+Stt Công 
+
+đoạn 
+
+Tên công đoạn  Đặc điểm 
+
+nguyên 
+
+công 
+
+Bậc  
+
+nguyên 
+
+công 
+
+Thiết bị 
+
+sử dụng 
+
+Ghi chú 
+
+Gia công thân trước trên 
+
+1 A1 Đánh dấu vị trí 
+
+túi, dải phản 
+
+quàn, logo 
+
+Thủ công 2 Phấn  
+
+2 A2 Là ép mex phần 
+
+túi quần 
+
+Thủ công 2 Bàn là  
+
+3 A3 Vắt sổ thân 
+
+trước quần 
+
+Tay máy 3 Máy vắt 
+
+sổ 
+
+ 
+
+Gia công thân sau trên 
+
+4 B1 Đánh dấu vị trí 
+
+túi, dải phản 
+
+quàn, khoá quần 
+
+Thủ công 2 Phấn  
+
+5 B2  Là ép mex phần 
+
+túi quần 
+
+Thủ công 2 Bàn là  
+
+6 B3 Vắt sổ thân sau 
+
+trên quần 
+
+Tay máy 3 Máy vắt 
+
+sổ 
+
+ 
+
+7 B4 May cầu mông 
+
+vào thân sau trên 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+8 B5 May diễu gập 
+
+phần chắp cầu 
+
+mông và thân 
+
+sau 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+Gia công cạp 
+
+9 C1 Vắt sổ cạp Tay máy 3 Máy vắt 
+
+sổ 
+
+ 
+
+10 C2 Là gập đôi cạp Thủ công 2 Bàn là   
+
+  
+
+  
+
+  
+
+  
+
+
+
+111 
+ 
+
+11 C3 Định vị vị trí 
+
+băng keo vào 
+
+cạp 
+
+Thủ công 2 Bàn là  
+
+12 C4 Cộp keo Máy 3 Máy ép 
+
+keo 
+
+ 
+
+13 C5 Là định vị gập 
+
+đôi cạp 
+
+Thủ công 2 Bàn là  
+
+14 C6 Cộp cạp sau khi 
+
+gập đôi 
+
+Máy  3 Máy ép 
+
+keo 
+
+ 
+
+15 C7 May chắp 2 đầu 
+
+cạp quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+Gia công túi dọc khoá, túi hậu 
+
+16 D1 Vắt sổ cơi túi, 
+
+thân túi trước; 
+
+cơi túi, đáp túi 
+
+và thân túi hậu 
+
+Tay máy 3 Máy vắt 
+
+sổ 
+
+ 
+
+17 D2 Là gập đôi cơi 
+
+túi trước và cơi 
+
+túi hậu 
+
+Thủ công 2 Bàn là  
+
+Gia công lắp ráp 
+
+18 E1  May định hình 
+
+miệng túi hậu 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+Đường 
+
+may định 
+
+hình cơi 
+
+túi, đáp 
+
+túi song 
+
+song 
+
+19 E2 Bấm bổ miệng 
+
+túi 
+
+Thủ công 3 Kéo bấm  
+
+20 E3 May chặn lưỡi 
+
+gà 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+21 E4 Diễu miệng túi 
+
+dưới 
+
+Tay máy 4 Máy 1 
+
+kim 
+
+ 
+
+22 E5 May cơi túi vào 
+
+thân túi 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+23 E6 Diễu miệng túi 
+
+trên 
+
+Tay máy 4 Máy 1 
+
+kim 
+
+ 
+
+24 E7 May đáp túi vào 
+
+thân túi 
+
+Táy máy 3 Máy 1 
+
+kim 
+
+ 
+
+25 E8 May xung quanh 
+
+thân túi hậu 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+26 E9 May ráp đũng 
+
+quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+27 E10 Là rẽ đường 
+
+may đũng quần 
+
+Thủ công 2 Bàn là  
+
+28 E11 May ráp giàng 
+
+quần thân trên 
+
+quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+
+
+112 
+ 
+
+29 E12 Là rẽ đường 
+
+may giàng quần  
+
+Thủ công 2 Bàn là  
+
+30 E13 May 1 bên khóa 
+
+túi với thân sau 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+31 E14 May bên khóa 
+
+thân sau với lót 
+
+túi 
+
+Tay máy 3 Bàn là  
+
+32 E15 May cơi túi vào 
+
+thân trước quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+Tại vị trí 
+
+được 
+
+đánh đấu  
+
+33 E16 Bấm bổ miệng 
+
+túi 
+
+Thủ công 3 Bàn là Sau đó 
+
+lộn đáp 
+
+túi lại 
+
+vào phía 
+
+trong 
+
+quần 
+
+34 E17 May chặn lưỡi 
+
+gà 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+35 E18 May 1 bên khóa 
+
+còn lại vào cơi 
+
+túi  
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+36 E19 May gập lót túi 
+
+vào phần cơi túi  
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+37 E20 May chặn 2 đầu 
+
+khóa 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+38 E21 May diễu miệng 
+
+túi quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+39 E22 May xung quang 
+
+thân túi 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+40 E23 May đường dọc 
+
+quần thân trên 
+
+quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+41 E24 Là gập đường 
+
+gấu che khoá 
+
+thân trên quần 
+
+Thủ công 2 Bàn là  
+
+42 E25 May đáp khoá 
+
+tháo lắp vào 1  
+
+bên khoá 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+Khoá mở 
+
+43 E26 May khoá và 
+
+đáp khoá vào 
+
+thân quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+44 E27 May đường dọc 
+
+quần thân dưới 
+
+quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+45 E28 May đường 
+
+giàng quần thân 
+
+dưới quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+
+
+113 
+ 
+
+46 E29 Là rẽ đường 
+
+may dọc quần, 
+
+giàng quần thân 
+
+dưới quần 
+
+Thủ công 2 Bàn là  
+
+47 E30 May 1 bên khoá 
+
+kéo vào thân 
+
+dưới quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+48 E31 May chun vào 
+
+gấu quần 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+49 E32 May gập gấu 
+
+quần thân dưới 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+50 E33 May diễu gấu 
+
+chun 
+
+Tay máy 4 Máy 1 
+
+kim 
+
+ 
+
+51 E34 May chắp cạp 
+
+quần vào thân 
+
+quần trên 
+
+Tay máy 3 Máy 1 
+
+kim 
+
+ 
+
+52 E35 May diễu cạp 
+
+quần vào thân 
+
+quần trên 
+
+Tay máy 4 Máy 1 
+
+kim 
+
+Lật hết 
+
+phần vải 
+
+đường 
+
+may vào 
+
+trong cạp 
+
+53 E36 Là phản quang 
+
+vào thân trước 
+
+Thủ công 2 Bàn là  
+
+54 E37 Là logo vào thân 
+
+trước quần 
+
+Thủ công 2 Bàn là  
+
+Hoàn thiện sản phẩm 
+
+55 F1 Nhặt cắt chỉ Thủ công 2 BLV  
+
+56 F2 Là phẳng sản 
+
+phẩm 
+
+Tay máy 2 Bàn là  
+
+57 F3 Đóng gói sản 
+
+phẩm 
+
+Thủ công 2 BLV  
+
+ 
+
+4.3. Hiệu chỉnh mẫu 
+
+ 
+
+ 
+
+Hình 4.4. Hình ảnh mẫu kỹ thuật may thử lần 1 
+
+
+
+114 
+ 
+
+Vấn đề cần sửa: 
+
+- Miệng túi chéo may chưa đẹp, bị cộm 
+- Đường may dọc quần, giàng quần thân trên và thân dưới tại vị trí tháo lắp 
+
+chưa đều nhau 
+
+- Cạp quần chưa có độ ôm sát cơ thể 
+- Gấu chun còn rộng so với chân. 
+
+ 
+
+ 
+
+Hình 4.5. Hình ảnh một số lỗi của sản phẩm 
+
+Biện pháp xử lý: 
+
+- Cải thiện chất lượng đường may cho đẹp 
+- Tại vị trí tháo lắp ống quần đặt vị trí khoá để may chính xác. 
+- Giảm độ dài cạp quần để tăng độ ôm sát cơ thể 
+- Giảm độ dài chun gấu. 
+
+Mẫu thử sau khi hiệu chỉnh: 
+
+
+
+115 
+ 
+
+     
+
+Hình 4.6. Hình ảnh mẫu sau khi hoàn thiện 
+
+4.4. Hoàn chỉnh mẫu prototype và tài liệu sản phẩm 
+
+4.4.1. Hoàn chỉnh mẫu prototype 
+ 
+
+ 
+
+Hình 4.7. Hình ảnh mẫu kỹ thậu hoàm chỉnh 
+
+4.4.2. Tính định mức nguyên phụ liệu và giá thành gia công sản phẩm 
+
+Chi phí phát triển sản phẩm bao gồm: 
+
+-  Chi phí nguyên phụ liệu: 
+• Vải chính: 2m x 50.000 = 100.000đ 
+
+• Vải phối: 0,5m x 30.000 = 15.000đ 
+
+• Mex: 0.5m x 5.000 = 2.500đ 
+
+QTT - TTTRUOC- M - VC x2
+
+QTT - COI TS - M - VC x1
+QTT - DAP TS - M - VC x1
+
+QTT - TTSAU - M - VC x1 QTT - TSD - M - VC x2
+
+QTT - COI TT - M - VC x2
+
+QTT - CM - M - VC x2
+
+QTT - TTD - M - VC x 2
+QTT - TTT - M - VC x2
+
+QTT - CAP - M - VC x 1
+
+QTT - TST - M - VC x2
+
+
+
+116 
+ 
+
+•  Khoá kéo: khoá túi x 2 + khoá tháo lắp x 2 = 5.000 x 2 + 6.000 x 2 = 
+
+22.000đ 
+
+• Chun: 1 sợi (0.5m) x 1.500 = 0.750đ 
+
+• Phản quang: 10.000đ 
+
+• Chỉ: 1 cuộn (5.000m) x 15.000 = 15.000 đồng 
+
+• Băng keo: 1m x 10.000 = 10.000 đồng 
+
+Tổng: 175.250 đồng 
+
+- Giấy, bút, tẩy vẽ mẫu: 8.000đ giấy + 3.000đ bút + 3.000đ tẩy = 14.000đ 
+
+=> Tổng chi phí nguyên phụ liệu: 189.250 đồng 
+
+Chi phí nguyên vật liệu dự trữ: 10% chi phí nguyên vật liệu = 10% x 189.250= 
+
+18.925 đồng 
+
+Tổng chi phí: 208.175 đồng 
+
+- Tính chi phí công cụ sản xuất: 
+
+• Chi phí bảo dưỡng, sửa chữa máy may, máy vắt sổ, bàn là, /1 quý: 
+
+10.000đ 
+
+• Chi phí điện nước: 10.000 đồng 
+Chi phí phát triển sản phẩm 
+
+− Chi phí phát triển sản phẩm thường chiếm một tỷ phần không nhỏ trong 
+
+tổng lượng đầu tư cho một sản phẩm. 
+
+− Chi phí mà doanh nghiệp phải chi cho quá trình phát triển sản phẩm: 
+
+• Chi phí nghiên cứu thị trường: 50.000đ 
+
+• Chi phí sáng tạo ý tưởng: 30.000đ 
+
+• Chi phí thử nghiệm ý tưởng: 50.000đ 
+
+• Chi phí phát triển ý tưởng: 30.000đ 
+
+• Chi phí hoàn thiện: 20.000đ 
+
+Tổng chi phí: 180.000 đồng 
+
+Giá thành dự kiến: 
+
+- Chi phí nguyên vật liệu: 208.175  đồng 
+
+- Chi phí công cụ sản xuất: 20.000 đồng 
+
+- -Chi phí phát triển sản phẩm: 180.000 đồng 
+
+- -Chi phí gia công: 25.000 đồng 
+
+Tổng giá thành: 433.175 đồng 
+
+Bảng 4.9. Bảng giá nguyên phụ liệu 
+
+Bảng giá nguyên phụ liệu cho quần 
+
+Stt Tên nguyên/ phụ liệu  Size (M) Giá mỗi đơn 
+
+vị (VNĐ) 
+
+Giá NPL/ 
+
+chiếc 
+
+1 Vải chính 2m 50.000 100.000 
+
+2 Vải phối 0,5m 30.000 15.000 
+
+3 Mex 0.5m 5.000 2.500 
+
+
+
+117 
+ 
+
+4 Khoá kéo túi 2 cái 5.000 20.000 
+
+Khoá kéo ống quần 2 cái 6.00 22.00 
+
+5 Chun 0.45m 1.500 0.750 
+
+6 Phản quang   10.000 
+
+7 Keo  1m  10.000 
+
+8 Chỉ 20m 15.000/ 5000 60.000 
+
+ 
+
+4.4.3. Thiết lập sơ bộ tài liệu sản phẩm 
+
+Bảng 4.10. Bảng thống kê nguyên liệu 
+
+Vải Hình ảnh Vị trí Số lượng 
+
+Vải chính 
+
+ 
+
+Thân trên. 
+
+Thân dưới 
+
+quần, cầu 
+
+mông 
+
+2m 
+
+Vải phối 
+
+ 
+
+Cạp quần,  
+
+thân túi trước, 
+
+thân túi hậu 
+
+0,5m 
+
+Mex 
+
+ 
+
+Túi quần 0,5m 
+
+ 
+
+
+
+118 
+ 
+
+Bảng 4.11. Bảng thóng kê phụ liệu 
+
+Phụ liệu Hình ảnh Vị trí Số lượng 
+
+Chỉ 
+
+ 
+
+Các đường may 20m 
+
+Khoá 
+
+miệng túi 
+
+trước 
+
+ 
+
+Túi dọc thân 
+
+trước 
+
+2 chiếc 
+
+Khoá tại 
+
+vị trí tháo 
+
+lắp 
+
+ 
+
+Vị trí tháo lắp 
+
+ống quần 
+
+2 chiếc 
+
+Chun 
+
+ 
+
+Gấu quần 0,45m 
+
+Phản 
+
+quang 
+
+ 
+
+Xung quanh vị 
+
+trí tháo lắp thân 
+
+trên quần 
+
+3m 
+
+
+
+119 
+ 
+
+ 
+
+ 
+
+Hình 4.8. Hình ảnh thông số kích thước của quần 
+
+Thông số kích thước của quần 
+
+Bảng 4.12. Bảng thông số kích thước của quần 
+
+STT Vị Trí Kí hiệu Kích thước 
+
+1 Dài quần A 96.5 cm 
+
+2 Rộng eo đo êm B 37.5 cm 
+
+3 Rộng gấu đo êm C 13 cm 
+
+4 Dài quần short D 51.5 cm 
+
+5 Rộng mông E 108 cm 
+
+6 Dài cầu mông F 12 cm 
+
+7 Rộng cơi túi G 16 cm 
+
+8 Rộng cầu mông H 25.5 cm 
+
+9 Dài logo I 3 cm 
+
+10 Rộng logo K 7 cm 
+
+11 Khoảng cách từ dọc 
+
+quần 

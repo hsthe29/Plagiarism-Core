@@ -1,0 +1,3697 @@
+
+TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ĐỒ ÁN TỐT NGHIỆP 
+
+Nghiên cứu sửa lỗi chính tả văn bản dựa 
+
+vào mô hình Transformer 
+
+ĐẶNG THỊ HOA 
+
+hoa.dt161600@sis.hust.edu.vn 
+
+Ngành Công nghệ thông tin 
+
+Chuyên ngành: Information Technology Specialist 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Giảng viên hướng dẫn: PGS. TS. Lê Thanh Hương 
+
+ 
+
+Bộ môn: 
+
+ 
+
+Hệ thống thông tin 
+
+Viện: Công nghệ thông tin và truyền thông 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+HÀ NỘI, 6/2021 
+
+    Chữ ký của GVHD 
+
+
+
+ 
+
+2 
+
+ 
+
+ĐỀ TÀI TỐT NGHIỆP 
+
+1. Thông tin về sinh viên 
+
+Họ và tên sinh viên: Đặng Thị Hoa 
+
+Email: hoa.dt161600@sis.hust.edu.vn 
+
+Điện thoại liên lạc: 0981633537 
+
+Lớp: IS02 – Việt Nhật K61 
+
+Hệ đào tạo: Đại học chính quy 
+
+Đồ án tốt nghiệp được thực hiện tại: Bộ môn Hệ thống thông tin, Viện Công 
+
+nghệ thông tin và truyền thông, Đại học Bách Khoa Hà Nội. 
+
+Thời gian làm ĐATN: từ ngày 4/1/2021 đến ngày 18/6/2021 
+
+2. Mục đích chính của ĐATN 
+
+• Nghiên cứu các phương pháp giải quyết bài toán sửa lỗi chính tả. 
+
+• Áp dụng mô hình Transformer cho bài toán sửa lỗi chính tả văn bản 
+
+tiếng Việt. 
+
+3. Nhiệm vụ cụ thể của ĐATN 
+
+• Tìm hiểu các kiến thức, lý thuyết liên quan đến bài toán sửa lỗi chính tả. 
+
+• Nghiên cứu các phương pháp, cách tiếp cận bài toán sửa lỗi chính tả. 
+
+• Nghiên cứu và áp dụng mô hình Transformer vào bài toán sửa lỗi chính 
+
+tả văn bản. 
+
+• Tiền xử lý dữ liệu, đánh dấu từ tiếng Anh, từ viết tắt. 
+
+• Thực nghiệm, mô hình hóa, phân tích kết quả thu được. 
+
+4. Lời cam đoan của sinh viên 
+
+Tôi – Đặng Thị Hoa - cam đoan rằng nội dung trong đồ án này là của tôi dưới 
+
+sự hướng dẫn của PGS.TS Lê Thanh Hương. 
+
+Các đề xuất và kết quả trong đồ án này đều là xác thực và nguyên bản. 
+
+ Hà Nội, ngày 18 tháng 6 năm 2021 
+
+ Tác giả ĐATN 
+
+  
+
+ Đặng Thị Hoa 
+
+ 
+
+5. Xác nhận của giáo viên hướng dẫn về mức độ hoàn thành của ĐATN 
+
+và cho phép bảo vệ: 
+
+...................................................................................................... 
+
+ Hà Nội, ngày 18 tháng 6 năm 2021 
+
+ Giáo viên hướng dẫn 
+
+  
+
+ PGS.TS. Lê Thanh Hương 
+
+
+
+ 
+
+3 
+
+ 
+
+ 
+
+LỜI CẢM ƠN 
+
+ Lời đầu tiên, em xin chân thành cảm ơn cô PGS/TS Lê Thanh Hương, người 
+
+đã luôn đồng hành, định hướng và giúp đỡ cho em trong suốt quá trình nghiên cứu 
+
+và thực hiện đồ án này. 
+
+ Bên cạnh đó, em xin gửi lời cảm ơn chân thành đến các thầy cô giáo đã và 
+
+đang giảng dạy tại trường Đại học Bách Khoa Hà Nội, đặc biệt là những thầy cô 
+
+giáo trong suốt 5 năm qua đã dạy bảo và truyền đạt cho em rất nhiều những kiến 
+
+thức và kinh nghiệm để em có thể hoàn thiện bản thân mình hơn. 
+
+ Cuối cùng, em xin được gửi lời cảm ơn đến gia đình và bạn bè đã đồng hành 
+
+và khích lệ em rất nhiều trong quá trình nghiên cứu thực hiện đồ án này. 
+
+  
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+4 
+
+ 
+
+TÓM TẮT NỘI DUNG ĐỒ ÁN 
+
+ Tự động phát hiện và sửa lỗi chính tả (Auto Spelling Correction) là một 
+
+trong những bài toán cơ bản nhất trong xử lý ngôn ngữ tự nhiên. Tính năng này đã 
+
+có trong nhiều các ứng dụng và trình soạn thảo văn bản, nhập liệu khác nhau. Hiện 
+
+nay các kỹ thuật tự động phát hiện và sửa lỗi chính tả đã rất phát triển và hoạt động 
+
+rất tốt với nhiều ngôn ngữ, nhất là tiếng Anh. Nhưng với tiếng Việt lại chưa thực 
+
+sự có nhiều các công cụ hay kỹ thuật hoạt động đủ tốt cho bài toán tự động phát 
+
+hiện và sửa lỗi chính tả này. 
+
+ Nội dung chính của đồ án là áp dụng mô hình Transformer cho bài toán tự 
+
+động phát hiện và sửa lỗi chính tả Tiếng Việt. 
+
+   
+
+
+ 
+
+Hoa 
+
+ 
+
+Đặng Thị Hoa 
+
+ 
+
+ 
+
+ 
+Ký và ghi rõ họ tên 
+
+ 
+
+
+
+ 
+
+5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+MỤC LỤC 
+
+ 
+ĐỀ TÀI TỐT NGHIỆP ........................................................................................ 2 
+
+LỜI CẢM ƠN ....................................................................................................... 3 
+
+TÓM TẮT NỘI DUNG ĐỒ ÁN .......................................................................... 4 
+
+MỤC LỤC ............................................................................................................. 5 
+
+DANH MỤC CÁC KÝ HIỆU VÀ CHỮ VIẾT TẮT ........................................ 7 
+
+DANH MỤC HÌNH VẼ ....................................................................................... 8 
+
+DANH MỤC BẢNG ............................................................................................. 9 
+
+CHƯƠNG 1. TỔNG QUAN ĐỀ TÀI ............................................................... 10 
+
+1.1 Đặt vấn đề ................................................................................................ 10 
+
+1.2 Tổng quan về chính tả tiếng Việt và các phương pháp đã có .................. 10 
+
+ Nguồn gốc và đặc điểm của tiếng Việt ..................................... 10 
+
+ Cấu tạo tiếng, cấu tạo vần, cấu tạo từ trong tiếng Việt ............. 11 
+
+ Chính tả tiếng Việt .................................................................... 14 
+
+ Các nguyên nhân gây ra lỗi chính tả ......................................... 14 
+
+ Các loại lỗi chính tả tiếng Việt ................................................. 15 
+
+1.3 Một số nghiên cứu liên quan .................................................................... 15 
+
+ Phương pháp phát hiện và sửa lỗi chính tả tiếng Việt sử dụng mô 
+
+hình từ điển .................................................................................................. 15 
+
+ Kiểm tra lỗi chính tả tiếng Việt dựa trên luật cấu tạo âm tiết [2]
+
+ 15 
+
+ Phương pháp kiểm lỗi chính tả tiếng Việt dựa trên n-gram [3] 17 
+
+1.4 Mục tiêu đồ án .......................................................................................... 17 
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT .................................................................. 19 
+
+2.1 Dịch máy mạng nơron (NMT) ................................................................. 19 
+
+2.2 Mạng nơron nhân tạo ............................................................................... 19 
+
+ Mạng nơron truyền thẳng .......................................................... 21 
+
+ Mạng nơron hồi quy .................................................................. 22 
+
+ Mạng Long Short-Term Memory (LSTM) ............................... 23 
+
+2.3 Cơ chế Word Embedding ......................................................................... 24 
+
+
+
+ 
+
+6 
+
+ 
+
+2.4 Mô hình Seq2Seq ..................................................................................... 26 
+
+2.5 Mô hình Transformer ............................................................................... 28 
+
+ Giới thiệu mô hình Transformer ............................................... 28 
+
+ Tổng quan về mô hình .............................................................. 28 
+
+ Cơ chế Self Attention ................................................................ 31 
+
+ Bộ mã hóa – Encoder ................................................................ 35 
+
+ Bộ giải mã – Decoder................................................................ 37 
+
+ Ứng dụng Attention trong mô hình Transformer ...................... 38 
+
+2.6 Bộ công cụ mã nguồn mở cho dịch máy mạng nơron OpenNMT ........... 38 
+
+ Giới thiệu mô hình OpenNMT .................................................. 38 
+
+ Tổng quan về mã OpenNMT-py ............................................... 40 
+
+CHƯƠNG 3. TỰ ĐỘNG PHÁT HIỆN VÀ SỬA LỖI CHÍNH TẢ DỰA VÀO 
+
+MÔ HÌNH TRANSFORMER ........................................................................... 44 
+
+3.1 Mô hình đề xuất ....................................................................................... 44 
+
+3.2 Môi trường thực nghiệm .......................................................................... 45 
+
+3.3 Xây dựng bộ dữ liệu ................................................................................. 46 
+
+ Bộ dữ liệu thô ............................................................................ 46 
+
+ Đánh dấu từ tiếng Anh .............................................................. 46 
+
+ Tạo lỗi sai chính tả .................................................................... 46 
+
+3.4 Huấn luyện mô hình ................................................................................. 46 
+
+3.5 Kết quả đánh giá ....................................................................................... 48 
+
+ Phương pháp đánh giá ............................................................... 48 
+
+ Kết quả ...................................................................................... 49 
+
+CHƯƠNG 4. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ................................. 52 
+
+4.1 Kết luận .................................................................................................... 52 
+
+4.2 Hướng phát triển ...................................................................................... 52 
+
+TÀI LIỆU THAM KHẢO ................................................................................. 53 
+
+ 
+
+
+
+ 
+
+7 
+
+ 
+
+DANH MỤC CÁC KÝ HIỆU VÀ CHỮ VIẾT TẮT 
+
+ 
+
+Ký hiệu viết tắt Thuật ngữ đầy đủ 
+
+RNN Recurrent neural network 
+
+NLP Natural language processing 
+
+LSTM Long short term memory 
+
+BLEU Bilingual Evaluation Understudy 
+
+Score 
+
+BPE Byte Pair Encoding 
+
+NMT Neural Machine Translation 
+
+Seq2Seq Sequence to sequence 
+
+BERT Bidirectional Encoder Representations 
+
+from Transformers 
+
+MT Machine Translation 
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+
+
+ 
+
+8 
+
+ 
+
+DANH MỤC HÌNH VẼ 
+
+Hình 2-1: Mô hình mạng nơron đơn giản ............................................................ 19 
+
+Hình 2-2: Ví dụ về  một mạng nơron nhân tạo .................................................... 20 
+
+Hình 2-3: Một số hàm kích hoạt thông dụng ....................................................... 21 
+
+Hình 2-4: Mạng nơron truyền thẳng .................................................................... 22 
+
+Hình 2-5: Mạng nơron hồi quy ............................................................................ 22 
+
+Hình 2-6: Mô hình mạng LSTM .......................................................................... 23 
+
+Hình 2-7: Cổng quên ............................................................................................ 23 
+
+Hình 2-8: Cổng vào .............................................................................................. 24 
+
+Hình 2-9: Cổng ra ................................................................................................. 24 
+
+Hình 2-10: Attention với mô hình Seq2Seq trong dịch máy ............................... 28 
+
+Hình 2-11: Kiến trúc mô hình Transformer ......................................................... 29 
+
+Hình 2-12: Bộ mã hóa và giải mã trong mô hình Transformer ........................... 30 
+
+Hình 2-13: Quá trình tính toán vector attention ................................................... 32 
+
+Hình 2-14: Encoder của mô hình Transformer .................................................... 35 
+
+Hình 2-15: Ví dụ biểu diễn từ đầu vào ................................................................. 36 
+
+Hình 2-16: Quá trình tính toán vector attention với nhiều “head” ....................... 36 
+
+Hình 2-17: Bộ giải mã của mô hình transformer ................................................. 37 
+
+Hình 2-18: Các tính năng được OpenNMT-py (cột py) và OpenNMT-tf (cột tf) 
+
+triển khai. .............................................................................................................. 39 
+
+Hình 2-19: Sơ đồ tổng quan về mã OpenNMT-py .............................................. 40 
+
+Hình 2-20: bidirectional encoder ......................................................................... 41 
+
+Hình 2-21:Pyramidal deep bidirectional encoder ................................................ 41 
+
+Hình 2-22: Deep bidirectional encoder ................................................................ 42 
+
+Hình 2-23: Google's NMT encoder ...................................................................... 42 
+
+Hình 2-24: decoder mặc định ............................................................................... 43 
+
+Hình 3-1: Tổng quan mô hình đề xuất ................................................................. 44 
+
+Hình 3-2: mô hình Transformer ........................................................................... 45 
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+9 
+
+ 
+
+DANH MỤC BẢNG 
+
+Bảng 3-1: Các tham số sử dụng huấn luyện mô hình .......................................... 47 
+
+Bảng 3-2: Điểm BLEU của hệ thống sửa lỗi chính tả ......................................... 49 
+
+Bảng 3-3: Một số kết quả dịch ............................................................................. 49 
+
+
+
+10 
+
+ 
+
+CHƯƠNG 1. TỔNG QUAN ĐỀ TÀI 
+
+1.1 Đặt vấn đề 
+
+Hiện nay, chúng ta đang sống trong cuộc cách mạng công nghệ lần thứ 4, 
+
+cuộc cách mạng của Công nghệ thông tin. Trong thời kỳ mà sự bùng nổ và phát 
+
+triển vô cùng nhanh chóng của các lĩnh vực liên quan đến Internet đặc biệt là 
+
+lượng thông tin, dữ liệu vô cùng lớn thì nhu cầu tiếp cận thông tin của mọi người 
+
+được giải quyết một cách cực kỳ dễ dàng. Tuy nhiên, đi liền với lượng thông tin 
+
+khổng lồ đó thì cũng phát sinh ra rất nhiều vấn đề liên quan đến chất lượng thông 
+
+tin như tin giả, truyền bá những tư tưởng sai lệch hay đơn giản là sai lỗi chính tả. 
+
+Với sự bùng nổ của công nghệ thông tin hiện nay thì thay cho báo giấy, báo 
+
+điện tử đã lên ngôi và vô cùng phát triển. Tuy nhiên, cùng với sự phát triển đó là 
+
+một thực tế “ai cũng có thể thành nhà báo”, nên chất lượng của những bài báo 
+
+điện tử rất khó có thể đảm bảo. Ta có thể dễ dàng bắt gặp những lỗi chính tả trên 
+
+những bài báo, những tiêu đề, hay thậm chí là cả những bài luận văn, báo cáo 
+
+khoa học và đồ án do lỗi của người viết viết nhầm và không để ý.   
+
+Sai lỗi chính tả tưởng chừng như chỉ là một vấn đề nhỏ, không quá được 
+
+chú trọng nhưng nó lại đem đến những ảnh hưởng vô cùng to lớn. Khi đọc một 
+
+nội dung hay nhưng lại bị viết sai chính tả, nó giống như việc bạn đang chạy xe 
+
+bon bon trên đường thì vấp phải ổ gà vậy. Hơn nữa, ta thử nghĩ xem, nếu nội 
+
+dung của một bài cáo khoa học hay đồ án nếu dính lỗi chính tả thì sẽ bị xem là 
+
+thiếu chuyên nghiệp và độ đáng tin cũng giảm xuống. Và đặc biệt là sai chính tả 
+
+thì rất dễ bị lây, khi ta đọc phải một từ bị viết sai trong thời gian dài thì chính 
+
+chúng ta có thể bị nhiễm và tưởng đó là từ đúng nên lại viết sai theo. 
+
+Chính vì vậy, theo em, sửa lỗi chính tả là một vấn đề cấp bách, rất đáng 
+
+được quan tâm trong thời kì bùng nổ thông tin như hiện nay. 
+
+ 
+
+1.2 Tổng quan về chính tả tiếng Việt và các phương pháp đã có 
+
+ Nguồn gốc và đặc điểm của tiếng Việt 
+
+Tiếng Việt có nguồn gốc rất cổ xưa và đã trải qua một quá trình phát triển lâu 
+
+dài, đầy sức sống. Sức sống đó thể hiện tinh thần dân tộc mạnh mẽ và sáng tạo của 
+
+nhân dân Việt Nam trong công cuộc đấu tranh anh dũng vì tiền đồ của đất nước, 
+
+trong sự phấn đấu bền bỉ để xây dựng và phát triển một nền quốc ngữ, quốc văn, 
+
+quốc học Việt Nam. 
+
+Tiếng Việt là ngôn ngữ của dân tộc Kinh – tộc người đa số ở Việt Nam, được 
+
+dùng làm phương tiện giao tiếp chung từ lâu trong lịch sử dân tộc. Tiếng Việt có 
+
+một nguồn gốc rất đa dạng vì qua 4 ngàn năm, nó đã lai với rất nhiều tiếng Mon, 
+
+tiếng Khmer, tiếng Thái, tiếng Lào, tiếng Chàm, tiếng Malay, và đã vay mượn rất 
+
+nhiều từ tiếng Trung. Trong trăm năm vừa qua, tiếng Việt đã mượn hàng trăm từ 
+
+tiếng Pháp như cái gara, vải kaki, ... [1] 
+
+ Hiện nay thì tiếng Việt đã mượn rất nhiều và sử dụng rất tự nhiên, thoải mái 
+
+hàng ngàn từ tiếng Anh, tiếng Mỹ như computer, battery… sau một thời gian chúng 
+
+
+
+11 
+
+ 
+
+sẽ được Việt hóa hoàn toàn và trở thành một phần của tiếng Việt luôn. Đây là một 
+
+điều rất hay, nó giúp tiếng Việt trở nên dồi dào hơn, có thêm nhiều từ vựng, nhiều 
+
+cách nói. 
+
+ Các đặc điểm của tiếng Việt: 
+
+- Thường xuyên tiếp xúc, tiếp thu các yếu tố của ngôn ngữ các dân tộc Việt 
+
+Nam và tiếng Hán, tiếng Pháp, Nga, Anh để làm giàu thêm tiếng Việt; làm 
+
+cho sự giao lưu giữa người Việt với các tộc người khác trên lãnh thổ ngày 
+
+càng gắn bó chặt chẽ với nhau. Chính vì sự giao tiếp thường nhật nên tiếng 
+
+Việt đã sớm trở thành ngôn ngữ chung của cả nước. 
+
+- Tiếng Việt luôn phát triển, bổ sung vốn từ để đáp ứng mọi phương tiện đời 
+
+sống chính trị, văn hóa, kinh tế, khoa học, xã hội, kỹ thuật và giáo dục. 
+
+- Tiếng Việt có tính thống nhất cao, không kỳ thị phương ngữ. Bên cạnh các 
+
+quy tắc chuẩn sử dụng tiếng nói và chữ viết tiếng Việt, ở các địa phương 
+
+vẫn tồn tại các yếu tố riêng có tính địa phương về âm điệu, một số từ vị… 
+
+- Tiếng Việt rất giàu sức sống, dù bị tiếng Hán, tiếng Pháp chèn ép trong hàng 
+
+trăm năm nhưng không mất đi, trái lại đã tiếp thu và làm phong phú thêm 
+
+để dần dần đấu tranh giành lại vị trí quốc ngữ của mình. 
+
+Tiếng Việt là loại hình đơn lập. Tức là loại ngôn ngữ không có hình thái, từ ngữ 
+
+không bị biến hình, không bị thay đổi dù ở bất kỳ trạng thái nào. Nó mang những 
+
+đặc trưng sau: 
+
+- Tiếng là đơn vị cơ sở của ngữ pháp 
+
+- Từ không bị biến đổi hình thái 
+
+- Biện pháp biểu thị ý nghĩa ngữ pháp là đảo lộn trật tự sắp xếp của từ hoặc 
+
+sử dụng hư từ 
+
+ 
+
+ 
+
+ Cấu tạo tiếng, cấu tạo vần, cấu tạo từ trong tiếng Việt 
+
+• Tiếng: gồm 3 bộ phận: phụ âm đầu, vần và thanh điệu 
+
+- Tiếng nào cũng có vần và thanh. Có tiếng không có phụ âm đầu. 
+
+- Tiếng Việt có 6 thanh: thanh ngang (còn gọi là thanh không), thanh 
+
+huyền, thanh sắc, thanh hỏi, thanh ngã, thanh nặng. 
+
+- 22 phụ âm: b, c (k, q), ch, d, đ, g (gh), h, kh, l, m, n, nh, ng (ngh), p, 
+
+ph, r, s, t, tr, th, v, x. 
+
+- 11 nguyên âm: i, e, ê, ư, u, o, ô, ơ, a, ă, â. 
+
+• Vần: gôm có 3 phần: âm đệm, âm chính, âm cuối. 
+
+- Âm đệm:  
+
++ Âm đệm được ghi bằng chữ u và o. 
+
+• Ghi bằng chữ o khi đứng trước các nguyên âm: a, ă, e 
+
+• Ghi bằng chữ u khi đứng trước các nguyên âm y, ê, ơ, 
+
+â. 
+
++ Âm đệm không xuất hiện sau các phụ âm b, m, v, ph, n, r, g. 
+
+Từ các trường hợp: 
+
+
+
+12 
+
+ 
+
+• Sau ph, b: thùng phuy, voan, ô tô, buýt (là từ nước 
+
+ngoài) 
+
+• Sau n: thê noa, noãn sào ( từ Hán Việt) 
+
+• Sau r: roàn roạt 
+
+• Sau g: góa 
+
+- Âm chính: trong tiếng Việt, nguyên âm nào cũng có thể làm âm 
+
+chính của tiếng. 
+
++ Các nguyên âm đơn: (11 nguyên âm đã ghi ở trên) 
+
++ Các nguyên âm đôi: có 3 nguyên âm đôi và được tách thành 
+
+8 nguyên âm sau: 
+
+• iê:  
+
+- Ghi bằng ia khi phía trước không có âm đệm và phía 
+
+sau không có âm cuối (Ví dụ: mía, kia,…) 
+
+- Ghi bằng yê khi phía trước có âm đêm hoặc không 
+
+có âm nào, phía sau có âm cuối (Ví dụ: yêu, nguyên, 
+
+chuyên,…) 
+
+- Ghi bằng ya khi phía trước có âm đệm và phía sau 
+
+không có âm cuối (Ví dụ: khuya,…) 
+
+- ghi bằng iê khi phía trước có phụ âm đầu và phía sau 
+
+có âm cuối (Ví dụ: tiến, kiến,…) 
+
+• uơ: 
+
+- Ghi bằng ươ khi sau nó có âm cuối (Ví dụ: mượn,…) 
+
+- ghi bằng ưa khi phía sau nó không có âm cuối (Ví dụ: 
+
+mưa,…) 
+
+• uô: 
+
+- Ghi bằng uô khi sau nó có âm cuối (Ví dụ: muốn,…) 
+
+- Ghi bằng ua khi sau nó không có âm cuối (Ví dụ: 
+
+mua, …) 
+
+- Âm cuối: 
+
++ Các phụ âm cuối vần: p, t, c (ch), m, n, ng (nh) 
+
++ 2 bán âm cuối vần: i (y), u (o) 
+
+• Các kiểu cấu tạo từ tiếng Việt 
+
+- Từ đơn: là những từ được cấu tạo bằng một tiếng độc lập. Ví dụ: nhà, 
+
+ghế, bàn, xe, … 
+
++ Xét về mặt lịch sử: hầu hết từ đơn là những từ đã có từ lâu 
+
+đời. Một số từ có nguồn gốc thuần Việt, một số từ vay mượn 
+
+từ các ngôn ngữ nước ngoài như tiếng Hán, tiếng Pháp, tiếng 
+
+Anh, Nga, … 
+
++ Xét về mặt ý nghĩa: từ đơn biểu thị những khái niệm cơ bản 
+
+trong sinh hoạt của đời sống hàng ngày của người Việt, biểu 
+
+thị các hiện tượng thiên nhiên, các quan hệ gia đình, xã hội, 
+
+các số đếm,… 
+
++ Xét về mặt số lượng: tuy không nhiều bằng từ láy và từ ghép 
+
+nhưng là những từ cơ bản nhất, giữ vai trò quan trọng nhất 
+
+
+
+13 
+
+ 
+
+trong việc biểu thị các khái niệm có liên quan đến đời sống 
+
+và cấu tạo từ mới cho tiếng Việt. 
+
+-  Từ ghép: 
+
++ Từ ghép đẳng lập: từ ghép đẳng lập có những đặc trưng 
+
+chung: 
+
+• Quan hệ ngữ pháp giữa các thành tố trong từ là quan 
+
+hệ bình đẳng. 
+
+• Xét về mặt quan hệ ý nghĩa giữa các thành tố: hoặc các 
+
+thành tố đồng nghĩa nhau, hoặc các thành tố gần nghĩa 
+
+nhau, hoặc các thành tố trái nghĩa nhau. 
+
+• Xét về mặt nội dung, từ ghép đẳng lập thưởng gợi lên 
+
+nhưng phạm vị sự vật mang ý nghĩa phí các thể hay 
+
+tổng hợp. 
+
+• Tuy có quan hệ bình đẳng về mặt ngữ pháp, nhưng 
+
+không đưa đến hệ quả là ý nghĩa từ vựng của các thành 
+
+tố trong từ đều có giá trị ngang nhau trong mọi trường 
+
+hợp. Những trường hợp một trong hai thành tố phai mờ 
+
+nghĩa xảy ra phổ biến trong từ ghép đẳng lập. 
+
+• Căn cứ vào vai trò của các thành tố trong việc tạo nghĩa 
+
+và phạm vi biểu đạt của từ ghép, có thể phân từ ghép 
+
+đẳng lập thành ba loại nhỏ là từ ghép đẳng lập gộp 
+
+nghĩa, từ ghép đẳng lập đơn nghĩa và từ ghép đẳng lập 
+
+hợp nghĩa. 
+
++ Từ ghép chính phụ: là những từ ghép mà ở đó có ít nhất 
+
+một thành tố cấu tạo nằm ở vị trí phụ thuộc vào một thành 
+
+tố cấu tạo khác, tức trong kiểu từ ghép này thường có một 
+
+yếu tố chính và một yếu tố phụ về mặt ngữ pháp. Loại này 
+
+có những đặc điểm sau: 
+
+• Xét về mặt ý nghĩa, nếu từ ghép đẳng lập có khuynh 
+
+hướng gợi lên các sự vật, tính chất có ý nghĩa khái 
+
+quát, tổng hợp, thì kiểu cấu tạo từ này có khuynh 
+
+hướng nêu lên các sự vật theo mang ý nghĩa cụ thể. 
+
+• Trong từ ghép chính phụ, yếu tố chính thường giữ 
+
+vai trò chỉ loại sự vật, đặc trưng hoặc hoạt động 
+
+lớn, yếu tố phụ tường được dùng để cụ thể hóa loại 
+
+sự vật, hoạt động hoặc đặc trưng đó. 
+
+• Căn cứ vào vai trò của các thành tố trong việc tạo 
+
+nghĩa, có thể chia từ ghép chính phụ thành hai tiểu 
+
+loại: từ ghép chính phụ dị biệt và từ ghép chính phụ 
+
+sắc thái hóa. 
+
+- Từ láy: giữa các tiếng trong từ láy có quan hệ với nhau về mặt ngữ 
+
+âm, biểu hiện ở một trong các dạng sau : 
+
++ Hoặc giống nhau ở phần phụ âm đầu. Ví dụ: vắng vẻ, vui vẻ, 
+
+... 
+
+
+
+14 
+
+ 
+
++ Hoặc giống nhai ở phần vần. Ví dụ: lúng túng, lác đác,... 
+
++ Hoặc giống nhau ở cả phần phụ âm đầu lẫn phần vần. Ví dụ: 
+
+hao hao, tim tím, ... 
+
+- Từ ngẫu hợp: Ngoại trừ các trường hợp trên, còn lại là các từ ngẫu 
+
+hợp. Đấy là trường hợp mà giữa các tiếng không có quan hệ ngữ âm 
+
+hay ngữ nghĩa. Ví dụ: cà phê, a xít, mè nheo, ba hoa,... 
+
+ 
+
+ Chính tả tiếng Việt 
+
+Chính tả là sự chuẩn hóa hình thức chữ viết của ngôn ngữ. Đó là một hệ thống các 
+
+quy tắc về cách viết các âm vị, âm tiết, từ, cách dùng các dấu câu và lỗi viết hoa… 
+
+ Chuẩn chính tả có những đặc điểm sau đây: 
+
+- Đặc điểm đầu tiên của chuẩn chính tả là tích chất bắt buộc gần như tuyệt 
+
+đối của nó. Đặc điểm này đòi hỏi người viết bao giờ cũng phải viết đúng 
+
+chính tả. Chữ viết có thể chưa hợp lí nhưng khi đã được thừa nhận là chuẩn 
+
+chính tả thì người cầm bút không được tự ý viết khác đi. Trong chính tả 
+
+không có sự phân biệt hợp lí – không hợp lí, hay – dở mà chỉ có sự phân 
+
+biệt đúng – sai, không lỗi – lỗi. Đối với chính tả, yêu cầu cao nhất là cách 
+
+viết thống nhất, thống nhất trong mọi văn bản, mọi người, mọi địa phương. 
+
+- Do chuẩn chính tả có tính chất bắt buộc gần như tuyệt đối cho nên nó ít bị 
+
+thay đổi như các chuẩn mực khác của ngôn ngữ (như chuẩn ngữ âm, chuẩn 
+
+từ vựng, chuẩn ngữ pháp). Nói cách khác, chuẩn chính tả có tính chất ổn 
+
+định, tính chất cố hữu khá rõ. Sự tồn tại nhất nhất hàng thế kỉ của nó đã tạo 
+
+nên ấn tượng về một cái gì đó “bất di bất dịch”, một tâm lí rất bảo thủ. 
+
+- Ngữ âm phát triển, chính tả không thể giữ mãi tính chất cố hữu của mình 
+
+mà dần dần cũng có một sự biết động nhất định. Do đó, bên cạnh chuẩn 
+
+mực chính tả hiện có lại có thể xuất hiện một cách viết mới tồn tại song 
+
+song với nó. Tình trạng có nhiều cách viết như vậy đòi hỏi phải tiến hành 
+
+chuẩn hóa chính tả. 
+
+ 
+
+ Các nguyên nhân gây ra lỗi chính tả 
+
+Có nhiều nguyên nhân khác nhau gây ra lỗi chính tả, nhưng ta có thể tổng hợp 
+
+thành một số nguyên nhân như sau: 
+
+- Nguyên nhân do gõ từ sai: lỗi này xảy ra có thể do gõ sai/ thiếu/ thừa phím, 
+
+hay do cách cài đặt bàn phím, loại bàn phím, do quy tắc gõ tiếng Việt của 
+
+các kiểu gõ khác nhau (Telex, VNI, Unicode,...). 
+
+- Nguyên nhân do phát âm sai: lỗi này do sự nhầm lẫn giữa cách đọc và cách 
+
+viết của những từ đồng âm hoặc có âm gần giống nhau dân đến viết sai (như 
+
+lỗi sai âm đầu tr/ch, d/r/gi, s/x,lỗi dấu hỏi/ ngã,...). Ở Việt Nam, do có nhiều 
+
+khác biệt về cách phát âm giữa các vùng miền trong khi hệ thống chữ viết 
+
+lại dựa trên đặc trưng phát âm của Hà Nội nên dễ dẫn đến lỗi sai này. 
+
+
+
+15 
+
+ 
+
+- Nguyên nhân do sử dụng từ vựng sai: lỗi này do sử dụng từ sai với ý nghĩa 
+
+thực của nó. Đây là lỗi do vốn từ vựng của người viết, nhưng nhiều khi vẫn 
+
+đòi hỏi trình bắt lỗi chính tả phải tìm ra được những lỗi này. 
+
+- Các nguyên nhân khác: ngoài ra còn các loại lỗi chính tả khác như viết hoa, 
+
+viết tên riêng, thuật ngữ không đúng quy cách, ... 
+
+ Các loại lỗi chính tả tiếng Việt 
+
+Có nhiều cách phân loại lỗi chính tả khác nhau. Tuy nhiên, trong đồ án này em sẽ 
+
+phân lỗi chính tả thành hai loại: 
+
+- Lỗi tạo từ sai, hoàn toàn không có từ đó trong từ điển tiếng Việt. Đây là loại 
+
+lỗi dễ phát hiện hơn. (Ví dụ: : “ko”, “đượk”) 
+
+- Lỗi chính tả mà từ/ tiếng đó có trong từ điển. Nếu không dựa vào ngữ cảnh 
+
+xung quanh thì không thể xác định đó có phải là lỗi chính tả hay không. (Ví 
+
+dụ: “Chúng ta không lên đi đường này” – từ “lên” có trong từ điển nhưng 
+
+trong câu này nó không đúng mà ta nên sử dụng từ “nên”) 
+
+Ngoài ra còn có thể phân loại lỗi theo nguồn gốc phát sinh lỗi. Theo cách phân loại 
+
+này, có hai loại lỗi đó là lỗi nhập sai và lỗi phát âm sai. 
+
+- Lỗi nhập sai là lỗi gây ra do gõ sai phím, gõ sót hoặc dư phím. 
+
+- Lỗi phát âm sai là do sự nhầm lẫn giữa cách đọc và cách viết giữa những từ 
+
+đồng âm hoặc gần với nhau. 
+
+1.3 Một số nghiên cứu liên quan 
+
+ Phương pháp phát hiện và sửa lỗi chính tả tiếng Việt sử dụng mô 
+
+hình từ điển 
+
+Đây là phương pháp dựa trên tư tưởng vét cạn. Tức là với một từ được xem 
+
+là đúng chính tả, tác giả sẽ phát sinh và lưu trữ lại tất cả các trường hợp bị sai chính 
+
+tả có thể có của từ đó và tất cả được lưu trữ trong một bộ từ điển. Sau này khi mà 
+
+gặp một từ có dạng sai tương tự như trường hợp đã lưu trữ, chương trình sẽ báo là 
+
+có lỗi và đưa ra gợi ý từ gốc của từ đó. 
+
+- Nhược điểm:  
+
+- Rất tốn công và thời gian để có thể tạo lên bộ từ điển. 
+
+- Do bộ từ điển được tạo thủ công nên khó có thể bao quát hết được 
+
+tất cả các lỗi. 
+
+- Hiệu quả với loại lỗi tạo từ sai, hoàn toàn không có từ đó trong từ 
+
+điển tiếng Việt và không hiệu quả với loại lỗi chính tả mà từ/ tiếng 
+
+đó có trong từ điển do không nắm được nội dung câu. 
+
+ Kiểm tra lỗi chính tả tiếng Việt dựa trên luật cấu tạo âm tiết [2] 
+
+• Cấu trúc âm tiết 3 thành phần:  
+
+- Chúng ta có thể phân tích một âm tiết thành ba thành phần sau: 
+
++ Âm đầu 
+
++ Tổ hợp âm giữa 
+
++ Âm cuối 
+
+
+
+16 
+
+ 
+
+- Cấu trúc của một âm tiết theo cách tiếp cận 3 thành phần sẽ được 
+
+viết lại như sau: 
+
+Âm tiết = [Âm đầu]<Tổ hợp âm giữa>[Âm cuối] 
+
+Trong đó những thành phần nằm trong cặp dấu <> là bắt buộc phải có, 
+
+những thành phần nằm trong cặp dấu [ ] thì có thể có hoặc không. 
+
+• Tổ chức lưu trữ luật âm tiết 
+
+Dựa trên những phân tích về âm tiết 3 thành phần, chúng ta có thể tổ 
+
+chức lưu trữ từ điển luật theo Tổ hợp âm giữa trên file dữ liệu như sau: 
+
+Structure CT_AM 
+
+Tong_Am_Dau : LongInt 
+
+     To_Hop_Am_Giua : String(3) 
+
+     Tong_Am_Cuoi : LongInt 
+
+End Structure 
+
+Trong đó: Tong_Am_Dau là giá trị tổng của các Âm đầu có thể đi với 
+
+tổ hợp âm giữa 
+
+Tong_Am_Cuoi là giá trị tổng của các Âm cuối có thể đi với tổ hợp âm 
+
+giữa 
+
+Lưu cấu trúc âm này (có sắp xếp) thành một từ điển các cấu trúc âm để 
+
+sau này chúng ta kiểm tra các âm tiết ở trong từ điển. 
+
+• Thuật toán kiểm tra một âm tiết có đúng hay không 
+
+- Đầu vào: một âm tiết 
+
+- Đầu ra: Âm tiết đúng chính tả hay sai. 
+
+- Phương pháp: 
+
++ Bước 1: Tách âm tiết ra làm 3 phần: âm đầu, tổ hợp âm giữa, 
+
+âm cuối và chuyển thành một cấu trúc âm tiết X, tương ứng 
+
+theo âm đầu, tổ hợp âm giữa và âm cuối. 
+
++ Bước 2: Tìm tổ hợp âm giữa trong từ điển theo phương pháp 
+
+tìm kiếm nhị phân. 
+
++ Bước 3: Nếu tìm thấy thì tiếp tục bước 4, nếu không thì nhảy 
+
+đến bước 6. 
+
++ Bước 4: Ta lấy được một cấu trúc âm tiết CTAM tương ứng 
+
+trong từ điển. 
+
++ Bước 5: Kiểm tra xem âm đầu, âm cuối của X có trong trong 
+
+cấu trúc âm tiết CTAM đó hay không. Nếu có thì kết luận là 
+
+âm tiết đúng, nhảy đến bước 7. Nếu không tiếp tục bước 6. 
+
++ Bước 6: Kết luận âm tiết sai. 
+
++ Bước 7: Kết thúc 
+
+Việc kiểm tra toàn bộ các âm tiết của văn bản là việc kiểm tra 
+
+tất cả các âm tiết có trong từ điển hay không. 
+
+Với phương pháp này chúng ta kiểm tra được tất cả các âm 
+
+tiết trong văn bản có đúng chính tả hay không. 
+
+
+
+17 
+
+ 
+
+• Ưu điểm: 
+
+- Phương pháp này tiết kiệm được không gian lưu trữ từ điển, số cấu 
+
+trúc lưu trữ bằng số tổ hợp âm giữa của tiếng Việt, số lượng này 
+
+không nhiều (khoảng 700 cấu trúc). 
+
+- Do số lượng cấu trúc âm tiết nhỏ nên việc tìm kiếm rất nhanh, với 
+
+phương pháp tìm kiếm nhị phân thi tốc độ tìm kiếm là log2(n) (n là 
+
+số cấu trúc âm tiết). 
+
+• Nhược điểm: 
+
+- Chưa đưa được yếu tố ngữ cảnh trong câu vào để giải quyết nên chỉ 
+
+có tác dụng cho bài toán lỗi tạo từ sai, hoàn toàn không có từ đó 
+
+trong từ điển tiếng Việt. 
+
+ Phương pháp kiểm lỗi chính tả tiếng Việt dựa trên n-gram [3] 
+
+Thuật toán kiểm lỗi bao gồm 2 bước: 
+
+- Sinh tập nhầm lẫn âm tiết: tạo tập nhầm lẫn âm tiết dựa trên lỗi đánh 
+
+máy cho từng phần của âm tiết, sau đó tạo tập nhầm lẫn âm tiết do 
+
+lỗi phát âm. Kết hợp chúng ta được tập nhầm lẫn âm tiết. 
+
+- Sử dụng n-gram lựa chọn các âm tiết tốt nhất trong tập nhầm lẫn âm 
+
+tiết 
+
++ dựa vào tập nhầm lẫn âm tiết của 3 âm tiết đầu tiên, tính xác 
+
+suất tốt nhất trong tất cả các tổ hợp 3 âm tiết có thể từ 3 tập 
+
+nhầm lẫn âm tiết của chúng. Công thức tính xác suất: 
+
+P(s1s2s3) = P(s1).P(s2|s1).P(s3|s1s2) 
+
++ Từ 3 âm tiết đã được lựa chọn và được cho là đúng này, ta lần 
+
+lượt tính xác suất cho từng âm tiết tiếp theo: s4, s5,… 
+
+P(s2s3s4) = P(s1).P(s3|s2).P(s4|s2s3) 
+
+• Ưu điểm:  
+
+- Cài đặt đơn giản và hoàn toàn áp dụng tư tưởng của mô hình n-gram 
+
+- Đã đưa được yếu tố ngữ cảnh vào khi thực hiện. 
+
+• Nhược điểm:  
+
+- Tốc độ thực hiện chậm do phải tính xác suất của tất cả các tổ hợp của 
+
+âm tiết đầu 
+
+- Độ chính xác chưa cao. 
+
+1.4 Mục tiêu đồ án 
+
+Nhược điểm của phương pháp kiểm lỗi chính tả tiếng Việt sử dụng mô hình 
+
+từ điển là tốn công và thời gian và trong các cách tiếp cận trên hầu hết việc sử dụng 
+
+thông tin ngữ cảnh vào việc sửa lỗi chính tả còn rất ít hoặc không đạt kết quả như 
+
+mong đợi. Do đó, nghiên cứu và phát triển một ứng dụng phát hiện và sửa lỗi chính 
+
+tả tiếng Việt sử dụng thông tin ngữ cảnh sẽ giúp cho việc sửa lỗi chính tả đạt hiệu 
+
+quả cao hơn. 
+
+Đồ án này hướng tới việc tìm hiểu và ứng dụng kiểm lỗi chính tả tiếng Việt 
+
+mức độ tiếng dựa vào thông tin ngữ cảnh, sử dụng phương pháp học máy trên mô 
+
+hình mạng nơron. Nhờ khả năng học, chương trình có thể thích ứng được với sự 
+
+
+
+18 
+
+ 
+
+thay đổi không ngừng của ngôn ngữ mà không tốn quá nhiều công sức của con 
+
+người. 
+
+Bài toán có dữ liệu đầu vào là một câu sai chính tả và đầu ra là một câu đúng 
+
+chuẩn chính tả nên ta thấy mô hình dạng seq2seq sẽ thích hợp cho bài toán. Với 
+
+các mô hình thường được sử dụng nhiều trong các bài toán xử lí ngôn ngữ tự nhiên 
+
+(NLP) như RNN, LSTM, em thấy chúng có nhược điểm là:  
+
+- RNN:  
+
+- Vanishing gradient: hiện tượng gradient sẽ bị nhỏ lại tới mức gần 
+
+như biến mất ở những hidden state cuối khi input là một chuỗi dài. 
+
+- Exploding gradient: hiện tượng gradient quá lớn do tích tụ gradient 
+
+ở những lớp cuối đặc biệt hay xảy ra đối với câu dài. 
+
+- LSTM: là bước cải tiến lớn so với RNN, đã cải thiện được những nhược 
+
+điểm của RNN, nhưng với những câu quá dài vẫn sẽ gặp phải hiện tượng 
+
+vanishing gradient.  
+
+- RNN và LSTM đều xử lý các từ tuần tự nên tốc độ tính toán chưa được 
+
+cải thiện. 
+
+Do đó, trong đồ án này, em chọn mô hình Transformer vì nó kết hợp điểm mạnh 
+
+của CNN (Convolutional Neural Network – một giải pháp cho tính toán song 
+
+song) và Attention nên vừa có thể cải thiện tốc độ tính toán, vừa không lo hiện 
+
+tượng vanishing gradient do cơ chế tính toán song song.  
+
+Trong khuôn khổ đồ án này, em đã chọn sử dụng bộ công cụ mã nguồn mở 
+
+OpenNMT-py để cài đặt mô hình Transformer cho bài toán vì những lý do sau: 
+
+- Thân thiện với người sử dụng và đã chế độ (multimodal) 
+
+- Thừa hưởng tính dễ sử dụng của Pytorch 
+
+  
+
+
+
+19 
+
+ 
+
+CHƯƠNG 2. CƠ SỞ LÝ THUYẾT 
+
+2.1 Dịch máy mạng nơron (NMT) 
+
+NMT (Neural Machine Translation) là sự kết hợp của dịch máy (Machine 
+
+Translation - MT) và mạng nơron nhân tạo (Artificial Neural Network - NN). Khởi 
+
+nguồn của MT hoạt động theo cách chia nhỏ câu thành các cụm từ và tiến hành 
+
+dịch trên từng cụm từ một. Kết quả cuối cùng sẽ là một câu ghép lại từ các cụm từ 
+
+đã được dịch. Cách tiếp cận này được gọi là dịch theo cụm (pharase-based), và kết 
+
+quả thì không được ấn tượng lắm vì cách tiếp cận của phương pháp này không 
+
+thực sự giống với cách mà con người sử dụng trong dịch thuật là đọc toàn bộ câu, 
+
+nắm ý nghĩa của câu và đưa ra câu dịch tương ứng. Và NMT được xây dựng hoàn 
+
+toàn dựa trên cách làm này. NMT là cách tiếp cận MT phổ biến trong khoảng 4 
+
+năm gần đây và đã cho ra các kết quả thực sự tốt, tới mức ngang hoặc hơn cả con 
+
+người 
+
+ Cụ thể về kiến trúc thì NMT là sự kết hợp của 2 thành phần chính là 
+
+Seq2Seq và Attention 
+
+2.2 Mạng nơron nhân tạo 
+
+Mạng nơron nhân tạo [4] là một mô hình xử lý thông tin phỏng theo cách 
+
+thức xử lý thông tin của các hệ nơron sinh học. 
+
+Hình 2.1 cho thấy một mạng nơron đơn giản được tạo nên bởi tầng vào, tầng 
+
+ra và tầng ẩn. Từ “ẩn” có nghĩa là chúng ta có thể quan sát đầu vào và đầu ra trong 
+
+khi cấu trúc kết nối chúng vẫn bị ẩn. 
+
+ 
+
+Hình 2-1: Mô hình mạng nơron đơn giản 
+
+Mạng nơron nhân tạo được tạo nên từ một số lượng lớn các phần tử (nơron) 
+
+kết nối với nhau thông qua các liên kết (trọng số liên kết) làm việc như một thể 
+
+thống nhất để giải quyết một vấn đề cụ thể nào đó. Một mạng nơron nhân tạo được 
+
+cấu hình cho một ứng dụng cụ thể (nhận dạng mẫu, phân loại dữ liệu,...) thông qua 
+
+một quá trình học từ tập các mẫu huấn luyện. Về bản chất “học” chính là quá trình 
+
+hiệu chỉnh trọng số liên kết giữa các nơron. 
+
+
+
+20 
+
+ 
+
+Lấy ý tưởng từ nơron sinh học của não người, một nơron có thể nhận nhiều 
+
+đầu vào và cho ra một kết quả duy nhất. 
+
+ 
+Hình 2-2: Ví dụ về  một mạng nơron nhân tạo 
+
+Mỗi nơron sẽ nhận một hoặc nhiều đầu vào x dạng nhị phân và cho ra một 
+
+kết quả a dạng nhị phân duy nhất. Các đầu vào sẽ được điều chỉnh sự ảnh hưởng 
+
+nhờ trọng số w của nó, còn kết quả đầu ra sẽ được quyết định dựa trên một ngưỡng 
+
+b nào đó. 
+
+𝑎 =
+
+{
+ 
+ 
+
+ 
+ 0  𝑁ế𝑢   ∑𝑤𝑖𝑥𝑖
+
+𝑖
+
+≤ 𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑
+
+1  𝑁ế𝑢   ∑𝑤𝑖𝑥𝑖
+𝑖
+
+> 𝑡ℎ𝑟𝑒𝑠ℎ𝑜𝑙𝑑
+ 
+
+ Đặt b = - threshold biểu thức trên có thể viết lại thành: 
+
+  
+
+𝑎 =
+
+{
+ 
+ 
+
+ 
+ 0  𝑁ế𝑢   ∑𝑤𝑖𝑥𝑖
+
+𝑖
+
++ 𝑏 ≤ 0
+
+1  𝑁ế𝑢   ∑𝑤𝑖𝑥𝑖
+𝑖
+
++ 𝑏 > 0
+ 
+
+ 
+
+ Với đầu vào và đầu ra dạng nhị phân, rất khó để điều chỉnh một lượng nhỏ 
+
+đầu vào để đầu ra thay đổi chút ít, do vậy để linh động, chúng ta có thể mở rộng 
+
+chúng ra cả khoảng [0, 1] . Lúc này chúng ta sử dụng một hàm đặc biệt, gọi là hàm 
+
+kích hoạt để giới hạn giá trị đầu ra. Các hàm kích hoạt thường rất đa dạng, có thể 
+
+là hàm tuyến tính hoặc phi tuyến. Việc lựa chọn hàm kích hoạt nào là tuỳ thuộc 
+
+vào từng bài toán và kinh nghiệm của người thiết kế mạng. Một số hàm kích hoạt 
+
+thường sử dụng trong  các mô hình mạng nơron được đưa ra trong hình dưới. 
+
+
+
+21 
+
+ 
+
+ 
+Hình 2-3: Một số hàm kích hoạt thông dụng 
+
+Như vậy nơron nhân tạo nhận các tín hiệu đầu vào, xử lý (nhân các tín hiệu 
+
+này với trọng số liên kết, tính tổng các tích thu được rồi gửi kết quả tới hàm kích 
+
+hoạt), và cho một tín hiệu đầu ra (là kết quả của hàm kích hoạt). Một mạng nơron 
+
+là sự kết hợp của các tầng nơron như hình 3.3. Dựa trên cách thức liên kết các 
+
+nơron người ta chia làm hai loại: Mạng nơron truyền thẳng và mạng nơron hồi quy. 
+
+ Mạng nơron truyền thẳng 
+
+Mạng nơron truyền thẳng là một mạng nơron nhân tạo, trong đó các kết nối 
+
+giữa các nút không tạo thành chu kỳ. Mô hình mạng nơron chuyển tiếp là hình 
+
+thức đơn giản nhất của mạng nơron vì thông tin chỉ được xử lý theo một hướng. 
+
+Mặc dù dữ liệu có thể đi qua nhiều nút ẩn, nó luôn đi theo một hướng và không 
+
+bao giờ lùi. Số  đặc trưng của tập dữ liệu sẽ tương ứng với số nơron trong lớp đầu 
+
+vào. Tất cả các nơron này được kết nối với mỗi nơron trong lớp ẩn thông qua các 
+
+đường liên kết gọi là “khớp thần kinh”. Mỗi “khớp thần kinh” sẽ được gán một 
+
+trọng số (weight). Các trọng số này sẽ được điều chỉnh trong quá trình học của 
+
+mạng nơron nhân tạo để mô hình hóa mối liên hệ giữa lớp đầu vào và đầu ra. 
+
+
+
+22 
+
+ 
+
+ 
+
+Hình 2-4: Mạng nơron truyền thẳng 
+
+ Mạng nơron hồi quy 
+
+Như đã đề cập ở trên, mạng nơron gồm 3 tầng chính là tầng vào, tầng ra và 
+
+tầng ẩn. Có thể thấy đầu vào và đầu ra của mạng neuron này là độc lập với nhau. 
+
+Như vậy mô hình này không phù hợp với những bài toán dạng chuỗi như mô tả, 
+
+hoàn thành câu, ... vì những dự đoán tiếp theo như từ tiếp theo phụ thuộc vào vị trí 
+
+của nó trong câu và những từ đằng trước nó. Và như vậy, RNN ra đời với ý tưởng 
+
+chính là sử dụng một bộ nhớ để lưu lại thông tin từ từ những bước tính toán xử lý 
+
+trước để dựa vào nó có thể đưa ra dự đoán chính xác nhất cho bước dự đoán hiện 
+
+tại. 
+
+Mạng hồi quy là mạng có chứa các liên kết ngược. Khác với mạng truyền 
+
+thẳng, các thuộc tính động của mạng mới quan trọng. Trong một số trường hợp, 
+
+các giá trị kích hoạt của các đơn vị trải qua quá trình nới lỏng (tăng giảm số đơn 
+
+vị và thay đổi các liên kết) cho đến khi mạng đạt đến một trạng thái ổn định và các 
+
+giá trị kích hoạt không thay đổi nữa. Trong các ứng dụng khác mà cách chạy động 
+
+tạo thành đầu ra của mạng thì những sự thay đổi các giá trị kích hoạt là đáng quan 
+
+tâm. 
+
+ 
+
+ 
+
+Hình 2-5: Mạng nơron hồi quy 
+
+Một điểm nổi bật của RNN chính là ý tưởng kết nối các thông tin phía trước 
+
+để dự đoán cho hiện tại. Đôi lúc ta chỉ cần xem lại thông tin vừa có thôi là đủ để 
+
+biết  được tình huống hiện tại. Ví dụ, ta có câu: “các đám mây trên bầu trời” thì ta 
+
+chỉ cần đọc tới “các đám mây trên bầu” là đủ biết được chữ tiếp theo là “trời” rồi. 
+
+Trong tình huống này, khoảng cách tới thông tin có được cần để dự đoán là nhỏ, 
+
+
+
+23 
+
+ 
+
+nên RNN hoàn toàn có thể học được. Nhưng trong nhiều tình huống ta buộc phải 
+
+sử dụng nhiều ngữ cảnh hơn để suy luận. Ví dụ, dự đoán chữ cuối cùng trong đoạn: 
+
+“I grew up in France… I speak fluent French.”. Rõ ràng là các thông tin gần (“I 
+
+speak fluent”) chỉ có phép ta biết được đằng sau nó sẽ là tên của một ngôn ngữ nào 
+
+đó, còn không thể nào biết được đó là tiếng gì. Muốn biết là tiếng gì, thì ta cần 
+
+phải có thêm ngữ cảnh “I grew up in France” nữa mới có thể suy luận được. Rõ 
+
+ràng là khoảng cách thông tin lúc này có thể đã khá xa rồi. 
+
+Theo Hochreiter (1991) và Bengio (1994), với khoảng cách càng lớn dần thì 
+
+RNN bắt đầu không thể nhớ và học được nữa. Và LSTM ra đời dựa trên RNN, có 
+
+khả năng giải quyết vấn đề này. 
+
+ Mạng Long Short-Term Memory (LSTM) 
+
+Long Short Term Memory networks – thường được gọi là “LSTM”, là trường 
+
+hợp đặc biệt của RNN, có khả năng học với sự phụ thuộc lâu dài của các nơ-ron. 
+
+Mô hình này được giới thiệu bởi Hochreiter & Schmidhuber (1997) , và được cải 
+
+tiến lại bởi Ayako Mikami (2016) . Mục tiêu chính của LSTM là quyết định thông 
+
+tin nào được lưu lại và loại bỏ tại mỗi nơron của RNN. 
+
+ 
+
+ 
+
+Hình 2-6: Mô hình mạng LSTM 
+
+Chìa khóa của LSTM là trạng thái tế bào (cell state). LSTM có khả năng bỏ 
+
+đi hoặc thêm vào các thông tin cần thiết cho trạng thái tế báo, chúng được điều 
+
+chỉnh cẩn thận bởi các nhóm được gọi là cổng (gate) như hình 3.6. 
+
+ 
+
+ 
+
+Hình 2-7: Cổng quên 
+
+
+
+24 
+
+ 
+
+ 
+
+Cổng quên: Cổng này quyết định xem thông tin nào trong bộ nhớ hiện tại 
+
+được giữ và thông tin nào bị bỏ lại. Thông tin đầu vào được cho vào hàm sigmoid. 
+
+Đầu ra của hàm này đóng vai trò là mask để lọc thông tin từ trạng thái cell. 
+
+ 
+
+Chìa khóa của LSTM là trạng thái tế bào (cell state). LSTM có khả năng bỏ 
+
+đi hoặc thêm vào các thông tin cần thiết cho trạng thái tế báo, chúng được điều 
+
+chỉnh cẩn thận bởi các nhóm được gọi là cổng (gate) như hình 3.6: Cổng quên: 
+
+Cổng này quyết định xem thông tin nào trong bộ nhớ hiện tại được giữ và thông 
+
+tin nào bị bỏ lại. Thông tin đầu vào được cho vào hàm sigmoid. Đầu ra của hàm 
+
+này đóng vai trò là mask để lọc thông tin từ trạng thái cell. 
+
+ 
+
+Hình 2-8: Cổng vào 
+
+Cổng ra: cổng này quyết định output của từ hiện tại là gì. Nó được lấy 
+
+thông tin từ 2 nguồn: trạng thái cell và input hiện tại. Trạng thái cell sau khi 
+
+chỉnh sửa sẽ đi qua hàm tanh và input hiện tại thì được đi qua hàm sigmoid. Kết 
+
+hợp 2 kết quả trên để có được kết quả đầu ra. Kết quả đầu ra và cả trạng thái cell 
+
+đều được đưa vào bước tiếp theo. 
+
+ 
+Hình 2-9: Cổng ra 
+
+2.3 Cơ chế Word Embedding 
+
+Đối với xử lý ngôn ngữ tự nhiên nói chung và dịch máy nói riêng, dữ liệu 
+
+thường là dạng chuỗi ký tự. Con người nhìn chuỗi ký tự này và xử lý nội dung ở 
+
+dạng các từ được ghép nối với nhau. Câu hỏi được đặt ra tương tự đối với máy 
+
+tính. Làm thế nào để biểu diễn một chuỗi ký tự thành các con số để máy tính xử 
+
+lý, đặc biệt trong các mô hình học máy khi mà dữ liệu đầu vào đóng vai trò cực kỳ 
+
+quan trọng để xây dựng được mô hình hiệu quả. Một trong những cách biểu diễn 
+
+
+
+25 
+
+ 
+
+tốt và được sử dụng phổ biến hiện nay đó là Word Embedding. Kỹ thuật trên cho 
+
+phép biểu diễn mỗi token bằng một vector với số chiều thấp và có sự liên hệ ngữ 
+
+nghĩa giữa các vector. 
+
+Word embedding là quá trình chuyển đổi văn bản thành các con số và có thể 
+
+có nhiều đại diện dạng số khác nhau thể hiện cùng một văn bản. Word embedding 
+
+là kỹ thuật để thể hiện các từ thành các vector có kích thước cố định, sao cho các 
+
+từ có nghĩa tương tự hoặc gần nghĩa được thể hiện bằng các vector gần nhau (tính 
+
+theo khoảng cách euclid).  
+
+Nhiều thuật toán học máy và hầu hết tất cả các kiến trúc học sâu (Deep 
+
+Learning) không thể xử lý trực tiếp các xâu hay các văn bản thông thường. Chúng 
+
+yêu cầu đầu vào là các con số để thực thi các tác vụ của mình như phân loại văn 
+
+bản, dịch. Word embedding về cơ bản sẽ thực hiện ánh xạ một từ trong một từ điển 
+
+thành một vector. Chính vì vậy có thể hiểu word embedding là quá trình vector 
+
+hóa một từ, hay tổng quát là vector hóa văn bản. 
+
+Cách biểu diễn Word Embedding đơn giản, những từ có nghĩa tương tự nhau, 
+
+có thể thay thế cho nhau sẽ được đặt gần nhau. Khoảng cách càng gần thì càng có 
+
+khả năng thay thế hơn. 
+
+Như vậy, con người dịch thuật sử dụng ngôn ngữ tự nhiên, còn dịch máy 
+
+sử dụng Word Embedding. 
+
+ 
+
+Mã hóa BPE 
+
+Byte Pair Encoding là một thuật toán nén dữ liệu được giới thiệu lần đầu tiên 
+
+vào năm 1994, giúp tăng hiệu quả của tất cả các mô hình NLP tiên tiến hiện nay 
+
+(bao gồm cả BERT). 
+
+Các không gian véc tơ từ được huấn luyện như Word2vec và GloVe đã đặt 
+
+nền tảng cho những thành công để máy tính có thể hiểu được ý nghĩa của các từ. 
+
+Trong nhiều năm, chúng là cách biểu diễn đáng tin cậy trong việc huấn luyện các 
+
+mô hình học máy trong NLP khi không có nhiều dữ liệu. Mặc dù vậy, chúng không 
+
+phải là công cụ toàn năng khi đối mặt với những từ hiếm xuất hiện. Các từ này 
+
+được thay thế bởi tokens <unk> khi cài đặt mô hình. 
+
+Để giải quyết các từ hiếm, chúng ta có giải pháp là biểu diễn văn bản dưới 
+
+dạng tập hợp các ký tự. Các từ hiếm xét cho cùng vẫn được tạo nên từ những ký 
+
+tự “không hiếm”. Mặc dù vậy, các ký tự không có được sự mô tả ngữ nghĩa trọn 
+
+vẹn như các từ. Đi tìm một cách biểu diễn dữ liệu trung hòa giữa biểu diễn dữ liệu 
+
+bằng ký tự và từ, bước đột phá thực sự đầu tiên trong việc giải quyết vấn đề từ 
+
+hiếm được thực hiện bởi các nhà nghiên cứu tại Đại học Edinburgh bằng cách sử 
+
+dụng thành phần từ với Byte Pair Encoding (BPE). Ngày nay, phương pháp mã 
+
+hóa này và các biến thể của nó trở thành chuẩn mực trong hầu hết các mô hình tiên 
+
+tiến bao gồm cả BERT, GPT-2, RoBERTa,...  
+
+Nguyên lý hoạt động của BPE dựa trên phân tích trực quan rằng hầu hết các 
+
+từ đều có thể phân tích thành các thành phần con. Chẳng hạn như từ: low, lower, 
+
+
+
+26 
+
+ 
+
+lowest đều là hợp thành bởi low và những đuôi phụ er, est. Những đuôi này rất 
+
+thường xuyên xuất hiện ở các từ. Như vậy khi biểu diễn từ lower chúng ta có thể 
+
+mã hóa chúng thành hai thành phần từ phụ (subwords) tách biệt là low và er. Theo 
+
+cách biểu diễn này sẽ không phát sinh thêm một index mới cho từ lower và đồng 
+
+thời tìm được mối liên hệ giữa lower, lowest và low nhờ có chung thành phần từ 
+
+phụ là low. 
+
+Phương pháp BPE sẽ thống kê tần suất xuất hiện của các từ phụ cùng nhau 
+
+và tìm cách gộp chúng lại nếu tần suất xuất hiện của chúng là lớn nhất. Cứ tiếp tục 
+
+quá trình gộp từ phụ cho tới khi không tồn tại các subword để gộp nữa, ta sẽ thu 
+
+được tập subwords cho toàn bộ bộ văn bản mà mọi từ đều có thể biểu diễn được 
+
+thông qua subwords. 
+
+Quá trình này gồm các bước như sau: 
+
+• Bước 1: Khởi tạo bộ từ điển. 
+
+• Bước 2: Biểu diễn mỗi từ trong bộ văn bản bằng cách kết hợp của các 
+
+ký tự @@ ở cuối cùng để đánh dấu sự kết thúc của một từ. 
+
+• Bước 3: Thống kê tần suất xuất hiện theo cặp của toàn bộ token theo 
+
+trong bộ từ điển. 
+
+• Bước 4: Gộp các cặp câu có tần suất xuất hiện lớn nhất để tạo thành 
+
+một n-gram theo level character cho từ điển. 
+
+• Bước 5: Lặp lại bước 3 và bước 4 cho tới khi số bước triển khai merge 
+đạt đỉnh hoặc kích thước kỳ vọng của từ điển đạt được. 
+
+Giả sử từ điển của chúng ta gồm các từ với tần suất như sau: vocab = {'low@@': 
+
+5, 'lower@@': 2, 'newest@@': 6, 'widest@@': 3}. 
+
+Coi mỗi ký tự là một token. Khi đó thống kê tần suất xuất hiện của các cặp ký tự 
+
+như sau:  
+
+('d', 'e'): 3, ('e', 'r'): 2, ('e', 's'): 9, ('e', 'w'): 6, ('i', 'd'): 3,  ('l', 'o'): 7, 
+
+('n', 'e'): 6, ('o', 'w'): 7, ('r', '@@'): 2, ('s', 't'): 9, ('t', @@'): 9, ('w', '@@'): 
+
+5, ('w', 'e'): 8, ('w', 'i'): 3. 
+
+Lựa chọn cặp từ phụ có tần suất xuất hiện nhỏ nhất và merge chúng thành một từ 
+
+phụ mới. 
+
+Ta nhận thấy qua các lượt merge từ phụ, độ dài của các từ phụ trong từ điển 
+
+tăng dần. Thuật toán hội tụ trước 1000 vòng lặp vì toàn bộ các từ phụ đã được 
+
+merge và đạt ngưỡng của từng từ đơn. Khi giới hạn kích thước của từ điển hoặc số 
+
+lượng lượt merge ta sẽ thu được một từ điển từ phụ là thành phần của các từ trong 
+
+từ điển. Khi đó mọi từ mới dường như sẽ có thể biểu diễn được theo từ phụ. Ví dụ: 
+
+Khi dừng số lượt merge tại bước 10 ta thu được từ điển: {'low@@': 5, 'low': 2, 'e': 
+
+2, 'r': 2, '@@': 2, 'newest@@': 6, 'wid': 3, 'est@@': 3}. Khi đó ta có thể biểu diễn 
+
+một token mới chưa từng xuất hiện trong từ điển là wider thành wider. 
+
+2.4 Mô hình Seq2Seq 
+
+Sequence to Sequence Model (Seq2seq) là một mô hình Deep Learning với 
+
+mục đích tạo ra một output sequence từ một input sequence mà độ dài của 2 
+
+sequences này có thể khác nhau. Seq2seq được giới thiệu bởi nhóm nghiên cứu 
+
+
+
+27 
+
+ 
+
+của Google vào năm 2014 trong bài báo Sequence to Sequence with Neural 
+
+Networks. Mặc dù mục đích ban đầu của Model này là để áp dụng trong Machine 
+
+Translation, tuy nhiên hiện nay Seq2seq cũng được áp dụng nhiều trong các hệ 
+
+thống khác như Speech recognition, Text summarization, Image captioning,… 
+
+Seq2seq gồm 2 phần chính là Encoder và Decoder. Cả hai thành phần này 
+
+đều được hình thành từ các mạng Neural Networks, trong đó Encoder có nhiệm vụ 
+
+chuyển đổi dữ liệu đầu vào (input sequence) thành một representation với lower 
+
+dimension còn Decoder có nhiệm vụ tạo ra output sequence từ representation của 
+
+input sequence được tạo ra ở phần Encoder. 
+
+Mô hình Seq2Seq cơ bản có nhược điểm là yêu cầu RNN decoder sử dụng 
+
+toàn bộ thông tin mã hóa từ chuỗi đầu vào cho dù chuỗi đó dài hay ngắn. Thứ hai, 
+
+RNN encoder cần phải mã hóa chuỗi đầu vào thành một vector duy nhất và có độ 
+
+dài cố định. Ràng buộc này không thực sự hiệu quả vì trong thực tế, việc sinh ra 
+
+từ tại một bước thời gian trong chuỗi đầu ra có khi phụ thuộc nhiều hơn vào một 
+
+số những thành phần nhất định trong chuỗi đầu vào. Ví dụ, khi dịch một câu từ 
+
+tiếng nước này sang tiếng nước khác, chúng ta thường quan tâm nhiều hơn đến 
+
+ngữ cảnh xung quanh từ hiện tại so với các từ khác trong câu. 
+
+Kỹ thuật attention được đưa ra để giải quyết vấn đề đó. Kỹ thuật attention 
+
+được đưa ra lần đầu vào năm 2014 bới Bahdanau và cộng sự trong công trình 
+
+nghiên cứu về dịch máy. Ở mức trừu tượng, kỹ thuật attention nới lỏng điều kiện 
+
+rằng toàn bộ chuỗi đầu vào được mã hóa bằng một vector duy nhất. Thay vào đó 
+
+các từ trong chuỗi đầu vào sẽ được RNN encoder mã hóa thành một dãy các vector. 
+
+Sau đó RNN decoder áp dụng kỹ thuật attention mềm dẻo (soft attention) bằng 
+
+cách lấy tổng có trọng số của dãy các vector mã hóa. Các trọng số trong mô hình 
+
+này được tính bằng một mạng neural truyền thẳng. RNN encoder, RNN decoder 
+
+và các tham số trong kỹ thuật attention được huấn luyện đồng thời từ dữ liệu. Hình 
+
+dưới đây minh họa mô hình Seq2Seq sử dụng attention trong bài toán dịch máy. 
+
+
+
+28 
+
+ 
+
+ 
+
+Hình 2-10: Attention với mô hình Seq2Seq trong dịch máy 
+
+2.5 Mô hình Transformer 
+
+ Giới thiệu mô hình Transformer 
+
+RNN và LSTM là các phương pháp tiếp cận hiện đại thường được sử dụng 
+
+trong mô hình về xử lý ngôn ngữ và từ đó, đã có nhiều nỗ lực cải tiến mô hình 
+
+ngôn ngữ và kiến trúc mã hóa - giải mã. Các mô hình hồi quy thường tính toán 
+
+theo vị trị các ký tự các chuỗi đầu vào và đầu ra. Việc căn chỉnh vị trí này trong 
+
+các bước tính toán, sẽ tạo ra các trạng thái ẩn. Bản chất tuần tự vốn có này loại trừ 
+
+tính đồng thời trong các mẫu huấn luyện, điều này trở nên quan trọng khi mà chuỗi 
+
+dài hơn do các ràng buộc bộ nhớ bị giới hạn theo các mẫu ví dụ. Các nghiên cứu 
+
+gần đây đã đạt được những cải tiến đáng kể về hiểu quả tính toán thông qua các 
+
+thủ thuật và tính toán có điều kiện, đồng thời cải thiện hiệu suất của mô hình. Tuy 
+
+nhiên, hạn chế của tính toán tuần tự vẫn còn. 
+
+Các cơ chế attention đã trở thành một phần không thể thiếu trong mô hình 
+
+tuần tự, cho phép mô hình hóa các phụ thuộc mà không quan tâm đến khoảng cách 
+
+của chuỗi đầu vào và đầu ra. Gần như trong tất cả các trường hợp, các cơ chế 
+
+attention được sử dụng cùng với mạng hồi quy. Dưới đây, mô hình Transformer 
+
+được đề xuất, một kiến trúc mô hình tránh việc hồi quy mà thay vào đó là hoàn 
+
+toàn dựa vào cơ chế attention để đưa ra sự phụ thuộc giữa đầu vào và đầu ra. 
+
+ Tổng quan về mô hình 
+
+Đây là mô hình được các kỹ sư của Google giới thiệu vào năm 2017 trong 
+
+bài báo Attention Is All You Need [5]. Giống như những mô hình dịch máy 
+
+khác, kiến trúc tổng quan của mô hình transformer bao gồm 2 phần lớn là 
+
+encoder và decoder. Encoder dùng để học vector biểu của câu với mong muốn 
+
+
+
+29 
+
+ 
+
+rằng vector này mang thông tin hoàn hảo của câu đó. Decoder thực hiện chức 
+
+năng chuyển vector biểu diễn kia thành ngôn ngữ đích. Chi tiết các thành phần 
+
+của bộ mã hóa và giải mã được thể hiện như hình 3.11, bộ mã hóa và giải mã lần 
+
+lượt nằm ở cột bên trái và bên phải của hình vẽ. 
+
+ 
+
+Hình 2-11: Kiến trúc mô hình Transformer 
+
+
+
+30 
+
+ 
+
+ 
+
+Hình 2-12: Bộ mã hóa và giải mã trong mô hình Transformer 
+
+Một trong những ưu điểm của Transformer là mô hình có khả năng xử lý 
+
+song song cho các từ. Đầu vào sẽ được đẩy vào cùng một lúc. Bộ mã hóa của mô 
+
+hình transformer bao gồm một tập gồm N = 6 lớp giống nhau, mỗi lớp bao gồm 2 
+
+lớp con. Lớp đầu tiên là cơ chế multi-head self-attention, và lớp thứ 2 là mạng 
+
+feed-forward kết nối đầy đủ. Đầu ra của mỗi lớp con là LayerNorm(x + 
+
+Sublayer(x)), trong đó Sublayer(x) là một hàm được thực hiện bởi chính lớp con 
+
+đó. 
+
+Bộ giải mã: cũng bao gồm tập gồm N = 6 lớp giống nhau. Ngoài hai lớp con 
+
+giống như bộ mã hóa, bộ giải mã còn có một lớp để thực hiện multi-head attention 
+
+
+
+31 
+
+ 
+
+trên đầu ra của lớp giải mã. Ở đây sẽ có thay đổi cơ chế self-attention trong bộ mã 
+
+hóa. Dưới đây sẽ trình bày chi tiết về bộ mã hóa và giải mã của mô hình 
+
+transformer. 
+
+ Cơ chế Self Attention 
+
+Trước khi đi chi tiết vào mô hình, em sẽ trình bày về self-attention – “trái 
+
+tim” của mô hình transformer. Self Attention cho phép mô hình khi mã hóa một từ 
+
+có thể sử dụng thông tin của những từ liên quan tới nó. Có thể tưởng tượng self-
+
+attention giống như cơ chế tìm kiếm. Với một từ cho trước, cơ chế này sẽ cho phép 
+
+mô hình tìm kiếm trong các từ còn lại để xác định từ nào liên quan để sau đó thông 
+
+tin sẽ được mã hóa dựa trên tất cả các từ trên. 
+
+Đầu vào của self-attention là 3 vector query, key, value. Các vector này được 
+
+tạo ra bằng cách nhân ma trận biểu diễn các từ đầu vào với ma trận học tương ứng. 
+
+➢ Query vector: vector dùng để chứa thông tin của từ được tìm kiếm, so 
+
+sánh. 
+
+➢ Key vector: vector dùng để biểu diễn thông tin các từ được so sánh 
+
+với từ cần tìm kiếm ở trên. 
+
+➢ Value vector: vector biểu diễn nội dung, ý nghĩa của các từ. 
+
+Vector attention cho một từ thể hiện tính tương quan giữa 3 vector này được 
+
+tạo ra bằng cách nhân tích vô hướng giữa chúng và sau đó được chuẩn hóa bằng 
+
+hàm softmax. Cụ thể quá trình tính toán như sau: 
+
+Bước 1: Tính ma trận query, key, value bằng cách khởi tạo 3 ma trận trọng số 
+
+query, key, vector. Sau đó nhân input với các ma trận trọng số này để tạo thành 3 
+
+ma trận tương ứng. 
+
+Bước 2: Tính attention weights. Nhân 2 ma trận key, query vừa được tính ở trên 
+
+với nhau để với ý nghĩa là so sánh giữa câu query và key để học mối tương quan. 
+
+Sau đó thì chuẩn hóa về đoạn [0-1] bằng hàm softmax. 1 có nghĩa là câu query 
+
+giống với key, 0 có nghĩa là không giống. 
+
+Bước 3: Tính output. Nhân attention weights với ma trận value. Điều này có nghĩa 
+
+là chúng ta biểu diễn một từ bằng trung bình có trọng số (attention weights) của 
+
+ma trận value. 
+
+
+
+32 
+
+ 
+
+ 
+
+Hình 2-13: Quá trình tính toán vector attention 
+
+Hai hàm attention phổ biến được sử dụng là additive attention và dot-product 
+
+attention. Một điểm đặc biệt dot-product attention là chia cho 
+
+√𝑆ố 𝑐ℎ𝑖ề𝑢 𝑐ủ𝑎 𝑣𝑒𝑐𝑡𝑜𝑟 𝑘𝑒𝑦 , additive attention tính toán sử dụng một mạng feed-
+
+forward với một tầng ẩn. Về mặt lý thuyết, cả hai giống nhau về độ phức tạp nhưng 
+
+dot-product attention trong thực tế nhanh hơn và hiệu quả hơn vì có thể sử dụng 
+
+thuật toán nhân ma trận tối ưu. Trong đồ án sẽ sử dụng dot-product attention. 
+
+ Để hiểu rõ hơn về cách tính toán chúng ta sẽ thực hiện tính toán vector 
+
+attention qua các bước như sau: (1) Chuẩn bị đầu vào, (2) Khởi tạo trọng số, (3) 
+
+Xác định key, query và value, (4) Tính điểm số attention với đầu vào 1, (5) Tính 
+
+giá trị hàm softmax, (6) Nhân điểm số trên với value, (7) Tính đầu ra cho đầu vào 
+
+1, (8) Lặp lại các bước từ 4 đến 7 với các đầu vào khác. Cụ thể như sau: 
+
+Trong ví dụ này, chúng ta sẽ thực hiện tính toán với 3 đầu vào với số chiều là 4. 
+
+ 
+
+  Input 1: [1, 0, 1, 0] 
+
+  Input 2: [0, 2, 0, 2] 
+
+  Input 3: [1, 1, 1, 1] 
+
+ 
+
+Mỗi một đầu vào phải có 3 biểu diễn đó là key, query và value. Giả sử chúng ta 
+
+muốn các vector này có số chiều là 3, trong khi đầu vào có kích thước là 4. Do đó, 
+
+một tập hợp trọng số phải là ma trận có kích thước là 4×3. Chúng ta sẽ khởi tạo bộ 
+
+trọng số như sau: 
+
+ 
+
+Trọng số key 
+
+
+
+33 
+
+ 
+
+ 
+
+  [[0, 0, 1], 
+
+           [1, 1, 0], 
+
+           [0, 1, 0], 
+
+           [1, 1, 0]] 
+
+Trọng số query 
+
+  [[1, 0, 1], 
+
+           [1, 0, 0], 
+
+           [0, 0, 1], 
+
+           [0, 1, 1]] 
+
+Trọng số value 
+
+  [[0, 2, 0], 
+
+           [0, 3, 0], 
+
+           [1, 0, 3], 
+
+           [1, 1, 0]] 
+
+Lưu ý rằng trong cài đặt mạng nơ ron, các trọng số này thường là các số rất nhỏ, 
+
+được khởi tạo ngẫu nhiên bằng cách sử dụng các phân phối ngẫu nhiên như 
+
+Gaussian, Xavier và Kaimin. Khởi tạo này sẽ được thực hiện một lần trước khi 
+
+huấn luyện. 
+
+Bây giờ chúng ta đã có 3 bộ trọng số, chúng ta sẽ tính các ma trận biểu diễn key, 
+
+query và value cho các đầu vào. 
+
+Ma trận key cho đầu vào 1: 
+
+                  [0, 0, 1] 
+
+  [1, 0, 1, 0] x  [1, 1, 0] = [0, 1, 1] 
+
+                  [0, 1, 0] 
+
+                   [1, 1, 0] 
+
+Tính toán tương tự cho dầu vào 2 và đầu vào 3 ta có: 
+
+                 [0, 0, 1] 
+
+  [0, 2, 0, 2] x  [1, 1, 0] = [4, 4, 0] 
+
+                  [0, 1, 0] 
+
+                   [1, 1, 0] 
+
+ 
+
+                  [0, 0, 1] 
+
+  [1, 1, 1, 1] x  [1, 1, 0] = [2, 3, 1] 
+
+                  [0, 1, 0] 
+
+                   [1, 1, 0] 
+
+Để tính toán nhanh hơn, chúng ta có thể tính toán ma trận key như sau: 
+
+ 
+
+ 
+
+
+
+34 
+
+ 
+
+                      [0, 0, 1] 
+
+  [1, 0, 1, 0]    [1, 1, 0]   [0, 1, 1] 
+
+  [0, 2, 0, 2] x  [0, 1, 0] = [4, 4, 0]       
+
+      [1, 1, 1, 1]    [1, 1, 0]   [2, 3, 1] 
+
+Tính toán tương tự với ma trận value: 
+
+                      [0, 2, 0] 
+
+  [1, 0, 1, 0]    [0, 3, 0]   [1, 2, 3] 
+
+  [0, 2, 0, 2] x  [1, 0, 3] = [2, 8, 0]       
+
+      [1, 1, 1, 1]    [1, 1, 0]   [2, 6, 3] 
+
+Tính toán tương tự với ma trận query: 
+
+                      [1, 0, 1] 
+
+  [1, 0, 1, 0]    [1, 0, 0]   [1, 0, 2] 
+
+  [0, 2, 0, 2] x  [0, 0, 1] = [2, 2, 2]       
+
+      [1, 1, 1, 1]    [0, 1, 1]   [2, 1, 3] 
+
+Tiếp đến chúng ta sẽ tính toán điểm số attention với từng đầu vào. Giá trị này sẽ 
+
+được tính bằng cách nhân ma trận query của từng đầu vào với ma trận chuyển vị 
+
+của ma trận value. Cụ thể như sau: 
+
+                 [0, 4, 2] 
+
+  [1, 0, 2]    x  [1, 4, 3] = [2, 4, 4] 
+
+                  [1, 0, 1] 
+
+Tiếp đến chúng ta sẽ chuẩn hóa giá trị trên bằng hàm softmax: 
+
+      Softmax ([2, 4, 4]) = [0.0, 0.5, 0.5] 
+
+Sau đó, chúng ta sẽ nhân giá trị hàm softmax với ma trận value: 
+
+  1: 0.0 * [1, 2, 3] = [0.0, 0.0, 0.0] 
+  2: 0.5 * [2, 8, 0] = [1.0, 4.0, 0.0] 
+  3: 0.5 * [2, 6, 3] = [1.0, 3.0, 1.5] 
+
+Các giá trị trên sẽ được cộng với nhau để thu được ma trận attention 
+
+        [0.0, 0.0, 0.0] 
+
+      + [1.0, 4.0, 0.0] 
+
+   + [1.0, 3.0, 1.5] 
+
+    ----------------- 
+
+       = [2.0, 7.0, 1.5] 
+
+Ma trận [2.0, 7.0, 1.5] chính là biểu diễn attention của đầu vào 1, nó thể hiện mối 
+
+quan hệ với tất cả các key khác và cả chính nó. Thực hiện tương tự với đầu vào 2 
+
+và 3, ta có ma trận attention với các đầu vào như sau: 
+
+  [[2.0, 7.0, 1.5], # attention 1 
+
+  [2.0, 8.0, 0.0],      # attention 2 
+
+   [2.0, 7.8, 0.3]])     # attention 3 
+
+ 
+
+
+
+35 
+
+ 
+
+ Bộ mã hóa – Encoder 
+
+Encoder của mô hình transformer có thể bao gồm nhiều encoder layer tượng 
+
+tự nhau. Mỗi encoder layer của transformer lại bao gồm 2 thành phần chính là 
+
+multi head attention và feedforward network, ngoài ra còn có cả skip connection 
+
+và normalization layer. Các thành phần của 1 lớp được biểu diễn như sau: 
+
+  
+
+Hình 2-14: Encoder của mô hình Transformer 
+
+ 
+
+2.5.4.1. Embedding Layer 
+
+Đầu tiên, các từ được biểu diễn bằng một vector sử dụng một ma trận word 
+
+embedding có số dòng bằng kích thước của tập từ vựng. Sau đó các từ trong câu 
+
+được tìm kiếm trong ma trận này, và được nối nhau thành các dòng của một ma 
+
+trận 2 chiều chứa ngữ nghĩa của từng từ riêng biệt. Nhưng như các bạn đã thấy, 
+
+transformer xử lý các từ song song, do đó, với chỉ word embedding mô hình không 
+
+thể nào biết được vị trí các từ. Như vậy, chúng ta cần một cơ chế nào đó để đưa 
+
+thông tin vị trí các từ vào trong vector đầu vào. Đó là lúc positional encoding xuất 
+
+hiện và giải quyết vấn đề của chúng ta. 
+
+2.5.4.2. Position Encoding 
+
+Phương pháp của tác giả đề xuất không gặp những hạn chế mà chúng ta vừa 
+
+nêu. Vị trí của các từ được mã hóa bằng một vector có kích thước bằng word 
+
+embedding và được cộng trực tiếp vào word embedding. Giá trị này được tính như 
+
+sau: 
+
+𝑃𝐸(𝑝𝑜𝑠,2𝑖) = 𝑠𝑖𝑛 (
+𝑝𝑜𝑠
+
+10000
+2𝑖
+
+𝑑𝑚𝑜𝑑𝑒𝑙
+
+) 
+
+
+
+36 
+
+ 
+
+𝑃𝐸(𝑝𝑜𝑠,2𝑖+1) = 𝑐𝑜𝑠 (
+𝑝𝑜𝑠
+
+10000
+2𝑖
+
+𝑑𝑚𝑜𝑑𝑒𝑙
+
+) 
+
+Trong đó: 
+
+• pos là vị trí của từ trong câu 
+
+• PE là giá trị phần tử thứ i trong embeddings có độ dài 𝑑𝑚𝑜𝑑𝑒𝑙 
+
+Như vậy bộ mã hóa sẽ nhận ma trận biểu diễn của các từ đã được cộng với thông 
+
+tin vị trí thông qua positional encoding. 
+
+ 
+Hình 2-15: Ví dụ biểu diễn từ đầu vào 
+
+Sau đó, ma trận này sẽ được xử lý bởi Multi Head Attention. Multi Head 
+
+Attention thực chất là là sử dụng nhiều self-attention. 
+
+2.5.4.3. Multi Head Attention 
+
+Vấn đề của self-attention là attention của một từ sẽ luôn “chú ý” vào chính 
+
+nó. Chúng ta muốn mô hình có thể học nhiều kiểu mối quan hệ giữ các từ với nhau. 
+
+Ý tưởng là thay vì sử dụng một self-attention thì chúng ta sẽ sử dụng nhiều self-
+
+attention. 
+
+ 
+
+Hình 2-16: Quá trình tính toán vector attention với nhiều “head” 
+
+
+
+37 
+
+ 
+
+Đơn giản là cần nhiều ma trận query, key, value. Mỗi “head” sẽ cho ra output 
+
+riêng, các ma trận này sẽ được kết hợp với nhau và nhân với ma trận trọng số để 
+
+có được ma trận attention duy nhất.  
+
+MultiHead(Q, K, V ) = Concat(ℎ𝑒𝑎𝑑1, ...,ℎ𝑒𝑎𝑑ℎ)𝑊
+0 
+
+Mỗi encoder và decoder trong Transformer sử dụng N attention. Mỗi 
+
+attention sẽ biến đổi tuyến tính q, k, k với một ma trận có thể huấn luyện khác nhau 
+
+tương ứng. 
+
+Mỗi phép biến đổi cung cấp cho chúng ta một phép chiếu khác nhau cho q, k 
+
+và v. Vì vậy, N attention cho phép xem mức độ phù hợp từ N quan điểm khác 
+
+nhau. Điều này cuối cùng đẩy độ chính xác tổng thể cao hơn, ít nhất là theo kinh 
+
+nghiệm. 
+
+Việc chuyển đổi cũng làm giảm kích thước đầu ra của chúng, do đó, thậm chí 
+
+N attention được sử dụng, độ phức tạp tính toán vẫn giữ nguyên. Trong multi-head 
+
+attention, ghép các vectơ đầu ra theo sau là một phép biến đổi tuyến tính. 
+
+ Bộ giải mã – Decoder 
+
+Bộ giải mã thực hiện chức năng giải mã vector của câu nguồn thành câu đích, 
+
+do đó bộ giải mã sẽ nhận thông tin từ bộ mã hóa là 2 vector key và value. Kiến 
+
+trúc của bộ giải mã rất giống với bộ mã hóa, ngoại trừ có thêm một masked multi-
+
+head attention nằm ở giữ dùng để học mối liên quan giữ từ đang được dịch với các 
+
+từ được ở câu nguồn. 
+
+ 
+
+Hình 2-17: Bộ giải mã của mô hình transformer 
+
+ 
+
+ 
+
+Masked multi-head attention tất nhiên là multi-head attention mà chúng ta đã 
+
+nói đến ở trên, tuy nhiên đi các từ ở tương lai chưa được mô hình dịch đến được 
+
+
+
+38 
+
+ 
+
+che lại. Trong bộ giải mã còn có một multi-head attention khác có chức năng chú 
+
+ý các từ ở bộ mã hóa, layer này nhận vector key và value từ bộ mã hóa, và output 
+
+từ layer phía dưới. Đơn giản bởi vì chúng ta muốn so sánh sự tương quan giữa từ 
+
+đang được dịch với các từ nguồn. 
+
+ 
+
+ Ứng dụng Attention trong mô hình Transformer 
+
+Mô hình Transformer sử dụng multi-head attention theo 3 cách khác nhau. 
+
+Thứ nhất là trong lớp “encoder-decoder attention”, câu truy vấn đến từ lớp giải mã 
+
+trước đó và các khóa và giá trị đến từ đầu ra của bộ mã hóa. Điều này cho phép tất 
+
+cả các vị trí trong bộ giải mã sẽ tham gia vào tất cả các vị trí trong chuỗi đầu vào. 
+
+Nó tương tự như cơ chế encoder-decoder attention trong mô hình sequence-to-
+
+sequence. 
+
+Tiếp đến là bộ mã hóa chứa các lớp self-attention. Trong một lớp self-
+
+attention, tất cả các khóa, giá trị và truy vấn đều đến từ cùng một nơi, trong trường 
+
+hợp này đó là đầu ra của lớp trước đó trong mã hóa. Mỗi vị trí trong bộ mã hóa có 
+
+thể tham gia vào tất cả các vị trí trong lớp trước của bộ mã hóa. 
+
+Ngoài ra, các lớp self-attention trong bộ giải mã cho phép mỗi vị trí trong bộ 
+
+giải mã tham dự tất cả các vị trí trong bộ giải mã bao gồm cả vị trí của nó. Chúng 
+
+ta cần ngăn chặn luồng thông tin bên trái trong bộ giải mã để bảo toàn thuộc tính 
+
+tự động hồi quy. Điều này được thực hiện bên trong scaled dot-product attention 
+
+bằng cách che đi tất cả các giá trị trong đầu vào của softmax tương ứng với các kết 
+
+nối không hợp lệ. 
+
+ 
+
+2.6 Bộ công cụ mã nguồn mở cho dịch máy mạng nơron OpenNMT 
+
+ Giới thiệu mô hình OpenNMT  
+
+OpenNMT là bộ công cụ mã nguồn mở cho dịch máy mạng nơron (NMT) và 
+
+sinh ngôn ngữ tự nhiên (NLG), được phát hành vào tháng 12 năm 2016 bởi nhóm 
+
+NLP Harvard và SYSTRAN, kể từ đó nó đã được sử dụng trong một số nghiên 
+
+cứu và ứng dụng công nghiệp. Hiện nay, nó đang được duy trì bởi SYSTRAN và 
+
+Ubiqus [6]. Bộ công cụ bao gồm nhiều mã nguồn để có thể xử lý toàn bộ quy trình 
+
+công việc trong học máy: từ chuẩn bị dữ liệu đến tăng tốc suy luận (inference 
+
+acceleration). Với mục tiêu hỗ trợ nghiên cứu về kiến trúc mô hình, biểu diễn tính 
+
+năng và phương thức nguồn, đồng thời duy trì tính ổn định của API và hiệu suất 
+
+cạnh tranh cho các ứng dụng sản xuất thì hệ thống ưu tiên tính hiệu quả, tính mô-
+
+đun và khả năng mở rộng. OpenNMT đã được sử dụng trong một số hệ thống MT 
+
+sản xuất và được trích dẫn trong hơn 700 bài báo nghiên cứu. 
+
+OpenNMT hỗ trợ một loạt các kiến trúc mô hình (transformer, lstm,…) và 
+
+quy trình đào tạo cho dịch máy mạng nơron cũng như các tác vụ như sinh ngôn 
+
+ngữ tự nhiên và mô hình hóa ngôn ngữ. Cộng đồng mã nguồn mở về dịch máy 
+
+mạng nơron rất đa dạng và cũng có một số dự án khác có chung mục tiêu tương tự 
+
+với OpenNMT như Fairseq (Ott et al., 2019), Sockeye (Hieber et al., 2017)  hay 
+
+Marian (Junczys-Dowmunt et al., 2018).  
+
+
+
+39 
+
+ 
+
+OpenNMT [7] được xây dựng dựa trên các nghiên cứu cải tiến mô hình NMT 
+
+truyền thống, cho phép mô hình dịch tự động quan sát toàn bộ chuỗi đầu vào để 
+
+khởi tạo những từ mới ở đầu ra, cho các kết quả tốt khi dịch các câu dài. Đồng 
+
+thời, OpenNMT cho phép tối ưu hóa bộ nhớ, tăng tốc độ tính toán khi sử dụng bộ 
+
+xử lý đồ họa GPU. 
+
+OpenNMT có hai phiên bản chính được duy trì và phát triển là : 
+
+- OpenNMT-py: là phiên bản sử dụng PyTorch của OpenNMT, thân thiện 
+
+với người dùng, mang tính dễ sử dụng và tính linh hoạt của PyTorch. 
+
+- OpenNMT-tf: là phiên bản sử dụng TensorFlow 2 của OpenNMT, một triển 
+
+khai theo kiểu mô-đun, ổn định được hỗ trợ bởi hệ sinh thái TensorFlow 2. 
+
+Hai phiên bản này đều cung cấp các tiện ích dòng lệnh và thư viện Python để 
+
+cấu hình, huấn luyện và chạy các mô hình. Mỗi phiên bản đều có thiết kế và bộ 
+
+tính năng riêng, nhưng cả hai đều mang chung đặc điểm OpenNMT: dễ sử dụng, 
+
+hiệu quả, tính mô-đun, tính hiệu quả và tính sẵn sàng sản xuất. Các tính năng được 
+
+hỗ trợ của hai phiên bản được so sánh trong dưới. 
+
+ 
+
+ 
+
+Hình 2-18: Các tính năng được OpenNMT-py (cột py) và OpenNMT-tf (cột tf) triển khai. 
+
+Trong khuôn khổ đồ án này, em đã chọn sử dụng OpenNMT-py vì tính dễ sử dụng 
+
+và than thiện với người dùng hơn của nó. 
+
+  
+
+
+
+40 
+
+ 
+
+ 
+
+ Tổng quan về mã OpenNMT-py 
+
+ 
+
+ 
+
+Hình 2-19: Sơ đồ tổng quan về mã OpenNMT-py 
+
+Tiền xử lý: 
+
+Tiền xử lý dữ liệu là quá trình tạo ra các từ vựng và chuỗi chỉ số được sử 
+
+dụng cho quá trình huấn luyện. Quy trình gồm các bước sau: 
+
+• Mã hóa (tokenization – cho tệp văn bản): tách tập tin thành các mã 
+
+(token) được phân tách bằng dấu cách, có thể gắn với các đặc trưng. 
+
+• Tiền xử lý:  Xây dựng một tệp dữ liệu từ nguồn dữ liệu huấn luyện và 
+
+kiểm định đã được mã hóa, có thể tùy chọn xáo trộn các câu và sắp 
+
+xếp theo độ dài câu. 
+
+Mục tiêu chính của quá trình tiền xử lý là xây dựng bộ từ vựng với các từ, 
+
+đặc trưng của từ và gán mỗi từ vào một chỉ mục trong những bộ từ điển này. 
+
+Kích thước bộ từ vựng mặc định là 50000, ta có thể chọn kích thước mong 
+
+muốn cho bộ từ vựng bằng src_vocab_size và tgt_vocab_size. 
+
+ 
+
+Huấn luyện: 
+
+Ngoài các cài đặt kích thước tiêu chuẩn như số lớp, kích thước thứ nguyên ẩn,... 
+
+OpenNMT cũng cung cấp nhiều kiến trúc mô hình khác nhau. 
+
+• Encoder (bộ mã hóa) 
+
+Encoder trong OpenNMT bao gồm: 
+
+- Default Encoder (encoder mặc định) 
+
+- Bidirectional encoder (encoder hai chiều) 
+
+- Pyramidal deep bidirectional encoder 
+
+- Deep bidirectional encoder 
+
+- Google's NMT encoder 
+
+- Convolutional encoder (encoder tích chập) 
+
+ 
+
+ Encoder mặc định: là một cấu trúc RNN đơn giản (LSTM, GRU) 
+
+
+
+41 
+
+ 
+
+Bidirectional encoder (-encoder_type brnn): bao gồm hai bộ mã hóa độc lập: một 
+
+mã hóa trình tự bình thường và một mã hóa trình tự đảo ngược. Trạng thái đầu ra 
+
+và trạng thái cuối cùng được nối hoặc tổng hợp tùy thuộc vào -brnn_merge tùy 
+
+chọn. 
+
+ 
+
+ 
+
+Hình 2-20: bidirectional encoder 
+
+Pyramidal deep bidirectional encoder (-encoder_type pdbrnn): là một bộ mã hóa 
+
+hai chiều thay thế giúp giảm thứ nguyên thời gian sau mỗi lớp dựa trên -
+
+pdbrnn_reduction và sử dụng -pdbrnn_merge để giảm. 
+
+ 
+
+ 
+
+Hình 2-21:Pyramidal deep bidirectional encoder 
+
+Deep bidirectional encoder (-encoder_type dbrnn): là một bộ mã hóa hai chiều 
+
+thay thế trong đó kết quả đầu ra của mọi lớp được tổng hợp (hoặc nối) trước khi 
+
+cấp cho lớp tiếp theo. Đó là một trường hợp đặc biệt của Pyramidal deep 
+
+bidirectional encoder mà không giảm thời gian (tức là  -pdbrnn_reduction = 1). 
+
+
+
+42 
+
+ 
+
+ 
+
+Hình 2-22: Deep bidirectional encoder 
+
+Google's NMT encoder (-encoder_type gnmt):  là bộ mã hóa có một lớp hai chiều 
+
+như được mô tả trong [8]. Các trạng thái hai chiều được nối và các kết nối dư được 
+
+mặc định là có. 
+
+ 
+
+Hình 2-23: Google's NMT encoder 
+
+Convolutional encoder (): là bộ mã hóa dựa trên một số lớp tích chập như được 
+
+mô tả trong [9] 
+
+• Decoder (Bộ giải mã) 
+
+Bộ giải mã mặc định áp dụng attention trên chuỗi nguồn và thực hiện cấp dữ liệu 
+
+đầu vào theo mặc định. 
+
+Input feeding (đầu vào cung cấp) là một cách tiếp cận để cung cấp các vectơ 
+
+attention làm đầu vào cho các bước tiếp theo để thông báo cho mô hình về các 
+
+quyết định liên kết trong quá khứ - "as inputs to the next time steps to inform the 
+
+model about past alignment decisions" [10]. Có thể tắt nó bằng cách cài đặt -
+input_feed 0 
+
+
+
+43 
+
+ 
+
+ 
+
+Hình 2-24: decoder mặc định 
+
+ 
+
+Dịch (Transtale): 
+
+Sau khi huấn luyện, model sẽ được lưu lại và khi dịch, model đã huấn luyện sẽ 
+
+được sử dụng cùng với thuật toán beamsearch để cho ra bản dịch. 
+
+  
+
+
+
+44 
+
+ 
+
+CHƯƠNG 3. TỰ ĐỘNG PHÁT HIỆN VÀ SỬA LỖI CHÍNH TẢ DỰA 
+
+VÀO MÔ HÌNH TRANSFORMER 
+
+3.1 Mô hình đề xuất 
+
+Tổng quan mô hình 
+
+ 
+
+Hình 3-1: Tổng quan mô hình đề xuất 
+
+Bài toán sửa lỗi chính tả tiếng Việt có dữ liệu đầu vào là một câu sai chính tả 
+
+và đầu ra là một câu đúng chính tả nên ta sẽ quy về bài toán seq2seq. 
+
+Do bộ dữ liệu tiếng Việt còn chứa nhiều từ tiếng Anh và các từ viết tắt tên 
+
+của các tổ chức, thuật ngữ nên khi đưa trực tiếp vào huấn luyện sẽ làm cho độ 
+
+chính xác của mô hình giảm đi nên em đã đánh dấu những từ tiếng Anh bằng nhãn 
+
+ENG_ + số thứ tự và lưu các từ vào 1 tệp riêng và sau khi dịch sẽ gán lại các từ đó 
+
+vào câu. 
+
+ Mô hình đề xuất là mô hình Transformer có cấu trúc như hình dưới: 
+
+
+
+45 
+
+ 
+
+ 
+
+Hình 3-2: mô hình Transformer 
+
+ 
+
+Trong bài toán này, em đã thử sử dụng BPE (một kỹ thuật nén dữ liệu hoạt động 
+
+bằng cách thay thế các cặp byte liên tiếp có tần suất lớn bằng một byte không tồn 
+
+tại trong dữ liệu) khi tiền xử lý dữ liệu.  Nhưng do đây là bài toán sửa lỗi chính tả 
+
+với dữ liệu đầu vào là dữ liệu sai chính tả (nó không có một quy tắc từ nhất định) 
+
+nên khi áp dụng BPE sẽ không giúp ích trong việc nén dữ liệu hay xử lý được 
+
+những từ chưa gặp bao giờ do khi nén dữ liệu đã tạo ra những quy tắc sai khiến độ 
+
+chính xác mô hình giảm. 
+
+3.2 Môi trường thực nghiệm 
+
+Việc huấn luyện các mô hình Deep Learning thì việc có GPU sử dụng là điều 
+
+cần thiết. GPU cho phép xử lý phép tính song song nên sẽ nhanh hơn nhiều so với 
+
+CPU. GPU sẽ hỗ trợ chạy những thuật toán Deep Learning rất tốt. Và tất nhiên, 
+
+thay vì chi tiền cho một GPU, chúng ta có thể sử dụng Google Colab. Đây thực sự 
+
+là một điều tuyệt vời của Google khi cung cấp một service dựa trên Jupyter 
+
+Notebooks và hỗ trợ GPU miễn phí. Điều này không chỉ là công cụ tuyệt vời giúp 
+
+nâng cao khả năng code, mà nó còn cho phép người dùng phát triển các ứng dụng 
+
+Deep Learning trên các thư viện phổ biến. 
+
+Google Colab là miễn phí nên trong một tiến trình kết nối sẽ bị giới hạn về 
+
+thời gian kết nối cũng như giới hạn về lưu lượng. Hơn nữa khi dùng chúng chỉ 
+
+cung cấp các GPU cơ bản nên tốc độ huấn luyện còn chậm. Vì vậy, trong phạm vi 
+
+
+
+46 
+
+ 
+
+đồ án em đã sử dụng bản Google Colab Pro (bản trả phí) với cấu hình máy: 24GB 
+
+RAM, Tesla V100-SXM2. 
+
+ 
+
+3.3 Xây dựng bộ dữ liệu 
+
+ Bộ dữ liệu thô 
+
+Để huấn luyện mô hình ngôn ngữ, ta cần dữ liệu là văn bản để làm dữ liệu 
+
+huấn luyện. May mắn là trong bài toán này không cần dán nhãn cho các mô hình 
+
+ngôn ngữ mà chỉ cần tập văn bản thô là được. 
+
+Trong phạm vi đồ án này em đã sử dụng bộ dữ liệu của viwikipedia file 
+
+viwiki-20200501-pages-articles.xml.bz2. Em đã sử dụng trực tiếp tệp 
+
+train_tieng_viet.txt từ nguồn https://drive.google.com/file/d/1-
+
+7lERkqCoID1691yCXLAOyZoJqYPqhGq/view . Đây là tệp dữ liệu viwwiki-
+
+20200501 ở trên sau khi đã giải nén và chọn những câu hợp lệ do độ dữ liệu bao 
+
+gồm cả những câu không đạt tiêu chuẩn vì chứa các ký tự tiếng Trung, Hàn, 
+
+Nhật,… Tệp dữ liệu đã được lọc bỏ những câu không đạt tiêu chuẩn bằng cách tạo 
+
+hàm kiểm tra tính hợp lệ của câu. Sau khi lọc bỏ những câu không đạt tiêu chuẩn, 
+
+bộ dữ liệu còn khoảng hơn 6 triệu câu. 
+
+ Đánh dấu từ tiếng Anh 
+
+Vì trong bộ dữ liệu có chứa nhiều câu có cả những từ tiếng Anh hoặc từ viết 
+
+tắt của tên các tổ chức,… nên sẽ ảnh hưởng nhiều đến kết quả sau khi sửa lỗi. Vì 
+
+vậy em đã sử dụng thư viện enchant để đánh dấu những từ tiếng Anh, thay chúng 
+
+bằng ENG_stt để tăng hiệu suất của mô hình. 
+
+ Tạo lỗi sai chính tả 
+
+Để có thể huấn luyện cho mô hình, ta cần các câu chứa lỗi chính tả để huấn 
+
+luyện cho mô hình. Do đó ta sẽ cài đặt hàm noise_maker () là hàm sẽ chuyển đổi 
+
+các câu thành các câu có lỗi chính tả, nó sẽ được sử dụng làm dữ liệu đầu vào. Các 
+
+lỗi chính tả này được tạo ra trong hàm này theo một trong bốn cách sau: 
+
+ 
+
+- Tạo từ viết tắt, teencode (Ví dụ: đc ~ được, ko ~ không,…) 
+
+- Thứ tự của hai ký tự sẽ được đổi chỗ (kôhng ~ không) 
+
+- Một ký tự sẽ được thêm vào (ytuổi ~ tuổi) 
+
+- Một ký tự sẽ bị loại bỏ (ến ~ đến) 
+
+Khả năng xảy ra của lỗi tạo từ viết tắt, teencode là 3.5 % và các lỗi còn lại có xác 
+
+suất xảy ra như nhau là 7% 
+
+Cuối cùng, tạo ra các lô dữ liệu sai chính tả bằng hàm noise_maker (). Sau đó 
+
+ta chia bộ dữ liệu ra làm 3 tập:  
+
++ Tập huấn luyện: gồm 6500000 câu  
+
++ Tập kiểm định: gồm 200000 câu 
+
++ Tập kiểm thử: gồm 10000 câu. 
+
+3.4 Huấn luyện mô hình 
+
+https://drive.google.com/file/d/1-7lERkqCoID1691yCXLAOyZoJqYPqhGq/view
+https://drive.google.com/file/d/1-7lERkqCoID1691yCXLAOyZoJqYPqhGq/view
+
+
+47 
+
+ 
+
+Trong mô hình em đã sử dụng thư viện mã nguồn mở OpenNMT-py để huấn 
+
+luyện.  
+
+Em đã chọn OpenNMT-py để thực hiện đồ án vì: nó có thể mở rộng và triển 
+
+khai nhanh chóng với tính dễ sử dụng của PyTorch. 
+
+Em đã tiến hành thử nghiệm với những kịch bản sau: 
+
+• Kịch bản 1: Tiền xử lý dữ liệu với BPE và huấn luyện bằng mô hình 
+
+Transformer 
+
+• Kịch bản 2: Tiền xử lý dữ liệu với BPE, đánh dấu từ tiếng Anh và huấn 
+
+luyện bằng mô hình Transformer 
+
+• Kịch bản 3: Đánh dấu từ tiếng Anh và huấn luyện bằng mô hình 
+
+Transformer ở mức từ 
+
+• Kịch bản 4: Tiền xử lý dữ liệu với PhoBERT BPE 
+
+Đối với tất cả các thử nghiệm các tham số huấn luyện chính của mô hình được cài 
+
+đặt như sau: 
+
+- Kích thước lô (batch size): một tập dữ liệu huấn luyện có thể chia nhỏ thành 
+
+các batch, mỗi một batch sẽ chứa các training samples, số lượng các samples 
+
+này được gọi là batch size. Việc lựa chọn batch size lớn hay nhỏ sẽ ảnh 
+
+hưởng đến tốc độ tính toán và thông lượng đào tạo. Tốc độ tính toán sẽ giảm 
+
+dần khi tăng dần batch size bởi không phải tất cả hoạt động của các GPU 
+
+đều hoạt động song song theo lô. Ngược lại, thông lượng đào tạo tăng tuyến 
+
+tính với kích thước của lô. Ở đây sẽ lựa chọn batch size bằng 4096.  
+
+ 
+
+- Bộ mã hóa và giải mã là tổng hợp xếp chồng lên nhau của 6 layer. Mỗi layer 
+
+bao gồm 2 layer con (sub-layer) trong đó sub-layer đầu tiên là multi-head 
+
+self- attention với số head là 8. Sub-layer thứ hai là feedforward network. 
+
+Đầu ra của mỗi sub-layer này sẽ có số chiều là 1024. 
+
+ 
+
+Bảng 3-1: Các tham số sử dụng huấn luyện mô hình 
+
+Tham số Giá trị 
+
+N 6 
+
+hiden size 1024 
+
+batch size 4096 
+
+num head 8 
+
+optimizer adam 
+
+warmup_steps 16.000 
+
+
+
+48 
+
+ 
+
+train steps 150.000 
+
+learning_rate 2 
+
+save_checkpoint_steps 1000 
+
+word_vec_size 512 
+
+ 
+
+3.5 Kết quả đánh giá 
+
+ Phương pháp đánh giá 
+
+Sau khi tham khảo các nghiên cứu khác, em đã chọn điểm BLEU score để 
+
+đánh giá mô hình này vì nó là thang điểm thông dụng hay được dùng cho bài toán 
+
+sửa lỗi chính tả.  
+
+BLEU (Bilingual Evaluation Understudy Score) được Kishore Papineni và 
+
+cộng sự đề xuất lần đầu vào năm 2002 qua bài nghiên cứu “A Method for 
+
+Automatic Evaluation of Machine Translation” . 
+
+BLEU được tính dựa trên số lượng n-grams giống nhau giữa câu dịch của mô 
+
+hình (output) với các câu tham chiếu tương ứng (label) có xét tới yếu tố độ dài của 
+
+câu. 
+
+Số n-grams tối đa của BLEU là không giới hạn, nhưng vì xét về ý nghĩa, cụm 
+
+từ quá dài thường không có nhiều ý nghĩa, và nghiên cứu cũng đã cho thấy là với 
+
+4-gram, điểm số BLEU trung bình cho khả năng dịch thuật của con người cũng đã 
+
+giảm khá nhiều nên n-grams tối đa thường được sử dụng là 4-gram. Công thức để 
+
+tính điểm đánh giá như sau: 
+
+ 
+
+𝑠𝑐𝑜𝑟𝑒 = 𝑒𝑥𝑝 {∑𝑤𝑖 log(𝑝𝑖) − max (
+𝐿𝑟𝑒𝑓
+
+𝐿𝑡𝑟𝑎
+− 1.0) 
+
+𝑁
+
+𝑖=1
+
+} 
+
+𝑝𝑖 =
+∑ 𝑁𝑅𝑗𝑗
+∑ 𝑁𝑅𝑗𝑗
+
+ 
+
+Trong đó: 
+
+• 𝑁𝑅𝑗 là số lượng các n-grams trong phân đoạn j của bản dịch dùng để 
+
+tham khảo 
+
+• 𝑁𝑇𝑗  là số lượng các n-grams trong phân đoạn j của bản dịch bằng máy. 
+
+• 𝐿𝑟𝑒𝑓là số lượng các n-grams trong phân đoạn j của bản dịch bằng máy. 
+
+• 𝐿𝑡𝑟𝑎 là số lượng các từ trong bản dịch bằng máy. 
+
+Giá trị score đánh giá mức độ tương ứng giữa hai bản dịch và nó được thực 
+
+hiện trên từng phân đoạn, ở đây phân đoạn được hiểu là đơn vị tối thiểu trong các 
+
+bản dịch, thông thường mỗi phân đoạn là một câu hoặc một đoạn. Việc thống kê 
+
+đồ trùng khớp của các n-grams dựa trên tập hợp các ngrams trên các phân đoạn, 
+
+
+
+49 
+
+ 
+
+trước hết là nó được tính trên từng phân đoạn, sau đó tính lại giá trị này trên tất cả 
+
+các phân đoạn. 
+
+ Kết quả 
+
+Dưới đây là điểm số BLEU khi sử dụng hệ thống để tự động sửa lỗi chính tả câu. 
+
+Để đánh giá hệ thống, em đã sử dụng cùng bộ dữ liệu kiểm thử. 
+
+ 
+
+Model Phương pháp BLUE 
+
+Transformer BPE 65% 
+
+Transformer BPE + Đánh dấu từ tiếng Anh 70.57% 
+
+Transformer Word + Đánh dấu từ tiếng Anh 85.89% 
+
+Transformer PhoBERT BPE  65.7% 
+
+Bảng 3-2: Điểm BLEU của hệ thống sửa lỗi chính tả 
+
+Dưới đây là một số kết quả sửa lỗi chính tả khi sử dụng mô hình Transformer 
+
+mức từ và có đánh dấu từ tiếng Anh khi tiền xử lý dữ liệu: 
+
+ 
+
+Bảng 3-3: Một số kết quả dịch 
+
+STT Đầu vào Đầu ra Tham chiếu 
+
+1 "Mô hình hóa & mô 
+
+phỏng như một dịch 
+
+vụ" trong ddó mô 
+
+phỏng được truy cập 
+
+như moojt dịch vụ 
+
+trên web 
+
+Mô hình hóa & mô 
+
+phỏng như một dịch 
+
+vụ" trong đó mô phỏng 
+
+được truy cập như một 
+
+dịch vụ trên web 
+
+"Mô hình hóa & mô 
+
+phỏng như một dịch 
+
+vụ" trong đó mô 
+
+phỏng được truy cập 
+
+như một dịch vụ trên 
+
+web 
+
+2 Trận Đồng Đawng là 
+
+trận chiến mở màn 
+
+cho Chến tranh biên 
+
+giới phía Bắc giữa 
+
+Giải phóng quân 
+
+Nâhn dân Trung 
+
+Quốc và Quân ddội 
+
+hNâp dân Việt Nam 
+
+Trận Đồng Tháp là trận 
+
+chiến mở màn cho 
+
+Chiến tranh biên giới 
+
+phía Bắc giữa Giải 
+
+phóng quân Nhân dân 
+
+Trung Quốc và Quân 
+
+đội Nhân dân Việt 
+
+Nam 
+
+Trận Đồng Đăng là 
+
+trận chiến mở màn 
+
+cho Chiến tranh biên 
+
+giới phía Bắc giữa 
+
+Giải phóng quân 
+
+Nhân dân Trung 
+
+Quốc và Quân đội 
+
+Nhân dân Việt Nam 
+
+3 Chiến xự diễn ra từ 
+
+ngqy 17 tháng 2 đến 
+
+ngày 23 tháng 2 năm 
+
+1979, chủ oếu o thị 
+
+trấn Đồg Đăng và các 
+
+vùng psụ cận 
+
+Chiến sự diễn ra từ 
+
+ngày 17 tháng 2 đến 
+
+ngày 23 tháng 2 năm 
+
+1979, chủ yếu ở thị trấn 
+
+Đồng Đăng và các 
+
+vùng lân cận 
+
+Chiến sự diễn ra từ 
+
+ngày 17 tháng 2 đến 
+
+ngày 23 tháng 2 năm 
+
+1979, chủ yếu ở thị 
+
+trấn Đồng Đăng và 
+
+các vùng phụ cận 
+
+4 Một đại đội hkác của 
+
+quân Việt Nam cũng 
+
+Một đại đội khác của 
+
+quân Việt Nam cũng có 
+
+Một đại đội khác của 
+
+quân Việt Nam cũng 
+
+
+
+50 
+
+ 
+
+có mặt hỗ trowj kịp 
+
+thời nhằm chặn đườn 
+
+grút vuân của quân 
+
+Trung Quốc, dẫ đến 
+
+một tiểu đoàn quân 
+
+Trung Quốc bij tiêu 
+
+diệt 
+
+mặt hỗ trợ kịp thời 
+
+nhằm chặn đường 
+
+không quân của quân 
+
+Trung Quốc, dẫn đến 
+
+một tiểu đoàn quân 
+
+Trung Quốc bị tiêu diệt 
+
+có mặt hỗ trợ kịp thời 
+
+nhằm chặn đường rút 
+
+quân của quân Trung 
+
+Quốc, dẫn đến một 
+
+tiểu đoàn quân Trung 
+
+Quốc bị tiêu diệt 
+
+5 Tại Thâm Lũng, quân 
+
+Trung Quốc mở nhjều 
+
+cuộc tấn công lên các 
+
+cao điể mhung quanh, 
+
+nhưng trước sự eháng 
+
+cự quyết liệt của uqân 
+
+Việt Nam, quân 
+
+Trung Quốc không 
+
+thể tiến xa 
+
+Tại Thâm Lũng, 
+
+quân Trung Quốc mở 
+
+nhiều cuộc tấn công 
+
+lên các cao điểm 
+
+xung quanh, nhưng 
+
+trước sự kháng cự 
+
+quyết liệt của quân 
+
+Việt Nam, quân 
+
+Trung Quốc không 
+
+thể tiến xa 
+
+Tại Thâm Lũng, quân 
+
+Trung Quốc mở nhiều 
+
+cuộc tấn công lên các 
+
+cao điểm xung quanh, 
+
+nhưng trước sự kháng 
+
+cự quyết liệt của quân 
+
+Việt Nam, quân 
+
+Trung Quốc không 
+
+thể tiến xa 
+
+6 Vào năm 2012, 
+
+trường trung học cơ 
+
+sở 12 Năm tại 
+
+Battsengel ddã giành 
+
+được một giải thưởng 
+
+Trường học tốt nhất 
+
+tỉnh Arkhangai 
+
+Vào năm 2012, trường 
+
+trung học cơ sở 12 
+
+Năm tại <unk> đã 
+
+giành được một giải 
+
+thưởng Trường học tốt 
+
+nhất tỉnh <unk> 
+
+Vào năm 2012, 
+
+trường trung học cơ 
+
+sở 12 Năm tại 
+
+Battsengel đã giành 
+
+được một giải thưởng 
+
+Trường học tốt nhất 
+
+tỉnh Arkhangai 
+
+7 Theo xử liệu ghi lại 
+
+thì  ưlà người ở Tfấn 
+
+Giang, tỉnh Ginv Tô 
+
+và là cháu gái của hừa 
+
+tướng Tô Tụng 
+
+Theo sử liệu ghi lại thì 
+
+là người ở Chiết Giang, 
+
+tỉnh Đăk Tô và là cháu 
+
+gái của thừa tướng Tô 
+
+Tụng 
+
+Theo sử liệu ghi lại 
+
+thì sư là người ở Trấn 
+
+Giang, tỉnh Giang Tô 
+
+và là cháu gái của 
+
+Thừa tướng Tô Tụng 
+
+8 Phát triển thuc 
+
+COVID-19 là quá 
+
+rìnk ghiên cứu để 
+
+phát triển vắc-xin 
+
+phòng ngừa hoặc 
+
+thuốc hteo toa đềiu trị 
+
+có khả năng làm gjảm 
+
+mức độ nghiê trọng 
+
+của bệnk cornavirus 
+
+2019 (COVID-19) 
+
+Phát triển thuốc <unk> 
+
+là quá trình nghiên cứu 
+
+để phát triển vắc-xin 
+
+phòng ngừa hoặc thuốc 
+
+theo toa điều trị có khả 
+
+năng làm giảm mức độ 
+
+nghiêm trọng của bệnh 
+
+<unk> 2019 <unk> 
+
+Phát triển thuốc 
+
+COVID-19 là quá 
+
+trình nghiên cứu để 
+
+phát triển vắc-xin 
+
+phòng ngừa hoặc 
+
+thuốc theo toa điều trị 
+
+có khả năng làm giảm 
+
+mức độ nghiêm trọng 
+
+của bệnh coronavirus 
+
+2019 (COVID-19) 
+
+9 Trên jhạm vi quốc tế 
+
+tính đến táng 3 ăm 
+
+2020, khoảng 100 
+
+công ty dượ xhẩm, 
+
+công ty công nghệ 
+
+sinh hok, nhóm 
+
+nghiên cứu cại hok và 
+
+Trên phạm vi quốc tế 
+
+tính đến tháng 3 năm 
+
+2020, khoảng 100 công 
+
+ty dược phẩm, công ty 
+
+công nghệ sinh học, 
+
+nhóm nghiên cứu đại 
+
+học và tổ chức y tế đã 
+
+Trên phạm vi quốc tế 
+
+tính đến tháng 3 năm 
+
+2020, khoảng 100 
+
+công ty dược phẩm, 
+
+công ty công nghệ 
+
+sinh học, nhóm 
+
+nghiên cứu đại học và 
+
+
+
+51 
+
+ 
+
+tổ chuc y tế đã tham 
+
+gxa vào các giai đoạn 
+
+phát triển vắc-xin 
+
+hoặc thuốc này 
+
+tham gia vào các giai 
+
+đoạn phát triển vắc-xin 
+
+hoặc thuốc này 
+
+tổ chức y tế đã tham 
+
+gia vào các giai đoạn 
+
+phát triển vắc-xin 
+
+hoặc thuốc này 
+
+10 Như vậy, tpong số các 
+
+chính thất Hoàng hậu 
+
+nhà Nguyên, bà là 
+
+người đầu tinê được 
+
+ghi nhận lên ngôv 
+
+Hoàn gthái hậu 
+
+Như vậy, trong số các 
+
+chính thất Hoàng hậu 
+
+nhà Nguyên, bà là 
+
+người đầu tiên được 
+
+ghi nhận lên ngôi 
+
+Hoàng thái hậu 
+
+Như vậy, trong số các 
+
+chính thất Hoàng hậu 
+
+nhà Nguyên, bà là 
+
+người đầu tiên được 
+
+ghi nhận lên ngôi 
+
+Hoàng thái hậu 
+
+ 
+
+  
+
+  
+
+
+
+52 
+
+ 
+
+CHƯƠNG 4. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN 
+
+4.1 Kết luận 
+
+Trong suốt quá trình làm đồ án tốt nghiệp, em đã đạt được các kết quả sau: 
+
+- Tìm hiểu những đặc trưng của Tiếng Việt so với các ngôn ngữ khác. 
+
+- Tìm hiểu và nghiên cứu mô hình Transformer. 
+
+- Áp dụng mô hình Transformer và tối ưu các tham số của mô hình cho bài 
+
+toán tự động sửa lỗi chính tả Tiếng Việt. 
+
+- Thử nghiệm mô hình với với mức Word (từ) , BPE và BPE của PhoBERT. 
+
+Theo thử nghiệm cho thấy: vì đây là dữ liệu sai chính tả nên khi áp dụng 
+
+với BPE sẽ không cho ra kết quả tốt. 
+
+4.2 Hướng phát triển 
+
+- Thử nghiêm trong đồ án cho thấy những từ tiếng Việt chưa có trong tập dữ 
+
+liệu huấn luyện mà thì khi kiểm thử sẽ ra kết quả <unk> nên cần bổ sung 
+
+thêm nhiều dữ liệu cho mô hình trong tương lai để đạt kết quả tốt hơn. 
+
+- Thử nghiệm mô hình với mức Character + Word kết hợp ở đầu vào. 
+
+- Thêm bộ dữ liệu viết tắt, hiện tại mô hình vẫn chưa xử lí  vẫn đề viết tắt. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+
+
+53 
+
+ 
+
+ 
+
+ 
+
+ 
+
+TÀI LIỆU THAM KHẢO 
+
+ 
+
+[1]  "Khái quát lịch sử tiếng Việt," in Ngữ văn 10.  
+
+[2]  Nguyễn Gia Định, Trần Thanh Lương, "THUẬT TOÁN KIỂM TRA ÂM 
+
+TIẾT TIẾNG VIỆT DỰA TRÊN LUẬT CẤU TẠO ÂM TIẾT," 2016. 
+
+[3]  Lê Tuấn Linh, "Luận văn kiểm Lỗi chính tả tiếng Việt," 2014. 
+
+[4]  Krzysztof Wołk, Krzysztof Marasek, "Neural-based Machine Translation for 
+
+Medical Text Domain. Based on European Medicines Agency Leaflet 
+
+Texts," 2015. [Online]. Available: 
+
+https://www.sciencedirect.com/science/article/pii/S1877050915025910. 
+
+[5]  Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, 
+
+Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, "Attention Is All You 
+
+Need," 2017. 
+
+[6]  "OpenNMT," [Online]. Available: https://opennmt.net/. 
+
+[7]  Guillaume Klein, Yoon Kim, Yuntian Deng, Jean Senellart, Alexander M. 
+
+Rush, OpenNMT: Open-Source for Neural Machine Translation. 
+
+Proceedings of AMTA 2018, vol. 1: MT Research Track..  
+
+[8]  Wu, Y., Schuster, M., Chen, Z., Le, Q. V., Norouzi, M., Macherey, W., ... & 
+
+Klingner, J., " Google's Neural Machine Translation System: Bridging the 
+
+Gap between Human and Machine Translation," 2016. 
+
+[9]  Gehring, J., Auli, M., Grangier D., Dauphin Y. N. , "A Convolutional 
+
+Encoder Model for Neural Machine Translation. arXiv preprint 
+
+arXiv:1611.02344.," 2017. 
+
+[10]  Minh-Thang Luong, Hieu Pham, Christopher D. Manning, "Effective 
+
+Approaches to Attention-based Neural Machine Translation," 2015. 
+
+ 
+
+ 
+
+ 
+
+

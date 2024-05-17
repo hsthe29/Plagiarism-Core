@@ -1,0 +1,187 @@
+body {
+    padding: 50px;
+}
+
+.modal-detail-plagiarism {
+    max-width: 95%;
+}
+
+@media (min-width: 1300px) {
+    .modal-detail-plagiarism {
+        max-width: 1250px;
+    }
+}
+.item-source-document {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.item-source-header:hover {
+    background: #dbecf178;
+}
+.item-source-header {
+    padding: 15px;
+}
+.item-source-index {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.item-source-filename {
+    display: inline-block;
+    width: 55%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.item-source-percentage {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    font-weight: bold;
+}
+.item-source-url {
+    display: inline-block;
+    float: right;
+}
+.item-source-content {
+    max-height: 50vh;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.item-source-content > pre {
+    white-space: pre-line;
+}
+.sps {
+    cursor: pointer;
+    position: relative;
+}
+.sps:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 2px;
+    background: #888;
+}
+.sps:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 2px;
+    background: #888;
+}
+.sp-badge {
+    background: #ccc9faed;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    display: none;
+    padding: 0px 2px;
+    border-radius: 2px;
+    border: 1px solid #aaa
+}
+.sp1 {
+    background-color: #e9fea0;
+}
+.sp2 {
+    background-color: #fbff8c;
+}
+.sp3 {
+    background-color: #ffe5a6;
+}
+.sp.bolder {
+    background-color: #ffc400;
+    transition-timing-function: ease-in-out;
+    transition: background-color 0.5s;
+}
+.text-error {
+    color: red;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.inline-block {
+    display: inline-block;
+}
+.file-input {
+    font-size: 12px;
+}
+.suspicious-content {
+    max-height: 75vh;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+.suspicious-content img {
+    max-width: 50%;
+}
+.suspicious-content pre {
+    font-size: 100%;
+    white-space: pre-line;
+}
+.document-content {
+    border: 1px solid #ddd;
+    padding: 0px;
+    background: #fff;
+    max-height: 690px;
+}
+.document-content > .scroll-content {
+    overflow-y: scroll;
+    padding: 15px;
+    max-height: 650px;
+    margin-top: 40px;
+}
+.document-content > .title {
+    position: absolute;
+    background: #eee;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+}
+.document-content > div > pre {
+    white-space: pre-line;
+}
+#suspicious_content > div > pre {
+    overflow: hidden;
+}
+.match-passage.highlight {
+    background-color: yellow;
+}
+#modal-src-passage > .modal-dialog {
+    margin-left: 28px;
+}
+.src-passage-content {
+    height: 250px;
+}
+.src-passage-content > div {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow-y: scroll;
+}
+.src-passage-content > div > pre {
+    white-space: pre-line;
+}
+.error {
+    color: red;
+    margin-right: 50px;
+}
+.src-title {
+    font-weight: bold;
+}
+.source-documents > div {
+    height: 75vh;
+    overflow: overlay;
+}

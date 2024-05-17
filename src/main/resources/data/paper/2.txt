@@ -1,0 +1,1113 @@
+
+VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 
+
+ 14 
+
+  
+Review Article 
+
+The Relationship of Workplace Turnover of Officers with 
+
+Organizational Commitment and Job Satisfaction at the Hanoi 
+
+City Public Administration Centre 
+
+Nguyen Danh Nam1,*, Uong Thi Ngoc Lan2 
+
+1East Asia University of Technology, Trinh Van Bo, Xuan Phuong, Nam Tu Liem, Hanoi, Vietnam 
+2VNU University of Economics and Business, 144 Xuan Thuy, Cau Giay, Hanoi, Vietnam 
+
+Received 06 September 2021 
+
+Revised 06 July 2022; Accepted 08 July 2022 
+
+Abstract: The purpose of the study is to examine the relationship of workplace turnover of officers  
+
+with organizational commitment and job satisfaction at the Hanoi City Public Administration 
+
+Centre. The structural equation model (SEM) was used to analyze the data provided by 246 officers 
+
+working at the Hanoi City Public Administration Centre in order to assess the influence of 
+
+organizational commitment and job satisfaction on workplace turnover. The results show a favorable 
+
+correlation between organizational commitment and work satisfaction. In addition, job satisfaction 
+
+and organizational commitment are negatively correlated with the workplace turnover of officers. 
+
+The result of the study suggested several important implications for the Hanoi City Public 
+
+Administration Centre on how to increase organisational commitment, job satisfaction in order to 
+
+reduce workplace turnover of officers. 
+
+Keywords: Organizational commitment, job satisfaction, workplace turnover, officers.* 
+
+ 
+
+ 
+
+ 
+
+________ 
+* Corresponding author. 
+   E-mail address: ndnam.dr.90@gmail.com 
+
+ https://doi.org/10.25073/2588-1116/vnupam.4263 
+
+mailto:ndnam.dr.90@gmail.com
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 15 
+
+Mối quan hệ giữa sự cam kết với tổ chức và sự hài lòng  
+
+trong công việc đến ý định thay đổi nơi làm việc  
+
+của công chức tại Trung tâm Hành chính công  
+
+Thành phố Hà Nội 
+
+Nguyễn Danh Nam1,*, Uông Thị Ngọc Lan2 
+
+1Trường Đại học Công nghệ Đông Á, Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội, Việt Nam 
+2Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội, 144 Xuân Thủy, Cầu Giấy, Hà Nội, Việt Nam 
+
+Nhận ngày 06 tháng 9 năm 2021 
+
+Chỉnh sửa ngày 06 tháng 7 năm 2022; Chấp nhận đăng ngày 08 tháng 7 năm 2022 
+
+Tóm tắt: Nghiên cứu được thực hiện nhằm phân tích mối quan hệ giữa sự cam kết với tổ chức và 
+
+sự hài lòng trong công việc đến ý định thay đổi nơi làm việc của công chức tại Trung tâm Hành 
+
+chính công Thành phố Hà Nội. Từ dữ liệu khảo sát 246 công chức làm việc tại Trung tâm Hành 
+
+chính công Thành phố Hà Nội, nghiên cứu vận dụng phương pháp phân tích mô hình cấu trúc tuyến 
+
+tính (SEM) nhằm đánh giá tác động của sự cam kết với tổ chức và sự hài lòng trong công việc đến 
+
+ý định thay đổi nơi làm việc. Kết quả nghiên cứu cho thấy có mối quan hệ tích cực giữa sự cam kết 
+
+với tổ chức và sự hài lòng trong công việc. Đồng thời sự hài lòng trong công việc và sự cam kết với 
+
+tổ chức có mối tương quan ngược chiều đến ý định thay đổi nơi làm việc của công chức. Kết quả 
+
+nghiên cứu đạt được đã gợi ý một số hàm ý quản trị cho Trung tâm Hành chính công Thành phố Hà 
+
+Nội nhằm nâng cao sự cam kết với tổ chức, sự hài lòng trong công việc để giảm ý định thay đổi nơi 
+
+làm việc của đội ngũ công chức. 
+
+Từ khóa: Sự cam kết với tổ chức, sự hài lòng trong công việc, ý định thay đổi nơi làm việc,  
+
+công chức. 
+
+1. Đặt vấn đề* 
+
+Trong thập kỷ qua, sự hài lòng của nhân viên 
+
+đã trở thành mối quan tâm lớn đối với cấp quản 
+
+lý trong các tổ chức. Mối quan tâm này được 
+
+nhận thấy từ nhận thức rằng nhân viên có sự hài 
+
+lòng trong công việc và sự cam kết với tổ chức 
+
+là yếu tố then chốt cho sự thành công lâu dài của 
+
+tổ chức. Giữ chân những nhân viên tận tụy là 
+
+chìa khóa thành công bởi việc thay đổi nhân viên 
+
+thường xuyên sẽ dẫn đến không đủ lực lượng lao 
+
+động, tiêu tốn chi phí tuyển dụng và đào tạo nhân 
+
+________ 
+* Tác giả liên hệ. 
+   Địa chỉ email: dnam.dr.90@gmail.com 
+
+ https://doi.org/10.25073/2588-1116/vnupam.4363 
+
+viên mới, tổ chức kém hiệu quả và thiếu hiệu suất 
+
+trong công việc [1]. Do đó, trở thành gánh nặng 
+
+cho quản lý. Việc đảm bảo cho nhân viên hài 
+
+lòng, có động lực, cam kết và gắn bó lâu dài 
+
+trong công việc được xác định là nhiệm vụ quan 
+
+trọng của các tổ chức. 
+
+Trung tâm Hành chính công Thành phố Hà 
+
+Nội đóng một vai trò quan trọng trong sự phát 
+
+triển và tăng trưởng của nền kinh tế bằng cách 
+
+thực hiện các trách nhiệm công vụ. Khả năng 
+
+hoạt động của Trung tâm hành chính công là vô 
+
+cùng quan trọng đối với việc duy trì trật tự xã hội 
+
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 16 
+
+và nền kinh tế cũng như sự phát triển của thành 
+
+phố Hà Nội. Tuy nhiên, khu vực hành chính công 
+
+thành phố Hà Nội đang đối mặt với xu hướng 
+
+chuyển dịch công việc của những công chức có 
+
+trình độ cao, điều này đang ảnh hưởng đến mức 
+
+độ phục vụ và việc đạt được lợi ích quốc gia. 
+
+Trong các nghiên cứu về hành vi tổ chức đều cho 
+
+rằng sự hài lòng trong công việc và sự cam kết 
+
+với tổ chức có tác dụng nâng cao nội lực của tổ 
+
+chức và giảm ý định thay đổi nơi làm việc của 
+
+nhân viên. 
+
+Cam kết thể hiện trạng thái trung thành của 
+
+nhân viên với tổ chức [2]. Ngoài ra, sự hài lòng 
+
+trong công việc là một cách tiếp cận chung đối 
+
+với công việc và mức độ mà nhân viên yêu thích 
+
+công việc của họ được thể hiện thông qua hiệu 
+
+suất tích cực hay tiêu cực trong môi trường công 
+
+việc thực tế. Nếu nhân viên không hài lòng trong 
+
+công việc, họ dễ rời bỏ tổ chức hơn [3]. 
+
+Do đó, nghiên cứu mối quan hệ giữa sự cam 
+
+kết với tổ chức và sự hài lòng trong công việc 
+
+đến ý định thay đổi nơi làm việc của công chức 
+
+tại Trung tâm Hành chính công Thành phố Hà 
+
+Nội có ý nghĩa khoa học và thực tiễn. Dựa vào 
+
+kết quả nghiên cứu, một số hàm ý quản trị quan 
+
+trọng được đề xuất nhằm nâng cao sự hài lòng 
+
+trong công việc, sự cam kết với tổ chức của công 
+
+chức tại Trung tâm Hành chính công Thành phố 
+
+Hà Nội để giảm ý định thay đổi nơi làm việc  
+
+của họ. 
+
+2. Cơ sở lý thuyết 
+
+2.1. Sự cam kết với tổ chức 
+
+Sự cam kết với tổ chức là một yếu tố then 
+
+chốt tác động mạnh mẽ đến hành vi của nhân 
+
+viên đang làm việc tại tổ chức [4]. Meyer & 
+
+Allen định nghĩa sự cam kết với tổ chức là mức 
+
+độ tâm lý liên kết chặt chẽ giữa nhân viên với tổ 
+
+chức và được cấu tạo bởi ba thành phần gồm cam 
+
+kết tình cảm, cam kết duy trì và cam kết đạo đức 
+
+[5]. Thang đo của Meyer & Allen được sử dụng 
+
+phổ biến trong các nghiên cứu về hành vi tổ chức 
+
+[5]. Meyer & Herscovitch [7] định nghĩa sự gắn 
+
+kết đối với tổ chức là sự tin tưởng vào tổ chức, 
+
+đồng thuận cùng với các mục tiêu, các giá trị 
+
+chung của tổ chức, nỗ lực đóng góp hết khả năng 
+
+của mình vì tổ chức và mong muốn gắn bó lâu 
+
+dài với tổ chức. Tại Việt Nam, Dung định nghĩa 
+
+sự cam kết với tổ chức là sức mạnh của sự đồng 
+
+thuận giữa cá nhân với các mục tiêu, giá trị 
+
+chung của tổ chức, được thể hiện bằng sự tích 
+
+cực tham gia vào tổ chức và bao gồm ba thành 
+
+phần tự hào, nỗ lực, trung thành [7]. Khái niệm 
+
+và ba thành phần này được Dung kiểm chứng 
+
+khẳng định là hoàn toàn phù hợp với điều kiện 
+
+tại Việt Nam. Theo cách tổng quát, sự cam kết 
+
+với tổ chức là thái độ hoặc tâm lý tích cực của 
+
+nhân viên đối với tổ chức, không đi sâu khám 
+
+phá các thành phần của sự cam kết đối với tổ 
+
+chức [8]. 
+
+2.2. Sự hài lòng trong công việc 
+
+Thực tế, công việc không chỉ là nguồn thu 
+
+nhập mà nó còn nắm giữ vai trò cốt lõi trong cuộc 
+
+sống của con người. Yếu tố sự hài lòng trong 
+
+công việc cấu thành nên hạnh phúc của nhân viên 
+
+[10]. Sự hài lòng trong công việc được thể hiện 
+
+qua mức độ hào hứng của nhân viên đối với công 
+
+việc đang làm [10], hoặc là cảm xúc của nhân 
+
+viên về các thành phần khác nhau trong công 
+
+việc [11]. Sự hài lòng trong công việc còn biểu 
+
+thị qua thái độ tiêu cực hay tích cực của nhân 
+
+viên đối với công việc hoặc môi trường làm việc 
+
+[12]. Tại Việt Nam, Dung định nghĩa sự hài lòng 
+
+trong công việc được mô tả thông qua những 
+
+cảm xúc hạnh phúc, thoả mãn của nhân viên khi 
+
+được đáp ứng những nhu cầu mong muốn và 
+
+điều đó đạt được bằng sự nỗ lực của bản thân, sự 
+
+tác động của các yếu tố bên trong và bên ngoài 
+
+khác [8]. Thang đo sự hài lòng tổng thể trong 
+
+công việc được xây dựng và nhấn mạnh mức  
+
+độ quan trọng trong đo lường sự hài lòng trong 
+
+công việc của nhân viên. Quan điểm trên cũng đã  
+
+nhận được sự đồng tình trong nghiên cứu của 
+
+Slatten [14]. 
+
+2.3. Ý định thay đổi nơi làm việc 
+
+Ý định thay đổi nơi làm việc là chủ ý của 
+
+nhân viên về việc sẽ thay đổi nơi làm việc trong 
+
+thời gian sắp tới [15]. Ý định thay đổi nơi làm 
+
+việc được xuất phát từ những nguyện vọng và 
+
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 17 
+
+thường xuyên có suy nghĩ sẽ thay đổi nơi làm 
+
+việc trong tương lai và được coi là giai đoạn cuối 
+
+cùng dẫn đến hành động thực sự thay đổi nơi làm 
+
+việc [18]. Có ba giai đoạn trong quá trình thay 
+
+đổi nơi làm việc, đầu tiên với những suy nghĩ 
+
+thay đổi nơi làm việc, tiếp đến là ý định tìm công 
+
+việc mới và cuối cùng là sẽ thay đổi nơi làm việc 
+
+(nghỉ việc) [19]. Như vậy, ý định thay đổi nơi 
+
+làm việc sẽ xuất hiện trước hành động thực sự 
+
+thay đổi nơi làm việc một cách chính thức. Do 
+
+đó, ý định thay đổi nơi làm việc sẽ giúp các nhà 
+
+quản lý dự báo được sự biến động về mặt nhân 
+
+sự trong tương lai Error! Reference source not 
+
+found. 
+
+3. Giả thuyết, phương pháp nghiên cứu 
+
+3.1. Giả thuyết nghiên cứu 
+
+3.1.1. Mối quan hệ giữa sự cam kết với tổ 
+
+chức và sự hài lòng trong công việc 
+
+Chủ đề về sự hài lòng trong công việc và sự 
+
+cam kết với tổ chức được nghiên cứu nhiều nhất 
+
+trong lĩnh vực quản lý và hành vi tổ chức [20]. 
+
+Đã có rất nhiều tranh luận về mối quan hệ giữa 
+
+hai yếu tố trên những vẫn chưa có ý kiến thống 
+
+nhất. Fu & cộng sự [21] đã nhận định rằng sự hài 
+
+lòng trong công việc là tiền đề cho sự cam kết 
+
+với tổ chức. Ngược lại, Shahid & cộng sự [22] 
+
+đã chứng minh sự tác động mạnh mẽ của cam kết 
+
+với tổ chức lên sự hài lòng trong công việc. 
+
+Ngoài ra, nghiên cứu của Meyer & Allen [5] đã 
+
+đi sâu phân tích tác động của các thành phần  
+
+sự cam kết đối với tổ chức tới sự hài lòng trong 
+
+công việc. 
+
+H1: sự cam kết với tổ chức có tác động thuận 
+
+chiều (+) tới sự hài lòng trong công việc. 
+
+3.1.2. Mối quan hệ giữa sự cam kết với tổ 
+
+chức, sự hài lòng trong công việc và ý định thay 
+
+đổi nơi làm việc 
+
+Các nghiên đã khám phá ý định thay đổi nơi 
+
+làm việc của nhân viên trong một số lĩnh vực đều 
+
+cho thấy 2 yếu tố sự hài lòng trong công việc và 
+
+sự cam kết với tổ chức có tác động ngược chiều 
+
+mạnh mẽ đến ý định thay đổi nơi làm việc của 
+
+nhân viên [23]. Trong đó, sự hài lòng trong công 
+
+việc được khẳng định có mối quan hệ ngược 
+
+chiều và là một yếu tố dự đoán mạnh mẽ đến ý 
+
+định thay đổi nơi làm việc [27]. Ngoài ra, Khan 
+
+& cộng sự [28] đã chứng minh sự cam kết đối 
+
+với tổ chức có tương quan nghịch tới ý định thay 
+
+đổi nơi làm việc của nhân viên. Như vậy, nhân 
+
+viên có sự hài lòng sẽ thúc đẩy được sự nỗ lực, 
+
+đóng góp hết sức mình cho công việc, tổ chức và 
+
+sự cam kết đối với tổ chức là lòng trung thành 
+
+của nhân viên và 2 yếu tố trên là động lực để hạn 
+
+chế ý định thay đổi nơi làm việc, đem  
+
+lại sự ổn định nhân sự và nâng cao hiệu quả cho 
+
+tổ chức. 
+
+H2: sự cam kết với tổ chức có tác động 
+
+ngược chiều (-) tới ý định thay đổi nơi làm việc. 
+
+H3: sự hài lòng trong công việc có tác động 
+
+ngược chiều (-) tới ý định thay đổi nơi làm việc. 
+
+Từ các giả thuyết trên, nhóm tác giả đề xuất 
+
+mô hình nghiên cứu như sau (Hình 1). 
+
+ 
+
+ 
+
+ 
+
+Hình 1. Mô hình và giả thuyết nghiên cứu. 
+
+Nguồn: Nhóm tác giả. 
+
+Sự cam kết đối 
+
+với tổ chức 
+Ý định thay đổi 
+
+nơi làm việc 
+
+Sự hài lòng 
+
+trong công việc 
+
+H1
+
++ 
+H2
+
++ 
+
+H3- 
+
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 18 
+
+3.2. Phương pháp nghiên cứu 
+
+3.2.1. Thiết kế thang đo 
+
+Thang đo sơ bộ bao gồm các yếu tố được kế 
+
+thừa từ những nghiên cứu trong và ngoài nước, 
+
+trong đó sự cam kết đối với tổ chức bao gồm 7 
+
+biến quan sát của Meyer & Allen [5]; sự hài lòng 
+
+trong công việc bao gồm 5 biến quan sát của 
+
+Dung [8]; ý định thay đổi nơi làm việc bao gồm 
+
+3 biến quan sát của Nadiri & Tanova [29]. 
+
+Nghiên cứu tiến hành thảo luận nhóm với 16 đối 
+
+tượng điều tra tiềm năng và phỏng vấn chuyên 
+
+sâu với 5 chuyên gia. Kết quả thu về các đối 
+
+tượng tham gia thảo luận và phỏng vấn đều đồng 
+
+ý thang đo các yếu tố trong mô hình nghiên cứu. 
+
+Tuy nhiên, cần điều chỉnh một số nội dung để 
+
+phù hợp với khu vực công. Ngoài ra nhóm tác 
+
+giả còn hiệu chỉnh lại một số từ ngữ để cho nội 
+
+dung thang đo được đơn giản, đảm bảo đúng hàm 
+
+ý của cơ sở lý thuyết và phù hợp với trình độ của 
+
+đối tượng khảo sát. Bộ tiêu chí đánh giá mối 
+
+quan hệ giữa sự cam kết đối với tổ chức, sự hài 
+
+lòng trong công việc đến ý định thay đổi nơi làm 
+
+việc của cán bộ công chức tại Trung tâm Hành 
+
+chính công Thành phố Hà Nội được trình bày ở 
+
+Phụ lục 1. 
+
+3.2.2. Thu thập dữ liệu 
+
+Trọng & Ngọc [30] cho biết quy mô mẫu ít 
+
+nhất phải bằng 4 hoặc 5 lần số biến quan sát, tuy 
+
+nhiên để kết quả nghiên cứu có ý nghĩa thống kê 
+
+cao hơn, cỡ mẫu lý tưởng nên gấp 10 hoặc 15 lần 
+
+số biến quan sát. Do vậy, số mẫu dự kiến ban đầu 
+
+là n = 17x10 = 170. Do đó, nghiên cứu chọn phát 
+
+ra 255 phiếu khảo sát để tránh trường hợp có 
+
+những phiếu khảo sát không hợp lệ. 
+
+Nghiên cứu sử dụng phương pháp chọn mẫu 
+
+thuận tiện để tiến hành thu thập thông tin của 
+
+công chức đang làm việc tại Trung tâm Hành 
+
+chính công Thành phố Hà Nội. Thời gian thực 
+
+hiện khảo sát từ 01/03/2021 đến 31/03/2021. 
+
+Phiếu khảo sát được phát bằng hình thức trực 
+
+tiếp đến các công chức đang làm việc tại Trung 
+
+tâm Hành chính công Thành phố Hà Nội. 
+
+Sau khi làm sạch dữ liệu, nghiên cứu thu 
+
+được 246 phiếu khảo sát hợp lệ với tỷ lệ thu hồi 
+
+96,5%. Nữ giới chiếm 64,2%, độ tuổi tập trung 
+
+từ 30 đến trên 50 tuổi chiếm 86,2%; trình độ học 
+
+vấn chủ yếu là đại học chiếm 86,6%; có thâm 
+
+niên công tác từ 5 năm đến 15 năm chiếm 74%; 
+
+96,3% người được khảo sát đã kết hôn. Thuộc 
+
+tính của mẫu khảo sát phù hợp với thực tế tại các 
+
+Trung tâm Hành chính công của Việt Nam, đối 
+
+tượng làm việc tại Trung tâm chủ yếu là nữ giới, 
+
+ở độ tuổi từ 30 đến trên 50 tuổi, với trình độ học 
+
+vấn cao, có nhiều năm kinh nghiệm làm việc và 
+
+phần lớn đã có gia đình (Phụ lục 2). 
+
+4. Kết quả nghiên cứu, thảo luận 
+
+Kết quả đánh giá độ tin cậy thang đo của mô 
+
+hình nghiên cứu cho thấy hệ số Cronbach’s 
+
+Alpha thấp nhất là 0,776 và cao nhất là 0,883. So 
+
+với chuẩn 0,6 thì tất cả các biến quan sát của 
+
+thang đo đều đạt yêu cầu. Các hệ số tương quan 
+
+biến – tổng đều có kết quả lớn hơn 0,3. Hệ số 
+
+Cronbach’s Alpha nếu loại biến của tất cả 17 
+
+biến quan sát đều nhỏ hơn hệ số Cronbach’s 
+
+Alpha tổng nên không có biến nào bị loại [31]. 
+
+Tất cả các thang đo đều đạt được 2 giá trị tin cậy 
+
+và giá trị phân biệt. Do đó, thang đo được đánh 
+
+giá là tốt và đủ điều kiện đưa vào phân tích nhân 
+
+tố khám phá. 
+
+Nghiên cứu tiến hành phân tích nhân tố khám 
+
+phá thang đo tổng thể bao gồm tất cả các biến 
+
+quan sát của thang đo sự cam kết với tổ chức, 
+
+thang đo sự hài lòng công việc và thang đo ý định 
+
+thay đổi nơi làm việc bằng phép quay Promax. 
+
+Kết quả phân tích cho thấy có 3 nhân tố được rút 
+
+trích với hệ số Eigenvalue = 1,325; hệ số Kaiser-
+
+Meyer-Olkin (KMO) = 0,816 > 0,5; kiểm định 
+
+Bartlett Test có ý nghĩa thống kê với Sig. = 0,000 
+
+(< 0,05) và tổng phương sai trích = 81,532% (lớn 
+
+hơn 50%). Ba nhân tố này giải thích được 
+
+81,532% sự biến thiên của dữ liệu [32] thể hiện 
+
+dữ liệu nghiên cứu đạt mức ý nghĩa cao. 
+
+Phân tích nhân tố khẳng định (CFA) thang 
+
+đo mô hình tổng thể cho thấy trọng số các biến 
+
+quan sát đều đạt chuẩn (≥ 0,5). Do đó, các thang 
+
+đo đạt giá trị hội tụ [33]. Kết quả cũng cho thấy 
+
+mô hình có 1225 bậc tự do (df), giá trị kiểm định 
+
+Chi-bình phương (CMIN) = 422,513 với giá trị 
+
+xác suất = 0,000; chỉ số Chi-bình phương điều 
+
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 19 
+
+chỉnh theo bậc tự do (CMIN/df) = 2,343 < 3 [34] 
+
+và các chỉ số: Goodness of fix index (GFI) = 
+
+0,903; Tucker-Lewis index (TLI) = 0,907; 
+
+Comparative fix index (CFI) = 0,915 đều lớn hơn 
+
+0,9 [35]; Root mean square errors of 
+
+approximation (RMSEA) = 0,043 nhỏ hơn 0,08 
+
+[36]. Do đó, mô hình nghiên cứu là phù hợp với 
+
+dữ liệu thu thập được. Ngoài ra, không có tương 
+
+quan giữa các sai số đo lường nên các biến quan 
+
+sát đạt được tính đơn hướng. Hệ số tương quan 
+
+từng khái niệm nghiên cứu khác biệt so với 1 có 
+
+ý nghĩa thống kê, nên các thành phần đạt giá trị 
+
+phân biệt. Kết quả phân tích cũng cho thấy các 
+
+thang đo đạt yêu cầu về độ tin cậy [37]. Kết quả 
+
+phân tích nhân tố khẳng định được trình bày tại 
+
+Phụ lục 3. 
+
+Ứng dụng phần mềm AMOS để kiểm định 
+
+mô hình cấu trúc tuyến tính (SEM). Kế thừa kết 
+
+quả phân tích nhân tố khẳng định, kết quả ước 
+
+lượng đầu tiên của mô hình cấu trúc tuyến tính 
+
+có 1359 bậc tự do, chỉ tiêu Chi-bình phương điều 
+
+chỉnh theo bậc tự do (CMIN/df) = 2,437 < 3 [34] 
+
+và các chỉ số: Goodness of fix index (GFI) = 
+
+0,905; Tucker-Lewis index (TLI) = 0,909; 
+
+Comparative fix index (CFI) = 0,917 đều lớn hơn 
+
+0,9 [35]; Root mean square errors of 
+
+approximation (RMSEA) = 0,047 nhỏ hơn 0,08 
+
+[36]. Do đó, khẳng định mô hình đáp ứng tốt với 
+
+dữ liệu nghiên cứu. 
+
+Dựa trên kết quả phân tích, giá trị xác suất 
+
+của các mối quan hệ tác động giữa các nhân tố, 
+
+ta thấy, giá trị xác suất đều nhỏ hơn 0,05. Do đó, 
+
+mối quan hệ giữa các yếu tố thuộc tính cách cá 
+
+nhân, vốn tâm lý, sự hài lòng công việc và sự 
+
+cam kết với tổ chức đều có ý nghĩa thống kê 
+
+trong mô hình cấu trúc tuyến tính (SEM). Kết 
+
+quả phân tích mô hình cấu trúc tuyến tính được 
+
+trình bày chi tiết tại Phụ lục 4. 
+
+Kết quả phân tích mô hình cấu trúc tuyến 
+
+tính cho thấy sự cam kết với tổ chức có ảnh 
+
+hưởng tích cực đến sự hài lòng trong công việc 
+
+công chức tại Trung tâm Hành chính công Thành 
+
+phố Hà Nội. Kết quả nghiên cứu này có sự tương 
+
+đồng với nghiên cứu của Shahid & Azhar [22]. 
+
+Ngoài ra, kết quả cũng cho thấy sự cam kết với 
+
+tổ chức, sự hài lòng trong công việc có tác động 
+
+ngược chiều đến ý định thay đổi nơi làm việc của 
+
+công chức. Kết quả này hoàn toàn ủng hộ quan điểm 
+
+của Wright & Bonett [27], Khan & cộng sự [28]. 
+
+5. Hàm ý quản trị 
+
+Dựa vào kết quả nghiên cứu thu được, 
+
+nghiên cứu đưa ra một số hàm ý quản trị quan 
+
+trọng nhằm nâng cao sự hài lòng trong công việc 
+
+và giảm ý định thay đổi nơi làm việc của công 
+
+chức tại Trung tâm Hành chính công Thành phố 
+
+Hà Nội: 
+
+Một là, sự cam kết với tổ chức có tác động 
+
+quan trọng đến sự hài lòng trong công việc và là 
+
+chìa khóa để giảm ý định thay đổi nơi làm việc 
+
+của công chức (beta = 0,386 và beta = -0,302). 
+
+Trong đó, công chức đặc biệt quan tâm đến 
+
+những điều tuyệt vời tại cơ quan. Do đó, Ban 
+
+lãnh đạo của Trung tâm Hành chính công Thành 
+
+phố Hà Nội cần trang bị các phương tiện cần 
+
+thiết, môi trường làm việc thuận lợi và có các 
+
+chương trình hành động phục vụ lợi ích của công 
+
+chức để nâng cao sự cam kết với tổ chức, sự hài 
+
+lòng trong công việc và giảm các ý định thay đổi 
+
+nơi làm việc. 
+
+Hai là, sự hài lòng trong công việc có tác 
+
+động lớn làm giảm ý định thay đổi nơi làm việc 
+
+của công chức (beta = -0,404). Sự tôn trọng của 
+
+cơ quan được coi là yếu tố cốt lõi để mang lại sự 
+
+hài lòng của công chức. Điều đó được minh 
+
+chứng trong lý thuyết bậc thang nhu cầu của 
+
+Maslow đã cho thấy trong một tổ chức nhân viên 
+
+luôn mong muốn được lãnh đạo và đồng nghiệp 
+
+coi trọng. Chính vì vậy, điều quan trọng nhất là 
+
+các nhà quản trị nên đẩy mạnh hoạt động thông 
+
+tin nội bộ để công chức có thể nhanh chóng, 
+
+thuận tiện gửi các ý kiến, các đề xuất của mình 
+
+cho cơ quan, tạo cho công chức các cơ hội bình 
+
+đẳng đóng góp ý kiến, lắng nghe và tham khảo ý 
+
+kiến của công chức nhằm mục đích để nhân viên 
+
+thấy được sự tôn trọng từ cơ quan dành cho  
+
+họ, từ đó giảm ý định thay đổi nơi làm việc của 
+
+công chức. 
+
+Ngoài ra, theo kết quả thu được có 96,3%  
+
+công chức tại Trung tâm Hành chính công Thành 
+
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 20 
+
+phố Hà Nội đã kết hôn, là những người phải chịu 
+
+gánh nặng về tài chính. Do vậy chính sách tiền 
+
+lương có ảnh hưởng rất lớn đến động lực làm 
+
+việc, sự hài lòng trong công việc và ý định thay 
+
+đổi nơi làm việc của họ. Do đó, Trung tâm Hành 
+
+chính công cần nhanh chóng xóa bỏ thang bảng 
+
+lương, trả lương theo ngạch bậc đã lạc hậu. Thay 
+
+vào đó cần xây dựng cơ chế trả lương theo vị trí 
+
+việc làm và hiệu quả công việc. Chính phủ cần 
+
+sớm thay đổi chính sách lương đối với khu vực 
+
+hành chính công để tạo sự cạnh tranh với khu vực 
+
+tư nhân nhằm giữ chân được nhân tài, đảm bảo 
+
+được cuộc sống cho đội ngũ công chức, gia tăng 
+
+sự hài lòng trong công việc  và giảm ý định thay 
+
+đổi nơi làm việc của công chức. 
+
+6. Kết luận 
+
+Nghiên cứu được thực hiện nhằm phân tích 
+
+mối quan hệ giữa sự cam kết với tổ chức, sự hài 
+
+lòng trong công việc đến ý định thay đổi nơi làm 
+
+việc của công chức tại Trung tâm Hành chính 
+
+công Thành phố Hà Nội. Nghiên cứu được phân 
+
+tích thông qua bộ dữ liệu thu được bằng phương 
+
+pháp điều tra trực tiếp công chức đang làm việc 
+
+tại Trung tâm Hành chính công Thành phố Hà 
+
+Nội. Phân tích nhân tố khẳng định, phân tích mô 
+
+hình cấu trúc tuyến tính được thực hiện nhằm xác 
+
+định mối quan hệ giữa các thang đo trong mô 
+
+hình nghiên cứu. Kết quả phân tích cho thấy sự 
+
+cam kết với tổ chức có tác động tích cực đến sự 
+
+hài lòng trong công việc và sự cam kết với tổ 
+
+chức có tác động ngược chiều đến ý định thay 
+
+đổi nơi làm việc. Đồng thời, sự hài lòng trong 
+
+công việc có mối tương quan ngược chiều với ý 
+
+định thay đổi nơi làm việc của công chức tại 
+
+Trung tâm Hành chính công Thành phố Hà Nội. 
+
+Tài liệu tham khảo 
+
+[1] O. Uludağ, S. Khan, N. Guden, The Effects of Job 
+Satisfaction, Organizational Commitment, 
+
+Organizational Citizenship Behavior on Turnover 
+
+Intentions, Hospitality Review, Vol. 29, No. 2, 
+
+2011, pp. 1-21,  
+
+https://digitalcommons.fiu.edu/hospitalityreview/v
+
+ol29/iss2/1 (accessed on: July 5th, 2021). 
+
+[2] M. Balassiano, D. Salles, Perceptions of Equity and 
+Justice and Their Implications on Affective 
+
+Organizational Commitment: a Confirmatory 
+
+Study in a Teaching and Research Institute, 
+
+Brazilian Administration Review, Vol. 9, No. 3, 2012, 
+
+pp. 268-286,  http://dx.doi.org/10.1590/S1807-
+
+76922 012000300003. 
+
+[3] R. A. Mangi, H. J. Soomro, I. A. Ghumro, A. R. 
+Abidi, A. A. Jalbani, A Study of Job Satisfaction 
+
+Among Non Ph.D Faculty in Universities, 
+
+Australian Journal of Business and Management 
+
+Research, Vol. 1, No. 7, 2011, pp. 83-90. 
+
+[4] R. T. Mowday, R. M. Steers, L. W. Porter, The 
+Measurement of Organizational Commitment, 
+
+Journal of Vocational Behavior, Vol. 14, No. 2, 
+
+1979, pp. 224-247, https://doi.org/10.1016/0001-
+
+8791(79)90072-1. 
+
+[5] J. P. Meyer, N. J. Allen, A Three-Component 
+Conceptualization of Organizational Commitment, 
+
+Human Resource Management Review, Vol. 1,  
+
+No. 1, 1991, pp. 61-89,  
+
+https://doi.org/10.1016/1053-4822(91)90011-Z. 
+
+[6] N. H. N. Thuy, The Impact of Job Satisfaction on 
+Organisational Commitment of Pharmacists in 
+
+Foreign Pharmaceutical Companies in Ho Chi Minh 
+
+City, Master Thesis, University of Economics Ho Chi 
+
+Minh City, 2015 (in Vietnamese). 
+
+[7] J. P. Meyer, L. Herscovitch, Commitment in the 
+Workplace: Toward a General Model, Human 
+
+Resource Management Review, Vol. 11, No. 3, 
+
+2001, pp. 299-326, https://doi.org/10.1016/S1053-
+
+4822(00)00053-X. 
+
+[8] T. K. Dung, Measuring job satisfaction in Vietnam, 
+
+Journal of Science & Technology Development, 
+
+Vol. 11, 2005, pp. 1-20 (in Vietnamese). 
+
+[9] J. P. Meyer, N. Allen, C. A. Smith, Commitment to 
+
+Organizations and Occupations: Extension and 
+
+Test of a Three-Component Conceptualization, 
+
+Journal of Applied Psychology, Vol. 78, No. 4, 
+
+1993, pp. 538-551, https://psycnet.apa.org/doi/ 
+
+10.1037 /0021-9010.78.4.538. 
+
+[10] T. W. Smith, Job Satisfaction in the United States, 
+
+Psychology, Vol. 1, No. 1, 2007, pp. 1-9. 
+
+[11] P. C. Smith, L. M. Kendall, C. L. Hulin, 
+
+Measurement of Satisfaction in Work and   
+
+Retirement, Rand McNally, Chicago, 1969. 
+
+[12] P. E. Spector, Job satisfaction: Application, 
+
+Assessment, Causes, and Consequences, Sage 
+
+Publication Inc, Thousand Oaks, 1997. 
+
+[13] M. C. Ellickson, K. Logsdon, Determinants of Job 
+Satisfaction of Municipal Government Employees, 
+
+State and Local Government Review, Vol. 33,  
+
+https://digitalcommons.fiu.edu/hospitalityreview/vol29/iss2/1
+https://digitalcommons.fiu.edu/hospitalityreview/vol29/iss2/1
+http://dx.doi.org/10.1590/S1807-76922%20012000300003
+http://dx.doi.org/10.1590/S1807-76922%20012000300003
+https://doi.org/10.1016/0001-8791(79)90072-1
+https://doi.org/10.1016/0001-8791(79)90072-1
+https://doi.org/10.1016/1053-4822(91)90011-Z
+https://doi.org/10.1016/S1053-4822(00)00053-X
+https://doi.org/10.1016/S1053-4822(00)00053-X
+https://psycnet.apa.org/doi/%2010.1037%20/0021-9010.78.4.538
+https://psycnet.apa.org/doi/%2010.1037%20/0021-9010.78.4.538
+
+
+N. D. Nam, U. T. N. Lan / VNU Journal of Science: Policy and Management Studies, Vol. 38, No. 4 (2022) 14-23 21 
+
+No. 3, 2001, pp. 173-184,  
+
+https://doi.org/10.1177/009102600203100307. 
+
+[14] T. Slatten, Antecedents and Effects of Emotional 
+Satisfaction on Employee-Perceived Service 
+
+Quality, Journal of Service Theory and Practice, 
+
+Vol. 18, No. 4, 2008, pp. 370-386,  
+
+https://doi.org/10.1108/09604520810885617. 
+
+[15] W. H. Mobley, Some Unmeasured Questions in 
+Turnover and Withdrawal Research, Academy of 
+
+Management Review, Vol. 7, No. 1, 1982,  
+
+pp. 111-116,  
+
+https://doi.org/10.5465/amr.1982.4285493. 
+
+[16] W. H. Mobley, Employee Turnover: Causes, 
+Consequences, and Control, Addison-Wesley 
+
+Publishing Company, Don Mills, Toronto, 1982. 
+
+[17] R. Mowday, L. Porter, R. Steers, Employee-
+Organization Linkages: The Psychology of 
+
+Commitment, Absenteeism, and Turnover, 
+
+Academic Press, New York, 1982. 
+
+[18] W. H. Mobley, S. O. Horner, A.T. Hollingsworth, 
+an Evaluation of Precursors of Hospital Employee 
+
+Turnover, Journal of Applied Psychology, Vol. 63, 
+
+No. 4, 1978, pp. 408-414,  
+
+https://psycnet.apa.org/doi/10.1037/0021-9010.63 
+
+4.408 (accessed on: July 5th, 2021). 
+
+[19] J. Mayfield, M. Mayfield, The creative 
+Environment’s Influence on Intent to Turnover: A 
+
+Structural Equation Model and Analysis, 
+
+Management Research News, Vol. 31, No. 1, 2008, 
+
+pp. 41-
